@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.7"
+cache: pip
+install:
+  - echo "Installing dependencies!"
+  - pip install -r requirements.txt
+script:
+-  python -m unittest tests/test_yaml_file.py
