@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/portfolioplus/stock_data.svg?branch=master)](https://travis-ci.org/portfolioplus/stock_data)
+
 # stock data
 We are working on a clean fundamental data set for stocks. We are happy about any help.
 
