@@ -1,0 +1,4 @@
+wheel==0.33.4
+coverage==4.4.1
+nose2==0.6.5
+nose2[coverage_plugin]>=0.6.5
