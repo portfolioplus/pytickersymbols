@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/portfolioplus/stock_data.svg?branch=master)](https://travis-ci.org/portfolioplus/stock_data)
 # pystockdata
 
 pystockdata provides access to google and yahoo ticker symbols for all stocks of the following indices:
