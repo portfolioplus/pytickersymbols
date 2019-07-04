@@ -1,2 +1,9 @@
 __pycache__/*
 tests/__pycache__/*
+dist/*
+src/pystockdata.egg-info/*
+src/tests/__pycache__/*
+src/pystockdata/__pycache__/*
+.coverage.PC.22596.116431
+src/test/__pycache__/*
+

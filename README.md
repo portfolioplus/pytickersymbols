@@ -1,44 +1,42 @@
-# stock data
-We are working on a clean fundamental data set for stocks. We are happy about any help.
+# pystockdata
 
-# Open and closed tasks
-- [x] Add data for AEX
-- [x] Add data for BEL 20
-- [x] Add data for CAC 40
-- [x] Add data for DAX
-- [x] Add data for DOW JONES
-- [x] Add data for FTSE 100
-- [x] Add data for IBEX 35
-- [x] Add data for MDAX
-- [x] Add data for NASDAQ 100
-- [x] Add data for OMX Helsinki 15
-- [x] Add data for OMX Helsinki 25
-- [x] Add data for OMX Stockholm 30
-- [x] Add data for S&P 100
-- [x] Add data for S&P 500
-- [x] Add data for SDAX
-- [x] Add data for SMI
-- [x] Add data for TECDAX
-- [ ] Add data for CDAX
-- [ ] Add data for Nikkei 225
-- [ ] Add data for Nikkei 225
-- [ ] Add data for ASX 20
-- [ ] Add data for ASX 50
-- [ ] Add data for ASX 300
-- [ ] AEX: check country, industry sectors and symbols 
-- [ ] BEL 20: check country, industry sectors and symbols 
-- [ ] CAC 40: check country, industry sectors and symbols 
-- [ ] DAX: check country, industry sectors and symbols 
-- [ ] DOW JONES: check country, industry sectors and symbols 
-- [ ] FTSE 100: check country, industry sectors and symbols 
-- [ ] IBEX 35: check country, industry sectors and symbols 
-- [ ] MDAX: check country, industry sectors and symbols 
-- [ ] NASDAQ 100: check country, industry sectors and symbols 
-- [ ] OMX Helsinki 15: check country, industry sectors and symbols 
-- [ ] OMX Helsinki 25: check country, industry sectors and symbols 
-- [ ] OMX Stockholm 30: check country, industry sectors and symbols 
-- [ ] S&P 100: check country, industry sectors and symbols 
-- [ ] S&P 500: check country, industry sectors and symbols 
-- [ ] SDAX: check country, industry sectors and symbols 
-- [ ] SMI: check country, industry sectors and symbols 
-- [ ] TECDAX: check country, industry sectors and symbols 
+pystockdata provides access to google and yahoo ticker symbols for all stocks of the following indices:
+ -[x] AEX
+- [x] BEL 20
+- [x] CAC 40
+- [x] DAX
+- [x] DOW JONES
+- [x] FTSE 100
+- [x] IBEX 35
+- [x] MDAX
+- [x] NASDAQ 100
+- [x] OMX Helsinki 15
+- [x] OMX Helsinki 25
+- [x] OMX Stockholm 30
+- [x] S&P 100
+- [x] S&P 500
+- [x] SDAX
+- [x] SMI
+- [x] TECDAX
+
+# quick start
+
+Get all countries, indices and industries as follow:
+```python
+from pystockdata import PyStockData
+
+stock_data = PyStockData()
+countries = stock_data.get_all_countries()
+indices = stock_data.get_all_indices()
+industries = stock_data.get_all_industries()
+```
+
+You can select all stocks of an index as follow:
+```python
+from pystockdata import PyStockData
+
+stock_data = PyStockData()
+german_stocks = stock_data.get_stocks_by_index('DAX')
+uk_stocks = stock_data.get_stocks_by_index('FTSE 100')
+
+```

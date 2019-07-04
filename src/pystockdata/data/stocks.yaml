@@ -157,7 +157,7 @@ companies:
   - yahoo: DB
     google: NYSE:DB
 - id: 11
-  name: "Deutsche B\xF6rse AG"
+  name: "Deutsche B\xC3\xB6rse AG"
   symbol: DB1
   country: Germany
   indices:
@@ -346,7 +346,7 @@ companies:
   - yahoo: MKGAF
     google: OTCMKTS:MKGAF
 - id: 23
-  name: "M\xFCnchener R\xFCckversicherungs-Gesellschaft AG"
+  name: "M\xC3\xBCnchener R\xC3\xBCckversicherungs-Gesellschaft AG"
   symbol: MUV2
   country: Germany
   indices:
@@ -701,7 +701,7 @@ companies:
   - yahoo: '-'
     google: '-'
 - id: 46
-  name: "D\xFCrr AG"
+  name: "D\xC3\xBCrr AG"
   symbol: DUE
   country: Germany
   indices:
@@ -859,7 +859,7 @@ companies:
   - yahoo: '-'
     google: '-'
 - id: 56
-  name: "Hannover R\xFCck SE"
+  name: "Hannover R\xC3\xBCck SE"
   symbol: HNR1
   country: Germany
   indices:
@@ -1329,7 +1329,7 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
 - id: 86
-  name: "Telef\xF3nica Deutschland Holding AG"
+  name: "Telef\xC3\xB3nica Deutschland Holding AG"
   symbol: O2D
   country: Germany
   indices:

@@ -1,0 +1,25 @@
+[paths]
+
+source = src
+
+[run]
+
+branch = True
+source = src
+parallel = true
+
+[report]
+omit =
+    build/*
+    setup.py
+    */__init__.py
+    */nose/*
+    */pkg_resources/*
+    */six.py
+    */nose2/*
+    */tests/*
+    */coverage/*
+    */cov_core.py
+
+[html]
+directory = html_report
