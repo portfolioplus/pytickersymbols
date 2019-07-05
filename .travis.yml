@@ -10,8 +10,6 @@ install:
 script:
 - nose2 -c unittest.cfg
 - python setup.py sdist bdist bdist_wheel
-after_success:
-- codecov
 deploy:
   provider: pypi
   user:
@@ -20,3 +18,5 @@ deploy:
     secure: "bobH2YMEIwCwFo5+XK2Y4wtI48xBH4q6UGIbD5kyxZ8ttUoPnNvKXGVofFNwwP7kO1312q5RC3HHYj0S0E1BShyt7G+/W/fPrIkAhu7U6XMQhN33mQH3lDqfXfqoH8kd3t2BoVNTbwaooI0icUD/LElH+r8pYBug/qI4NNL5u3S9gwQKh77u3P1sUNEju14DdjmA+9cTcfTQJtSLukV9kiHLpkwkcpM8AHX5HYhU+7+cHShNwwOpX0IrZre9sN0NfcBL8U4qE+wisPLvBJ7wjvnRakxS3A1JdnF96ncxyd/A+60IFLfdpKpmAOJVsnC9Q/NWnRpI6JqtvwIZuKPVBMZqsSft6a/ZMz1wfvfW5NrDZSSs4cSX29zlGBK7BVqwF3uO73BxEj4m+5HYnJULEHv5kF34XZ/lg1dHAU09nbWqM3vmozj2ITbeXrxRBx7WNFG/sFiIJgvJJPAAX/lXoKrZFWbnWK5NoN0hLI7dZJrUHlj/xcIg8WOLAYYjrSXXwFqrpLTLnFIKEwS+9ngSodKb5Tcwb6hQmwXbSL8Qz8QCw5HlN0K5BhRHMhdnZG9GqGzJeSsk84NBQWKfaxlW2a+0Julz6tGCejQMFw+p3HC9EGUPPp1j/cAhZlKpUZBJ4NjimL/UvselFWWDjmUrAVwbXB0hJbvfjGOBnDP/XEY="
   on:
     branch: master
+after_success:
+- coveralls

@@ -1,7 +1,8 @@
-[![Build Status](https://travis-ci.org/portfolioplus/pystockticker.svg?branch=master)](https://travis-ci.org/portfolioplus/pytickersymbols)
+[![Build Status](https://travis-ci.org/portfolioplus/pytickersymbols.svg?branch=master)](https://travis-ci.org/portfolioplus/pytickersymbols)
 # pytickersymbols
 
 pytickersymbols provides access to google and yahoo ticker symbols for all stocks of the following indices:
+
 - [x] AEX
 - [x] BEL 20
 - [x] CAC 40

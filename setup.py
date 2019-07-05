@@ -50,6 +50,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Topic :: Software Development :: Libraries :: Python Modules',
-        'Topic :: Scientific/Finance',
+        'Topic :: Office/Business :: Financial :: Investment',
     ],
 )
