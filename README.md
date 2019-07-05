@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/portfolioplus/pytickersymbols.svg?branch=master)](https://travis-ci.org/portfolioplus/pytickersymbols)
+[![Coverage Status](https://coveralls.io/repos/github/portfolioplus/pytickersymbols/badge.svg?branch=master)](https://coveralls.io/github/portfolioplus/pytickersymbols?branch=master)
 # pytickersymbols
 
 pytickersymbols provides access to google and yahoo ticker symbols for all stocks of the following indices:
