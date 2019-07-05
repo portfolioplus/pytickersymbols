@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-""" pystockdata
+""" pytickersymbols
 
  Copyright 2019 Christoph Dieck
 
@@ -8,8 +8,9 @@
  found in the LICENSE file.
 """
 import unittest
+import pandas_datareader as pdr
 
-from pystockdata import PyStockData
+from pytickersymbols import PyTickerSymbols
 
 
 class TestLib(unittest.TestCase):
@@ -19,7 +20,7 @@ class TestLib(unittest.TestCase):
         Test index getter
         :return:
         """
-        stock_data = PyStockData()
+        stock_data = PyTickerSymbols()
         assert stock_data
         indices = stock_data.get_all_indices()
         assert indices
@@ -35,7 +36,7 @@ class TestLib(unittest.TestCase):
         Test country getter
         :return:
         """
-        stock_data = PyStockData()
+        stock_data = PyTickerSymbols()
         assert stock_data
         countries = stock_data.get_all_countries()
         assert countries
@@ -51,7 +52,7 @@ class TestLib(unittest.TestCase):
         Test industry getter
         :return:
         """
-        stock_data = PyStockData()
+        stock_data = PyTickerSymbols()
         assert stock_data
         industries = stock_data.get_all_industries()
         assert industries
@@ -67,7 +68,7 @@ class TestLib(unittest.TestCase):
         Tests stock getter
         :return:
         """
-        stock_data = PyStockData()
+        stock_data = PyTickerSymbols()
         assert stock_data
         stocks = stock_data.get_stocks_by_index('DAX')
         assert stocks
@@ -84,7 +85,7 @@ class TestLib(unittest.TestCase):
         Tests stock getter by country
         :return:
         """
-        stock_data = PyStockData()
+        stock_data = PyTickerSymbols()
         assert stock_data
         stocks = stock_data.get_stocks_by_country('Israel')
         assert stocks
@@ -100,7 +101,7 @@ class TestLib(unittest.TestCase):
         Tests stock getter by industry
         :return:
         """
-        stock_data = PyStockData()
+        stock_data = PyTickerSymbols()
         assert stock_data
         stocks = stock_data.get_stocks_by_industry('Basic Materials')
         assert stocks
@@ -110,6 +111,37 @@ class TestLib(unittest.TestCase):
                 if 'Basic Materials' in industry:
                     is_in_basic = True
             assert is_in_basic
+
+    def test_tickers_by_index(self):
+        """
+        Tests tickers getter by index
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        assert stock_data
+        google_tickers = stock_data.get_google_ticker_symbols_by_index('DAX')
+        assert google_tickers
+        yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index('DAX')
+        assert yahoo_tickers
+        test_list = [google_tickers, yahoo_tickers]
+        for test_item in test_list:
+            assert len(test_item) == 30
+            for tickers in test_item:
+                assert len(tickers) == 2
+
+    def test_tickers_valid(self):
+        """
+        Test if each ticker symbol works with pandas datareader
+        """
+        stock_data = PyTickerSymbols()
+        assert stock_data
+        y_tickers = stock_data.get_yahoo_ticker_symbols_by_index('DAX')
+        for tickers in y_tickers:
+            for ticker in tickers:
+                yahoo = pdr.get_data_yahoo(ticker, '2019-07-01', '2019-07-05', interval='d')
+                assert yahoo is not None
+                assert 'Close' in yahoo
+                assert len(yahoo['Close']) > 0
 
 
 if __name__ == '__main__':

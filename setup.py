@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-""" pystockdata
+""" pytickersymbols
 
  Copyright 2019 Christoph Dieck
 
@@ -10,8 +10,8 @@
 
 from setuptools import setup, find_packages
 
-EXCLUDE_FROM_PACKAGES = ['test', 'test.*']
-
+EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
+VERSION = '1.0.0'
 
 def get_requirements(requirements):
     with open(requirements) as requirement_file:
@@ -24,20 +24,20 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="pystockdata",
-    version="1.0.0",
+    name="pytickersymbols",
+    version=VERSION,
     author="Christoph Dieck",
     author_email="christoph.dieck@gmail.com",
-    py_modules=['pystockdata'],
+    py_modules=['pytickersymbols'],
     package_dir={'': 'src'},
     description="The lib provides ticker symbols for yahoo and google finance.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/portfolioplus/pystockdata",
+    url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),
     package_data={'': ['data/*.yaml']},
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Natural Language :: English',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
