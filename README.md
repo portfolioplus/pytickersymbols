@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/portfolioplus/pystockdata.svg?branch=master)](https://travis-ci.org/portfolioplus/pystockdata)
-# pystockdata
+[![Build Status](https://travis-ci.org/portfolioplus/pystockticker.svg?branch=master)](https://travis-ci.org/portfolioplus/pytickersymbols)
+# pytickersymbols
 
-pystockdata provides access to google and yahoo ticker symbols for all stocks of the following indices:
- -[x] AEX
+pytickersymbols provides access to google and yahoo ticker symbols for all stocks of the following indices:
+- [x] AEX
 - [x] BEL 20
 - [x] CAC 40
 - [x] DAX
@@ -24,9 +24,9 @@ pystockdata provides access to google and yahoo ticker symbols for all stocks of
 
 Get all countries, indices and industries as follow:
 ```python
-from pystockdata import PyStockData
+from pytickersymbols import PyTickerSymbols
 
-stock_data = PyStockData()
+stock_data = PyTickerSymbols()
 countries = stock_data.get_all_countries()
 indices = stock_data.get_all_indices()
 industries = stock_data.get_all_industries()
@@ -34,10 +34,14 @@ industries = stock_data.get_all_industries()
 
 You can select all stocks of an index as follow:
 ```python
-from pystockdata import PyStockData
+from pytickersymbols import PyTickerSymbols
 
-stock_data = PyStockData()
+stock_data = PyTickerSymbols()
 german_stocks = stock_data.get_stocks_by_index('DAX')
 uk_stocks = stock_data.get_stocks_by_index('FTSE 100')
 
 ```
+
+# issue tracker
+
+[https://github.com/portfolioplus/pytickersymbols/issuese](https://github.com/portfolioplus/pytickersymbols/issues")

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-""" pystockdata
+""" pytickersymbols
 
  Copyright 2019 Christoph Dieck
 
@@ -12,7 +12,7 @@ import os
 import yaml
 
 
-class PyStockData:
+class PyTickerSymbols:
 
     def __init__(self):
         self.__stocks = None
@@ -48,6 +48,24 @@ class PyStockData:
         :return: list of stocks
         """
         return self.__get_items('indices', index)
+    
+    def get_yahoo_ticker_symbols_by_index(self, index):
+        """
+        Returns a list with yahoo ticker symbols who belongs to given index.
+        :param index: name of index
+        :return: list of yahoo ticker symbols
+        """
+        my_items = self.__get_items('indices', index)
+        return self.__filter_data(my_items, False, True)
+    
+    def get_google_ticker_symbols_by_index(self, index):
+        """
+        Returns a list with google ticker symbols who belongs to given index.
+        :param index: name of index
+        :return: list of google ticker symbols
+        """
+        my_items = self.__get_items('indices', index)
+        return self.__filter_data(my_items, True, False)
 
     def get_stocks_by_industry(self, industry):
         """
@@ -66,14 +84,26 @@ class PyStockData:
         return [stock for stock in self.__stocks['companies'] if stock['country'].lower() == country.lower()]
 
     def __get_items(self, key, search):
-        stocks = []
-        if self.__stocks:
-            stocks = [stock for stock in self.__stocks['companies']
+        stocks = [stock for stock in self.__stocks['companies']
                       for my_item in stock[key] if search.lower() == my_item.lower()]
         return stocks
 
     def __get_sub_items(self, key):
-        sub_items = []
-        if self.__stocks:
-            sub_items = list(set([item for stock in self.__stocks['companies'] for item in stock[key]]))
+        sub_items = list(set([item for stock in self.__stocks['companies'] for item in stock[key]]))
         return sub_items
+
+    @staticmethod
+    def __filter_data(stocks, google, yahoo):
+        ticker_list = []
+        for stock in stocks:
+            if 'symbols' not in stock:
+                continue
+            sub_list = []
+            for symbol in stock['symbols']:
+                if google and 'google' in symbol and symbol['google'] != '-': 
+                    sub_list.append(symbol['google'])
+                if yahoo and 'yahoo' in symbol and symbol['yahoo'] != '-':
+                    sub_list.append(symbol['yahoo'])
+            if sub_list:
+                ticker_list.append(sub_list)
+        return ticker_list
