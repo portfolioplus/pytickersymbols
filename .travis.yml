@@ -6,7 +6,6 @@ install:
   - echo "Installing dependencies!"
   - pip install -r requirements-dev.txt
   - pip install -r requirements.txt
-  - pip install nose2[coverage_plugin]>=0.6.5
 script:
 - nose2 -c unittest.cfg
 - python setup.py sdist bdist bdist_wheel

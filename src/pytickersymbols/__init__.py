@@ -81,11 +81,11 @@ class PyTickerSymbols:
         :param country: name of country
         :return: list of stocks
         """
-        return [stock for stock in self.__stocks['companies'] if stock['country'].lower() == country.lower()]
+        return [stock for stock in self.__stocks['companies'] if isinstance(country, str) and stock['country'].lower() == country.lower()]
 
     def __get_items(self, key, search):
         stocks = [stock for stock in self.__stocks['companies']
-                      for my_item in stock[key] if search.lower() == my_item.lower()]
+                      for my_item in stock[key] if isinstance(search, str) and search.lower() == my_item.lower()]
         return stocks
 
     def __get_sub_items(self, key):

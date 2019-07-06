@@ -70,6 +70,14 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         assert stock_data
+        stocks = stock_data.get_stocks_by_index(None)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_index(False)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_index(True)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_index(22)
+        assert len(stocks) == 0
         stocks = stock_data.get_stocks_by_index('DAX')
         assert stocks
         assert len(stocks) == 30
@@ -87,6 +95,14 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         assert stock_data
+        stocks = stock_data.get_stocks_by_country(None)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_country(False)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_country(True)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_country(22)
+        assert len(stocks) == 0
         stocks = stock_data.get_stocks_by_country('Israel')
         assert stocks
         assert len(stocks) >= 1
@@ -103,6 +119,14 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         assert stock_data
+        stocks = stock_data.get_stocks_by_industry(None)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_industry(False)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_industry(True)
+        assert len(stocks) == 0
+        stocks = stock_data.get_stocks_by_industry(22)
+        assert len(stocks) == 0
         stocks = stock_data.get_stocks_by_industry('Basic Materials')
         assert stocks
         for stock in stocks:
@@ -119,8 +143,24 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         assert stock_data
+        google_tickers = stock_data.get_google_ticker_symbols_by_index(None)
+        assert len(google_tickers) == 0
+        google_tickers = stock_data.get_google_ticker_symbols_by_index(False)
+        assert len(google_tickers) == 0
+        google_tickers = stock_data.get_google_ticker_symbols_by_index(True)
+        assert len(google_tickers) == 0
+        google_tickers = stock_data.get_google_ticker_symbols_by_index(22)
+        assert len(google_tickers) == 0
         google_tickers = stock_data.get_google_ticker_symbols_by_index('DAX')
         assert google_tickers
+        yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(None)
+        assert len(yahoo_tickers) == 0
+        yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(False)
+        assert len(yahoo_tickers) == 0
+        yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(True)
+        assert len(yahoo_tickers) == 0
+        yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(22)
+        assert len(yahoo_tickers) == 0
         yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index('DAX')
         assert yahoo_tickers
         test_list = [google_tickers, yahoo_tickers]

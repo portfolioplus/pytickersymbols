@@ -11,7 +11,7 @@
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 
 def get_requirements(requirements):
     with open(requirements) as requirement_file:
