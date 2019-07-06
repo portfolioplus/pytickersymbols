@@ -6,6 +6,7 @@ install:
   - echo "Installing dependencies!"
   - pip install -r requirements-dev.txt
   - pip install -r requirements.txt
+  - pip install -q nose2[coverage-plugin]
 script:
 - nose2 -c unittest.cfg
 - python setup.py sdist bdist bdist_wheel
@@ -18,4 +19,4 @@ deploy:
   on:
     branch: master
 after_success:
-- coveralls
+- coveralls --verbose
