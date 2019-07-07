@@ -12,3 +12,8 @@ nosetests.xml
 coverage/*
 .noseids
 report.xml
+.tox/*
+.venv/*
+.coverage
+build/*
+.pytest_cache/*

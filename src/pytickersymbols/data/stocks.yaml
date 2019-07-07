@@ -1,3 +1,44 @@
+indices:
+- name: DAX
+  yahoo: ^GDAXI
+- name: MDAX
+  yahoo: ^MDAXI
+- name: SDAX
+  yahoo: ^SDAXI
+- name: CDAX
+  yahoo: ^CDAXX
+- name: TECDAX
+  yahoo: ^TECDAX
+- name: FTSE 100
+  yahoo: ^FTSE
+- name: OMX Helsinki 15
+  yahoo: ^OMXH15
+- name: OMX Helsinki 25
+  yahoo: ^OMXH25
+- name: CAC 40
+  yahoo: ^FCHI
+- name: DOW JONES
+  yahoo: ^DJI
+- name: NASDAQ 100
+  yahoo: ^IXIC
+- name: NIKKEI 225
+  yahoo: ^N225
+- name: S&P 100
+  yahoo: ^OEX
+- name: S&P 500
+  yahoo: ^GSPC
+- name: BEL 20
+  yahoo: ^BFX
+- name: IBEX 35
+  yahoo: ^IBEX
+- name: AEX
+  yahoo: ^AEX
+- name: ASX 200
+  yahoo: ^AXJO
+- name: OMX Stockholm 30
+  yahoo: ^OMX
+- name: Switzerland 20
+  yahoo: ^SSMI
 companies:
 - id: 1
   name: adidas AG
@@ -462,7 +503,7 @@ companies:
   - DAX
   - TECDAX
   industries:
-  - Financial services
+  - Financials
   symbols:
   - yahoo: WDI.F
     google: FRA:WDI
@@ -602,7 +643,7 @@ companies:
   industries:
   - Banking & Investment Services
   - Banking Services
-  - Financial services
+  - Financials
   - Banks
   symbols:
   - yahoo: CBK.F
@@ -1799,7 +1840,7 @@ companies:
   - Banking & Investment Services
   - Banking Services
   - Financials
-  - Corporate Financial Services
+  - Corporate Financials
   symbols:
   - yahoo: GLJ.F
     google: FRA:GLJ
@@ -9271,7 +9312,7 @@ companies:
   - yahoo: DLR
     google: NYSE:DLR
 - id: 588
-  name: Discover Financial Services
+  name: Discover Financials
   symbol: DFS
   country: United States
   indices:
@@ -10118,7 +10159,7 @@ companies:
   - yahoo: HRS
     google: NYSE:HRS
 - id: 642
-  name: The Hartford Financial Services Group Inc.
+  name: The Hartford Financials Group Inc.
   symbol: HIG
   country: United States
   indices:
@@ -11691,7 +11732,7 @@ companies:
   - yahoo: PXD
     google: NYSE:PXD
 - id: 743
-  name: The PNC Financial Services Group Inc.
+  name: The PNC Financials Group Inc.
   symbol: PNC
   country: United States
   indices:
@@ -12141,7 +12182,7 @@ companies:
   indices:
   - S&P 500
   industries:
-  - Financial Services
+  - Financials
   symbols:
   - yahoo: SWG.F
     google: FRA:SWG
@@ -13936,7 +13977,7 @@ companies:
   indices:
   - AEX
   industries:
-  - Financial Services
+  - Financials
   - Banks
   symbols:
   - yahoo: AB2.F
