@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a8ab945189424985b4bd5665a0ae97dd)](https://app.codacy.com/app/cdieck88/pytickersymbols?utm_source=github.com&utm_medium=referral&utm_content=portfolioplus/pytickersymbols&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/portfolioplus/pytickersymbols.svg?branch=master)](https://travis-ci.org/portfolioplus/pytickersymbols)
 [![Coverage Status](https://coveralls.io/repos/github/portfolioplus/pytickersymbols/badge.svg?branch=master)](https://coveralls.io/github/portfolioplus/pytickersymbols?branch=master)
 # pytickersymbols
