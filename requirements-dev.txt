@@ -1,0 +1,4 @@
+wheel==0.33.4
+pytest
+pytest-cov
+pandas_datareader==0.7.0
