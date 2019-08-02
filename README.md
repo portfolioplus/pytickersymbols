@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/portfolioplus/pytickersymbols.svg?branch=master)](https://travis-ci.org/portfolioplus/pytickersymbols)
 [![Coverage Status](https://coveralls.io/repos/github/portfolioplus/pytickersymbols/badge.svg?branch=master)](https://coveralls.io/github/portfolioplus/pytickersymbols?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5ef7d89e40b7491db63ea9753e01851c)](https://www.codacy.com/app/cdieck88/pytickersymbols?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=portfolioplus/pytickersymbols&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3a4c80c87cd041129cae251d6acb39c7)](https://www.codacy.com/app/SlashGordon/pytickersymbols?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=portfolioplus/pytickersymbols&amp;utm_campaign=Badge_Grade)
+
 # pytickersymbols
 
 pytickersymbols provides access to google and yahoo ticker symbols for all stocks of the following indices:
@@ -23,9 +24,16 @@ pytickersymbols provides access to google and yahoo ticker symbols for all stock
 - [x] SMI
 - [x] TECDAX
 
-# quick start
+## install
+
+```shell
+pip install pytickersymbols
+```
+
+## quick start
 
 Get all countries, indices and industries as follow:
+
 ```python
 from pytickersymbols import PyTickerSymbols
 
@@ -36,6 +44,7 @@ industries = stock_data.get_all_industries()
 ```
 
 You can select all stocks of an index as follow:
+
 ```python
 from pytickersymbols import PyTickerSymbols
 
@@ -45,6 +54,6 @@ uk_stocks = stock_data.get_stocks_by_index('FTSE 100')
 
 ```
 
-# issue tracker
+## issue tracker
 
 [https://github.com/portfolioplus/pytickersymbols/issuese](https://github.com/portfolioplus/pytickersymbols/issues")

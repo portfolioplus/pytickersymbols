@@ -6,7 +6,7 @@
   can be found in the LICENSE file.
 """
 import unittest
-import pandas_datareader as pdr
+import yfinance as yf
 
 from pytickersymbols import PyTickerSymbols
 
@@ -19,15 +19,16 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         indices = stock_data.get_all_indices()
-        assert indices
-        assert "DAX" in indices
-        assert "SDAX" in indices
-        assert "MDAX" in indices
+        self.assertIsNotNone(indices)
+        self.assertIn("DAX", indices)
+        self.assertIn("SDAX", indices)
+        self.assertIn("MDAX", indices)
         # duplicates are not allowed
         for index in indices:
-            assert len([index_tmp for index_tmp in indices if index_tmp == index]) == 1
+            lenl = len([tmp for tmp in indices if tmp == index])
+            self.assertEqual(lenl, 1)
 
     def test_country(self):
         """
@@ -35,20 +36,16 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         countries = stock_data.get_all_countries()
-        assert countries
-        assert "Germany" in countries
-        assert "Netherlands" in countries
-        assert "Sweden" in countries
+        self.assertIsNotNone(countries)
+        self.assertIn("Germany", countries)
+        self.assertIn("Netherlands", countries)
+        self.assertIn("Sweden", countries)
         # duplicates are not allowed
         for country in countries:
-            assert (
-                len(
-                    [country_tmp for country_tmp in countries if country_tmp == country]
-                )
-                == 1
-            )
+            lenl = len([tmp for tmp in countries if tmp == country])
+            self.assertEqual(lenl, 1)
 
     def test_industry(self):
         """
@@ -56,17 +53,16 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         industries = stock_data.get_all_industries()
-        assert industries
-        assert "Computer Hardware" in industries
-        assert "Gold" in industries
-        assert "Banking Services" in industries
+        self.assertIsNotNone(industries)
+        self.assertIn("Computer Hardware", industries)
+        self.assertIn("Gold", industries)
+        self.assertIn("Banking Services", industries)
         # duplicates are not allowed
         for industry in industries:
-            assert (
-                len([tmp_item for tmp_item in industries if tmp_item == industry]) == 1
-            )
+            lenl = len([tmp for tmp in industries if tmp == industry])
+            self.assertEqual(lenl, 1)
 
     def test_stocks_by_index(self):
         """
@@ -74,24 +70,25 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         stocks = stock_data.get_stocks_by_index(None)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_index(False)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_index(True)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_index(22)
-        assert len(stocks) == 0
-        stocks = stock_data.get_stocks_by_index("DAX")
-        assert stocks
-        assert len(stocks) == 30
-        for stock in stocks:
-            is_in_dax = False
-            for index in stock["indices"]:
-                if "DAX" in index:
-                    is_in_dax = True
-            assert is_in_dax
+        self.assertEqual(len(stocks), 0)
+        for ind, ctx in [('DAX',  30), ('CAC 40',  40)]:
+            stocks = stock_data.get_stocks_by_index(ind)
+            self.assertIsNotNone(stocks)
+            self.assertEqual(len(stocks), ctx)
+            for stock in stocks:
+                is_in = False
+                for index in stock["indices"]:
+                    if ind in index:
+                        is_in = True
+                self.assertTrue(is_in)
 
     def test_stocks_by_country(self):
         """
@@ -99,23 +96,23 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         stocks = stock_data.get_stocks_by_country(None)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_country(False)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_country(True)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_country(22)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_country("Israel")
-        assert stocks
-        assert len(stocks) >= 1
+        self.assertIsNotNone(stocks)
+        self.assertTrue(len(stocks) >= 1)
         for stock in stocks:
             is_in_israel = False
             if "Israel" == stock["country"]:
                 is_in_israel = True
-            assert is_in_israel
+            self.assertTrue(is_in_israel)
 
     def test_stocks_by_industry(self):
         """
@@ -123,23 +120,23 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         stocks = stock_data.get_stocks_by_industry(None)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_industry(False)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_industry(True)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_industry(22)
-        assert len(stocks) == 0
+        self.assertEqual(len(stocks), 0)
         stocks = stock_data.get_stocks_by_industry("Basic Materials")
-        assert stocks
+        self.assertIsNotNone(stocks)
         for stock in stocks:
             is_in_basic = False
             for industry in stock["industries"]:
                 if "Basic Materials" in industry:
                     is_in_basic = True
-            assert is_in_basic
+            self.assertTrue(is_in_basic)
 
     def test_tickers_by_index(self):
         """
@@ -147,56 +144,57 @@ class TestLib(unittest.TestCase):
         :return:
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         google_tickers = stock_data.get_google_ticker_symbols_by_index(None)
-        assert len(google_tickers) == 0
+        self.assertEqual(len(google_tickers), 0)
         google_tickers = stock_data.get_google_ticker_symbols_by_index(False)
-        assert len(google_tickers) == 0
+        self.assertEqual(len(google_tickers), 0)
         google_tickers = stock_data.get_google_ticker_symbols_by_index(True)
-        assert len(google_tickers) == 0
+        self.assertEqual(len(google_tickers), 0)
         google_tickers = stock_data.get_google_ticker_symbols_by_index(22)
-        assert len(google_tickers) == 0
+        self.assertEqual(len(google_tickers), 0)
         google_tickers = stock_data.get_google_ticker_symbols_by_index("DAX")
-        assert google_tickers
+        self.assertIsNotNone(google_tickers)
         yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(None)
-        assert len(yahoo_tickers) == 0
+        self.assertEqual(len(yahoo_tickers), 0)
         yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(False)
-        assert len(yahoo_tickers) == 0
+        self.assertEqual(len(yahoo_tickers), 0)
         yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(True)
-        assert len(yahoo_tickers) == 0
+        self.assertEqual(len(yahoo_tickers), 0)
         yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index(22)
-        assert len(yahoo_tickers) == 0
+        self.assertEqual(len(yahoo_tickers), 0)
         yahoo_tickers = stock_data.get_yahoo_ticker_symbols_by_index("DAX")
-        assert yahoo_tickers
+        self.assertIsNotNone(yahoo_tickers)
         test_list = [google_tickers, yahoo_tickers]
         for test_item in test_list:
-            assert len(test_item) == 30
+            self.assertEqual(len(test_item), 30)
             for tickers in test_item:
-                assert len(tickers) == 2
+                self.assertEqual(len(tickers), 2)
 
     def test_tickers_valid(self):
         """
-        Test if each ticker symbol works with pandas datareader
+        Test if each ticker symbol works with yfiance
         """
         stock_data = PyTickerSymbols()
-        assert stock_data
+        self.assertIsNotNone(stock_data)
         y_tickers = stock_data.get_yahoo_ticker_symbols_by_index("DAX")
         for tickers in y_tickers:
             for ticker in tickers:
-                yahoo = pdr.get_data_yahoo(
-                    ticker, "2019-07-01", "2019-07-05", interval="d"
-                )
-                assert yahoo is not None
-                assert "Close" in yahoo
-                assert len(yahoo["Close"]) > 0
-    
+                y_ticker = yf.Ticker(ticker)
+                data = y_ticker.history(period='4d')
+                self.assertIsNotNone(data)
+                self.assertIn("Close", data)
+                self.assertTrue(len(data["Close"]) > 0)
+
     def test_index_to_yahoo(self):
         stock_data = PyTickerSymbols()
-        assert stock_data
-        assert '^GDAXI' == stock_data.index_to_yahoo_symbol('DAX')
-        assert '^SDAXI' ==  stock_data.index_to_yahoo_symbol('SDAX')
-        assert '^MDAXI' == stock_data.index_to_yahoo_symbol('MDAX')
-        assert '^SSMI' == stock_data.index_to_yahoo_symbol('Switzerland 20')
+        self.assertIsNotNone(stock_data)
+        self.assertEqual('^GDAXI', stock_data.index_to_yahoo_symbol('DAX'))
+        self.assertEqual('^SDAXI', stock_data.index_to_yahoo_symbol('SDAX'))
+        self.assertEqual('^MDAXI', stock_data.index_to_yahoo_symbol('MDAX'))
+        swi = stock_data.index_to_yahoo_symbol('Switzerland 20')
+        self.assertEqual('^SSMI', swi)
+
 
 if __name__ == "__main__":
     unittest.main()

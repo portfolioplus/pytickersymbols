@@ -33,6 +33,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),
+    install_requires=get_requirements('requirements.txt'),
     package_data={'': ['data/*.yaml']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
