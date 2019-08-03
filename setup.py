@@ -9,7 +9,7 @@
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.0.13'
+VERSION = '1.0.15'
 
 def get_requirements(requirements):
     with open(requirements) as requirement_file:
@@ -21,6 +21,10 @@ def get_requirements(requirements):
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+INSTALL_REQUIRES = (
+    ['PyYAML==5.1.1', 'wheel==0.33.4']
+)
+
 setup(
     name="pytickersymbols",
     version=VERSION,
@@ -30,17 +34,16 @@ setup(
     package_dir={'': 'src'},
     description="The lib provides ticker symbols for yahoo and google finance.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    license='MIT',
     url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),
-    install_requires=get_requirements('requirements.txt'),
-    package_data={'data': ['stocks.yaml']},
+    install_requires=INSTALL_REQUIRES,
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
