@@ -9,7 +9,7 @@
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.0.16'
+VERSION = '1.1.3'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -27,6 +27,7 @@ setup(
     package_dir={'': 'src'},
     description="The lib provides ticker symbols for yahoo and google finance.",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     license='MIT',
     url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),

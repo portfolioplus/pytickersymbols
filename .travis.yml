@@ -8,6 +8,8 @@ script:
   - tox
 deploy:
   provider: pypi
+  skip_cleanup: true
+  distributions: "bdist_wheel"
   user:
     secure: "1WDqOWBY6tVEDRElNWLEws22r4GrHIn8pclYv2ivKJps4JzN3kREbuW/11oW6Cz8UOtMhUr8RwMtbupq73He9lP0y6AYrd4dr4EAW+G4woblMGo5k2L/m8Yt13RQ/jwP83+XNmdaGmZaP6TqN1/zYL9q2wAImoX0IqNu2csFsAMkVriqeuhy8IRra8YAChgHXHdCFFeZpJcWcZb45ej1sc9MbGgb+55+wVvA/gMzvkBLAEqC/P/Tm5FFvK5WW5vSHVrHMCeZvvh8m8v7vAo2Swx4ITzUvKyE5XdiKDfMrEAK0cW7iz1ghiP//2oKS/JaUNHOSYW/0sebn8EUBdyUSEqt/rN1l1+OietXxK6g3XK+vI/PKWF3ImcxpP0jM8laysLPfhrE6iQvAGJGgJObbpNeCXD7N0bsY5Rtpx8g1obARWLo2LwBEbmWKxtFi6goL2xHdLaGGp/og1bgSZv8h4S/raIOK62Ocu3D7Ju9ArrtCatXJ0sIhK5Nj7CFFEcjU8d+hMybPwspumi7LmULa97dPnRMzc2uJJhUAlINfKgSLXfrxtaThRJjQQKo0J0xcDEFroOIvcjoKQrUADwXyWGNwP6pT5SCDhnGGPnE8RjsSXAk1Qqj6Yl0GcdMwrCJiEp5qSEy9mvXic52jE2gOWdB8beDr2yOOBPdhQgrx1c="
   password:
