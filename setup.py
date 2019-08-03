@@ -9,7 +9,7 @@
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.0.12'
+VERSION = '1.0.13'
 
 def get_requirements(requirements):
     with open(requirements) as requirement_file:
@@ -34,7 +34,8 @@ setup(
     url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),
     install_requires=get_requirements('requirements.txt'),
-    package_data={'': ['requirements.txt','data/*.yaml']},
+    package_data={'data': ['stocks.yaml']},
+    include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
