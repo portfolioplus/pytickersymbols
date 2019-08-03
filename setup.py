@@ -9,14 +9,7 @@
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.0.15'
-
-def get_requirements(requirements):
-    with open(requirements) as requirement_file:
-        content = requirement_file.readlines()
-    content = [x.strip() for x in content]
-    return content
-
+VERSION = '1.0.16'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -38,6 +31,7 @@ setup(
     url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),
     install_requires=INSTALL_REQUIRES,
+    package_data={'': ['data/*.yaml']},
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
