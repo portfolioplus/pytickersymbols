@@ -5,17 +5,16 @@
   Use of this source code is governed by an MIT-style license that
   can be found in the LICENSE file.
 """
-
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.1.3'
+VERSION = '1.1.4'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 INSTALL_REQUIRES = (
-    ['PyYAML==5.1.1', 'wheel==0.33.4']
+    ['wheel==0.33.4']
 )
 
 setup(
@@ -32,7 +31,7 @@ setup(
     url="https://github.com/portfolioplus/pytickersymbols",
     packages=find_packages('src', exclude=EXCLUDE_FROM_PACKAGES),
     install_requires=INSTALL_REQUIRES,
-    package_data={'': ['data/*.yaml']},
+    package_data={'': ['data/*.json']},
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',

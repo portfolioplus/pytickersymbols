@@ -18,3 +18,4 @@ report.xml
 build/*
 .pytest_cache/*
 .vscode/*
+src/pytickersymbols/data/stocks.json
