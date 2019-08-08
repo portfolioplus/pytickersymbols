@@ -6,18 +6,18 @@
   can be found in the LICENSE file.
 """
 import os
-import yaml
+import json
 
 
 class PyTickerSymbols:
 
     def __init__(self):
         self.__stocks = None
-        yaml_path = os.path.join(
-            os.path.dirname(os.path.realpath(__file__)), "data", "stocks.yaml"
+        json_path = os.path.join(
+            os.path.dirname(os.path.realpath(__file__)), "data", "stocks.json"
         )
-        with open(yaml_path) as stocks:
-            self.__stocks = yaml.safe_load(stocks)
+        with open(json_path) as stocks:
+            self.__stocks = json.load(stocks)
 
     def get_all_indices(self):
         """
