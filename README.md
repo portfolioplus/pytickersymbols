@@ -32,7 +32,7 @@ pip install pytickersymbols
 
 ## quick start
 
-Get all countries, indices and industries as follow:
+Get all countries, indices and industries as follows:
 
 ```python
 from pytickersymbols import PyTickerSymbols
@@ -43,7 +43,7 @@ indices = stock_data.get_all_indices()
 industries = stock_data.get_all_industries()
 ```
 
-You can select all stocks of an index as follow:
+You can select all stocks of an index as follows:
 
 ```python
 from pytickersymbols import PyTickerSymbols
