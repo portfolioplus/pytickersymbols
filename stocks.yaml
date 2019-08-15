@@ -41,6 +41,8 @@ indices:
   yahoo: ^SSMI
 - name: CAC Mid 60
   yahoo: ^CM100
+- name: EURO STOXX 50
+  yahoo: ^STOXX50E
 companies:
 - id: 1
   name: adidas AG
@@ -3252,6 +3254,7 @@ companies:
   country: United States
   indices:
   - FTSE 100
+  - IBEX 35
   industries:
   - Environmental Services & Equipment
   - Industrials
@@ -3606,10 +3609,10 @@ companies:
   - Financials
   - Life & Health Insurance
   symbols:
-  - yahoo: PRU2.F
-    google: FRA:PRU2
-  - yahoo: PRU
-    google: NYSE:PRU
+  - yahoo: PRU.F
+    google: FRA:PRU
+  - yahoo: PUKPF
+    google: OTCMKTS:PUKPF
 - id: 228
   name: Royal Dutch Shell PLC
   symbol: RDSA
@@ -3999,10 +4002,10 @@ companies:
   - Food & Drug Retailing
   - Food Retail & Distribution
   symbols:
-  - yahoo: TCO.F
-    google: FRA:TCO
-  - yahoo: TSCO
-    google: NASDAQ:TSCO
+  - yahoo: TCO1.F
+    google: FRA:TCO1
+  - yahoo: TSCDY
+    google: OTCMKTS:TSCDY
 - id: 254
   name: TUI AG
   symbol: TUI
@@ -4169,8 +4172,8 @@ companies:
   - Industrials
   - Machinery, Equipment & Components
   symbols:
-  - yahoo: K34.F
-    google: FRA:K34
+  - yahoo: KC4.F
+    google: FRA:KC4
   - yahoo: KNYJF
     google: OTCMKTS:KNYJF
 - id: 265
@@ -4559,15 +4562,16 @@ companies:
   country: France
   indices:
   - CAC 40
+  - EURO STOXX 50
   industries:
   - Insurance
   - Financials
   - Life & Health Insurance
   symbols:
-  - yahoo: AXA.F
-    google: FRA:AXA
-  - yahoo: AXP
-    google: NYSE:AXP
+  - yahoo: AXAA.F
+    google: FRA:AXAA
+  - yahoo: AXAHF
+    google: OTCMKTS:AXP
 - id: 291
   name: BNP Paribas SA
   symbol: BNP
@@ -5017,8 +5021,8 @@ companies:
   symbols:
   - yahoo: TOTB.F
     google: FRA:TOTB
-  - yahoo: TSS
-    google: NYSE:TSS
+  - yahoo: TTFNF
+    google: OTCMKTS:TTFNF
 - id: 320
   name: Unibail-Rodamco-Westfield
   symbol: URW
@@ -13776,22 +13780,6 @@ companies:
     google: '-'
   - yahoo: '-'
     google: '-'
-- id: 875
-  name: International Consolidated Airlines Group
-  symbol: IAG
-  country: Spain
-  indices:
-  - IBEX 35
-  industries:
-  - Environmental Services & Equipment
-  - Industrials
-  - Professional & Commercial Services
-  - Industrial & Commercial Services
-  symbols:
-  - yahoo: INR.F
-    google: FRA:INR
-  - yahoo: ICAGY
-    google: OTCMKTS:ICAGY
 - id: 876
   name: Mapfre SA
   symbol: MAP
@@ -14518,7 +14506,7 @@ companies:
   symbols:
   - yahoo: SKWA.F
     google: FRA:SKWA
-  - yahoo: SVCBY
+  - yahoo: SSAAY
     google: OTCMKTS:SSAAY
 - id: 927
   name: Svenska Cellulosa AB
