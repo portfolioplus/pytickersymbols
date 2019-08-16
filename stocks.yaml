@@ -4058,7 +4058,7 @@ companies:
   country: United Kingdom
   indices:
   - FTSE 100
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Telecommunications Services
   - Wireless Telecommunications Services
@@ -5156,7 +5156,7 @@ companies:
   country: United States
   indices:
   - DOW JONES
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5228,7 +5228,7 @@ companies:
   country: United States
   indices:
   - DOW JONES
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5351,7 +5351,7 @@ companies:
   country: United States
   indices:
   - DOW JONES
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5440,7 +5440,7 @@ companies:
   country: United States
   indices:
   - DOW JONES
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5611,7 +5611,7 @@ companies:
   country: United States
   indices:
   - DOW JONES
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5646,7 +5646,7 @@ companies:
   symbol: ATVI
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -5662,7 +5662,7 @@ companies:
   symbol: ADBE
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5679,7 +5679,7 @@ companies:
   symbol: AKAM
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -5695,7 +5695,7 @@ companies:
   symbol: ALXN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Pharmaceuticals
@@ -5711,7 +5711,7 @@ companies:
   symbol: GOOGL
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5732,7 +5732,7 @@ companies:
   symbol: AMZN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5750,7 +5750,7 @@ companies:
   symbol: AAL
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Passenger Transportation Services
@@ -5767,7 +5767,7 @@ companies:
   symbol: AMGN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5784,7 +5784,7 @@ companies:
   symbol: ADI
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -5801,7 +5801,7 @@ companies:
   symbol: AMAT
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Semiconductor Equipment & Testing
@@ -5818,7 +5818,7 @@ companies:
   symbol: ADSK
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Software
@@ -5834,7 +5834,7 @@ companies:
   symbol: ADP
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -5850,7 +5850,7 @@ companies:
   symbol: BIDU
   country: China
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Technology
   - Software & IT Services
@@ -5865,7 +5865,7 @@ companies:
   symbol: BBBY
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Home Furnishings Retailers
   - Retailers
@@ -5881,7 +5881,7 @@ companies:
   symbol: BIIB
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5898,7 +5898,7 @@ companies:
   symbol: BMRN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -5913,7 +5913,7 @@ companies:
   symbol: CELG
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5930,7 +5930,7 @@ companies:
   symbol: CERN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Healthcare
@@ -5947,7 +5947,7 @@ companies:
   symbol: CHTR
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -5965,7 +5965,7 @@ companies:
   symbol: CHKP
   country: Israel
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Software
   - Technology
@@ -5980,7 +5980,7 @@ companies:
   symbol: CTXS
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Software
@@ -5996,7 +5996,7 @@ companies:
   symbol: CTSH
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6012,7 +6012,7 @@ companies:
   symbol: CMCSA
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6030,7 +6030,7 @@ companies:
   symbol: COST
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6048,7 +6048,7 @@ companies:
   symbol: CSX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Ground Freight & Logistics
@@ -6065,7 +6065,7 @@ companies:
   symbol: CTRP
   country: China
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -6081,7 +6081,7 @@ companies:
   symbol: XRAY
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
@@ -6098,7 +6098,7 @@ companies:
   symbol: DISCA
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Media & Publishing
@@ -6119,7 +6119,7 @@ companies:
   symbol: DISH
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Media & Publishing
@@ -6136,7 +6136,7 @@ companies:
   symbol: DLTR
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Diversified Retail
@@ -6153,7 +6153,7 @@ companies:
   symbol: EBAY
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6169,7 +6169,7 @@ companies:
   symbol: EA
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Software
@@ -6185,7 +6185,7 @@ companies:
   symbol: EXPE
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Hotels & Entertainment Services
@@ -6202,7 +6202,7 @@ companies:
   symbol: FB
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6219,7 +6219,7 @@ companies:
   symbol: FAST
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Industrial Goods
@@ -6236,7 +6236,7 @@ companies:
   symbol: FISV
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Business Support Services
@@ -6253,7 +6253,7 @@ companies:
   symbol: GILD
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6270,7 +6270,7 @@ companies:
   symbol: HSIC
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
@@ -6287,7 +6287,7 @@ companies:
   symbol: ILMN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Healthcare
@@ -6304,7 +6304,7 @@ companies:
   symbol: INCY
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Biotechnology & Medical Research
@@ -6320,7 +6320,7 @@ companies:
   symbol: INTU
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Software
@@ -6336,7 +6336,7 @@ companies:
   symbol: ISRG
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Healthcare
@@ -6353,7 +6353,7 @@ companies:
   symbol: JD
   country: China
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Technology
   - Software & IT Services
@@ -6368,7 +6368,7 @@ companies:
   symbol: KHC
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6386,7 +6386,7 @@ companies:
   symbol: LRCX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Semiconductor Equipment & Testing
@@ -6403,7 +6403,7 @@ companies:
   symbol: LBTYA
   country: United Kingdom
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -6423,7 +6423,7 @@ companies:
   symbol: MAR
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Hotels & Entertainment Services
@@ -6440,7 +6440,7 @@ companies:
   symbol: MAT
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Cyclical Consumer Products
@@ -6457,7 +6457,7 @@ companies:
   symbol: MXIM
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6474,7 +6474,7 @@ companies:
   symbol: MCHP
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6491,7 +6491,7 @@ companies:
   symbol: MU
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6508,7 +6508,7 @@ companies:
   symbol: MDLZ
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6526,7 +6526,7 @@ companies:
   symbol: MNST
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Food & Beverages
@@ -6543,7 +6543,7 @@ companies:
   symbol: MYL
   country: United Kingdom
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Pharmaceuticals
@@ -6559,7 +6559,7 @@ companies:
   symbol: NTAP
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Computers, Phones & Household Electronics
@@ -6576,7 +6576,7 @@ companies:
   symbol: NTES
   country: China
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Technology
   - Software & IT Services
@@ -6591,7 +6591,7 @@ companies:
   symbol: NFLX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6608,7 +6608,7 @@ companies:
   symbol: NVDA
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6626,7 +6626,7 @@ companies:
   symbol: NXPI
   country: Netherlands
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Technology
   - Technology Equipment
@@ -6642,7 +6642,7 @@ companies:
   symbol: ORLY
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Auto Vehicles, Parts & Service Retailers
@@ -6659,7 +6659,7 @@ companies:
   symbol: PCAR
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Industrial Goods
@@ -6676,7 +6676,7 @@ companies:
   symbol: PAYX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Industrials
@@ -6693,7 +6693,7 @@ companies:
   symbol: PYPL
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6710,7 +6710,7 @@ companies:
   symbol: QCOM
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6728,7 +6728,7 @@ companies:
   symbol: REGN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Biotechnology & Medical Research
@@ -6744,7 +6744,7 @@ companies:
   symbol: ROST
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Retailers
@@ -6761,7 +6761,7 @@ companies:
   symbol: STX
   country: Ireland
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Computers, Phones & Household Electronics
@@ -6778,7 +6778,7 @@ companies:
   symbol: SIRI
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -6794,7 +6794,7 @@ companies:
   symbol: SWKS
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6811,7 +6811,7 @@ companies:
   symbol: SBUX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6829,7 +6829,7 @@ companies:
   symbol: SRCL
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Environmental Services & Equipment
   - Industrials
@@ -6845,7 +6845,7 @@ companies:
   symbol: SYMC
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Software
@@ -6861,7 +6861,7 @@ companies:
   symbol: TMUS
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Telecommunications Services
   - Wireless Telecommunications Services
@@ -6875,7 +6875,7 @@ companies:
   symbol: TSLA
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   industries:
   - Auto & Truck Manufacturers
   - Automobiles & Auto Parts
@@ -6890,7 +6890,7 @@ companies:
   symbol: TXN
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -6908,7 +6908,7 @@ companies:
   symbol: TSCO
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Other Specialty Retailers
@@ -6925,7 +6925,7 @@ companies:
   symbol: TRIP
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Hotels & Entertainment Services
@@ -6942,7 +6942,7 @@ companies:
   symbol: ULTA
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Other Specialty Retailers
@@ -6959,7 +6959,7 @@ companies:
   symbol: VRSK
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -6975,7 +6975,7 @@ companies:
   symbol: VRTX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Biotechnology & Medical Research
@@ -6991,7 +6991,7 @@ companies:
   symbol: VIAB
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Media & Publishing
@@ -7008,7 +7008,7 @@ companies:
   symbol: WDC
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Computers, Phones & Household Electronics
@@ -7025,7 +7025,7 @@ companies:
   symbol: XLNX
   country: United States
   indices:
-  - OTCMKTS 100
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -14213,7 +14213,7 @@ companies:
   country: Switzerland
   indices:
   - OMX Stockholm 30
-  - SMI
+  - Switzerland 20
   industries:
   - Heavy Electrical Equipment
   - Industrial Goods
@@ -14604,7 +14604,7 @@ companies:
   symbol: ADEN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Industrials
   - Professional & Commercial Services
@@ -14620,7 +14620,7 @@ companies:
   symbol: ALC
   country: United States
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Industrials
   - Marine Freight & Logistics
@@ -14636,7 +14636,7 @@ companies:
   symbol: CFR
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -14652,7 +14652,7 @@ companies:
   symbol: CSGN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -14668,7 +14668,7 @@ companies:
   symbol: GEBN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Cyclical Consumer Products
   - Construction Supplies & Fixtures
@@ -14684,7 +14684,7 @@ companies:
   symbol: GIVN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -14699,7 +14699,7 @@ companies:
   symbol: HOLN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Construction Materials
   - Mineral Resources
@@ -14714,7 +14714,7 @@ companies:
   symbol: LONN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -14729,7 +14729,7 @@ companies:
   symbol: NESN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -14745,7 +14745,7 @@ companies:
   symbol: NOVN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -14760,7 +14760,7 @@ companies:
   symbol: ROG
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -14775,7 +14775,7 @@ companies:
   symbol: SGSN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Business Support Services
   - Industrials
@@ -14791,7 +14791,7 @@ companies:
   symbol: SIKA
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -14806,7 +14806,7 @@ companies:
   symbol: UHR
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -14822,7 +14822,7 @@ companies:
   symbol: SLHN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Insurance
   - Financials
@@ -14837,7 +14837,7 @@ companies:
   symbol: SREN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Insurance
   - Financials
@@ -14852,7 +14852,7 @@ companies:
   symbol: SCMN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -14866,7 +14866,7 @@ companies:
   symbol: UBSG
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -14882,7 +14882,7 @@ companies:
   symbol: ZURN
   country: Switzerland
   indices:
-  - SMI
+  - Switzerland 20
   industries:
   - Insurance
   - Financials
