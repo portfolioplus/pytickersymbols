@@ -3,4 +3,4 @@ pytest
 pytest-cov
 pandas==0.24.2
 yfinance==0.1.44
-PyYAML==5.1.1
+PyYAML==5.1.2
