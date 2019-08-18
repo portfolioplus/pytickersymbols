@@ -1,6 +1,6 @@
 wheel==0.33.5
 pytest
 pytest-cov
-pandas==0.24.2
+pandas==0.25.0
 yfinance==0.1.44
 PyYAML==5.1.2
