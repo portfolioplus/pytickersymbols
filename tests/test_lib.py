@@ -30,6 +30,17 @@ class TestLib(unittest.TestCase):
             lenl = len([tmp for tmp in indices if tmp == index])
             self.assertEqual(lenl, 1)
 
+    def test_encoding(self):
+        """
+        Test country getter
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        self.assertIsNotNone(stock_data)
+        dax = stock_data.get_stocks_by_index('DAX')
+        self.assertEqual(dax[10]['name'], 'Deutsche Börse AG')
+
+
     def test_country(self):
         """
         Test country getter

@@ -1771,7 +1771,7 @@ companies:
   - yahoo: '-'
     google: '-'
 - id: 111
-  name: "Dr. H\xF6nle AG"
+  name: "Dr. H\xC3\xB6nle AG"
   symbol: HNL
   country: Germany
   indices:
@@ -1787,7 +1787,7 @@ companies:
   - yahoo: DRHNF
     google: OTCMKTS:DRHNF
 - id: 112
-  name: "Dr\xE4gerwerk AG & Co. KGaA Vz"
+  name: "Dr\xc3\xa4gerwerk AG & Co. KGaA Vz"
   symbol: DRW3
   country: Germany
   indices:
@@ -2201,7 +2201,7 @@ companies:
   - yahoo: RTLLF
     google: OTCMKTS:RTLLF
 - id: 138
-  name: "Rh\xF6n-Klinikum AG"
+  name: "Rh\xC3\xB6n-Klinikum AG"
   symbol: RHK
   country: Germany
   indices:
@@ -2376,7 +2376,7 @@ companies:
   - yahoo: SAX
     google: OTCMKTS:SAX
 - id: 149
-  name: "S\xFCdzucker AG"
+  name: "S\xc3\xbcdzucker AG"
   symbol: SZU
   country: Germany
   indices:
@@ -2515,7 +2515,7 @@ companies:
   - yahoo: WHTCF
     google: OTCMKTS:WHTCF
 - id: 158
-  name: "W\xFCstenrot & W\xFCrttembergische AG"
+  name: "W\xc3\xbcstenrot & W\xc3\xbcrttembergische AG"
   symbol: WUW
   country: Germany
   indices:
@@ -4322,7 +4322,7 @@ companies:
   - yahoo: UPMKF
     google: OTCMKTS:UPMKF
 - id: 274
-  name: "W\xE4rtsil\xE4 Oyj Abp"
+  name: "W\xc3\xa4rtsil\xc3\xa4 Oyj Abp"
   symbol: WRT1V
   country: Finland
   indices:
@@ -4367,7 +4367,7 @@ companies:
   - yahoo: '-'
     google: '-'
 - id: 277
-  name: "Huhtam\xE4ki Oyj"
+  name: "Huhtam\xc3\xa4ki Oyj"
   symbol: HUH1V
   country: Finland
   indices:
@@ -4399,7 +4399,7 @@ companies:
   - yahoo: KNCRY
     google: OTCMKTS:KNCRY
 - id: 279
-  name: "Mets\xE4 Board Oyj"
+  name: "Mets\xc3\xa4 Board Oyj"
   symbol: METSB
   country: Finland
   indices:
@@ -4634,7 +4634,7 @@ companies:
   - yahoo: CRERF
     google: OTCMKTS:CRERF
 - id: 295
-  name: "Cr\xE9dit Agricole SA"
+  name: "Cr\xc3\xa9dit Agricole SA"
   symbol: ACA
   country: France
   indices:
@@ -4666,7 +4666,7 @@ companies:
   - yahoo: GPDNF
     google: OTCMKTS:GPDNF
 - id: 297
-  name: "Dassault Syst\xE8mes SE"
+  name: "Dassault Syst\xc3\xa8mes SE"
   symbol: DSY
   country: France
   indices:
@@ -4711,7 +4711,7 @@ companies:
   - yahoo: ESLOF
     google: OTCMKTS:ESLOF
 - id: 300
-  name: "Herm\xE8s International SCA"
+  name: "Herm\xc3\xa8s International SCA"
   symbol: RMS
   country: France
   indices:
@@ -4743,7 +4743,7 @@ companies:
   - yahoo: PPRUF
     google: OTCMKTS:PPRUF
 - id: 302
-  name: "L'Or\xE9al SA"
+  name: "L'Or\xc3\xa9al SA"
   symbol: OR
   country: France
   indices:
@@ -4774,7 +4774,7 @@ companies:
   - yahoo: LGRDY
     google: OTCMKTS:LGRDY
 - id: 304
-  name: "LVMH Mo\xEBt Hennessy - Louis Vuitton, Soci\xE9t\xE9 Europ\xE9enne"
+  name: "LVMH Mo\xc3\xabt Hennessy - Louis Vuitton, Soci\xc3\xa9t\xc3\xa9 Europ\xc3\xa9enne"
   symbol: MC
   country: France
   indices:
@@ -4790,7 +4790,7 @@ companies:
   - yahoo: LVMHF
     google: OTCMKTS:LVMHF
 - id: 305
-  name: "Compagnie G\xE9n\xE9rale des \xC9tablissements Michelin"
+  name: "Compagnie G\xc3\xa9n\xc3\xa9rale des \xc3\xa9tablissements Michelin"
   symbol: ML
   country: France
   indices:
@@ -4943,7 +4943,7 @@ companies:
   - yahoo: SBGSF
     google: OTCMKTS:SBGSF
 - id: 315
-  name: "Soci\xE9t\xE9 G\xE9n\xE9rale SA"
+  name: "Soci\xc3\xa9t\xc3\xa9 G\xc3\xa9n\xc3\xa9rale SA"
   symbol: GLE
   country: France
   indices:
@@ -13342,7 +13342,7 @@ companies:
   - yahoo: BGAOY
     google: OTCMKTS:BGAOY
 - id: 846
-  name: "Sofina Soci\xE9t\xE9 Anonyme"
+  name: "Sofina Soci\xc3\xa9t\xc3\xa9 Anonyme"
   symbol: SOF
   country: Belgium
   indices:
@@ -13465,7 +13465,7 @@ companies:
   - yahoo: ANIOY
     google: OTCMKTS:ANIOY
 - id: 854
-  name: "Actividades de Construcci\xF3n y Servicios SA"
+  name: "Actividades de Construcci\xc3\xb3n y Servicios SA"
   symbol: ACS
   country: Spain
   indices:
@@ -13638,7 +13638,7 @@ companies:
   - yahoo: '-'
     google: '-'
 - id: 866
-  name: "Enag\xE1s SA"
+  name: "Enag\xc3\xa1s SA"
   symbol: ENG
   country: Spain
   indices:
@@ -13654,7 +13654,7 @@ companies:
   - yahoo: ENGGF
     google: OTCMKTS:ENGGF
 - id: 867
-  name: "ENCE Energ\xEDa y Celulosa SA"
+  name: "ENCE Energ\xc3\xada y Celulosa SA"
   symbol: ENC
   country: Spain
   indices:
@@ -13730,7 +13730,7 @@ companies:
   - yahoo: IBDRY
     google: OTCMKTS:IBDRY
 - id: 872
-  name: "Industria de Dise\xF1o Textil SA"
+  name: "Industria de Dise\xc3\xb1o Textil SA"
   symbol: ITX
   country: Spain
   indices:
@@ -13796,7 +13796,7 @@ companies:
   - yahoo: MPFRY
     google: OTCMKTS:MPFRY
 - id: 877
-  name: "Mediaset Espa\xF1a Comunicaci\xF3n SA"
+  name: "Mediaset Espa\xc3\xb1a Comunicaci\xc3\xb3n SA"
   symbol: TL5
   country: Spain
   indices:
@@ -13812,7 +13812,7 @@ companies:
   - yahoo: MDIUY
     google: OTCMKTS:MDIUY
 - id: 878
-  name: "Meli\xE1 Hotels International"
+  name: "Meli\xc3\xa1 Hotels International"
   symbol: MEL
   country: Spain
   indices:
@@ -13854,7 +13854,7 @@ companies:
   - yahoo: GASNF
     google: OTCMKTS:GASNF
 - id: 881
-  name: "Red El\xE9ctrica Corporaci\xF3n SA"
+  name: "Red El\xc3\xa9ctrica Corporaci\xc3\xb3n SA"
   symbol: REE
   country: Spain
   indices:
@@ -13899,7 +13899,7 @@ companies:
   - yahoo: GCTAF
     google: OTCMKTS:GCTAF
 - id: 884
-  name: "T\xE9cnicas Reunidas SA"
+  name: "T\xc3\xa9cnicas Reunidas SA"
   symbol: TRE
   country: Spain
   indices:
@@ -13915,7 +13915,7 @@ companies:
   - yahoo: TNISF
     google: OTCMKTS:TNISF
 - id: 885
-  name: "Telef\xF3nica"
+  name: "Telef\xc3\xb3nica"
   symbol: TEF
   country: Spain
   indices:
@@ -14725,7 +14725,7 @@ companies:
   - yahoo: LZAGF
     google: OTCMKTS:LZAGF
 - id: 941
-  name: "Nestl\xE9 SA"
+  name: "Nestl\xc3\xa9 SA"
   symbol: NESN
   country: Switzerland
   indices:

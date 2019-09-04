@@ -10,6 +10,6 @@ output_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),
 
 os.makedirs(os.path.dirname(os.path.realpath(output_path)), exist_ok=True)
 
-with open(output_path, 'w') as out_file:
+with open(output_path, 'w', encoding='latin1') as out_file:
     with open(input_path, 'r') as in_file:
-        out_file.write(json.dumps(yaml.safe_load(in_file)))
+        json.dump(yaml.safe_load(in_file), out_file, ensure_ascii=False)
