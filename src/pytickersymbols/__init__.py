@@ -8,8 +8,19 @@
 import os
 import json
 
+class Singleton(type):
+    def __init__(cls, name, bases, dict):
+        super(Singleton, cls).__init__(name, bases, dict)
+        cls.instance = None
+
+    def __call__(cls,*args,**kw):
+        if cls.instance is None:
+            cls.instance = super(Singleton, cls).__call__(*args, **kw)
+        return cls.instance
 
 class PyTickerSymbols:
+
+    __metaclass__ = Singleton
 
     def __init__(self):
         self.__stocks = None
@@ -38,8 +49,10 @@ class PyTickerSymbols:
         Returns all available countries
         :return: list of country names
         """
-        items = [stock["country"] for stock in self.__stocks["companies"]]
-        return list(set(items))
+        countries = set(
+            map(lambda stock: stock['country'], self.__stocks["companies"])
+        )
+        return countries
 
     def get_stocks_by_index(self, index):
         """
@@ -81,15 +94,10 @@ class PyTickerSymbols:
         :param country: name of country
         :return: list of stocks
         """
-
-        def __valid(cou, st_cou):
-            return isinstance(cou, str) and st_cou.lower() == cou.lower()
-
-        return [
-            stock
-            for stock in self.__stocks["companies"]
-            if __valid(country, stock["country"])
-        ]
+        return filter(
+            lambda stock: isinstance(country, str) and stock["country"].lower() == country.lower(),
+            self.__stocks["companies"]
+        )
 
     def index_to_yahoo_symbol(self, index_name):
         """
@@ -105,12 +113,16 @@ class PyTickerSymbols:
         return yahoo_symbol
 
     def __get_items(self, key, val):
-        stocks = [
-            stock
-            for stock in self.__stocks["companies"]
-            for item in stock[key]
-            if isinstance(val, str) and val.lower() == item.lower()
-        ]
+        stocks =  filter(
+            lambda item: len(
+                list(
+                    filter(
+                        lambda sub_item: isinstance(val, str) and val.lower() == sub_item.lower(), item[key]
+                    )
+                )
+            ) > 0,
+            self.__stocks["companies"]
+        )
         return stocks
 
     def __get_sub_items(self, key):
