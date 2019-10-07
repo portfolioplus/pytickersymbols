@@ -8,7 +8,8 @@
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
-VERSION = '1.1.8'
+
+VERSION = '1.1.9'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()

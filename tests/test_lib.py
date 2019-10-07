@@ -13,6 +13,13 @@ from pytickersymbols import PyTickerSymbols
 
 class TestLib(unittest.TestCase):
 
+    def test_singleton(self):
+        """
+        Test singleton pattern
+        :return:
+        """
+        self.assertTrue(id(PyTickerSymbols()) == id(PyTickerSymbols()))
+
     def test_index(self):
         """
         Test index getter
@@ -37,7 +44,7 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        dax = stock_data.get_stocks_by_index('DAX')
+        dax = list(stock_data.get_stocks_by_index('DAX'))
         self.assertEqual(dax[10]['name'], 'Deutsche Börse AG')
 
 
@@ -48,7 +55,7 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        countries = stock_data.get_all_countries()
+        countries = list(stock_data.get_all_countries())
         self.assertIsNotNone(countries)
         self.assertIn("Germany", countries)
         self.assertIn("Netherlands", countries)
@@ -65,7 +72,7 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        industries = stock_data.get_all_industries()
+        industries = list(stock_data.get_all_industries())
         self.assertIsNotNone(industries)
         self.assertIn("Computer Hardware", industries)
         self.assertIn("Gold", industries)
@@ -82,16 +89,16 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        stocks = stock_data.get_stocks_by_index(None)
+        stocks = list(stock_data.get_stocks_by_index(None))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_index(False)
+        stocks = list(stock_data.get_stocks_by_index(False))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_index(True)
+        stocks = list(stock_data.get_stocks_by_index(True))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_index(22)
+        stocks = list(stock_data.get_stocks_by_index(22))
         self.assertEqual(len(stocks), 0)
         for ind, ctx in [('DAX',  30), ('CAC 40',  40)]:
-            stocks = stock_data.get_stocks_by_index(ind)
+            stocks = list(stock_data.get_stocks_by_index(ind))
             self.assertIsNotNone(stocks)
             self.assertEqual(len(stocks), ctx)
             for stock in stocks:
@@ -108,15 +115,15 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        stocks = stock_data.get_stocks_by_country(None)
+        stocks = list(stock_data.get_stocks_by_country(None))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_country(False)
+        stocks = list(stock_data.get_stocks_by_country(False))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_country(True)
+        stocks = list(stock_data.get_stocks_by_country(True))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_country(22)
+        stocks = list(stock_data.get_stocks_by_country(22))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_country("Israel")
+        stocks = list(stock_data.get_stocks_by_country("Israel"))
         self.assertIsNotNone(stocks)
         self.assertTrue(len(stocks) >= 1)
         for stock in stocks:
@@ -132,15 +139,15 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        stocks = stock_data.get_stocks_by_industry(None)
+        stocks = list(stock_data.get_stocks_by_industry(None))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_industry(False)
+        stocks = list(stock_data.get_stocks_by_industry(False))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_industry(True)
+        stocks = list(stock_data.get_stocks_by_industry(True))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_industry(22)
+        stocks = list(stock_data.get_stocks_by_industry(22))
         self.assertEqual(len(stocks), 0)
-        stocks = stock_data.get_stocks_by_industry("Basic Materials")
+        stocks = list(stock_data.get_stocks_by_industry("Basic Materials"))
         self.assertIsNotNone(stocks)
         for stock in stocks:
             is_in_basic = False
