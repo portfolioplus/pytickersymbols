@@ -49,8 +49,10 @@ class PyTickerSymbols:
         Returns all available countries
         :return: list of country names
         """
-        countries = set(
-            map(lambda stock: stock['country'], self.__stocks["companies"])
+        countries = list(
+            set(
+                map(lambda stock: stock['country'], self.__stocks["companies"])
+            )
         )
         return countries
 
