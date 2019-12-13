@@ -7,6 +7,7 @@
 """
 import unittest
 import yfinance as yf
+from functools import reduce
 
 from pytickersymbols import PyTickerSymbols
 
@@ -107,6 +108,20 @@ class TestLib(unittest.TestCase):
                     if ind in index:
                         is_in = True
                 self.assertTrue(is_in)
+        # test NASDAQ 100
+        stocks_nasdaq = list(stock_data.get_stocks_by_index('NASDAQ 100'))
+        stocks_nasdaq_symbol = [sym['yahoo'] for stock in stocks_nasdaq for sym in stock['symbols']]
+        symbols_nasdaq = list(stock_data.get_yahoo_ticker_symbols_by_index('NASDAQ 100'))
+        symbols_nasdaq = reduce(lambda x,y: x+y,symbols_nasdaq)
+        self.assertEqual(len(stocks_nasdaq_symbol), len(symbols_nasdaq))
+        self.assertIn('GOOGL', symbols_nasdaq)
+        self.assertIn('GOOG', symbols_nasdaq)
+        y_ticker = yf.Ticker('GOOG')
+        data = y_ticker.history(period='4d')
+        self.assertIsNotNone(data)
+        y_ticker = yf.Ticker('GOOGL')
+        data = y_ticker.history(period='4d')
+        self.assertIsNotNone(data)
 
     def test_stocks_by_country(self):
         """
