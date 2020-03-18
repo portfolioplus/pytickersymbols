@@ -57,4 +57,4 @@ uk_stocks = stock_data.get_stocks_by_index('FTSE 100')
 
 ## issue tracker
 
-[https://github.com/portfolioplus/pytickersymbols/issuese](https://github.com/portfolioplus/pytickersymbols/issues")
+https://github.com/portfolioplus/pytickersymbols/issues
