@@ -18,9 +18,7 @@ class Singleton(type):
             cls.instance = super(Singleton, cls).__call__(*args, **kw)
         return cls.instance
 
-class PyTickerSymbols:
-
-    __metaclass__ = Singleton
+class PyTickerSymbols(metaclass=Singleton):
 
     def __init__(self):
         self.__stocks = None

@@ -19,7 +19,7 @@ class TestLib(unittest.TestCase):
         Test singleton pattern
         :return:
         """
-        self.assertTrue(id(PyTickerSymbols()) == id(PyTickerSymbols()))
+        self.assertTrue(PyTickerSymbols() is PyTickerSymbols())
 
     def test_index(self):
         """
@@ -217,7 +217,6 @@ class TestLib(unittest.TestCase):
                 data = y_ticker.history(period='4d')
                 self.assertIsNotNone(data)
                 self.assertIn("Close", data)
-                self.assertTrue(len(data["Close"]) > 0)
 
     def test_index_to_yahoo(self):
         stock_data = PyTickerSymbols()
