@@ -1,9 +1,0 @@
-image:
-  file: .gitpod.Dockerfile
-tasks:
-- init: install dev
-  command: pip3 install -r requirements-dev.txt
-- init: create json
-  command: python3 yaml2json.py
-- init: Fix credential issue
-  command: git config --global --unset credential.helper
