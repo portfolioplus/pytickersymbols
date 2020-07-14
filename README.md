@@ -24,8 +24,9 @@ pytickersymbols provides access to google and yahoo ticker symbols for all stock
 - [x] SDAX
 - [x] SMI
 - [x] TECDAX
-
+- [x] MOEX
 ## install
+
 
 ```shell
 pip install pytickersymbols
