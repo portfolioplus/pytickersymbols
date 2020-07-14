@@ -20,3 +20,4 @@ build/*
 .vscode/*
 src/pytickersymbols/data/stocks.json
 .theia/*
+stockswithmetadata.yaml
