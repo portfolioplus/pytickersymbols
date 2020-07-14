@@ -43,6 +43,8 @@ indices:
   yahoo: ^CM100
 - name: EURO STOXX 50
   yahoo: ^STOXX50E
+- name: MOEX
+  yahoo: MOEX.ME
 companies:
 - id: 1
   name: adidas AG
@@ -2790,7 +2792,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: BSU
     google: FRA:BSU
@@ -2975,7 +2976,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: DCC.F
     google: FRA:DCC
@@ -4204,7 +4204,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: NEF.F
     google: FRA:NEF
@@ -5216,7 +5215,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: CHV.F
     google: FRA:CHV
@@ -5286,7 +5284,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: XONA.F
     google: FRA:XONA
@@ -10269,7 +10266,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: AHC.F
     google: FRA:AHC
@@ -10317,7 +10313,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: HL8.F
     google: FRA:HL8
@@ -11098,7 +11093,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: MPN.F
     google: FRA:MPN
@@ -11700,7 +11694,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: R66.F
     google: FRA:R66
@@ -12741,7 +12734,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: V1L.F
     google: FRA:V1L
@@ -13878,7 +13870,6 @@ companies:
   - Energy
   - Fossil Fuels
   - Oil & Gas
-  - Oil & Gas Refining and Marketing
   symbols:
   - yahoo: REP.F
     google: FRA:REP
@@ -14919,3 +14910,582 @@ companies:
     google: FRA:2X0
   - yahoo: CTVA
     google: NYSE:CTVA
+- id: 956
+  name: Aeroflot
+  symbol: MCX:AFLT
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Passenger Transportation Services
+  - Industrials
+  - Airlines
+  - Transportation
+  symbols:
+  - yahoo: AETG.F
+    google: FRA:AETG
+- id: 957
+  name: Alrosa
+  symbol: MCX:ALRS
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Diamonds
+  symbols:
+  - yahoo: ALRS.ME
+    google: MCX:ALRS
+- id: 958
+  name: Credit Bank of Moscow
+  symbol: MCX:CBOM
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Banking
+  symbols:
+  - yahoo: CBOM.ME
+    google: MCX:CBOM
+- id: 959
+  name: PAO Detsky Mir
+  symbol: MCX:DSKY
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Cyclical Consumer Products
+  - Leisure Products
+  - Toys & Juvenile Products
+  - Consumer Cyclicals
+  symbols:
+  - yahoo: DSKY.ME
+    google: MCX:DSKY
+- id: 960
+  name: Federal Grid Company of Unified Energy System JSC
+  symbol: MCX:FEES
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Multiline Utilities
+  - Utilities
+  symbols:
+  - yahoo: FEES.ME
+    google: MCX:FEES
+- id: 961
+  name: Gazprom
+  symbol: MCX:GAZP
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Oil & Gas
+  symbols:
+  - yahoo: GAZ.F
+    google: FRA:GAZ
+  - yahoo: OGZPY
+    google: OTCMKTS:OGZPY
+  - yahoo: GAZP.ME
+    google: MCX:GAZP
+- id: 962
+  name: Inter RAO UES
+  symbol: MCX:IRAO
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  symbols:
+  - yahoo: IRAO.ME
+    google: MCX:IRAO
+- id: 963
+  name: Lukoil
+  symbol: MCX:LKOH
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  symbols:
+  - yahoo: LUK.F
+    google: FRA:LUK
+  - yahoo: LUKOY
+    google: OTCMKTS:LUKOY
+  - yahoo: LKOH.ME
+    google: MCX:LKOH
+- id: 964
+  name: M.video
+  symbol: MCX:MVID
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Technology
+  - Software & IT Services
+  - Internet Services
+  symbols:
+  - yahoo: MVID.ME
+    google: MCX:MVID
+- id: 965
+  name: Magnit
+  symbol: MCX:MGNT
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Food & Beverages
+  - Consumer Non-Cyclicals
+  - Food Processing
+  symbols:
+  - yahoo: 5M71.F
+    google: FRA:5M71
+  - yahoo: MGNT.ME
+    google: MCX:MGNT
+- id: 966
+  name: MegaFon
+  symbol: MCX:MFON
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Telecommunications Services
+  - Integrated Telecommunications Services
+  symbols:
+  - yahoo: MFON.ME
+    google: MCX:MFON
+- id: 967
+  name: Mechel PAO
+  symbol: MCX:MTLR
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Coal
+  - Metals & Mining
+  - Mineral Resources
+  symbols:
+  - yahoo: MHSE.F
+    google: FRA:MHSE
+  - yahoo: MTL
+    google: NYSE:MTL
+- id: 968
+  name: Magnitogorsk Iron and Steel Works
+  symbol: MCX:MAGN
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Coal
+  - Metals & Mining
+  - Mineral Resources
+  symbols:
+  - yahoo: MHQ.F
+    google: FRA:MHQ
+  - yahoo: MAGN.ME
+    google: MCX:MAGN
+- id: 969
+  name: Moscow Exchange
+  symbol: MCX:MOEX
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Real Estate
+  - Investment Banking & Investment Services
+  - Real Estate Development & Operations
+  - Financial & Commodity Market Operators
+  - Real Estate Operations
+  - Financials
+  - Banking & Investment Services
+  symbols:
+  - yahoo: MOEX.ME
+    google: MCX:MOEX
+- id: 970
+  name: Mobile TeleSystems
+  symbol: MCX:MTSS
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Telecommunications Services
+  - Integrated Telecommunications Services
+  symbols:
+  - yahoo: MKY.F
+    google: FRA:MKY
+  - yahoo: MBT
+    google: NYSE:MBT
+  - yahoo: MTSS.ME
+    google: MCX:MTSS
+- id: 971
+  name: Norilsk Nickel
+  symbol: MCX:GMKN
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Metals & Mining
+  - Mineral Resources
+  symbols:
+  - yahoo: NNIC.F
+    google: FRA:NNIC
+  - yahoo: NILSY
+    google: OTCMKTS:NILSY
+  - yahoo: GMKN.ME
+    google: MCX:GMKN
+- id: 972
+  name: Novolipetsk Steel
+  symbol: MCX:NLMK
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Steel
+  symbols:
+  - yahoo: N7MG.F
+    google: FRA:N7MG
+  - yahoo: NLMK.ME
+    google: MCX:NLMK
+- id: 973
+  name: Novatek
+  symbol: MCX:NVTK
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Gas
+  symbols:
+  - yahoo: N1O.F
+    google: FRA:N1O
+  - yahoo: NOVKY
+    google: OTCMKTS:NOVKY
+  - yahoo: NVTK.ME
+    google: MCX:NVTK
+- id: 974
+  name: PAO TMK
+  symbol: MCX:TRMK
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Steel
+  symbols:
+  - yahoo: N9E1.F
+    google: FRA:N9E1
+  - yahoo: TMKXY
+    google: OTCMKTS:TMKXY
+  - yahoo: TRMK.ME
+    google: MCX:TRMK
+- id: 975
+  name: JSC PhosAgro
+  symbol: MCX:PHOR
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Diversified Chemicals
+  - Basic Materials
+  - Chemicals
+  symbols:
+  - yahoo: P6SG.F
+    google: FRA:P6SG
+  - yahoo: PHOJY
+    google: OTCMKTS:PHOJY
+  - yahoo: PHOR.ME
+    google: MCX:PHOR
+- id: 976
+  name: PIK Group
+  symbol: MCX:PIKK
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Real estate
+  - Construction
+  symbols:
+  - yahoo: PIKK.ME
+    google: MCX:PIKK
+- id: 977
+  name: Polymetal International
+  symbol: MCX:POLY
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Metals & Mining
+  - Mineral Resources
+  - Gold
+  - Basic Materials
+  symbols:
+  - yahoo: PM6.F
+    google: FRA:PM6
+  - yahoo: AUCOY
+    google: OTCMKTS:AUCOY
+  - yahoo: POLY.ME
+    google: MCX:POLY
+- id: 978
+  name: Polyus
+  symbol: MCX:PLZL
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Metals & Mining
+  - Mineral Resources
+  - Gold
+  - Basic Materials
+  symbols:
+  - yahoo: P6J1.F
+    google: FRA:P6J1
+  - yahoo: OPYGY
+    google: OTCMKTS:OPYGY
+  - yahoo: PLZL.ME
+    google: MCX:PLZL
+- id: 979
+  name: Rosneft
+  symbol: MCX:ROSN
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Gas
+  symbols:
+  - yahoo: OJS1.F
+    google: FRA:OJS1
+  - yahoo: OJSCY
+    google: OTCMKTS:OJSCY
+  - yahoo: ROSN.ME
+    google: MCX:ROSN
+- id: 980
+  name: Rostelecom
+  symbol: MCX:RTKM
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Telecommunications Services
+  - Integrated Telecommunications Services
+  symbols:
+  - yahoo: RTL.F
+    google: FRA:RTL
+  - yahoo: ROSYY
+    google: OTCMKTS:ROSYY
+  - yahoo: RTKM.ME
+    google: MCX:RTKM
+- id: 981
+  name: United Company RUSAL
+  symbol: MCX:RUAL
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Aluminium
+  symbols:
+  - yahoo: R6L.F
+    google: FRA:R6L
+  - yahoo: RUAL.ME
+    google: MCX:RUAL
+- id: 982
+  name: RusHydro
+  symbol: MCX:HYDR
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Electric utility
+  - Hydroelectrical power
+  symbols:
+  - yahoo: RG2A.F
+    google: FRA:RG2A
+  - yahoo: RSHYY
+    google: OTCMKTS:RSHYY
+  - yahoo: RTKM.ME
+    google: MCX:RTKM
+- id: 983
+  name: Russneft
+  symbol: MCX:RNFT
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Refining
+  symbols:
+  - yahoo: RNFT.ME
+    google: MCX:RNFT
+- id: 984
+  name: SAFMAR
+  symbol: MCX:RNFT
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Oil
+  symbols:
+  - yahoo: RNFT.ME
+    google: MCX:RNFT
+- id: 985
+  name: Sberbank of Russia
+  symbol: MCX:SBER
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Banking
+  symbols:
+  - yahoo: SBNC.F
+    google: FRA:SBNC
+  - yahoo: SBRCY
+    google: OTCMKTS:SBRCY
+  - yahoo: SBER.ME
+    google: MCX:SBER
+- id: 986
+  name: Severstal
+  symbol: MCX:CHMF
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Steel
+  - Mining
+  symbols:
+  - yahoo: RTS2.F
+    google: FRA:RTS2
+  - yahoo: SVJTY
+    google: OTCMKTS:SVJTY
+  - yahoo: CHMF.ME
+    google: MCX:CHMF
+- id: 987
+  name: Sistema
+  symbol: MCX:AFKS
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Banking
+  - Real Estate
+  - Media
+  - Tourism
+  symbols:
+  - yahoo: AFKS.ME
+    google: MCX:AFKS
+- id: 987
+  name: Surgutneftegas
+  symbol: MCX:SNGS
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Oil & Gas
+  symbols:
+  - yahoo: SGNV.F
+    google: FRA:SGNV
+  - yahoo: SGTPY
+    google: OTCMKTS:SGTPY
+  - yahoo: SNGS.ME
+    google: MCX:SNGS
+- id: 987
+  name: Tatneft
+  symbol: MCX:TATN
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Oil & Gas
+  symbols:
+  - yahoo: TTFB.F
+    google: FRA:TTFB
+  - yahoo: OAOFY
+    google: OTCMKTS:OAOFY
+  - yahoo: TATN.ME
+    google: MCX:TATN
+- id: 988
+  name: Transneft
+  symbol: MCX:TRNFP
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Energy
+  - Fossil Fuels
+  - Oil & Gas
+  symbols:
+  - yahoo: TRNFP.ME
+    google: MCX:TRNFP
+- id: 989
+  name: Unipro
+  symbol: MCX:UPRO
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Electricity
+  - Electric power
+  - Thermal energy
+  symbols:
+  - yahoo: UPRO.ME
+    google: MCX:UPRO
+- id: 990
+  name: United Wagon Company
+  symbol: MCX:UWGN
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Transport machine building
+  symbols:
+  - yahoo: UWGN.ME
+    google: MCX:UWGN
+- id: 991
+  name: VTB Bank
+  symbol: MCX:VTBR
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Banking
+  symbols:
+  - yahoo: KYM1.F
+    google: FRA:KYM1
+  - yahoo: VTBR.ME
+    google: MCX:VTBR
+- id: 992
+  name: X5 Retail Group
+  symbol: MCX:FIVE
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - retail
+  symbols:
+  - yahoo: PJP.F
+    google: FRA:PJP
+  - yahoo: FIVE.ME
+    google: MCX:FIVE
+- id: 992
+  name: Yandex N.V.
+  symbol: NASDAQ:YNDX
+  country: Russia
+  indices:
+  - MOEX
+  industries:
+  - Internet
+  - Search engine
+  symbols:
+  - yahoo: YDX.F
+    google: FRA:YDX
+  - yahoo: YNDX
+    google: NYSE:YNDX
+  - yahoo: YNDX.ME
+    google: MCX:YNDX
