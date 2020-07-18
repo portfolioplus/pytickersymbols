@@ -3629,7 +3629,7 @@ companies:
   - yahoo: R6C.F
     google: FRA:R6C
   - yahoo: RDS-A
-    google: NYSE :RDS-A
+    google: NYSE:RDS-A
   - yahoo: R6C3
     google: FRA:R6C3
   - yahoo: RDS-B
@@ -7794,7 +7794,7 @@ companies:
   - yahoo: UPAB.F
     google: FRA:UPAB
   - yahoo: UPS
-    google: NYSE -:UPS
+    google: NYSE:UPS
 - id: 490
   name: U.S. Bancorp
   symbol: USB
@@ -8715,7 +8715,7 @@ companies:
   - Consumer Cyclicals
   symbols:
   - yahoo: MKO.F
-    google: MKO:CPRI
+    google: FRA:MKO
   - yahoo: CPRI
     google: NYSE:CPRI
 - id: 549
@@ -13768,10 +13768,6 @@ companies:
   symbols:
   - yahoo: COL.MC
     google: BME:COL
-  - yahoo: '-'
-    google: '-'
-  - yahoo: '-'
-    google: '-'
 - id: 876
   name: Mapfre SA
   symbol: MAP
