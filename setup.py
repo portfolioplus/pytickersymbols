@@ -15,7 +15,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 INSTALL_REQUIRES = (
-    ['wheel==0.34.2']
+    ['wheel==0.35.0']
 )
 
 setup(
