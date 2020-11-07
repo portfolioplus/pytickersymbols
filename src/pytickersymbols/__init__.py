@@ -149,3 +149,26 @@ class PyTickerSymbols(metaclass=Singleton):
                     sub_list.append(symbol["yahoo"])
             ticker_list.append(sub_list)
         return ticker_list
+
+
+class Statics:
+    class Indices:
+        DE_SDAX = 'SDAX'
+        RU_MOEX = 'MOEX'
+        GB_FTSE = 'FTSE 100'
+        FI_OMX_25 = 'OMX Helsinki 25'
+        EU_50 = 'EURO STOXX 50'
+        US_SP_100 = 'S&P 100'
+        ES_IBEX_35 = 'IBEX 35'
+        US_DOW = 'DOW JONES'
+        DE_DAX = 'DAX'
+        FR_CAC_60 = 'CAC Mid 60'
+        DE_TECDAX = 'TECDAX'
+        US_NASDAQ = 'NASDAQ 100'
+        CH_20 = 'Switzerland 20'
+        FR_CAC_40 = 'CAC 40'
+        US_SP_500 = 'S&P 500'
+        SE_OMX_30 = 'OMX Stockholm 30'
+        BE_20 = 'BEL 20'
+        DE_MDAX = 'MDAX'
+        NL_AEX = 'AEX'

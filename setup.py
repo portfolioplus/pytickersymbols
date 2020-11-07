@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
 
-VERSION = '1.1.14'
+VERSION = '1.1.15'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
