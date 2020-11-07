@@ -11,8 +11,6 @@ indices:
   yahoo: ^TECDAX
 - name: FTSE 100
   yahoo: ^FTSE
-- name: OMX Helsinki 15
-  yahoo: ^OMXH15
 - name: OMX Helsinki 25
   yahoo: ^OMXH25
 - name: CAC 40
@@ -4896,7 +4894,6 @@ companies:
   symbol: ELI1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Telecommunications Services
@@ -4914,7 +4911,6 @@ companies:
   symbol: FUM1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Utilities
@@ -4931,7 +4927,6 @@ companies:
   symbol: KESBV
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Consumer Non-Cyclicals
@@ -4950,7 +4945,6 @@ companies:
   symbol: KNEBV
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Heavy Electrical Equipment
@@ -4970,7 +4964,6 @@ companies:
   symbol: MEO1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Industrial Goods
@@ -4990,7 +4983,6 @@ companies:
   symbol: NESTE
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Energy
@@ -5009,7 +5001,6 @@ companies:
   symbol: NOKIA
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Technology
@@ -5028,7 +5019,6 @@ companies:
   symbol: NRE1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Tires & Rubber Products
@@ -5047,7 +5037,6 @@ companies:
   symbol: ORNBV
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Pharmaceuticals
@@ -5066,7 +5055,6 @@ companies:
   symbol: OUT1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Metals & Mining
@@ -5086,7 +5074,6 @@ companies:
   symbol: SAMPO
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Insurance
@@ -5105,7 +5092,6 @@ companies:
   symbol: STERV
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Paper & Forest Products
@@ -5125,7 +5111,6 @@ companies:
   symbol: UPM1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries: []
   symbols:
@@ -5141,7 +5126,6 @@ companies:
   symbol: WRT1V
   country: Finland
   indices:
-  - OMX Helsinki 15
   - OMX Helsinki 25
   industries:
   - Industrials
