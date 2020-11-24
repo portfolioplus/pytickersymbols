@@ -9,7 +9,46 @@ import unittest
 import yfinance as yf
 from functools import reduce
 
-from pytickersymbols import PyTickerSymbols
+from pytickersymbols import PyTickerSymbols, Singleton
+import tempfile
+import json
+import yaml
+import pytest
+
+
+_test_json = b'''{
+   "indices": [
+      {
+         "name": "test",
+         "yahoo": "test"
+      }
+   ],
+   "companies": [
+      {
+         "id": 1,
+         "name": "adidas AG",
+         "symbol": "ADS",
+         "country": "Germany",
+         "indices": [
+            "test"
+         ],
+         "industries": [
+            "Footwear"
+         ],
+         "symbols": [
+            {
+               "yahoo": "ADS.F",
+               "google": "FRA:ADS"
+            }
+         ],
+         "metadata": {
+            "founded": 1949,
+            "employees": 57016
+         }
+      }
+    ]
+}
+'''
 
 
 class TestLib(unittest.TestCase):
@@ -20,6 +59,39 @@ class TestLib(unittest.TestCase):
         :return:
         """
         self.assertTrue(PyTickerSymbols() is PyTickerSymbols())
+
+    def tearDown(self):
+        p = PyTickerSymbols()
+        del p
+
+    def test_load_json(self):
+        with pytest.raises(NotImplementedError):
+            PyTickerSymbols(stocks_path='test.dat')
+        with tempfile.NamedTemporaryFile(suffix='.json') as temp:
+            temp.write(_test_json)
+            temp.flush()
+            stocks = PyTickerSymbols(stocks_path=temp.name)
+            indices = stocks.get_all_indices()
+            self.assertEqual(len(indices), 1)
+            self.assertIn('test', indices)
+            stocks = list(stocks.get_stocks_by_index('test'))
+            self.assertEqual(len(stocks), 1)
+            self.assertIn('name', stocks[0])
+            self.assertEqual('adidas AG', stocks[0].get('name', None))
+
+    def test_load_yaml(self):
+        for sufix_test in ['.yaml', '.yml']:
+            with tempfile.NamedTemporaryFile(suffix=sufix_test) as temp:
+                temp.write(str.encode(yaml.dump(json.loads(_test_json.decode('utf-8')))))
+                temp.flush()
+                stocks = PyTickerSymbols(stocks_path=temp.name)
+                indices = stocks.get_all_indices()
+                self.assertEqual(len(indices), 1)
+                self.assertIn('test', indices)
+                stocks = list(stocks.get_stocks_by_index('test'))
+                self.assertEqual(len(stocks), 1)
+                self.assertIn('name', stocks[0])
+                self.assertEqual('adidas AG', stocks[0].get('name', None))
 
     def test_index(self):
         """
@@ -47,7 +119,6 @@ class TestLib(unittest.TestCase):
         self.assertIsNotNone(stock_data)
         dax = list(stock_data.get_stocks_by_index('DAX'))
         self.assertEqual(dax[10]['name'], 'Deutsche Börse AG')
-
 
     def test_country(self):
         """
@@ -98,7 +169,7 @@ class TestLib(unittest.TestCase):
         self.assertEqual(len(stocks), 0)
         stocks = list(stock_data.get_stocks_by_index(22))
         self.assertEqual(len(stocks), 0)
-        for ind, ctx in [('DAX',  30), ('CAC 40',  40)]:
+        for ind, ctx in [('DAX', 30), ('CAC 40', 40)]:
             stocks = list(stock_data.get_stocks_by_index(ind))
             self.assertIsNotNone(stocks)
             self.assertEqual(len(stocks), ctx)
@@ -112,7 +183,7 @@ class TestLib(unittest.TestCase):
         stocks_nasdaq = list(stock_data.get_stocks_by_index('NASDAQ 100'))
         stocks_nasdaq_symbol = [sym['yahoo'] for stock in stocks_nasdaq for sym in stock['symbols']]
         symbols_nasdaq = list(stock_data.get_yahoo_ticker_symbols_by_index('NASDAQ 100'))
-        symbols_nasdaq = reduce(lambda x,y: x+y,symbols_nasdaq)
+        symbols_nasdaq = reduce(lambda x, y: x + y, symbols_nasdaq)
         self.assertEqual(len(stocks_nasdaq_symbol), len(symbols_nasdaq))
         self.assertIn('GOOGL', symbols_nasdaq)
         self.assertIn('GOOG', symbols_nasdaq)

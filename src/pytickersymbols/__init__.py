@@ -7,40 +7,73 @@
 """
 import os
 import json
+import yaml
+from weakref import WeakValueDictionary
+
+__version__ = "1.1.15"
+
 
 class Singleton(type):
-    def __init__(cls, name, bases, my_dict):
-        super(Singleton, cls).__init__(name, bases, my_dict)
-        cls.instance = None
+    _instances = WeakValueDictionary()
 
-    def __call__(cls,*args,**kw):
-        if cls.instance is None:
-            cls.instance = super(Singleton, cls).__call__(*args, **kw)
-        return cls.instance
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            instance = super(Singleton, cls).__call__(*args, **kwargs)
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
 
 class PyTickerSymbols(metaclass=Singleton):
-
-    def __init__(self):
+    def __init__(self, stocks_path=''):
         self.__stocks = None
-        json_path = os.path.join(
-            os.path.dirname(os.path.realpath(__file__)), "data", "stocks.json"
-        )
-        with open(json_path) as stocks:
+        if not stocks_path:
+            json_path = os.path.join(
+                os.path.dirname(os.path.realpath(__file__)),
+                'data',
+                'stocks.json',
+            )
+            with open(json_path) as stocks:
+                self.__stocks = json.load(stocks)
+        else:
+            if stocks_path.lower().endswith(
+                '.yaml'
+            ) or stocks_path.lower().endswith('.yml'):
+                self.load_yaml(stocks_path)
+            elif stocks_path.lower().endswith('.json'):
+                self.load_json(stocks_path)
+            else:
+                raise NotImplementedError(
+                    f'File {stocks_path} is not supported.'
+                    'File should be end with yaml, yml or json.'
+                )
+
+    def load_json(self, path):
+        """
+        Loads external json stock file
+        """
+        with open(path) as stocks:
             self.__stocks = json.load(stocks)
+
+    def load_yaml(self, path):
+        """
+        Loads external yaml stock file
+        """
+        with open(path) as stocks:
+            self.__stocks = yaml.load(stocks, Loader=yaml.FullLoader)
 
     def get_all_indices(self):
         """
         Returns all available indices
         :return: list of index names
         """
-        return self.__get_sub_items("indices")
+        return self.__get_sub_items('indices')
 
     def get_all_industries(self):
         """
         Returns all available industries
         :return: list of industries
         """
-        return self.__get_sub_items("industries")
+        return self.__get_sub_items('industries')
 
     def get_all_countries(self):
         """
@@ -49,7 +82,7 @@ class PyTickerSymbols(metaclass=Singleton):
         """
         countries = list(
             set(
-                map(lambda stock: stock['country'], self.__stocks["companies"])
+                map(lambda stock: stock['country'], self.__stocks['companies'])
             )
         )
         return countries
@@ -60,7 +93,7 @@ class PyTickerSymbols(metaclass=Singleton):
         :param index: name of index
         :return: list of stocks
         """
-        return self.__get_items("indices", index)
+        return self.__get_items('indices', index)
 
     def get_yahoo_ticker_symbols_by_index(self, index):
         """
@@ -68,7 +101,7 @@ class PyTickerSymbols(metaclass=Singleton):
         :param index: name of index
         :return: list of yahoo ticker symbols
         """
-        my_items = self.__get_items("indices", index)
+        my_items = self.__get_items('indices', index)
         return self.__filter_data(my_items, False, True)
 
     def get_google_ticker_symbols_by_index(self, index):
@@ -77,7 +110,7 @@ class PyTickerSymbols(metaclass=Singleton):
         :param index: name of index
         :return: list of google ticker symbols
         """
-        my_items = self.__get_items("indices", index)
+        my_items = self.__get_items('indices', index)
         return self.__filter_data(my_items, True, False)
 
     def get_stocks_by_industry(self, industry):
@@ -86,7 +119,7 @@ class PyTickerSymbols(metaclass=Singleton):
         :param industry: name of index
         :return: list of stocks
         """
-        return self.__get_items("industries", industry)
+        return self.__get_items('industries', industry)
 
     def get_stocks_by_country(self, country):
         """
@@ -95,8 +128,9 @@ class PyTickerSymbols(metaclass=Singleton):
         :return: list of stocks
         """
         return filter(
-            lambda stock: isinstance(country, str) and stock["country"].lower() == country.lower(),
-            self.__stocks["companies"]
+            lambda stock: isinstance(country, str)
+            and stock['country'].lower() == country.lower(),
+            self.__stocks['companies'],
         )
 
     def index_to_yahoo_symbol(self, index_name):
@@ -106,22 +140,25 @@ class PyTickerSymbols(metaclass=Singleton):
         :return: yahoo symbol
         """
         yahoo_symbol = None
-        for index_item in self.__stocks["indices"]:
+        for index_item in self.__stocks['indices']:
             if index_item['name'] == index_name:
                 yahoo_symbol = index_item['yahoo']
                 break
         return yahoo_symbol
 
     def __get_items(self, key, val):
-        stocks =  filter(
+        stocks = filter(
             lambda item: len(
                 list(
                     filter(
-                        lambda sub_item: isinstance(val, str) and val.lower() == sub_item.lower(), item[key]
+                        lambda sub_item: isinstance(val, str)
+                        and val.lower() == sub_item.lower(),
+                        item[key],
                     )
                 )
-            ) > 0,
-            self.__stocks["companies"]
+            )
+            > 0,
+            self.__stocks['companies'],
         )
         return stocks
 
@@ -130,7 +167,7 @@ class PyTickerSymbols(metaclass=Singleton):
             set(
                 [
                     item
-                    for stock in self.__stocks["companies"]
+                    for stock in self.__stocks['companies']
                     for item in stock[key]
                 ]
             )
@@ -142,11 +179,11 @@ class PyTickerSymbols(metaclass=Singleton):
         ticker_list = []
         for stock in stocks:
             sub_list = []
-            for symbol in stock["symbols"]:
-                if google and "google" in symbol and symbol["google"] != "-":
-                    sub_list.append(symbol["google"])
-                if yahoo and "yahoo" in symbol and symbol["yahoo"] != "-":
-                    sub_list.append(symbol["yahoo"])
+            for symbol in stock['symbols']:
+                if google and 'google' in symbol and symbol['google'] != '-':
+                    sub_list.append(symbol['google'])
+                if yahoo and 'yahoo' in symbol and symbol['yahoo'] != '-':
+                    sub_list.append(symbol['yahoo'])
             ticker_list.append(sub_list)
         return ticker_list
 

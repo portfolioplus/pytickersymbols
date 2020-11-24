@@ -5,18 +5,24 @@
   Use of this source code is governed by an MIT-style license that
   can be found in the LICENSE file.
 """
+import re
 from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
 
-VERSION = '1.1.15'
+VERSION = '0.0.0'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 INSTALL_REQUIRES = (
-    ['wheel==0.35.1']
+    ['wheel==0.35.1', 'PyYAML==5.3.1']
 )
+
+with open('src/pytickersymbols/__init__.py', 'r') as fd:
+    VERSION = re.search(
+        r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
+    ).group(1)
 
 setup(
     name="pytickersymbols",

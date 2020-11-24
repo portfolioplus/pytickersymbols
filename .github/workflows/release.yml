@@ -1,0 +1,46 @@
+name: Release Build
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  # Test
+  test:
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: [3.8]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install dependencies
+        run: pip install tox
+      - name: Run tests
+        run: tox
+      - name: Publish Unit Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v1.5
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          files: test-results/**/*.xml
+
+  # Create a new semantic release
+  release:
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Python Semantic Release
+        uses: relekang/python-semantic-release@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pypi_token: ${{ secrets.PYPI_TOKEN_PP }}
