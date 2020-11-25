@@ -1,0 +1,47 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [master]
+jobs:
+  # Test
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: [3.8]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install dependencies
+        run: pip install tox
+      - name: Run tests
+        run: |
+          tox
+      - name: Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          parallel: true
+          debug: true
+      - name: Publish Unit Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v1.5
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          files: test-results/**/*.xml
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+  coveralls_finish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: AndreMiras/coveralls-python-action@develop
+      with:
+        parallel-finished: true
+        debug: true
