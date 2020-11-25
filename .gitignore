@@ -22,3 +22,4 @@ src/pytickersymbols/data/stocks.json
 .theia/*
 stockswithmetadata.yaml
 tools/src/pytickersymbols/data/stocks.json
+test-results/test.xml
