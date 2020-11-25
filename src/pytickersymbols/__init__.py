@@ -59,7 +59,7 @@ class PyTickerSymbols(metaclass=Singleton):
         Loads external yaml stock file
         """
         with open(path) as stocks:
-            self.__stocks = yaml.load(stocks, Loader=yaml.FullLoader)
+            self.__stocks = yaml.safe_load(stocks)
 
     def get_all_indices(self):
         """
