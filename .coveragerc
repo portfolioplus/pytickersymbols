@@ -1,0 +1,9 @@
+[run]
+relative_files = True
+
+[report]
+omit =
+    */python?.?/*
+    */pypy/*
+    */site-packages/nose/*
+    tests/*
