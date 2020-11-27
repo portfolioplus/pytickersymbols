@@ -2,6 +2,7 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/pytickersymbols?style=plastic)
 [![Coverage Status](https://coveralls.io/repos/github/portfolioplus/pytickersymbols/badge.svg?branch=master)](https://coveralls.io/github/portfolioplus/pytickersymbols?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3a4c80c87cd041129cae251d6acb39c7)](https://www.codacy.com/app/SlashGordon/pytickersymbols?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=portfolioplus/pytickersymbols&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fportfolioplus%2Fpytickersymbols.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fportfolioplus%2Fpytickersymbols?ref=badge_shield)
 
 # pytickersymbols
 
@@ -61,3 +62,7 @@ print(list(uk_stocks))
 ## issue tracker
 
 https://github.com/portfolioplus/pytickersymbols/issues
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fportfolioplus%2Fpytickersymbols.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fportfolioplus%2Fpytickersymbols?ref=badge_large)
