@@ -52,7 +52,6 @@ _test_json = b'''{
 
 
 class TestLib(unittest.TestCase):
-
     def test_singleton(self):
         """
         Test singleton pattern
@@ -82,7 +81,11 @@ class TestLib(unittest.TestCase):
     def test_load_yaml(self):
         for sufix_test in ['.yaml', '.yml']:
             with tempfile.NamedTemporaryFile(suffix=sufix_test) as temp:
-                temp.write(str.encode(yaml.dump(json.loads(_test_json.decode('utf-8')))))
+                temp.write(
+                    str.encode(
+                        yaml.dump(json.loads(_test_json.decode('utf-8')))
+                    )
+                )
                 temp.flush()
                 stocks = PyTickerSymbols(stocks_path=temp.name)
                 indices = stocks.get_all_indices()
@@ -102,13 +105,23 @@ class TestLib(unittest.TestCase):
         self.assertIsNotNone(stock_data)
         indices = stock_data.get_all_indices()
         self.assertIsNotNone(indices)
-        self.assertIn("DAX", indices)
-        self.assertIn("SDAX", indices)
-        self.assertIn("MDAX", indices)
+        self.assertIn('DAX', indices)
+        self.assertIn('SDAX', indices)
+        self.assertIn('MDAX', indices)
         # duplicates are not allowed
         for index in indices:
             lenl = len([tmp for tmp in indices if tmp == index])
             self.assertEqual(lenl, 1)
+
+    def test_all_stocks(self):
+        """
+        Test stocks getter
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        self.assertIsNotNone(stock_data)
+        stocks = stock_data.get_all_stocks()
+        self.assertTrue(len(stocks) > 900)
 
     def test_encoding(self):
         """
@@ -181,8 +194,12 @@ class TestLib(unittest.TestCase):
                 self.assertTrue(is_in)
         # test NASDAQ 100
         stocks_nasdaq = list(stock_data.get_stocks_by_index('NASDAQ 100'))
-        stocks_nasdaq_symbol = [sym['yahoo'] for stock in stocks_nasdaq for sym in stock['symbols']]
-        symbols_nasdaq = list(stock_data.get_yahoo_ticker_symbols_by_index('NASDAQ 100'))
+        stocks_nasdaq_symbol = [
+            sym['yahoo'] for stock in stocks_nasdaq for sym in stock['symbols']
+        ]
+        symbols_nasdaq = list(
+            stock_data.get_yahoo_ticker_symbols_by_index('NASDAQ 100')
+        )
         symbols_nasdaq = reduce(lambda x, y: x + y, symbols_nasdaq)
         self.assertEqual(len(stocks_nasdaq_symbol), len(symbols_nasdaq))
         self.assertIn('GOOGL', symbols_nasdaq)

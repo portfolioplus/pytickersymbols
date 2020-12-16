@@ -68,6 +68,13 @@ class PyTickerSymbols(metaclass=Singleton):
         """
         return self.__get_sub_items('indices')
 
+    def get_all_stocks(self):
+        """
+        Returns all available stocks
+        :return: list of index stock objects
+        """
+        return self.__stocks['companies']
+
     def get_all_industries(self):
         """
         Returns all available industries
