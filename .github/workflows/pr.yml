@@ -33,9 +33,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           files: test-results/**/*.xml
       - name: Coveralls
-        uses: coverallsapp/github-action@master
+        uses: AndreMiras/coveralls-python-action@develop
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel: true
+          debug: true
   coveralls_finish:
     needs: test
     runs-on: ubuntu-latest
