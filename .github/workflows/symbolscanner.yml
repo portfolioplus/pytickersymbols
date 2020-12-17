@@ -1,0 +1,33 @@
+name: Symbolscanner
+
+on:
+  schedule:
+    - cron:  '0 13 * * 1'
+  workflow_dispatch:
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: pip install pysymbolscanner
+      - name: Run scanner
+        run: pysymbolscanner --input stocks.yaml --output stocks.yaml
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'fix: update stock symbols'
+          title: 'fix: update index components'
+          body: |
+            Auto-generated PR by pysymbolscanner
+          labels: Cron
+          branch-suffix: timestamp
+          branch: feature/fix_indices_components
+          base: master
