@@ -290,7 +290,7 @@ class TestLib(unittest.TestCase):
         for test_item in test_list:
             self.assertEqual(len(test_item), 30)
             for tickers in test_item:
-                self.assertEqual(len(tickers), 2)
+                self.assertTrue(len(tickers) >= 2)
 
     def test_tickers_valid(self):
         """

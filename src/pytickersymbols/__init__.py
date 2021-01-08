@@ -32,7 +32,7 @@ class PyTickerSymbols(metaclass=Singleton):
                 'data',
                 'stocks.json',
             )
-            with open(json_path) as stocks:
+            with open(json_path, errors='replace') as stocks:
                 self.__stocks = json.load(stocks)
         else:
             if stocks_path.lower().endswith(
