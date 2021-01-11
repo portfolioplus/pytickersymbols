@@ -590,15 +590,9 @@ companies:
   - yahoo: MKGAF
     google: OTCMKTS:MKGAF
     currency: USD
-  - yahoo: 6MK.F
-    google: FRA:6MK
-    currency: EUR
   - yahoo: MRKC.F
     google: FRA:MRKC
     currency: EUR
-  - yahoo: MRK
-    google: NYSE:MRK
-    currency: USD
   metadata:
     founded: 1668
     employees: 57071
@@ -621,9 +615,11 @@ companies:
   - yahoo: MURGY
     google: OTCMKTS:MURGY
     currency: USD
+  isins:
+  - DE0008430026
   metadata:
-    founded: unknown
-    employees: unknown
+    founded: 1880
+    employees: 39662
 - id: 23
   name: RWE AG
   symbol: RWE
@@ -20390,9 +20386,11 @@ companies:
   - yahoo: TEF
     google: NYSE:TEF
     currency: USD
+  isins:
+  - ES0178430E18
   metadata:
-    founded: unknown
-    employees: unknown
+    founded: 1924
+    employees: 120138
 - id: 873
   name: Viscofan SA
   symbol: VIS
@@ -22495,9 +22493,6 @@ companies:
   - yahoo: RSHYY
     google: OTCMKTS:RSHYY
     currency: USD
-  - yahoo: RTKM.ME
-    google: MCX:RTKM
-    currency: RUB
   - yahoo: HYDR.ME
     google: MCX:HYDR
     currency: RUB
@@ -22522,7 +22517,7 @@ companies:
     employees: 20000
 - id: 966
   name: SAFMAR
-  symbol: MCX:RNFT
+  symbol: SFIN
   country: Russia
   indices: []
   industries:
@@ -22530,8 +22525,8 @@ companies:
   - Fossil Fuels
   - Oil
   symbols:
-  - yahoo: RNFT.ME
-    google: MCX:RNFT
+  - yahoo: SFIN.ME
+    google: MCX:SFIN
     currency: RUB
   metadata:
     founded: 2015
@@ -25718,24 +25713,6 @@ companies:
     founded: 1987
     employees: 145247
   id: 1142
-- name: "M\xFCnchener R\xFCckversicherungs-Gesellschaft AG"
-  wiki_name: Munich Re Group
-  symbol: MUV2
-  country: Germany
-  indices:
-  - EURO STOXX 50
-  industries:
-  - Financial services
-  symbols:
-  - yahoo: MUV2.F
-    google: FRA:MUV2
-    currency: EUR
-  isins:
-  - DE0008430026
-  metadata:
-    founded: 1880
-    employees: 39662
-  id: 1143
 - name: "Soci\xE9t\xE9 G\xE9n\xE9rale SA"
   wiki_name: "Soci\xE9t\xE9 G\xE9n\xE9rale S.A."
   symbol: GLE
@@ -25751,24 +25728,6 @@ companies:
     founded: 1864
     employees: 146000
   id: 1144
-- name: "Telef\xF3nica"
-  wiki_name: "Telef\xF3nica"
-  symbol: TEF
-  country: Spain
-  indices:
-  - EURO STOXX 50
-  industries:
-  - Telecommunication
-  symbols:
-  - yahoo: TEF
-    google: NYSE:TEF
-    currency: USD
-  isins:
-  - ES0178430E18
-  metadata:
-    founded: 1924
-    employees: 120138
-  id: 1145
 - name: ADVA Optical Networking SE
   wiki_name: ADVA Optical Networking SE
   symbol: ADV

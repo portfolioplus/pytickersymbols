@@ -14,6 +14,7 @@ import tempfile
 import json
 import yaml
 import pytest
+from collections import Counter
 
 
 _test_json = b'''{
@@ -314,6 +315,21 @@ class TestLib(unittest.TestCase):
         self.assertEqual('^MDAXI', stock_data.index_to_yahoo_symbol('MDAX'))
         swi = stock_data.index_to_yahoo_symbol('Switzerland 20')
         self.assertEqual('^SSMI', swi)
+
+    def test_unique_ticker_symbols(self):
+        stock_data = PyTickerSymbols()
+        ctx = Counter(
+            [
+                sym['yahoo']
+                for stock in stock_data.get_all_stocks()
+                for sym in stock['symbols']
+            ]
+        )
+        msg = 'The following symbols appear several times:\n'
+        msg += '\n'.join(
+            map(lambda y: y[0], filter(lambda x: x[1] > 1, ctx.items()))
+        )
+        self.assertFalse(any(map(lambda x: x > 1, ctx.values())), msg)
 
 
 if __name__ == "__main__":
