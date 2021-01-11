@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.4.2 (2021-01-11)
+### Fix
+* Removed duplicate symbols ([`8bfd119`](https://github.com/portfolioplus/pytickersymbols/commit/8bfd1199871a0757a0820ab948250261fab1a81d))
+
 ## v1.4.1 (2021-01-08)
 ### Fix
 * Update stock symbols ([`2667419`](https://github.com/portfolioplus/pytickersymbols/commit/266741998b114477c3587705797e5d833ecc9564))
