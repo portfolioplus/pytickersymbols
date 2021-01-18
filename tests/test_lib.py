@@ -15,7 +15,7 @@ import json
 import yaml
 import pytest
 from collections import Counter
-
+import pycountry
 
 _test_json = b'''{
    "indices": [
@@ -330,6 +330,52 @@ class TestLib(unittest.TestCase):
             map(lambda y: y[0], filter(lambda x: x[1] > 1, ctx.items()))
         )
         self.assertFalse(any(map(lambda x: x > 1, ctx.values())), msg)
+
+    def test_valid_country_name(self):
+        stock_data = PyTickerSymbols()
+        countries = stock_data.get_all_countries()
+        empty_names = list(filter(lambda x: not x, countries))
+        empty_country_stocks = ', '.join(
+            list(
+                map(
+                    lambda x: x['name'],
+                    stock_data.get_stocks_by_country(''),
+                )
+            )
+        )
+        self.assertEqual(
+            len(empty_names),
+            0,
+            'The following stocks have an empty country string: '
+            + empty_country_stocks,
+        )
+
+        valid_countires = list(
+            map(
+                lambda x: x.name,
+                pycountry.countries,
+            )
+        )
+        wrong_country_name = list(
+            filter(
+                lambda x: x['country'] not in valid_countires,
+                stock_data.get_all_stocks(),
+            ),
+        )
+        wrong_country_name_stocks = ', '.join(
+            list(
+                map(
+                    lambda x: x['name'] + '(' + x['country'] + ')',
+                    wrong_country_name,
+                )
+            )
+        )
+        self.assertEqual(
+            len(wrong_country_name),
+            0,
+            'The following stocks have an empty country string:'
+            + wrong_country_name_stocks,
+        )
 
 
 if __name__ == "__main__":

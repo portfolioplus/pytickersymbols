@@ -20,6 +20,30 @@ jobs:
         run: pip install pysymbolscanner
       - name: Run scanner
         run: pysymbolscanner --input stocks.yaml --output stocks.yaml
+      - uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install dependencies
+        run: pip install tox
+      - name: Run tests
+        run: |
+          tox
+      - name: Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          parallel: true
+          debug: true
+      - name: Publish Unit Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v1.5
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          files: test-results/**/*.xml
+      - name: Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          parallel: true
+          debug: true
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
@@ -31,3 +55,12 @@ jobs:
           branch-suffix: timestamp
           branch: feature/fix_indices_components
           base: master
+  coveralls_finish:
+    needs: scan
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: AndreMiras/coveralls-python-action@develop
+      with:
+        parallel-finished: true
+        debug: true
