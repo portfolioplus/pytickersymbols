@@ -20660,7 +20660,8 @@ companies:
   name: IMCD N.V.
   symbol: IMCD
   country: Netherlands
-  indices: []
+  indices:
+  - AEX
   industries:
   - Chemicals
   symbols:
@@ -21902,8 +21903,8 @@ companies:
   isins: []
 - id: 938
   name: Aeroflot
-  symbol: MCX:AFLT
-  country: Russia
+  symbol: AFLT
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -21925,8 +21926,8 @@ companies:
   - RU0009062285
 - id: 939
   name: Alrosa
-  symbol: MCX:ALRS
-  country: Russia
+  symbol: ALRS
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -21942,8 +21943,8 @@ companies:
   - RU0007252813
 - id: 940
   name: Credit Bank of Moscow
-  symbol: MCX:CBOM
-  country: Russia
+  symbol: CBOM
+  country: Russian Federation
   indices: []
   industries:
   - Banking
@@ -21956,8 +21957,8 @@ companies:
     employees: unknown
 - id: 941
   name: PAO Detsky Mir
-  symbol: MCX:DSKY
-  country: Russia
+  symbol: DSKY
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -21975,8 +21976,8 @@ companies:
   isins: []
 - id: 942
   name: Federal Grid Company of Unified Energy System JSC
-  symbol: MCX:FEES
-  country: Russia
+  symbol: FEES
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -21994,8 +21995,8 @@ companies:
   - RU000A0JPNN9
 - id: 943
   name: Gazprom
-  symbol: MCX:GAZP
-  country: Russia
+  symbol: GAZP
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22019,8 +22020,8 @@ companies:
   - RU0007661625
 - id: 944
   name: Inter RAO UES
-  symbol: MCX:IRAO
-  country: Russia
+  symbol: IRAO
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22036,8 +22037,8 @@ companies:
   - RU000A0JPNM1
 - id: 945
   name: Lukoil
-  symbol: MCX:LKOH
-  country: Russia
+  symbol: LKOH
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22060,8 +22061,8 @@ companies:
   - US6778621044
 - id: 946
   name: M.video
-  symbol: MCX:MVID
-  country: Russia
+  symbol: MVID
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22079,8 +22080,8 @@ companies:
   - RU000A0JPGA0
 - id: 947
   name: Magnit
-  symbol: MCX:MGNT
-  country: Russia
+  symbol: MGNT
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22108,8 +22109,8 @@ companies:
   - US55953Q2021
 - id: 948
   name: MegaFon
-  symbol: MCX:MFON
-  country: Russia
+  symbol: MFON
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22126,8 +22127,8 @@ companies:
   - RU000A0JS942
 - id: 949
   name: Mechel PAO
-  symbol: MCX:MTLR
-  country: Russia
+  symbol: MTLR
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22148,8 +22149,8 @@ companies:
   - RU000A0DKXV5
 - id: 950
   name: Magnitogorsk Iron and Steel Works
-  symbol: MCX:MAGN
-  country: Russia
+  symbol: MAGN
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22171,8 +22172,8 @@ companies:
   - US5591892048
 - id: 951
   name: Moscow Exchange
-  symbol: MCX:MOEX
-  country: Russia
+  symbol: MOEX
+  country: Russian Federation
   indices: []
   industries:
   - Real Estate
@@ -22191,8 +22192,8 @@ companies:
     employees: unknown
 - id: 952
   name: Mobile TeleSystems
-  symbol: MCX:MTSS
-  country: Russia
+  symbol: MTSS
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22216,8 +22217,8 @@ companies:
   - US6074091090
 - id: 953
   name: Norilsk Nickel
-  symbol: MCX:GMKN
-  country: Russia
+  symbol: GMKN
+  country: Russian Federation
   indices: []
   industries:
   - Metals & Mining
@@ -22237,8 +22238,8 @@ companies:
     employees: 96193
 - id: 954
   name: Novolipetsk Steel
-  symbol: MCX:NLMK
-  country: Russia
+  symbol: NLMK
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22257,8 +22258,8 @@ companies:
   - RU0009046452
 - id: 955
   name: Novatek
-  symbol: MCX:NVTK
-  country: Russia
+  symbol: NVTK
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22284,8 +22285,8 @@ companies:
   - US6698881090
 - id: 956
   name: PAO TMK
-  symbol: MCX:TRMK
-  country: Russia
+  symbol: TRMK
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22307,8 +22308,8 @@ companies:
   - RU000A0B6NK6
 - id: 957
   name: JSC PhosAgro
-  symbol: MCX:PHOR
-  country: Russia
+  symbol: PHOR
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22332,8 +22333,8 @@ companies:
   - RU000A0JRKT8
 - id: 958
   name: PIK Group
-  symbol: MCX:PIKK
-  country: Russia
+  symbol: PIKK
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22350,8 +22351,8 @@ companies:
   - RU000A0E49M0
 - id: 959
   name: Polymetal International
-  symbol: MCX:POLY
-  country: Russia
+  symbol: POLY
+  country: Russian Federation
   indices:
   - FTSE 100
   - MOEX
@@ -22383,8 +22384,8 @@ companies:
   - JE00B6T5S470
 - id: 960
   name: Polyus
-  symbol: MCX:PLZL
-  country: Russia
+  symbol: PLZL
+  country: Russian Federation
   indices: []
   industries:
   - Metals & Mining
@@ -22406,8 +22407,8 @@ companies:
     employees: unknown
 - id: 961
   name: Rosneft
-  symbol: MCX:ROSN
-  country: Russia
+  symbol: ROSN
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22433,8 +22434,8 @@ companies:
   - US67812M2070
 - id: 962
   name: Rostelecom
-  symbol: MCX:RTKM
-  country: Russia
+  symbol: RTKM
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22459,8 +22460,8 @@ companies:
   - DE0005557508
 - id: 963
   name: United Company RUSAL
-  symbol: MCX:RUAL
-  country: Russia
+  symbol: RUAL
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22479,8 +22480,8 @@ companies:
   - JE00B5BCW814
 - id: 964
   name: RusHydro
-  symbol: MCX:HYDR
-  country: Russia
+  symbol: HYDR
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22503,8 +22504,8 @@ companies:
   - RU000A0JPKH7
 - id: 965
   name: Russneft
-  symbol: MCX:RNFT
-  country: Russia
+  symbol: RNFT
+  country: Russian Federation
   indices: []
   industries:
   - Refining
@@ -22518,7 +22519,7 @@ companies:
 - id: 966
   name: SAFMAR
   symbol: SFIN
-  country: Russia
+  country: Russian Federation
   indices: []
   industries:
   - Energy
@@ -22533,8 +22534,8 @@ companies:
     employees: 20000
 - id: 967
   name: Sberbank of Russia
-  symbol: MCX:SBER
-  country: Russia
+  symbol: SBER
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22556,8 +22557,8 @@ companies:
   - RU0009029540
 - id: 968
   name: Severstal
-  symbol: MCX:CHMF
-  country: Russia
+  symbol: CHMF
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22583,8 +22584,8 @@ companies:
   - RU0009046510
 - id: 969
   name: Sistema
-  symbol: MCX:AFKS
-  country: Russia
+  symbol: AFKS
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22603,8 +22604,8 @@ companies:
   - RU000A0DQZE3
 - id: 970
   name: Surgutneftegas
-  symbol: MCX:SNGS
-  country: Russia
+  symbol: SNGS
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22628,8 +22629,8 @@ companies:
   - US8688611057
 - id: 971
   name: Tatneft
-  symbol: MCX:TATN
-  country: Russia
+  symbol: TATN
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22656,8 +22657,8 @@ companies:
   - RU0009033591
 - id: 972
   name: Transneft
-  symbol: MCX:TRNFP
-  country: Russia
+  symbol: TRNFP
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22675,8 +22676,8 @@ companies:
   - RU0009091573
 - id: 973
   name: Unipro
-  symbol: MCX:UPRO
-  country: Russia
+  symbol: UPRO
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22694,8 +22695,8 @@ companies:
   - RU000A0JNGA5
 - id: 974
   name: United Wagon Company
-  symbol: MCX:UWGN
-  country: Russia
+  symbol: UWGN
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22711,8 +22712,8 @@ companies:
   - RU000A0JVBT9
 - id: 975
   name: VTB Bank
-  symbol: MCX:VTBR
-  country: Russia
+  symbol: VTBR
+  country: Russian Federation
   indices: []
   industries:
   - Banking
@@ -22728,8 +22729,8 @@ companies:
     employees: 77
 - id: 976
   name: X5 Retail Group
-  symbol: MCX:FIVE
-  country: Russia
+  symbol: FIVE
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -22748,7 +22749,7 @@ companies:
 - id: 977
   name: Yandex N.V.
   symbol: NASDAQ:YNDX
-  country: Russia
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -23225,7 +23226,7 @@ companies:
 - name: Dow Inc.
   wiki_name: Dow Inc.
   symbol: DOW
-  country: en
+  country: United States
   indices:
   - DOW JONES
   - S&P 100
@@ -23233,6 +23234,9 @@ companies:
   industries:
   - Chemicals
   symbols:
+  - yahoo: 2OY.F
+    google: FRA:2OY
+    currency: EUR
   - yahoo: DOW
     google: NYSE:DOW
     currency: USD
@@ -23354,7 +23358,7 @@ companies:
 - name: KeyBank
   wiki_name: KeyBank
   symbol: KEY
-  country: '[[Cleveland]]'
+  country: United States
   indices:
   - S&P 500
   industries:
@@ -23528,19 +23532,6 @@ companies:
     founded: 1909
     employees: 11896
   id: 1017
-- name: Norfolk Southern Corp.
-  wiki_name: Norfolk Southern Corp.
-  symbol: NSC
-  country: ''
-  indices:
-  - S&P 500
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 0
-    employees: 0
-  id: 1018
 - name: Northrop Grumman Corporation
   wiki_name: Northrop Grumman Corporation
   symbol: NOC
@@ -23667,11 +23658,17 @@ companies:
 - name: Pool Corporation
   wiki_name: Pool Corporation
   symbol: POOL
-  country: ''
+  country: United States
   indices:
   - S&P 500
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: POOL
+    google: NASDAQ:POOL
+    currency: USD
+  - yahoo: SP1.F
+    google: FRA:SP1
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -24066,19 +24063,6 @@ companies:
     founded: 1887
     employees: 4601
   id: 1048
-- name: IMCD
-  wiki_name: IMCD
-  symbol: IMCD
-  country: ''
-  indices:
-  - AEX
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 0
-    employees: 0
-  id: 1049
 - name: Prosus N.V.
   wiki_name: Prosus N.V.
   symbol: PRX
@@ -24336,7 +24320,7 @@ companies:
 - name: DBV Technologies
   wiki_name: DBV Technologies
   symbol: DBVT
-  country: ''
+  country: France
   indices:
   - CAC Mid 60
   industries: []
@@ -24354,11 +24338,12 @@ companies:
   id: 1065
 - name: Elior Group
   wiki_name: Elior Group
-  symbol: 21E
-  country: ''
+  symbol: ELIOR
+  country: France
   indices:
   - CAC Mid 60
-  industries: []
+  industries:
+  - Foodservice
   symbols:
   - yahoo: 21E.F
     google: FRA:21E
@@ -24547,7 +24532,7 @@ companies:
 - name: Genfit
   wiki_name: Genfit
   symbol: XUP
-  country: ''
+  country: France
   indices:
   - CAC Mid 60
   industries: []
@@ -24572,7 +24557,7 @@ companies:
 - name: Gaztransport & Technigaz
   wiki_name: Gaztransport & Technigaz
   symbol: 9TG
-  country: ''
+  country: France
   indices:
   - CAC Mid 60
   industries: []
@@ -24651,7 +24636,13 @@ companies:
   - CAC Mid 60
   industries:
   - Pharmaceutical
-  symbols: []
+  symbols:
+  - yahoo: IPSEY
+    google: OTCMKTS:IPSEY
+    currency: USD
+  - yahoo: I7G.F
+    google: FRA:I7G
+    currency: EUR
   isins:
   - FR0010259150
   metadata:
@@ -24661,7 +24652,7 @@ companies:
 - name: Ipsos SA
   wiki_name: Ipsos SA
   symbol: IPZ
-  country: '[[Paris]]'
+  country: France
   indices:
   - CAC Mid 60
   industries:
@@ -24748,7 +24739,7 @@ companies:
 - name: Mercialys
   wiki_name: Mercialys
   symbol: MEIYF
-  country: ''
+  country: France
   indices:
   - CAC Mid 60
   industries: []
@@ -25002,12 +24993,16 @@ companies:
   id: 1100
 - name: TF1 Group
   wiki_name: TF1 Group
-  symbol: null
-  country: ''
+  symbol: FSE
+  country: France
   indices:
   - CAC Mid 60
-  industries: []
-  symbols: []
+  industries:
+  - Media
+  symbols:
+  - yahoo: FSE.F
+    google: FRA:FSE
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -25071,10 +25066,11 @@ companies:
 - name: Virbac
   wiki_name: Virbac
   symbol: VRBCF
-  country: ''
+  country: France
   indices:
   - CAC Mid 60
-  industries: []
+  industries:
+  - Animal health care
   symbols:
   - yahoo: VRBCF
     google: OTCMKTS:VRBCF
@@ -25082,7 +25078,8 @@ companies:
   - yahoo: V16.F
     google: FRA:V16
     currency: EUR
-  isins: []
+  isins:
+  - FR0000031577
   metadata:
     founded: 0
     employees: 0
@@ -25240,15 +25237,18 @@ companies:
   id: 1113
 - name: Aedifica
   wiki_name: Aedifica
-  symbol: null
-  country: ''
+  symbol:  AOO
+  country: Belgium
   indices:
   - BEL 20
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: AOO.F
+    google: FRA:AOO
+    currency: EUR
   isins: []
   metadata:
-    founded: 0
+    founded: 2005
     employees: 0
   id: 1114
 - name: Aperam S.A.
@@ -25325,19 +25325,6 @@ companies:
     founded: 1989
     employees: 10000
   id: 1119
-- name: WDP
-  wiki_name: WDP
-  symbol: null
-  country: ''
-  indices:
-  - BEL 20
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 0
-    employees: 0
-  id: 1120
 - name: Aktiebolaget Electrolux
   wiki_name: Aktiebolaget Electrolux
   symbol: ELUX B
@@ -25433,7 +25420,7 @@ companies:
 - name: Kojamo
   wiki_name: Kojamo
   symbol: KOJAMO
-  country: ''
+  country: Finland
   indices:
   - OMX Helsinki 25
   industries: []
@@ -25443,7 +25430,7 @@ companies:
     currency: EUR
   isins: []
   metadata:
-    founded: 0
+    founded: 1969
     employees: 0
   id: 1127
 - name: Neles Oyj
@@ -26203,12 +26190,15 @@ companies:
   id: 1171
 - name: TCS Group
   wiki_name: TCS Group
-  symbol: null
-  country: ''
+  symbol: TCSG
+  country: Cyprus
   indices:
   - MOEX
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: TCSG.ME
+    google: MCX:TCSG
+    currency: RUB
   isins: []
   metadata:
     founded: 0

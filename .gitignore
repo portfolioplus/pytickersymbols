@@ -24,3 +24,4 @@ stockswithmetadata.yaml
 tools/src/pytickersymbols/data/stocks.json
 test-results/test.xml
 index_data.pickle
+stocks2.yaml

@@ -4,3 +4,4 @@ pytest-cov
 pandas==1.2.0
 yfinance==0.1.55
 PyYAML==5.3.1
+pycountry==20.7.3
