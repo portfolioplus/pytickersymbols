@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.4.3 (2021-01-19)
+### Fix
+* Country names ([`8ff8538`](https://github.com/portfolioplus/pytickersymbols/commit/8ff8538e630055b039ee84382fc9476cec201bfc))
+
 ## v1.4.2 (2021-01-11)
 ### Fix
 * Removed duplicate symbols ([`8bfd119`](https://github.com/portfolioplus/pytickersymbols/commit/8bfd1199871a0757a0820ab948250261fab1a81d))
