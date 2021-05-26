@@ -260,6 +260,58 @@ class TestLib(unittest.TestCase):
                     is_in_basic = True
             self.assertTrue(is_in_basic)
 
+    def test_stock_by_yahoo_symbol(self):
+        """
+        Tests stock getter by industry
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        self.assertIsNotNone(stock_data)
+        ads = stock_data.get_stock_by_yahoo_symbol('ADS.F')
+        self.assertIsNotNone(ads)
+        self.assertEqual('adidas AG', ads['name'])
+        unknown = stock_data.get_stock_by_yahoo_symbol('ADSdadsas.F')
+        self.assertIsNone(unknown)
+
+    def test_stock_name_by_yahoo_symbol(self):
+        """
+        Tests stock getter by industry
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        self.assertIsNotNone(stock_data)
+        ads = stock_data.get_stock_name_by_yahoo_symbol('ADS.F')
+        self.assertIsNotNone(ads)
+        self.assertEqual('adidas AG', ads)
+        unknown = stock_data.get_stock_by_yahoo_symbol('ADSdadsas.F')
+        self.assertIsNone(unknown)
+
+    def test_stock_by_google_symbol(self):
+        """
+        Tests stock getter by industry
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        self.assertIsNotNone(stock_data)
+        ads = stock_data.get_stock_by_google_symbol('FRA:ADS')
+        self.assertIsNotNone(ads)
+        self.assertEqual('adidas AG', ads['name'])
+        unknown = stock_data.get_stock_by_google_symbol('ADSdadsas.F')
+        self.assertIsNone(unknown)
+
+    def test_stock_name_by_google_symbol(self):
+        """
+        Tests stock getter by industry
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        self.assertIsNotNone(stock_data)
+        ads = stock_data.get_stock_name_by_google_symbol('FRA:ADS')
+        self.assertIsNotNone(ads)
+        self.assertEqual('adidas AG', ads)
+        unknown = stock_data.get_stock_by_google_symbol('ADSdadsas.F')
+        self.assertIsNone(unknown)
+
     def test_tickers_by_index(self):
         """
         Tests tickers getter by index

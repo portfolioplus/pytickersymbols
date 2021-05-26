@@ -75,6 +75,52 @@ class PyTickerSymbols(metaclass=Singleton):
         """
         return self.__stocks['companies']
 
+    def get_stock_name_by_yahoo_symbol(self, symbol):
+        """
+        Returns stock name by yahoo symbol
+        :return: stock name or None if symbol is not present
+        """
+        stock = self.get_stock_by_yahoo_symbol(symbol)
+        return stock['name'] if stock else None
+
+    def get_stock_name_by_google_symbol(self, symbol):
+        """
+        Returns stock name by google symbol
+        :return: stock name or None if symbol is not present
+        """
+        stock = self.get_stock_by_google_symbol(symbol)
+        return stock['name'] if stock else None
+
+    def get_stock_by_yahoo_symbol(self, symbol):
+        """
+        Returns stock by yahoo symbol
+        :return: stock or None if symbol is not present
+        """
+        return self.__get_stock_by_symbol(symbol, 'yahoo')
+
+    def get_stock_by_google_symbol(self, symbol):
+        """
+        Returns stock by google symbol
+        :return: stock or None if symbol is not present
+        """
+        return self.__get_stock_by_symbol(symbol, 'google')
+
+    def __get_stock_by_symbol(self, symbol, symbol_type):
+        """
+        Returns stock name by symbol
+        :return: stock name or None if symbol is not present
+        """
+        return next(
+            filter(
+                lambda x, sym=symbol: sym
+                in map(
+                    lambda y, sym_type=symbol_type: y[sym_type], x['symbols']
+                ),
+                self.get_all_stocks(),
+            ),
+            None
+        )
+
     def get_all_industries(self):
         """
         Returns all available industries
