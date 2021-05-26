@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.5.0 (2021-05-26)
+### Feature
+* Get stock by ticker symbol ([#85](https://github.com/portfolioplus/pytickersymbols/issues/85)) ([`47662e8`](https://github.com/portfolioplus/pytickersymbols/commit/47662e85deeb71f27cb8596be1838dd3ae0fdb6b))
+
 ## v1.4.3 (2021-01-19)
 ### Fix
 * Country names ([`8ff8538`](https://github.com/portfolioplus/pytickersymbols/commit/8ff8538e630055b039ee84382fc9476cec201bfc))
