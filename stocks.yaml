@@ -299,7 +299,7 @@ companies:
   isins:
   - DE0005140008
 - id: 10
-  name: "Deutsche B\xC3\xB6rse AG"
+  name: "Deutsche Börse AG"
   symbol: DB1
   country: Germany
   indices:
@@ -599,7 +599,7 @@ companies:
   isins:
   - DE0006599905
 - id: 22
-  name: "M\xC3\xBCnchener R\xC3\xBCckversicherungs-Gesellschaft AG"
+  name: "Münchener Rückversicherungs-Gesellschaft AG"
   symbol: MUV2
   country: Germany
   indices:
@@ -1118,7 +1118,7 @@ companies:
   isins:
   - DE0005545503
 - id: 45
-  name: "D\xC3\xBCrr AG"
+  name: "Dürr AG"
   symbol: DUE
   country: Germany
   indices:
@@ -1343,7 +1343,7 @@ companies:
   isins:
   - LU0775917882
 - id: 55
-  name: "Hannover R\xC3\xBCck SE"
+  name: "Hannover Rück SE"
   symbol: HNR1
   country: Germany
   indices:
@@ -2031,7 +2031,7 @@ companies:
   isins:
   - DE0008303504
 - id: 85
-  name: "Telef\xC3\xB3nica Deutschland Holding AG"
+  name: "Telefónica Deutschland Holding AG"
   symbol: O2D
   country: Germany
   indices:
@@ -2558,7 +2558,7 @@ companies:
     founded: 1870
     employees: 7236
 - id: 110
-  name: "Dr. H\xC3\xB6nle AG"
+  name: "Dr. Hönle AG"
   symbol: HNL
   country: Germany
   indices:
@@ -2579,7 +2579,7 @@ companies:
     founded: unknown
     employees: unknown
 - id: 111
-  name: "Dr\xC3\xA4gerwerk AG & Co. KGaA Vz"
+  name: "Drägerwerk AG & Co. KGaA Vz"
   symbol: DRW3
   country: Germany
   indices:
@@ -3154,7 +3154,7 @@ companies:
   isins:
   - DE0007010803
 - id: 137
-  name: "Rh\xC3\xB6n-Klinikum AG"
+  name: "Rhön-Klinikum AG"
   symbol: RHK
   country: Germany
   indices:
@@ -3392,7 +3392,7 @@ companies:
     founded: unknown
     employees: 4577
 - id: 148
-  name: "S\xC3\xBCdzucker AG"
+  name: "Südzucker AG"
   symbol: SZU
   country: Germany
   indices:
@@ -3568,7 +3568,7 @@ companies:
     founded: 1999
     employees: unknown
 - id: 157
-  name: "W\xC3\xBCstenrot & W\xC3\xBCrttembergische AG"
+  name: "Wüstenrot & Württembergische AG"
   symbol: WUW
   country: Germany
   indices:
@@ -6617,7 +6617,7 @@ companies:
   isins:
   - FI0009005987
 - id: 272
-  name: "W\xC3\xA4rtsil\xC3\xA4 Oyj Abp"
+  name: "Wärtsilä Oyj Abp"
   symbol: WRT1V
   country: Finland
   indices:
@@ -6674,7 +6674,7 @@ companies:
     founded: unknown
     employees: 1624
 - id: 275
-  name: "Huhtam\xC3\xA4ki Oyj"
+  name: "Huhtamäki Oyj"
   symbol: HUH1V
   country: Finland
   indices:
@@ -6718,7 +6718,7 @@ companies:
   isins:
   - FI0009005870
 - id: 277
-  name: "Mets\xC3\xA4 Board Oyj"
+  name: "Metsä Board Oyj"
   symbol: METSB
   country: Finland
   indices:
@@ -7073,7 +7073,7 @@ companies:
   isins:
   - FR0000120172
 - id: 292
-  name: "Cr\xC3\xA9dit Agricole SA"
+  name: "Crédit Agricole SA"
   symbol: ACA
   country: France
   indices:
@@ -7121,7 +7121,7 @@ companies:
   isins:
   - FR0000120644
 - id: 294
-  name: "Dassault Syst\xC3\xA8mes SE"
+  name: "Dassault Systèmes SE"
   symbol: DSY
   country: France
   indices:
@@ -7189,7 +7189,7 @@ companies:
     employees: 150000
   isins: []
 - id: 297
-  name: "Herm\xC3\xA8s International SCA"
+  name: "Hermès International SCA"
   symbol: RMS
   country: France
   indices:
@@ -7236,7 +7236,7 @@ companies:
   isins:
   - FR0000121485
 - id: 299
-  name: "L'Or\xC3\xA9al SA"
+  name: "L'Oréal SA"
   symbol: OR
   country: France
   indices:
@@ -7279,8 +7279,7 @@ companies:
   isins:
   - FR0010307819
 - id: 301
-  name: "LVMH Mo\xC3\xABt Hennessy - Louis Vuitton, Soci\xC3\xA9t\xC3\xA9 Europ\xC3\
-    \xA9enne"
+  name: "LVMH Moët Hennessy - Louis Vuitton, Société Européenne"
   symbol: MC
   country: France
   indices:
@@ -7301,7 +7300,7 @@ companies:
     founded: unknown
     employees: unknown
 - id: 302
-  name: "Compagnie G\xC3\xA9n\xC3\xA9rale des \xC3\xA9tablissements Michelin"
+  name: "Compagnie Générale des établissements Michelin"
   symbol: ML
   country: France
   indices:
@@ -7557,7 +7556,7 @@ companies:
   isins:
   - FR0000121972
 - id: 312
-  name: "Soci\xC3\xA9t\xC3\xA9 G\xC3\xA9n\xC3\xA9rale SA"
+  name: "Société Générale SA"
   symbol: GLE
   country: France
   indices:
@@ -16117,7 +16116,7 @@ companies:
     employees: 7200
   isins: []
 - id: 681
-  name: "The Est\xC3\xA9e Lauder Companies Inc."
+  name: "The Estée Lauder Companies Inc."
   symbol: EL
   country: United States
   indices:
@@ -19491,7 +19490,7 @@ companies:
   isins:
   - BE0003810273
 - id: 835
-  name: "Sofina Soci\xC3\xA9t\xC3\xA9 Anonyme"
+  name: "Sofina Société Anonyme"
   symbol: SOF
   country: Belgium
   indices:
@@ -19665,7 +19664,7 @@ companies:
   isins:
   - ES0132105018
 - id: 843
-  name: "Actividades de Construcci\xC3\xB3n y Servicios SA"
+  name: "Actividades de Construcción y Servicios SA"
   symbol: ACS
   country: Spain
   indices:
@@ -19933,7 +19932,7 @@ companies:
   isins:
   - ES0105630315
 - id: 854
-  name: "Enag\xC3\xA1s SA"
+  name: "Enagás SA"
   symbol: ENG
   country: Spain
   indices:
@@ -19954,7 +19953,7 @@ companies:
     founded: unknown
     employees: unknown
 - id: 855
-  name: "ENCE Energ\xC3\xADa y Celulosa SA"
+  name: "ENCE Energía y Celulosa SA"
   symbol: ENC
   country: Spain
   indices:
@@ -20079,7 +20078,7 @@ companies:
   isins:
   - ES0144580Y14
 - id: 860
-  name: "Industria de Dise\xC3\xB1o Textil SA"
+  name: "Industria de Diseño Textil SA"
   symbol: ITX
   country: Spain
   indices:
@@ -20181,7 +20180,7 @@ companies:
   isins:
   - ES0124244E34
 - id: 864
-  name: "Mediaset Espa\xC3\xB1a Comunicaci\xC3\xB3n SA"
+  name: "Mediaset España Comunicación SA"
   symbol: TL5
   country: Spain
   indices:
@@ -20202,7 +20201,7 @@ companies:
     founded: unknown
     employees: unknown
 - id: 865
-  name: "Meli\xC3\xA1 Hotels International"
+  name: "Meliá Hotels International"
   symbol: MEL
   country: Spain
   indices:
@@ -20275,7 +20274,7 @@ companies:
   isins:
   - ES0116870314
 - id: 868
-  name: "Red El\xC3\xA9ctrica Corporaci\xC3\xB3n SA"
+  name: "Red Eléctrica Corporación SA"
   symbol: REE
   country: Spain
   indices:
@@ -20350,7 +20349,7 @@ companies:
   isins:
   - ES0143416115
 - id: 871
-  name: "T\xC3\xA9cnicas Reunidas SA"
+  name: "Técnicas Reunidas SA"
   symbol: TRE
   country: Spain
   indices:
@@ -20371,7 +20370,7 @@ companies:
     founded: unknown
     employees: unknown
 - id: 872
-  name: "Telef\xC3\xB3nica"
+  name: "Telefónica"
   symbol: TEF
   country: Spain
   indices:
@@ -21594,7 +21593,7 @@ companies:
   isins:
   - CH0013841017
 - id: 925
-  name: "Nestl\xC3\xA9 SA"
+  name: "Nestlé SA"
   symbol: NESN
   country: Switzerland
   indices:
@@ -24005,8 +24004,8 @@ companies:
     founded: 2020
     employees: 91000
   id: 1045
-- name: "Str\xF6er SE & Co. KGaA"
-  wiki_name: "Str\xF6er SE & Co. KGaA"
+- name: "Strör SE & Co. KGaA"
+  wiki_name: "Strör SE & Co. KGaA"
   symbol: null
   country: Germany
   indices:
@@ -24182,8 +24181,8 @@ companies:
     founded: 1945
     employees: 14934
   id: 1057
-- name: "bioM\xE9rieux"
-  wiki_name: "bioM\xE9rieux"
+- name: "bioMérieux"
+  wiki_name: "bioMérieux"
   symbol: BIM
   country: France
   indices:
@@ -24197,8 +24196,8 @@ companies:
     founded: 1963
     employees: 10400
   id: 1058
-- name: "Bollor\xE9"
-  wiki_name: "Bollor\xE9"
+- name: "Bolloré"
+  wiki_name: "Bolloré"
   symbol: BOIVF
   country: France
   indices:
@@ -24474,8 +24473,8 @@ companies:
     founded: 1982
     employees: 1000
   id: 1072
-- name: "La Fran\xE7aise des Jeux"
-  wiki_name: "La Fran\xE7aise des Jeux"
+- name: "La Française des Jeux"
+  wiki_name: "La Française des Jeux"
   symbol: null
   country: France
   indices:
@@ -24705,8 +24704,8 @@ companies:
     founded: 2003
     employees: 56000
   id: 1084
-- name: "Lagard\xE8re SCA"
-  wiki_name: "Lagard\xE8re SCA"
+- name: "Lagardère SCA"
+  wiki_name: "Lagardère SCA"
   symbol: MMB
   country: France
   indices:
@@ -24855,8 +24854,8 @@ companies:
     founded: 1924
     employees: 5500
   id: 1092
-- name: "R\xE9my Cointreau"
-  wiki_name: "R\xE9my Cointreau"
+- name: "Rémy Cointreau"
+  wiki_name: "Rémy Cointreau"
   symbol: RCO
   country: France
   indices:
@@ -25163,8 +25162,8 @@ companies:
     founded: 2000
     employees: 80000
   id: 1109
-- name: "Nestl\xE9 S.A."
-  wiki_name: "Nestl\xE9 S.A."
+- name: "Nestlé S.A."
+  wiki_name: "Nestlé S.A."
   symbol: NESN
   country: Switzerland
   indices:
@@ -25370,8 +25369,8 @@ companies:
     founded: 1929
     employees: 4031
   id: 1123
-- name: "SSAB Svenskt St\xE5l AB"
-  wiki_name: "SSAB Svenskt St\xE5l AB"
+- name: "SSAB Svenskt Stål AB"
+  wiki_name: "SSAB Svenskt Stål AB"
   symbol: SSAB A
   country: Sweden
   indices:
@@ -25470,8 +25469,8 @@ companies:
     founded: 1968
     employees: 13083
   id: 1129
-- name: "W\xE4rtsil\xE4 Oyj Abp W\xE4rtsil\xE4 Corporation"
-  wiki_name: "W\xE4rtsil\xE4 Oyj Abp W\xE4rtsil\xE4 Corporation"
+- name: "Wärtsilä Oyj Abp Wärtsilä Corporation"
+  wiki_name: "Wärtsilä Oyj Abp Wärtsilä Corporation"
   symbol: WRTBV
   country: Finland
   indices:
@@ -25581,8 +25580,8 @@ companies:
     founded: 2015
     employees: 1605
   id: 1135
-- name: "Enag\xE1s, S.A."
-  wiki_name: "Enag\xE1s, S.A."
+- name: "Enagás, S.A."
+  wiki_name: "Enagás, S.A."
   symbol: ENG
   country: Spain
   indices:
@@ -25635,8 +25634,8 @@ companies:
     founded: 1953
     employees: 32053
   id: 1138
-- name: "Industria de Dise\xF1o Textil SA"
-  wiki_name: "Industria de Dise\xF1o Textil, S.A."
+- name: "Industria de Diseño Textil SA"
+  wiki_name: "Industria de Diseño Textil, S.A."
   symbol: ITX
   country: Spain
   indices:
@@ -25671,8 +25670,8 @@ companies:
     founded: 2007
     employees: 96892
   id: 1140
-- name: "L'Or\xE9al SA"
-  wiki_name: "L'Or\xE9al S.A."
+- name: "L'Oréal SA"
+  wiki_name: "L'Oréal S.A."
   symbol: OR
   country: France
   indices:
@@ -25685,8 +25684,8 @@ companies:
     founded: 1909
     employees: 88000
   id: 1141
-- name: "LVMH Mo\xEBt Hennessy - Louis Vuitton, Soci\xE9t\xE9 Europ\xE9enne"
-  wiki_name: "LVMH Mo\xEBt Hennessy Louis Vuitton"
+- name: "LVMH Moët Hennessy - Louis Vuitton, Société Européenne"
+  wiki_name: "LVMH Moët Hennessy Louis Vuitton"
   symbol: MC
   country: France
   indices:
@@ -25700,8 +25699,8 @@ companies:
     founded: 1987
     employees: 145247
   id: 1142
-- name: "Soci\xE9t\xE9 G\xE9n\xE9rale SA"
-  wiki_name: "Soci\xE9t\xE9 G\xE9n\xE9rale S.A."
+- name: "Société Générale SA"
+  wiki_name: "Société Générale S.A."
   symbol: GLE
   country: France
   indices:
