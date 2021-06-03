@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: 3.8
       - name: Install dependencies
-        run: pip install pysymbolscanner
+        run: pip install wheel pysymbolscanner
       - name: Run scanner
         run: pysymbolscanner --input stocks.yaml --output stocks.yaml
       - uses: actions/setup-python@v1
