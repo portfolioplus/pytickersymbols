@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.0 (2021-06-03)
+### Feature
+* Unicode characters added to yaml file to allow human reading ([`6dd38a7`](https://github.com/portfolioplus/pytickersymbols/commit/6dd38a7cc1aae245e015859077355b2900ef8d46))
+
 ## v1.5.0 (2021-05-26)
 ### Feature
 * Get stock by ticker symbol ([#85](https://github.com/portfolioplus/pytickersymbols/issues/85)) ([`47662e8`](https://github.com/portfolioplus/pytickersymbols/commit/47662e85deeb71f27cb8596be1838dd3ae0fdb6b))
