@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.0 (2021-06-04)
+### Feature
+* Updated stocks and removed ids ([`355a998`](https://github.com/portfolioplus/pytickersymbols/commit/355a998bc50c90427f7c6c386af941acb8d86eb4))
+
 ## v1.6.0 (2021-06-03)
 ### Feature
 * Unicode characters added to yaml file to allow human reading ([`6dd38a7`](https://github.com/portfolioplus/pytickersymbols/commit/6dd38a7cc1aae245e015859077355b2900ef8d46))
