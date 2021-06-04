@@ -2377,23 +2377,6 @@ companies:
     employees: 3290
   isins:
   - DE0005313704
-- id: 101
-  name: Ceconomy St.
-  symbol: CEC
-  country: Germany
-  indices: []
-  industries:
-  - Computer & Electronics Retailers
-  - Retailers
-  - Specialty Retailers
-  - Consumer Cyclicals
-  symbols:
-  - yahoo: CEC.F
-    google: FRA:CEC
-    currency: EUR
-  metadata:
-    founded: unknown
-    employees: unknown
 - id: 102
   name: CEWE Stiftung & Co. KGaA
   symbol: CWC
@@ -25772,14 +25755,18 @@ companies:
   country: Germany
   indices:
   - SDAX
-  industries: []
+  industries:
+  - Computer & Electronics Retailers
+  - Retailers
+  - Specialty Retailers
+  - Consumer Cyclicals
   symbols:
   - yahoo: CEC1.F
     google: FRA:CEC1
     currency: EUR
-  - yahoo: MTGGY
-    google: OTCMKTS:MTGGY
-    currency: USD
+  - yahoo: CEC.F
+    google: FRA:CEC
+    currency: EUR
   isins:
   - DE0007257503
   - DE0007257537

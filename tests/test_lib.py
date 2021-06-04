@@ -131,8 +131,19 @@ class TestLib(unittest.TestCase):
         """
         stock_data = PyTickerSymbols()
         self.assertIsNotNone(stock_data)
-        dax = list(stock_data.get_stocks_by_index('DAX'))
-        self.assertEqual(dax[10]['name'], 'Deutsche Börse AG')
+        stocks = list(stock_data.get_all_stocks())
+        names_with_unicode_count = sum(
+            [
+                any(
+                    word in item['name']
+                    for word in ['ö', 'ä', 'ü', 'é', 'è', 'ë']
+                )
+                for item in stocks
+            ]
+        )
+        self.assertTrue(
+            names_with_unicode_count >= 20, names_with_unicode_count
+        )
 
     def test_country(self):
         """
@@ -343,7 +354,7 @@ class TestLib(unittest.TestCase):
         for test_item in test_list:
             self.assertEqual(len(test_item), 30)
             for tickers in test_item:
-                self.assertTrue(len(tickers) >= 2)
+                self.assertTrue(len(tickers) >= 1, tickers)
 
     def test_tickers_valid(self):
         """
