@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.1 (2021-06-08)
+### Fix
+* Removed duplicate IMCD ([`9083ab5`](https://github.com/portfolioplus/pytickersymbols/commit/9083ab5c47016227482eb829403565f2d1598d40))
+
 ## v1.7.0 (2021-06-04)
 ### Feature
 * Updated stocks and removed ids ([`355a998`](https://github.com/portfolioplus/pytickersymbols/commit/355a998bc50c90427f7c6c386af941acb8d86eb4))
