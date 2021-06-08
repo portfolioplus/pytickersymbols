@@ -19847,7 +19847,8 @@ companies:
 - name: IMCD N.V.
   symbol: IMCD
   country: Netherlands
-  indices: []
+  indices:
+  - AEX
   industries:
   - Chemicals
   symbols:
@@ -19858,8 +19859,10 @@ companies:
     google: OTCMKTS:IMDZF
     currency: USD
   metadata:
-    founded: unknown
-    employees: unknown
+    founded: 1995
+    employees: 2799
+  isins:
+  - NL0010801007
 - name: Koninklijke KPN N.V.
   symbol: KPN
   country: Netherlands
@@ -25715,18 +25718,6 @@ companies:
   metadata:
     founded: 2008
     employees: 3461
-- name: IMCD N.V.
-  wiki_name: IMCD
-  symbol: IMCD
-  country: Netherlands
-  indices:
-  - AEX
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 0
-    employees: 0
 - name: Renishaw plc
   wiki_name: Renishaw plc
   symbol: RSW
