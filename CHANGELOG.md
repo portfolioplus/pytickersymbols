@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.4 (2021-06-09)
+### Fix
+* Removed anchors ([`3fd1af1`](https://github.com/portfolioplus/pytickersymbols/commit/3fd1af1e35a2db73a920ca4e5d77755161719abc))
+
 ## v1.7.3 (2021-06-09)
 ### Fix
 * Removed wrong metadata ([`3c8f46e`](https://github.com/portfolioplus/pytickersymbols/commit/3c8f46ec3d239ee256b080c77e0444b22a7b935b))
