@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.2 (2021-06-09)
+### Fix
+* Added wiki name for wdp ([`ab39dbf`](https://github.com/portfolioplus/pytickersymbols/commit/ab39dbfdd2af4a6c92126410c1765669e67aa562))
+
 ## v1.7.1 (2021-06-08)
 ### Fix
 * Removed duplicate IMCD ([`9083ab5`](https://github.com/portfolioplus/pytickersymbols/commit/9083ab5c47016227482eb829403565f2d1598d40))
