@@ -7043,10 +7043,10 @@ companies:
   - yahoo: LRLCF
     google: OTCMKTS:LRLCF
     currency: USD
-  metadata: &id004
+  metadata:
     founded: 1909
     employees: 88000
-  isins: &id003
+  isins:
   - FR0000120321
 - name: Legrand SA
   symbol: LR
@@ -7087,10 +7087,10 @@ companies:
   - yahoo: LVMHF
     google: OTCMKTS:LVMHF
     currency: USD
-  metadata: &id006
+  metadata:
     founded: 1987
     employees: 145247
-  isins: &id005
+  isins:
   - FR0000121014
 - name: Compagnie Générale des établissements Michelin
   symbol: ML
@@ -7356,10 +7356,10 @@ companies:
   - yahoo: SCGLF
     google: OTCMKTS:SCGLF
     currency: USD
-  metadata: &id008
+  metadata:
     founded: 1864
     employees: 146000
-  isins: &id007
+  isins:
   - FR0000130809
 - name: Sodexo SA
   symbol: SW
