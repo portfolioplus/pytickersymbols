@@ -2705,7 +2705,7 @@ companies:
     currency: USD
   metadata:
     founded: 1877
-    employees: 21505
+    employees: 23279
   isins:
   - DE0006083405
 - name: Hypoport Finance AG
@@ -3257,6 +3257,9 @@ companies:
   - yahoo: SIUAF
     google: OTCMKTS:SIUAF
     currency: USD
+  - yahoo: STMU.F
+    google: FRA:STMU
+    currency: EUR
   metadata:
     founded: 1934
     employees: 6488
@@ -3558,6 +3561,9 @@ companies:
   - yahoo: III.L
     google: LON:III
     currency: GBP
+  - yahoo: IGQ.F
+    google: FRA:IGQ
+    currency: EUR
   metadata:
     founded: 1945
     employees: 244
@@ -3672,6 +3678,9 @@ companies:
   - yahoo: ASHTF
     google: OTCMKTS:ASHTF
     currency: USD
+  - yahoo: 0LCA.F
+    google: FRA:0LCA
+    currency: EUR
   metadata:
     founded: 1947
     employees: 13233
@@ -3763,6 +3772,9 @@ companies:
     currency: GBP
   - yahoo: 2UA.F
     google: FRA:2UA
+    currency: EUR
+  - yahoo: 2UA0.F
+    google: FRA:2UA0
     currency: EUR
   metadata:
     founded: 1975
@@ -5334,8 +5346,8 @@ companies:
     founded: 1907
     employees: 86000
   isins:
-  - GB00B03MM408
   - GB00B03MLX29
+  - GB00B03MM408
 - name: Reckitt Benckiser Group PLC
   symbol: RB.
   country: United Kingdom
@@ -13255,7 +13267,7 @@ companies:
     google: NYSE:DRI
     currency: USD
   metadata:
-    founded: 1938
+    founded: ''
     employees: 185000
   isins: []
 - name: DaVita Inc.
@@ -14683,8 +14695,7 @@ companies:
 - name: HollyFrontier Corporation
   symbol: HFC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -15950,8 +15961,7 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -16033,6 +16043,7 @@ companies:
   symbol: NDAQ
   country: United States
   indices:
+  - DOW JONES
   - S&P 500
   industries:
   - Banking & Investment Services
@@ -16048,7 +16059,7 @@ companies:
     currency: USD
   metadata:
     founded: 1971
-    employees: 4830
+    employees: ''
   isins: []
 - name: National Oilwell Varco Inc.
   symbol: NOV
@@ -16257,8 +16268,9 @@ companies:
     google: NYSE:NSC
     currency: USD
   metadata:
-    founded: 1982
-    employees: 30943
+    founded: 0
+    employees: 0
+  isins: []
 - name: Northern Trust Corporation
   symbol: NTRS
   country: United States
@@ -18841,8 +18853,9 @@ companies:
     google: OTCMKTS:WDPSF
     currency: USD
   metadata:
-    founded: unknown
-    employees: unknown
+    founded: 0
+    employees: 0
+  isins: []
 - name: Acciona SA
   symbol: ANA
   country: Spain
@@ -19860,10 +19873,9 @@ companies:
     google: OTCMKTS:IMDZF
     currency: USD
   metadata:
-    founded: 1995
-    employees: 2799
-  isins:
-  - NL0010801007
+    founded: 0
+    employees: 0
+  isins: []
 - name: Koninklijke KPN N.V.
   symbol: KPN
   country: Netherlands
@@ -22094,8 +22106,7 @@ companies:
   wiki_name: SSE plc
   symbol: SSE
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries: []
   symbols:
   - yahoo: SSE.L
@@ -22363,8 +22374,7 @@ companies:
   wiki_name: Globe Life Inc.
   symbol: GL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Life insurance
   symbols:
@@ -22583,13 +22593,14 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries: []
   symbols: []
   isins: []
   metadata:
     founded: 1909
-    employees: 11896
+    employees: 5076
 - name: Northrop Grumman Corporation
   wiki_name: Northrop Grumman Corporation
   symbol: NOC
@@ -23201,7 +23212,7 @@ companies:
   - FR0000120966
   metadata:
     founded: 1945
-    employees: 14934
+    employees: 11246
 - name: bioMérieux
   wiki_name: bioMérieux
   symbol: BIM
@@ -24767,6 +24778,9 @@ companies:
   - yahoo: EGKLF
     google: OTCMKTS:EGKLF
     currency: USD
+  - yahoo: ELLRY
+    google: OTCMKTS:ELLRY
+    currency: USD
   isins:
   - DE0007856023
   metadata:
@@ -25627,16 +25641,15 @@ companies:
   indices:
   - IBEX 35
   industries:
-  -  wellness equipment
+  - wellness equipment
   symbols:
   - yahoo: 4F1.F
     google: FRA:4F1
     currency: EUR
-  isins:
-  - ES0137650018
+  isins: []
   metadata:
-    founded: 1969
-    employees: 5500
+    founded: 0
+    employees: 0
 - name: Mapfre, S.A.
   wiki_name: Mapfre, S.A.
   symbol: MAP
@@ -25710,8 +25723,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -25913,3 +25925,44 @@ companies:
   metadata:
     founded: 1988
     employees: 4790
+- name: ASM International N.V.
+  wiki_name: ASM International N.V.
+  symbol: ASM
+  country: Netherlands
+  indices:
+  - AEX
+  industries:
+  - Semiconductor industry
+  symbols: []
+  isins:
+  - NL0000334118
+  metadata:
+    founded: 1968
+    employees: 2337
+- name: Globe Life Field
+  wiki_name: Globe Life Field
+  symbol: GL
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: ''
+    employees: ''
+- name: Organon & Co.
+  wiki_name: Organon & Co.
+  symbol: OGN
+  country: United Kingdom
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: OGN
+    google: NYSE:OGN
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2020
+    employees: 9000
