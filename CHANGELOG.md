@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.3 (2021-06-09)
+### Fix
+* Removed wrong metadata ([`3c8f46e`](https://github.com/portfolioplus/pytickersymbols/commit/3c8f46ec3d239ee256b080c77e0444b22a7b935b))
+
 ## v1.7.2 (2021-06-09)
 ### Fix
 * Added wiki name for wdp ([`ab39dbf`](https://github.com/portfolioplus/pytickersymbols/commit/ab39dbfdd2af4a6c92126410c1765669e67aa562))
