@@ -18823,6 +18823,7 @@ companies:
     founded: 1863
     employees: 24500
 - name: Warehouses De Pauw
+  wiki_name: WDP
   symbol: WDP
   country: Belgium
   indices:
