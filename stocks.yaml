@@ -1239,7 +1239,6 @@ companies:
   isins:
   - DE0005790406
   - DE0005790430
-  - DE0005790430
 - name: GEA Group AG
   symbol: G1A
   country: Germany
@@ -2193,8 +2192,8 @@ companies:
     founded: 1923
     employees: 20717
   isins:
-  - DE0005194005
   - DE0005194062
+  - DE0005194005
 - name: Befesa SA
   symbol: BFSA
   country: Luxembourg
@@ -2705,7 +2704,7 @@ companies:
     currency: USD
   metadata:
     founded: 1877
-    employees: 21505
+    employees: 23279
   isins:
   - DE0006083405
 - name: Hypoport Finance AG
@@ -2788,7 +2787,7 @@ companies:
     currency: EUR
   metadata:
     founded: 1991
-    employees: 4043
+    employees: 4472
   isins:
   - DE000A2NB601
 - name: JOST Werke AG
@@ -3558,6 +3557,9 @@ companies:
   - yahoo: III.L
     google: LON:III
     currency: GBP
+  - yahoo: IGQ.F
+    google: FRA:IGQ
+    currency: EUR
   metadata:
     founded: 1945
     employees: 244
@@ -3764,6 +3766,9 @@ companies:
   - yahoo: 2UA.F
     google: FRA:2UA
     currency: EUR
+  - yahoo: 2UA0.F
+    google: FRA:2UA0
+    currency: EUR
   metadata:
     founded: 1975
     employees: ''
@@ -3941,8 +3946,8 @@ companies:
     founded: 1860
     employees: 80000
   isins:
-  - AU000000BHP4
   - GB00BH0P3Z91
+  - AU000000BHP4
 - name: BP PLC
   symbol: BP.
   country: United Kingdom
@@ -5056,8 +5061,8 @@ companies:
     founded: 1967
     employees: 26000
   isins:
-  - ZAE000156550
   - GB00B1CRLC47
+  - ZAE000156550
 - name: National Grid PLC
   symbol: NG.
   country: United Kingdom
@@ -6404,8 +6409,8 @@ companies:
     founded: 1288
     employees: 24455
   isins:
-  - FI0009005953
   - FI0009005961
+  - FI0009005953
 - name: UPM-Kymmene Oyj
   symbol: UPM1V
   country: Finland
@@ -7043,10 +7048,10 @@ companies:
   - yahoo: LRLCF
     google: OTCMKTS:LRLCF
     currency: USD
-  metadata: &id004
+  metadata: &id002
     founded: 1909
     employees: 88000
-  isins: &id003
+  isins:
   - FR0000120321
 - name: Legrand SA
   symbol: LR
@@ -7087,10 +7092,10 @@ companies:
   - yahoo: LVMHF
     google: OTCMKTS:LVMHF
     currency: USD
-  metadata: &id006
+  metadata: &id003
     founded: 1987
     employees: 145247
-  isins: &id005
+  isins:
   - FR0000121014
 - name: Compagnie Générale des établissements Michelin
   symbol: ML
@@ -7356,10 +7361,10 @@ companies:
   - yahoo: SCGLF
     google: OTCMKTS:SCGLF
     currency: USD
-  metadata: &id008
+  metadata: &id004
     founded: 1864
     employees: 146000
-  isins: &id007
+  isins:
   - FR0000130809
 - name: Sodexo SA
   symbol: SW
@@ -8387,8 +8392,8 @@ companies:
     founded: 2015
     employees: 135301
   isins:
-  - US02079K3059
   - US02079K1079
+  - US02079K3059
 - name: Amazon.com Inc.
   symbol: AMZN
   country: United States
@@ -14226,8 +14231,8 @@ companies:
     founded: 2019
     employees: 9000
   isins:
-  - US35137L1052
   - US35137L2043
+  - US35137L1052
 - name: Franklin Resources Inc.
   symbol: BEN
   country: United States
@@ -14683,8 +14688,7 @@ companies:
 - name: HollyFrontier Corporation
   symbol: HFC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -15950,8 +15954,7 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -16033,6 +16036,7 @@ companies:
   symbol: NDAQ
   country: United States
   indices:
+  - DOW JONES
   - S&P 500
   industries:
   - Banking & Investment Services
@@ -16259,6 +16263,7 @@ companies:
   metadata:
     founded: 1982
     employees: 30943
+  isins: []
 - name: Northern Trust Corporation
   symbol: NTRS
   country: United States
@@ -17787,8 +17792,8 @@ companies:
     founded: 1996
     employees: 16400
   isins:
-  - US9043111072
   - US9043112062
+  - US9043111072
 - name: United Continental Holdings Inc.
   symbol: UAL
   country: United States
@@ -18843,6 +18848,7 @@ companies:
   metadata:
     founded: unknown
     employees: unknown
+  isins: []
 - name: Acciona SA
   symbol: ANA
   country: Spain
@@ -19304,10 +19310,10 @@ companies:
   - yahoo: IDEXF
     google: OTCMKTS:IDEXF
     currency: USD
-  metadata: &id002
+  metadata: &id001
     founded: 1985
     employees: 162450
-  isins: &id001
+  isins:
   - ES0148396007
 - name: Indra Sistemas SA
   symbol: IDR
@@ -20092,7 +20098,6 @@ companies:
     employees: 44695
   isins:
   - SE0011166610
-  - SE0011166628
   - SE0011166628
 - name: Autoliv Inc.
   symbol: ALIV SDB
@@ -21148,9 +21153,8 @@ companies:
     founded: 1989
     employees: 473800
   isins:
+  - US3682872078
   - RU0007661625
-  - US3682872078
-  - US3682872078
 - name: Inter RAO UES
   symbol: IRAO
   country: Russian Federation
@@ -21402,7 +21406,6 @@ companies:
   isins:
   - RU000A0DKVS5
   - US6698881090
-  - US6698881090
 - name: PAO TMK
   symbol: TRMK
   country: Russian Federation
@@ -21545,7 +21548,6 @@ companies:
   isins:
   - RU000A0J2Q06
   - US67812M2070
-  - US67812M2070
 - name: Rostelecom
   symbol: RTKM
   country: Russian Federation
@@ -21568,9 +21570,9 @@ companies:
     founded: 1993
     employees: 126000
   isins:
-  - RU0008943394
   - US7785291078
   - DE0005557508
+  - RU0008943394
 - name: United Company RUSAL
   symbol: RUAL
   country: Russian Federation
@@ -22094,8 +22096,7 @@ companies:
   wiki_name: SSE plc
   symbol: SSE
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries: []
   symbols:
   - yahoo: SSE.L
@@ -22583,13 +22584,14 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries: []
   symbols: []
   isins: []
   metadata:
     founded: 1909
-    employees: 11896
+    employees: 5076
 - name: Northrop Grumman Corporation
   wiki_name: Northrop Grumman Corporation
   symbol: NOC
@@ -23201,7 +23203,7 @@ companies:
   - FR0000120966
   metadata:
     founded: 1945
-    employees: 14934
+    employees: 11246
 - name: bioMérieux
   wiki_name: bioMérieux
   symbol: BIM
@@ -24580,8 +24582,9 @@ companies:
   industries:
   - Retailing
   symbols: []
-  isins: *id001
-  metadata: *id002
+  isins:
+  - ES0148396007
+  metadata: *id001
 - name: Intesa Sanpaolo S.p.A.
   wiki_name: Intesa Sanpaolo S.p.A.
   symbol: ISP
@@ -24610,8 +24613,9 @@ companies:
   - EURO STOXX 50
   industries: []
   symbols: []
-  isins: *id003
-  metadata: *id004
+  isins:
+  - FR0000120321
+  metadata: *id002
 - name: LVMH Moët Hennessy - Louis Vuitton, Société Européenne
   wiki_name: LVMH Moët Hennessy Louis Vuitton
   symbol: MC
@@ -24621,8 +24625,9 @@ companies:
   industries:
   - Luxury goods
   symbols: []
-  isins: *id005
-  metadata: *id006
+  isins:
+  - FR0000121014
+  metadata: *id003
 - name: Société Générale SA
   wiki_name: Société Générale S.A.
   symbol: GLE
@@ -24631,8 +24636,9 @@ companies:
   industries:
   - Financial services
   symbols: []
-  isins: *id007
-  metadata: *id008
+  isins:
+  - FR0000130809
+  metadata: *id004
 - name: ADVA Optical Networking SE
   wiki_name: ADVA Optical Networking SE
   symbol: ADV
@@ -24716,8 +24722,8 @@ companies:
     google: OTCMKTS:MTTRY
     currency: USD
   isins:
-  - DE0007257503
   - DE0007257537
+  - DE0007257503
   metadata:
     founded: 1996
     employees: 53954
@@ -24766,6 +24772,9 @@ companies:
     currency: EUR
   - yahoo: EGKLF
     google: OTCMKTS:EGKLF
+    currency: USD
+  - yahoo: ELLRY
+    google: OTCMKTS:ELLRY
     currency: USD
   isins:
   - DE0007856023
@@ -25627,7 +25636,7 @@ companies:
   indices:
   - IBEX 35
   industries:
-  -  wellness equipment
+  - wellness equipment
   symbols:
   - yahoo: 4F1.F
     google: FRA:4F1
@@ -25710,8 +25719,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -25881,8 +25889,8 @@ companies:
   industries: []
   symbols: []
   isins:
-  - RU0009084396
   - US5591892048
+  - RU0009084396
   metadata:
     founded: 1932
     employees: ''
@@ -25913,3 +25921,32 @@ companies:
   metadata:
     founded: 1988
     employees: 4790
+- name: Organon & Co.
+  wiki_name: Organon & Co.
+  symbol: OGN
+  country: United Kingdom
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: OGN
+    google: NYSE:OGN
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2020
+    employees: 9000
+- name: ASM International N.V.
+  wiki_name: ASM International N.V.
+  symbol: ASM
+  country: Netherlands
+  indices:
+  - AEX
+  industries:
+  - Semiconductor industry
+  symbols: []
+  isins:
+  - NL0000334118
+  metadata:
+    founded: 1968
+    employees: 2337
