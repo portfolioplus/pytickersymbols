@@ -19288,6 +19288,7 @@ companies:
   isins:
   - ES0144580Y14
 - name: Industria de Diseño Textil SA
+  wiki_name: Industria de Diseño Textil, S.A.
   symbol: ITX
   country: Spain
   indices:
@@ -19304,10 +19305,10 @@ companies:
   - yahoo: IDEXF
     google: OTCMKTS:IDEXF
     currency: USD
-  metadata: &id002
+  metadata:
     founded: 1985
     employees: 162450
-  isins: &id001
+  isins:
   - ES0148396007
 - name: Indra Sistemas SA
   symbol: IDR
@@ -24571,17 +24572,6 @@ companies:
   metadata:
     founded: 1953
     employees: 31495
-- name: Industria de Diseño Textil SA
-  wiki_name: Industria de Diseño Textil, S.A.
-  symbol: ITX
-  country: Spain
-  indices:
-  - EURO STOXX 50
-  industries:
-  - Retailing
-  symbols: []
-  isins: *id001
-  metadata: *id002
 - name: Intesa Sanpaolo S.p.A.
   wiki_name: Intesa Sanpaolo S.p.A.
   symbol: ISP
@@ -24610,8 +24600,11 @@ companies:
   - EURO STOXX 50
   industries: []
   symbols: []
-  isins: *id003
-  metadata: *id004
+  isins:
+  - FR0000120321
+  metadata:
+    founded: 1909
+    employees: 88000
 - name: LVMH Moët Hennessy - Louis Vuitton, Société Européenne
   wiki_name: LVMH Moët Hennessy Louis Vuitton
   symbol: MC
@@ -24621,8 +24614,11 @@ companies:
   industries:
   - Luxury goods
   symbols: []
-  isins: *id005
-  metadata: *id006
+  isins:
+  - FR0000121014
+  metadata:
+    founded: 1987
+    employees: 163309
 - name: Société Générale SA
   wiki_name: Société Générale S.A.
   symbol: GLE
@@ -24631,8 +24627,11 @@ companies:
   industries:
   - Financial services
   symbols: []
-  isins: *id007
-  metadata: *id008
+  isins:
+  - FR0000130809
+  metadata:
+    founded: 1864
+    employees: 147125
 - name: ADVA Optical Networking SE
   wiki_name: ADVA Optical Networking SE
   symbol: ADV
