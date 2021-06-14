@@ -1169,6 +1169,9 @@ companies:
   - yahoo: FIE1.F
     google: FRA:FIE1
     currency: EUR
+  - yahoo: FLMNY
+    google: OTCMKTS:FLMNY
+    currency: USD
   metadata:
     founded: 1972
     employees: 21853
@@ -1748,7 +1751,6 @@ companies:
   symbol: RRTL
   country: Luxembourg
   indices:
-  - CAC Mid 60
   - SDAX
   industries:
   - Media & Publishing
@@ -2785,6 +2787,9 @@ companies:
   - yahoo: JEN.F
     google: FRA:JEN
     currency: EUR
+  - yahoo: JNPKF
+    google: OTCMKTS:JNPKF
+    currency: USD
   metadata:
     founded: 1991
     employees: 4043
@@ -3259,6 +3264,9 @@ companies:
   - yahoo: STMU.F
     google: FRA:STMU
     currency: EUR
+  - yahoo: SBLUY
+    google: OTCMKTS:SBLUY
+    currency: USD
   metadata:
     founded: 1934
     employees: 6488
@@ -3677,6 +3685,9 @@ companies:
   - yahoo: ASHTF
     google: OTCMKTS:ASHTF
     currency: USD
+  - yahoo: 0LCA.F
+    google: FRA:0LCA
+    currency: EUR
   metadata:
     founded: 1947
     employees: 13233
@@ -3801,6 +3812,9 @@ companies:
   - yahoo: AV.L
     google: LON:AV
     currency: GBP
+  - yahoo: GU8.F
+    google: FRA:GU8
+    currency: EUR
   metadata:
     founded: 2000
     employees: 31000
@@ -4828,6 +4842,9 @@ companies:
   - yahoo: JMAT.L
     google: LON:JMAT
     currency: GBP
+  - yahoo: JMPLF
+    google: OTCMKTS:JMPLF
+    currency: USD
   metadata:
     founded: 1817
     employees: 13939
@@ -25952,3 +25969,19 @@ companies:
   metadata:
     founded: 2020
     employees: 9000
+- name: Metropole Télévision SA
+  wiki_name: Metropole Télévision SA
+  symbol: XPAR
+  country: France
+  indices:
+  - CAC Mid 60
+  industries:
+  - Media
+  symbols:
+  - yahoo: MMT.F
+    google: FRA:MMT
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 1987
+    employees: ''
