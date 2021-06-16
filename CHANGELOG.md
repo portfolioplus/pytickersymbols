@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.6 (2021-06-16)
+### Fix
+* Update stock symbols ([`f295a48`](https://github.com/portfolioplus/pytickersymbols/commit/f295a487360b95776aeedc1cfa2df0f074915195))
+
 ## v1.7.5 (2021-06-09)
 ### Fix
 * Update stock symbols ([`2ca408a`](https://github.com/portfolioplus/pytickersymbols/commit/2ca408a973eed863e24800158874d48face2356d))
