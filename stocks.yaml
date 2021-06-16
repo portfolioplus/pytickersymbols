@@ -22164,7 +22164,8 @@ companies:
   wiki_name: Amcor plc
   symbol: AMCR
   country: Switzerland
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Packaging
   symbols:
@@ -25976,21 +25977,11 @@ companies:
   - CAC Mid 60
   industries:
   - Media
-  symbols: []
+  symbols:
+  - yahoo: MMT.F
+    google: FRA:MMT
+    currency: EUR
   isins: []
   metadata:
     founded: 1987
-    employees: ''
-- name: Amco Batteries Limited
-  wiki_name: Amco Batteries Limited
-  symbol: AMCR
-  country: India
-  indices:
-  - S&P 500
-  industries:
-  - Battery
-  symbols: []
-  isins: []
-  metadata:
-    founded: 1932
     employees: ''
