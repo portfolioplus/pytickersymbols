@@ -1019,6 +1019,9 @@ companies:
   - yahoo: DUSCF
     google: OTCMKTS:DUSCF
     currency: USD
+  - yahoo: DEQ1.F
+    google: FRA:DEQ1
+    currency: EUR
   metadata:
     founded: 1997
     employees: 5
@@ -1077,6 +1080,9 @@ companies:
   symbols:
   - yahoo: DRI.F
     google: FRA:DRI
+    currency: EUR
+  - yahoo: 1U1.F
+    google: FRA:1U1
     currency: EUR
   metadata:
     founded: 1997
@@ -1622,8 +1628,7 @@ companies:
 - name: OSRAM Licht AG
   symbol: OSR
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Lighting
   - Electrical Components & Equipment
@@ -1751,6 +1756,7 @@ companies:
   symbol: RRTL
   country: Luxembourg
   indices:
+  - CAC Mid 60
   - SDAX
   industries:
   - Media & Publishing
@@ -1898,7 +1904,7 @@ companies:
   symbol: WAF
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   - TECDAX
   industries:
   - Technology
@@ -2365,8 +2371,7 @@ companies:
 - name: CORESTATE Capital Holding SA
   symbol: CCAP
   country: Luxembourg
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Real Estate Services
   - Real Estate
@@ -2566,7 +2571,8 @@ companies:
 - name: Grenke AG
   symbol: GLJ
   country: Germany
-  indices: []
+  indices:
+  - SDAX
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -2863,8 +2869,7 @@ companies:
 - name: KOENIG & BAUER AG
   symbol: SKB
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -2935,8 +2940,7 @@ companies:
 - name: LEONI AG
   symbol: LEO
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -3011,6 +3015,9 @@ companies:
     currency: EUR
   - yahoo: PAT
     google: OTCMKTS:PAT
+    currency: USD
+  - yahoo: PTZIF
+    google: OTCMKTS:PTZIF
     currency: USD
   metadata:
     founded: 1984
@@ -3239,6 +3246,9 @@ companies:
   - yahoo: SMTGY
     google: OTCMKTS:SMTGY
     currency: USD
+  - yahoo: S93.F
+    google: FRA:S93
+    currency: EUR
   metadata:
     founded: 1981
     employees: 3264
@@ -4807,7 +4817,8 @@ companies:
 - name: ITV PLC
   symbol: ITV
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -4820,9 +4831,16 @@ companies:
   - yahoo: ITVPF
     google: OTCMKTS:ITVPF
     currency: USD
+  - yahoo: ITV.L
+    google: LON:ITV
+    currency: GBP
+  - yahoo: ITVPY
+    google: OTCMKTS:ITVPY
+    currency: USD
   metadata:
     founded: unknown
     employees: unknown
+  isins: []
 - name: Johnson Matthey PLC
   symbol: JMAT
   country: United Kingdom
@@ -5040,6 +5058,9 @@ companies:
   - yahoo: MRO.L
     google: LON:MRO
     currency: GBP
+  - yahoo: 27M.F
+    google: FRA:27M
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -5386,6 +5407,9 @@ companies:
   - yahoo: RB.L
     google: LON:RB
     currency: GBP
+  - yahoo: RKT.L
+    google: LON:RKT
+    currency: GBP
   metadata:
     founded: 1814
     employees: 40000
@@ -5418,6 +5442,9 @@ companies:
   - yahoo: RLXXF
     google: OTCMKTS:RLXXF
     currency: USD
+  - yahoo: RDEB.F
+    google: FRA:RDEB
+    currency: EUR
   metadata:
     founded: 1993
     employees: 33200
@@ -5915,6 +5942,12 @@ companies:
   - yahoo: SLA.L
     google: LON:SLA
     currency: GBP
+  - yahoo: ABDN.L
+    google: LON:ABDN
+    currency: GBP
+  - yahoo: SLFPY
+    google: OTCMKTS:SLFPY
+    currency: USD
   metadata:
     founded: 2017
     employees: 6000
@@ -7482,6 +7515,9 @@ companies:
   - yahoo: TOT
     google: NYSE:TOT
     currency: USD
+  - yahoo: TTE
+    google: NYSE:TTE
+    currency: USD
   metadata:
     founded: 1924
     employees: 107776
@@ -8082,7 +8118,8 @@ companies:
   metadata:
     founded: 1964
     employees: 75400
-  isins: []
+  isins:
+  - US6541061031
 - name: Pfizer Inc.
   symbol: PFE
   country: United States
@@ -8843,7 +8880,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -15977,7 +16013,8 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Professional Information Services
   - Industrials
@@ -20563,8 +20600,7 @@ companies:
 - name: AB Volvo
   symbol: VOLVB
   country: Sweden
-  indices:
-  - OMX Stockholm 30
+  indices: []
   industries:
   - Automotive
   symbols:
@@ -21943,7 +21979,13 @@ companies:
   - FTSE 100
   industries:
   - Retail
-  symbols: []
+  symbols:
+  - yahoo: BME.L
+    google: LON:BME
+    currency: GBP
+  - yahoo: BMRRY
+    google: OTCMKTS:BMRRY
+    currency: USD
   isins: []
   metadata:
     founded: 1978
@@ -22028,7 +22070,10 @@ companies:
   - FTSE 100
   industries:
   - Online food ordering
-  symbols: []
+  symbols:
+  - yahoo: GRUB
+    google: NASDAQ:GRUB
+    currency: USD
   isins:
   - NL0012015705
   metadata:
@@ -22056,7 +22101,13 @@ companies:
   - FTSE 100
   industries:
   - Financial services
-  symbols: []
+  symbols:
+  - yahoo: MGPUF
+    google: OTCMKTS:MGPUF
+    currency: USD
+  - yahoo: MNG.L
+    google: LON:MNG
+    currency: GBP
   isins:
   - GB00BKFB1C65
   metadata:
@@ -22609,8 +22660,7 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -23768,7 +23818,8 @@ companies:
   - yahoo: M8Y.F
     google: FRA:M8Y
     currency: EUR
-  isins: []
+  isins:
+  - FR0010241638
   metadata:
     founded: 0
     employees: 0
@@ -24795,6 +24846,9 @@ companies:
   - yahoo: ELLRY
     google: OTCMKTS:ELLRY
     currency: USD
+  - yahoo: ZIL.F
+    google: FRA:ZIL
+    currency: EUR
   isins:
   - DE0007856023
   metadata:
@@ -24811,6 +24865,9 @@ companies:
   - yahoo: FTK.F
     google: FRA:FTK
     currency: EUR
+  - yahoo: FNNTF
+    google: OTCMKTS:FNNTF
+    currency: USD
   isins:
   - DE000FTG1111
   metadata:
@@ -25710,7 +25767,7 @@ companies:
   symbol: AG1
   country: Germany
   indices:
-  - SDAX
+  - MDAX
   industries: []
   symbols:
   - yahoo: AG1.F
@@ -25738,7 +25795,8 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices: []
+  indices:
+  - AEX
   industries: []
   symbols: []
   isins:
@@ -25750,8 +25808,7 @@ companies:
   wiki_name: Renishaw plc
   symbol: RSW
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Engineering
   symbols: []
@@ -25973,8 +26030,7 @@ companies:
   wiki_name: Metropole Télévision SA
   symbol: XPAR
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Media
   symbols:
@@ -25984,4 +26040,81 @@ companies:
   isins: []
   metadata:
     founded: 1987
+    employees: ''
+- name: ATOSS Software AG
+  wiki_name: ATOSS Software AG
+  symbol: AOF
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: AOF.F
+    google: FRA:AOF
+    currency: EUR
+  - yahoo: 0N66.L
+    google: LON:0N66
+    currency: GBP
+  isins:
+  - DE0005104400
+  metadata:
+    founded: 1987
+    employees: 560
+- name: Nagarro SE
+  wiki_name: Nagarro SE
+  symbol: NA9
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: NA9.F
+    google: FRA:NA9
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Vantage Towers AG
+  wiki_name: Vantage Towers AG
+  symbol: VTWR
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: VTWR.F
+    google: FRA:VTWR
+    currency: EUR
+  - yahoo: VTAGY
+    google: OTCMKTS:VTAGY
+    currency: USD
+  isins:
+  - DE000A3H3LL2
+  metadata:
+    founded: 2020
+    employees: ''
+- name: Volvo Car Corporation
+  wiki_name: Volvo Car Corporation
+  symbol: null
+  country: Sweden
+  indices:
+  - OMX Stockholm 30
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 1927
+    employees: 40131
+- name: CSX Transportation Building
+  wiki_name: CSX Transportation Building
+  symbol: CSX
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: ''
     employees: ''
