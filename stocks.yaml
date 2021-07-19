@@ -1770,6 +1770,9 @@ companies:
   - yahoo: RGLXY
     google: OTCMKTS:RGLXY
     currency: USD
+  - yahoo: RRTU.F
+    google: FRA:RRTU
+    currency: EUR
   metadata:
     founded: 2000
     employees: 10747
@@ -3732,6 +3735,9 @@ companies:
   - yahoo: AFO2.F
     google: FRA:AFO2
     currency: EUR
+  - yahoo: ASBFF
+    google: OTCMKTS:ASBFF
+    currency: USD
   metadata:
     founded: 1935
     employees: 133000
@@ -4207,6 +4213,9 @@ companies:
   - yahoo: C0Q.F
     google: FRA:C0Q
     currency: EUR
+  - yahoo: CCHBF
+    google: OTCMKTS:CCHBF
+    currency: USD
   metadata:
     founded: 1969
     employees: 38
@@ -4565,6 +4574,9 @@ companies:
   - yahoo: HLMA.L
     google: LON:HLMA
     currency: GBP
+  - yahoo: HALMY
+    google: OTCMKTS:HALMY
+    currency: USD
   metadata:
     founded: 1894
     employees: 6341
@@ -5231,6 +5243,9 @@ companies:
   - yahoo: FLTR.L
     google: LON:FLTR
     currency: GBP
+  - yahoo: PPBA.F
+    google: FRA:PPBA
+    currency: EUR
   metadata:
     founded: 2016
     employees: 9153
@@ -8880,6 +8895,7 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
+  - S&P 500
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -16013,8 +16029,7 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -22660,7 +22675,8 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries: []
   symbols: []
   isins: []
@@ -26110,8 +26126,7 @@ companies:
   wiki_name: CSX Transportation Building
   symbol: CSX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
