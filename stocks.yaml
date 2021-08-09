@@ -2842,6 +2842,9 @@ companies:
   - yahoo: JGHHY
     google: OTCMKTS:JGHHY
     currency: USD
+  - yahoo: JUNU.F
+    google: FRA:JUNU
+    currency: EUR
   metadata:
     founded: 1953
     employees: 18103
@@ -3584,6 +3587,9 @@ companies:
   - yahoo: IGQ.F
     google: FRA:IGQ
     currency: EUR
+  - yahoo: TGOPF
+    google: OTCMKTS:TGOPF
+    currency: USD
   metadata:
     founded: 1945
     employees: 244
@@ -6337,6 +6343,9 @@ companies:
   - yahoo: NTOIY
     google: OTCMKTS:NTOIY
     currency: USD
+  - yahoo: NEFA.F
+    google: FRA:NEFA
+    currency: EUR
   metadata:
     founded: 1948
     employees: 4400
@@ -8421,9 +8430,7 @@ companies:
 - name: Alexion Pharmaceuticals Inc.
   symbol: ALXN
   country: United States
-  indices:
-  - NASDAQ 100
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -10884,6 +10891,7 @@ companies:
   symbol: HON
   country: United States
   indices:
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -15520,8 +15528,7 @@ companies:
 - name: L Brands Inc.
   symbol: LB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -16029,7 +16036,8 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Professional Information Services
   - Industrials
@@ -21981,6 +21989,9 @@ companies:
   - yahoo: 4A91.F
     google: FRA:4A91
     currency: EUR
+  - yahoo: AVVYY
+    google: OTCMKTS:AVVYY
+    currency: USD
   isins:
   - GB00BBG9VN75
   metadata:
@@ -22026,6 +22037,9 @@ companies:
   - yahoo: GMVHY
     google: OTCMKTS:GMVHY
     currency: USD
+  - yahoo: 6GI0.F
+    google: FRA:6GI0
+    currency: EUR
   isins:
   - IM00B5VQMV65
   metadata:
@@ -22675,8 +22689,7 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -24778,6 +24791,9 @@ companies:
   - yahoo: ABGOF
     google: OTCMKTS:ABGOF
     currency: USD
+  - yahoo: ABGOY
+    google: OTCMKTS:ABGOY
+    currency: USD
   isins:
   - ES0105200416
   metadata:
@@ -25374,6 +25390,7 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
+  - S&P 500
   industries:
   - Biotechnology
   symbols:
@@ -25383,7 +25400,8 @@ companies:
   - yahoo: 0QF.F
     google: FRA:0QF
     currency: EUR
-  isins: []
+  isins:
+  - US60770K1079
   metadata:
     founded: 2010
     employees: 1500
@@ -25811,8 +25829,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -26105,6 +26122,9 @@ companies:
   - yahoo: VTAGY
     google: OTCMKTS:VTAGY
     currency: USD
+  - yahoo: VTWRF
+    google: OTCMKTS:VTWRF
+    currency: USD
   isins:
   - DE000A3H3LL2
   metadata:
@@ -26133,3 +26153,19 @@ companies:
   metadata:
     founded: ''
     employees: ''
+- name: Bath & Body Works, Inc.
+  wiki_name: Bath & Body Works, Inc.
+  symbol: BBWI
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Retailing
+  symbols:
+  - yahoo: BBWI
+    google: NYSE:BBWI
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1963
+    employees: 59950
