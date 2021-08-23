@@ -3382,6 +3382,9 @@ companies:
   - yahoo: TLLXY
     google: OTCMKTS:TLLXY
     currency: USD
+  - yahoo: TNXXF
+    google: OTCMKTS:TNXXF
+    currency: USD
   metadata:
     founded: 1996
     employees: 22537
@@ -3439,6 +3442,9 @@ companies:
   - yahoo: VOSSY
     google: OTCMKTS:VOSSY
     currency: USD
+  - yahoo: UWU0.F
+    google: FRA:UWU0
+    currency: EUR
   metadata:
     founded: 1888
     employees: 3786
@@ -3538,6 +3544,9 @@ companies:
   - yahoo: NWO.F
     google: FRA:NWO
     currency: EUR
+  - yahoo: XINXF
+    google: OTCMKTS:XINXF
+    currency: USD
   metadata:
     founded: 2003
     employees: 1567
@@ -3927,6 +3936,9 @@ companies:
   - yahoo: BDEV.L
     google: LON:BDEV
     currency: GBP
+  - yahoo: 3BAA.F
+    google: FRA:3BAA
+    currency: EUR
   metadata:
     founded: 1958
     employees: 6655
@@ -10817,7 +10829,8 @@ companies:
   metadata:
     founded: 1971
     employees: 600000
-  isins: []
+  isins:
+  - US31428X1063
 - name: Ford Motor Company
   symbol: F
   country: United States
@@ -18682,7 +18695,6 @@ companies:
   country: Belgium
   indices:
   - BEL 20
-  - AEX
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -19731,8 +19743,7 @@ companies:
 - name: ABN AMRO Group N.V.
   symbol: ABN
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries:
   - Financials
   - Banks
@@ -25009,6 +25020,9 @@ companies:
   - yahoo: ILM1.F
     google: FRA:ILM1
     currency: EUR
+  - yahoo: 0QB4.L
+    google: LON:0QB4
+    currency: GBP
   isins:
   - DE000A1MMCC8
   metadata:
@@ -25829,7 +25843,8 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices: []
+  indices:
+  - AEX
   industries: []
   symbols: []
   isins:
@@ -26104,6 +26119,9 @@ companies:
   - yahoo: NA9.F
     google: FRA:NA9
     currency: EUR
+  - yahoo: NGRRF
+    google: OTCMKTS:NGRRF
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -26169,3 +26187,30 @@ companies:
   metadata:
     founded: 1963
     employees: 59950
+- name: BE Semiconductor Industries N.V.
+  wiki_name: BE Semiconductor Industries N.V.
+  symbol: BESI
+  country: Netherlands
+  indices:
+  - AEX
+  industries: []
+  symbols: []
+  isins:
+  - NL0012866412
+  metadata:
+    founded: 1995
+    employees: 2040
+- name: Signify N.V.
+  wiki_name: Signify N.V.
+  symbol: LIGHT
+  country: Netherlands
+  indices:
+  - AEX
+  industries:
+  - Lighting
+  symbols: []
+  isins:
+  - NL0011821392
+  metadata:
+    founded: 2016
+    employees: 32005
