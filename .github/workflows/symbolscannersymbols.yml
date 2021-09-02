@@ -29,7 +29,7 @@ jobs:
         run: pip install tox
       - name: Run tests
         run: |
-          SKIP_UNIQUE_TICKER_CHECK=1 tox
+          tox -e symbolscanner-py38
       - name: Coveralls
         uses: AndreMiras/coveralls-python-action@develop
         with:
