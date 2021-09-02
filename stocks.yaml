@@ -7155,10 +7155,12 @@ companies:
   isins:
   - FR0000121485
 - name: L'Oréal SA
+  wiki_name: L'Oréal S.A.
   symbol: OR
   country: France
   indices:
   - CAC 40
+  - EURO STOXX 50
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -12305,25 +12307,32 @@ companies:
     founded: 1990
     employees: 30000
   isins: []
-- name: Baker Hughes, a GE Company
-  symbol: BHGE
+- name: Baker Hughes Company
+  wiki_name: Baker Hughes Company
+  symbol: BKR
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
-  - Energy
-  - Fossil Fuels
-  - Oil Related Services and Equipment
-  - Oil & Gas Related Equipment and Services
+  - Hydrocarbon exploration
   symbols:
-  - yahoo: 68V.F
-    google: FRA:68V
-    currency: EUR
+  - yahoo: BKR
+    google: NYSE:BKR
+    currency: USD
   - yahoo: BHGE
     google: NYSE:BHGE
     currency: USD
+  - yahoo: 68V.F
+    google: FRA:68V
+    currency: EUR
+  - yahoo: 0RR8.L
+    google: LON:0RR8
+    currency: GBP
+  isins:
+  - US05722G1004
   metadata:
     founded: 1907
-    employees: 67000
+    employees: 60000
 - name: Ball Corporation
   symbol: BLL
   country: United States
@@ -17838,24 +17847,6 @@ companies:
   metadata:
     founded: 1983
     employees: 12820
-- name: TransDigm Group Inc.
-  symbol: TDG
-  country: United States
-  indices: []
-  industries:
-  - Industrial Goods
-  - Industrials
-  - Aerospace & Defense
-  symbols:
-  - yahoo: T7D.F
-    google: FRA:T7D
-    currency: EUR
-  - yahoo: TDG
-    google: NYSE:TDG
-    currency: USD
-  metadata:
-    founded: 1993
-    employees: 22709
 - name: Twitter Inc.
   symbol: TWTR
   country: United States
@@ -19157,28 +19148,6 @@ companies:
     employees: 123174
   isins:
   - ES0113211835
-- name: Banco de Sabadell SA
-  symbol: SAB
-  country: United States
-  indices: []
-  industries:
-  - Mineral Resources
-  - Software
-  - Technology
-  - Basic Materials
-  - Steel
-  - Software & IT Services
-  - Metals & Mining
-  symbols:
-  - yahoo: BDSB.F
-    google: FRA:BDSB
-    currency: EUR
-  - yahoo: BNDSF
-    google: OTCMKTS:BNDSF
-    currency: USD
-  metadata:
-    founded: unknown
-    employees: unknown
 - name: Banco Santander (Brasil) SA
   symbol: SAN
   country: Spain
@@ -19523,32 +19492,6 @@ companies:
     employees: 10763
   isins:
   - ES0139140018
-- name: Mapfre SA
-  symbol: MAP
-  country: Spain
-  indices: []
-  industries:
-  - Insurance
-  - Financials
-  - Multiline Insurance & Brokers
-  symbols:
-  - yahoo: CMAB.F
-    google: FRA:CMAB
-    currency: EUR
-  - yahoo: MPFRY
-    google: OTCMKTS:MPFRY
-    currency: USD
-  - yahoo: MAP.MC
-    google: BME:MAP
-    currency: EUR
-  - yahoo: MPFRF
-    google: OTCMKTS:MPFRF
-    currency: USD
-  metadata:
-    founded: 1933
-    employees: 32798
-  isins:
-  - ES0124244E34
 - name: Mediaset España Comunicación SA
   symbol: TL5
   country: Spain
@@ -22403,29 +22346,6 @@ companies:
   metadata:
     founded: 1860
     employees: 35000
-- name: Baker Hughes Company
-  wiki_name: Baker Hughes Company
-  symbol: BKR
-  country: United States
-  indices:
-  - S&P 500
-  industries:
-  - Hydrocarbon exploration
-  symbols:
-  - yahoo: BKR
-    google: NYSE:BKR
-    currency: USD
-  - yahoo: 68V.F
-    google: FRA:68V
-    currency: EUR
-  - yahoo: 0RR8.L
-    google: LON:0RR8
-    currency: GBP
-  isins:
-  - US05722G1004
-  metadata:
-    founded: 1907
-    employees: 60000
 - name: Bio-Rad Laboratories, Inc.
   wiki_name: Bio-Rad Laboratories, Inc.
   symbol: BIO
@@ -23114,11 +23034,17 @@ companies:
   country: United States
   indices:
   - S&P 500
-  industries: []
+  industries:
+  - Industrial Goods
+  - Industrials
+  - Aerospace & Defense
   symbols:
   - yahoo: T7D.F
     google: FRA:T7D
     currency: EUR
+  - yahoo: TDG
+    google: NYSE:TDG
+    currency: USD
   isins: []
   metadata:
     founded: 1993
@@ -24770,6 +24696,9 @@ companies:
   industries:
   - Financial services
   symbols:
+  - yahoo: BDSB.F
+    google: FRA:BDSB
+    currency: EUR
   - yahoo: BNDSY
     google: OTCMKTS:BNDSY
     currency: USD
@@ -24889,25 +24818,6 @@ companies:
   metadata:
     founded: 1583
     employees: 96892
-- name: L'Oréal SA
-  wiki_name: L'Oréal S.A.
-  symbol: OR
-  country: France
-  indices:
-  - EURO STOXX 50
-  industries: []
-  symbols:
-  - yahoo: LOR.F
-    google: FRA:LOR
-    currency: EUR
-  - yahoo: LRLCF
-    google: OTCMKTS:LRLCF
-    currency: USD
-  isins:
-  - FR0000120321
-  metadata:
-    founded: 1909
-    employees: 88000
 - name: LVMH Moët Hennessy - Louis Vuitton, Société Européenne
   wiki_name: LVMH Moët Hennessy Louis Vuitton
   symbol: MC
@@ -25970,6 +25880,8 @@ companies:
   - IBEX 35
   industries:
   - Insurance
+  - Financials
+  - Multiline Insurance & Brokers
   symbols:
   - yahoo: CMAB.F
     google: FRA:CMAB
@@ -25977,6 +25889,8 @@ companies:
   - yahoo: MPFRF
     google: OTCMKTS:MPFRF
     currency: USD
+  - yahoo: MPFRY
+    google: OTCMKTS:MPFRY
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
