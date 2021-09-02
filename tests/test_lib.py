@@ -5,6 +5,7 @@
   Use of this source code is governed by an MIT-style license that
   can be found in the LICENSE file.
 """
+import os
 import unittest
 import yfinance as yf
 from functools import reduce
@@ -379,6 +380,10 @@ class TestLib(unittest.TestCase):
         swi = stock_data.index_to_yahoo_symbol('Switzerland 20')
         self.assertEqual('^SSMI', swi)
 
+    @pytest.mark.skipif(
+        os.getenv('SKIP_UNIQUE_TICKER_CHECK') is not None,
+        reason='Skipped by env setting',
+    )
     def test_unique_ticker_symbols(self):
         stock_data = PyTickerSymbols()
         ctx = Counter(
