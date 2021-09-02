@@ -1,7 +1,7 @@
 ![Release Build](https://github.com/portfolioplus/pytickersymbols/workflows/Release%20Build/badge.svg)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/pytickersymbols?style=plastic)
 [![Coverage Status](https://coveralls.io/repos/github/portfolioplus/pytickersymbols/badge.svg?branch=master)](https://coveralls.io/github/portfolioplus/pytickersymbols?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3a4c80c87cd041129cae251d6acb39c7)](https://www.codacy.com/app/SlashGordon/pytickersymbols?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=portfolioplus/pytickersymbols&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1385a87f773d47bc84336275a0182619)](https://www.codacy.com/gh/portfolioplus/pytickersymbols/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=portfolioplus/pytickersymbols&amp;utm_campaign=Badge_Grade)
 
 # pytickersymbols
 
