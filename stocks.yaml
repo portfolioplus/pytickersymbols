@@ -189,6 +189,9 @@ companies:
   - yahoo: BMWB.F
     google: FRA:BMWB
     currency: EUR
+  - yahoo: BMW3.F
+    google: FRA:BMW3
+    currency: EUR
   metadata:
     founded: 1916
     employees: 133778
@@ -6716,11 +6719,15 @@ companies:
     employees: 15600
   isins:
   - FI0009014575
-- name: Telia Company AB (publ)
-  symbol: TLS1V
+- name: Telia Company
+  wiki_name: Telia Company
+  symbol: TELIA
   country: Sweden
-  indices: []
+  indices:
+  - OMX Helsinki 25
+  - OMX Stockholm 30
   industries:
+  - Telecommunication
   - Telecommunications Services
   - Integrated Telecommunications Services
   symbols:
@@ -6730,11 +6737,11 @@ companies:
   - yahoo: TLSNY
     google: OTCMKTS:TLSNY
     currency: USD
+  isins:
+  - SE0000667925
   metadata:
     founded: 2003
     employees: 20800
-  isins:
-  - SE0000667925
 - name: Valmet Oyj
   symbol: VALMT
   country: Finland
@@ -10907,6 +10914,12 @@ companies:
   - yahoo: GE
     google: NYSE:GE
     currency: USD
+  - yahoo: GCP.F
+    google: FRA:GCP
+    currency: EUR
+  - yahoo: GEC.L
+    google: LON:GEC
+    currency: GBP
   metadata:
     founded: 1892
     employees: 205000
@@ -11079,6 +11092,9 @@ companies:
   - yahoo: MET
     google: NYSE:MET
     currency: USD
+  - yahoo: 0K0X.L
+    google: LON:0K0X
+    currency: GBP
   metadata:
     founded: 1868
     employees: 49000
@@ -14719,22 +14735,30 @@ companies:
     founded: 1968
     employees: 280000
   isins: []
-- name: HCP Inc.
-  symbol: HCP
+- name: Healthpeak Properties, Inc.
+  wiki_name: Healthpeak Properties, Inc.
+  symbol: PEAK
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
+  - Real estate investment trust
   - Specialized REITs
   - Real Estate
   - Financials
   - Residential & Commercial RETIs
   symbols:
+  - yahoo: PEAK
+    google: NYSE:PEAK
+    currency: USD
   - yahoo: HC5.F
     google: FRA:HC5
     currency: EUR
   - yahoo: HCP
     google: NYSE:HCP
     currency: USD
+  isins:
+  - US42250P1030
   metadata:
     founded: 1985
     employees: 204
@@ -15958,6 +15982,9 @@ companies:
   - yahoo: MAS
     google: NYSE:MAS
     currency: USD
+  - yahoo: 0JZ1.L
+    google: LON:0JZ1
+    currency: GBP
   metadata:
     founded: 1929
     employees: 26000
@@ -16360,6 +16387,9 @@ companies:
   - yahoo: NI
     google: NYSE:NI
     currency: USD
+  - yahoo: 0K87.L
+    google: LON:0K87
+    currency: GBP
   metadata:
     founded: 1912
     employees: 8363
@@ -16544,6 +16574,9 @@ companies:
   - yahoo: OKE
     google: NYSE:OKE
     currency: USD
+  - yahoo: 0KCI.L
+    google: LON:0KCI
+    currency: GBP
   metadata:
     founded: 1906
     employees: 2684
@@ -17591,6 +17624,9 @@ companies:
   - yahoo: SYF
     google: NYSE:SYF
     currency: USD
+  - yahoo: 0LC3.L
+    google: LON:0LC3
+    currency: GBP
   metadata:
     founded: 2003
     employees: 16500
@@ -17810,21 +17846,28 @@ companies:
     founded: 1987
     employees: 270000
   isins: []
-- name: Torchmark Corporation
-  symbol: TMK
+- name: Globe Life Inc.
+  wiki_name: Globe Life Inc.
+  symbol: GL
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
+  - Life insurance
   - Insurance
   - Financials
   - Life & Health Insurance
   symbols:
+  - yahoo: GL
+    google: NYSE:GL
+    currency: USD
   - yahoo: TMJ.F
     google: FRA:TMJ
     currency: EUR
   - yahoo: TMK
     google: NYSE:TMK
     currency: USD
+  isins: []
   metadata:
     founded: 1900
     employees: 3102
@@ -17932,6 +17975,9 @@ companies:
   - yahoo: UA
     google: NYSE:UA
     currency: USD
+  - yahoo: 0LIK.L
+    google: LON:0LIK
+    currency: GBP
   metadata:
     founded: 1996
     employees: 16400
@@ -18591,11 +18637,14 @@ companies:
   isins:
   - BE0003793107
   - BE0974293251
-- name: Ackermans & van Haaren N.V.
-  symbol: ACKB
+- name: Ackermans & van Haaren
+  wiki_name: Ackermans & van Haaren
+  symbol: XBRU
   country: Belgium
-  indices: []
+  indices:
+  - BEL 20
   industries:
+  - Conglomerate
   - Industrials
   - Construction & Engineering
   - Industrial & Commercial Services
@@ -18606,9 +18655,11 @@ companies:
   - yahoo: AVHNF
     google: OTCMKTS:AVHNF
     currency: USD
+  isins:
+  - BE0003764785
   metadata:
-    founded: 1876
-    employees: 22749
+    founded: 1880
+    employees: 21522
 - name: Ageas SA/NV
   symbol: AGS
   country: Belgium
@@ -18624,6 +18675,9 @@ companies:
     currency: EUR
   - yahoo: AGESF
     google: OTCMKTS:AGESF
+    currency: USD
+  - yahoo: AGESY
+    google: OTCMKTS:AGESY
     currency: USD
   metadata:
     founded: 1990
@@ -18675,6 +18729,9 @@ companies:
   - yahoo: ARGX
     google: NASDAQ:ARGX
     currency: USD
+  - yahoo: ARGNF
+    google: OTCMKTS:ARGNF
+    currency: USD
   metadata:
     founded: 2008
     employees: 188
@@ -18696,6 +18753,9 @@ companies:
   - yahoo: BCNAY
     google: OTCMKTS:BCNAY
     currency: USD
+  - yahoo: BC1P.F
+    google: FRA:BC1P
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -18754,6 +18814,12 @@ companies:
   - yahoo: GLPG
     google: NASDAQ:GLPG
     currency: USD
+  - yahoo: GLPG.AS
+    google: AMS:GLPG
+    currency: EUR
+  - yahoo: GLPGF
+    google: OTCMKTS:GLPGF
+    currency: USD
   metadata:
     founded: 1999
     employees: 725
@@ -18774,6 +18840,9 @@ companies:
     currency: EUR
   - yahoo: GBLBF
     google: OTCMKTS:GBLBF
+    currency: USD
+  - yahoo: GBLBY
+    google: OTCMKTS:GBLBY
     currency: USD
   metadata:
     founded: 1902
@@ -18830,6 +18899,9 @@ companies:
   - yahoo: KBCSF
     google: OTCMKTS:KBCSF
     currency: USD
+  - yahoo: KBCSY
+    google: OTCMKTS:KBCSY
+    currency: USD
   metadata:
     founded: 1998
     employees: 41000
@@ -18873,10 +18945,12 @@ companies:
     employees: 14090
   isins:
   - BE0003810273
-- name: Sofina Société Anonyme
-  symbol: SOF
+- name: Sofina S.A.
+  wiki_name: Sofina S.A.
+  symbol: null
   country: Belgium
-  indices: []
+  indices:
+  - BEL 20
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -18889,9 +18963,11 @@ companies:
   - yahoo: SFNXF
     google: OTCMKTS:SFNXF
     currency: USD
+  isins:
+  - BE0003717312
   metadata:
-    founded: unknown
-    employees: unknown
+    founded: 1898
+    employees: ''
 - name: Solvay SA
   symbol: SOLB
   country: Belgium
@@ -18907,6 +18983,9 @@ companies:
     currency: EUR
   - yahoo: SOBS
     google: OTCMKTS:SOBS
+    currency: USD
+  - yahoo: SOLVY
+    google: OTCMKTS:SOLVY
     currency: USD
   metadata:
     founded: 1863
@@ -18933,10 +19012,12 @@ companies:
     employees: 1716
   isins:
   - BE0003826436
-- name: UCB SA
-  symbol: UCB
+- name: UCB S.A.
+  wiki_name: UCB S.A.
+  symbol: XBRU
   country: Belgium
-  indices: []
+  indices:
+  - BEL 20
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -18945,12 +19026,17 @@ companies:
   - yahoo: UNC.F
     google: FRA:UNC
     currency: EUR
+  - yahoo: UCBJY
+    google: OTCMKTS:UCBJY
+    currency: USD
   - yahoo: UCBJF
     google: OTCMKTS:UCBJF
     currency: USD
+  isins:
+  - BE0003739530
   metadata:
-    founded: 1984
-    employees: 21966
+    founded: 1928
+    employees: 7489
 - name: Umicore SA
   symbol: UMI
   country: Belgium
@@ -18988,6 +19074,9 @@ companies:
   - yahoo: WDPSF
     google: OTCMKTS:WDPSF
     currency: USD
+  - yahoo: WPHB.F
+    google: FRA:WPHB
+    currency: EUR
   metadata:
     founded: unknown
     employees: unknown
@@ -20234,6 +20323,9 @@ companies:
   - yahoo: ATLKY
     google: OTCMKTS:ATLKY
     currency: USD
+  - yahoo: ACO1.F
+    google: FRA:ACO1
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
@@ -20256,6 +20348,9 @@ companies:
   - yahoo: ALV
     google: NYSE:ALV
     currency: USD
+  - yahoo: 0HJH.L
+    google: LON:0HJH
+    currency: GBP
   metadata:
     founded: 1953
     employees: 59000
@@ -20316,6 +20411,9 @@ companies:
   - yahoo: ERIC
     google: NASDAQ:ERIC
     currency: USD
+  - yahoo: 0IID.L
+    google: LON:0IID
+    currency: GBP
   metadata:
     founded: 1876
     employees: 99826
@@ -20338,6 +20436,12 @@ companies:
   - yahoo: ESSYY
     google: OTCMKTS:ESSYY
     currency: USD
+  - yahoo: ETTYF
+    google: OTCMKTS:ETTYF
+    currency: USD
+  - yahoo: ESWB.F
+    google: FRA:ESWB
+    currency: EUR
   metadata:
     founded: 2017
     employees: 47000
@@ -20365,10 +20469,12 @@ companies:
     employees: 10680
   isins:
   - SE0000202624
-- name: Hennes & Mauritz
-  symbol: HMB
+- name: H & M Hennes & Mauritz AB
+  wiki_name: H & M Hennes & Mauritz AB
+  symbol: HM B
   country: Sweden
-  indices: []
+  indices:
+  - OMX Stockholm 30
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -20378,12 +20484,17 @@ companies:
   - yahoo: HMSB.F
     google: FRA:HMSB
     currency: EUR
+  - yahoo: HNNMY
+    google: OTCMKTS:HNNMY
+    currency: USD
   - yahoo: HMRZF
     google: OTCMKTS:HMRZF
     currency: USD
+  isins:
+  - SE0000106270
   metadata:
     founded: 1947
-    employees: 126376
+    employees: 179000
 - name: Hexagon AB
   symbol: HEXA B
   country: Sweden
@@ -20399,6 +20510,12 @@ companies:
     currency: EUR
   - yahoo: HXGBF
     google: OTCMKTS:HXGBF
+    currency: USD
+  - yahoo: US4282631070.F
+    google: FRA:US4282631070
+    currency: EUR
+  - yahoo: HXGBY
+    google: OTCMKTS:HXGBY
     currency: USD
   metadata:
     founded: 1975
@@ -20527,6 +20644,9 @@ companies:
     currency: EUR
   - yahoo: SKSBF
     google: OTCMKTS:SKSBF
+    currency: USD
+  - yahoo: SKBSY
+    google: OTCMKTS:SKBSY
     currency: USD
   metadata:
     founded: 1887
@@ -20670,6 +20790,9 @@ companies:
     currency: EUR
   - yahoo: TLTZY
     google: OTCMKTS:TLTZY
+    currency: USD
+  - yahoo: TLTZF
+    google: OTCMKTS:TLTZF
     currency: USD
   metadata:
     founded: 1993
@@ -22357,6 +22480,9 @@ companies:
   - yahoo: BIO
     google: NYSE:BIO
     currency: USD
+  - yahoo: BUWA.F
+    google: FRA:BUWA
+    currency: EUR
   isins: []
   metadata:
     founded: 1952
@@ -22376,6 +22502,9 @@ companies:
   - yahoo: CARR
     google: NYSE:CARR
     currency: USD
+  - yahoo: 4PN.F
+    google: FRA:4PN
+    currency: EUR
   isins: []
   metadata:
     founded: 1915
@@ -22515,6 +22644,12 @@ companies:
   - yahoo: ETSY
     google: NASDAQ:ETSY
     currency: USD
+  - yahoo: 0IIW.L
+    google: LON:0IIW
+    currency: GBP
+  - yahoo: 3E2.F
+    google: FRA:3E2
+    currency: EUR
   isins: []
   metadata:
     founded: 2005
@@ -22543,39 +22678,6 @@ companies:
   metadata:
     founded: 1899
     employees: 104000
-- name: Globe Life Inc.
-  wiki_name: Globe Life Inc.
-  symbol: GL
-  country: United States
-  indices:
-  - S&P 500
-  industries:
-  - Life insurance
-  symbols:
-  - yahoo: GL
-    google: NYSE:GL
-    currency: USD
-  isins: []
-  metadata:
-    founded: 1900
-    employees: 3102
-- name: Healthpeak Properties, Inc.
-  wiki_name: Healthpeak Properties, Inc.
-  symbol: PEAK
-  country: United States
-  indices:
-  - S&P 500
-  industries:
-  - Real estate investment trust
-  symbols:
-  - yahoo: PEAK
-    google: NYSE:PEAK
-    currency: USD
-  isins:
-  - US42250P1030
-  metadata:
-    founded: 1985
-    employees: 204
 - name: Howmet Aerospace Inc.
   wiki_name: Howmet Aerospace Inc.
   symbol: HWM
@@ -23230,6 +23332,9 @@ companies:
   - yahoo: ENR.F
     google: FRA:ENR
     currency: EUR
+  - yahoo: SMEGF
+    google: OTCMKTS:SMEGF
+    currency: USD
   isins:
   - DE000ENER6Y0
   metadata:
@@ -23488,6 +23593,9 @@ companies:
   - yahoo: CNPAF
     google: OTCMKTS:CNPAF
     currency: USD
+  - yahoo: CNPAY
+    google: OTCMKTS:CNPAY
+    currency: USD
   isins:
   - FR0000120222
   metadata:
@@ -23691,6 +23799,9 @@ companies:
   - yahoo: E3B.F
     google: FRA:E3B
     currency: EUR
+  - yahoo: ETCMY
+    google: OTCMKTS:ETCMY
+    currency: USD
   isins:
   - FR0010221234
   metadata:
@@ -23783,6 +23894,9 @@ companies:
   - yahoo: 9TG.F
     google: FRA:9TG
     currency: EUR
+  - yahoo: GZPZY
+    google: OTCMKTS:GZPZY
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -24052,6 +24166,9 @@ companies:
   - yahoo: NEQ.F
     google: FRA:NEQ
     currency: EUR
+  - yahoo: NPACF
+    google: OTCMKTS:NPACF
+    currency: USD
   isins:
   - FR0000120560
   metadata:
@@ -24402,20 +24519,6 @@ companies:
   metadata:
     founded: 1863
     employees: 15401
-- name: Ackermans & van Haaren
-  wiki_name: Ackermans & van Haaren
-  symbol: XBRU
-  country: Belgium
-  indices:
-  - BEL 20
-  industries:
-  - Conglomerate
-  symbols: []
-  isins:
-  - BE0003764785
-  metadata:
-    founded: 1880
-    employees: 21522
 - name: Aedifica
   wiki_name: Aedifica
   symbol: AOO
@@ -24427,6 +24530,9 @@ companies:
   - yahoo: AOO.F
     google: FRA:AOO
     currency: EUR
+  - yahoo: AEDFF
+    google: OTCMKTS:AEDFF
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -24457,33 +24563,6 @@ companies:
   metadata:
     founded: 1925
     employees: 20300
-- name: Sofina S.A.
-  wiki_name: Sofina S.A.
-  symbol: null
-  country: Belgium
-  indices:
-  - BEL 20
-  industries: []
-  symbols: []
-  isins:
-  - BE0003717312
-  metadata:
-    founded: 1898
-    employees: ''
-- name: UCB S.A.
-  wiki_name: UCB S.A.
-  symbol: XBRU
-  country: Belgium
-  indices:
-  - BEL 20
-  industries:
-  - Pharmaceuticals
-  symbols: []
-  isins:
-  - BE0003739530
-  metadata:
-    founded: 1928
-    employees: 7489
 - name: UMICORE N.V./S.A.
   wiki_name: UMICORE N.V./S.A.
   symbol: XBRU
@@ -24513,19 +24592,6 @@ companies:
   metadata:
     founded: 1919
     employees: 58265
-- name: H & M Hennes & Mauritz AB
-  wiki_name: H & M Hennes & Mauritz AB
-  symbol: HM B
-  country: Sweden
-  indices:
-  - OMX Stockholm 30
-  industries: []
-  symbols: []
-  isins:
-  - SE0000106270
-  metadata:
-    founded: 1947
-    employees: 179000
 - name: Svenska Cellulosa Aktiebolaget
   wiki_name: Svenska Cellulosa Aktiebolaget
   symbol: SCA A
@@ -24535,7 +24601,16 @@ companies:
   industries:
   - Forestry
   - paper
-  symbols: []
+  symbols:
+  - yahoo: 0MCJ.L
+    google: LON:0MCJ
+    currency: GBP
+  - yahoo: SVCBF
+    google: OTCMKTS:SVCBF
+    currency: USD
+  - yahoo: SCA.F
+    google: FRA:SCA
+    currency: EUR
   isins:
   - SE0000112724
   metadata:
@@ -24555,21 +24630,6 @@ companies:
   metadata:
     founded: 1978
     employees: 14514
-- name: Telia Company
-  wiki_name: Telia Company
-  symbol: TELIA
-  country: Sweden
-  indices:
-  - OMX Helsinki 25
-  - OMX Stockholm 30
-  industries:
-  - Telecommunication
-  symbols: []
-  isins:
-  - SE0000667925
-  metadata:
-    founded: 2003
-    employees: 20800
 - name: Kemira Oyj
   wiki_name: Kemira Oyj
   symbol: KRA1V
@@ -26109,6 +26169,9 @@ companies:
   - yahoo: TLPFY
     google: OTCMKTS:TLPFY
     currency: USD
+  - yahoo: RCF0.F
+    google: FRA:RCF0
+    currency: EUR
   isins:
   - FR0000051807
   metadata:
