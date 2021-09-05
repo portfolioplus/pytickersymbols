@@ -6658,6 +6658,9 @@ companies:
   - yahoo: KNCRY
     google: OTCMKTS:KNCRY
     currency: USD
+  - yahoo: KNCRF
+    google: OTCMKTS:KNCRF
+    currency: USD
   metadata:
     founded: 1994
     employees: 17027
@@ -8965,6 +8968,9 @@ companies:
   - yahoo: COST
     google: NASDAQ:COST
     currency: USD
+  - yahoo: 0I47.L
+    google: LON:0I47
+    currency: GBP
   metadata:
     founded: 1976
     employees: 273000
@@ -9914,6 +9920,9 @@ companies:
   - yahoo: REGN
     google: NASDAQ:REGN
     currency: USD
+  - yahoo: 0R2M.L
+    google: LON:0R2M
+    currency: GBP
   metadata:
     founded: 1988
     employees: 8100
@@ -15350,6 +15359,9 @@ companies:
   - yahoo: JKHY
     google: NASDAQ:JKHY
     currency: USD
+  - yahoo: 0A6D.L
+    google: LON:0A6D
+    currency: GBP
   metadata:
     founded: 1976
     employees: 6717
@@ -15850,6 +15862,9 @@ companies:
   - yahoo: LYB
     google: NYSE:LYB
     currency: USD
+  - yahoo: 0EDD.L
+    google: LON:0EDD
+    currency: GBP
   metadata:
     founded: 2007
     employees: 19100
@@ -16917,6 +16932,9 @@ companies:
   - yahoo: PRU
     google: NYSE:PRU
     currency: USD
+  - yahoo: 0KRX.L
+    google: LON:0KRX
+    currency: GBP
   metadata:
     founded: 1875
     employees: 41671
@@ -18123,6 +18141,9 @@ companies:
   - yahoo: VFC
     google: NYSE:VFC
     currency: USD
+  - yahoo: 0R30.L
+    google: LON:0R30
+    currency: GBP
   metadata:
     founded: 1899
     employees: 50000
@@ -23254,6 +23275,9 @@ companies:
   - yahoo: TYL
     google: NYSE:TYL
     currency: USD
+  - yahoo: TYP.F
+    google: FRA:TYP
+    currency: EUR
   isins: []
   metadata:
     founded: 1966
@@ -23741,6 +23765,9 @@ companies:
   - yahoo: DBVA.F
     google: FRA:DBVA
     currency: EUR
+  - yahoo: DBV.F
+    google: FRA:DBV
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -23910,6 +23937,9 @@ companies:
   - yahoo: CAJ.F
     google: FRA:CAJ
     currency: EUR
+  - yahoo: CGUIF
+    google: OTCMKTS:CGUIF
+    currency: USD
   isins:
   - FR0000125585
   metadata:
@@ -24277,6 +24307,9 @@ companies:
   - yahoo: E7V.F
     google: FRA:E7V
     currency: EUR
+  - yahoo: RXLSF
+    google: OTCMKTS:RXLSF
+    currency: USD
   isins:
   - FR0010451203
   metadata:
