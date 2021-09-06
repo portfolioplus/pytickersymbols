@@ -822,6 +822,9 @@ companies:
   - yahoo: AIR.MC
     google: BME:AIR
     currency: EUR
+  - yahoo: AIRA.F
+    google: FRA:AIRA
+    currency: EUR
   metadata:
     founded: 1970
     employees: 131349
@@ -840,6 +843,9 @@ companies:
   - yahoo: AOX.F
     google: FRA:AOX
     currency: EUR
+  - yahoo: ALSRF
+    google: OTCMKTS:ALSRF
+    currency: USD
   metadata:
     founded: 2006
     employees: 159
@@ -859,6 +865,9 @@ companies:
   - yahoo: AT1.F
     google: FRA:AT1
     currency: EUR
+  - yahoo: AANNF
+    google: OTCMKTS:AANNF
+    currency: USD
   metadata:
     founded: 2004
     employees: 492
@@ -982,6 +991,9 @@ companies:
   - yahoo: EVD.F
     google: FRA:EVD
     currency: EUR
+  - yahoo: CEVMY
+    google: OTCMKTS:CEVMY
+    currency: USD
   metadata:
     founded: 1989
     employees: 3202
@@ -1250,6 +1262,12 @@ companies:
     currency: EUR
   - yahoo: FUPEF
     google: OTCMKTS:FUPEF
+    currency: USD
+  - yahoo: FPE3.F
+    google: FRA:FPE3
+    currency: EUR
+  - yahoo: FUPPF
+    google: OTCMKTS:FUPPF
     currency: USD
   metadata:
     founded: 1931
@@ -6038,6 +6056,9 @@ companies:
   - yahoo: TW.L
     google: LON:TW
     currency: GBP
+  - yahoo: TWODY
+    google: OTCMKTS:TWODY
+    currency: USD
   metadata:
     founded: 2007
     employees: ''
@@ -8729,6 +8750,9 @@ companies:
     currency: EUR
   - yahoo: BIDU
     google: NASDAQ:BIDU
+    currency: USD
+  - yahoo: BAIDF
+    google: OTCMKTS:BAIDF
     currency: USD
   metadata:
     founded: 2000
@@ -20329,6 +20353,9 @@ companies:
   - yahoo: ABLZF
     google: OTCMKTS:ABLZF
     currency: USD
+  - yahoo: 0A6W.L
+    google: LON:0A6W
+    currency: GBP
   metadata:
     founded: 1988
     employees: 144400
@@ -21033,6 +21060,9 @@ companies:
   - yahoo: GIN1.F
     google: FRA:GIN1
     currency: EUR
+  - yahoo: GVDBF
+    google: OTCMKTS:GVDBF
+    currency: USD
   metadata:
     founded: 1895
     employees: 15852
@@ -23401,6 +23431,12 @@ companies:
   - yahoo: KBX.F
     google: FRA:KBX
     currency: EUR
+  - yahoo: 0KBI.L
+    google: LON:0KBI
+    currency: GBP
+  - yahoo: KNRRY
+    google: OTCMKTS:KNRRY
+    currency: USD
   isins:
   - DE000KBX1006
   metadata:
@@ -23413,7 +23449,10 @@ companies:
   indices:
   - MDAX
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: SAE.F
+    google: FRA:SAE
+    currency: EUR
   isins:
   - NL0012044747
   metadata:
