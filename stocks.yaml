@@ -1333,6 +1333,12 @@ companies:
   - yahoo: GYC.F
     google: FRA:GYC
     currency: EUR
+  - yahoo: GYC1.F
+    google: FRA:GYC1
+    currency: EUR
+  - yahoo: GRNNF
+    google: OTCMKTS:GRNNF
+    currency: USD
   metadata:
     founded: 2004
     employees: 800
@@ -1395,6 +1401,9 @@ companies:
     currency: EUR
   - yahoo: HOCFY
     google: OTCMKTS:HOCFY
+    currency: USD
+  - yahoo: HOCFF
+    google: OTCMKTS:HOCFF
     currency: USD
   metadata:
     founded: 1873
@@ -1480,6 +1489,9 @@ companies:
   - yahoo: KNNGF
     google: OTCMKTS:KNNGF
     currency: USD
+  - yahoo: KIGRY
+    google: OTCMKTS:KIGRY
+    currency: USD
   metadata:
     founded: 2006
     employees: 36207
@@ -1523,6 +1535,9 @@ companies:
   - yahoo: LEGIF
     google: OTCMKTS:LEGIF
     currency: USD
+  - yahoo: 0QC9.L
+    google: LON:0QC9
+    currency: GBP
   metadata:
     founded: 1970
     employees: 1444
@@ -2408,6 +2423,9 @@ companies:
   - yahoo: CMPVF
     google: OTCMKTS:CMPVF
     currency: USD
+  - yahoo: COPA.F
+    google: FRA:COPA
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -2607,6 +2625,12 @@ companies:
   symbols:
   - yahoo: CAP.F
     google: FRA:CAP
+    currency: EUR
+  - yahoo: ECV.F
+    google: FRA:ECV
+    currency: EUR
+  - yahoo: DE0006095003.F
+    google: FRA:DE0006095003
     currency: EUR
   metadata:
     founded: 2001
@@ -3223,24 +3247,6 @@ companies:
     employees: 4837
   isins:
   - DE0007235301
-- name: SHOP APOTHEKE EUROPE N.V.
-  symbol: SAE
-  country: Netherlands
-  indices: []
-  industries:
-  - Consumer Non-Cyclicals
-  - Food & Drug Retailing
-  - Drug Retailers
-  symbols:
-  - yahoo: SAE.F
-    google: FRA:SAE
-    currency: EUR
-  - yahoo: SAE
-    google: OTCMKTS:SAE
-    currency: USD
-  metadata:
-    founded: unknown
-    employees: unknown
 - name: Sixt SE
   symbol: SIX2
   country: Germany
@@ -5751,6 +5757,9 @@ companies:
   - yahoo: SDR.L
     google: LON:SDR
     currency: GBP
+  - yahoo: SDRC.L
+    google: LON:SDRC
+    currency: GBP
   metadata:
     founded: 1804
     employees: 5000
@@ -6735,26 +6744,6 @@ companies:
     employees: 29000
   isins:
   - FI4000297767
-- name: Outotec Oyj
-  symbol: OTE1V
-  country: Finland
-  indices: []
-  industries:
-  - Industrials
-  - Construction & Engineering
-  - Industrial & Commercial Services
-  symbols:
-  - yahoo: M6Q.F
-    google: FRA:M6Q
-    currency: EUR
-  - yahoo: OUKPY
-    google: OTCMKTS:OUKPY
-    currency: USD
-  metadata:
-    founded: 2020
-    employees: 15600
-  isins:
-  - FI0009014575
 - name: Telia Company
   wiki_name: Telia Company
   symbol: TELIA
@@ -14709,24 +14698,6 @@ companies:
   metadata:
     founded: 1903
     employees: 5000
-- name: Harris Corporation
-  symbol: HRS
-  country: United States
-  indices: []
-  industries:
-  - Industrial Goods
-  - Industrials
-  - Aerospace & Defense
-  symbols:
-  - yahoo: HRS.F
-    google: FRA:HRS
-    currency: EUR
-  - yahoo: HRS
-    google: NYSE:HRS
-    currency: USD
-  metadata:
-    founded: 1895
-    employees: 17000
 - name: The Hartford Financials Group Inc.
   symbol: HIG
   country: United States
@@ -19027,6 +18998,9 @@ companies:
   - yahoo: BGAOY
     google: OTCMKTS:BGAOY
     currency: USD
+  - yahoo: BGAOF
+    google: OTCMKTS:BGAOF
+    currency: USD
   metadata:
     founded: 1930
     employees: 14090
@@ -19094,6 +19068,9 @@ companies:
   - yahoo: TLGHY
     google: OTCMKTS:TLGHY
     currency: USD
+  - yahoo: TLGHF
+    google: OTCMKTS:TLGHF
+    currency: USD
   metadata:
     founded: 1996
     employees: 1716
@@ -19119,6 +19096,9 @@ companies:
   - yahoo: UCBJF
     google: OTCMKTS:UCBJF
     currency: USD
+  - yahoo: UNC0.F
+    google: FRA:UNC0
+    currency: EUR
   isins:
   - BE0003739530
   metadata:
@@ -21068,29 +21048,6 @@ companies:
     employees: 15852
   isins:
   - CH0010645932
-- name: LafargeHolcim Ltd
-  symbol: HOLN
-  country: Switzerland
-  indices: []
-  industries:
-  - Construction Materials
-  - Mineral Resources
-  - Basic Materials
-  symbols:
-  - yahoo: HLBN.F
-    google: FRA:HLBN
-    currency: EUR
-  - yahoo: HCMLY
-    google: OTCMKTS:HCMLY
-    currency: USD
-  - yahoo: HLBB.F
-    google: FRA:HLBB
-    currency: EUR
-  metadata:
-    founded: 2015
-    employees: 72452
-  isins:
-  - CH0012214059
 - name: Lonza Group Ltd
   symbol: LONN
   country: Switzerland
@@ -21668,6 +21625,9 @@ companies:
   - yahoo: MTL
     google: NYSE:MTL
     currency: USD
+  - yahoo: MTLR.ME
+    google: MCX:MTLR
+    currency: RUB
   metadata:
     founded: 2003
     employees: 71635
@@ -22853,7 +22813,8 @@ companies:
   indices:
   - S&P 500
   industries:
-  - defense
+  - Aerospace
+  - Defense
   symbols:
   - yahoo: LHX
     google: NYSE:LHX
@@ -22864,7 +22825,11 @@ companies:
   - yahoo: 0L3H.L
     google: LON:0L3H
     currency: GBP
-  isins: []
+  - yahoo: HRS
+    google: NYSE:HRS
+    currency: USD
+  isins:
+  - US5024311095
   metadata:
     founded: 2019
     employees: 50000
@@ -23444,15 +23409,21 @@ companies:
     employees: 28905
 - name: Shop Apotheke Europe
   wiki_name: Shop Apotheke Europe
-  symbol: null
+  symbol: SAE
   country: Netherlands
   indices:
   - MDAX
-  industries: []
+  industries:
+  - Consumer Non-Cyclicals
+  - Food & Drug Retailing
+  - Drug Retailers
   symbols:
   - yahoo: SAE.F
     google: FRA:SAE
     currency: EUR
+  - yahoo: SAEYY
+    google: OTCMKTS:SAEYY
+    currency: USD
   isins:
   - NL0012044747
   metadata:
@@ -23472,6 +23443,9 @@ companies:
     currency: EUR
   - yahoo: SMEGF
     google: OTCMKTS:SMEGF
+    currency: USD
+  - yahoo: SMNEY
+    google: OTCMKTS:SMNEY
     currency: USD
   isins:
   - DE000ENER6Y0
@@ -24476,6 +24450,9 @@ companies:
   - yahoo: TGO.F
     google: FRA:TGO
     currency: EUR
+  - yahoo: TGNOF
+    google: OTCMKTS:TGNOF
+    currency: USD
   isins:
   - FR0005691656
   metadata:
@@ -26266,6 +26243,9 @@ companies:
   - Switzerland 20
   industries:
   - Building material
+  - Construction Materials
+  - Mineral Resources
+  - Basic Materials
   symbols:
   - yahoo: HCMLF
     google: OTCMKTS:HCMLF
@@ -26273,10 +26253,14 @@ companies:
   - yahoo: HLB.F
     google: FRA:HLB
     currency: EUR
+  - yahoo: HLBB.F
+    google: FRA:HLBB
+    currency: EUR
   - yahoo: HCMLY
     google: OTCMKTS:HCMLY
     currency: USD
-  isins: []
+  isins:
+  - CH0012214059
   metadata:
     founded: 1912
     employees: 71000
@@ -26365,7 +26349,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: 7EL.F
+    google: FRA:7EL
+    currency: EUR
   isins:
   - FR0012435121
   metadata:
@@ -26420,6 +26407,9 @@ companies:
   - OMX Helsinki 25
   industries:
   - Industrial machinery
+  - Industrials
+  - Construction & Engineering
+  - Industrial & Commercial Services
   symbols:
   - yahoo: M6Q.F
     google: FRA:M6Q
@@ -26546,6 +26536,9 @@ companies:
   - yahoo: VTWRF
     google: OTCMKTS:VTWRF
     currency: USD
+  - yahoo: 0A9Y.L
+    google: LON:0A9Y
+    currency: GBP
   isins:
   - DE000A3H3LL2
   metadata:
