@@ -1333,6 +1333,12 @@ companies:
   - yahoo: GYC.F
     google: FRA:GYC
     currency: EUR
+  - yahoo: GYC1.F
+    google: FRA:GYC1
+    currency: EUR
+  - yahoo: GRNNF
+    google: OTCMKTS:GRNNF
+    currency: USD
   metadata:
     founded: 2004
     employees: 800
@@ -1395,6 +1401,9 @@ companies:
     currency: EUR
   - yahoo: HOCFY
     google: OTCMKTS:HOCFY
+    currency: USD
+  - yahoo: HOCFF
+    google: OTCMKTS:HOCFF
     currency: USD
   metadata:
     founded: 1873
@@ -1480,6 +1489,9 @@ companies:
   - yahoo: KNNGF
     google: OTCMKTS:KNNGF
     currency: USD
+  - yahoo: KIGRY
+    google: OTCMKTS:KIGRY
+    currency: USD
   metadata:
     founded: 2006
     employees: 36207
@@ -1523,6 +1535,9 @@ companies:
   - yahoo: LEGIF
     google: OTCMKTS:LEGIF
     currency: USD
+  - yahoo: 0QC9.L
+    google: LON:0QC9
+    currency: GBP
   metadata:
     founded: 1970
     employees: 1444
@@ -2408,6 +2423,9 @@ companies:
   - yahoo: CMPVF
     google: OTCMKTS:CMPVF
     currency: USD
+  - yahoo: COPA.F
+    google: FRA:COPA
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -2607,6 +2625,12 @@ companies:
   symbols:
   - yahoo: CAP.F
     google: FRA:CAP
+    currency: EUR
+  - yahoo: ECV.F
+    google: FRA:ECV
+    currency: EUR
+  - yahoo: DE0006095003.F
+    google: FRA:DE0006095003
     currency: EUR
   metadata:
     founded: 2001
@@ -5750,6 +5774,9 @@ companies:
     currency: USD
   - yahoo: SDR.L
     google: LON:SDR
+    currency: GBP
+  - yahoo: SDRC.L
+    google: LON:SDRC
     currency: GBP
   metadata:
     founded: 1804
@@ -19027,6 +19054,9 @@ companies:
   - yahoo: BGAOY
     google: OTCMKTS:BGAOY
     currency: USD
+  - yahoo: BGAOF
+    google: OTCMKTS:BGAOF
+    currency: USD
   metadata:
     founded: 1930
     employees: 14090
@@ -19094,6 +19124,9 @@ companies:
   - yahoo: TLGHY
     google: OTCMKTS:TLGHY
     currency: USD
+  - yahoo: TLGHF
+    google: OTCMKTS:TLGHF
+    currency: USD
   metadata:
     founded: 1996
     employees: 1716
@@ -19119,6 +19152,9 @@ companies:
   - yahoo: UCBJF
     google: OTCMKTS:UCBJF
     currency: USD
+  - yahoo: UNC0.F
+    google: FRA:UNC0
+    currency: EUR
   isins:
   - BE0003739530
   metadata:
@@ -21668,6 +21704,9 @@ companies:
   - yahoo: MTL
     google: NYSE:MTL
     currency: USD
+  - yahoo: MTLR.ME
+    google: MCX:MTLR
+    currency: RUB
   metadata:
     founded: 2003
     employees: 71635
@@ -23453,6 +23492,9 @@ companies:
   - yahoo: SAE.F
     google: FRA:SAE
     currency: EUR
+  - yahoo: SAEYY
+    google: OTCMKTS:SAEYY
+    currency: USD
   isins:
   - NL0012044747
   metadata:
@@ -23472,6 +23514,9 @@ companies:
     currency: EUR
   - yahoo: SMEGF
     google: OTCMKTS:SMEGF
+    currency: USD
+  - yahoo: SMNEY
+    google: OTCMKTS:SMNEY
     currency: USD
   isins:
   - DE000ENER6Y0
@@ -24476,6 +24521,9 @@ companies:
   - yahoo: TGO.F
     google: FRA:TGO
     currency: EUR
+  - yahoo: TGNOF
+    google: OTCMKTS:TGNOF
+    currency: USD
   isins:
   - FR0005691656
   metadata:
@@ -26365,7 +26413,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: EIA.F
+    google: FRA:EIA
+    currency: EUR
   isins:
   - FR0012435121
   metadata:
@@ -26546,6 +26597,9 @@ companies:
   - yahoo: VTWRF
     google: OTCMKTS:VTWRF
     currency: USD
+  - yahoo: 0A9Y.L
+    google: LON:0A9Y
+    currency: GBP
   isins:
   - DE000A3H3LL2
   metadata:
