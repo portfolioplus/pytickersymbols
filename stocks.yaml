@@ -9725,6 +9725,12 @@ companies:
   - yahoo: NTES
     google: NASDAQ:NTES
     currency: USD
+  - yahoo: NETTF
+    google: OTCMKTS:NETTF
+    currency: USD
+  - yahoo: 4Y01.F
+    google: FRA:4Y01
+    currency: EUR
   metadata:
     founded: 1997
     employees: 18129
@@ -10791,6 +10797,9 @@ companies:
   - yahoo: DHR
     google: NYSE:DHR
     currency: USD
+  - yahoo: 0R2B.L
+    google: LON:0R2B
+    currency: GBP
   metadata:
     founded: 1969
     employees: 71000
@@ -21116,6 +21125,9 @@ companies:
   - yahoo: NVSEF
     google: OTCMKTS:NVSEF
     currency: USD
+  - yahoo: 0K9E.L
+    google: LON:0K9E
+    currency: GBP
   metadata:
     founded: 1996
     employees: 110000
@@ -21628,6 +21640,9 @@ companies:
   - yahoo: MTLR.ME
     google: MCX:MTLR
     currency: RUB
+  - yahoo: MHSG.F
+    google: FRA:MHSG
+    currency: EUR
   metadata:
     founded: 2003
     employees: 71635
@@ -24584,6 +24599,9 @@ companies:
   - yahoo: CSF.F
     google: FRA:CSF
     currency: EUR
+  - yahoo: THLEF
+    google: OTCMKTS:THLEF
+    currency: USD
   isins:
   - FR0000121329
   metadata:
