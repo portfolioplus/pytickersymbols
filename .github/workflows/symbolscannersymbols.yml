@@ -29,7 +29,7 @@ jobs:
         run: pip install tox
       - name: Run tests
         run: |
-          tox -e symbolscanner-py38
+          tox -e symbolscannersymbols-py38
       - name: Coveralls
         uses: AndreMiras/coveralls-python-action@develop
         with:
