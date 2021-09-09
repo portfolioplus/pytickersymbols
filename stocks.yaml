@@ -451,6 +451,9 @@ companies:
   - yahoo: FSNUF
     google: OTCMKTS:FSNUF
     currency: USD
+  - yahoo: FREA.F
+    google: FRA:FREA
+    currency: EUR
   metadata:
     founded: 1912
     employees: 311269
@@ -1241,6 +1244,9 @@ companies:
     currency: EUR
   - yahoo: FRTAF
     google: OTCMKTS:FRTAF
+    currency: USD
+  - yahoo: FRTAY
+    google: OTCMKTS:FRTAY
     currency: USD
   metadata:
     founded: 2007
@@ -6358,6 +6364,15 @@ companies:
   - yahoo: KKOYF
     google: OTCMKTS:KKOYF
     currency: USD
+  - yahoo: KEK1.F
+    google: FRA:KEK1
+    currency: EUR
+  - yahoo: 0BNS.L
+    google: LON:0BNS
+    currency: GBP
+  - yahoo: KKOYY
+    google: OTCMKTS:KKOYY
+    currency: USD
   metadata:
     founded: 1940
     employees: 22476
@@ -6495,6 +6510,9 @@ companies:
   - yahoo: ORINY
     google: OTCMKTS:ORINY
     currency: USD
+  - yahoo: 0M2N.L
+    google: LON:0M2N
+    currency: GBP
   metadata:
     founded: 1917
     employees: 3446
@@ -6629,6 +6647,9 @@ companies:
     currency: EUR
   - yahoo: CYJBY
     google: OTCMKTS:CYJBY
+    currency: USD
+  - yahoo: CYJBF
+    google: OTCMKTS:CYJBF
     currency: USD
   metadata:
     founded: 2005
@@ -13638,6 +13659,9 @@ companies:
   - yahoo: DG
     google: NYSE:DG
     currency: USD
+  - yahoo: 0IC7.L
+    google: LON:0IC7
+    currency: GBP
   metadata:
     founded: 1939
     employees: 143000
@@ -15240,6 +15264,9 @@ companies:
   - yahoo: IPG
     google: NYSE:IPG
     currency: USD
+  - yahoo: 0JCK.L
+    google: LON:0JCK
+    currency: GBP
   metadata:
     founded: 1930
     employees: 54000
@@ -20033,6 +20060,15 @@ companies:
   - yahoo: AKZOF
     google: OTCMKTS:AKZOF
     currency: USD
+  - yahoo: AKU1.F
+    google: FRA:AKU1
+    currency: EUR
+  - yahoo: AKZA.AS
+    google: AMS:AKZA
+    currency: EUR
+  - yahoo: AKZOY
+    google: OTCMKTS:AKZOY
+    currency: USD
   metadata:
     founded: 1994
     employees: 32200
@@ -20112,6 +20148,9 @@ companies:
   - yahoo: RDSMY
     google: OTCMKTS:RDSMY
     currency: USD
+  - yahoo: DSM.F
+    google: FRA:DSM
+    currency: EUR
   metadata:
     founded: 1902
     employees: 21054
@@ -20133,6 +20172,15 @@ companies:
     currency: EUR
   - yahoo: HINKF
     google: OTCMKTS:HINKF
+    currency: USD
+  - yahoo: HEIA.AS
+    google: AMS:HEIA
+    currency: EUR
+  - yahoo: HNK1.F
+    google: FRA:HNK1
+    currency: EUR
+  - yahoo: HEINY
+    google: OTCMKTS:HEINY
     currency: USD
   metadata:
     founded: 1864
@@ -20313,6 +20361,12 @@ companies:
   - yahoo: WTKWY
     google: OTCMKTS:WTKWY
     currency: USD
+  - yahoo: WKL.AS
+    google: AMS:WKL
+    currency: EUR
+  - yahoo: WOS.F
+    google: FRA:WOS
+    currency: EUR
   metadata:
     founded: 1836
     employees: 19200
@@ -20575,6 +20629,9 @@ companies:
   - yahoo: HMRZF
     google: OTCMKTS:HMRZF
     currency: USD
+  - yahoo: HMSA.F
+    google: FRA:HMSA
+    currency: EUR
   isins:
   - SE0000106270
   metadata:
@@ -20709,6 +20766,9 @@ companies:
   - yahoo: SVKEF
     google: OTCMKTS:SVKEF
     currency: USD
+  - yahoo: 0GUX.L
+    google: LON:0GUX
+    currency: GBP
   metadata:
     founded: 1856
     employees: 15000
@@ -20812,6 +20872,9 @@ companies:
   - yahoo: SVNLY
     google: OTCMKTS:SVNLY
     currency: USD
+  - yahoo: 0R7S.L
+    google: LON:0R7S
+    currency: GBP
   metadata:
     founded: 1871
     employees: 11000
@@ -20855,6 +20918,12 @@ companies:
     currency: EUR
   - yahoo: SWMAF
     google: OTCMKTS:SWMAF
+    currency: USD
+  - yahoo: SWMC.F
+    google: FRA:SWMC
+    currency: EUR
+  - yahoo: SWMAY
+    google: OTCMKTS:SWMAY
     currency: USD
   metadata:
     founded: 1917
@@ -22878,6 +22947,9 @@ companies:
   - yahoo: LDOS
     google: NYSE:LDOS
     currency: USD
+  - yahoo: S6IA.F
+    google: FRA:S6IA
+    currency: EUR
   isins: []
   metadata:
     founded: 1969
@@ -22894,6 +22966,12 @@ companies:
   - yahoo: LYV
     google: NYSE:LYV
     currency: USD
+  - yahoo: 3LN.F
+    google: FRA:3LN
+    currency: EUR
+  - yahoo: 0JVD.L
+    google: LON:0JVD
+    currency: GBP
   isins: []
   metadata:
     founded: 2010
@@ -22935,6 +23013,12 @@ companies:
   - yahoo: LUMN
     google: NYSE:LUMN
     currency: USD
+  - yahoo: CYTH.F
+    google: FRA:CYTH
+    currency: EUR
+  - yahoo: 0HVP.L
+    google: LON:0HVP
+    currency: GBP
   isins: []
   metadata:
     founded: 1930
@@ -24249,24 +24333,6 @@ companies:
   metadata:
     founded: 2000
     employees: 10000
-- name: Orpea S.A.
-  wiki_name: Orpea S.A.
-  symbol: OPA
-  country: France
-  indices: []
-  industries: []
-  symbols:
-  - yahoo: OPA.F
-    google: FRA:OPA
-    currency: EUR
-  - yahoo: ORRRY
-    google: OTCMKTS:ORRRY
-    currency: USD
-  isins:
-  - FR0000184798
-  metadata:
-    founded: 1989
-    employees: 49185
 - name: Compagnie Plastic Omnium
   wiki_name: Compagnie Plastic Omnium
   symbol: EZM
@@ -26376,15 +26442,21 @@ companies:
   metadata:
     founded: 1883
     employees: 47779
-- name: Orpea
-  wiki_name: Orpea
+- name: Orpea S.A.
+  wiki_name: Orpea S.A.
   symbol: ORP
   country: France
   indices:
   - CAC Mid 60
   industries:
   - healthcare
-  symbols: []
+  symbols:
+  - yahoo: OPA.F
+    google: FRA:OPA
+    currency: EUR
+  - yahoo: ORRRY
+    google: OTCMKTS:ORRRY
+    currency: USD
   isins:
   - FR0000184798
   metadata:
@@ -26464,6 +26536,9 @@ companies:
   symbols:
   - yahoo: AVSN.F
     google: FRA:AVSN
+    currency: EUR
+  - yahoo: AVS.F
+    google: FRA:AVS
     currency: EUR
   isins:
   - NL0000334118
