@@ -805,9 +805,10 @@ companies:
   symbol: AIR
   country: Netherlands
   indices:
-  - MDAX
-  - EURO STOXX 50
   - CAC 40
+  - DAX
+  - EURO STOXX 50
+  - MDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -946,6 +947,7 @@ companies:
   symbol: BNR
   country: Germany
   indices:
+  - DAX
   - MDAX
   industries:
   - Chemicals
@@ -1721,6 +1723,7 @@ companies:
   symbol: PUM
   country: Germany
   indices:
+  - DAX
   - MDAX
   industries:
   - Footwear
@@ -1743,6 +1746,7 @@ companies:
   symbol: QIA
   country: Netherlands
   indices:
+  - DAX
   - MDAX
   - TECDAX
   industries:
@@ -1855,7 +1859,7 @@ companies:
   symbol: SRT3
   country: Germany
   indices:
-  - CAC Mid 60
+  - DAX
   - MDAX
   - TECDAX
   industries:
@@ -1935,6 +1939,7 @@ companies:
   symbol: SHL
   country: Germany
   indices:
+  - DAX
   - MDAX
   - TECDAX
   industries:
@@ -2012,6 +2017,7 @@ companies:
   symbol: SY1
   country: Germany
   indices:
+  - DAX
   - MDAX
   industries:
   - Specialty Chemicals
@@ -2138,6 +2144,7 @@ companies:
   symbol: ZAL
   country: Germany
   indices:
+  - DAX
   - MDAX
   industries:
   - Retailers
@@ -2751,6 +2758,7 @@ companies:
   symbol: HFG
   country: Germany
   indices:
+  - DAX
   - MDAX
   industries:
   - Consumer Non-Cyclicals
@@ -3622,6 +3630,9 @@ companies:
   - yahoo: ZLPSF
     google: OTCMKTS:ZLPSF
     currency: USD
+  - yahoo: ZOPLY
+    google: OTCMKTS:ZOPLY
+    currency: USD
   metadata:
     founded: 1999
     employees: 768
@@ -4211,6 +4222,9 @@ companies:
   - yahoo: BRBY.L
     google: LON:BRBY
     currency: GBP
+  - yahoo: BB2A.F
+    google: FRA:BB2A
+    currency: EUR
   metadata:
     founded: 1856
     employees: 9892
@@ -4677,6 +4691,9 @@ companies:
   - yahoo: HL.L
     google: LON:HL
     currency: GBP
+  - yahoo: HRGLF
+    google: OTCMKTS:HRGLF
+    currency: USD
   metadata:
     founded: 1981
     employees: 1700
@@ -4749,6 +4766,9 @@ companies:
   - yahoo: HBCYF
     google: OTCMKTS:HBCYF
     currency: USD
+  - yahoo: HBC2.F
+    google: FRA:HBC2
+    currency: EUR
   metadata:
     founded: 131
     employees: 226059
@@ -5880,6 +5900,7 @@ companies:
   symbol: SMIN
   country: United Kingdom
   indices:
+  - CAC Mid 60
   - FTSE 100
   industries:
   - Industrials
@@ -5899,6 +5920,7 @@ companies:
     employees: 23000
   isins:
   - GB00B1WY2338
+  - LU0088087324
 - name: Smurfit Kappa Group PLC
   symbol: SKG
   country: Ireland
@@ -7598,7 +7620,8 @@ companies:
 - name: TechnipFMC PLC
   symbol: FTI
   country: United Kingdom
-  indices: []
+  indices:
+  - CAC Mid 60
   industries:
   - Energy
   - Fossil Fuels
@@ -7614,7 +7637,8 @@ companies:
   metadata:
     founded: 1958
     employees: 37000
-  isins: []
+  isins:
+  - GB00BDSFG982
 - name: TOTAL SA
   symbol: FP
   country: France
@@ -9571,9 +9595,7 @@ companies:
 - name: Maxim Integrated Products Inc.
   symbol: MXIM
   country: United States
-  indices:
-  - NASDAQ 100
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -19944,7 +19966,8 @@ companies:
 - name: ABN AMRO Group N.V.
   symbol: ABN
   country: Netherlands
-  indices: []
+  indices:
+  - AEX
   industries:
   - Financials
   - Banks
@@ -19958,7 +19981,8 @@ companies:
   metadata:
     founded: 1991
     employees: 17813
-  isins: []
+  isins:
+  - NL0011872643
 - name: Adyen N.V.
   symbol: ADYEN
   country: Netherlands
@@ -20517,6 +20541,7 @@ companies:
     employees: 4881
   isins:
   - SE0012455673
+  - SE0015811559
 - name: AB Electrolux (publ)
   symbol: ELUXB
   country: Sweden
@@ -23665,8 +23690,7 @@ companies:
   wiki_name: AKKA Technologies SE
   symbol: AF5
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols:
   - yahoo: AF5.F
@@ -23680,8 +23704,7 @@ companies:
   wiki_name: ALD Automotive
   symbol: ALD
   country: Germany
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -23736,8 +23759,7 @@ companies:
   wiki_name: bioMérieux
   symbol: BIM
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Biotechnology
   symbols: []
@@ -23942,8 +23964,7 @@ companies:
   wiki_name: Eurofins Scientific SE
   symbol: ESF0
   country: Luxembourg
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Laboratory
   - analysis
@@ -23963,8 +23984,7 @@ companies:
   wiki_name: Euronext
   symbol: EUXTF
   country: Netherlands
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols:
   - yahoo: EUXTF
@@ -24080,8 +24100,7 @@ companies:
   wiki_name: Genfit
   symbol: XUP
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols:
   - yahoo: XUP.F
@@ -24354,8 +24373,7 @@ companies:
   wiki_name: Quadient
   symbol: NPACY
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Technology
   symbols:
@@ -24492,8 +24510,7 @@ companies:
   wiki_name: Tarkett
   symbol: TKFTF
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols:
   - yahoo: TKFTF
@@ -25203,6 +25220,9 @@ companies:
     currency: EUR
   - yahoo: MTTRY
     google: OTCMKTS:MTTRY
+    currency: USD
+  - yahoo: MTAGF
+    google: OTCMKTS:MTAGF
     currency: USD
   isins:
   - DE0007257503
@@ -26080,6 +26100,7 @@ companies:
   symbol: PAH3
   country: Germany
   indices:
+  - DAX
   - MDAX
   industries:
   - Holding company
@@ -26177,6 +26198,7 @@ companies:
     currency: USD
   - yahoo: MPFRY
     google: OTCMKTS:MPFRY
+    currency: USD
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
@@ -26253,8 +26275,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols:
   - yahoo: ASRNL.AS
@@ -26721,3 +26742,177 @@ companies:
   metadata:
     founded: 2016
     employees: 32005
+- name: Albioma
+  wiki_name: Albioma
+  symbol: ABIO
+  country: France
+  indices:
+  - CAC Mid 60
+  industries:
+  - solar energy
+  - biomass
+  - geothermal energy
+  symbols:
+  - yahoo: 33S.F
+    google: FRA:33S
+    currency: EUR
+  isins:
+  - FR77775667538
+  metadata:
+    founded: 1982
+    employees: 579
+- name: McPhy Energy
+  wiki_name: McPhy Energy
+  symbol: MCPHY
+  country: France
+  indices:
+  - CAC Mid 60
+  industries:
+  - hydrogen production
+  - distribution equipment
+  symbols:
+  - yahoo: M6P.F
+    google: FRA:M6P
+    currency: EUR
+  isins:
+  - FR86502205917
+  metadata:
+    founded: 2008
+    employees: 110
+- name: Neoen
+  wiki_name: Neoen
+  symbol: NEOEN
+  country: France
+  indices:
+  - CAC Mid 60
+  industries:
+  - renewable energy
+  symbols:
+  - yahoo: N1N.F
+    google: FRA:N1N
+    currency: EUR
+  isins:
+  - FR0011675362
+  metadata:
+    founded: 2008
+    employees: 130
+- name: SCOR SE
+  wiki_name: SCOR SE
+  symbol: SCR
+  country: France
+  indices:
+  - CAC Mid 60
+  industries:
+  - Financial services
+  symbols:
+  - yahoo: SDRC.F
+    google: FRA:SDRC
+    currency: EUR
+  isins:
+  - FR0010411983
+  metadata:
+    founded: 1970
+    employees: 3028
+- name: Solutions 30
+  wiki_name: Solutions 30
+  symbol: null
+  country: Luxembourg
+  indices:
+  - CAC Mid 60
+  industries:
+  - it services
+  symbols:
+  - yahoo: 30L3.F
+    google: FRA:30L3
+    currency: EUR
+  isins:
+  - FR0013379484
+  metadata:
+    founded: 2003
+    employees: 5061
+- name: Technip Energies N.V.
+  wiki_name: Technip Energies N.V.
+  symbol: TE
+  country: Netherlands
+  indices:
+  - CAC Mid 60
+  industries:
+  - plant engineering
+  symbols:
+  - yahoo: 68F.F
+    google: FRA:68F
+    currency: EUR
+  isins:
+  - NL0014559478
+  metadata:
+    founded: 2021
+    employees: 15000
+- name: Valneva SE
+  wiki_name: Valneva SE
+  symbol: VALN
+  country: France
+  indices:
+  - CAC Mid 60
+  industries:
+  - Biotechnology
+  symbols:
+  - yahoo: VALN
+    google: NASDAQ:VALN
+    currency: USD
+  - yahoo: AYJ.F
+    google: FRA:AYJ
+    currency: EUR
+  isins:
+  - FR0004056851
+  metadata:
+    founded: 2013
+    employees: 500
+- name: Logitech International S.A.
+  wiki_name: Logitech International S.A.
+  symbol: LOGN
+  country: Switzerland
+  indices:
+  - Switzerland 20
+  industries:
+  - Technology
+  symbols:
+  - yahoo: LOGI
+    google: NASDAQ:LOGI
+    currency: USD
+  isins:
+  - CH0025751329
+  metadata:
+    founded: 1981
+    employees: 7000
+- name: CrowdStrike Holdings, Inc.
+  wiki_name: CrowdStrike Holdings, Inc.
+  symbol: CRWD
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Information security
+  symbols:
+  - yahoo: CRWD
+    google: NASDAQ:CRWD
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2011
+    employees: 3163
+- name: Bio-Techne Corporation
+  wiki_name: Bio-Techne Corporation
+  symbol: TECH
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Biotechnology
+  symbols:
+  - yahoo: TECH
+    google: NASDAQ:TECH
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1976
+    employees: 2300
