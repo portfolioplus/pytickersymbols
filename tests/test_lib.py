@@ -195,7 +195,7 @@ class TestLib(unittest.TestCase):
         self.assertEqual(len(stocks), 0)
         stocks = list(stock_data.get_stocks_by_index(22))
         self.assertEqual(len(stocks), 0)
-        for ind, ctx in [('DAX', 30), ('CAC 40', 40)]:
+        for ind, ctx in [('DAX', 40), ('CAC 40', 40)]:
             stocks = list(stock_data.get_stocks_by_index(ind))
             self.assertIsNotNone(stocks)
             self.assertEqual(len(stocks), ctx)
@@ -353,7 +353,7 @@ class TestLib(unittest.TestCase):
         self.assertIsNotNone(yahoo_tickers)
         test_list = [google_tickers, yahoo_tickers]
         for test_item in test_list:
-            self.assertEqual(len(test_item), 30)
+            self.assertEqual(len(test_item), 40)
             for tickers in test_item:
                 self.assertTrue(len(tickers) >= 1, tickers)
 
