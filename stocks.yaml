@@ -6924,6 +6924,9 @@ companies:
   - yahoo: AMSYF
     google: OTCMKTS:AMSYF
     currency: USD
+  - yahoo: ARRJ.F
+    google: FRA:ARRJ
+    currency: EUR
   metadata:
     founded: 2006
     employees: 168000
@@ -10161,6 +10164,9 @@ companies:
   - yahoo: TMUS
     google: NASDAQ:TMUS
     currency: USD
+  - yahoo: 0R2L.L
+    google: LON:0R2L
+    currency: GBP
   metadata:
     founded: 1994
     employees: 75000
@@ -18993,6 +18999,9 @@ companies:
   - yahoo: INGA.AS
     google: AMS:INGA
     currency: EUR
+  - yahoo: INNA.F
+    google: FRA:INNA
+    currency: EUR
   metadata:
     founded: 1743
     employees: 53431
@@ -20034,6 +20043,9 @@ companies:
   - yahoo: AGN.AS
     google: AMS:AGN
     currency: EUR
+  - yahoo: AEND.F
+    google: FRA:AEND
+    currency: EUR
   metadata:
     founded: 1983
     employees: 23757
@@ -20536,6 +20548,9 @@ companies:
   - yahoo: BDNNY
     google: OTCMKTS:BDNNY
     currency: USD
+  - yahoo: BWJ.F
+    google: FRA:BWJ
+    currency: EUR
   metadata:
     founded: 1931
     employees: 4881
@@ -20703,6 +20718,9 @@ companies:
     currency: EUR
   - yahoo: IVSXF
     google: OTCMKTS:IVSXF
+    currency: USD
+  - yahoo: IVSBF
+    google: OTCMKTS:IVSBF
     currency: USD
   metadata:
     founded: 1916
@@ -26458,6 +26476,9 @@ companies:
   - yahoo: 7EL.F
     google: FRA:7EL
     currency: EUR
+  - yahoo: ELMUF
+    google: OTCMKTS:ELMUF
+    currency: USD
   isins:
   - FR0012435121
   metadata:
@@ -26737,6 +26758,9 @@ companies:
   - yahoo: G14.F
     google: FRA:G14
     currency: EUR
+  - yahoo: PHPPY
+    google: OTCMKTS:PHPPY
+    currency: USD
   isins:
   - NL0011821392
   metadata:
@@ -26862,6 +26886,12 @@ companies:
   - yahoo: AYJ.F
     google: FRA:AYJ
     currency: EUR
+  - yahoo: INRLF
+    google: OTCMKTS:INRLF
+    currency: USD
+  - yahoo: 0OB3.L
+    google: LON:0OB3
+    currency: GBP
   isins:
   - FR0004056851
   metadata:
@@ -26896,6 +26926,12 @@ companies:
   - yahoo: CRWD
     google: NASDAQ:CRWD
     currency: USD
+  - yahoo: 45C.F
+    google: FRA:45C
+    currency: EUR
+  - yahoo: 0A3N.L
+    google: LON:0A3N
+    currency: GBP
   isins: []
   metadata:
     founded: 2011
