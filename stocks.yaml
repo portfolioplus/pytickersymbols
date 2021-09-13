@@ -3694,6 +3694,9 @@ companies:
   - yahoo: AMIGY
     google: OTCMKTS:AMIGY
     currency: USD
+  - yahoo: AMIGF
+    google: OTCMKTS:AMIGF
+    currency: USD
   metadata:
     founded: 1991
     employees: 3000
@@ -3888,6 +3891,9 @@ companies:
   - yahoo: 2UA0.F
     google: FRA:2UA0
     currency: EUR
+  - yahoo: ATDRF
+    google: OTCMKTS:ATDRF
+    currency: USD
   metadata:
     founded: 1975
     employees: ''
@@ -4010,6 +4016,9 @@ companies:
   - yahoo: 3BAA.F
     google: FRA:3BAA
     currency: EUR
+  - yahoo: BTDPF
+    google: OTCMKTS:BTDPF
+    currency: USD
   metadata:
     founded: 1958
     employees: 6655
@@ -4043,6 +4052,9 @@ companies:
   - yahoo: BKGFY
     google: OTCMKTS:BKGFY
     currency: USD
+  - yahoo: 42BB.F
+    google: FRA:42BB
+    currency: EUR
   metadata:
     founded: 1976
     employees: 2709
@@ -5069,6 +5081,9 @@ companies:
   - yahoo: LGEN.L
     google: LON:LGEN
     currency: GBP
+  - yahoo: LGGNF
+    google: OTCMKTS:LGGNF
+    currency: USD
   metadata:
     founded: 1836
     employees: 10046
@@ -19946,8 +19961,7 @@ companies:
 - name: ABN AMRO Group N.V.
   symbol: ABN
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries:
   - Financials
   - Banks
@@ -22472,6 +22486,9 @@ companies:
     currency: EUR
   - yahoo: JDSPY
     google: OTCMKTS:JDSPY
+    currency: USD
+  - yahoo: JDDSF
+    google: OTCMKTS:JDDSF
     currency: USD
   isins: []
   metadata:
@@ -26313,7 +26330,8 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices: []
+  indices:
+  - AEX
   industries: []
   symbols:
   - yahoo: ASRNL.AS
@@ -26506,8 +26524,7 @@ companies:
   wiki_name: Orpea S.A.
   symbol: ORP
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - healthcare
   symbols:
