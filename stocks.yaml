@@ -1475,6 +1475,9 @@ companies:
   - yahoo: KPLUY
     google: OTCMKTS:KPLUY
     currency: USD
+  - yahoo: KPLUF
+    google: OTCMKTS:KPLUF
+    currency: USD
   metadata:
     founded: 1889
     employees: 14868
@@ -1736,6 +1739,9 @@ companies:
     currency: EUR
   - yahoo: PMMAF
     google: OTCMKTS:PMMAF
+    currency: USD
+  - yahoo: PUMSY
+    google: OTCMKTS:PUMSY
     currency: USD
   metadata:
     founded: 1948
@@ -4061,6 +4067,12 @@ companies:
   - yahoo: BBL
     google: NYSE:BBL
     currency: USD
+  - yahoo: BHPLF
+    google: OTCMKTS:BHPLF
+    currency: USD
+  - yahoo: BHP.L
+    google: LON:BHP
+    currency: GBP
   metadata:
     founded: 1860
     employees: 80000
@@ -5167,6 +5179,9 @@ companies:
     currency: GBP
   - yahoo: 27M.F
     google: FRA:27M
+    currency: EUR
+  - yahoo: 27MB.F
+    google: FRA:27MB
     currency: EUR
   metadata:
     founded: 2003
@@ -7277,28 +7292,6 @@ companies:
     employees: 39000
   isins:
   - FR0010307819
-- name: LVMH Moët Hennessy - Louis Vuitton, Société Européenne
-  symbol: MC
-  country: France
-  indices:
-  - CAC 40
-  industries:
-  - Cyclical Consumer Products
-  - Textiles & Apparel
-  - Apparel & Accessories
-  - Consumer Cyclicals
-  symbols:
-  - yahoo: MOH.F
-    google: FRA:MOH
-    currency: EUR
-  - yahoo: LVMHF
-    google: OTCMKTS:LVMHF
-    currency: USD
-  metadata:
-    founded: 1987
-    employees: 145247
-  isins:
-  - FR0000121014
 - name: Compagnie Générale des établissements Michelin
   symbol: ML
   country: France
@@ -7546,28 +7539,6 @@ companies:
     employees: 135000
   isins:
   - FR0000121972
-- name: Société Générale SA
-  symbol: GLE
-  country: France
-  indices:
-  - CAC 40
-  industries:
-  - Banking & Investment Services
-  - Banking Services
-  - Financials
-  - Banks
-  symbols:
-  - yahoo: SGE.F
-    google: FRA:SGE
-    currency: EUR
-  - yahoo: SCGLF
-    google: OTCMKTS:SCGLF
-    currency: USD
-  metadata:
-    founded: 1864
-    employees: 146000
-  isins:
-  - FR0000130809
 - name: Sodexo SA
   symbol: SW
   country: France
@@ -20551,6 +20522,9 @@ companies:
   - yahoo: BWJ.F
     google: FRA:BWJ
     currency: EUR
+  - yahoo: BOLIF
+    google: OTCMKTS:BOLIF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -20743,6 +20717,15 @@ companies:
   - yahoo: KNVKF
     google: OTCMKTS:KNVKF
     currency: USD
+  - yahoo: IV60.F
+    google: FRA:IV60
+    currency: EUR
+  - yahoo: 0RH1.L
+    google: LON:0RH1
+    currency: GBP
+  - yahoo: KNKBF
+    google: OTCMKTS:KNKBF
+    currency: USD
   metadata:
     founded: 1936
     employees: ''
@@ -20918,6 +20901,9 @@ companies:
   - yahoo: 0R7S.L
     google: LON:0R7S
     currency: GBP
+  - yahoo: SVHG.F
+    google: FRA:SVHG
+    currency: EUR
   metadata:
     founded: 1871
     employees: 11000
@@ -25132,10 +25118,21 @@ companies:
   symbol: MC
   country: France
   indices:
+  - CAC 40
   - EURO STOXX 50
   industries:
   - Luxury goods
-  symbols: []
+  - Cyclical Consumer Products
+  - Textiles & Apparel
+  - Apparel & Accessories
+  - Consumer Cyclicals
+  symbols:
+  - yahoo: MOH.F
+    google: FRA:MOH
+    currency: EUR
+  - yahoo: LVMHF
+    google: OTCMKTS:LVMHF
+    currency: USD
   isins:
   - FR0000121014
   metadata:
@@ -25145,10 +25142,21 @@ companies:
   wiki_name: Société Générale S.A.
   symbol: GLE
   country: France
-  indices: []
+  indices:
+  - CAC 40
   industries:
   - Financial services
-  symbols: []
+  - Banking & Investment Services
+  - Banking Services
+  - Financials
+  - Banks
+  symbols:
+  - yahoo: SGE.F
+    google: FRA:SGE
+    currency: EUR
+  - yahoo: SCGLF
+    google: OTCMKTS:SCGLF
+    currency: USD
   isins:
   - FR0000130809
   metadata:
@@ -26126,6 +26134,12 @@ companies:
   - yahoo: PAH3.F
     google: FRA:PAH3
     currency: EUR
+  - yahoo: PAHA.F
+    google: FRA:PAHA
+    currency: EUR
+  - yahoo: POAHY
+    google: OTCMKTS:POAHY
+    currency: USD
   isins:
   - DE000PAH0038
   metadata:
@@ -26271,6 +26285,12 @@ companies:
   - yahoo: AG1.F
     google: FRA:AG1
     currency: EUR
+  - yahoo: 0A9L.L
+    google: LON:0A9L
+    currency: GBP
+  - yahoo: ATOGF
+    google: OTCMKTS:ATOGF
+    currency: USD
   isins:
   - DE000A2LQ884
   metadata:
@@ -26471,14 +26491,12 @@ companies:
   country: France
   indices:
   - CAC Mid 60
-  industries: []
+  industries:
+  - Textilservice
   symbols:
   - yahoo: 7EL.F
     google: FRA:7EL
     currency: EUR
-  - yahoo: ELMUF
-    google: OTCMKTS:ELMUF
-    currency: USD
   isins:
   - FR0012435121
   metadata:
