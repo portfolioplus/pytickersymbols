@@ -11264,6 +11264,9 @@ companies:
   - yahoo: OCJ.F
     google: FRA:OCJ
     currency: EUR
+  - yahoo: OCLCF
+    google: OTCMKTS:OCLCF
+    currency: USD
   metadata:
     founded: 1977
     employees: 135000
@@ -24154,6 +24157,9 @@ companies:
   - yahoo: GZPZY
     google: OTCMKTS:GZPZY
     currency: USD
+  - yahoo: GZPZF
+    google: OTCMKTS:GZPZF
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -26901,6 +26907,12 @@ companies:
   - yahoo: 68F.F
     google: FRA:68F
     currency: EUR
+  - yahoo: 0A8A.L
+    google: LON:0A8A
+    currency: GBP
+  - yahoo: THNPY
+    google: OTCMKTS:THNPY
+    currency: USD
   isins:
   - NL0014559478
   metadata:
