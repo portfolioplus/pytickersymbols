@@ -699,6 +699,9 @@ companies:
   - yahoo: TYEKF
     google: OTCMKTS:TYEKF
     currency: USD
+  - yahoo: TKAMY
+    google: OTCMKTS:TKAMY
+    currency: USD
   metadata:
     founded: 1999
     employees: 103598
@@ -999,6 +1002,9 @@ companies:
   - yahoo: CEVMY
     google: OTCMKTS:CEVMY
     currency: USD
+  - yahoo: EVD0.F
+    google: FRA:EVD0
+    currency: EUR
   metadata:
     founded: 1989
     employees: 3202
@@ -4085,6 +4091,9 @@ companies:
   - yahoo: BHP.L
     google: LON:BHP
     currency: GBP
+  - yahoo: BIL.F
+    google: FRA:BIL
+    currency: EUR
   metadata:
     founded: 1860
     employees: 80000
@@ -5764,6 +5773,9 @@ companies:
   - yahoo: SGE.L
     google: LON:SGE
     currency: GBP
+  - yahoo: SGGEF
+    google: OTCMKTS:SGGEF
+    currency: USD
   metadata:
     founded: 1981
     employees: 12000
@@ -13903,6 +13915,9 @@ companies:
   - yahoo: EIX
     google: NYSE:EIX
     currency: USD
+  - yahoo: 0IFJ.L
+    google: LON:0IFJ
+    currency: GBP
   metadata:
     founded: 1886
     employees: 12521
@@ -16900,6 +16915,9 @@ companies:
   - yahoo: PPG
     google: NYSE:PPG
     currency: USD
+  - yahoo: 0KEI.L
+    google: LON:0KEI
+    currency: GBP
   metadata:
     founded: 1883
     employees: 47300
@@ -18381,6 +18399,9 @@ companies:
   - yahoo: WAT
     google: NYSE:WAT
     currency: USD
+  - yahoo: 0LTI.L
+    google: LON:0LTI
+    currency: GBP
   metadata:
     founded: 1958
     employees: 7500
@@ -18634,6 +18655,9 @@ companies:
   - yahoo: XYL
     google: NYSE:XYL
     currency: USD
+  - yahoo: 0M29.L
+    google: LON:0M29
+    currency: GBP
   metadata:
     founded: 2011
     employees: 17000
@@ -20003,6 +20027,9 @@ companies:
     currency: USD
   - yahoo: ADYEN.AS
     google: AMS:ADYEN
+    currency: EUR
+  - yahoo: 1N8U.F
+    google: FRA:1N8U
     currency: EUR
   metadata:
     founded: 2006
@@ -23083,6 +23110,9 @@ companies:
   - yahoo: MKTX
     google: NASDAQ:MKTX
     currency: USD
+  - yahoo: MWI.F
+    google: FRA:MWI
+    currency: EUR
   isins:
   - US57060D1081
   metadata:
@@ -23100,6 +23130,12 @@ companies:
   - yahoo: TAP
     google: NYSE:TAP
     currency: USD
+  - yahoo: NY7.F
+    google: FRA:NY7
+    currency: EUR
+  - yahoo: 0K2K.L
+    google: LON:0K2K
+    currency: GBP
   isins: []
   metadata:
     founded: 1786
@@ -23127,6 +23163,12 @@ companies:
   - yahoo: NOC
     google: NYSE:NOC
     currency: USD
+  - yahoo: 0K92.L
+    google: LON:0K92
+    currency: GBP
+  - yahoo: NTH.F
+    google: FRA:NTH
+    currency: EUR
   isins: []
   metadata:
     founded: 1994
@@ -23314,6 +23356,9 @@ companies:
   - yahoo: TDY
     google: NYSE:TDY
     currency: USD
+  - yahoo: TYZ.F
+    google: FRA:TYZ
+    currency: EUR
   isins: []
   metadata:
     founded: 1960
@@ -25780,6 +25825,9 @@ companies:
   - yahoo: 33L.F
     google: FRA:33L
     currency: EUR
+  - yahoo: 0JVT.L
+    google: LON:0JVT
+    currency: GBP
   isins: []
   metadata:
     founded: 1998
@@ -26020,6 +26068,12 @@ companies:
   - yahoo: CZR
     google: NASDAQ:CZR
     currency: USD
+  - yahoo: CZR.F
+    google: FRA:CZR
+    currency: EUR
+  - yahoo: 0A78.L
+    google: LON:0A78
+    currency: GBP
   isins: []
   metadata:
     founded: 1996
@@ -26839,6 +26893,12 @@ companies:
   - yahoo: M6P.F
     google: FRA:M6P
     currency: EUR
+  - yahoo: 0QTF.L
+    google: LON:0QTF
+    currency: GBP
+  - yahoo: MPHYF
+    google: OTCMKTS:MPHYF
+    currency: USD
   isins:
   - FR86502205917
   metadata:
