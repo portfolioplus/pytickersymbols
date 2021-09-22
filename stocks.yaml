@@ -1095,6 +1095,9 @@ companies:
   - yahoo: DTCWY
     google: OTCMKTS:DTCWY
     currency: USD
+  - yahoo: DWHHF
+    google: OTCMKTS:DWHHF
+    currency: USD
   metadata:
     founded: 1998
     employees: 5323
@@ -1283,6 +1286,12 @@ companies:
   - yahoo: FUPPF
     google: OTCMKTS:FUPPF
     currency: USD
+  - yahoo: FUPBY
+    google: OTCMKTS:FUPBY
+    currency: USD
+  - yahoo: FPE4.F
+    google: FRA:FPE4
+    currency: EUR
   metadata:
     founded: 1931
     employees: 5728
@@ -1305,6 +1314,9 @@ companies:
     currency: EUR
   - yahoo: GEAGY
     google: OTCMKTS:GEAGY
+    currency: USD
+  - yahoo: GEAGF
+    google: OTCMKTS:GEAGF
     currency: USD
   metadata:
     founded: 1881
@@ -1394,6 +1406,9 @@ companies:
     currency: EUR
   - yahoo: HLKHF
     google: OTCMKTS:HLKHF
+    currency: USD
+  - yahoo: HLLGY
+    google: OTCMKTS:HLLGY
     currency: USD
   metadata:
     founded: 1899
@@ -2231,6 +2246,9 @@ companies:
   - yahoo: AIXXF
     google: OTCMKTS:AIXXF
     currency: USD
+  - yahoo: AIX2.F
+    google: FRA:AIX2
+    currency: EUR
   metadata:
     founded: 1983
     employees: 728
@@ -3092,6 +3110,9 @@ companies:
   - yahoo: NRDXF
     google: OTCMKTS:NRDXF
     currency: USD
+  - yahoo: NDX.F
+    google: FRA:NDX
+    currency: EUR
   metadata:
     founded: 1985
     employees: 8527
@@ -6214,6 +6235,9 @@ companies:
   - yahoo: UN
     google: NYSE:UN
     currency: USD
+  - yahoo: UNVA.F
+    google: FRA:UNVA
+    currency: EUR
   metadata:
     founded: 1929
     employees: 155000
@@ -7613,6 +7637,9 @@ companies:
   - yahoo: STM
     google: NYSE:STM
     currency: USD
+  - yahoo: SGMR.F
+    google: FRA:SGMR
+    currency: EUR
   metadata:
     founded: 1972
     employees: 46000
@@ -10796,6 +10823,9 @@ companies:
   - yahoo: COP
     google: NYSE:COP
     currency: USD
+  - yahoo: 0QZA.L
+    google: LON:0QZA
+    currency: GBP
   metadata:
     founded: 1875
     employees: 10400
@@ -15054,6 +15084,9 @@ companies:
   - yahoo: HPQ
     google: NYSE:HPQ
     currency: USD
+  - yahoo: 0J2E.L
+    google: LON:0J2E
+    currency: GBP
   metadata:
     founded: 1939
     employees: 53000
@@ -16918,6 +16951,9 @@ companies:
   - yahoo: PPL
     google: NYSE:PPL
     currency: USD
+  - yahoo: 0KEJ.L
+    google: LON:0KEJ
+    currency: GBP
   metadata:
     founded: 1920
     employees: 12000
@@ -17796,6 +17832,9 @@ companies:
   - yahoo: TROW
     google: NASDAQ:TROW
     currency: USD
+  - yahoo: 0KNY.L
+    google: LON:0KNY
+    currency: GBP
   metadata:
     founded: 1937
     employees: 7022
@@ -18166,6 +18205,9 @@ companies:
   - yahoo: UNM
     google: NYSE:UNM
     currency: USD
+  - yahoo: 0LJN.L
+    google: LON:0LJN
+    currency: GBP
   metadata:
     founded: ''
     employees: 9400
@@ -18443,6 +18485,9 @@ companies:
   - yahoo: WELL
     google: NYSE:WELL
     currency: USD
+  - yahoo: 0LUS.L
+    google: LON:0LUS
+    currency: GBP
   metadata:
     founded: 1970
     employees: 392
@@ -18722,6 +18767,9 @@ companies:
   - yahoo: ZTS
     google: NYSE:ZTS
     currency: USD
+  - yahoo: 0M3Q.L
+    google: LON:0M3Q
+    currency: GBP
   metadata:
     founded: 1952
     employees: 9200
@@ -19108,6 +19156,9 @@ companies:
     currency: USD
   - yahoo: SOLVY
     google: OTCMKTS:SOLVY
+    currency: USD
+  - yahoo: SLVYY
+    google: OTCMKTS:SLVYY
     currency: USD
   metadata:
     founded: 1863
@@ -19576,6 +19627,9 @@ companies:
     currency: USD
   - yahoo: FER.MC
     google: BME:FER
+    currency: EUR
+  - yahoo: UFGD.F
+    google: FRA:UFGD
     currency: EUR
   metadata:
     founded: 1952
@@ -20592,6 +20646,9 @@ companies:
   - yahoo: 0IID.L
     google: LON:0IID
     currency: GBP
+  - yahoo: 0O86.L
+    google: LON:0O86
+    currency: GBP
   metadata:
     founded: 1876
     employees: 99826
@@ -20887,25 +20944,6 @@ companies:
   metadata:
     founded: 1978
     employees: 14300
-- name: Svenska Cellulosa AB
-  symbol: SCA B
-  country: Sweden
-  indices: []
-  industries:
-  - Paper & Forest Products
-  - Paper Products
-  - Basic Materials
-  - Applied Resources
-  symbols:
-  - yahoo: SCA1.F
-    google: FRA:SCA1
-    currency: EUR
-  - yahoo: SVCBY
-    google: OTCMKTS:SVCBY
-    currency: USD
-  metadata:
-    founded: 1929
-    employees: 4216
 - name: Svenska Handelsbanken AB
   symbol: SHB A
   country: Sweden
@@ -23189,6 +23227,9 @@ companies:
   - yahoo: NVR
     google: NYSE:NVR
     currency: USD
+  - yahoo: NVE.F
+    google: FRA:NVE
+    currency: EUR
   isins: []
   metadata:
     founded: 1980
@@ -23204,6 +23245,12 @@ companies:
   - yahoo: ODFL
     google: NASDAQ:ODFL
     currency: USD
+  - yahoo: 0A7P.L
+    google: LON:0A7P
+    currency: GBP
+  - yahoo: ODF.F
+    google: FRA:ODF
+    currency: EUR
   isins:
   - US6795801009
   metadata:
@@ -24896,8 +24943,12 @@ companies:
   - yahoo: SCA.F
     google: FRA:SCA
     currency: EUR
+  - yahoo: SCA1.F
+    google: FRA:SCA1
+    currency: EUR
   isins:
   - SE0000112724
+  - SE0000171886
   metadata:
     founded: 1929
     employees: 4031
@@ -26017,6 +26068,9 @@ companies:
   - yahoo: 0M18.L
     google: LON:0M18
     currency: GBP
+  - yahoo: W7D.F
+    google: FRA:W7D
+    currency: EUR
   isins:
   - US98138H1014
   metadata:
@@ -26960,6 +27014,9 @@ companies:
     currency: GBP
   - yahoo: THNPY
     google: OTCMKTS:THNPY
+    currency: USD
+  - yahoo: THNPF
+    google: OTCMKTS:THNPF
     currency: USD
   isins:
   - NL0014559478
