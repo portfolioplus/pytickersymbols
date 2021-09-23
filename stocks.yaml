@@ -241,6 +241,9 @@ companies:
   - yahoo: 1CO1.F
     google: FRA:1CO1
     currency: EUR
+  - yahoo: CVVTF
+    google: OTCMKTS:CVVTF
+    currency: USD
   metadata:
     founded: 2015
     employees: 16501
@@ -330,6 +333,9 @@ companies:
     currency: EUR
   - yahoo: DLAKY
     google: OTCMKTS:DLAKY
+    currency: USD
+  - yahoo: DLAKF
+    google: OTCMKTS:DLAKF
     currency: USD
   metadata:
     founded: 1953
@@ -5821,6 +5827,9 @@ companies:
   - yahoo: SBRY.L
     google: LON:SBRY
     currency: GBP
+  - yahoo: SUY.F
+    google: FRA:SUY
+    currency: EUR
   metadata:
     founded: 1869
     employees: 111900
@@ -6182,6 +6191,9 @@ companies:
   - yahoo: TSCO.L
     google: LON:TSCO
     currency: GBP
+  - yahoo: TCO2.F
+    google: FRA:TCO2
+    currency: EUR
   metadata:
     founded: 1919
     employees: 423092
@@ -10154,24 +10166,6 @@ companies:
   metadata:
     founded: unknown
     employees: 23200
-- name: Symantec Corporation
-  symbol: SYMC
-  country: United States
-  indices: []
-  industries:
-  - Software
-  - Technology
-  - Software & IT Services
-  symbols:
-  - yahoo: SYM.F
-    google: FRA:SYM
-    currency: EUR
-  - yahoo: SYMC
-    google: OTCMKTS:SYMC
-    currency: USD
-  metadata:
-    founded: unknown
-    employees: 12122
 - name: T-Mobile US Inc.
   symbol: TMUS
   country: United States
@@ -15393,6 +15387,9 @@ companies:
   - yahoo: IQV
     google: NYSE:IQV
     currency: USD
+  - yahoo: 0JDM.L
+    google: LON:0JDM
+    currency: GBP
   metadata:
     founded: 1982
     employees: 70000
@@ -16825,6 +16822,9 @@ companies:
   - yahoo: PRGO
     google: NYSE:PRGO
     currency: USD
+  - yahoo: 0Y5E.L
+    google: LON:0Y5E
+    currency: GBP
   metadata:
     founded: 1887
     employees: 13000
@@ -17302,6 +17302,9 @@ companies:
   - yahoo: RSG
     google: NYSE:RSG
     currency: USD
+  - yahoo: 0KW1.L
+    google: LON:0KW1
+    currency: GBP
   metadata:
     founded: 1998
     employees: 35000
@@ -19734,6 +19737,9 @@ companies:
   - yahoo: IDR.MC
     google: BME:IDR
     currency: EUR
+  - yahoo: ISMAF
+    google: OTCMKTS:ISMAF
+    currency: USD
   metadata:
     founded: 1993
     employees: 42860
@@ -20808,6 +20814,9 @@ companies:
   - yahoo: KNKBF
     google: OTCMKTS:KNKBF
     currency: USD
+  - yahoo: IV6.F
+    google: FRA:IV6
+    currency: EUR
   metadata:
     founded: 1936
     employees: ''
@@ -21340,6 +21349,9 @@ companies:
     currency: EUR
   - yahoo: SGSOY
     google: OTCMKTS:SGSOY
+    currency: USD
+  - yahoo: SGSOF
+    google: OTCMKTS:SGSOF
     currency: USD
   metadata:
     founded: 1878
@@ -23207,11 +23219,18 @@ companies:
   - S&P 500
   industries:
   - Computer security
+  - Software
+  - Technology
+  - Software & IT Services
   symbols:
   - yahoo: NLOK
     google: NASDAQ:NLOK
     currency: USD
-  isins: []
+  - yahoo: SYM.F
+    google: FRA:SYM
+    currency: EUR
+  isins:
+  - US6687711084
   metadata:
     founded: 1982
     employees: 3659
@@ -23267,6 +23286,9 @@ companies:
   - yahoo: OTIS
     google: NYSE:OTIS
     currency: USD
+  - yahoo: 4PG.F
+    google: FRA:4PG
+    currency: EUR
   isins: []
   metadata:
     founded: 1853
@@ -23283,6 +23305,12 @@ companies:
   - yahoo: PAYC
     google: NYSE:PAYC
     currency: USD
+  - yahoo: 0KGH.L
+    google: LON:0KGH
+    currency: GBP
+  - yahoo: 0PY.F
+    google: FRA:0PY
+    currency: EUR
   isins: []
   metadata:
     founded: 1998
@@ -26564,6 +26592,9 @@ companies:
   - yahoo: NL00150001Q9.F
     google: FRA:NL00150001Q9
     currency: EUR
+  - yahoo: 8TI.F
+    google: FRA:8TI
+    currency: EUR
   isins:
   - NL00150001Q9
   metadata:
@@ -26975,6 +27006,9 @@ companies:
   - yahoo: SDRC.F
     google: FRA:SDRC
     currency: EUR
+  - yahoo: SCRYY
+    google: OTCMKTS:SCRYY
+    currency: USD
   isins:
   - FR0010411983
   metadata:
