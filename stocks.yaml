@@ -485,6 +485,9 @@ companies:
   - yahoo: HDELY
     google: OTCMKTS:HDELY
     currency: USD
+  - yahoo: HEIU.F
+    google: FRA:HEIU
+    currency: EUR
   metadata:
     founded: 1874
     employees: 53122
@@ -2190,6 +2193,9 @@ companies:
     currency: EUR
   - yahoo: ZLDSF
     google: OTCMKTS:ZLDSF
+    currency: USD
+  - yahoo: ZLNDY
+    google: OTCMKTS:ZLNDY
     currency: USD
   metadata:
     founded: 2008
@@ -5858,6 +5864,9 @@ companies:
   - yahoo: SDRC.L
     google: LON:SDRC
     currency: GBP
+  - yahoo: PYXA.F
+    google: FRA:PYXA
+    currency: EUR
   metadata:
     founded: 1804
     employees: 5000
@@ -13563,6 +13572,9 @@ companies:
   - yahoo: DVA
     google: NYSE:DVA
     currency: USD
+  - yahoo: 0I7E.L
+    google: LON:0I7E
+    currency: GBP
   metadata:
     founded: 1979
     employees: 67000
@@ -14422,6 +14434,9 @@ companies:
   - yahoo: FMC
     google: NYSE:FMC
     currency: USD
+  - yahoo: 0IK3.L
+    google: LON:0IK3
+    currency: GBP
   metadata:
     founded: 1883
     employees: 6500
@@ -14482,6 +14497,9 @@ companies:
   - yahoo: FTV
     google: NYSE:FTV
     currency: USD
+  - yahoo: 0IRE.L
+    google: LON:0IRE
+    currency: GBP
   metadata:
     founded: 2016
     employees: 17000
@@ -17988,6 +18006,9 @@ companies:
   - yahoo: TJX
     google: NYSE:TJX
     currency: USD
+  - yahoo: 0LCE.L
+    google: LON:0LCE
+    currency: GBP
   metadata:
     founded: 1987
     employees: 270000
@@ -19688,6 +19709,9 @@ companies:
     currency: USD
   - yahoo: IBE.MC
     google: BME:IBE
+    currency: EUR
+  - yahoo: IBE5.F
+    google: FRA:IBE5
     currency: EUR
   metadata:
     founded: 1992
@@ -23365,6 +23389,12 @@ companies:
   - yahoo: PFG
     google: NASDAQ:PFG
     currency: USD
+  - yahoo: PG4.F
+    google: FRA:PG4
+    currency: EUR
+  - yahoo: 0KO5.L
+    google: LON:0KO5
+    currency: GBP
   isins: []
   metadata:
     founded: 1879
@@ -23403,6 +23433,9 @@ companies:
   - yahoo: NOW
     google: NYSE:NOW
     currency: USD
+  - yahoo: 0L5N.L
+    google: LON:0L5N
+    currency: GBP
   isins: []
   metadata:
     founded: 2003
@@ -23437,6 +23470,12 @@ companies:
   - yahoo: TER
     google: NASDAQ:TER
     currency: USD
+  - yahoo: 0LEF.L
+    google: LON:0LEF
+    currency: GBP
+  - yahoo: TEY.F
+    google: FRA:TEY
+    currency: EUR
   isins: []
   metadata:
     founded: 1960
