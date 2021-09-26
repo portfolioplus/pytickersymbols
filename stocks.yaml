@@ -1557,6 +1557,9 @@ companies:
   - yahoo: LNXSF
     google: OTCMKTS:LNXSF
     currency: USD
+  - yahoo: LX9B.F
+    google: FRA:LX9B
+    currency: EUR
   metadata:
     founded: 2004
     employees: 14300
@@ -12540,6 +12543,9 @@ companies:
   - yahoo: BAX
     google: NYSE:BAX
     currency: USD
+  - yahoo: 0QK8.L
+    google: LON:0QK8
+    currency: GBP
   metadata:
     founded: 1931
     employees: 48000
@@ -13405,6 +13411,9 @@ companies:
   - yahoo: ED
     google: NYSE:ED
     currency: USD
+  - yahoo: 0I35.L
+    google: LON:0I35
+    currency: GBP
   metadata:
     founded: 1823
     employees: 15591
@@ -15344,6 +15353,9 @@ companies:
   - yahoo: IP
     google: NYSE:IP
     currency: USD
+  - yahoo: 0JCB.L
+    google: LON:0JCB
+    currency: GBP
   metadata:
     founded: 1898
     employees: 49300
@@ -17718,6 +17730,9 @@ companies:
   - yahoo: SWK
     google: NYSE:SWK
     currency: USD
+  - yahoo: 0L9E.L
+    google: LON:0L9E
+    currency: GBP
   metadata:
     founded: 1843
     employees: 60767
@@ -18614,6 +18629,9 @@ companies:
   - yahoo: WY
     google: NYSE:WY
     currency: USD
+  - yahoo: 0LWG.L
+    google: LON:0LWG
+    currency: GBP
   metadata:
     founded: 1900
     employees: 9372
@@ -20001,6 +20019,9 @@ companies:
   - yahoo: GCTAY
     google: OTCMKTS:GCTAY
     currency: USD
+  - yahoo: GTQB.F
+    google: FRA:GTQB
+    currency: EUR
   metadata:
     founded: 1976
     employees: 24500
@@ -23833,6 +23854,9 @@ companies:
   - yahoo: TMVWY
     google: OTCMKTS:TMVWY
     currency: USD
+  - yahoo: DE000A2YN900.F
+    google: FRA:DE000A2YN900
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
