@@ -820,7 +820,6 @@ companies:
   - CAC 40
   - DAX
   - EURO STOXX 50
-  - MDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -963,7 +962,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   industries:
   - Chemicals
   symbols:
@@ -1769,7 +1767,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   industries:
   - Footwear
   - Textiles & Apparel
@@ -1795,7 +1792,6 @@ companies:
   country: Netherlands
   indices:
   - DAX
-  - MDAX
   - TECDAX
   industries:
   - Biotechnology & Medical Research
@@ -1914,7 +1910,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   - TECDAX
   industries:
   - Medication
@@ -1994,7 +1989,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   - TECDAX
   industries:
   - Healthcare
@@ -2072,7 +2066,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -2199,7 +2192,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -2819,7 +2811,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -3296,6 +3287,9 @@ companies:
     currency: EUR
   - yahoo: SFQ
     google: OTCMKTS:SFQ
+    currency: USD
+  - yahoo: SFHLF
+    google: OTCMKTS:SFHLF
     currency: USD
   metadata:
     founded: 2005
@@ -6370,7 +6364,8 @@ companies:
 - name: Wm Morrison Supermarkets PLC
   symbol: MRW
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -10955,7 +10950,8 @@ companies:
   metadata:
     founded: 1876
     employees: 33625
-  isins: []
+  isins:
+  - US5324571083
 - name: Emerson Electric Co.
   symbol: EMR
   country: United States
@@ -16300,8 +16296,7 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -16407,8 +16402,7 @@ companies:
 - name: National Oilwell Varco Inc.
   symbol: NOV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -16857,8 +16851,7 @@ companies:
 - name: Perrigo Company PLC
   symbol: PRGO
   country: Ireland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -18255,8 +18248,7 @@ companies:
 - name: Unum Group
   symbol: UNM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -21469,8 +21461,7 @@ companies:
 - name: Swatch Group AG
   symbol: UHR
   country: Switzerland
-  indices:
-  - Switzerland 20
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -22639,7 +22630,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - FTSE 100
   industries:
   - Online food ordering
   symbols:
@@ -23260,7 +23250,8 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries: []
   symbols: []
   isins: []
@@ -26046,6 +26037,7 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
+  - S&P 500
   industries:
   - Online dating service
   symbols:
@@ -26396,7 +26388,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - MDAX
   industries:
   - Holding company
   symbols:
@@ -26629,8 +26620,7 @@ companies:
   wiki_name: The Weir Group PLC
   symbol: WEIR
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Engineering
   symbols:
@@ -26946,7 +26936,11 @@ companies:
   - yahoo: NGRRF
     google: OTCMKTS:NGRRF
     currency: USD
-  isins: []
+  - yahoo: 0AA3.L
+    google: LON:0AA3
+    currency: GBP
+  isins:
+  - DE000A3H2200
   metadata:
     founded: 0
     employees: 0
@@ -27269,3 +27263,73 @@ companies:
   metadata:
     founded: 1976
     employees: 2300
+- name: Meggitt plc
+  wiki_name: Meggitt plc
+  symbol: MGGT
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Defence
+  symbols:
+  - yahoo: MGI.F
+    google: FRA:MGI
+    currency: EUR
+  - yahoo: MEGGY
+    google: OTCMKTS:MEGGY
+    currency: USD
+  - yahoo: MGGT.L
+    google: LON:MGGT
+    currency: GBP
+  isins:
+  - GB0005758098
+  metadata:
+    founded: 1947
+    employees: 10200
+- name: Brown & Brown, Inc.
+  wiki_name: Brown & Brown, Inc.
+  symbol: BRO
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: BRO
+    google: NYSE:BRO
+    currency: USD
+  isins:
+  - US1152361010
+  metadata:
+    founded: 1939
+    employees: 11136
+- name: Ceridian HCM Holding Inc.
+  wiki_name: Ceridian HCM Holding Inc.
+  symbol: CDAY
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: CDAY
+    google: NYSE:CDAY
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1992
+    employees: 5974
+- name: Ingersoll Rand Inc.
+  wiki_name: Ingersoll Rand Inc.
+  symbol: IR
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: IR
+    google: NYSE:IR
+    currency: USD
+  isins:
+  - US45687V1061
+  metadata:
+    founded: 1859
+    employees: 15900
