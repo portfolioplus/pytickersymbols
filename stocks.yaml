@@ -1196,6 +1196,9 @@ companies:
   - yahoo: EVTCY
     google: OTCMKTS:EVTCY
     currency: USD
+  - yahoo: EVTA.F
+    google: FRA:EVTA
+    currency: EUR
   metadata:
     founded: 1993
     employees: 3030
@@ -1641,6 +1644,9 @@ companies:
   - yahoo: MPSYF
     google: OTCMKTS:MPSYF
     currency: USD
+  - yahoo: MOR2.F
+    google: FRA:MOR2
+    currency: EUR
   metadata:
     founded: 1992
     employees: 426
@@ -12549,26 +12555,8 @@ companies:
   metadata:
     founded: 1931
     employees: 48000
-  isins: []
-- name: BB&T Corporation
-  symbol: BBT
-  country: United States
-  indices: []
-  industries:
-  - Banking & Investment Services
-  - Banking Services
-  - Financials
-  - Banks
-  symbols:
-  - yahoo: BBK.F
-    google: FRA:BBK
-    currency: EUR
-  - yahoo: BBT
-    google: NYSE:BBT
-    currency: USD
-  metadata:
-    founded: 1872
-    employees: 37000
+  isins:
+  - US0718131099
 - name: Becton, Dickinson and Company
   symbol: BDX
   country: United States
@@ -14369,6 +14357,9 @@ companies:
   - yahoo: FE
     google: NYSE:FE
     currency: USD
+  - yahoo: 0IPB.L
+    google: LON:0IPB
+    currency: GBP
   metadata:
     founded: 1997
     employees: 12153
@@ -14728,6 +14719,9 @@ companies:
   - yahoo: GPC
     google: NYSE:GPC
     currency: USD
+  - yahoo: 0IUX.L
+    google: LON:0IUX
+    currency: GBP
   metadata:
     founded: 1925
     employees: 48001
@@ -15066,6 +15060,9 @@ companies:
   - yahoo: HOLX
     google: NASDAQ:HOLX
     currency: USD
+  - yahoo: 0J5Q.L
+    google: LON:0J5Q
+    currency: GBP
   metadata:
     founded: 1985
     employees: 6478
@@ -15271,29 +15268,8 @@ companies:
   metadata:
     founded: 1912
     employees: 45000
-  isins: []
-- name: Ingersoll-Rand PLC
-  symbol: IR
-  country: Ireland
-  indices:
-  - S&P 500
-  industries:
-  - Industrial Goods
-  - Industrials
-  - Machinery, Equipment & Components
-  - Industrial Machinery & Equipment
-  symbols:
-  - yahoo: 2IS.F
-    google: FRA:2IS
-    currency: EUR
-  - yahoo: IR
-    google: NYSE:IR
-    currency: USD
-  metadata:
-    founded: 1859
-    employees: 6700
   isins:
-  - US45687V1061
+  - US4523081093
 - name: Intercontinental Exchange Inc.
   symbol: ICE
   country: United States
@@ -15636,6 +15612,9 @@ companies:
   - yahoo: KSU
     google: NYSE:KSU
     currency: USD
+  - yahoo: 0JQ4.L
+    google: LON:0JQ4
+    currency: GBP
   metadata:
     founded: 1887
     employees: 6655
@@ -16224,6 +16203,9 @@ companies:
   - yahoo: MCK
     google: NYSE:MCK
     currency: USD
+  - yahoo: 0JZU.L
+    google: LON:0JZU
+    currency: GBP
   metadata:
     founded: 1833
     employees: 80000
@@ -17413,6 +17395,9 @@ companies:
   - yahoo: RHI
     google: NYSE:RHI
     currency: USD
+  - yahoo: 0KX9.L
+    google: LON:0KX9
+    currency: GBP
   metadata:
     founded: 1948
     employees: 13000
@@ -20795,6 +20780,9 @@ companies:
   - yahoo: GNGBY
     google: OTCMKTS:GNGBY
     currency: USD
+  - yahoo: GNGBF
+    google: OTCMKTS:GNGBF
+    currency: USD
   metadata:
     founded: 1904
     employees: 10680
@@ -23617,6 +23605,10 @@ companies:
   - S&P 500
   industries:
   - Financial services
+  - Banking & Investment Services
+  - Banking Services
+  - Financials
+  - Banks
   symbols:
   - yahoo: TFC
     google: NYSE:TFC
@@ -23624,7 +23616,8 @@ companies:
   - yahoo: BBK.F
     google: FRA:BBK
     currency: EUR
-  isins: []
+  isins:
+  - US89832Q1094
   metadata:
     founded: 1872
     employees: 54982
@@ -24721,6 +24714,12 @@ companies:
   symbols:
   - yahoo: SLOIF
     google: OTCMKTS:SLOIF
+    currency: USD
+  - yahoo: SOH1.F
+    google: FRA:SOH1
+    currency: EUR
+  - yahoo: SLOIY
+    google: OTCMKTS:SLOIY
     currency: USD
   isins:
   - FR0013227113
@@ -26319,6 +26318,9 @@ companies:
   - yahoo: GNRC
     google: NYSE:GNRC
     currency: USD
+  - yahoo: G84.F
+    google: FRA:G84
+    currency: EUR
   isins: []
   metadata:
     founded: 1959
@@ -26738,6 +26740,9 @@ companies:
   - yahoo: RCF0.F
     google: FRA:RCF0
     currency: EUR
+  - yahoo: TLPFF
+    google: OTCMKTS:TLPFF
+    currency: USD
   isins:
   - FR0000051807
   metadata:
