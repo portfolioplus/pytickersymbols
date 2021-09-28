@@ -540,6 +540,9 @@ companies:
   - yahoo: IFNNY
     google: OTCMKTS:IFNNY
     currency: USD
+  - yahoo: IFXA.F
+    google: FRA:IFXA
+    currency: EUR
   metadata:
     founded: 1999
     employees: 46665
@@ -2055,6 +2058,9 @@ companies:
     currency: EUR
   - yahoo: STWRY
     google: OTCMKTS:STWRY
+    currency: USD
+  - yahoo: SWDAF
+    google: OTCMKTS:SWDAF
     currency: USD
   metadata:
     founded: 1969
@@ -5578,6 +5584,9 @@ companies:
     currency: USD
   - yahoo: RDSA.AS
     google: AMS:RDSA
+    currency: EUR
+  - yahoo: R6C3.F
+    google: FRA:R6C3
     currency: EUR
   metadata:
     founded: 1907
@@ -24409,6 +24418,9 @@ companies:
     currency: EUR
   - yahoo: ILIAY
     google: OTCMKTS:ILIAY
+    currency: USD
+  - yahoo: ILIAF
+    google: OTCMKTS:ILIAF
     currency: USD
   isins:
   - FR0004035913
