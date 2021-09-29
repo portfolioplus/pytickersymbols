@@ -9344,6 +9344,9 @@ companies:
   - yahoo: EXPE
     google: NASDAQ:EXPE
     currency: USD
+  - yahoo: 0R1T.L
+    google: LON:0R1T
+    currency: GBP
   metadata:
     founded: 1996
     employees: 24500
@@ -13687,6 +13690,9 @@ companies:
   - yahoo: DVN
     google: NYSE:DVN
     currency: USD
+  - yahoo: 0I8W.L
+    google: LON:0I8W
+    currency: GBP
   metadata:
     founded: 1971
     employees: 1400
@@ -15709,6 +15715,9 @@ companies:
   - yahoo: KEYS
     google: NYSE:KEYS
     currency: USD
+  - yahoo: 0A7N.L
+    google: LON:0A7N
+    currency: GBP
   metadata:
     founded: 2014
     employees: 14000
@@ -19578,6 +19587,9 @@ companies:
   - yahoo: BKT.MC
     google: BME:BKT
     currency: EUR
+  - yahoo: BKIMF
+    google: OTCMKTS:BKIMF
+    currency: USD
   metadata:
     founded: 1965
     employees: 6078
@@ -23702,6 +23714,9 @@ companies:
   - yahoo: VTRS
     google: NASDAQ:VTRS
     currency: USD
+  - yahoo: VIA.F
+    google: FRA:VIA
+    currency: EUR
   isins:
   - US92556V1061
   metadata:
@@ -23719,6 +23734,12 @@ companies:
   - yahoo: WRB
     google: NYSE:WRB
     currency: USD
+  - yahoo: 0HMZ.L
+    google: LON:0HMZ
+    currency: GBP
+  - yahoo: WR1.F
+    google: FRA:WR1
+    currency: EUR
   isins: []
   metadata:
     founded: 1967
@@ -26710,6 +26731,9 @@ companies:
     currency: EUR
   - yahoo: ALSMY
     google: OTCMKTS:ALSMY
+    currency: USD
+  - yahoo: AOMFF
+    google: OTCMKTS:AOMFF
     currency: USD
   isins:
   - FR0010220475
