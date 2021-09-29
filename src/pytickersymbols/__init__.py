@@ -10,7 +10,7 @@ import json
 import yaml
 from weakref import WeakValueDictionary
 
-__version__ = "1.7.25"
+__version__ = "1.7.26"
 
 
 class Singleton(type):

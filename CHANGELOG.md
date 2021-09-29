@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.7.26 (2021-09-29)
+### Fix
+* Added DOW Jones Components ([`13212aa`](https://github.com/portfolioplus/pytickersymbols/commit/13212aae613c7a1374d3fffa9dea1abec0cbab22))
+
 ## v1.7.25 (2021-09-28)
 ### Fix
 * Added symbols to stocks ([`22f70ea`](https://github.com/portfolioplus/pytickersymbols/commit/22f70eaf9b9b4bdc2cf7e54e2ea3824f539f1e4e))
