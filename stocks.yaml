@@ -7895,6 +7895,7 @@ companies:
   symbol: MMM
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -7915,6 +7916,7 @@ companies:
   symbol: AXP
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -7940,6 +7942,7 @@ companies:
   symbol: AAPL
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -7964,6 +7967,7 @@ companies:
   symbol: BA
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -7988,6 +7992,7 @@ companies:
   symbol: CAT
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8010,6 +8015,7 @@ companies:
   symbol: CVX
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8032,6 +8038,7 @@ companies:
   symbol: CSCO
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8054,6 +8061,7 @@ companies:
   symbol: KO
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8121,6 +8129,7 @@ companies:
   symbol: GS
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8147,6 +8156,7 @@ companies:
   symbol: HD
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8169,6 +8179,7 @@ companies:
   symbol: IBM
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8194,6 +8205,7 @@ companies:
   symbol: INTC
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8217,6 +8229,7 @@ companies:
   symbol: JNJ
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8239,6 +8252,7 @@ companies:
   symbol: JPM
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8262,6 +8276,7 @@ companies:
   symbol: MCD
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8281,10 +8296,35 @@ companies:
     employees: 210000
   isins:
   - US5801351017
+- name: Nike, Inc.
+  wiki_name: Nike, Inc.
+  symbol: NKE
+  country: United States
+  indices:
+  - DOW JONES
+  - S&P 100
+  - S&P 500
+  industries:
+  - Apparel
+  - Accessories
+  - Sports equipment
+  symbols:
+  - yahoo: NKE.F
+    google: FRA:NKE
+    currency: EUR
+  - yahoo: NKE
+    google: NYSE:NKE
+    currency: USD
+  metadata:
+    founded: 1964
+    employees: 73300
+  isins:
+  - US6541061031
 - name: Merck & Co. Inc.
   symbol: MRK
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8306,6 +8346,7 @@ companies:
   symbol: MSFT
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8325,29 +8366,6 @@ companies:
     employees: 166475
   isins:
   - US5949181045
-- name: NIKE Inc.
-  symbol: NKE
-  country: United States
-  indices:
-  - S&P 100
-  - S&P 500
-  industries:
-  - Cyclical Consumer Products
-  - Footwear
-  - Textiles & Apparel
-  - Consumer Cyclicals
-  symbols:
-  - yahoo: NKE.F
-    google: FRA:NKE
-    currency: EUR
-  - yahoo: NKE
-    google: NYSE:NKE
-    currency: USD
-  metadata:
-    founded: 1964
-    employees: 75400
-  isins:
-  - US6541061031
 - name: Pfizer Inc.
   symbol: PFE
   country: United States
@@ -8373,6 +8391,7 @@ companies:
   symbol: PG
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8394,6 +8413,7 @@ companies:
   symbol: TRV
   country: United States
   indices:
+  - DOW JONES
   - S&P 500
   industries:
   - Insurance
@@ -8435,6 +8455,7 @@ companies:
   symbol: UNH
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8457,6 +8478,7 @@ companies:
   symbol: VZ
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8478,6 +8500,7 @@ companies:
   symbol: V
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8499,6 +8522,7 @@ companies:
   symbol: WMT
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8521,6 +8545,7 @@ companies:
   symbol: WBA
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8548,6 +8573,7 @@ companies:
   indices:
   - S&P 100
   - S&P 500
+  - DOW JONES
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -8732,6 +8758,7 @@ companies:
   symbol: AMGN
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -11116,6 +11143,7 @@ companies:
   symbol: HON
   country: United States
   indices:
+  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -16384,10 +16412,10 @@ companies:
     employees: 3300
   isins: []
 - name: Nasdaq Inc.
+  wiki_name: Nasdaq
   symbol: NDAQ
   country: United States
   indices:
-  - DOW JONES
   - S&P 500
   industries:
   - Banking & Investment Services
@@ -17514,6 +17542,7 @@ companies:
   symbol: CRM
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -22954,6 +22983,7 @@ companies:
   symbol: DOW
   country: United States
   indices:
+  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -26422,24 +26452,12 @@ companies:
   symbol: MMM
   country: United States
   indices:
-  - DOW JONES
+  - S&P 500
   industries: []
   symbols: []
   isins: []
   metadata:
     founded: 1792
-    employees: ''
-- name: Nasdaq
-  wiki_name: Nasdaq
-  symbol: AMGN
-  country: United States
-  indices:
-  - DOW JONES
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 1971
     employees: ''
 - name: Almirall, S.A.
   wiki_name: Almirall, S.A.

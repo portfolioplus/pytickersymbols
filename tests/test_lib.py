@@ -195,7 +195,7 @@ class TestLib(unittest.TestCase):
         self.assertEqual(len(stocks), 0)
         stocks = list(stock_data.get_stocks_by_index(22))
         self.assertEqual(len(stocks), 0)
-        for ind, ctx in [('DAX', 40), ('CAC 40', 40)]:
+        for ind, ctx in [('DAX', 40), ('CAC 40', 40), ('DOW JONES', 30)]:
             stocks = list(stock_data.get_stocks_by_index(ind))
             self.assertIsNotNone(stocks)
             self.assertEqual(len(stocks), ctx)
