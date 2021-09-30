@@ -2062,6 +2062,9 @@ companies:
   - yahoo: SWDAF
     google: OTCMKTS:SWDAF
     currency: USD
+  - yahoo: 0NAU.L
+    google: LON:0NAU
+    currency: GBP
   metadata:
     founded: 1969
     employees: 4948
@@ -5547,6 +5550,9 @@ companies:
   - yahoo: PUK
     google: NYSE:PUK
     currency: USD
+  - yahoo: PRU2.F
+    google: FRA:PRU2
+    currency: EUR
   metadata:
     founded: 1848
     employees: 23000
@@ -15501,6 +15507,9 @@ companies:
   - yahoo: JBHT
     google: NASDAQ:JBHT
     currency: USD
+  - yahoo: 0J71.L
+    google: LON:0J71
+    currency: GBP
   metadata:
     founded: 1961
     employees: 29056
@@ -23756,6 +23765,9 @@ companies:
   - yahoo: WST
     google: NYSE:WST
     currency: USD
+  - yahoo: WPS.F
+    google: FRA:WPS
+    currency: EUR
   isins: []
   metadata:
     founded: 1923
@@ -23794,6 +23806,9 @@ companies:
   - yahoo: ZBRA
     google: NASDAQ:ZBRA
     currency: USD
+  - yahoo: ZT1A.F
+    google: FRA:ZT1A
+    currency: EUR
   isins: []
   metadata:
     founded: 1969
