@@ -11038,7 +11038,7 @@ companies:
     google: FRA:PEO
     currency: EUR
   - yahoo: EXC
-    google: NYSE:EXC
+    google: NASDAQ:EXC
     currency: USD
   - yahoo: 0IJN.L
     google: LON:0IJN
@@ -11164,7 +11164,7 @@ companies:
     google: FRA:ALD
     currency: EUR
   - yahoo: HON
-    google: NYSE:HON
+    google: NASDAQ:HON
     currency: USD
   - yahoo: HON.L
     google: LON:HON
@@ -11421,9 +11421,6 @@ companies:
   - yahoo: RTN1.F
     google: FRA:RTN1
     currency: EUR
-  - yahoo: RTN
-    google: NYSE:RTN
-    currency: USD
   - yahoo: 0R2N.L
     google: LON:0R2N
     currency: GBP
@@ -11986,7 +11983,7 @@ companies:
     google: FRA:AEP
     currency: EUR
   - yahoo: AEP
-    google: NYSE:AEP
+    google: NASDAQ:AEP
     currency: USD
   - yahoo: 0HEC.L
     google: LON:0HEC
@@ -12268,7 +12265,7 @@ companies:
     google: FRA:APA
     currency: EUR
   - yahoo: APA
-    google: NYSE:APA
+    google: NASDAQ:APA
     currency: USD
   - yahoo: 0HGC.L
     google: LON:0HGC
@@ -12535,9 +12532,6 @@ companies:
   symbols:
   - yahoo: BKR
     google: NYSE:BKR
-    currency: USD
-  - yahoo: BHGE
-    google: NYSE:BHGE
     currency: USD
   - yahoo: 68V.F
     google: FRA:68V
@@ -15148,7 +15142,7 @@ companies:
     google: FRA:HMT
     currency: EUR
   - yahoo: HST
-    google: NYSE:HST
+    google: NASDAQ:HST
     currency: USD
   metadata:
     founded: 1993
@@ -15550,9 +15544,6 @@ companies:
   - yahoo: JEG.F
     google: FRA:JEG
     currency: EUR
-  - yahoo: JEC
-    google: NYSE:JEC
-    currency: USD
   - yahoo: J
     google: NYSE:J
     currency: USD
