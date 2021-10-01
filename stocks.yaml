@@ -6052,6 +6052,9 @@ companies:
   - yahoo: SKG.L
     google: LON:SKG
     currency: GBP
+  - yahoo: SK30.F
+    google: FRA:SK30
+    currency: EUR
   metadata:
     founded: 1934
     employees: 46000
@@ -13191,6 +13194,9 @@ companies:
   - yahoo: CI
     google: NYSE:CI
     currency: USD
+  - yahoo: 0A77.L
+    google: LON:0A77
+    currency: GBP
   metadata:
     founded: 1982
     employees: 73700
@@ -16335,6 +16341,9 @@ companies:
   - yahoo: MHK
     google: NYSE:MHK
     currency: USD
+  - yahoo: 0K2F.L
+    google: LON:0K2F
+    currency: GBP
   metadata:
     founded: 1878
     employees: 42100
@@ -17239,6 +17248,9 @@ companies:
   - yahoo: PWR
     google: NYSE:PWR
     currency: USD
+  - yahoo: 0KSR.L
+    google: LON:0KSR
+    currency: GBP
   metadata:
     founded: 1997
     employees: 40000
@@ -18288,6 +18300,9 @@ companies:
   - yahoo: UHS
     google: NYSE:UHS
     currency: USD
+  - yahoo: 0LJL.L
+    google: LON:0LJL
+    currency: GBP
   metadata:
     founded: 1979
     employees: 90000
@@ -18611,6 +18626,9 @@ companies:
   - yahoo: WU
     google: NYSE:WU
     currency: USD
+  - yahoo: 0LVJ.L
+    google: LON:0LVJ
+    currency: GBP
   metadata:
     founded: 1851
     employees: 12000
@@ -26344,6 +26362,9 @@ companies:
   - yahoo: CRL
     google: NYSE:CRL
     currency: USD
+  - yahoo: RV6.F
+    google: FRA:RV6
+    currency: EUR
   isins: []
   metadata:
     founded: 1947
@@ -26414,6 +26435,9 @@ companies:
   - yahoo: PENN
     google: NASDAQ:PENN
     currency: USD
+  - yahoo: PN1.F
+    google: FRA:PN1
+    currency: EUR
   isins: []
   metadata:
     founded: ''
@@ -27373,6 +27397,9 @@ companies:
   - yahoo: CDAY
     google: NYSE:CDAY
     currency: USD
+  - yahoo: CQL.F
+    google: FRA:CQL
+    currency: EUR
   isins: []
   metadata:
     founded: 1992
