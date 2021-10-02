@@ -1251,6 +1251,9 @@ companies:
   - yahoo: FPRUF
     google: OTCMKTS:FPRUF
     currency: USD
+  - yahoo: FPRUY
+    google: OTCMKTS:FPRUY
+    currency: USD
   metadata:
     founded: 1947
     employees: 21164
@@ -7775,6 +7778,9 @@ companies:
   - yahoo: UBLB.F
     google: FRA:UBLB
     currency: EUR
+  - yahoo: UNIRF
+    google: OTCMKTS:UNIRF
+    currency: USD
   metadata:
     founded: 2007
     employees: 3700
@@ -25356,6 +25362,9 @@ companies:
   - yahoo: SAN
     google: NYSE:SAN
     currency: USD
+  - yahoo: BNC.L
+    google: LON:BNC
+    currency: GBP
   isins:
   - ES0113900J37
   metadata:
@@ -25419,6 +25428,9 @@ companies:
     currency: USD
   - yahoo: ENI.F
     google: FRA:ENI
+    currency: EUR
+  - yahoo: ENI1.F
+    google: FRA:ENI1
     currency: EUR
   isins:
   - IT0003132476
@@ -25718,6 +25730,9 @@ companies:
   - yahoo: H24.F
     google: FRA:H24
     currency: EUR
+  - yahoo: HMAGF
+    google: OTCMKTS:HMAGF
+    currency: USD
   isins:
   - DE000A14KEB5
   metadata:
