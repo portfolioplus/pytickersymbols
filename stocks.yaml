@@ -911,6 +911,9 @@ companies:
   - yahoo: AIAGF
     google: OTCMKTS:AIAGF
     currency: USD
+  - yahoo: AIAGY
+    google: OTCMKTS:AIAGY
+    currency: USD
   metadata:
     founded: 1866
     employees: 7236
