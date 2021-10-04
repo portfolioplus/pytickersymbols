@@ -1281,6 +1281,9 @@ companies:
   - yahoo: FRTAY
     google: OTCMKTS:FRTAY
     currency: USD
+  - yahoo: FNA.F
+    google: FRA:FNA
+    currency: EUR
   metadata:
     founded: 2007
     employees: 4238
@@ -9075,6 +9078,9 @@ companies:
   - yahoo: CTXS
     google: NASDAQ:CTXS
     currency: USD
+  - yahoo: 0HYR.L
+    google: LON:0HYR
+    currency: GBP
   metadata:
     founded: 1989
     employees: 8400
@@ -13899,6 +13905,9 @@ companies:
   - yahoo: DRE
     google: NYSE:DRE
     currency: USD
+  - yahoo: 0ID0.L
+    google: LON:0ID0
+    currency: GBP
   metadata:
     founded: 1972
     employees: ''
@@ -14130,6 +14139,9 @@ companies:
   - yahoo: EQIX
     google: NASDAQ:EQIX
     currency: USD
+  - yahoo: 0II4.L
+    google: LON:0II4
+    currency: GBP
   metadata:
     founded: 1998
     employees: 8700
@@ -14176,6 +14188,9 @@ companies:
   - yahoo: ESS
     google: NYSE:ESS
     currency: USD
+  - yahoo: 0IIR.L
+    google: LON:0IIR
+    currency: GBP
   metadata:
     founded: 1971
     employees: 1799
@@ -14278,6 +14293,9 @@ companies:
   - yahoo: EXR
     google: NYSE:EXR
     currency: USD
+  - yahoo: 0IJV.L
+    google: LON:0IJV
+    currency: GBP
   metadata:
     founded: 1977
     employees: 4048
@@ -14692,6 +14710,9 @@ companies:
   - yahoo: GPS
     google: NYSE:GPS
     currency: USD
+  - yahoo: 0ITS.L
+    google: LON:0ITS
+    currency: GBP
   metadata:
     founded: 1969
     employees: 135000
@@ -18215,6 +18236,9 @@ companies:
   - yahoo: UDR
     google: NYSE:UDR
     currency: USD
+  - yahoo: 0LHS.L
+    google: LON:0LHS
+    currency: GBP
   metadata:
     founded: 1972
     employees: 1271
@@ -19119,6 +19143,9 @@ companies:
   - yahoo: GLPGF
     google: OTCMKTS:GLPGF
     currency: USD
+  - yahoo: GXEA.F
+    google: FRA:GXEA
+    currency: EUR
   metadata:
     founded: 1999
     employees: 725
@@ -23620,6 +23647,9 @@ companies:
   - yahoo: 0LF0.L
     google: LON:0LF0
     currency: GBP
+  - yahoo: TXT.F
+    google: FRA:TXT
+    currency: EUR
   isins:
   - US8832031012
   metadata:
@@ -26401,6 +26431,12 @@ companies:
   - yahoo: ENPH
     google: NASDAQ:ENPH
     currency: USD
+  - yahoo: 0QYE.L
+    google: LON:0QYE
+    currency: GBP
+  - yahoo: E0P.F
+    google: FRA:E0P
+    currency: EUR
   isins:
   - US29355A1079
   metadata:
