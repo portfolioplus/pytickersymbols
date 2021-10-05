@@ -37,9 +37,9 @@ class Statics:
         NL_AEX = 'AEX'
 
     class Exchanges:
-        LONDON = 'LON:'
-        FRANKFURT = 'FRA:'
-        MOSCOW = 'MCX:'
+        LONDON = ('LON:')
+        FRANKFURT = ('FRA:')
+        MOSCOW = ('MCX:')
         NYC = ('NASDAQ:', 'NYSE:', 'OTCMKTS:')
 
 
