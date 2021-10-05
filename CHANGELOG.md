@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.0 (2021-10-05)
+### Feature
+* Ticker getter added for all indices and exchanges ([`3b3eb39`](https://github.com/portfolioplus/pytickersymbols/commit/3b3eb39340e8d81a277dfc6891cd93a387fdba77))
+
 ## v1.7.34 (2021-10-05)
 ### Fix
 * Added symbols to stocks ([`f1c18bd`](https://github.com/portfolioplus/pytickersymbols/commit/f1c18bd3da710f0a78f4c44f51668f0c9cccd441))
