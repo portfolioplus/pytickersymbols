@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.1 (2021-10-05)
+### Fix
+* Fixed symbol getter ([`50414c8`](https://github.com/portfolioplus/pytickersymbols/commit/50414c86ea198e24812963364a1534ed3b30faf6))
+
 ## v1.8.0 (2021-10-05)
 ### Feature
 * Ticker getter added for all indices and exchanges ([`3b3eb39`](https://github.com/portfolioplus/pytickersymbols/commit/3b3eb39340e8d81a277dfc6891cd93a387fdba77))
