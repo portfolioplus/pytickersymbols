@@ -9,12 +9,78 @@ import os
 import json
 import yaml
 from weakref import WeakValueDictionary
+import itertools
 
 __version__ = "1.7.34"
 
 
+class Statics:
+    class Indices:
+        DE_SDAX = 'SDAX'
+        RU_MOEX = 'MOEX'
+        GB_FTSE = 'FTSE 100'
+        FI_OMX_25 = 'OMX Helsinki 25'
+        EU_50 = 'EURO STOXX 50'
+        US_SP_100 = 'S&P 100'
+        ES_IBEX_35 = 'IBEX 35'
+        US_DOW = 'DOW JONES'
+        DE_DAX = 'DAX'
+        FR_CAC_60 = 'CAC Mid 60'
+        DE_TECDAX = 'TECDAX'
+        US_NASDAQ = 'NASDAQ 100'
+        CH_20 = 'Switzerland 20'
+        FR_CAC_40 = 'CAC 40'
+        US_SP_500 = 'S&P 500'
+        SE_OMX_30 = 'OMX Stockholm 30'
+        BE_20 = 'BEL 20'
+        DE_MDAX = 'MDAX'
+        NL_AEX = 'AEX'
+
+    class Exchanges:
+        LONDON = 'LON:'
+        FRANKFURT = 'FRA:'
+        MOSCOW = 'MCX:'
+        NYC = ('NASDAQ:', 'NYSE:', 'OTCMKTS:')
+
+
 class Singleton(type):
     _instances = WeakValueDictionary()
+
+    @staticmethod
+    def create_index(myvars):
+        return map(
+            lambda x: (
+                myvars[x],
+                myvars[x].lower().replace(' ', '_').replace('&', ''),
+            ),
+            filter(lambda x: not x.startswith('_'), myvars),
+        )
+
+    @staticmethod
+    def create_ex(myvars):
+        return map(
+            lambda x: (
+                myvars[x],
+                x.lower(),
+            ),
+            filter(lambda x: not x.startswith('_'), myvars),
+        )
+
+    def __new__(cls, clsname, superclasses, attributedict):
+
+        items = [
+            list(Singleton.create_index(vars(Statics.Indices))),
+            list(Singleton.create_ex(vars(Statics.Exchanges))),
+            ('google', 'yahoo'),
+        ]
+        items_pro = list(itertools.product(*items))
+        for item in items_pro:
+            key = f'get_{item[0][1]}_{item[1][1]}_{item[2]}_tickers'
+
+            def instance_method(self, a=item[0][0], b=item[1][0], c=item[2]):
+                return attributedict['_get_tickers_by_index'](self, a, b, c)
+            attributedict[key] = instance_method
+        return type.__new__(cls, clsname, superclasses, attributedict)
 
     def __call__(cls, *args, **kwargs):
         if cls not in cls._instances:
@@ -118,7 +184,7 @@ class PyTickerSymbols(metaclass=Singleton):
                 ),
                 self.get_all_stocks(),
             ),
-            None
+            None,
         )
 
     def get_all_industries(self):
@@ -147,6 +213,16 @@ class PyTickerSymbols(metaclass=Singleton):
         :return: list of stocks
         """
         return self.__get_items('indices', index)
+
+    def _get_tickers_by_index(self, index, exchanges, tickertype):
+        stocks = self.__get_items('indices', index)
+        result = []
+        for stock in stocks:
+            for symbol in stock['symbols']:
+                for exchange in exchanges:
+                    if symbol['google'].startswith(exchange):
+                        result.append(symbol[tickertype])
+        return result
 
     def get_yahoo_ticker_symbols_by_index(self, index):
         """
@@ -239,26 +315,3 @@ class PyTickerSymbols(metaclass=Singleton):
                     sub_list.append(symbol['yahoo'])
             ticker_list.append(sub_list)
         return ticker_list
-
-
-class Statics:
-    class Indices:
-        DE_SDAX = 'SDAX'
-        RU_MOEX = 'MOEX'
-        GB_FTSE = 'FTSE 100'
-        FI_OMX_25 = 'OMX Helsinki 25'
-        EU_50 = 'EURO STOXX 50'
-        US_SP_100 = 'S&P 100'
-        ES_IBEX_35 = 'IBEX 35'
-        US_DOW = 'DOW JONES'
-        DE_DAX = 'DAX'
-        FR_CAC_60 = 'CAC Mid 60'
-        DE_TECDAX = 'TECDAX'
-        US_NASDAQ = 'NASDAQ 100'
-        CH_20 = 'Switzerland 20'
-        FR_CAC_40 = 'CAC 40'
-        US_SP_500 = 'S&P 500'
-        SE_OMX_30 = 'OMX Stockholm 30'
-        BE_20 = 'BEL 20'
-        DE_MDAX = 'MDAX'
-        NL_AEX = 'AEX'
