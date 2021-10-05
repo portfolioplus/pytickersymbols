@@ -98,6 +98,32 @@ class TestLib(unittest.TestCase):
                 self.assertIn('name', stocks[0])
                 self.assertEqual('adidas AG', stocks[0].get('name', None))
 
+    def test_dynamic_methods(self):
+        """
+        Test dynamic ticker getter
+        :return:
+        """
+        stock_data = PyTickerSymbols()
+        dax_google = stock_data.get_dax_frankfurt_google_tickers()
+        dax_yahoo = stock_data.get_dax_frankfurt_yahoo_tickers()
+
+        self.assertTrue(all(map(lambda x: x.startswith('FRA:'), dax_google)))
+        self.assertTrue(len(dax_google) > 40)
+        self.assertTrue(all(map(lambda x: x.endswith('.F'), dax_yahoo)))
+        self.assertTrue(len(dax_yahoo) > 40)
+        myvars = dir(stock_data)
+        for method in filter(
+            lambda x: (
+                x.endswith('_google_tickers') or x.endswith('_yahoo_tickers')
+            )
+            and '_moscow' not in x,
+            myvars,
+        ):
+            result = getattr(stock_data, method)()
+            self.assertTrue(
+                len(result) > 5, f'{method} has only {len(result)} tickers'
+            )
+
     def test_index(self):
         """
         Test index getter
