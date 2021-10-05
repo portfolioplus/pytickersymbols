@@ -1945,6 +1945,9 @@ companies:
   - yahoo: 0NIQ.L
     google: LON:0NIQ
     currency: GBP
+  - yahoo: SOAGY
+    google: OTCMKTS:SOAGY
+    currency: USD
   metadata:
     founded: 1870
     employees: 10637
@@ -1991,6 +1994,9 @@ companies:
   - yahoo: G24.F
     google: FRA:G24
     currency: EUR
+  - yahoo: SCOTF
+    google: OTCMKTS:SCOTF
+    currency: USD
   metadata:
     founded: 1998
     employees: 788
@@ -9579,6 +9585,9 @@ companies:
   - yahoo: ISRG
     google: NASDAQ:ISRG
     currency: USD
+  - yahoo: 0R29.L
+    google: LON:0R29
+    currency: GBP
   metadata:
     founded: 1995
     employees: 5527
@@ -10743,6 +10752,9 @@ companies:
   - yahoo: BRK-B
     google: NYSE:BRK.B
     currency: USD
+  - yahoo: BRH.F
+    google: FRA:BRH
+    currency: EUR
   metadata:
     founded: 1839
     employees: 360000
@@ -12582,6 +12594,9 @@ companies:
   - yahoo: 0HL5.L
     google: LON:0HL5
     currency: GBP
+  - yahoo: BALY
+    google: NYSE:BALY
+    currency: USD
   metadata:
     founded: 1880
     employees: 18300
@@ -12995,6 +13010,9 @@ companies:
   - yahoo: CBRE
     google: NYSE:CBRE
     currency: USD
+  - yahoo: 0HQP.L
+    google: LON:0HQP
+    currency: GBP
   metadata:
     founded: 1906
     employees: 100000
@@ -26472,6 +26490,9 @@ companies:
   - yahoo: MPWR
     google: NASDAQ:MPWR
     currency: USD
+  - yahoo: NQG.F
+    google: FRA:NQG
+    currency: EUR
   isins: []
   metadata:
     founded: 1997
