@@ -1769,6 +1769,9 @@ companies:
   - yahoo: PBSFY
     google: OTCMKTS:PBSFY
     currency: USD
+  - yahoo: PSMA.F
+    google: FRA:PSMA
+    currency: EUR
   metadata:
     founded: 2000
     employees: 7253
@@ -5514,6 +5517,9 @@ companies:
   - yahoo: PSN.L
     google: LON:PSN
     currency: GBP
+  - yahoo: OHP0.F
+    google: FRA:OHP0
+    currency: EUR
   metadata:
     founded: 1972
     employees: 5221
@@ -7363,6 +7369,9 @@ companies:
   - yahoo: PPRUY
     google: OTCMKTS:PPRUY
     currency: USD
+  - yahoo: PPXB.F
+    google: FRA:PPXB
+    currency: EUR
   metadata:
     founded: 1963
     employees: 38000
@@ -15792,6 +15801,9 @@ companies:
   - yahoo: KMB
     google: NYSE:KMB
     currency: USD
+  - yahoo: 0JQZ.L
+    google: LON:0JQZ
+    currency: GBP
   metadata:
     founded: 1872
     employees: 40000
@@ -15923,6 +15935,9 @@ companies:
   - yahoo: LH
     google: NYSE:LH
     currency: USD
+  - yahoo: 0JSY.L
+    google: LON:0JSY
+    currency: GBP
   metadata:
     founded: 1978
     employees: 61000
@@ -18330,6 +18345,9 @@ companies:
   - yahoo: URI
     google: NYSE:URI
     currency: USD
+  - yahoo: 0LIY.L
+    google: LON:0LIY
+    currency: GBP
   metadata:
     founded: 1997
     employees: 18800
@@ -19787,6 +19805,9 @@ companies:
   - yahoo: ELEZY
     google: OTCMKTS:ELEZY
     currency: USD
+  - yahoo: ENAA.F
+    google: FRA:ENAA
+    currency: EUR
   metadata:
     founded: 1944
     employees: 9706
@@ -20460,6 +20481,9 @@ companies:
   - yahoo: HEINY
     google: OTCMKTS:HEINY
     currency: USD
+  - yahoo: HNK2.F
+    google: FRA:HNK2
+    currency: EUR
   metadata:
     founded: 1864
     employees: 76136
@@ -26530,6 +26554,9 @@ companies:
   - yahoo: PTC
     google: NASDAQ:PTC
     currency: USD
+  - yahoo: PMTA.F
+    google: FRA:PMTA
+    currency: EUR
   isins: []
   metadata:
     founded: 1985
@@ -27456,6 +27483,9 @@ companies:
   - yahoo: BRO
     google: NYSE:BRO
     currency: USD
+  - yahoo: BTW.F
+    google: FRA:BTW
+    currency: EUR
   isins:
   - US1152361010
   metadata:
