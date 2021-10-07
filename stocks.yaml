@@ -2104,6 +2104,9 @@ companies:
   - yahoo: SYIEY
     google: OTCMKTS:SYIEY
     currency: USD
+  - yahoo: SYIEF
+    google: OTCMKTS:SYIEF
+    currency: USD
   metadata:
     founded: 2003
     employees: 10531
@@ -4250,6 +4253,9 @@ companies:
   - yahoo: BLND.L
     google: LON:BLND
     currency: GBP
+  - yahoo: BLD.F
+    google: FRA:BLD
+    currency: EUR
   metadata:
     founded: 1856
     employees: 783
@@ -24260,6 +24266,9 @@ companies:
   - yahoo: GSEFF
     google: OTCMKTS:GSEFF
     currency: USD
+  - yahoo: F5D.F
+    google: FRA:F5D
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
