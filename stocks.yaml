@@ -18993,6 +18993,9 @@ companies:
   - yahoo: BUDFF
     google: OTCMKTS:BUDFF
     currency: USD
+  - yahoo: ITKA.F
+    google: FRA:ITKA
+    currency: EUR
   metadata:
     founded: 2008
     employees: 170000
@@ -21549,6 +21552,9 @@ companies:
     currency: EUR
   - yahoo: 0TDF.L
     google: LON:0TDF
+    currency: GBP
+  - yahoo: 0QQ6.L
+    google: LON:0QQ6
     currency: GBP
   metadata:
     founded: 1896
@@ -26957,6 +26963,9 @@ companies:
   symbols:
   - yahoo: 7EL.F
     google: FRA:7EL
+    currency: EUR
+  - yahoo: EIA.F
+    google: FRA:EIA
     currency: EUR
   isins:
   - FR0012435121
