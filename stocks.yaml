@@ -10522,6 +10522,9 @@ companies:
   - yahoo: XLNX
     google: NASDAQ:XLNX
     currency: USD
+  - yahoo: 0M1U.L
+    google: LON:0M1U
+    currency: GBP
   metadata:
     founded: 1984
     employees: 4891
@@ -19100,6 +19103,9 @@ companies:
   - yahoo: ARGNF
     google: OTCMKTS:ARGNF
     currency: USD
+  - yahoo: 1AEA.F
+    google: FRA:1AEA
+    currency: EUR
   metadata:
     founded: 2008
     employees: 188
@@ -19873,6 +19879,9 @@ companies:
     currency: USD
   - yahoo: GIKLY
     google: OTCMKTS:GIKLY
+    currency: USD
+  - yahoo: GIFOF
+    google: OTCMKTS:GIFOF
     currency: USD
   metadata:
     founded: 1940
