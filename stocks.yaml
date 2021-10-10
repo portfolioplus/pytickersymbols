@@ -16094,6 +16094,9 @@ companies:
   - yahoo: L
     google: NYSE:L
     currency: USD
+  - yahoo: 0JVI.L
+    google: LON:0JVI
+    currency: GBP
   metadata:
     founded: ''
     employees: 18100
@@ -17627,6 +17630,9 @@ companies:
   - yahoo: SPGI
     google: NYSE:SPGI
     currency: USD
+  - yahoo: 0KYY.L
+    google: LON:0KYY
+    currency: GBP
   metadata:
     founded: 1917
     employees: 22500
@@ -26597,6 +26603,9 @@ companies:
   - yahoo: TRMB
     google: NASDAQ:TRMB
     currency: USD
+  - yahoo: TB5.F
+    google: FRA:TB5
+    currency: EUR
   isins: []
   metadata:
     founded: 1978
@@ -26650,6 +26659,9 @@ companies:
   - yahoo: E2Z.F
     google: FRA:E2Z
     currency: EUR
+  - yahoo: LBTSF
+    google: OTCMKTS:LBTSF
+    currency: USD
   isins:
   - ES0157097017
   metadata:
