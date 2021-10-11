@@ -1951,6 +1951,9 @@ companies:
   - yahoo: SOAGY
     google: OTCMKTS:SOAGY
     currency: USD
+  - yahoo: SSSGY
+    google: OTCMKTS:SSSGY
+    currency: USD
   metadata:
     founded: 1870
     employees: 10637
@@ -7211,6 +7214,9 @@ companies:
   - yahoo: CRRFY
     google: OTCMKTS:CRRFY
     currency: USD
+  - yahoo: CAR1.F
+    google: FRA:CAR1
+    currency: EUR
   metadata:
     founded: 1958
     employees: 321383
@@ -23973,6 +23979,12 @@ companies:
   - yahoo: SAEYY
     google: OTCMKTS:SAEYY
     currency: USD
+  - yahoo: SHPPF
+    google: OTCMKTS:SHPPF
+    currency: USD
+  - yahoo: SAE1.F
+    google: FRA:SAE1
+    currency: EUR
   isins:
   - NL0012044747
   metadata:
@@ -26984,9 +26996,6 @@ companies:
   symbols:
   - yahoo: 7EL.F
     google: FRA:7EL
-    currency: EUR
-  - yahoo: EIA.F
-    google: FRA:EIA
     currency: EUR
   isins:
   - FR0012435121
