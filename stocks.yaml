@@ -3167,6 +3167,9 @@ companies:
   - yahoo: NDX.F
     google: FRA:NDX
     currency: EUR
+  - yahoo: NRXXY
+    google: OTCMKTS:NRXXY
+    currency: USD
   metadata:
     founded: 1985
     employees: 8527
@@ -9909,6 +9912,9 @@ companies:
   - yahoo: NTAP
     google: NASDAQ:NTAP
     currency: USD
+  - yahoo: 0K6F.L
+    google: LON:0K6F
+    currency: GBP
   metadata:
     founded: 1992
     employees: 10500
@@ -11387,6 +11393,9 @@ companies:
   - yahoo: NEE
     google: NYSE:NEE
     currency: USD
+  - yahoo: 0K80.L
+    google: LON:0K80
+    currency: GBP
   metadata:
     founded: 1984
     employees: 14800
@@ -13926,6 +13935,9 @@ companies:
   - yahoo: DTE
     google: NYSE:DTE
     currency: USD
+  - yahoo: 0I6Q.L
+    google: LON:0I6Q
+    currency: GBP
   metadata:
     founded: ''
     employees: 10600
@@ -14659,6 +14671,9 @@ companies:
   - yahoo: FBHS
     google: NYSE:FBHS
     currency: USD
+  - yahoo: 0IRN.L
+    google: LON:0IRN
+    currency: GBP
   metadata:
     founded: 2011
     employees: 27500
@@ -15074,6 +15089,9 @@ companies:
   - yahoo: HSY
     google: NYSE:HSY
     currency: USD
+  - yahoo: 0J4X.L
+    google: LON:0J4X
+    currency: GBP
   metadata:
     founded: 1894
     employees: 16140
@@ -18806,6 +18824,9 @@ companies:
   - yahoo: WMB
     google: NYSE:WMB
     currency: USD
+  - yahoo: 0LXB.L
+    google: LON:0LXB
+    currency: GBP
   metadata:
     founded: 1908
     employees: 5425
@@ -27118,6 +27139,9 @@ companies:
   - yahoo: OGN
     google: NYSE:OGN
     currency: USD
+  - yahoo: 7XP.F
+    google: FRA:7XP
+    currency: EUR
   isins: []
   metadata:
     founded: 2020
