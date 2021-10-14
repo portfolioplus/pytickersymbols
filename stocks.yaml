@@ -6116,6 +6116,9 @@ companies:
   - yahoo: SPX.L
     google: LON:SPX
     currency: GBP
+  - yahoo: SPXSY
+    google: OTCMKTS:SPXSY
+    currency: USD
   metadata:
     founded: 1888
     employees: ''
@@ -6958,6 +6961,9 @@ companies:
     currency: EUR
   - yahoo: TLSNY
     google: OTCMKTS:TLSNY
+    currency: USD
+  - yahoo: TLSNF
+    google: OTCMKTS:TLSNF
     currency: USD
   isins:
   - SE0000667925
@@ -27039,6 +27045,12 @@ companies:
   - yahoo: 7EL.F
     google: FRA:7EL
     currency: EUR
+  - yahoo: 0P00015014.F
+    google: FRA:0P00015014
+    currency: EUR
+  - yahoo: ELMUF
+    google: OTCMKTS:ELMUF
+    currency: USD
   isins:
   - FR0012435121
   metadata:
