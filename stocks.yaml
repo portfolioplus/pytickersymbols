@@ -1024,6 +1024,9 @@ companies:
   - yahoo: EVD0.F
     google: FRA:EVD0
     currency: EUR
+  - yahoo: CEVMF
+    google: OTCMKTS:CEVMF
+    currency: USD
   metadata:
     founded: 1989
     employees: 3202
