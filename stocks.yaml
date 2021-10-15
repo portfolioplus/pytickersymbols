@@ -1024,6 +1024,9 @@ companies:
   - yahoo: EVD0.F
     google: FRA:EVD0
     currency: EUR
+  - yahoo: CEVMF
+    google: OTCMKTS:CEVMF
+    currency: USD
   metadata:
     founded: 1989
     employees: 3202
@@ -25079,21 +25082,6 @@ companies:
   metadata:
     founded: 1957
     employees: 20
-- name: Verallia Deutschland AG
-  wiki_name: Verallia Deutschland AG
-  symbol: OLG
-  country: Germany
-  indices: []
-  industries: []
-  symbols:
-  - yahoo: OLG.F
-    google: FRA:OLG
-    currency: EUR
-  isins:
-  - DE0006851603
-  metadata:
-    founded: 1946
-    employees: 3066
 - name: Virbac
   wiki_name: Virbac
   symbol: VRBCF
@@ -27045,12 +27033,6 @@ companies:
   - yahoo: 7EL.F
     google: FRA:7EL
     currency: EUR
-  - yahoo: 0P00015014.F
-    google: FRA:0P00015014
-    currency: EUR
-  - yahoo: ELMUF
-    google: OTCMKTS:ELMUF
-    currency: USD
   isins:
   - FR0012435121
   metadata:
@@ -27075,14 +27057,18 @@ companies:
   metadata:
     founded: 1989
     employees: 49185
-- name: Verallia&nbsp;Deutschland&nbsp;AG
-  wiki_name: Verallia&nbsp;Deutschland&nbsp;AG
+- name: Verallia Deutschland AG
+  wiki_name: Verallia Deutschland AG
   symbol: null
   country: Germany
   indices:
-  - CAC Mid 60
-  industries: []
-  symbols: []
+  - CDAX
+  industries:
+  - glass container
+  symbols:
+  - yahoo: OLG.F
+    google: FRA:OLG
+    currency: EUR
   isins:
   - DE0006851603
   metadata:

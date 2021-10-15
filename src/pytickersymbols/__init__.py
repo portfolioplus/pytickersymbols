@@ -25,6 +25,7 @@ class Statics:
         ES_IBEX_35 = 'IBEX 35'
         US_DOW = 'DOW JONES'
         DE_DAX = 'DAX'
+        DE_CDAX = 'CDAX'
         FR_CAC_60 = 'CAC Mid 60'
         DE_TECDAX = 'TECDAX'
         US_NASDAQ = 'NASDAQ 100'
