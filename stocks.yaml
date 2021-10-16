@@ -5343,6 +5343,9 @@ companies:
   - yahoo: MNDI.L
     google: LON:MNDI
     currency: GBP
+  - yahoo: MONDF
+    google: OTCMKTS:MONDF
+    currency: USD
   metadata:
     founded: 1967
     employees: 26000
@@ -5796,6 +5799,9 @@ companies:
   - yahoo: RYCEY
     google: OTCMKTS:RYCEY
     currency: USD
+  - yahoo: RRU1.F
+    google: FRA:RRU1
+    currency: EUR
   metadata:
     founded: 1904
     employees: 50000
@@ -7665,6 +7671,9 @@ companies:
   - yahoo: SNY
     google: NASDAQ:SNY
     currency: USD
+  - yahoo: SNW2.F
+    google: FRA:SNW2
+    currency: EUR
   metadata:
     founded: 1973
     employees: 100409
@@ -9599,6 +9608,9 @@ companies:
   - yahoo: INTU
     google: NASDAQ:INTU
     currency: USD
+  - yahoo: 0JCT.L
+    google: LON:0JCT
+    currency: GBP
   metadata:
     founded: 1983
     employees: 10600
@@ -14915,6 +14927,9 @@ companies:
   - yahoo: GWW
     google: NYSE:GWW
     currency: USD
+  - yahoo: 0IZI.L
+    google: LON:0IZI
+    currency: GBP
   metadata:
     founded: 1927
     employees: 23100
@@ -15255,6 +15270,9 @@ companies:
   - yahoo: HST
     google: NASDAQ:HST
     currency: USD
+  - yahoo: 0J66.L
+    google: LON:0J66
+    currency: GBP
   metadata:
     founded: 1993
     employees: 175
@@ -16973,6 +16991,9 @@ companies:
   - yahoo: PNR
     google: NYSE:PNR
     currency: USD
+  - yahoo: 0Y5X.L
+    google: LON:0Y5X
+    currency: GBP
   metadata:
     founded: 1966
     employees: 9500
@@ -25077,6 +25098,9 @@ companies:
   - yahoo: VACE.F
     google: FRA:VACE
     currency: EUR
+  - yahoo: VLOUF
+    google: OTCMKTS:VLOUF
+    currency: USD
   isins:
   - FR0000120354
   metadata:
@@ -27542,6 +27566,9 @@ companies:
   - yahoo: TECH
     google: NASDAQ:TECH
     currency: USD
+  - yahoo: TE1.F
+    google: FRA:TE1
+    currency: EUR
   isins: []
   metadata:
     founded: 1976
