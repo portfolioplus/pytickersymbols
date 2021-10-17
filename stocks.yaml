@@ -2486,6 +2486,9 @@ companies:
   - yahoo: CZMWY
     google: OTCMKTS:CZMWY
     currency: USD
+  - yahoo: AFXA.F
+    google: FRA:AFXA
+    currency: EUR
   metadata:
     founded: 2002
     employees: 3290
@@ -13263,6 +13266,9 @@ companies:
   - yahoo: CHD
     google: NYSE:CHD
     currency: USD
+  - yahoo: 0R13.L
+    google: LON:0R13
+    currency: GBP
   metadata:
     founded: 1847
     employees: 4700
@@ -15565,6 +15571,9 @@ companies:
   - yahoo: IPGP
     google: NASDAQ:IPGP
     currency: USD
+  - yahoo: 0J86.L
+    google: LON:0J86
+    currency: GBP
   metadata:
     founded: 1990
     employees: 4362
@@ -15895,6 +15904,9 @@ companies:
   - yahoo: KIM
     google: NYSE:KIM
     currency: USD
+  - yahoo: 0JR1.L
+    google: LON:0JR1
+    currency: GBP
   metadata:
     founded: 1958
     employees: ''
@@ -17953,6 +17965,9 @@ companies:
   - yahoo: SYK
     google: NYSE:SYK
     currency: USD
+  - yahoo: 0R2S.L
+    google: LON:0R2S
+    currency: GBP
   metadata:
     founded: 1941
     employees: 40000
@@ -27057,6 +27072,12 @@ companies:
   - yahoo: 7EL.F
     google: FRA:7EL
     currency: EUR
+  - yahoo: EIA.F
+    google: FRA:EIA
+    currency: EUR
+  - yahoo: ELMUF
+    google: OTCMKTS:ELMUF
+    currency: USD
   isins:
   - FR0012435121
   metadata:
