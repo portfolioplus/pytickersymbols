@@ -176,7 +176,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - EURO STOXX 50
   industries:
   - Automotive
   - Auto & Truck Manufacturers
@@ -605,7 +604,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - EURO STOXX 50
   industries:
   - Insurance
   - Financials
@@ -1133,7 +1131,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Telecommunications Services
   - Wireless Telecommunications Services
@@ -1407,8 +1404,7 @@ companies:
 - name: Hannover Rück SE
   symbol: HNR1
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -1454,6 +1450,7 @@ companies:
   country: Germany
   indices:
   - MDAX
+  - SDAX
   industries:
   - Industrials
   - Construction & Engineering
@@ -1648,6 +1645,7 @@ companies:
   country: Germany
   indices:
   - MDAX
+  - SDAX
   - TECDAX
   industries:
   - Biotechnology & Medical Research
@@ -2428,8 +2426,7 @@ companies:
 - name: Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien
   symbol: BVB
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -2728,6 +2725,7 @@ companies:
   country: Germany
   indices:
   - MDAX
+  - SDAX
   industries:
   - Electric Utilities & IPPs
   - Independent Power Producers
@@ -2797,8 +2795,7 @@ companies:
 - name: Hamburger Hafen und Logistik AG
   symbol: HHFA
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Marine Port Services
   - Industrials
@@ -2897,8 +2894,7 @@ companies:
 - name: Hypoport Finance AG
   symbol: HYQ
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -3001,8 +2997,7 @@ companies:
 - name: JUNGHEINRICH AG
   symbol: JUN3
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -3166,6 +3161,7 @@ companies:
   country: Germany
   indices:
   - MDAX
+  - SDAX
   - TECDAX
   industries:
   - Heavy Electrical Equipment
@@ -3596,8 +3592,7 @@ companies:
 - name: Vossloh AG
   symbol: VOS
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrials
   - Construction & Engineering
@@ -3725,8 +3720,7 @@ companies:
 - name: zooplus AG
   symbol: ZO1
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -4973,6 +4967,7 @@ companies:
   country: United Kingdom
   indices:
   - FTSE 100
+  - S&P 500
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -5587,6 +5582,7 @@ companies:
   country: United Kingdom
   indices:
   - FTSE 100
+  - S&P 500
   industries:
   - Insurance
   - Financials
@@ -6209,6 +6205,9 @@ companies:
   - yahoo: STAN.L
     google: LON:STAN
     currency: GBP
+  - yahoo: SCBFY
+    google: OTCMKTS:SCBFY
+    currency: USD
   metadata:
     founded: 1853
     employees: 85000
@@ -8147,7 +8146,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -8170,7 +8168,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -8265,7 +8262,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -8387,7 +8383,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Apparel
   - Accessories
@@ -8541,7 +8536,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Managed Health care
   - Healthcare
@@ -8796,7 +8790,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Diversified Retail
   - Retailers
@@ -9201,7 +9194,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Diversified Retail
   - Retailers
@@ -10012,7 +10004,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10034,7 +10025,6 @@ companies:
   country: Netherlands
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10761,7 +10751,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -10784,7 +10773,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -11055,7 +11043,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -11079,7 +11066,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -11177,7 +11163,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Auto & Truck Manufacturers
   - Automobiles & Auto Parts
@@ -11198,7 +11183,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries: []
   symbols:
   - yahoo: GEC.F
@@ -12075,7 +12059,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -12355,8 +12338,7 @@ companies:
 - name: Apache Corporation
   symbol: APA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -12423,8 +12405,7 @@ companies:
 - name: Archer-Daniels-Midland Company
   symbol: ADM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -12814,8 +12795,7 @@ companies:
 - name: Boston Scientific Corporation
   symbol: BSX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -12930,8 +12910,7 @@ companies:
 - name: Cabot Oil & Gas Corporation
   symbol: COG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -13857,8 +13836,7 @@ companies:
 - name: Discover Financials
   symbol: DFS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -13878,8 +13856,7 @@ companies:
 - name: Dollar General Corporation
   symbol: DG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Diversified Retail
   - Retailers
@@ -13987,8 +13964,7 @@ companies:
 - name: Duke Realty Corporation
   symbol: DRE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -14084,6 +14060,9 @@ companies:
   - yahoo: ETN
     google: NYSE:ETN
     currency: USD
+  - yahoo: 0Y3K.L
+    google: LON:0Y3K
+    currency: GBP
   metadata:
     founded: 1911
     employees: 92000
@@ -14221,8 +14200,7 @@ companies:
 - name: Equinix Inc. (REIT)
   symbol: EQIX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -14354,8 +14332,7 @@ companies:
 - name: Expeditors International of Washington Inc.
   symbol: EXPD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Air Freight & Courier Services
@@ -15078,8 +15055,7 @@ companies:
   wiki_name: Healthpeak Properties, Inc.
   symbol: PEAK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real estate investment trust
   - Specialized REITs
@@ -15395,7 +15371,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -15459,8 +15434,7 @@ companies:
 - name: Intercontinental Exchange Inc.
   symbol: ICE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -15637,8 +15611,7 @@ companies:
 - name: J.B. Hunt Transport Services Inc.
   symbol: JBHT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -15724,8 +15697,7 @@ companies:
 - name: The J. M. Smucker Company
   symbol: SJM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -15811,8 +15783,7 @@ companies:
 - name: Kellogg Company
   symbol: K
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -15832,7 +15803,8 @@ companies:
 - name: KeyCorp
   symbol: KEY
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -15848,6 +15820,7 @@ companies:
   metadata:
     founded: unknown
     employees: 17999
+  isins: []
 - name: Keysight Technologies Inc.
   symbol: KEYS
   country: United States
@@ -15928,7 +15901,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Semiconductor Equipment & Testing
   - Technology
@@ -16011,8 +15983,7 @@ companies:
 - name: Laboratory Corporation of America Holdings
   symbol: LH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -16462,8 +16433,7 @@ companies:
 - name: Mid-America Apartment Communities Inc.
   symbol: MAA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -16510,7 +16480,8 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Professional Information Services
   - Industrials
@@ -16681,8 +16652,7 @@ companies:
 - name: Newmont Goldcorp Corporation
   symbol: NEM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -17156,8 +17126,7 @@ companies:
 - name: The PNC Financials Group Inc.
   symbol: PNC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -17263,8 +17232,7 @@ companies:
 - name: Prudential Financial Inc.
   symbol: PRU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -17354,8 +17322,7 @@ companies:
 - name: PVH Corp.
   symbol: PVH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -17684,8 +17651,7 @@ companies:
 - name: Royal Caribbean Cruises Ltd.
   symbol: RCL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -17733,7 +17699,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -18422,8 +18387,7 @@ companies:
 - name: United Continental Holdings Inc.
   symbol: UAL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -18516,8 +18480,7 @@ companies:
 - name: V.F. Corporation
   symbol: VFC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -18936,8 +18899,7 @@ companies:
 - name: Wynn Resorts, Limited
   symbol: WYNN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Casinos & Gaming
@@ -19045,8 +19007,7 @@ companies:
 - name: Zions Bancorporation, National Association
   symbol: ZION
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -19225,8 +19186,7 @@ companies:
 - name: Barco N.V.
   symbol: BAR
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -19342,8 +19302,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - BEL 20
-  - EURO STOXX 50
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -20032,7 +19990,6 @@ companies:
   symbol: ITX
   country: Spain
   indices:
-  - EURO STOXX 50
   - IBEX 35
   industries:
   - Retailers
@@ -23012,7 +22969,8 @@ companies:
   wiki_name: SSE plc
   symbol: SSE
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries: []
   symbols:
   - yahoo: SSE.L
@@ -23243,8 +23201,7 @@ companies:
   wiki_name: Etsy, Inc.
   symbol: ETSY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: ETSY
@@ -23332,8 +23289,7 @@ companies:
   wiki_name: KeyBank
   symbol: KEY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Financial services
   symbols:
@@ -23529,8 +23485,7 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -23586,8 +23541,7 @@ companies:
   wiki_name: NVR, Inc.
   symbol: NVR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Home construction
   symbols:
@@ -23645,8 +23599,7 @@ companies:
   wiki_name: Paycom Software, Inc.
   symbol: PAYC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - HCM
   symbols:
@@ -23749,8 +23702,7 @@ companies:
   wiki_name: ServiceNow, Inc.
   symbol: NOW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Enterprise software
   symbols:
@@ -24070,6 +24022,7 @@ companies:
   country: Netherlands
   indices:
   - MDAX
+  - SDAX
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -25759,8 +25712,7 @@ companies:
   wiki_name: Abengoa S.A.
   symbol: AGOAF
   country: Spain
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: AGOAF
@@ -25848,8 +25800,7 @@ companies:
   wiki_name: ElringKlinger AG
   symbol: ZIL2
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Automotive
   symbols:
@@ -25989,8 +25940,7 @@ companies:
   wiki_name: Medios AG
   symbol: ILM1
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: ILM1.F
@@ -26053,6 +26003,9 @@ companies:
   - yahoo: 8TRA.F
     google: FRA:8TRA
     currency: EUR
+  - yahoo: TRATF
+    google: OTCMKTS:TRATF
+    currency: USD
   isins:
   - DE000TRAT0N7
   metadata:
@@ -26352,7 +26305,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Online dating service
   symbols:
@@ -26555,8 +26507,7 @@ companies:
   wiki_name: Caesars Entertainment, Inc.
   symbol: CZR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Gaming
   - hospitality
@@ -26745,8 +26696,7 @@ companies:
   wiki_name: New York Stock Exchange
   symbol: MMM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -26887,8 +26837,7 @@ companies:
   wiki_name: Süss Microtec SE
   symbol: null
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -27285,8 +27234,7 @@ companies:
   wiki_name: Vantage Towers AG
   symbol: VTWR
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: VTWR.F
@@ -27655,8 +27603,7 @@ companies:
   wiki_name: Ceridian HCM Holding Inc.
   symbol: CDAY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: CDAY
@@ -27685,3 +27632,795 @@ companies:
   metadata:
     founded: 1859
     employees: 15900
+- name: BMW
+  wiki_name: BMW
+  symbol: BMW
+  country: ''
+  indices:
+  - EURO STOXX 50
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Inditex
+  wiki_name: Inditex
+  symbol: ITX
+  country: ''
+  indices:
+  - EURO STOXX 50
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: ING Group
+  wiki_name: ING Group
+  symbol: INGA
+  country: ''
+  indices:
+  - EURO STOXX 50
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Munich Re
+  wiki_name: Munich Re
+  symbol: MUV2
+  country: ''
+  indices:
+  - EURO STOXX 50
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Amazon
+  wiki_name: Amazon
+  symbol: AMZN
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: American Electric Power
+  wiki_name: American Electric Power
+  symbol: AEP
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: APA Corporation
+  wiki_name: APA Corporation
+  symbol: APA
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: ADM
+  wiki_name: ADM
+  symbol: ADM
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Bank of America
+  wiki_name: Bank of America
+  symbol: BAC
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: BNY Mellon
+  wiki_name: BNY Mellon
+  symbol: BK
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Caesars Entertainment
+  wiki_name: Caesars Entertainment
+  symbol: CZR
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Ceridian
+  wiki_name: Ceridian
+  symbol: CDAY
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Coca-Cola Company
+  wiki_name: Coca-Cola Company
+  symbol: KO
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Costco
+  wiki_name: Costco
+  symbol: COST
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Coterra
+  wiki_name: Coterra
+  symbol: CTRA
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Discovery (Series A)
+  wiki_name: Discovery (Series A)
+  symbol: DISCA
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Discovery (Series C)
+  wiki_name: Discovery (Series C)
+  symbol: DISCK
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Dollar General
+  wiki_name: Dollar General
+  symbol: DG
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Duke Energy
+  wiki_name: Duke Energy
+  symbol: DUK
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Duke Realty Corp
+  wiki_name: Duke Realty Corp
+  symbol: DRE
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: DuPont
+  wiki_name: DuPont
+  symbol: DD
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Equinix
+  wiki_name: Equinix
+  symbol: EQIX
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Etsy
+  wiki_name: Etsy
+  symbol: ETSY
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Expeditors
+  wiki_name: Expeditors
+  symbol: EXPD
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Ford
+  wiki_name: Ford
+  symbol: F
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: General Electric
+  wiki_name: General Electric
+  symbol: GE
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Healthpeak Properties
+  wiki_name: Healthpeak Properties
+  symbol: PEAK
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Idexx Laboratories
+  wiki_name: Idexx Laboratories
+  symbol: IDXX
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: IBM
+  wiki_name: IBM
+  symbol: IBM
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: J. B. Hunt
+  wiki_name: J. B. Hunt
+  symbol: JBHT
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: JM Smucker
+  wiki_name: JM Smucker
+  symbol: SJM
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Kellogg's
+  wiki_name: Kellogg's
+  symbol: K
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: KLA Corporation
+  wiki_name: KLA Corporation
+  symbol: KLAC
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: LabCorp
+  wiki_name: LabCorp
+  symbol: LH
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Eli Lilly & Co
+  wiki_name: Eli Lilly & Co
+  symbol: LLY
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Match Group
+  wiki_name: Match Group
+  symbol: MTCH
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Mid-America Apartments
+  wiki_name: Mid-America Apartments
+  symbol: MAA
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Newmont
+  wiki_name: Newmont
+  symbol: NEM
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Nike
+  wiki_name: Nike
+  symbol: NKE
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Nvidia
+  wiki_name: Nvidia
+  symbol: NVDA
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: NVR
+  wiki_name: NVR
+  symbol: NVR
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: NXP
+  wiki_name: NXP
+  symbol: NXPI
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Paycom
+  wiki_name: Paycom
+  symbol: PAYC
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: PNC Financial Services
+  wiki_name: PNC Financial Services
+  symbol: PNC
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: PVH
+  wiki_name: PVH
+  symbol: PVH
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Royal Caribbean Group
+  wiki_name: Royal Caribbean Group
+  symbol: RCL
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Salesforce
+  wiki_name: Salesforce
+  symbol: CRM
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: ServiceNow
+  wiki_name: ServiceNow
+  symbol: NOW
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: United Airlines
+  wiki_name: United Airlines
+  symbol: UAL
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: UnitedHealth Group
+  wiki_name: UnitedHealth Group
+  symbol: UNH
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: VF Corporation
+  wiki_name: VF Corporation
+  symbol: VFC
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Wynn Resorts
+  wiki_name: Wynn Resorts
+  symbol: WYNN
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Zions Bancorp
+  wiki_name: Zions Bancorp
+  symbol: ZION
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: 1&1 Aktiengesellschaft
+  wiki_name: 1&1 Aktiengesellschaft
+  symbol: 1U1
+  country: Germany
+  indices:
+  - TECDAX
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Elia System Operator S.A.
+  wiki_name: Elia System Operator S.A.
+  symbol: XBRU
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0003822393
+  metadata:
+    founded: 2001
+    employees: 1229
+- name: Melexis
+  wiki_name: Melexis
+  symbol: null
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0165385973
+  metadata:
+    founded: 1988
+    employees: 1200
+- name: ABOUT YOU AG & Co. KG
+  wiki_name: ABOUT YOU AG & Co. KG
+  symbol: null
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols: []
+  isins:
+  - DE000A3CNK42
+  metadata:
+    founded: 2014
+    employees: 1000
+- name: PVA TePla AG
+  wiki_name: PVA TePla AG
+  symbol: TPE
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: TPE.F
+    google: FRA:TPE
+    currency: EUR
+  - yahoo: 0NL1.L
+    google: LON:0NL1
+    currency: GBP
+  isins:
+  - DE0007461006
+  metadata:
+    founded: 2002
+    employees: 470
+- name: secunet Security Networks AG
+  wiki_name: secunet Security Networks AG
+  symbol: YSN
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: YSN.F
+    google: FRA:YSN
+    currency: EUR
+  - yahoo: 0NWC.L
+    google: LON:0NWC
+    currency: GBP
+  isins:
+  - DE0007276503
+  metadata:
+    founded: 1997
+    employees: 740
+- name: STO SE & Co. KGaA
+  wiki_name: STO SE & Co. KGaA
+  symbol: STO3
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: STO3.F
+    google: FRA:STO3
+    currency: EUR
+  - yahoo: 0G5B.L
+    google: LON:0G5B
+    currency: GBP
+  isins:
+  - DE0007274136
+  metadata:
+    founded: 1955
+    employees: 5333
+- name: SUSE S.A.
+  wiki_name: SUSE S.A.
+  symbol: SUSE
+  country: '[[Nürnberg]]'
+  indices:
+  - SDAX
+  industries:
+  - Computer software
+  symbols:
+  - yahoo: SUSE.F
+    google: FRA:SUSE
+    currency: EUR
+  isins:
+  - LU2333210958
+  metadata:
+    founded: 1992
+    employees: 1750
+- name: SYNLAB
+  wiki_name: SYNLAB
+  symbol: 0A9B
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: 0A9B.L
+    google: LON:0A9B
+    currency: GBP
+  - yahoo: SYAB.F
+    google: FRA:SYAB
+    currency: EUR
+  isins:
+  - DE000A2TSL71
+  metadata:
+    founded: 1998
+    employees: 20000
+- name: Hannover Rückversicherung AG
+  wiki_name: Hannover Rückversicherung AG
+  symbol: null
+  country: Germany
+  indices:
+  - MDAX
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
