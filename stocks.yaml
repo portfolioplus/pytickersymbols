@@ -92,6 +92,9 @@ companies:
   - yahoo: ALIZY
     google: OTCMKTS:ALIZY
     currency: USD
+  - yahoo: ALVE.F
+    google: FRA:ALVE
+    currency: EUR
   metadata:
     founded: 1890
     employees: 147268
@@ -3040,6 +3043,9 @@ companies:
   - yahoo: KCO
     google: OTCMKTS:KCO
     currency: USD
+  - yahoo: KLKNF
+    google: OTCMKTS:KLKNF
+    currency: USD
   metadata:
     founded: 1906
     employees: 8253
@@ -4459,6 +4465,9 @@ companies:
   - yahoo: XGR.F
     google: FRA:XGR
     currency: EUR
+  - yahoo: CMPGF
+    google: OTCMKTS:CMPGF
+    currency: USD
   metadata:
     founded: 1941
     employees: 548143
@@ -9541,6 +9550,9 @@ companies:
   - yahoo: HSIC
     google: NASDAQ:HSIC
     currency: USD
+  - yahoo: 0L3C.L
+    google: LON:0L3C
+    currency: GBP
   metadata:
     founded: 1932
     employees: 19000
@@ -16531,6 +16543,9 @@ companies:
   - yahoo: MOS
     google: NYSE:MOS
     currency: USD
+  - yahoo: 0K3B.L
+    google: LON:0K3B
+    currency: GBP
   metadata:
     founded: 2004
     employees: 13000
@@ -18394,6 +18409,9 @@ companies:
     currency: USD
   - yahoo: 0LIK.L
     google: LON:0LIK
+    currency: GBP
+  - yahoo: 0R2I.L
+    google: LON:0R2I
     currency: GBP
   metadata:
     founded: 1996
@@ -25557,6 +25575,9 @@ companies:
   - yahoo: BCDRF
     google: OTCMKTS:BCDRF
     currency: USD
+  - yahoo: BSDK.F
+    google: FRA:BSDK
+    currency: EUR
   isins:
   - ES0113900J37
   metadata:
