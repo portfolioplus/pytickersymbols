@@ -1444,6 +1444,9 @@ companies:
   - yahoo: HLLGY
     google: OTCMKTS:HLLGY
     currency: USD
+  - yahoo: HLEA.F
+    google: FRA:HLEA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 36311
@@ -8926,6 +8929,9 @@ companies:
   - yahoo: ADSK
     google: NASDAQ:ADSK
     currency: USD
+  - yahoo: 0HJF.L
+    google: LON:0HJF
+    currency: GBP
   metadata:
     founded: 1982
     employees: 10300
@@ -15182,6 +15188,9 @@ companies:
   - yahoo: HPE
     google: NYSE:HPE
     currency: USD
+  - yahoo: 0J51.L
+    google: LON:0J51
+    currency: GBP
   metadata:
     founded: 2015
     employees: 59400
@@ -17347,6 +17356,9 @@ companies:
   - yahoo: PHM
     google: NYSE:PHM
     currency: USD
+  - yahoo: 0KS6.L
+    google: LON:0KS6
+    currency: GBP
   metadata:
     founded: 1956
     employees: 5086
