@@ -26,11 +26,22 @@ jobs:
       - uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'fix: update stock symbols'
+          title: 'fix: update index components'
+          body: |
+            Auto-generated PR by pysymbolscanner
+          labels: Cron
+          branch-suffix: timestamp
+          branch: feature/fix_indices_components
+          base: master
       - name: Install dependencies
         run: pip install tox
       - name: Run tests
         run: |
-          tox -e symbolscanner-py38
+          tox
       - name: Coveralls
         uses: AndreMiras/coveralls-python-action@develop
         with:
@@ -47,17 +58,6 @@ jobs:
         with:
           parallel: true
           debug: true
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
-        with:
-          commit-message: 'fix: update stock symbols'
-          title: 'fix: update index components'
-          body: |
-            Auto-generated PR by pysymbolscanner
-          labels: Cron
-          branch-suffix: timestamp
-          branch: feature/fix_indices_components
-          base: master
   coveralls_finish:
     needs: scan
     runs-on: ubuntu-latest
