@@ -1187,6 +1187,9 @@ companies:
   - yahoo: EVKIF
     google: OTCMKTS:EVKIF
     currency: USD
+  - yahoo: EVKA.F
+    google: FRA:EVKA
+    currency: EUR
   metadata:
     founded: 2006
     employees: 33106
@@ -2539,6 +2542,9 @@ companies:
   - yahoo: COPA.F
     google: FRA:COPA
     currency: EUR
+  - yahoo: CMPUY
+    google: OTCMKTS:CMPUY
+    currency: USD
   metadata:
     founded: 1987
     employees: 8000
@@ -3260,6 +3266,9 @@ companies:
     currency: EUR
   - yahoo: RTLLF
     google: OTCMKTS:RTLLF
+    currency: USD
+  - yahoo: RATIY
+    google: OTCMKTS:RATIY
     currency: USD
   metadata:
     founded: 1973
@@ -6028,6 +6037,9 @@ companies:
   - yahoo: SVT.L
     google: LON:SVT
     currency: GBP
+  - yahoo: SVTRF
+    google: OTCMKTS:SVTRF
+    currency: USD
   metadata:
     founded: 1989
     employees: ''
@@ -11416,6 +11428,9 @@ companies:
     currency: EUR
   - yahoo: MS
     google: NYSE:MS
+    currency: USD
+  - yahoo: MNSLV
+    google: OTCMKTS:MNSLV
     currency: USD
   metadata:
     founded: 1924
