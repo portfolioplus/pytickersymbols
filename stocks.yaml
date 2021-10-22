@@ -25411,6 +25411,9 @@ companies:
   - yahoo: SCA1.F
     google: FRA:SCA1
     currency: EUR
+  - yahoo: SCABY
+    google: OTCMKTS:SCABY
+    currency: USD
   isins:
   - SE0000112724
   - SE0000171886
@@ -26529,6 +26532,9 @@ companies:
   - yahoo: SPLK
     google: NASDAQ:SPLK
     currency: USD
+  - yahoo: 0R09.L
+    google: LON:0R09
+    currency: GBP
   isins: []
   metadata:
     founded: 2003
