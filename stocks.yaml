@@ -1496,6 +1496,9 @@ companies:
   - yahoo: BOSSY
     google: OTCMKTS:BOSSY
     currency: USD
+  - yahoo: BOSA.F
+    google: FRA:BOSA
+    currency: EUR
   metadata:
     founded: 1924
     employees: 14600
@@ -24490,6 +24493,9 @@ companies:
   - yahoo: 21E.F
     google: FRA:21E
     currency: EUR
+  - yahoo: ELROF
+    google: OTCMKTS:ELROF
+    currency: USD
   isins: []
   metadata:
     founded: 0
