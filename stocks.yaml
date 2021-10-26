@@ -5324,6 +5324,9 @@ companies:
   - yahoo: 27MB.F
     google: FRA:27MB
     currency: EUR
+  - yahoo: MLSYY
+    google: OTCMKTS:MLSYY
+    currency: USD
   metadata:
     founded: 2003
     employees: ''
@@ -10795,6 +10798,9 @@ companies:
   - yahoo: BAC
     google: NYSE:BAC
     currency: USD
+  - yahoo: BOAPL
+    google: OTCMKTS:BOAPL
+    currency: USD
   metadata:
     founded: 1956
     employees: 213000
@@ -13525,6 +13531,9 @@ companies:
   - yahoo: CAG
     google: NYSE:CAG
     currency: USD
+  - yahoo: 0I2P.L
+    google: LON:0I2P
+    currency: GBP
   metadata:
     founded: 1919
     employees: 16500
@@ -15073,6 +15082,9 @@ companies:
   - yahoo: HAS
     google: NASDAQ:HAS
     currency: USD
+  - yahoo: 0J3K.L
+    google: LON:0J3K
+    currency: GBP
   metadata:
     founded: 1923
     employees: 5800
@@ -15459,6 +15471,9 @@ companies:
   - yahoo: INFO
     google: NASDAQ:INFO
     currency: USD
+  - yahoo: 0UAI.L
+    google: LON:0UAI
+    currency: GBP
   metadata:
     founded: 1959
     employees: 14000
@@ -16182,6 +16197,9 @@ companies:
   - yahoo: LKQ
     google: NASDAQ:LKQ
     currency: USD
+  - yahoo: 0JSJ.L
+    google: LON:0JSJ
+    currency: GBP
   metadata:
     founded: 1998
     employees: 51000
@@ -17488,6 +17506,9 @@ companies:
   - yahoo: RL
     google: NYSE:RL
     currency: USD
+  - yahoo: 0KTS.L
+    google: LON:0KTS
+    currency: GBP
   metadata:
     founded: 1967
     employees: 18250
@@ -24913,6 +24934,9 @@ companies:
   - yahoo: NXS.F
     google: FRA:NXS
     currency: EUR
+  - yahoo: NEXNY
+    google: OTCMKTS:NEXNY
+    currency: USD
   isins:
   - FR0000044448
   metadata:
@@ -25021,6 +25045,9 @@ companies:
   symbols:
   - yahoo: RBSFY
     google: OTCMKTS:RBSFY
+    currency: USD
+  - yahoo: RUBSF
+    google: OTCMKTS:RUBSF
     currency: USD
   isins:
   - FR0013269123
