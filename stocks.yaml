@@ -5480,6 +5480,9 @@ companies:
   - yahoo: OCDO.L
     google: LON:OCDO
     currency: GBP
+  - yahoo: OCDDY
+    google: OTCMKTS:OCDDY
+    currency: USD
   metadata:
     founded: 2000
     employees: 18618
@@ -9367,6 +9370,9 @@ companies:
   - yahoo: DISH
     google: NASDAQ:DISH
     currency: USD
+  - yahoo: 0IBG.L
+    google: LON:0IBG
+    currency: GBP
   metadata:
     founded: 1980
     employees: 16000
@@ -15197,6 +15203,9 @@ companies:
   - yahoo: HES
     google: NYSE:HES
     currency: USD
+  - yahoo: 0J50.L
+    google: LON:0J50
+    currency: GBP
   metadata:
     founded: 1919
     employees: 1708
@@ -15780,6 +15789,9 @@ companies:
   - yahoo: SJM
     google: NYSE:SJM
     currency: USD
+  - yahoo: 0L7F.L
+    google: LON:0L7F
+    currency: GBP
   metadata:
     founded: 1897
     employees: 7300
@@ -27705,6 +27717,9 @@ companies:
   - yahoo: MGGT.L
     google: LON:MGGT
     currency: GBP
+  - yahoo: MEGGF
+    google: OTCMKTS:MEGGF
+    currency: USD
   isins:
   - GB0005758098
   metadata:
@@ -27758,6 +27773,9 @@ companies:
   - yahoo: IR
     google: NYSE:IR
     currency: USD
+  - yahoo: 5GD.F
+    google: FRA:5GD
+    currency: EUR
   isins:
   - US45687V1061
   metadata:
