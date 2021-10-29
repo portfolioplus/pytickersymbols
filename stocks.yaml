@@ -17728,6 +17728,9 @@ companies:
   - yahoo: ROP
     google: NYSE:ROP
     currency: USD
+  - yahoo: 0KXM.L
+    google: LON:0KXM
+    currency: GBP
   metadata:
     founded: 1800
     employees: 16460
@@ -19001,6 +19004,9 @@ companies:
   - yahoo: WYNN
     google: NASDAQ:WYNN
     currency: USD
+  - yahoo: 0QYK.L
+    google: LON:0QYK
+    currency: GBP
   metadata:
     founded: 2002
     employees: 30200
@@ -24792,6 +24798,9 @@ companies:
   - yahoo: IY4.F
     google: FRA:IY4
     currency: EUR
+  - yahoo: IMYSF
+    google: OTCMKTS:IMYSF
+    currency: USD
   isins:
   - FR0000120859
   metadata:
@@ -27267,6 +27276,9 @@ companies:
     currency: EUR
   - yahoo: AVS.F
     google: FRA:AVS
+    currency: EUR
+  - yahoo: ASM.AS
+    google: AMS:ASM
     currency: EUR
   isins:
   - NL0000334118
