@@ -773,6 +773,9 @@ companies:
   - yahoo: VONOY
     google: OTCMKTS:VONOY
     currency: USD
+  - yahoo: VNAA.F
+    google: FRA:VNAA
+    currency: EUR
   metadata:
     founded: 2001
     employees: 10622
@@ -13714,6 +13717,9 @@ companies:
   - yahoo: CCI
     google: NYSE:CCI
     currency: USD
+  - yahoo: 0I4W.L
+    google: LON:0I4W
+    currency: GBP
   metadata:
     founded: 1994
     employees: 4500
@@ -14809,6 +14815,9 @@ companies:
   - yahoo: BEN
     google: NYSE:BEN
     currency: USD
+  - yahoo: 0RT6.L
+    google: LON:0RT6
+    currency: GBP
   metadata:
     founded: 1947
     employees: 11800
@@ -24179,6 +24188,9 @@ companies:
   - yahoo: SMNEY
     google: OTCMKTS:SMNEY
     currency: USD
+  - yahoo: ENR0.F
+    google: FRA:ENR0
+    currency: EUR
   isins:
   - DE000ENER6Y0
   metadata:
@@ -24869,6 +24881,9 @@ companies:
   - yahoo: DCS.F
     google: FRA:DCS
     currency: EUR
+  - yahoo: JCDXY
+    google: OTCMKTS:JCDXY
+    currency: USD
   isins:
   - FR0000077919
   metadata:
@@ -27567,6 +27582,9 @@ companies:
   - yahoo: SCRYY
     google: OTCMKTS:SCRYY
     currency: USD
+  - yahoo: SDRB.F
+    google: FRA:SDRB
+    currency: EUR
   isins:
   - FR0010411983
   metadata:
