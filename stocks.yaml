@@ -7393,6 +7393,9 @@ companies:
   - yahoo: ESLOY
     google: OTCMKTS:ESLOY
     currency: USD
+  - yahoo: US2972842007.F
+    google: FRA:US2972842007
+    currency: EUR
   metadata:
     founded: 2018
     employees: 150000
@@ -22196,6 +22199,9 @@ companies:
   - yahoo: 15R.F
     google: FRA:15R
     currency: EUR
+  - yahoo: 0A99.L
+    google: LON:0A99
+    currency: GBP
   metadata:
     founded: 1994
     employees: 260000
