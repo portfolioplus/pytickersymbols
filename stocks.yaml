@@ -14214,6 +14214,9 @@ companies:
   - yahoo: ETR
     google: NYSE:ETR
     currency: USD
+  - yahoo: 0IHP.L
+    google: LON:0IHP
+    currency: GBP
   metadata:
     founded: 1913
     employees: 13504
@@ -17215,6 +17218,9 @@ companies:
   - yahoo: PXD
     google: NYSE:PXD
     currency: USD
+  - yahoo: 0KIX.L
+    google: LON:0KIX
+    currency: GBP
   metadata:
     founded: 1997
     employees: 1853
@@ -24506,6 +24512,9 @@ companies:
   - yahoo: DUAVF
     google: OTCMKTS:DUAVF
     currency: USD
+  - yahoo: DAU0.F
+    google: FRA:DAU0
+    currency: EUR
   isins:
   - FR0000121725
   metadata:
