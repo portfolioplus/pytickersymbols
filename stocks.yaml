@@ -24435,6 +24435,9 @@ companies:
   - yahoo: CGG
     google: NYSE:CGG
     currency: USD
+  - yahoo: GDGF.F
+    google: FRA:GDGF
+    currency: EUR
   isins:
   - FR0013181864
   metadata:
