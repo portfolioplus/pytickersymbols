@@ -1126,6 +1126,9 @@ companies:
   - yahoo: DWHHF
     google: OTCMKTS:DWHHF
     currency: USD
+  - yahoo: DWNP.F
+    google: FRA:DWNP
+    currency: EUR
   metadata:
     founded: 1998
     employees: 5323
@@ -11249,6 +11252,9 @@ companies:
   - yahoo: GEC.L
     google: LON:GEC
     currency: GBP
+  - yahoo: 49P.F
+    google: FRA:49P
+    currency: EUR
   metadata:
     founded: 1892
     employees: 205000
@@ -15581,6 +15587,9 @@ companies:
   - yahoo: 0JCB.L
     google: LON:0JCB
     currency: GBP
+  - yahoo: INPAP
+    google: OTCMKTS:INPAP
+    currency: USD
   metadata:
     founded: 1898
     employees: 49300
@@ -15846,6 +15855,9 @@ companies:
   - yahoo: JNPR
     google: NYSE:JNPR
     currency: USD
+  - yahoo: 0JPH.L
+    google: LON:0JPH
+    currency: GBP
   metadata:
     founded: 1996
     employees: 9400
@@ -17112,6 +17124,9 @@ companies:
   - yahoo: PBCT
     google: NASDAQ:PBCT
     currency: USD
+  - yahoo: 0KH6.L
+    google: LON:0KH6
+    currency: GBP
   metadata:
     founded: 1842
     employees: 5188
@@ -18437,6 +18452,9 @@ companies:
   - yahoo: TSN
     google: NYSE:TSN
     currency: USD
+  - yahoo: 0LHR.L
+    google: LON:0LHR
+    currency: GBP
   metadata:
     founded: 1935
     employees: 141000
@@ -18917,6 +18935,12 @@ companies:
   - yahoo: WRK
     google: OTCMKTS:WRK
     currency: USD
+  - yahoo: 1WR.F
+    google: FRA:1WR
+    currency: EUR
+  - yahoo: 0LW9.L
+    google: LON:0LW9
+    currency: GBP
   metadata:
     founded: 2015
     employees: 51100
@@ -27640,6 +27664,9 @@ companies:
   - yahoo: THNPF
     google: OTCMKTS:THNPF
     currency: USD
+  - yahoo: 68F0.F
+    google: FRA:68F0
+    currency: EUR
   isins:
   - NL0014559478
   metadata:
