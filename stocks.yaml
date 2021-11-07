@@ -27638,6 +27638,9 @@ companies:
   - yahoo: 30L3.F
     google: FRA:30L3
     currency: EUR
+  - yahoo: SLUNF
+    google: OTCMKTS:SLUNF
+    currency: USD
   isins:
   - FR0013379484
   metadata:
