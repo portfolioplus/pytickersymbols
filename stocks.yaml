@@ -3762,6 +3762,9 @@ companies:
   - yahoo: ZOPLY
     google: OTCMKTS:ZOPLY
     currency: USD
+  - yahoo: ZO1A.F
+    google: FRA:ZO1A
+    currency: EUR
   metadata:
     founded: 1999
     employees: 768
@@ -22226,6 +22229,9 @@ companies:
   - yahoo: 15R.F
     google: FRA:15R
     currency: EUR
+  - yahoo: 0A99.L
+    google: LON:0A99
+    currency: GBP
   metadata:
     founded: 1994
     employees: 260000
