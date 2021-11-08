@@ -48,8 +48,16 @@ companies:
   symbol: ADS
   country: Germany
   indices:
+  - AEX
+  - BEL 20
+  - CAC Mid 60
   - DAX
   - EURO STOXX 50
+  - MDAX
+  - MOEX
+  - S&P 500
+  - SDAX
+  - TECDAX
   industries:
   - Cyclical Consumer Products
   - Footwear
@@ -67,6 +75,30 @@ companies:
   - yahoo: ADDYY
     google: OTCMKTS:ADDYY
     currency: USD
+  - yahoo: BSL.F
+    google: FRA:BSL
+    currency: EUR
+  - yahoo: TPE.F
+    google: FRA:TPE
+    currency: EUR
+  - yahoo: 0NWC.L
+    google: LON:0NWC
+    currency: GBP
+  - yahoo: YSN.F
+    google: FRA:YSN
+    currency: EUR
+  - yahoo: 0G5B.L
+    google: LON:0G5B
+    currency: GBP
+  - yahoo: STO3.F
+    google: FRA:STO3
+    currency: EUR
+  - yahoo: 0A9B.L
+    google: LON:0A9B
+    currency: GBP
+  - yahoo: SYAB.F
+    google: FRA:SYAB
+    currency: EUR
   metadata:
     founded: 1924
     employees: 57016
@@ -154,7 +186,7 @@ companies:
   symbol: BEI
   country: Germany
   indices:
-  - MDAX
+  - DAX
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -176,7 +208,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - EURO STOXX 50
   industries:
   - Automotive
   - Auto & Truck Manufacturers
@@ -302,7 +333,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - EURO STOXX 50
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -323,8 +353,7 @@ companies:
 - name: Deutsche Lufthansa AG
   symbol: LHA
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Passenger Transportation Services
   - Industrials
@@ -374,7 +403,6 @@ companies:
   indices:
   - DAX
   - EURO STOXX 50
-  - TECDAX
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -527,7 +555,6 @@ companies:
   indices:
   - DAX
   - EURO STOXX 50
-  - TECDAX
   industries:
   - Semiconductors
   - Technology
@@ -558,7 +585,6 @@ companies:
   - DAX
   - EURO STOXX 50
   - S&P 100
-  - S&P 500
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -605,7 +631,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - EURO STOXX 50
   industries:
   - Insurance
   - Financials
@@ -649,7 +674,6 @@ companies:
   indices:
   - DAX
   - EURO STOXX 50
-  - TECDAX
   industries:
   - Software
   - Technology
@@ -699,8 +723,7 @@ companies:
 - name: thyssenkrupp AG
   symbol: TKA
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Conglomerate
   - Metals & Mining
@@ -727,7 +750,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - EURO STOXX 50
   industries:
   - Automotive
   - Auto & Truck Manufacturers
@@ -857,8 +879,7 @@ companies:
 - name: alstria office REIT-AG
   symbol: AOX
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -878,8 +899,7 @@ companies:
 - name: Aroundtown SA
   symbol: AT1
   country: Luxembourg
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -900,8 +920,7 @@ companies:
 - name: Aurubis AG
   symbol: NDA
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -947,9 +966,7 @@ companies:
 - name: Bechtle AG
   symbol: BC8
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -994,8 +1011,7 @@ companies:
 - name: Commerzbank AG
   symbol: CBK
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -1016,8 +1032,7 @@ companies:
 - name: CTS Eventim AG & Co. KGaA
   symbol: EVD
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Ticket distribution
   symbols:
@@ -1109,8 +1124,7 @@ companies:
 - name: Deutsche Wohnen SE
   symbol: DWNI
   country: Germany
-  indices:
-  - DAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -1139,7 +1153,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Telecommunications Services
   - Wireless Telecommunications Services
@@ -1158,8 +1171,7 @@ companies:
 - name: Dürr AG
   symbol: DUE
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -1180,8 +1192,7 @@ companies:
 - name: Evonik Industries AG
   symbol: EVK
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Diversified Chemicals
   - Basic Materials
@@ -1204,9 +1215,7 @@ companies:
 - name: Evotec SE
   symbol: EVT
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -1258,8 +1267,7 @@ companies:
 - name: Fraport AG
   symbol: FRA
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Industrials
   - Transport Infrastructure
@@ -1283,9 +1291,7 @@ companies:
 - name: freenet AG
   symbol: FNTN
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -1310,8 +1316,7 @@ companies:
 - name: Fuchs Petrolub SE
   symbol: FPE3
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -1344,8 +1349,7 @@ companies:
 - name: GEA Group AG
   symbol: G1A
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -1369,8 +1373,7 @@ companies:
 - name: Gerresheimer AG
   symbol: GXI
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -1391,8 +1394,7 @@ companies:
 - name: Grand City Properties SA
   symbol: GYC
   country: Luxembourg
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -1416,8 +1418,7 @@ companies:
 - name: Hannover Rück SE
   symbol: HNR1
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -1437,8 +1438,7 @@ companies:
 - name: HELLA GmbH & Co. KGaA
   symbol: HLE
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Auto, Truck & Motorcycle Parts
   - Automobiles & Auto Parts
@@ -1465,7 +1465,7 @@ companies:
   symbol: HOT
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   industries:
   - Industrials
   - Construction & Engineering
@@ -1488,8 +1488,7 @@ companies:
 - name: Hugo Boss AG
   symbol: BOSS
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -1532,8 +1531,7 @@ companies:
 - name: K+S AG
   symbol: SDF
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Agricultural Chemicals
   - Basic Materials
@@ -1556,8 +1554,7 @@ companies:
 - name: KION GROUP AG
   symbol: KGX
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -1581,8 +1578,7 @@ companies:
 - name: LANXESS AG
   symbol: LXS
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Diversified Chemicals
   - Basic Materials
@@ -1605,8 +1601,7 @@ companies:
 - name: LEG Immobilien AG
   symbol: LEG
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -1662,8 +1657,7 @@ companies:
   symbol: MOR
   country: Germany
   indices:
-  - MDAX
-  - TECDAX
+  - SDAX
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -1713,9 +1707,7 @@ companies:
 - name: Nemetschek SE
   symbol: NEM
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Software
   - Technology
@@ -1779,8 +1771,7 @@ companies:
 - name: ProSiebenSat.1 Media SE
   symbol: PSM
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -1831,7 +1822,6 @@ companies:
   country: Netherlands
   indices:
   - DAX
-  - TECDAX
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -1851,8 +1841,7 @@ companies:
 - name: Rheinmetall AG
   symbol: RHM
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Auto, Truck & Motorcycle Parts
   - Automobiles & Auto Parts
@@ -1949,7 +1938,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - TECDAX
   industries:
   - Medication
   - Healthcare
@@ -2014,8 +2002,7 @@ companies:
 - name: Scout24 AG
   symbol: G24
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -2037,7 +2024,6 @@ companies:
   country: Germany
   indices:
   - DAX
-  - TECDAX
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -2066,7 +2052,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Technology
   - Technology Equipment
@@ -2090,9 +2075,7 @@ companies:
 - name: Software AG
   symbol: SOW
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -2142,8 +2125,7 @@ companies:
 - name: TAG Immobilien AG
   symbol: TEG
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -2164,9 +2146,7 @@ companies:
 - name: Telefónica Deutschland Holding AG
   symbol: O2D
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -2185,8 +2165,7 @@ companies:
 - name: Uniper SE
   symbol: UN01
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -2205,9 +2184,7 @@ companies:
 - name: United Internet AG
   symbol: UTDI
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -2226,8 +2203,7 @@ companies:
 - name: Wacker Chemie AG
   symbol: WCH
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -2310,9 +2286,7 @@ companies:
 - name: AIXTRON SE
   symbol: AIXA
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Semiconductor Equipment & Testing
   - Technology
@@ -2443,8 +2417,7 @@ companies:
 - name: Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien
   symbol: BVB
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -2464,9 +2437,7 @@ companies:
 - name: Cancom SE
   symbol: COK
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -2486,9 +2457,7 @@ companies:
 - name: Carl Zeiss Meditec AG
   symbol: AFX
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -2534,9 +2503,7 @@ companies:
 - name: CompuGroup Medical SE
   symbol: COP
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Software
   - Technology
@@ -2696,9 +2663,7 @@ companies:
 - name: Drägerwerk AG & Co. KGaA Vz
   symbol: DRW3
   country: Germany
-  indices:
-  - SDAX
-  - TECDAX
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -2745,7 +2710,7 @@ companies:
   symbol: CAP
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   industries:
   - Electric Utilities & IPPs
   - Independent Power Producers
@@ -2815,8 +2780,7 @@ companies:
 - name: Hamburger Hafen und Logistik AG
   symbol: HHFA
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Marine Port Services
   - Industrials
@@ -2915,8 +2879,7 @@ companies:
 - name: Hypoport Finance AG
   symbol: HYQ
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -2980,7 +2943,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -3019,8 +2981,7 @@ companies:
 - name: JUNGHEINRICH AG
   symbol: JUN3
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -3047,8 +3008,7 @@ companies:
 - name: KLOECKNER & CO SE
   symbol: KCO
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -3183,8 +3143,7 @@ companies:
   symbol: NDX1
   country: Germany
   indices:
-  - MDAX
-  - TECDAX
+  - SDAX
   industries:
   - Heavy Electrical Equipment
   - Industrial Goods
@@ -3238,7 +3197,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -3262,8 +3220,7 @@ companies:
 - name: RATIONAL AG
   symbol: RAA
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Appliances, Tools & Housewares
@@ -3326,7 +3283,6 @@ companies:
   country: Austria
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -3424,7 +3380,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Technology
   - Technology Equipment
@@ -3520,8 +3475,7 @@ companies:
 - name: Südzucker AG
   symbol: SZU
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -3557,8 +3511,7 @@ companies:
 - name: Talanx
   symbol: TLX
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -3617,8 +3570,7 @@ companies:
 - name: Vossloh AG
   symbol: VOS
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrials
   - Construction & Engineering
@@ -3747,7 +3699,7 @@ companies:
   symbol: ZO1
   country: Germany
   indices:
-  - SDAX
+  - MDAX
   industries:
   - Technology
   - Software & IT Services
@@ -4389,8 +4341,7 @@ companies:
 - name: Carnival Corporation
   symbol: CCL
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -6180,8 +6131,7 @@ companies:
 - name: STERIS PLC
   symbol: SSE
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -6475,8 +6425,7 @@ companies:
 - name: Wm Morrison Supermarkets PLC
   symbol: MRW
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -7148,8 +7097,7 @@ companies:
 - name: Atos SE
   symbol: ATO
   country: France
-  indices:
-  - CAC 40
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -7461,7 +7409,6 @@ companies:
   country: France
   indices:
   - CAC 40
-  - EURO STOXX 50
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -7851,6 +7798,9 @@ companies:
   - yahoo: TTE
     google: NYSE:TTE
     currency: USD
+  - yahoo: TTE.L
+    google: LON:TTE
+    currency: GBP
   metadata:
     founded: 1924
     employees: 107776
@@ -8014,7 +7964,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Industrials
   - Industrial Conglomerates
@@ -8035,7 +7984,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -8062,7 +8010,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -8086,7 +8033,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -8111,7 +8057,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -8134,7 +8079,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Energy
   - Fossil Fuels
@@ -8158,7 +8102,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -8180,7 +8123,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -8203,7 +8145,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -8225,7 +8166,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Energy
   - Fossil Fuels
@@ -8248,7 +8188,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -8275,7 +8214,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Retailers
   - Specialty Retailers
@@ -8298,7 +8236,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -8325,7 +8262,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -8348,7 +8284,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -8371,7 +8306,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -8395,7 +8329,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Hotels & Entertainment Services
   - Restaurants & Bars
@@ -8420,7 +8353,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Apparel
   - Accessories
@@ -8443,7 +8375,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -8466,7 +8397,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -8488,7 +8418,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -8510,7 +8439,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -8531,7 +8459,6 @@ companies:
   country: United States
   indices:
   - DOW JONES
-  - S&P 500
   industries:
   - Insurance
   - Property & Casualty Insurance
@@ -8574,7 +8501,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Managed Health care
   - Healthcare
@@ -8597,7 +8523,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -8619,7 +8544,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -8641,7 +8565,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -8665,7 +8588,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -8689,7 +8611,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   - DOW JONES
   industries:
   - Media & Publishing
@@ -8712,7 +8633,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -8735,7 +8655,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -8754,8 +8673,7 @@ companies:
 - name: Akamai Technologies Inc.
   symbol: AKAM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -8799,7 +8717,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -8829,7 +8746,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Diversified Retail
   - Retailers
@@ -8850,8 +8766,7 @@ companies:
 - name: American Airlines Group Inc.
   symbol: AAL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Passenger Transportation Services
   - Industrials
@@ -8878,7 +8793,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -8900,7 +8814,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -8925,7 +8838,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Semiconductor Equipment & Testing
   - Technology
@@ -8947,7 +8859,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -8971,7 +8882,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -9038,7 +8948,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -9095,7 +9004,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -9121,7 +9029,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -9164,8 +9071,7 @@ companies:
 - name: Citrix Systems Inc.
   symbol: CTXS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Software
   - Technology
@@ -9189,7 +9095,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -9214,7 +9119,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -9237,7 +9141,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Diversified Retail
   - Retailers
@@ -9262,7 +9165,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -9309,8 +9211,7 @@ companies:
 - name: Dentyply Sirona Inc.
   symbol: XRAY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -9330,8 +9231,7 @@ companies:
 - name: Discovery Inc.
   symbol: DISCA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -9365,8 +9265,7 @@ companies:
 - name: DISH Network Corporation
   symbol: DISH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -9391,7 +9290,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Diversified Retail
   - Retailers
@@ -9413,7 +9311,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -9434,7 +9331,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -9456,8 +9352,7 @@ companies:
 - name: Expedia Group Inc.
   symbol: EXPE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -9484,7 +9379,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -9505,7 +9399,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -9530,7 +9423,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Business Support Services
   - Industrials
@@ -9556,7 +9448,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -9575,8 +9466,7 @@ companies:
 - name: Henry Schein Inc.
   symbol: HSIC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -9601,7 +9491,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -9626,7 +9515,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -9650,7 +9538,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -9674,7 +9561,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -9723,7 +9609,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -9745,7 +9630,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Semiconductor Equipment & Testing
   - Technology
@@ -9795,7 +9679,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -9862,7 +9745,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -9887,7 +9769,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -9910,7 +9791,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -9935,7 +9815,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -9976,8 +9855,7 @@ companies:
 - name: NetApp Inc.
   symbol: NTAP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -10029,7 +9907,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -10051,7 +9928,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10073,7 +9949,6 @@ companies:
   country: Netherlands
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10098,7 +9973,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Auto Vehicles, Parts & Service Retailers
   - Retailers
@@ -10123,7 +9997,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -10148,7 +10021,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Industrials
   - Professional & Commercial Services
@@ -10171,7 +10043,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -10193,7 +10064,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10215,7 +10085,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -10239,7 +10108,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -10262,8 +10130,7 @@ companies:
 - name: Seagate Technology PLC
   symbol: STX
   country: Ireland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -10309,7 +10176,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10335,7 +10201,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Hotels & Entertainment Services
   - Restaurants & Bars
@@ -10377,7 +10242,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Telecommunications Services
   - Wireless Telecommunications Services
@@ -10402,7 +10266,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Auto & Truck Manufacturers
   - Automobiles & Auto Parts
@@ -10425,7 +10288,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10448,8 +10310,7 @@ companies:
 - name: Tractor Supply Company
   symbol: TSCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Other Specialty Retailers
   - Retailers
@@ -10488,8 +10349,7 @@ companies:
 - name: Ulta Beauty Inc.
   symbol: ULTA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Other Specialty Retailers
   - Retailers
@@ -10511,7 +10371,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -10535,7 +10394,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -10576,8 +10434,7 @@ companies:
 - name: Western Digital Corporation
   symbol: WDC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -10599,7 +10456,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -10624,7 +10480,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -10646,7 +10501,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -10670,7 +10524,6 @@ companies:
   country: Ireland
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -10711,8 +10564,7 @@ companies:
 - name: The Allstate Corporation
   symbol: ALL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Property & Casualty Insurance
@@ -10733,7 +10585,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -10755,7 +10606,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Insurance
   - Financials
@@ -10779,7 +10629,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Telecommunications Services
   - Wireless Telecommunications Services
@@ -10800,7 +10649,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -10826,7 +10674,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -10851,7 +10698,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Insurance
   - Financials
@@ -10876,7 +10722,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -10903,7 +10748,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -10925,7 +10769,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -10949,7 +10792,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -10974,7 +10816,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -10997,7 +10838,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -11021,7 +10861,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Energy
   - Fossil Fuels
@@ -11047,7 +10886,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -11072,7 +10910,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -11097,7 +10934,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -11121,7 +10957,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -11133,6 +10968,9 @@ companies:
   - yahoo: LLY
     google: NYSE:LLY
     currency: USD
+  - yahoo: 0Q1G.L
+    google: LON:0Q1G
+    currency: GBP
   metadata:
     founded: 1876
     employees: 33625
@@ -11143,7 +10981,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -11169,7 +11006,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -11193,7 +11029,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Industrials
   - Air Freight & Courier Services
@@ -11219,7 +11054,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Auto & Truck Manufacturers
   - Automobiles & Auto Parts
@@ -11240,7 +11074,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries: []
   symbols:
   - yahoo: GEC.F
@@ -11268,7 +11101,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Telecommunications Services
   - Discount Stores
@@ -11299,7 +11131,6 @@ companies:
   - DOW JONES
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Industrials
   - Industrial Conglomerates
@@ -11320,8 +11151,7 @@ companies:
 - name: Kinder Morgan Inc.
   symbol: KMI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -11346,7 +11176,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Retailers
   - Specialty Retailers
@@ -11372,7 +11201,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -11393,7 +11221,6 @@ companies:
   country: Ireland
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -11419,7 +11246,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Insurance
   - Financials
@@ -11443,7 +11269,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -11468,7 +11293,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -11490,8 +11314,7 @@ companies:
 - name: Occidental Petroleum Corporation
   symbol: OXY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -11513,7 +11336,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -11540,7 +11362,6 @@ companies:
   country: Netherlands
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -11562,7 +11383,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -11587,8 +11407,7 @@ companies:
 - name: Schlumberger Limited
   symbol: SLB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -11611,7 +11430,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Commercial REITs
   - Real Estate
@@ -11636,7 +11454,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -11660,7 +11477,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Diversified Retail
   - Retailers
@@ -11685,7 +11501,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -11710,7 +11525,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Industrial Goods
   - Industrials
@@ -11734,7 +11548,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -11757,7 +11570,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -11778,8 +11590,7 @@ companies:
 - name: Abiomed Inc.
   symbol: ABMD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -11802,8 +11613,7 @@ companies:
 - name: Advance Auto Parts Inc.
   symbol: AAP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto Vehicles, Parts & Service Retailers
   - Retailers
@@ -11828,7 +11638,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Environmental Services & Equipment
   - Industrials
@@ -11848,8 +11657,7 @@ companies:
 - name: The AES Corporation
   symbol: AES
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -11890,8 +11698,7 @@ companies:
 - name: Aflac Inc.
   symbol: AFL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -11913,8 +11720,7 @@ companies:
 - name: Agilent Technologies Inc.
   symbol: A
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -11937,8 +11743,7 @@ companies:
 - name: Air Products and Chemicals Inc.
   symbol: APD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -11960,8 +11765,7 @@ companies:
 - name: Alaska Air Group Inc.
   symbol: ALK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Passenger Transportation Services
   - Industrials
@@ -11984,8 +11788,7 @@ companies:
 - name: Albemarle Corporation
   symbol: ALB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -12007,8 +11810,7 @@ companies:
 - name: Alexandria Real Estate Equities Inc.
   symbol: ARE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -12033,7 +11835,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -12057,8 +11858,7 @@ companies:
 - name: Allegion PLC
   symbol: ALLE
   country: Ireland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -12099,8 +11899,7 @@ companies:
 - name: Ameren Corporation
   symbol: AEE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -12123,7 +11922,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -12147,7 +11945,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Specialized REITs
   - Real Estate
@@ -12170,8 +11967,7 @@ companies:
 - name: American Water Works Company Inc.
   symbol: AWK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Water Utilities
   - Utilities
@@ -12192,8 +11988,7 @@ companies:
 - name: Ameriprise Financial Inc.
   symbol: AMP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -12216,8 +12011,7 @@ companies:
 - name: AmerisourceBergen Corporation
   symbol: ABC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -12239,8 +12033,7 @@ companies:
 - name: AMETEK Inc.
   symbol: AME
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -12263,8 +12056,7 @@ companies:
 - name: Amphenol Corporation
   symbol: APH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -12307,7 +12099,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -12329,8 +12120,7 @@ companies:
 - name: Anthem Inc.
   symbol: ANTM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Managed Health care
   - Healthcare
@@ -12353,8 +12143,7 @@ companies:
 - name: A. O. Smith Corporation
   symbol: AOS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -12377,8 +12166,7 @@ companies:
 - name: Aon PLC
   symbol: AON
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -12403,8 +12191,7 @@ companies:
 - name: Apache Corporation
   symbol: APA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -12447,8 +12234,7 @@ companies:
 - name: Aptiv PLC
   symbol: APTV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Software
   - Technology
@@ -12471,8 +12257,7 @@ companies:
 - name: Archer-Daniels-Midland Company
   symbol: ADM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -12514,8 +12299,7 @@ companies:
 - name: Arista Networks Inc.
   symbol: ANET
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -12537,8 +12321,7 @@ companies:
 - name: Arthur J. Gallagher & Co.
   symbol: AJG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -12560,8 +12343,7 @@ companies:
 - name: Assurant Inc.
   symbol: AIZ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -12583,8 +12365,7 @@ companies:
 - name: Atmos Energy Corporation
   symbol: ATO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Natural Gas Utilities
   - Utilities
@@ -12602,8 +12383,7 @@ companies:
 - name: AutoZone Inc.
   symbol: AZO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto Vehicles, Parts & Service Retailers
   - Retailers
@@ -12626,8 +12406,7 @@ companies:
 - name: AvalonBay Communities Inc.
   symbol: AVB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -12650,8 +12429,7 @@ companies:
 - name: Avery Dennison Corporation
   symbol: AVY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Non-Paper Containers & Packaging
   - Basic Materials
@@ -12675,8 +12453,7 @@ companies:
   wiki_name: Baker Hughes Company
   symbol: BKR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hydrocarbon exploration
   symbols:
@@ -12697,8 +12474,7 @@ companies:
 - name: Ball Corporation
   symbol: BLL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Non-Paper Containers & Packaging
   - Basic Materials
@@ -12724,8 +12500,7 @@ companies:
 - name: Baxter International Inc.
   symbol: BAX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -12749,8 +12524,7 @@ companies:
 - name: Becton, Dickinson and Company
   symbol: BDX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -12773,8 +12547,7 @@ companies:
 - name: Best Buy Co. Inc.
   symbol: BBY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computer & Electronics Retailers
   - Retailers
@@ -12815,8 +12588,7 @@ companies:
 - name: BorgWarner Inc.
   symbol: BWA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto, Truck & Motorcycle Parts
   - Automobiles & Auto Parts
@@ -12838,8 +12610,7 @@ companies:
 - name: Boston Properties Inc.
   symbol: BXP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -12862,8 +12633,7 @@ companies:
 - name: Boston Scientific Corporation
   symbol: BSX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -12889,7 +12659,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Technology Equipment
@@ -12912,8 +12681,7 @@ companies:
 - name: Broadridge Financial Solutions Inc.
   symbol: BR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -12936,8 +12704,7 @@ companies:
 - name: Brown-Forman Corporation
   symbol: BF-B
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -12957,8 +12724,7 @@ companies:
 - name: C.H. Robinson Worldwide Inc.
   symbol: CHRW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -12978,8 +12744,7 @@ companies:
 - name: Cabot Oil & Gas Corporation
   symbol: COG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -13004,7 +12769,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -13026,8 +12790,7 @@ companies:
 - name: Campbell Soup Company
   symbol: CPB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -13069,8 +12832,7 @@ companies:
 - name: Cardinal Health Inc.
   symbol: CAH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -13092,8 +12854,7 @@ companies:
 - name: CarMax Inc.
   symbol: KMX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto Vehicles, Parts & Service Retailers
   - Retailers
@@ -13116,8 +12877,7 @@ companies:
 - name: CBRE Group Inc.
   symbol: CBRE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate Services
   - Real Estate
@@ -13159,8 +12919,7 @@ companies:
 - name: Celanese Corporation
   symbol: CE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -13183,8 +12942,7 @@ companies:
 - name: Centene Corporation
   symbol: CNC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Managed Health care
   - Healthcare
@@ -13207,8 +12965,7 @@ companies:
 - name: CenterPoint Energy Inc.
   symbol: CNP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -13246,8 +13003,7 @@ companies:
 - name: CF Industries Holdings Inc.
   symbol: CF
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Agricultural Chemicals
   - Basic Materials
@@ -13269,8 +13025,7 @@ companies:
 - name: Chipotle Mexican Grill Inc.
   symbol: CMG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Restaurants & Bars
@@ -13293,8 +13048,7 @@ companies:
 - name: Chubb Limited
   symbol: CB
   country: Switzerland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -13313,8 +13067,7 @@ companies:
 - name: Church & Dwight Co. Inc.
   symbol: CHD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Personal & Household Products & Services
@@ -13336,8 +13089,7 @@ companies:
 - name: Cigna Corporation
   symbol: CI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Managed Health care
   - Healthcare
@@ -13379,8 +13131,7 @@ companies:
 - name: Cincinnati Financial Corporation
   symbol: CINF
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Property & Casualty Insurance
@@ -13404,7 +13155,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Business Support Services
   - Industrials
@@ -13427,8 +13177,7 @@ companies:
 - name: Citizens Financial Group Inc.
   symbol: CFG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -13448,8 +13197,7 @@ companies:
 - name: The Clorox Company
   symbol: CLX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Personal & Household Products & Services
@@ -13468,8 +13216,7 @@ companies:
 - name: CME Group Inc.
   symbol: CME
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -13492,8 +13239,7 @@ companies:
 - name: CMS Energy Corporation
   symbol: CMS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -13514,8 +13260,7 @@ companies:
 - name: Comerica Inc.
   symbol: CMA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -13535,8 +13280,7 @@ companies:
 - name: Conagra Brands Inc.
   symbol: CAG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -13582,8 +13326,7 @@ companies:
 - name: Consolidated Edison Inc.
   symbol: ED
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -13610,8 +13353,7 @@ companies:
 - name: Constellation Brands Inc.
   symbol: STZ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -13631,8 +13373,7 @@ companies:
 - name: The Cooper Companies Inc.
   symbol: COO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -13654,7 +13395,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Auto Vehicles, Parts & Service Retailers
   - Retailers
@@ -13674,8 +13414,7 @@ companies:
 - name: Corning Inc.
   symbol: GLW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -13712,8 +13451,7 @@ companies:
 - name: Crown Castle International Corp
   symbol: CCI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -13736,8 +13474,7 @@ companies:
 - name: Cummins Inc.
   symbol: CMI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto, Truck & Motorcycle Parts
   - Automobiles & Auto Parts
@@ -13756,8 +13493,7 @@ companies:
 - name: Darden Restaurants Inc.
   symbol: DRI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Restaurants & Bars
@@ -13777,8 +13513,7 @@ companies:
 - name: DaVita Inc.
   symbol: DVA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -13801,8 +13536,7 @@ companies:
 - name: Deere & Company
   symbol: DE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -13822,8 +13556,7 @@ companies:
 - name: Delta Air Lines Inc.
   symbol: DAL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Passenger Transportation Services
   - Industrials
@@ -13844,8 +13577,7 @@ companies:
 - name: Devon Energy Corporation
   symbol: DVN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -13868,8 +13600,7 @@ companies:
 - name: Diamondback Energy Inc.
   symbol: FANG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -13890,8 +13621,7 @@ companies:
 - name: Digital Realty Trust Inc.
   symbol: DLR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -13911,8 +13641,7 @@ companies:
 - name: Discover Financials
   symbol: DFS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -13932,8 +13661,7 @@ companies:
 - name: Dollar General Corporation
   symbol: DG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Diversified Retail
   - Retailers
@@ -13956,8 +13684,7 @@ companies:
 - name: Dominion Energy Inc.
   symbol: D
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -13976,8 +13703,7 @@ companies:
 - name: Dover Corporation
   symbol: DOV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -13997,8 +13723,7 @@ companies:
 - name: D.R. Horton Inc.
   symbol: DHI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Homebuilding
@@ -14018,8 +13743,7 @@ companies:
 - name: DTE Energy Company
   symbol: DTE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -14041,8 +13765,7 @@ companies:
 - name: Duke Realty Corporation
   symbol: DRE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -14065,8 +13788,7 @@ companies:
 - name: DXC Technology Company
   symbol: DXC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -14104,8 +13826,7 @@ companies:
 - name: Eastman Chemical Company
   symbol: EMN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -14124,8 +13845,7 @@ companies:
 - name: Eaton Corporation PLC
   symbol: ETN
   country: Ireland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -14146,8 +13866,7 @@ companies:
 - name: Ecolab Inc.
   symbol: ECL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -14166,8 +13885,7 @@ companies:
 - name: Edison International
   symbol: EIX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -14189,8 +13907,7 @@ companies:
 - name: Edwards Lifesciences Corporation
   symbol: EW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -14210,8 +13927,7 @@ companies:
 - name: Entergy Corporation
   symbol: ETR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -14233,8 +13949,7 @@ companies:
 - name: EOG Resources Inc.
   symbol: EOG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -14257,8 +13972,7 @@ companies:
 - name: Equifax Inc.
   symbol: EFX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -14278,8 +13992,7 @@ companies:
 - name: Equinix Inc. (REIT)
   symbol: EQIX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -14303,8 +14016,7 @@ companies:
 - name: Equity Residential
   symbol: EQR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -14327,8 +14039,7 @@ companies:
 - name: Essex Property Trust Inc.
   symbol: ESS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -14351,8 +14062,7 @@ companies:
 - name: Everest Re Group, Ltd.
   symbol: RE
   country: Bermuda
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -14371,8 +14081,7 @@ companies:
 - name: Evergy Inc.
   symbol: EVRG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -14391,8 +14100,7 @@ companies:
 - name: Eversource Energy
   symbol: ES
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -14411,8 +14119,7 @@ companies:
 - name: Expeditors International of Washington Inc.
   symbol: EXPD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Air Freight & Courier Services
@@ -14432,8 +14139,7 @@ companies:
 - name: Extra Space Storage Inc.
   symbol: EXR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -14456,8 +14162,7 @@ companies:
 - name: F5 Networks Inc.
   symbol: FFIV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -14479,8 +14184,7 @@ companies:
 - name: Federal Realty Investment Trust
   symbol: FRT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -14503,8 +14207,7 @@ companies:
 - name: Fidelity National Information Services Inc.
   symbol: FIS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -14527,8 +14230,7 @@ companies:
 - name: Fifth Third Bancorp
   symbol: FITB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -14551,8 +14253,7 @@ companies:
 - name: First Republic Bank
   symbol: FRC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -14572,8 +14273,7 @@ companies:
 - name: FirstEnergy Corp.
   symbol: FE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -14595,8 +14295,7 @@ companies:
 - name: FleetCor Technologies Inc.
   symbol: FLT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -14673,8 +14372,7 @@ companies:
 - name: FMC Corporation
   symbol: FMC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Diversified Chemicals
   - Basic Materials
@@ -14715,8 +14413,7 @@ companies:
 - name: Fortinet Inc.
   symbol: FTNT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -14735,8 +14432,7 @@ companies:
 - name: Fortive Corporation
   symbol: FTV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -14759,8 +14455,7 @@ companies:
 - name: Fortune Brands Home & Security Inc.
   symbol: FBHS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Construction Supplies & Fixtures
@@ -14785,7 +14480,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -14813,8 +14507,7 @@ companies:
 - name: Franklin Resources Inc.
   symbol: BEN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -14837,8 +14530,7 @@ companies:
 - name: Freeport-McMoRan Inc.
   symbol: FCX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -14858,8 +14550,7 @@ companies:
 - name: The Gap Inc.
   symbol: GPS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -14882,8 +14573,7 @@ companies:
 - name: Garmin Ltd.
   symbol: GRMN
   country: Switzerland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -14902,8 +14592,7 @@ companies:
 - name: Gartner Inc.
   symbol: IT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -14922,8 +14611,7 @@ companies:
 - name: General Mills Inc.
   symbol: GIS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -14943,8 +14631,7 @@ companies:
 - name: Genuine Parts Company
   symbol: GPC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto, Truck & Motorcycle Parts
   - Automobiles & Auto Parts
@@ -14966,8 +14653,7 @@ companies:
 - name: Global Payments Inc.
   symbol: GPN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -14987,8 +14673,7 @@ companies:
 - name: W.W. Grainger Inc.
   symbol: GWW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Real Estate
@@ -15015,8 +14700,7 @@ companies:
 - name: Halliburton Company
   symbol: HAL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -15036,8 +14720,7 @@ companies:
 - name: Hanesbrands Inc.
   symbol: HBI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -15075,8 +14758,7 @@ companies:
 - name: The Hartford Financials Group Inc.
   symbol: HIG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -15095,8 +14777,7 @@ companies:
 - name: Hasbro Inc.
   symbol: HAS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Leisure Products
@@ -15119,8 +14800,7 @@ companies:
 - name: HCA Healthcare Inc.
   symbol: HCA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -15141,8 +14821,7 @@ companies:
   wiki_name: Healthpeak Properties, Inc.
   symbol: PEAK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real estate investment trust
   - Specialized REITs
@@ -15186,8 +14865,7 @@ companies:
 - name: The Hershey Company
   symbol: HSY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -15211,8 +14889,7 @@ companies:
 - name: Hess Corporation
   symbol: HES
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -15234,8 +14911,7 @@ companies:
 - name: Hewlett Packard Enterprise Company
   symbol: HPE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -15258,8 +14934,7 @@ companies:
 - name: Hilton Worldwide Holdings Inc.
   symbol: HLT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -15298,8 +14973,7 @@ companies:
 - name: Hologic Inc.
   symbol: HOLX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -15322,8 +14996,7 @@ companies:
 - name: Hormel Foods Corporation
   symbol: HRL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -15343,8 +15016,7 @@ companies:
 - name: Host Hotels & Resorts Inc.
   symbol: HST
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -15367,8 +15039,7 @@ companies:
 - name: HP Inc.
   symbol: HPQ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computers, Phones & Household Electronics
   - Technology
@@ -15391,8 +15062,7 @@ companies:
 - name: Humana Inc.
   symbol: HUM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Managed Health care
   - Healthcare
@@ -15415,8 +15085,7 @@ companies:
 - name: Huntington Bancshares Inc.
   symbol: HBAN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -15442,8 +15111,7 @@ companies:
 - name: Huntington Ingalls Industries Inc.
   symbol: HII
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -15464,7 +15132,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -15487,8 +15154,7 @@ companies:
 - name: IHS Markit Ltd.
   symbol: INFO
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -15511,8 +15177,7 @@ companies:
 - name: Illinois Tool Works Inc.
   symbol: ITW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Industrial Conglomerates
@@ -15531,8 +15196,7 @@ companies:
 - name: Intercontinental Exchange Inc.
   symbol: ICE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -15552,8 +15216,7 @@ companies:
 - name: International Flavors & Fragrances Inc.
   symbol: IFF
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -15573,8 +15236,7 @@ companies:
 - name: International Paper Company
   symbol: IP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -15600,8 +15262,7 @@ companies:
 - name: The Interpublic Group of Companies Inc.
   symbol: IPG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Media & Publishing
   - Advertising & Marketing
@@ -15624,8 +15285,7 @@ companies:
 - name: Invesco Ltd.
   symbol: IVZ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -15645,8 +15305,7 @@ companies:
 - name: IPG Photonics Corporation
   symbol: IPGP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -15668,8 +15327,7 @@ companies:
 - name: IQVIA Holdings Inc.
   symbol: IQV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -15691,8 +15349,7 @@ companies:
 - name: Iron Mountain Inc.
   symbol: IRM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -15712,8 +15369,7 @@ companies:
 - name: J.B. Hunt Transport Services Inc.
   symbol: JBHT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -15736,8 +15392,7 @@ companies:
 - name: Jack Henry & Associates Inc.
   symbol: JKHY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -15759,8 +15414,7 @@ companies:
 - name: Jacobs Engineering Group Inc.
   symbol: JEC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Construction & Engineering
@@ -15799,8 +15453,7 @@ companies:
 - name: The J. M. Smucker Company
   symbol: SJM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -15823,8 +15476,7 @@ companies:
 - name: Johnson Controls International PLC
   symbol: JCI
   country: Ireland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -15845,8 +15497,7 @@ companies:
 - name: Juniper Networks Inc.
   symbol: JNPR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -15868,8 +15519,7 @@ companies:
 - name: Kansas City Southern
   symbol: KSU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -15892,8 +15542,7 @@ companies:
 - name: Kellogg Company
   symbol: K
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -15932,8 +15581,7 @@ companies:
 - name: Keysight Technologies Inc.
   symbol: KEYS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -15956,8 +15604,7 @@ companies:
 - name: Kimberly-Clark Corporation
   symbol: KMB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -15980,8 +15627,7 @@ companies:
 - name: Kimco Realty Corporation
   symbol: KIM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -16009,7 +15655,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Semiconductor Equipment & Testing
   - Technology
@@ -16051,8 +15696,7 @@ companies:
 - name: The Kroger Co.
   symbol: KR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -16092,8 +15736,7 @@ companies:
 - name: Laboratory Corporation of America Holdings
   symbol: LH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -16116,8 +15759,7 @@ companies:
 - name: Lamb Weston Holdings Inc.
   symbol: LW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -16137,8 +15779,7 @@ companies:
 - name: The Estée Lauder Companies Inc.
   symbol: EL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cosmetics
   symbols:
@@ -16155,8 +15796,7 @@ companies:
 - name: Leggett & Platt Inc.
   symbol: LEG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Household Goods
@@ -16176,8 +15816,7 @@ companies:
 - name: Lennar Corporation
   symbol: LEN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Homebuilding
@@ -16203,8 +15842,7 @@ companies:
 - name: Lincoln National Corporation
   symbol: LNC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -16223,8 +15861,7 @@ companies:
 - name: LKQ Corporation
   symbol: LKQ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Auto, Truck & Motorcycle Parts
   - Automobiles & Auto Parts
@@ -16246,8 +15883,7 @@ companies:
 - name: Loews Corporation
   symbol: L
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Property & Casualty Insurance
@@ -16269,8 +15905,7 @@ companies:
 - name: LyondellBasell Industries N.V.
   symbol: LYB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -16293,8 +15928,7 @@ companies:
 - name: M&T Bank Corporation
   symbol: MTB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -16355,8 +15989,7 @@ companies:
 - name: Marathon Oil Corporation
   symbol: MRO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -16376,8 +16009,7 @@ companies:
 - name: Marathon Petroleum Corporation
   symbol: MPC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -16396,8 +16028,7 @@ companies:
 - name: Marsh & McLennan Companies Inc.
   symbol: MMC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -16416,8 +16047,7 @@ companies:
 - name: Martin Marietta Materials Inc.
   symbol: MLM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Construction Materials
   - Mineral Resources
@@ -16436,8 +16066,7 @@ companies:
 - name: Masco Corporation
   symbol: MAS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Construction Supplies & Fixtures
@@ -16460,8 +16089,7 @@ companies:
 - name: McCormick & Company Inc.
   symbol: MKC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -16481,8 +16109,7 @@ companies:
 - name: McKesson Corporation
   symbol: MCK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -16504,8 +16131,7 @@ companies:
 - name: Mettler-Toledo International Inc.
   symbol: MTD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -16525,8 +16151,7 @@ companies:
 - name: MGM Resorts International
   symbol: MGM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Casinos & Gaming
@@ -16546,8 +16171,7 @@ companies:
 - name: Mid-America Apartment Communities Inc.
   symbol: MAA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -16570,8 +16194,7 @@ companies:
 - name: Mohawk Industries Inc.
   symbol: MHK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Household Goods
@@ -16614,8 +16237,7 @@ companies:
 - name: The Mosaic Company
   symbol: MOS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Agricultural Chemicals
   - Basic Materials
@@ -16637,8 +16259,7 @@ companies:
 - name: Motorola Solutions Inc.
   symbol: MSI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -16657,8 +16278,7 @@ companies:
 - name: MSCI Inc.
   symbol: MSCI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -16679,8 +16299,7 @@ companies:
   wiki_name: Nasdaq
   symbol: NDAQ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -16741,8 +16360,7 @@ companies:
 - name: Newell Brands Inc.
   symbol: NWL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Appliances, Tools & Housewares
@@ -16765,8 +16383,7 @@ companies:
 - name: Newmont Goldcorp Corporation
   symbol: NEM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -16786,8 +16403,7 @@ companies:
 - name: News Corporation
   symbol: NWSA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Media & Publishing
   - Consumer Publishing
@@ -16815,8 +16431,7 @@ companies:
 - name: Nielsen Holdings PLC
   symbol: NLSN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Media & Publishing
   - Advertising & Marketing
@@ -16837,8 +16452,7 @@ companies:
 - name: NiSource Inc.
   symbol: NI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -16897,8 +16511,7 @@ companies:
 - name: Norfolk Southern Corporation
   symbol: NSC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -16918,8 +16531,7 @@ companies:
 - name: Northern Trust Corporation
   symbol: NTRS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -16939,8 +16551,7 @@ companies:
 - name: Norwegian Cruise Line Holdings Ltd.
   symbol: NCLH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -16960,8 +16571,7 @@ companies:
 - name: NRG Energy Inc.
   symbol: NRG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -16980,8 +16590,7 @@ companies:
 - name: Nucor Corporation
   symbol: NUE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -17001,8 +16610,7 @@ companies:
 - name: Omnicom Group Inc.
   symbol: OMC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Media & Publishing
   - Advertising & Marketing
@@ -17022,8 +16630,7 @@ companies:
 - name: ONEOK Inc.
   symbol: OKE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -17046,8 +16653,7 @@ companies:
 - name: Packaging Corporation of America
   symbol: PKG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Paper Packaging
   - Basic Materials
@@ -17067,8 +16673,7 @@ companies:
 - name: Parker-Hannifin Corporation
   symbol: PH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -17088,8 +16693,7 @@ companies:
 - name: Pentair PLC
   symbol: PNR
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -17113,8 +16717,7 @@ companies:
 - name: People's United Financial Inc.
   symbol: PBCT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -17137,8 +16740,7 @@ companies:
 - name: PerkinElmer Inc.
   symbol: PKI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -17181,8 +16783,7 @@ companies:
 - name: Phillips 66
   symbol: PSX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -17201,8 +16802,7 @@ companies:
 - name: Pinnacle West Capital Corporation
   symbol: PNW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -17222,8 +16822,7 @@ companies:
 - name: Pioneer Natural Resources Company
   symbol: PXD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -17246,8 +16845,7 @@ companies:
 - name: The PNC Financials Group Inc.
   symbol: PNC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -17267,8 +16865,7 @@ companies:
 - name: PPG Industries Inc.
   symbol: PPG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -17290,8 +16887,7 @@ companies:
 - name: PPL Corporation
   symbol: PPL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -17312,8 +16908,7 @@ companies:
 - name: The Progressive Corporation
   symbol: PGR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Property & Casualty Insurance
@@ -17332,8 +16927,7 @@ companies:
 - name: Prologis Inc.
   symbol: PLD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -17353,8 +16947,7 @@ companies:
 - name: Prudential Financial Inc.
   symbol: PRU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -17376,8 +16969,7 @@ companies:
 - name: Public Service Enterprise Group Inc.
   symbol: PEG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Real Estate
@@ -17401,8 +16993,7 @@ companies:
 - name: Public Storage
   symbol: PSA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -17423,8 +17014,7 @@ companies:
 - name: PulteGroup Inc.
   symbol: PHM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Homebuilding
@@ -17447,8 +17037,7 @@ companies:
 - name: PVH Corp.
   symbol: PVH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -17471,8 +17060,7 @@ companies:
 - name: Qorvo Inc.
   symbol: QRVO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Semiconductor Equipment & Testing
   - Technology
@@ -17493,8 +17081,7 @@ companies:
 - name: Quanta Services Inc.
   symbol: PWR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Construction & Engineering
@@ -17516,8 +17103,7 @@ companies:
 - name: Quest Diagnostics Inc.
   symbol: DGX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -17537,8 +17123,7 @@ companies:
 - name: Ralph Lauren Corporation
   symbol: RL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -17561,8 +17146,7 @@ companies:
 - name: Raymond James Financial Inc.
   symbol: RJF
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -17582,8 +17166,7 @@ companies:
 - name: Realty Income Corporation
   symbol: O
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -17624,8 +17207,7 @@ companies:
 - name: Regions Financial Corporation
   symbol: RF
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -17648,8 +17230,7 @@ companies:
 - name: Republic Services Inc.
   symbol: RSG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Environmental Services & Equipment
   - Industrials
@@ -17672,8 +17253,7 @@ companies:
 - name: ResMed Inc.
   symbol: RMD
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -17693,8 +17273,7 @@ companies:
 - name: Robert Half International Inc.
   symbol: RHI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrials
   - Professional & Commercial Services
@@ -17717,8 +17296,7 @@ companies:
 - name: Rockwell Automation Inc.
   symbol: ROK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -17738,8 +17316,7 @@ companies:
 - name: Rollins Inc.
   symbol: ROL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -17759,8 +17336,7 @@ companies:
 - name: Roper Technologies Inc.
   symbol: ROP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -17783,8 +17359,7 @@ companies:
 - name: Royal Caribbean Cruises Ltd.
   symbol: RCL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Cyclical Consumer Services
@@ -17805,8 +17380,7 @@ companies:
 - name: S&P Global Inc.
   symbol: SPGI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Professional Information Services
   - Industrials
@@ -17832,7 +17406,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -17851,8 +17424,7 @@ companies:
 - name: SBA Communications Corporation
   symbol: SBAC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -17872,8 +17444,7 @@ companies:
 - name: The Charles Schwab Corporation
   symbol: SCHW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Financials
   symbols:
@@ -17893,8 +17464,7 @@ companies:
 - name: Sealed Air Corporation
   symbol: SEE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Non-Paper Containers & Packaging
   - Basic Materials
@@ -17917,8 +17487,7 @@ companies:
 - name: Sempra Energy
   symbol: SRE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Multiline Utilities
   - Utilities
@@ -17936,8 +17505,7 @@ companies:
 - name: The Sherwin-Williams Company
   symbol: SHW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commodity Chemicals
   - Basic Materials
@@ -17979,8 +17547,7 @@ companies:
 - name: Snap-on Inc.
   symbol: SNA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Software
   - Technology
@@ -17999,8 +17566,7 @@ companies:
 - name: Southwest Airlines Co.
   symbol: LUV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Passenger Transportation Services
   - Industrials
@@ -18020,8 +17586,7 @@ companies:
 - name: Stanley Black & Decker Inc.
   symbol: SWK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -18044,8 +17609,7 @@ companies:
 - name: State Street Corporation
   symbol: STT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -18065,8 +17629,7 @@ companies:
 - name: Stryker Corporation
   symbol: SYK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -18108,8 +17671,7 @@ companies:
 - name: SVB Financial Group
   symbol: SIVB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -18129,8 +17691,7 @@ companies:
 - name: Synchrony Financial
   symbol: SYF
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -18155,7 +17716,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Software
   - Technology
@@ -18177,8 +17737,7 @@ companies:
 - name: Sysco Corporation
   symbol: SYY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -18200,8 +17759,7 @@ companies:
 - name: T. Rowe Price Group Inc.
   symbol: TROW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -18224,8 +17782,7 @@ companies:
 - name: Take-Two Interactive Software Inc.
   symbol: TTWO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Leisure Products
@@ -18245,8 +17802,7 @@ companies:
 - name: Tapestry Inc.
   symbol: TPR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -18266,8 +17822,7 @@ companies:
 - name: TE Connectivity Ltd.
   symbol: TEL
   country: Switzerland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -18287,8 +17842,7 @@ companies:
 - name: Teleflex Inc.
   symbol: TFX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -18310,7 +17864,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -18353,8 +17906,7 @@ companies:
 - name: The TJX Companies Inc.
   symbol: TJX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Diversified Retail
   - Retailers
@@ -18378,8 +17930,7 @@ companies:
   wiki_name: Globe Life Inc.
   symbol: GL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Life insurance
   - Insurance
@@ -18421,8 +17972,7 @@ companies:
 - name: Twitter Inc.
   symbol: TWTR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -18441,8 +17991,7 @@ companies:
 - name: Tyson Foods Inc.
   symbol: TSN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -18465,8 +18014,7 @@ companies:
 - name: UDR Inc.
   symbol: UDR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -18489,8 +18037,7 @@ companies:
 - name: Under Armour Inc.
   symbol: UAA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -18524,8 +18071,7 @@ companies:
 - name: United Continental Holdings Inc.
   symbol: UAL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -18547,8 +18093,7 @@ companies:
 - name: United Rentals Inc.
   symbol: URI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -18571,8 +18116,7 @@ companies:
 - name: Universal Health Services Inc.
   symbol: UHS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Healthcare Providers & Services
@@ -18618,8 +18162,7 @@ companies:
 - name: V.F. Corporation
   symbol: VFC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -18642,8 +18185,7 @@ companies:
 - name: Valero Energy Corporation
   symbol: VLO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -18682,8 +18224,7 @@ companies:
 - name: Ventas Inc.
   symbol: VTR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -18705,7 +18246,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Technology
   - Software & IT Services
@@ -18727,8 +18267,7 @@ companies:
 - name: Vornado Realty Trust
   symbol: VNO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -18748,8 +18287,7 @@ companies:
 - name: Vulcan Materials Company
   symbol: VMC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Construction Materials
   - Mineral Resources
@@ -18771,8 +18309,7 @@ companies:
 - name: Wabtec Corporation
   symbol: WAB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -18792,8 +18329,7 @@ companies:
 - name: Waste Management Inc.
   symbol: WM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Environmental Services & Equipment
   - Industrials
@@ -18813,8 +18349,7 @@ companies:
 - name: Waters Corporation
   symbol: WAT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -18837,8 +18372,7 @@ companies:
 - name: WEC Energy Group Inc.
   symbol: WEC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Electric Utilities
   - Electric Utilities & IPPs
@@ -18876,8 +18410,7 @@ companies:
 - name: Welltower Inc.
   symbol: WELL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -18900,8 +18433,7 @@ companies:
 - name: The Western Union Company
   symbol: WU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -18924,8 +18456,7 @@ companies:
 - name: WestRock Company
   symbol: WRK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Paper Packaging
   - Basic Materials
@@ -18951,8 +18482,7 @@ companies:
 - name: Weyerhaeuser Company
   symbol: WY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Specialized REITs
   - Real Estate
@@ -18975,8 +18505,7 @@ companies:
 - name: Whirlpool Corporation
   symbol: WHR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Appliances, Tools & Housewares
@@ -18996,8 +18525,7 @@ companies:
 - name: The Williams Companies Inc.
   symbol: WMB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -19020,8 +18548,7 @@ companies:
 - name: Willis Towers Watson Public Limited Company
   symbol: WLTW
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -19044,8 +18571,7 @@ companies:
 - name: Wynn Resorts, Limited
   symbol: WYNN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Casinos & Gaming
@@ -19090,8 +18616,7 @@ companies:
 - name: Xylem Inc.
   symbol: XYL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -19114,8 +18639,7 @@ companies:
 - name: YUM! Brands Inc.
   symbol: YUM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Restaurants & Bars
@@ -19135,8 +18659,7 @@ companies:
 - name: Zimmer Biomet Holdings Inc.
   symbol: ZBH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Medical Equipment, Supplies & Distribution
   - Healthcare
@@ -19156,8 +18679,7 @@ companies:
 - name: Zions Bancorporation, National Association
   symbol: ZION
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -19177,8 +18699,7 @@ companies:
 - name: Zoetis Inc.
   symbol: ZTS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -19336,8 +18857,7 @@ companies:
 - name: Barco N.V.
   symbol: BAR
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -19453,8 +18973,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - BEL 20
-  - EURO STOXX 50
   industries:
   - Banking & Investment Services
   - Banking Services
@@ -19674,8 +19192,7 @@ companies:
   wiki_name: WDP
   symbol: WDP
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -20143,7 +19660,6 @@ companies:
   symbol: ITX
   country: Spain
   indices:
-  - EURO STOXX 50
   - IBEX 35
   industries:
   - Retailers
@@ -20421,6 +19937,9 @@ companies:
   - yahoo: TEF
     google: NYSE:TEF
     currency: USD
+  - yahoo: TNE2.F
+    google: FRA:TNE2
+    currency: EUR
   isins:
   - ES0178430E18
   metadata:
@@ -20559,7 +20078,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - EURO STOXX 50
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -20732,8 +20250,7 @@ companies:
 - name: IMCD N.V.
   symbol: IMCD
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries:
   - Chemicals
   symbols:
@@ -20815,7 +20332,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - EURO STOXX 50
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -22022,8 +21538,7 @@ companies:
 - name: Corteva Inc.
   symbol: CTVA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Basic Materials
   - Agricultural Inputs
@@ -23126,7 +22641,8 @@ companies:
   wiki_name: SSE plc
   symbol: SSE
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries: []
   symbols:
   - yahoo: SSE.L
@@ -23147,8 +22663,7 @@ companies:
   wiki_name: Alliant Energy Corporation
   symbol: LNT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - utilities
   symbols:
@@ -23169,8 +22684,7 @@ companies:
   wiki_name: Amcor plc
   symbol: AMCR
   country: Switzerland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Packaging
   symbols:
@@ -23192,8 +22706,7 @@ companies:
   wiki_name: Bio-Rad Laboratories, Inc.
   symbol: BIO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: BIO
@@ -23210,8 +22723,7 @@ companies:
   wiki_name: Carrier Global Corporation
   symbol: CARR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Heating
   - Ventilating
@@ -23232,8 +22744,7 @@ companies:
   wiki_name: Catalent, Inc.
   symbol: CTLT
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: CTLT
@@ -23250,8 +22761,7 @@ companies:
   wiki_name: Cboe Global Markets, Inc.
   symbol: CBOE
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: 0HQN.L
@@ -23270,7 +22780,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - IT
   symbols:
@@ -23291,7 +22800,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries: []
   symbols:
   - yahoo: DXCM
@@ -23311,8 +22819,7 @@ companies:
   wiki_name: Domino's Pizza, Inc.
   symbol: DPZ
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food delivery
   - Franchising
@@ -23339,7 +22846,6 @@ companies:
   indices:
   - DOW JONES
   - S&P 100
-  - S&P 500
   industries:
   - Chemicals
   symbols:
@@ -23357,8 +22863,7 @@ companies:
   wiki_name: Etsy, Inc.
   symbol: ETSY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: ETSY
@@ -23380,7 +22885,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Aerospace
   - Defense
@@ -23402,8 +22906,7 @@ companies:
   wiki_name: Howmet Aerospace Inc.
   symbol: HWM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: HWM
@@ -23427,8 +22930,7 @@ companies:
   wiki_name: IDEX Corporation
   symbol: IEX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Manufacturing
   symbols:
@@ -23446,8 +22948,7 @@ companies:
   wiki_name: KeyBank
   symbol: KEY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Financial services
   symbols:
@@ -23462,8 +22963,7 @@ companies:
   wiki_name: L3Harris Technologies, Inc.
   symbol: LHX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Aerospace
   - Defense
@@ -23489,8 +22989,7 @@ companies:
   wiki_name: Las Vegas Sands Corporation
   symbol: LVS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Hospitality
   - Tourism
@@ -23506,8 +23005,7 @@ companies:
   wiki_name: Leidos Holdings, Inc.
   symbol: LDOS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - defense
   - healthcare
@@ -23526,8 +23024,7 @@ companies:
   wiki_name: Live Nation Entertainment, Inc.
   symbol: LYV
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Entertainment
   symbols:
@@ -23550,7 +23047,6 @@ companies:
   country: United States
   indices:
   - S&P 100
-  - S&P 500
   industries:
   - Advanced Technologies
   - Aerospace
@@ -23573,8 +23069,7 @@ companies:
   wiki_name: Lumen Technologies, Inc.
   symbol: LUMN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Telecommunication
   symbols:
@@ -23595,8 +23090,7 @@ companies:
   wiki_name: MarketAxess Holdings Inc.
   symbol: MKTX
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: MKTX
@@ -23614,8 +23108,7 @@ companies:
   wiki_name: Molson Coors Beverage Company
   symbol: TAP
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -23643,8 +23136,7 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -23655,8 +23147,7 @@ companies:
   wiki_name: Northrop Grumman Corporation
   symbol: NOC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Defense industry
   symbols:
@@ -23677,8 +23168,7 @@ companies:
   wiki_name: NortonLifeLock Inc.
   symbol: NLOK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computer security
   - Software
@@ -23700,8 +23190,7 @@ companies:
   wiki_name: NVR, Inc.
   symbol: NVR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Home construction
   symbols:
@@ -23719,8 +23208,7 @@ companies:
   wiki_name: Old Dominion Freight Line, Inc.
   symbol: ODFL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: ODFL
@@ -23741,8 +23229,7 @@ companies:
   wiki_name: Otis Worldwide Corporation
   symbol: OTIS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: OTIS
@@ -23759,8 +23246,7 @@ companies:
   wiki_name: Paycom Software, Inc.
   symbol: PAYC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - HCM
   symbols:
@@ -23784,7 +23270,6 @@ companies:
   indices:
   - NASDAQ 100
   - S&P 100
-  - S&P 500
   industries:
   - Beverages
   symbols:
@@ -23820,8 +23305,7 @@ companies:
   wiki_name: Principal Financial Group, Inc.
   symbol: PFG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: PFG
@@ -23841,8 +23325,7 @@ companies:
   wiki_name: Regency Centers Corporation
   symbol: REG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Real estate investment trust
   symbols:
@@ -23863,8 +23346,7 @@ companies:
   wiki_name: ServiceNow, Inc.
   symbol: NOW
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Enterprise software
   symbols:
@@ -23885,8 +23367,7 @@ companies:
   wiki_name: Teledyne Technologies Incorporated
   symbol: TDY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Conglomerate
   symbols:
@@ -23904,8 +23385,7 @@ companies:
   wiki_name: Teradyne, Inc.
   symbol: TER
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: TER
@@ -23925,8 +23405,7 @@ companies:
   wiki_name: Textron Inc.
   symbol: TXT
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Aerospace industry
   - Automotive industry
@@ -23950,8 +23429,7 @@ companies:
   wiki_name: Trane Technologies plc
   symbol: TT
   country: Ireland
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Conglomerate
   symbols:
@@ -23970,8 +23448,7 @@ companies:
   wiki_name: TransDigm Group
   symbol: TDG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Industrial Goods
   - Industrials
@@ -23991,8 +23468,7 @@ companies:
   wiki_name: Truist Financial Corporation
   symbol: TFC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Financial services
   - Banking & Investment Services
@@ -24015,8 +23491,7 @@ companies:
   wiki_name: Tyler Technologies, Inc.
   symbol: TYL
   country: Canada
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Software
   symbols:
@@ -24034,8 +23509,7 @@ companies:
   wiki_name: ViacomCBS Inc.
   symbol: VIAC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Mass media
   symbols:
@@ -24054,8 +23528,7 @@ companies:
   wiki_name: Viatris Inc.
   symbol: VTRS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   symbols:
@@ -24074,8 +23547,7 @@ companies:
   wiki_name: W. R. Berkley Corporation
   symbol: WRB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   symbols:
@@ -24096,8 +23568,7 @@ companies:
   wiki_name: West Pharmaceutical Services, Inc.
   symbol: WST
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   symbols:
@@ -24117,7 +23588,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries: []
   symbols:
   - yahoo: XEL
@@ -24137,8 +23607,7 @@ companies:
   wiki_name: Zebra Technologies Corporation
   symbol: ZBRA
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computer hardware
   symbols:
@@ -24156,8 +23625,7 @@ companies:
   wiki_name: Knorr-Bremse Aktiengesellschaft
   symbol: KBX
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Manufacturing
   symbols:
@@ -24183,7 +23651,7 @@ companies:
   symbol: SAE
   country: Netherlands
   indices:
-  - MDAX
+  - SDAX
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -24236,8 +23704,7 @@ companies:
   wiki_name: Strör SE & Co. KGaA
   symbol: null
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Mass media
   symbols: []
@@ -24250,9 +23717,7 @@ companies:
   wiki_name: TeamViewer AG
   symbol: null
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: TMV.F
@@ -24273,9 +23738,7 @@ companies:
   wiki_name: VARTA AG
   symbol: VAR1
   country: Germany
-  indices:
-  - MDAX
-  - TECDAX
+  indices: []
   industries:
   - Electrical equipment
   symbols:
@@ -24557,8 +24020,7 @@ companies:
   wiki_name: DBV Technologies
   symbol: DBVT
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols:
   - yahoo: DBVT
@@ -24578,8 +24040,7 @@ companies:
   wiki_name: Elior Group
   symbol: ELIOR
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Foodservice
   symbols:
@@ -24635,7 +24096,8 @@ companies:
   wiki_name: Eurofins Scientific SE
   symbol: ESF0
   country: Luxembourg
-  indices: []
+  indices:
+  - CAC 40
   industries:
   - Laboratory
   - analysis
@@ -24794,8 +24256,7 @@ companies:
   wiki_name: Gaztransport & Technigaz
   symbol: 9TG
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries: []
   symbols:
   - yahoo: 9TG.F
@@ -25220,8 +24681,7 @@ companies:
   wiki_name: TF1 Group
   symbol: FSE
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Media
   symbols:
@@ -25281,8 +24741,7 @@ companies:
   wiki_name: Virbac
   symbol: VRBCF
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Animal health care
   symbols:
@@ -25431,8 +24890,7 @@ companies:
   wiki_name: Aedifica
   symbol: AOO
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries: []
   symbols:
   - yahoo: AOO.F
@@ -25654,7 +25112,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries: []
   symbols:
   - yahoo: LPK.F
@@ -25755,8 +25212,7 @@ companies:
   wiki_name: Enel S.p.A.
   symbol: ENEL
   country: Italy
-  indices:
-  - EURO STOXX 50
+  indices: []
   industries:
   - Electric utility
   symbols: []
@@ -25817,7 +25273,6 @@ companies:
   country: France
   indices:
   - CAC 40
-  - EURO STOXX 50
   industries:
   - Luxury goods
   - Cyclical Consumer Products
@@ -25901,7 +25356,7 @@ companies:
   symbol: AGOAF
   country: Spain
   indices:
-  - SDAX
+  - MDAX
   industries: []
   symbols:
   - yahoo: AGOAF
@@ -25989,8 +25444,7 @@ companies:
   wiki_name: ElringKlinger AG
   symbol: ZIL2
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Automotive
   symbols:
@@ -26130,8 +25584,7 @@ companies:
   wiki_name: Medios AG
   symbol: ILM1
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: ILM1.F
@@ -26194,6 +25647,9 @@ companies:
   - yahoo: 8TRA.F
     google: FRA:8TRA
     currency: EUR
+  - yahoo: TRATF
+    google: OTCMKTS:TRATF
+    currency: USD
   isins:
   - DE000TRAT0N7
   metadata:
@@ -26226,8 +25682,7 @@ companies:
   wiki_name: Westwing Group AG
   symbol: WEW
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: WEW.F
@@ -26357,8 +25812,7 @@ companies:
   wiki_name: TCS Group
   symbol: TCSG
   country: Cyprus
-  indices:
-  - MOEX
+  indices: []
   industries: []
   symbols:
   - yahoo: TCSG.ME
@@ -26493,7 +25947,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Online dating service
   symbols:
@@ -26528,7 +25981,6 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
-  - S&P 500
   industries:
   - Biotechnology
   symbols:
@@ -26699,8 +26151,7 @@ companies:
   wiki_name: Caesars Entertainment, Inc.
   symbol: CZR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Gaming
   - hospitality
@@ -26722,8 +26173,7 @@ companies:
   wiki_name: Charles River Laboratories International, Inc.
   symbol: CRL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   - Biotechnology
@@ -26745,8 +26195,7 @@ companies:
   wiki_name: Enphase Energy, Inc.
   symbol: ENPH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Renewable Energy
   - Solar Energy
@@ -26770,8 +26219,7 @@ companies:
   wiki_name: Generac Holdings Inc.
   symbol: GNRC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Manufacturing
   symbols:
@@ -26789,8 +26237,7 @@ companies:
   wiki_name: Monolithic Power Systems, Inc.
   symbol: MPWR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: MPWR
@@ -26807,8 +26254,7 @@ companies:
   wiki_name: Penn National Gaming, Inc.
   symbol: PENN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Casino
   - Horse racing
@@ -26827,8 +26273,7 @@ companies:
   wiki_name: PTC Inc.
   symbol: PTC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - PLM
   - IOT
@@ -26847,8 +26292,7 @@ companies:
   wiki_name: Trimble Inc.
   symbol: TRMB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - RFID
   symbols:
@@ -26889,8 +26333,7 @@ companies:
   wiki_name: New York Stock Exchange
   symbol: MMM
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -26997,8 +26440,7 @@ companies:
   wiki_name: Solaria
   symbol: SLR
   country: Spain
-  indices:
-  - IBEX 35
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -27009,8 +26451,7 @@ companies:
   wiki_name: AUTO1 Group SE
   symbol: AG1
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: AG1.F
@@ -27031,8 +26472,7 @@ companies:
   wiki_name: Süss Microtec SE
   symbol: null
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -27358,8 +26798,7 @@ companies:
   wiki_name: Organon & Co.
   symbol: OGN
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: OGN
@@ -27432,8 +26871,7 @@ companies:
   wiki_name: Vantage Towers AG
   symbol: VTWR
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: VTWR.F
@@ -27480,8 +26918,7 @@ companies:
   wiki_name: Bath & Body Works, Inc.
   symbol: BBWI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Retailing
   symbols:
@@ -27550,8 +26987,7 @@ companies:
   wiki_name: Albioma
   symbol: ABIO
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - solar energy
   - biomass
@@ -27596,8 +27032,7 @@ companies:
   wiki_name: Neoen
   symbol: NEOEN
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - renewable energy
   symbols:
@@ -27750,8 +27185,7 @@ companies:
   wiki_name: Bio-Techne Corporation
   symbol: TECH
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Biotechnology
   symbols:
@@ -27795,8 +27229,7 @@ companies:
   wiki_name: Brown & Brown, Inc.
   symbol: BRO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: BRO
@@ -27814,8 +27247,7 @@ companies:
   wiki_name: Ceridian HCM Holding Inc.
   symbol: CDAY
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: CDAY
@@ -27832,8 +27264,7 @@ companies:
   wiki_name: Ingersoll Rand Inc.
   symbol: IR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols:
   - yahoo: IR
@@ -27847,3 +27278,80 @@ companies:
   metadata:
     founded: 1859
     employees: 15900
+- name: SUSE S.A.
+  wiki_name: SUSE S.A.
+  symbol: SUSE
+  country: '[[Nürnberg]]'
+  indices:
+  - SDAX
+  - TECDAX
+  industries:
+  - Computer software
+  symbols:
+  - yahoo: SUSE.F
+    google: FRA:SUSE
+    currency: EUR
+  isins:
+  - LU2333210958
+  metadata:
+    founded: 1992
+    employees: 1750
+- name: Solar power in Spain
+  wiki_name: Solar power in Spain
+  symbol: SLR
+  country: Finland
+  indices:
+  - IBEX 35
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Darktrace plc
+  wiki_name: Darktrace plc
+  symbol: DARK
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries: []
+  symbols:
+  - yahoo: DRKTF
+    google: OTCMKTS:DRKTF
+    currency: USD
+  - yahoo: DARK.L
+    google: LON:DARK
+    currency: GBP
+  - yahoo: 7TJ.F
+    google: FRA:7TJ
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 2013
+    employees: 1200
+- name: Elia System Operator S.A.
+  wiki_name: Elia System Operator S.A.
+  symbol: XBRU
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0003822393
+  metadata:
+    founded: 2001
+    employees: 1229
+- name: Melexis
+  wiki_name: Melexis
+  symbol: null
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0165385973
+  metadata:
+    founded: 1988
+    employees: 1200
