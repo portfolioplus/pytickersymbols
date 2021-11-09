@@ -7571,6 +7571,9 @@ companies:
   - yahoo: PDRDY
     google: OTCMKTS:PDRDY
     currency: USD
+  - yahoo: PRNDY
+    google: OTCMKTS:PRNDY
+    currency: USD
   metadata:
     founded: 1975
     employees: 18914
@@ -21342,6 +21345,9 @@ companies:
   - yahoo: 0GUX.L
     google: LON:0GUX
     currency: GBP
+  - yahoo: SEBC.F
+    google: FRA:SEBC
+    currency: EUR
   metadata:
     founded: 1856
     employees: 15000
