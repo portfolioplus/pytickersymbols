@@ -6326,6 +6326,9 @@ companies:
   - yahoo: TCO2.F
     google: FRA:TCO2
     currency: EUR
+  - yahoo: TCO0.F
+    google: FRA:TCO0
+    currency: EUR
   metadata:
     founded: 1919
     employees: 423092
@@ -10505,6 +10508,12 @@ companies:
   - yahoo: ULTA
     google: NASDAQ:ULTA
     currency: USD
+  - yahoo: 34U.F
+    google: FRA:34U
+    currency: EUR
+  - yahoo: 0LIB.L
+    google: LON:0LIB
+    currency: GBP
   metadata:
     founded: 1990
     employees: 44000
@@ -13752,6 +13761,9 @@ companies:
   - yahoo: CMI
     google: NYSE:CMI
     currency: USD
+  - yahoo: 0I58.L
+    google: LON:0I58
+    currency: GBP
   metadata:
     founded: 1919
     employees: 57825
