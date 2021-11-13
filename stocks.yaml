@@ -13234,6 +13234,9 @@ companies:
   - yahoo: CNP
     google: NYSE:CNP
     currency: USD
+  - yahoo: 0HVF.L
+    google: LON:0HVF
+    currency: GBP
   metadata:
     founded: 1882
     employees: 7977
@@ -17590,6 +17593,9 @@ companies:
   - yahoo: RJF
     google: NYSE:RJF
     currency: USD
+  - yahoo: 0KU1.L
+    google: LON:0KU1
+    currency: GBP
   metadata:
     founded: 1962
     employees: 18910
@@ -23345,6 +23351,9 @@ companies:
   - yahoo: DPUKY
     google: OTCMKTS:DPUKY
     currency: USD
+  - yahoo: EZV.F
+    google: FRA:EZV
+    currency: EUR
   isins:
   - US25754A2015
   metadata:
