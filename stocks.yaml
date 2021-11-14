@@ -10167,6 +10167,9 @@ companies:
   - yahoo: PAYX
     google: NASDAQ:PAYX
     currency: USD
+  - yahoo: 0KGE.L
+    google: LON:0KGE
+    currency: GBP
   metadata:
     founded: 1971
     employees: 14300
@@ -11759,6 +11762,9 @@ companies:
   - yahoo: USB
     google: NYSE:USB
     currency: USD
+  - yahoo: 0LHY.L
+    google: LON:0LHY
+    currency: GBP
   metadata:
     founded: 1968
     employees: 69651
@@ -24412,7 +24418,10 @@ companies:
   - CAC Mid 60
   industries:
   - Investment management
-  symbols: []
+  symbols:
+  - yahoo: AMDUF
+    google: OTCMKTS:AMDUF
+    currency: USD
   isins:
   - FR0004125920
   metadata:
@@ -25198,6 +25207,9 @@ companies:
   - yahoo: OR8.F
     google: FRA:OR8
     currency: EUR
+  - yahoo: SPSAF
+    google: OTCMKTS:SPSAF
+    currency: USD
   isins:
   - FR0000050809
   metadata:
