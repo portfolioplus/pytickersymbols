@@ -1224,6 +1224,12 @@ companies:
   - yahoo: EVTA.F
     google: FRA:EVTA
     currency: EUR
+  - yahoo: EVOTF
+    google: OTCMKTS:EVOTF
+    currency: USD
+  - yahoo: EVO
+    google: NASDAQ:EVO
+    currency: USD
   metadata:
     founded: 1993
     employees: 3030
@@ -2832,6 +2838,9 @@ companies:
   - yahoo: HHULY
     google: OTCMKTS:HHULY
     currency: USD
+  - yahoo: HHFB.F
+    google: FRA:HHFB
+    currency: EUR
   metadata:
     founded: 1885
     employees: 6312
@@ -17442,6 +17451,9 @@ companies:
   - yahoo: PSA
     google: NYSE:PSA
     currency: USD
+  - yahoo: PBSTV
+    google: OTCMKTS:PBSTV
+    currency: USD
   metadata:
     founded: 1972
     employees: 5500
@@ -19158,6 +19170,9 @@ companies:
   - yahoo: YUM
     google: NYSE:YUM
     currency: USD
+  - yahoo: 0QYD.L
+    google: LON:0QYD
+    currency: GBP
   metadata:
     founded: 1997
     employees: 34000
@@ -24350,6 +24365,9 @@ companies:
   - yahoo: 1TY.F
     google: FRA:1TY
     currency: EUR
+  - yahoo: 1YL.F
+    google: FRA:1YL
+    currency: EUR
   isins:
   - NL0013654783
   metadata:
@@ -26119,6 +26137,9 @@ companies:
   - yahoo: 0A5S.L
     google: LON:0A5S
     currency: GBP
+  - yahoo: HNSDF
+    google: OTCMKTS:HNSDF
+    currency: USD
   isins:
   - DE000HAG0005
   metadata:
