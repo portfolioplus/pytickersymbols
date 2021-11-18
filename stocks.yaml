@@ -15086,6 +15086,9 @@ companies:
   - yahoo: HBI
     google: NYSE:HBI
     currency: USD
+  - yahoo: 0J2X.L
+    google: LON:0J2X
+    currency: GBP
   metadata:
     founded: 2006
     employees: 67200
@@ -15372,6 +15375,9 @@ companies:
   - yahoo: HRL
     google: NYSE:HRL
     currency: USD
+  - yahoo: 0J5Z.L
+    google: LON:0J5Z
+    currency: GBP
   metadata:
     founded: 1891
     employees: 20000
@@ -18697,6 +18703,9 @@ companies:
   - yahoo: VLO
     google: NYSE:VLO
     currency: USD
+  - yahoo: 0LK6.L
+    google: LON:0LK6
+    currency: GBP
   metadata:
     founded: 1980
     employees: 10015
