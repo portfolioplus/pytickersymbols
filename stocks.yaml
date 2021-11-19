@@ -1057,6 +1057,9 @@ companies:
   - yahoo: DLVHF
     google: OTCMKTS:DLVHF
     currency: USD
+  - yahoo: DELHY
+    google: OTCMKTS:DELHY
+    currency: USD
   metadata:
     founded: 2011
     employees: 35528
@@ -12606,6 +12609,9 @@ companies:
   - yahoo: 0HIN.L
     google: LON:0HIN
     currency: GBP
+  - yahoo: ZAS.F
+    google: FRA:ZAS
+    currency: EUR
   metadata:
     founded: 1892
     employees: 14250
@@ -13474,6 +13480,9 @@ companies:
   - yahoo: CFG
     google: NYSE:CFG
     currency: USD
+  - yahoo: 0HYP.L
+    google: LON:0HYP
+    currency: GBP
   metadata:
     founded: 1828
     employees: 18100
