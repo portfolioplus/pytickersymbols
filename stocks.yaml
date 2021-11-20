@@ -21032,6 +21032,9 @@ companies:
   - yahoo: ALFVY
     google: OTCMKTS:ALFVY
     currency: USD
+  - yahoo: ALFVF
+    google: OTCMKTS:ALFVF
+    currency: USD
   metadata:
     founded: 1883
     employees: 17000
