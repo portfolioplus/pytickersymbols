@@ -3780,6 +3780,9 @@ companies:
   - yahoo: ZO1A.F
     google: FRA:ZO1A
     currency: EUR
+  - yahoo: ZO10.F
+    google: FRA:ZO10
+    currency: EUR
   metadata:
     founded: 1999
     employees: 768
