@@ -410,6 +410,9 @@ companies:
   - yahoo: EONGY
     google: OTCMKTS:EONGY
     currency: USD
+  - yahoo: EOAA.F
+    google: FRA:EOAA
+    currency: EUR
   metadata:
     founded: 2000
     employees: 78126
@@ -13818,6 +13821,9 @@ companies:
   - yahoo: DRI
     google: NYSE:DRI
     currency: USD
+  - yahoo: 0I77.L
+    google: LON:0I77
+    currency: GBP
   metadata:
     founded: 1938
     employees: 185000
@@ -14452,6 +14458,9 @@ companies:
   - yahoo: ES
     google: NYSE:ES
     currency: USD
+  - yahoo: 0IJ2.L
+    google: LON:0IJ2
+    currency: GBP
   metadata:
     founded: 1966
     employees: 8084
@@ -14657,6 +14666,9 @@ companies:
   - yahoo: FLT
     google: NYSE:FLT
     currency: USD
+  - yahoo: 0IPN.L
+    google: LON:0IPN
+    currency: GBP
   metadata:
     founded: 2000
     employees: 7600
