@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.30 (2021-11-24)
+### Fix
+* Added symbols to stocks ([`7bea9a7`](https://github.com/portfolioplus/pytickersymbols/commit/7bea9a7b8e6a43c22c5fd1bad9c12feac1765148))
+
 ## v1.8.29 (2021-11-23)
 ### Fix
 * Added symbols to stocks ([`e093b36`](https://github.com/portfolioplus/pytickersymbols/commit/e093b36c8beb24735907db556c34f19f7b5e8f73))
