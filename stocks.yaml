@@ -1471,6 +1471,9 @@ companies:
   - yahoo: HLEA.F
     google: FRA:HLEA
     currency: EUR
+  - yahoo: HLE0.F
+    google: FRA:HLE0
+    currency: EUR
   metadata:
     founded: 1899
     employees: 36311
@@ -1811,6 +1814,9 @@ companies:
   - yahoo: PSMA.F
     google: FRA:PSMA
     currency: EUR
+  - yahoo: PBSFF
+    google: OTCMKTS:PBSFF
+    currency: USD
   metadata:
     founded: 2000
     employees: 7253
@@ -16475,6 +16481,9 @@ companies:
   - yahoo: MMC
     google: NYSE:MMC
     currency: USD
+  - yahoo: MHM.L
+    google: LON:MHM
+    currency: GBP
   metadata:
     founded: 1905
     employees: 76000
