@@ -16593,6 +16593,9 @@ companies:
   - yahoo: MTD
     google: NYSE:MTD
     currency: USD
+  - yahoo: 0K10.L
+    google: LON:0K10
+    currency: GBP
   metadata:
     founded: 1945
     employees: 16500
