@@ -5074,6 +5074,9 @@ companies:
   - yahoo: IAG.L
     google: LON:IAG
     currency: GBP
+  - yahoo: BABWF
+    google: OTCMKTS:BABWF
+    currency: USD
   metadata:
     founded: 2011
     employees: 60612
@@ -25705,6 +25708,9 @@ companies:
   - yahoo: 52R.F
     google: FRA:52R
     currency: EUR
+  - yahoo: MXTOF
+    google: OTCMKTS:MXTOF
+    currency: USD
   isins:
   - FI4000440664
   metadata:
