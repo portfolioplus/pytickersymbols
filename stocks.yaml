@@ -5077,6 +5077,9 @@ companies:
   - yahoo: IAG.L
     google: LON:IAG
     currency: GBP
+  - yahoo: BABWF
+    google: OTCMKTS:BABWF
+    currency: USD
   metadata:
     founded: 2011
     employees: 60612
