@@ -270,6 +270,9 @@ companies:
   - yahoo: DDAIF
     google: OTCMKTS:DDAIF
     currency: USD
+  - yahoo: DMLRY
+    google: OTCMKTS:DMLRY
+    currency: USD
   metadata:
     founded: 1926
     employees: 288481
@@ -12998,6 +13001,12 @@ companies:
   - yahoo: BF-B
     google: NYSE:BF.B
     currency: USD
+  - yahoo: 0HQ3.L
+    google: LON:0HQ3
+    currency: GBP
+  - yahoo: BF5A.F
+    google: FRA:BF5A
+    currency: EUR
   metadata:
     founded: 1870
     employees: 4570
@@ -15341,6 +15350,9 @@ companies:
   - yahoo: HLT
     google: NYSE:HLT
     currency: USD
+  - yahoo: 0J5I.L
+    google: LON:0J5I
+    currency: GBP
   metadata:
     founded: 1919
     employees: 173000
@@ -16288,6 +16300,9 @@ companies:
   - yahoo: LNC
     google: NYSE:LNC
     currency: USD
+  - yahoo: 0JV3.L
+    google: LON:0JV3
+    currency: GBP
   metadata:
     founded: 1905
     employees: 9047
@@ -16725,6 +16740,9 @@ companies:
   - yahoo: MSI
     google: NYSE:MSI
     currency: USD
+  - yahoo: 0K3H.L
+    google: LON:0K3H
+    currency: GBP
   metadata:
     founded: 2011
     employees: 18000
@@ -17135,6 +17153,12 @@ companies:
   - yahoo: PKG
     google: NYSE:PKG
     currency: USD
+  - yahoo: PKA.F
+    google: FRA:PKA
+    currency: EUR
+  - yahoo: 0KEZ.L
+    google: LON:0KEZ
+    currency: GBP
   metadata:
     founded: 1959
     employees: 15500
@@ -22684,6 +22708,9 @@ companies:
   - yahoo: RUAL.ME
     google: MCX:RUAL
     currency: RUB
+  - yahoo: UNRIF
+    google: OTCMKTS:UNRIF
+    currency: USD
   metadata:
     founded: 2000
     employees: 60758
