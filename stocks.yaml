@@ -17590,6 +17590,9 @@ companies:
   - yahoo: QRVO
     google: NASDAQ:QRVO
     currency: USD
+  - yahoo: 0KSJ.L
+    google: LON:0KSJ
+    currency: GBP
   metadata:
     founded: 2015
     employees: 7900
@@ -17707,6 +17710,9 @@ companies:
   - yahoo: O
     google: NYSE:O
     currency: USD
+  - yahoo: 0KUE.L
+    google: LON:0KUE
+    currency: GBP
   metadata:
     founded: 1969
     employees: 194
@@ -18961,6 +18967,9 @@ companies:
   - yahoo: WEC
     google: NYSE:WEC
     currency: USD
+  - yahoo: 0LSL.L
+    google: LON:0LSL
+    currency: GBP
   metadata:
     founded: 1896
     employees: 8000
