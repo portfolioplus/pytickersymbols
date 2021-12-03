@@ -21470,6 +21470,9 @@ companies:
   - yahoo: SCTBF
     google: OTCMKTS:SCTBF
     currency: USD
+  - yahoo: SCTBY
+    google: OTCMKTS:SCTBY
+    currency: USD
   metadata:
     founded: 1934
     employees: 370000
