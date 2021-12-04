@@ -7077,6 +7077,9 @@ companies:
   - yahoo: VOYJF
     google: OTCMKTS:VOYJF
     currency: USD
+  - yahoo: VLMTY
+    google: OTCMKTS:VLMTY
+    currency: USD
   metadata:
     founded: 2013
     employees: 13598
@@ -25744,6 +25747,9 @@ companies:
   - yahoo: 52R.F
     google: FRA:52R
     currency: EUR
+  - yahoo: MXTOF
+    google: OTCMKTS:MXTOF
+    currency: USD
   isins:
   - FI4000440664
   metadata:
