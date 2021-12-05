@@ -15993,6 +15993,9 @@ companies:
   - yahoo: K
     google: NYSE:K
     currency: USD
+  - yahoo: 0R1R.L
+    google: LON:0R1R
+    currency: GBP
   metadata:
     founded: 1906
     employees: 34000
@@ -18923,6 +18926,9 @@ companies:
   - yahoo: WM
     google: NYSE:WM
     currency: USD
+  - yahoo: 0LTG.L
+    google: LON:0LTG
+    currency: GBP
   metadata:
     founded: 1968
     employees: 42300
@@ -19717,6 +19723,9 @@ companies:
     currency: USD
   - yahoo: SLVYY
     google: OTCMKTS:SLVYY
+    currency: USD
+  - yahoo: SVYSF
+    google: OTCMKTS:SVYSF
     currency: USD
   metadata:
     founded: 1863
