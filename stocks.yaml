@@ -15058,6 +15058,9 @@ companies:
   - yahoo: GPN
     google: NYSE:GPN
     currency: USD
+  - yahoo: 0IW7.L
+    google: LON:0IW7
+    currency: GBP
   metadata:
     founded: 2000
     employees: 24000
@@ -15632,6 +15635,9 @@ companies:
   - yahoo: ICE
     google: NYSE:ICE
     currency: USD
+  - yahoo: 0JC3.L
+    google: LON:0JC3
+    currency: GBP
   metadata:
     founded: 2000
     employees: 8890
@@ -17007,6 +17013,9 @@ companies:
   - yahoo: NSC
     google: NYSE:NSC
     currency: USD
+  - yahoo: 0K8M.L
+    google: LON:0K8M
+    currency: GBP
   metadata:
     founded: 1982
     employees: 30943
@@ -17316,6 +17325,9 @@ companies:
   - yahoo: PNW
     google: NYSE:PNW
     currency: USD
+  - yahoo: 0KIT.L
+    google: LON:0KIT
+    currency: GBP
   metadata:
     founded: 1985
     employees: 6292
