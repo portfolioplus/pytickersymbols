@@ -154,7 +154,7 @@ companies:
   symbol: BEI
   country: Germany
   indices:
-  - MDAX
+  - DAX
   industries:
   - Consumer Non-Cyclicals
   - Personal Products
@@ -307,6 +307,7 @@ companies:
   symbol: DB1
   country: Germany
   indices:
+  - BEL 20
   - DAX
   - EURO STOXX 50
   industries:
@@ -1124,8 +1125,7 @@ companies:
 - name: Deutsche Wohnen SE
   symbol: DWNI
   country: Germany
-  indices:
-  - DAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -1489,7 +1489,7 @@ companies:
   symbol: HOT
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   industries:
   - Industrials
   - Construction & Engineering
@@ -1686,7 +1686,7 @@ companies:
   symbol: MOR
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   - TECDAX
   industries:
   - Biotechnology & Medical Research
@@ -2470,8 +2470,7 @@ companies:
 - name: Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien
   symbol: BVB
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -2586,6 +2585,7 @@ companies:
     employees: 8000
   isins:
   - DE0005437305
+  - DE000A288904
 - name: CORESTATE Capital Holding SA
   symbol: CCAP
   country: Luxembourg
@@ -2725,7 +2725,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -2772,7 +2771,7 @@ companies:
   symbol: CAP
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   industries:
   - Electric Utilities & IPPs
   - Independent Power Producers
@@ -2842,8 +2841,7 @@ companies:
 - name: Hamburger Hafen und Logistik AG
   symbol: HHFA
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Marine Port Services
   - Industrials
@@ -2937,6 +2935,9 @@ companies:
   - yahoo: HBH
     google: OTCMKTS:HBH
     currency: USD
+  - yahoo: HBBHF
+    google: OTCMKTS:HBBHF
+    currency: USD
   metadata:
     founded: 1877
     employees: 21505
@@ -2945,8 +2946,7 @@ companies:
 - name: Hypoport Finance AG
   symbol: HYQ
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Banking & Investment Services
   - Investment Banking & Investment Services
@@ -3050,7 +3050,7 @@ companies:
   symbol: JUN3
   country: Germany
   indices:
-  - SDAX
+  - MDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -3213,7 +3213,7 @@ companies:
   symbol: NDX1
   country: Germany
   indices:
-  - MDAX
+  - SDAX
   - TECDAX
   industries:
   - Heavy Electrical Equipment
@@ -3588,7 +3588,7 @@ companies:
   symbol: TLX
   country: Germany
   indices:
-  - SDAX
+  - MDAX
   industries:
   - Insurance
   - Financials
@@ -3647,8 +3647,7 @@ companies:
 - name: Vossloh AG
   symbol: VOS
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Industrials
   - Construction & Engineering
@@ -3777,7 +3776,7 @@ companies:
   symbol: ZO1
   country: Germany
   indices:
-  - SDAX
+  - MDAX
   industries:
   - Technology
   - Software & IT Services
@@ -4386,6 +4385,9 @@ companies:
   - yahoo: BZLFY
     google: OTCMKTS:BZLFY
     currency: USD
+  - yahoo: BUZ.F
+    google: FRA:BUZ
+    currency: EUR
   metadata:
     founded: 1854
     employees: 19006
@@ -6233,6 +6235,7 @@ companies:
     founded: 1985
     employees: 12000
   isins:
+  - IE00BFY8C754
   - US8591521005
 - name: St. James's Place PLC
   symbol: STJ
@@ -6514,8 +6517,7 @@ companies:
 - name: Wm Morrison Supermarkets PLC
   symbol: MRW
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -7190,8 +7192,7 @@ companies:
 - name: Atos SE
   symbol: ATO
   country: France
-  indices:
-  - CAC 40
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -7404,7 +7405,6 @@ companies:
   country: France
   indices:
   - CAC 40
-  - EURO STOXX 50
   industries:
   - Multiline Utilities
   - Utilities
@@ -8001,7 +8001,6 @@ companies:
   country: France
   indices:
   - CAC 40
-  - EURO STOXX 50
   industries:
   - Media & Publishing
   - Entertainment Production
@@ -8057,7 +8056,6 @@ companies:
   symbol: MMM
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8078,7 +8076,6 @@ companies:
   symbol: AXP
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8104,7 +8101,6 @@ companies:
   symbol: AAPL
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8129,7 +8125,6 @@ companies:
   symbol: BA
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8154,7 +8149,6 @@ companies:
   symbol: CAT
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8177,7 +8171,6 @@ companies:
   symbol: CVX
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8200,7 +8193,6 @@ companies:
   symbol: CSCO
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8223,7 +8215,6 @@ companies:
   symbol: KO
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8291,7 +8282,6 @@ companies:
   symbol: GS
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8318,7 +8308,6 @@ companies:
   symbol: HD
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8341,7 +8330,6 @@ companies:
   symbol: IBM
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8367,7 +8355,6 @@ companies:
   symbol: INTC
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8391,7 +8378,6 @@ companies:
   symbol: JNJ
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8414,7 +8400,6 @@ companies:
   symbol: JPM
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8438,7 +8423,6 @@ companies:
   symbol: MCD
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8463,7 +8447,6 @@ companies:
   symbol: NKE
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8486,7 +8469,6 @@ companies:
   symbol: MRK
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8508,7 +8490,6 @@ companies:
   symbol: MSFT
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8553,7 +8534,6 @@ companies:
   symbol: PG
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8575,7 +8555,6 @@ companies:
   symbol: TRV
   country: United States
   indices:
-  - DOW JONES
   - S&P 500
   industries:
   - Insurance
@@ -8617,7 +8596,6 @@ companies:
   symbol: UNH
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8640,7 +8618,6 @@ companies:
   symbol: VZ
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8662,7 +8639,6 @@ companies:
   symbol: V
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8684,7 +8660,6 @@ companies:
   symbol: WMT
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -8707,7 +8682,6 @@ companies:
   symbol: WBA
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -8735,7 +8709,6 @@ companies:
   indices:
   - S&P 100
   - S&P 500
-  - DOW JONES
   industries:
   - Media & Publishing
   - Cyclical Consumer Services
@@ -8920,7 +8893,6 @@ companies:
   symbol: AMGN
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -9252,7 +9224,8 @@ companies:
   metadata:
     founded: 1994
     employees: 289500
-  isins: []
+  isins:
+  - US1924461023
 - name: Comcast Corporation
   symbol: CMCSA
   country: United States
@@ -11350,7 +11323,6 @@ companies:
   symbol: HON
   country: United States
   indices:
-  - DOW JONES
   - NASDAQ 100
   - S&P 100
   - S&P 500
@@ -13044,8 +13016,7 @@ companies:
 - name: Cabot Oil & Gas Corporation
   symbol: COG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -14445,7 +14416,8 @@ companies:
   metadata:
     founded: 1973
     employees: 1746
-  isins: []
+  isins:
+  - BMG3223R1088
 - name: Evergy Inc.
   symbol: EVRG
   country: United States
@@ -16705,7 +16677,8 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Professional Information Services
   - Industrials
@@ -16794,6 +16767,7 @@ companies:
   symbol: NDAQ
   country: United States
   indices:
+  - DOW JONES
   - S&P 500
   industries:
   - Banking & Investment Services
@@ -17011,8 +16985,7 @@ companies:
 - name: Norfolk Southern Corporation
   symbol: NSC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -17968,7 +17941,6 @@ companies:
   symbol: CRM
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -18516,8 +18488,7 @@ companies:
   wiki_name: Globe Life Inc.
   symbol: GL
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Life insurance
   - Insurance
@@ -19486,8 +19457,7 @@ companies:
 - name: Barco N.V.
   symbol: BAR
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -19603,7 +19573,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - BEL 20
   - EURO STOXX 50
   industries:
   - Banking & Investment Services
@@ -19827,8 +19796,7 @@ companies:
   wiki_name: WDP
   symbol: WDP
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Commercial REITs
   - Real Estate
@@ -19943,7 +19911,6 @@ companies:
   symbol: AMS
   country: Spain
   indices:
-  - EURO STOXX 50
   - IBEX 35
   industries:
   - Technology
@@ -19974,6 +19941,7 @@ companies:
   symbol: BBVA
   country: United States
   indices:
+  - EURO STOXX 50
   - IBEX 35
   industries:
   - Banking & Investment Services
@@ -23505,7 +23473,6 @@ companies:
   symbol: DOW
   country: United States
   indices:
-  - DOW JONES
   - S&P 100
   - S&P 500
   industries:
@@ -23811,8 +23778,7 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -24351,7 +24317,7 @@ companies:
   symbol: SAE
   country: Netherlands
   indices:
-  - MDAX
+  - SDAX
   industries:
   - Consumer Non-Cyclicals
   - Food & Drug Retailing
@@ -24812,7 +24778,8 @@ companies:
   wiki_name: Eurofins Scientific SE
   symbol: ESF0
   country: Luxembourg
-  indices: []
+  indices:
+  - CAC 40
   industries:
   - Laboratory
   - analysis
@@ -25840,7 +25807,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries: []
   symbols:
   - yahoo: LPK.F
@@ -26090,7 +26056,7 @@ companies:
   symbol: AGOAF
   country: Spain
   indices:
-  - SDAX
+  - MDAX
   industries: []
   symbols:
   - yahoo: AGOAF
@@ -26178,8 +26144,7 @@ companies:
   wiki_name: ElringKlinger AG
   symbol: ZIL2
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Automotive
   symbols:
@@ -26322,8 +26287,7 @@ companies:
   wiki_name: Medios AG
   symbol: ILM1
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: ILM1.F
@@ -27085,7 +27049,7 @@ companies:
   symbol: MMM
   country: United States
   indices:
-  - S&P 500
+  - DOW JONES
   industries: []
   symbols: []
   isins: []
@@ -27195,8 +27159,7 @@ companies:
   wiki_name: Solaria
   symbol: SLR
   country: Spain
-  indices:
-  - IBEX 35
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -27229,8 +27192,7 @@ companies:
   wiki_name: Süss Microtec SE
   symbol: null
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -27364,6 +27326,7 @@ companies:
   country: Netherlands
   indices:
   - CAC 40
+  - EURO STOXX 50
   industries:
   - Automotive
   symbols:
@@ -27631,7 +27594,8 @@ companies:
   symbol: VTWR
   country: Germany
   indices:
-  - SDAX
+  - MDAX
+  - TECDAX
   industries: []
   symbols:
   - yahoo: VTWR.F
@@ -28045,3 +28009,250 @@ companies:
   metadata:
     founded: 1859
     employees: 15900
+- name: SUSE S.A.
+  wiki_name: SUSE S.A.
+  symbol: SUSE
+  country: '[[Nürnberg]]'
+  indices:
+  - SDAX
+  - TECDAX
+  industries:
+  - Computer software
+  symbols:
+  - yahoo: SUSE.F
+    google: FRA:SUSE
+    currency: EUR
+  isins:
+  - LU2333210958
+  metadata:
+    founded: 1992
+    employees: 1750
+- name: Hypoport SE
+  wiki_name: Hypoport SE
+  symbol: null
+  country: Germany
+  indices:
+  - MDAX
+  industries: []
+  symbols: []
+  isins:
+  - DE0005493365
+  metadata:
+    founded: 1999
+    employees: 2131
+- name: Elia
+  wiki_name: Elia
+  symbol: XBRU
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0003822393
+  metadata:
+    founded: 2001
+    employees: 1229
+- name: Melexis
+  wiki_name: Melexis
+  symbol: null
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0165385973
+  metadata:
+    founded: 1988
+    employees: 1200
+- name: Coterra Energy Inc.
+  wiki_name: Coterra Energy Inc.
+  symbol: CTRA
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Natural gas
+  - Oil
+  symbols:
+  - yahoo: CTRA
+    google: NYSE:CTRA
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1989
+    employees: 503
+- name: Globe Life Field
+  wiki_name: Globe Life Field
+  symbol: GL
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: ''
+    employees: ''
+- name: Norfolk Southern Railway
+  wiki_name: Norfolk Southern Railway
+  symbol: NSC
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: ABOUT YOU AG & Co. KG
+  wiki_name: ABOUT YOU AG & Co. KG
+  symbol: null
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols: []
+  isins:
+  - DE000A3CNK42
+  metadata:
+    founded: 2014
+    employees: 1000
+- name: Basler AG
+  wiki_name: Basler AG
+  symbol: BSL
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: BSL.F
+    google: FRA:BSL
+    currency: EUR
+  isins:
+  - DE0005102008
+  metadata:
+    founded: 1988
+    employees: 857
+- name: PVA TePla AG
+  wiki_name: PVA TePla AG
+  symbol: TPE
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: TPE.F
+    google: FRA:TPE
+    currency: EUR
+  - yahoo: TPLKF
+    google: OTCMKTS:TPLKF
+    currency: USD
+  isins:
+  - DE0007461006
+  metadata:
+    founded: 2002
+    employees: 553
+- name: secunet Security Networks AG
+  wiki_name: secunet Security Networks AG
+  symbol: 0NWC
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: 0NWC.L
+    google: LON:0NWC
+    currency: GBP
+  - yahoo: YSN.F
+    google: FRA:YSN
+    currency: EUR
+  isins:
+  - DE0007276503
+  metadata:
+    founded: 1997
+    employees: 740
+- name: STO SE & Co. KGaA
+  wiki_name: STO SE & Co. KGaA
+  symbol: 0G5B
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: 0G5B.L
+    google: LON:0G5B
+    currency: GBP
+  - yahoo: STO3.F
+    google: FRA:STO3
+    currency: EUR
+  isins:
+  - DE0007274136
+  metadata:
+    founded: 1955
+    employees: 5333
+- name: SYNLAB
+  wiki_name: SYNLAB
+  symbol: SYAB
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: SYAB.F
+    google: FRA:SYAB
+    currency: EUR
+  isins:
+  - DE000A2TSL71
+  metadata:
+    founded: 1998
+    employees: 20000
+- name: Universal Music Group N.V.
+  wiki_name: Universal Music Group N.V.
+  symbol: UMG
+  country: United States
+  indices:
+  - EURO STOXX 50
+  industries:
+  - Music
+  symbols: []
+  isins:
+  - NL0015000IY2
+  metadata:
+    founded: 1934
+    employees: 8319
+- name: Solar power in Spain
+  wiki_name: Solar power in Spain
+  symbol: SLR
+  country: Finland
+  indices:
+  - IBEX 35
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Darktrace plc
+  wiki_name: Darktrace plc
+  symbol: DARK
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries: []
+  symbols:
+  - yahoo: DRKTF
+    google: OTCMKTS:DRKTF
+    currency: USD
+  - yahoo: DARK.L
+    google: LON:DARK
+    currency: GBP
+  - yahoo: 7TJ.F
+    google: FRA:7TJ
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 2013
+    employees: 1200
