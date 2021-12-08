@@ -166,6 +166,9 @@ companies:
   - yahoo: BDRFY
     google: OTCMKTS:BDRFY
     currency: USD
+  - yahoo: BEIA.F
+    google: FRA:BEIA
+    currency: EUR
   metadata:
     founded: 1882
     employees: 20306
@@ -26329,6 +26332,9 @@ companies:
   - yahoo: 0QB4.L
     google: LON:0QB4
     currency: GBP
+  - yahoo: MEDOF
+    google: OTCMKTS:MEDOF
+    currency: USD
   isins:
   - DE000A1MMCC8
   metadata:
@@ -27126,6 +27132,9 @@ companies:
   - yahoo: FDR.MC
     google: BME:FDR
     currency: EUR
+  - yahoo: FLDAY
+    google: OTCMKTS:FLDAY
+    currency: USD
   isins:
   - ES0137650018
   metadata:
