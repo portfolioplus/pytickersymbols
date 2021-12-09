@@ -9449,6 +9449,9 @@ companies:
   - yahoo: DLTR
     google: NASDAQ:DLTR
     currency: USD
+  - yahoo: 0IC8.L
+    google: LON:0IC8
+    currency: GBP
   metadata:
     founded: 1986
     employees: 193100
@@ -14812,6 +14815,9 @@ companies:
   - yahoo: FTNT
     google: NASDAQ:FTNT
     currency: USD
+  - yahoo: 0IR9.L
+    google: LON:0IR9
+    currency: GBP
   metadata:
     founded: 2000
     employees: 8238
@@ -15619,6 +15625,9 @@ companies:
   - yahoo: ITW
     google: NYSE:ITW
     currency: USD
+  - yahoo: 0J8W.L
+    google: LON:0J8W
+    currency: GBP
   metadata:
     founded: 1912
     employees: 45000
