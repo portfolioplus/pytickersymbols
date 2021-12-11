@@ -307,7 +307,6 @@ companies:
   symbol: DB1
   country: Germany
   indices:
-  - BEL 20
   - DAX
   - EURO STOXX 50
   industries:
