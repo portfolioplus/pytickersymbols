@@ -5208,6 +5208,9 @@ companies:
   - yahoo: KGF.L
     google: LON:KGF
     currency: GBP
+  - yahoo: KGFHF
+    google: OTCMKTS:KGFHF
+    currency: USD
   metadata:
     founded: 1982
     employees: 79000
