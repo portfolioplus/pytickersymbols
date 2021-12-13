@@ -7904,6 +7904,9 @@ companies:
   - yahoo: TTE
     google: NYSE:TTE
     currency: USD
+  - yahoo: TTE.L
+    google: LON:TTE
+    currency: GBP
   metadata:
     founded: 1924
     employees: 107776
@@ -23310,7 +23313,8 @@ companies:
   wiki_name: SSE plc
   symbol: SSE
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries: []
   symbols:
   - yahoo: SSE.L
@@ -23322,6 +23326,9 @@ companies:
   - yahoo: SSEZY
     google: OTCMKTS:SSEZY
     currency: USD
+  - yahoo: SCTA.F
+    google: FRA:SCTA
+    currency: EUR
   isins:
   - GB0007908733
   metadata:
@@ -25103,6 +25110,9 @@ companies:
   - yahoo: IPZ.F
     google: FRA:IPZ
     currency: EUR
+  - yahoo: IPSOF
+    google: OTCMKTS:IPSOF
+    currency: USD
   isins:
   - FR0000073298
   metadata:
@@ -28094,7 +28104,16 @@ companies:
   - EURO STOXX 50
   industries:
   - Music
-  symbols: []
+  symbols:
+  - yahoo: UMGNF
+    google: OTCMKTS:UMGNF
+    currency: USD
+  - yahoo: UMG.AS
+    google: AMS:UMG
+    currency: EUR
+  - yahoo: 0UMG.L
+    google: LON:0UMG
+    currency: GBP
   isins:
   - NL0015000IY2
   metadata:
