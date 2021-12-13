@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.38 (2021-12-13)
+### Fix
+* Added symbols to stocks ([`1152084`](https://github.com/portfolioplus/pytickersymbols/commit/1152084094c3c641b88c05f39beab136bf70edcd))
+
 ## v1.8.37 (2021-12-11)
 ### Fix
 * Fixed country for suse ([`8907419`](https://github.com/portfolioplus/pytickersymbols/commit/8907419bf111cec2ec0e8fc0cf12117bdf99fe6d))
