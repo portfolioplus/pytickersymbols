@@ -673,6 +673,9 @@ companies:
   - yahoo: SAPGF
     google: OTCMKTS:SAPGF
     currency: USD
+  - yahoo: SAPA.F
+    google: FRA:SAPA
+    currency: EUR
   metadata:
     founded: 1972
     employees: 100330
@@ -2354,6 +2357,9 @@ companies:
   - yahoo: AIX2.F
     google: FRA:AIX2
     currency: EUR
+  - yahoo: AIIXY
+    google: OTCMKTS:AIIXY
+    currency: USD
   metadata:
     founded: 1983
     employees: 728
@@ -21651,6 +21657,9 @@ companies:
   - yahoo: SWMAY
     google: OTCMKTS:SWMAY
     currency: USD
+  - yahoo: SWM0.F
+    google: FRA:SWM0
+    currency: EUR
   metadata:
     founded: 1917
     employees: 3848
