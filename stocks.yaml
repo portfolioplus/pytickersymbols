@@ -20271,6 +20271,9 @@ companies:
   - yahoo: GIFOF
     google: OTCMKTS:GIFOF
     currency: USD
+  - yahoo: G0FB.F
+    google: FRA:G0FB
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -25103,6 +25106,9 @@ companies:
   - yahoo: IPZ.F
     google: FRA:IPZ
     currency: EUR
+  - yahoo: IPSOF
+    google: OTCMKTS:IPSOF
+    currency: USD
   isins:
   - FR0000073298
   metadata:
