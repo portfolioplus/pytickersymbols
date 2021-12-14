@@ -383,6 +383,7 @@ class TestLib(unittest.TestCase):
             for tickers in test_item:
                 self.assertTrue(len(tickers) >= 1, tickers)
 
+    @pytest.mark.skip(reason="Skipped due to external API")
     def test_tickers_valid(self):
         """
         Test if each ticker symbol works with yfiance
