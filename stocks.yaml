@@ -2293,6 +2293,9 @@ companies:
   - yahoo: ZLNDY
     google: OTCMKTS:ZLNDY
     currency: USD
+  - yahoo: ZAL1.F
+    google: FRA:ZAL1
+    currency: EUR
   metadata:
     founded: 2008
     employees: 14194
