@@ -9873,6 +9873,9 @@ companies:
   - yahoo: 0JYW.L
     google: LON:0JYW
     currency: GBP
+  - yahoo: 0P0001I1JC.L
+    google: LON:0P0001I1JC
+    currency: GBP
   metadata:
     founded: 1927
     employees: 121000
@@ -24244,6 +24247,9 @@ companies:
   - yahoo: VIAC
     google: NASDAQ:VIAC
     currency: USD
+  - yahoo: 0VV.F
+    google: FRA:0VV
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
