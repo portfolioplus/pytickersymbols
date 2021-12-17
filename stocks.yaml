@@ -14063,6 +14063,9 @@ companies:
   - yahoo: D
     google: NYSE:D
     currency: USD
+  - yahoo: 0IC9.L
+    google: LON:0IC9
+    currency: GBP
   metadata:
     founded: 1983
     employees: 21000
@@ -17155,6 +17158,9 @@ companies:
   - yahoo: OMC
     google: NYSE:OMC
     currency: USD
+  - yahoo: 0KBK.L
+    google: LON:0KBK
+    currency: GBP
   metadata:
     founded: 1986
     employees: 64100
@@ -17474,6 +17480,9 @@ companies:
   - yahoo: PGR
     google: NYSE:PGR
     currency: USD
+  - yahoo: 0KOC.L
+    google: LON:0KOC
+    currency: GBP
   metadata:
     founded: 1937
     employees: 35000
@@ -17802,6 +17811,9 @@ companies:
   - yahoo: RF
     google: NYSE:RF
     currency: USD
+  - yahoo: 0KV3.L
+    google: LON:0KV3
+    currency: GBP
   metadata:
     founded: 1971
     employees: 19969
@@ -19342,6 +19354,9 @@ companies:
   - yahoo: ZION
     google: NASDAQ:ZION
     currency: USD
+  - yahoo: 0M3L.L
+    google: LON:0M3L
+    currency: GBP
   metadata:
     founded: 1873
     employees: 10200
