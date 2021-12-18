@@ -15763,6 +15763,9 @@ companies:
   - yahoo: IVZ
     google: NYSE:IVZ
     currency: USD
+  - yahoo: 0UAN.L
+    google: LON:0UAN
+    currency: GBP
   metadata:
     founded: 1935
     employees: 8900
