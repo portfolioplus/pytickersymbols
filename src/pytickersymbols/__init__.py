@@ -11,7 +11,7 @@ import yaml
 from weakref import WeakValueDictionary
 import itertools
 
-__version__ = "1.8.41"
+__version__ = "1.8.42"
 
 
 class Statics:
