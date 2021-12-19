@@ -21304,6 +21304,9 @@ companies:
   - yahoo: 0O86.L
     google: LON:0O86
     currency: GBP
+  - yahoo: ERCA.F
+    google: FRA:ERCA
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
