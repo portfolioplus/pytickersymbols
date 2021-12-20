@@ -307,6 +307,7 @@ companies:
   symbol: DB1
   country: Germany
   indices:
+  - BEL 20
   - DAX
   - EURO STOXX 50
   industries:
@@ -2410,6 +2411,9 @@ companies:
   - yahoo: 0AH7.L
     google: LON:0AH7
     currency: GBP
+  - yahoo: 0AH6.L
+    google: LON:0AH6
+    currency: GBP
   metadata:
     founded: 1923
     employees: 20717
@@ -4228,8 +4232,7 @@ companies:
 - name: BHP Group
   symbol: BHP
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -5156,8 +5159,7 @@ companies:
 - name: Johnson Matthey PLC
   symbol: JMAT
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -15996,8 +15998,7 @@ companies:
 - name: Kansas City Southern
   symbol: KSU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -28189,6 +28190,9 @@ companies:
   - yahoo: TPLKF
     google: OTCMKTS:TPLKF
     currency: USD
+  - yahoo: 0NL1.L
+    google: LON:0NL1
+    currency: GBP
   isins:
   - DE0007461006
   metadata:
@@ -28353,3 +28357,104 @@ companies:
   metadata:
     founded: 1999
     employees: 2131
+- name: Discovery (Series C)
+  wiki_name: Discovery (Series C)
+  symbol: DISCK
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: EPAM Systems, Inc.
+  wiki_name: EPAM Systems, Inc.
+  symbol: EPAM
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Software engineering
+  symbols:
+  - yahoo: EPAM
+    google: NYSE:EPAM
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1993
+    employees: 41168
+- name: BHP Group plc / BHP Group Limited
+  wiki_name: BHP Group plc / BHP Group Limited
+  symbol: BHP
+  country: Australia
+  indices:
+  - FTSE 100
+  industries:
+  - Metals
+  - Mining
+  symbols: []
+  isins:
+  - AU000000BHP4
+  - GB00BH0P3Z91
+  metadata:
+    founded: 1860
+    employees: 80000
+- name: Dechra Pharmaceuticals PLC
+  wiki_name: Dechra Pharmaceuticals PLC
+  symbol: DPH
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Pharmaceuticals
+  symbols:
+  - yahoo: 1PK.F
+    google: FRA:1PK
+    currency: EUR
+  - yahoo: DCHPF
+    google: OTCMKTS:DCHPF
+    currency: USD
+  - yahoo: DPH.L
+    google: LON:DPH
+    currency: GBP
+  isins: []
+  metadata:
+    founded: 1997
+    employees: ''
+- name: Electrocomponents plc
+  wiki_name: Electrocomponents plc
+  symbol: ECM
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Electronic component
+  symbols:
+  - yahoo: EENEY
+    google: OTCMKTS:EENEY
+    currency: USD
+  - yahoo: ECN.F
+    google: FRA:ECN
+    currency: EUR
+  - yahoo: ECM.L
+    google: LON:ECM
+    currency: GBP
+  isins: []
+  metadata:
+    founded: 1937
+    employees: 7044
+- name: ABOUT YOU SE & Co. KG
+  wiki_name: ABOUT YOU SE & Co. KG
+  symbol: null
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols: []
+  isins:
+  - DE000A3CNK42
+  metadata:
+    founded: 2014
+    employees: 1000
