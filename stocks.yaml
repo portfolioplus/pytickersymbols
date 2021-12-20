@@ -6751,6 +6751,9 @@ companies:
   - yahoo: NOKBF
     google: OTCMKTS:NOKBF
     currency: USD
+  - yahoo: NOAA.F
+    google: FRA:NOAA
+    currency: EUR
   metadata:
     founded: 1865
     employees: 98322
@@ -13733,6 +13736,9 @@ companies:
   - yahoo: COO
     google: NYSE:COO
     currency: USD
+  - yahoo: 0I3I.L
+    google: LON:0I3I
+    currency: GBP
   metadata:
     founded: 1958
     employees: 12000
