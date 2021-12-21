@@ -67,6 +67,9 @@ companies:
   - yahoo: ADDYY
     google: OTCMKTS:ADDYY
     currency: USD
+  - yahoo: ADS1.F
+    google: FRA:ADS1
+    currency: EUR
   metadata:
     founded: 1924
     employees: 57016
@@ -169,6 +172,9 @@ companies:
   - yahoo: BEIA.F
     google: FRA:BEIA
     currency: EUR
+  - yahoo: BDRFF
+    google: OTCMKTS:BDRFF
+    currency: USD
   metadata:
     founded: 1882
     employees: 20306
