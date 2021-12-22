@@ -67,6 +67,9 @@ companies:
   - yahoo: ADDYY
     google: OTCMKTS:ADDYY
     currency: USD
+  - yahoo: ADS1.F
+    google: FRA:ADS1
+    currency: EUR
   metadata:
     founded: 1924
     employees: 57016
@@ -169,6 +172,9 @@ companies:
   - yahoo: BEIA.F
     google: FRA:BEIA
     currency: EUR
+  - yahoo: BDRFF
+    google: OTCMKTS:BDRFF
+    currency: USD
   metadata:
     founded: 1882
     employees: 20306
@@ -17874,6 +17880,9 @@ companies:
   - yahoo: RMD
     google: NYSE:RMD
     currency: USD
+  - yahoo: 0KW4.L
+    google: LON:0KW4
+    currency: GBP
   metadata:
     founded: 1989
     employees: 7500
