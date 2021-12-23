@@ -1001,6 +1001,9 @@ companies:
   - yahoo: BNRA.F
     google: FRA:BNRA
     currency: EUR
+  - yahoo: BNTGF
+    google: OTCMKTS:BNTGF
+    currency: USD
   metadata:
     founded: 1874
     employees: 17237
@@ -2920,6 +2923,9 @@ companies:
     currency: EUR
   - yahoo: HLFFF
     google: OTCMKTS:HLFFF
+    currency: USD
+  - yahoo: HELFY
+    google: OTCMKTS:HELFY
     currency: USD
   metadata:
     founded: 2011
@@ -24274,6 +24280,9 @@ companies:
   - yahoo: VIAC
     google: NASDAQ:VIAC
     currency: USD
+  - yahoo: 0VVB.F
+    google: FRA:0VVB
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
