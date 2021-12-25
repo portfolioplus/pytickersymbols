@@ -3317,6 +3317,9 @@ companies:
   - yahoo: RATIY
     google: OTCMKTS:RATIY
     currency: USD
+  - yahoo: RAA1.F
+    google: FRA:RAA1
+    currency: EUR
   metadata:
     founded: 1973
     employees: 2258
@@ -8761,6 +8764,9 @@ companies:
   - yahoo: DIS
     google: OTCMKTS:DIS
     currency: USD
+  - yahoo: WDP0.F
+    google: FRA:WDP0
+    currency: EUR
   metadata:
     founded: 1923
     employees: 223000
@@ -21659,6 +21665,9 @@ companies:
   - yahoo: SWDBY
     google: OTCMKTS:SWDBY
     currency: USD
+  - yahoo: SWDBF
+    google: OTCMKTS:SWDBF
+    currency: USD
   metadata:
     founded: 1997
     employees: 14900
@@ -27812,6 +27821,9 @@ companies:
     currency: EUR
   - yahoo: ABMAF
     google: OTCMKTS:ABMAF
+    currency: USD
+  - yahoo: ALBMY
+    google: OTCMKTS:ALBMY
     currency: USD
   isins:
   - FR77775667538
