@@ -9808,6 +9808,9 @@ companies:
   - yahoo: JDCMF
     google: OTCMKTS:JDCMF
     currency: USD
+  - yahoo: 013C.F
+    google: FRA:013C
+    currency: EUR
   metadata:
     founded: ''
     employees: 310000
