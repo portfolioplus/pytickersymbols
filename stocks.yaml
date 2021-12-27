@@ -313,6 +313,7 @@ companies:
   symbol: DB1
   country: Germany
   indices:
+  - BEL 20
   - DAX
   - EURO STOXX 50
   industries:
@@ -1136,7 +1137,8 @@ companies:
 - name: Deutsche Wohnen SE
   symbol: DWNI
   country: Germany
-  indices: []
+  indices:
+  - MDAX
   industries:
   - Real Estate
   - Financials
@@ -2419,6 +2421,9 @@ companies:
   - yahoo: 0AH7.L
     google: LON:0AH7
     currency: GBP
+  - yahoo: 0AH6.L
+    google: LON:0AH6
+    currency: GBP
   metadata:
     founded: 1923
     employees: 20717
@@ -2898,7 +2903,8 @@ companies:
 - name: Heidelberger Druckmaschinen AG
   symbol: HDD
   country: Germany
-  indices: []
+  indices:
+  - SDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -2911,9 +2917,14 @@ companies:
   - yahoo: HDD
     google: OTCMKTS:HDD
     currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
+    currency: USD
   metadata:
     founded: 1850
     employees: 11511
+  isins:
+  - DE0007314007
 - name: HelloFresh SE
   symbol: HFG
   country: Germany
@@ -3288,7 +3299,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -4243,8 +4253,7 @@ companies:
 - name: BHP Group
   symbol: BHP
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -4385,7 +4394,8 @@ companies:
   metadata:
     founded: 1846
     employees: 105300
-  isins: []
+  isins:
+  - GB0030913577
 - name: Bunzl PLC
   symbol: BNZL
   country: United Kingdom
@@ -5171,8 +5181,7 @@ companies:
 - name: Johnson Matthey PLC
   symbol: JMAT
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -8785,7 +8794,8 @@ companies:
   metadata:
     founded: 1923
     employees: 223000
-  isins: []
+  isins:
+  - US2546871060
 - name: Activision Blizzard Inc.
   symbol: ATVI
   country: United States
@@ -15170,8 +15180,7 @@ companies:
 - name: Hanesbrands Inc.
   symbol: HBI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -16020,8 +16029,7 @@ companies:
 - name: Kansas City Southern
   symbol: KSU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -16310,8 +16318,7 @@ companies:
 - name: Leggett & Platt Inc.
   symbol: LEG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Household Goods
@@ -19111,8 +19118,7 @@ companies:
 - name: The Western Union Company
   symbol: WU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -26333,8 +26339,7 @@ companies:
   wiki_name: Hensoldt AG
   symbol: HAG
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Defence
   symbols:
@@ -26356,8 +26361,7 @@ companies:
   wiki_name: home24 SE
   symbol: H24
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: H24.F
@@ -26507,8 +26511,7 @@ companies:
   wiki_name: Westwing Group AG
   symbol: WEW
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: WEW.F
@@ -27325,8 +27328,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols:
   - yahoo: ASRNL.AS
@@ -27694,6 +27696,7 @@ companies:
   country: Germany
   indices:
   - SDAX
+  - TECDAX
   industries: []
   symbols:
   - yahoo: NA9.F
@@ -28389,3 +28392,215 @@ companies:
   metadata:
     founded: 1999
     employees: 2131
+- name: BHP Group plc / BHP Group Limited
+  wiki_name: BHP Group plc / BHP Group Limited
+  symbol: BHP
+  country: Australia
+  indices:
+  - FTSE 100
+  industries:
+  - Metals
+  - Mining
+  symbols: []
+  isins:
+  - AU000000BHP4
+  - GB00BH0P3Z91
+  metadata:
+    founded: 1860
+    employees: 80000
+- name: Dechra Pharmaceuticals PLC
+  wiki_name: Dechra Pharmaceuticals PLC
+  symbol: DPH
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Pharmaceuticals
+  symbols:
+  - yahoo: DCHPF
+    google: OTCMKTS:DCHPF
+    currency: USD
+  - yahoo: 1PK.F
+    google: FRA:1PK
+    currency: EUR
+  - yahoo: DPH.L
+    google: LON:DPH
+    currency: GBP
+  isins: []
+  metadata:
+    founded: 1997
+    employees: ''
+- name: Electrocomponents plc
+  wiki_name: Electrocomponents plc
+  symbol: ECM
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Electronic component
+  symbols:
+  - yahoo: ECM.L
+    google: LON:ECM
+    currency: GBP
+  - yahoo: EENEF
+    google: OTCMKTS:EENEF
+    currency: USD
+  - yahoo: ECN.F
+    google: FRA:ECN
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 1937
+    employees: 7044
+- name: ABOUT YOU SE & Co. KG
+  wiki_name: ABOUT YOU SE & Co. KG
+  symbol: null
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols: []
+  isins:
+  - DE000A3CNK42
+  metadata:
+    founded: 2014
+    employees: 1000
+- name: GFT Technologies SE
+  wiki_name: GFT Technologies SE
+  symbol: GFT
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: GFT.F
+    google: FRA:GFT
+    currency: EUR
+  isins:
+  - DE0005800601
+  metadata:
+    founded: 1987
+    employees: 5986
+- name: Vitesco Technologies Group AG
+  wiki_name: Vitesco Technologies Group AG
+  symbol: VTSCY
+  country: '[[Regensburg]]'
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: VTSCY
+    google: OTCMKTS:VTSCY
+    currency: USD
+  - yahoo: 0AAF.L
+    google: LON:0AAF
+    currency: GBP
+  - yahoo: VTSC.F
+    google: FRA:VTSC
+    currency: EUR
+  isins:
+  - DE000VTSC017
+  metadata:
+    founded: 2019
+    employees: 40000
+- name: Discovery (Series C)
+  wiki_name: Discovery (Series C)
+  symbol: DISCK
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: EPAM Systems, Inc.
+  wiki_name: EPAM Systems, Inc.
+  symbol: EPAM
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Software engineering
+  symbols:
+  - yahoo: EPAM
+    google: NYSE:EPAM
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1993
+    employees: 41168
+- name: FactSet Research Systems Inc.
+  wiki_name: FactSet Research Systems Inc.
+  symbol: FDS
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Financial services
+  - Technology
+  symbols:
+  - yahoo: FDS
+    google: NYSE:FDS
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1978
+    employees: 10892
+- name: Signature Bank
+  wiki_name: Signature Bank
+  symbol: SBNY
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: SBNY
+    google: NASDAQ:SBNY
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2001
+    employees: 1652
+- name: SolarEdge Technologies, Inc.
+  wiki_name: SolarEdge Technologies, Inc.
+  symbol: SEDG
+  country: Israel
+  indices:
+  - S&P 500
+  industries:
+  - Photovoltaics
+  symbols:
+  - yahoo: SEDG
+    google: NASDAQ:SEDG
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2006
+    employees: 3174
+- name: AEX index
+  wiki_name: AEX index
+  symbol: ASRNL
+  country: Netherlands
+  indices:
+  - AEX
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 1983
+    employees: 3461
+- name: Elia System Operator S.A.
+  wiki_name: Elia System Operator S.A.
+  symbol: XBRU
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0003822393
+  metadata:
+    founded: 2001
+    employees: 1229
