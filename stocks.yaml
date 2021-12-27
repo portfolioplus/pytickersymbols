@@ -282,6 +282,9 @@ companies:
   - yahoo: DMLRY
     google: OTCMKTS:DMLRY
     currency: USD
+  - yahoo: DAII.F
+    google: FRA:DAII
+    currency: EUR
   metadata:
     founded: 1926
     employees: 288481
@@ -400,6 +403,9 @@ companies:
   - yahoo: DTEGY
     google: OTCMKTS:DTEGY
     currency: USD
+  - yahoo: DTEA.F
+    google: FRA:DTEA
+    currency: EUR
   metadata:
     founded: 1995
     employees: 226291
@@ -8557,6 +8563,9 @@ companies:
   - yahoo: MSFT
     google: NASDAQ:MSFT
     currency: USD
+  - yahoo: MSF0.F
+    google: FRA:MSF0
+    currency: EUR
   metadata:
     founded: 1975
     employees: 166475
