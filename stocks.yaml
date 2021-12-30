@@ -1032,6 +1032,9 @@ companies:
   - yahoo: CRZBY
     google: OTCMKTS:CRZBY
     currency: USD
+  - yahoo: CRZBF
+    google: OTCMKTS:CRZBF
+    currency: USD
   metadata:
     founded: 1870
     employees: 47718
