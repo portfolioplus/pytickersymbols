@@ -1032,6 +1032,9 @@ companies:
   - yahoo: CRZBY
     google: OTCMKTS:CRZBY
     currency: USD
+  - yahoo: CRZBF
+    google: OTCMKTS:CRZBF
+    currency: USD
   metadata:
     founded: 1870
     employees: 47718
@@ -24541,6 +24544,9 @@ companies:
   - yahoo: VARTY
     google: OTCMKTS:VARTY
     currency: USD
+  - yahoo: VAR.F
+    google: FRA:VAR
+    currency: EUR
   isins:
   - DE000A0TGJ55
   metadata:
