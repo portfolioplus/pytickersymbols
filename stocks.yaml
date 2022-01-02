@@ -2077,6 +2077,9 @@ companies:
   - yahoo: SCOTF
     google: OTCMKTS:SCOTF
     currency: USD
+  - yahoo: SCCTY
+    google: OTCMKTS:SCCTY
+    currency: USD
   metadata:
     founded: 1998
     employees: 788
@@ -13951,6 +13954,9 @@ companies:
   - yahoo: DE
     google: NYSE:DE
     currency: USD
+  - yahoo: 0R2P.L
+    google: LON:0R2P
+    currency: GBP
   metadata:
     founded: 1837
     employees: 69600
@@ -17952,6 +17958,9 @@ companies:
   - yahoo: ROK
     google: NYSE:ROK
     currency: USD
+  - yahoo: 0KXA.L
+    google: LON:0KXA
+    currency: GBP
   metadata:
     founded: 1903
     employees: 23000
@@ -18480,6 +18489,12 @@ companies:
   - yahoo: TPR
     google: NYSE:TPR
     currency: USD
+  - yahoo: 0LD5.L
+    google: LON:0LD5
+    currency: GBP
+  - yahoo: COY.F
+    google: FRA:COY
+    currency: EUR
   metadata:
     founded: 2017
     employees: 20800
