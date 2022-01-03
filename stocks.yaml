@@ -378,6 +378,9 @@ companies:
   - yahoo: DPSGY
     google: OTCMKTS:DPSGY
     currency: USD
+  - yahoo: DPWA.F
+    google: FRA:DPWA
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
