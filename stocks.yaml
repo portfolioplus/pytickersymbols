@@ -378,6 +378,9 @@ companies:
   - yahoo: DPSGY
     google: OTCMKTS:DPSGY
     currency: USD
+  - yahoo: DPWA.F
+    google: FRA:DPWA
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -22530,6 +22533,9 @@ companies:
   - yahoo: MHSG.F
     google: FRA:MHSG
     currency: EUR
+  - yahoo: MTLRP.ME
+    google: MCX:MTLRP
+    currency: RUB
   metadata:
     founded: 2003
     employees: 71635
