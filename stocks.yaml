@@ -8725,6 +8725,9 @@ companies:
   - yahoo: V
     google: NYSE:V
     currency: USD
+  - yahoo: 3V6.F
+    google: FRA:3V6
+    currency: EUR
   metadata:
     founded: 1958
     employees: 20500
@@ -13096,6 +13099,9 @@ companies:
   - yahoo: CHRW
     google: NASDAQ:CHRW
     currency: USD
+  - yahoo: 0HQW.L
+    google: LON:0HQW
+    currency: GBP
   metadata:
     founded: 1905
     employees: 15262
@@ -14223,6 +14229,9 @@ companies:
   - yahoo: DXC
     google: NYSE:DXC
     currency: USD
+  - yahoo: 0I6U.L
+    google: LON:0I6U
+    currency: GBP
   metadata:
     founded: 2017
     employees: 138000
@@ -24608,6 +24617,9 @@ companies:
     currency: EUR
   - yahoo: 1YL.F
     google: FRA:1YL
+    currency: EUR
+  - yahoo: US74365P1084.F
+    google: FRA:US74365P1084
     currency: EUR
   isins:
   - NL0013654783
