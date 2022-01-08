@@ -21266,6 +21266,9 @@ companies:
   - yahoo: ACO1.F
     google: FRA:ACO1
     currency: EUR
+  - yahoo: ACO.F
+    google: FRA:ACO
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
