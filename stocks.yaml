@@ -13649,6 +13649,9 @@ companies:
   - yahoo: CMS
     google: NYSE:CMS
     currency: USD
+  - yahoo: 0HR4.L
+    google: LON:0HR4
+    currency: GBP
   metadata:
     founded: 1886
     employees: 8148
@@ -14295,6 +14298,9 @@ companies:
   - yahoo: ETN
     google: NYSE:ETN
     currency: USD
+  - yahoo: 0Y3K.L
+    google: LON:0Y3K
+    currency: GBP
   metadata:
     founded: 1911
     employees: 92000
