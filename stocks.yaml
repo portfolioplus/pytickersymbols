@@ -1874,6 +1874,9 @@ companies:
   - yahoo: PUMSY
     google: OTCMKTS:PUMSY
     currency: USD
+  - yahoo: PUMA.F
+    google: FRA:PUMA
+    currency: EUR
   metadata:
     founded: 1948
     employees: 14374
@@ -14654,6 +14657,9 @@ companies:
   - yahoo: WX2.F
     google: FRA:WX2
     currency: EUR
+  - yahoo: QM1.F
+    google: FRA:QM1
+    currency: EUR
   metadata:
     founded: 1962
     employees: 313
@@ -20627,6 +20633,9 @@ companies:
   - yahoo: REPYY
     google: OTCMKTS:REPYY
     currency: USD
+  - yahoo: REPA.F
+    google: FRA:REPA
+    currency: EUR
   metadata:
     founded: 1987
     employees: 24506
