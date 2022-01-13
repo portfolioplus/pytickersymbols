@@ -1752,6 +1752,9 @@ companies:
   - yahoo: MTUAY
     google: OTCMKTS:MTUAY
     currency: USD
+  - yahoo: MTX1.F
+    google: FRA:MTX1
+    currency: EUR
   metadata:
     founded: 1934
     employees: 10313
