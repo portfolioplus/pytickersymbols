@@ -7459,6 +7459,9 @@ companies:
   - yahoo: ENGIY
     google: OTCMKTS:ENGIY
     currency: USD
+  - yahoo: GZFB.F
+    google: FRA:GZFB
+    currency: EUR
   metadata:
     founded: 2008
     employees: 171100
@@ -16560,6 +16563,9 @@ companies:
   - yahoo: MRO
     google: NYSE:MRO
     currency: USD
+  - yahoo: 0JY9.L
+    google: LON:0JY9
+    currency: GBP
   metadata:
     founded: 1887
     employees: 1672
