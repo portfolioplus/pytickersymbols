@@ -23512,6 +23512,9 @@ companies:
   - yahoo: 485B.F
     google: FRA:485B
     currency: EUR
+  - yahoo: AMCCF
+    google: OTCMKTS:AMCCF
+    currency: USD
   isins:
   - JE00BJ1F3079
   metadata:
