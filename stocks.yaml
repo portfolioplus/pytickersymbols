@@ -17221,6 +17221,9 @@ companies:
   - yahoo: NUE
     google: NYSE:NUE
     currency: USD
+  - yahoo: 0K9L.L
+    google: LON:0K9L
+    currency: GBP
   metadata:
     founded: ''
     employees: 26000
@@ -23506,6 +23509,9 @@ companies:
   - yahoo: 485B.F
     google: FRA:485B
     currency: EUR
+  - yahoo: AMCCF
+    google: OTCMKTS:AMCCF
+    currency: USD
   isins:
   - JE00BJ1F3079
   metadata:
