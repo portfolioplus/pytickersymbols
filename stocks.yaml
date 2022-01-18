@@ -4276,7 +4276,8 @@ companies:
 - name: BHP Group
   symbol: BHP
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries:
   - Metals & Mining
   - Mineral Resources
