@@ -14150,6 +14150,9 @@ companies:
   - yahoo: DOV
     google: NYSE:DOV
     currency: USD
+  - yahoo: 0ICP.L
+    google: LON:0ICP
+    currency: GBP
   metadata:
     founded: 1955
     employees: 29000
@@ -17221,6 +17224,9 @@ companies:
   - yahoo: NUE
     google: NYSE:NUE
     currency: USD
+  - yahoo: 0K9L.L
+    google: LON:0K9L
+    currency: GBP
   metadata:
     founded: ''
     employees: 26000
