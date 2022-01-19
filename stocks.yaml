@@ -662,6 +662,9 @@ companies:
   - yahoo: RWEOY
     google: OTCMKTS:RWEOY
     currency: USD
+  - yahoo: RWEA.F
+    google: FRA:RWEA
+    currency: EUR
   metadata:
     founded: 1898
     employees: 19498
@@ -1019,6 +1022,9 @@ companies:
   - yahoo: BNTGF
     google: OTCMKTS:BNTGF
     currency: USD
+  - yahoo: BNRN.F
+    google: FRA:BNRN
+    currency: EUR
   metadata:
     founded: 1874
     employees: 17237
@@ -15115,6 +15121,9 @@ companies:
   - yahoo: GIS
     google: NYSE:GIS
     currency: USD
+  - yahoo: 0R1X.L
+    google: LON:0R1X
+    currency: GBP
   metadata:
     founded: 1866
     employees: 35000
