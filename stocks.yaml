@@ -11255,6 +11255,9 @@ companies:
   - yahoo: LLY
     google: NYSE:LLY
     currency: USD
+  - yahoo: 0Q1G.L
+    google: LON:0Q1G
+    currency: GBP
   metadata:
     founded: 1876
     employees: 33625
