@@ -20884,6 +20884,9 @@ companies:
   - yahoo: AD.AS
     google: AMS:AD
     currency: EUR
+  - yahoo: AHOG.F
+    google: FRA:AHOG
+    currency: EUR
   metadata:
     founded: 2016
     employees: 232000
