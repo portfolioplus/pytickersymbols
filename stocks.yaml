@@ -903,6 +903,9 @@ companies:
   - yahoo: ALSRF
     google: OTCMKTS:ALSRF
     currency: USD
+  - yahoo: AOX0.F
+    google: FRA:AOX0
+    currency: EUR
   metadata:
     founded: 2006
     employees: 159
@@ -1050,6 +1053,9 @@ companies:
   - yahoo: CRZBF
     google: OTCMKTS:CRZBF
     currency: USD
+  - yahoo: ZZMS.F
+    google: FRA:ZZMS
+    currency: EUR
   metadata:
     founded: 1870
     employees: 47718
@@ -1650,6 +1656,9 @@ companies:
   - yahoo: LX9B.F
     google: FRA:LX9B
     currency: EUR
+  - yahoo: LNXSY
+    google: OTCMKTS:LNXSY
+    currency: USD
   metadata:
     founded: 2004
     employees: 14300
@@ -2175,6 +2184,9 @@ companies:
   - yahoo: 0NAU.L
     google: LON:0NAU
     currency: GBP
+  - yahoo: SOWA.F
+    google: FRA:SOWA
+    currency: EUR
   metadata:
     founded: 1969
     employees: 4948
