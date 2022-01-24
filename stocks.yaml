@@ -5439,6 +5439,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: GB00BNR5MZ78.F
+    google: FRA:GB00BNR5MZ78
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -7128,6 +7131,9 @@ companies:
   - yahoo: TLSNF
     google: OTCMKTS:TLSNF
     currency: USD
+  - yahoo: TLS.F
+    google: FRA:TLS
+    currency: EUR
   isins:
   - SE0000667925
   metadata:
@@ -9941,6 +9947,9 @@ companies:
     currency: USD
   - yahoo: 0JYW.L
     google: LON:0JYW
+    currency: GBP
+  - yahoo: 0P0001I1JC.L
+    google: LON:0P0001I1JC
     currency: GBP
   metadata:
     founded: 1927
@@ -22239,6 +22248,9 @@ companies:
   - yahoo: 0QMG.L
     google: LON:0QMG
     currency: GBP
+  - yahoo: SLW1.F
+    google: FRA:SLW1
+    currency: EUR
   metadata:
     founded: 1857
     employees: 9800
@@ -24781,7 +24793,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25658,6 +25673,9 @@ companies:
   - yahoo: VLOUF
     google: OTCMKTS:VLOUF
     currency: USD
+  - yahoo: FR0013506730.F
+    google: FRA:FR0013506730
+    currency: EUR
   isins:
   - FR0000120354
   metadata:
@@ -26438,6 +26456,9 @@ companies:
   - yahoo: GLFGF
     google: OTCMKTS:GLFGF
     currency: USD
+  - yahoo: LU2010095458.F
+    google: FRA:LU2010095458
+    currency: EUR
   isins:
   - LU2010095458
   metadata:
@@ -26461,6 +26482,9 @@ companies:
   - yahoo: HNSDF
     google: OTCMKTS:HNSDF
     currency: USD
+  - yahoo: DE000HAG0005.F
+    google: FRA:DE000HAG0005
+    currency: EUR
   isins:
   - DE000HAG0005
   metadata:
