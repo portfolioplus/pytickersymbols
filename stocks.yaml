@@ -5781,6 +5781,9 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: R6C1.F
+    google: FRA:R6C1
+    currency: EUR
   metadata:
     founded: 1907
     employees: 86000
@@ -14346,6 +14349,9 @@ companies:
   - yahoo: ECL
     google: NYSE:ECL
     currency: USD
+  - yahoo: 0IFA.L
+    google: LON:0IFA
+    currency: GBP
   metadata:
     founded: 1923
     employees: 50000
@@ -16671,6 +16677,9 @@ companies:
   - yahoo: MLM
     google: NYSE:MLM
     currency: USD
+  - yahoo: 0JZ0.L
+    google: LON:0JZ0
+    currency: GBP
   metadata:
     founded: 1993
     employees: 8714
@@ -18158,6 +18167,9 @@ companies:
   - yahoo: SBAC
     google: NASDAQ:SBAC
     currency: USD
+  - yahoo: 0KYZ.L
+    google: LON:0KYZ
+    currency: GBP
   metadata:
     founded: ''
     employees: ''
@@ -18997,6 +19009,9 @@ companies:
   - yahoo: VTR
     google: NYSE:VTR
     currency: USD
+  - yahoo: 0LO4.L
+    google: LON:0LO4
+    currency: GBP
   metadata:
     founded: 1998
     employees: 500
@@ -19664,6 +19679,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20003,6 +20021,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -22239,6 +22260,9 @@ companies:
   - yahoo: 0QMG.L
     google: LON:0QMG
     currency: GBP
+  - yahoo: SLW1.F
+    google: FRA:SLW1
+    currency: EUR
   metadata:
     founded: 1857
     employees: 9800
@@ -24781,7 +24805,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25522,7 +25549,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: GRB.F
+    google: FRA:GRB
+    currency: EUR
   isins:
   - FR0000121709
   metadata:
@@ -25964,6 +25994,9 @@ companies:
   - yahoo: KOJAF
     google: OTCMKTS:KOJAF
     currency: USD
+  - yahoo: FI4000312251.F
+    google: FRA:FI4000312251
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -26978,6 +27011,9 @@ companies:
   - yahoo: PTON
     google: NASDAQ:PTON
     currency: USD
+  - yahoo: US70614W1009.F
+    google: FRA:US70614W1009
+    currency: EUR
   isins: []
   metadata:
     founded: 2012
