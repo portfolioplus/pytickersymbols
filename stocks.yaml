@@ -2636,6 +2636,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -7128,6 +7131,9 @@ companies:
   - yahoo: TLSNF
     google: OTCMKTS:TLSNF
     currency: USD
+  - yahoo: TLS.F
+    google: FRA:TLS
+    currency: EUR
   isins:
   - SE0000667925
   metadata:
@@ -15235,6 +15241,9 @@ companies:
   - yahoo: HAL
     google: NYSE:HAL
     currency: USD
+  - yahoo: 0R23.L
+    google: LON:0R23
+    currency: GBP
   metadata:
     founded: 1919
     employees: 55000
@@ -19664,6 +19673,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20003,6 +20015,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -22239,6 +22254,9 @@ companies:
   - yahoo: 0QMG.L
     google: LON:0QMG
     currency: GBP
+  - yahoo: SLW1.F
+    google: FRA:SLW1
+    currency: EUR
   metadata:
     founded: 1857
     employees: 9800
@@ -26150,7 +26168,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26461,6 +26482,9 @@ companies:
   - yahoo: HNSDF
     google: OTCMKTS:HNSDF
     currency: USD
+  - yahoo: DE000HAG0005.F
+    google: FRA:DE000HAG0005
+    currency: EUR
   isins:
   - DE000HAG0005
   metadata:
@@ -27819,6 +27843,9 @@ companies:
   - yahoo: 0AA3.L
     google: LON:0AA3
     currency: GBP
+  - yahoo: DE000A3H2200.F
+    google: FRA:DE000A3H2200
+    currency: EUR
   isins:
   - DE000A3H2200
   metadata:
