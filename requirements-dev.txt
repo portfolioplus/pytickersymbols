@@ -2,7 +2,7 @@ wheel==0.37.1
 pytest
 pytest-cov
 pandas==1.4.0
-yfinance==0.1.69
+yfinance==0.1.70
 PyYAML==6.0
 pycountry==22.1.10
 tox
