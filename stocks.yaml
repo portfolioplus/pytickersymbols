@@ -2636,6 +2636,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -7128,6 +7131,9 @@ companies:
   - yahoo: TLSNF
     google: OTCMKTS:TLSNF
     currency: USD
+  - yahoo: TLS.F
+    google: FRA:TLS
+    currency: EUR
   isins:
   - SE0000667925
   metadata:
@@ -17055,6 +17061,12 @@ companies:
   - yahoo: NWS
     google: NASDAQ:NWS
     currency: USD
+  - yahoo: 0K7U.L
+    google: LON:0K7U
+    currency: GBP
+  - yahoo: NC0E.F
+    google: FRA:NC0E
+    currency: EUR
   metadata:
     founded: 2013
     employees: 28000
@@ -19343,6 +19355,9 @@ companies:
   - yahoo: 0Y4Q.L
     google: LON:0Y4Q
     currency: GBP
+  - yahoo: WTW
+    google: NASDAQ:WTW
+    currency: USD
   metadata:
     founded: 2016
     employees: 46600
@@ -24781,7 +24796,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25522,7 +25540,13 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: GRB0.F
+    google: FRA:GRB0
+    currency: EUR
+  - yahoo: GRB.F
+    google: FRA:GRB
+    currency: EUR
   isins:
   - FR0000121709
   metadata:
@@ -25983,6 +26007,9 @@ companies:
   - yahoo: MXTOF
     google: OTCMKTS:MXTOF
     currency: USD
+  - yahoo: FI4000440664.F
+    google: FRA:FI4000440664
+    currency: EUR
   isins:
   - FI4000440664
   metadata:
@@ -26150,7 +26177,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26650,6 +26680,9 @@ companies:
   - yahoo: 0QJQ.L
     google: LON:0QJQ
     currency: GBP
+  - yahoo: DE000ZEAL241.F
+    google: FRA:DE000ZEAL241
+    currency: EUR
   isins:
   - DE000ZEAL241
   metadata:
@@ -27845,6 +27878,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: DE000A3H3LL2.F
+    google: FRA:DE000A3H3LL2
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
