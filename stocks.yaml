@@ -26453,9 +26453,6 @@ companies:
   - yahoo: GLFGF
     google: OTCMKTS:GLFGF
     currency: USD
-  - yahoo: LU2010095458.F
-    google: FRA:LU2010095458
-    currency: EUR
   isins:
   - LU2010095458
   metadata:
@@ -26996,9 +26993,6 @@ companies:
   - yahoo: PTON
     google: NASDAQ:PTON
     currency: USD
-  - yahoo: US70614W1009.F
-    google: FRA:US70614W1009
-    currency: EUR
   isins: []
   metadata:
     founded: 2012
