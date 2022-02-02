@@ -1607,6 +1607,9 @@ companies:
   - yahoo: KPLUF
     google: OTCMKTS:KPLUF
     currency: USD
+  - yahoo: SDF1.F
+    google: FRA:SDF1
+    currency: EUR
   metadata:
     founded: 1889
     employees: 14868
@@ -7128,6 +7131,9 @@ companies:
   - yahoo: TLSNF
     google: OTCMKTS:TLSNF
     currency: USD
+  - yahoo: TLS.F
+    google: FRA:TLS
+    currency: EUR
   isins:
   - SE0000667925
   metadata:
@@ -21372,6 +21378,9 @@ companies:
   - yahoo: 0HJH.L
     google: LON:0HJH
     currency: GBP
+  - yahoo: LIV.F
+    google: FRA:LIV
+    currency: EUR
   metadata:
     founded: 1953
     employees: 59000
@@ -21839,6 +21848,7 @@ companies:
     employees: 3848
   isins:
   - SE0000310336
+  - SE0015812219
 - name: Tele2 AB
   symbol: TEL2 B
   country: Sweden
@@ -25979,7 +25989,8 @@ companies:
   - yahoo: KOJAF
     google: OTCMKTS:KOJAF
     currency: USD
-  isins: []
+  isins:
+  - FI4000312251
   metadata:
     founded: 0
     employees: 0
@@ -26913,7 +26924,8 @@ companies:
   - yahoo: 4MGN.F
     google: FRA:4MGN
     currency: EUR
-  isins: []
+  isins:
+  - US57667L1070
   metadata:
     founded: ''
     employees: 1700
