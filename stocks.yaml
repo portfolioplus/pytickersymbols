@@ -1391,6 +1391,9 @@ companies:
   - yahoo: FPE4.F
     google: FRA:FPE4
     currency: EUR
+  - yahoo: DE000A3E5D64.F
+    google: FRA:DE000A3E5D64
+    currency: EUR
   metadata:
     founded: 1931
     employees: 5728
@@ -2639,6 +2642,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -2892,6 +2898,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -21566,6 +21575,9 @@ companies:
   - yahoo: HXGBY
     google: OTCMKTS:HXGBY
     currency: USD
+  - yahoo: SE0015961909.F
+    google: FRA:SE0015961909
+    currency: EUR
   metadata:
     founded: 1975
     employees: 20250
@@ -21589,6 +21601,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: SE0015811963.F
+    google: FRA:SE0015811963
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -21621,6 +21636,9 @@ companies:
     currency: USD
   - yahoo: IV6.F
     google: FRA:IV6
+    currency: EUR
+  - yahoo: SE0015810247.F
+    google: FRA:SE0015810247
     currency: EUR
   metadata:
     founded: 1936
@@ -26176,7 +26194,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
