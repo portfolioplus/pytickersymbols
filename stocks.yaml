@@ -1773,6 +1773,9 @@ companies:
   - yahoo: MTX1.F
     google: FRA:MTX1
     currency: EUR
+  - yahoo: MTXN.F
+    google: FRA:MTXN
+    currency: EUR
   metadata:
     founded: 1934
     employees: 10313
@@ -2639,6 +2642,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -2892,6 +2898,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -19679,6 +19688,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20018,6 +20030,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -21409,6 +21424,9 @@ companies:
   - yahoo: BOLIF
     google: OTCMKTS:BOLIF
     currency: USD
+  - yahoo: SE0015811559.F
+    google: FRA:SE0015811559
+    currency: EUR
   metadata:
     founded: 1931
     employees: 4881
@@ -21566,6 +21584,9 @@ companies:
   - yahoo: HXGBY
     google: OTCMKTS:HXGBY
     currency: USD
+  - yahoo: SE0015961909.F
+    google: FRA:SE0015961909
+    currency: EUR
   metadata:
     founded: 1975
     employees: 20250
@@ -21589,6 +21610,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: SE0015811963.F
+    google: FRA:SE0015811963
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -21621,6 +21645,9 @@ companies:
     currency: USD
   - yahoo: IV6.F
     google: FRA:IV6
+    currency: EUR
+  - yahoo: SE0015810247.F
+    google: FRA:SE0015810247
     currency: EUR
   metadata:
     founded: 1936
@@ -21842,6 +21869,9 @@ companies:
     currency: USD
   - yahoo: SWM0.F
     google: FRA:SWM0
+    currency: EUR
+  - yahoo: SE0015812219.F
+    google: FRA:SE0015812219
     currency: EUR
   metadata:
     founded: 1917
@@ -24616,6 +24646,9 @@ companies:
   - yahoo: ENR0.F
     google: FRA:ENR0
     currency: EUR
+  - yahoo: DE000ENER6Y0.F
+    google: FRA:DE000ENER6Y0
+    currency: EUR
   isins:
   - DE000ENER6Y0
   metadata:
@@ -24806,7 +24839,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26176,7 +26212,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26487,6 +26526,9 @@ companies:
   - yahoo: HNSDF
     google: OTCMKTS:HNSDF
     currency: USD
+  - yahoo: DE000HAG0005.F
+    google: FRA:DE000HAG0005
+    currency: EUR
   isins:
   - DE000HAG0005
   metadata:
@@ -26676,6 +26718,9 @@ companies:
   - yahoo: 0QJQ.L
     google: LON:0QJQ
     currency: GBP
+  - yahoo: DE000ZEAL241.F
+    google: FRA:DE000ZEAL241
+    currency: EUR
   isins:
   - DE000ZEAL241
   metadata:
@@ -27846,6 +27891,9 @@ companies:
   - yahoo: 0AA3.L
     google: LON:0AA3
     currency: GBP
+  - yahoo: DE000A3H2200.F
+    google: FRA:DE000A3H2200
+    currency: EUR
   isins:
   - DE000A3H2200
   metadata:
