@@ -19679,6 +19679,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20018,6 +20021,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -20400,6 +20406,9 @@ companies:
   - yahoo: UFGD.F
     google: FRA:UFGD
     currency: EUR
+  - yahoo: FRRVF
+    google: OTCMKTS:FRRVF
+    currency: USD
   metadata:
     founded: 1952
     employees: 95978
@@ -24806,7 +24815,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25547,7 +25559,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: GRB.F
+    google: FRA:GRB
+    currency: EUR
   isins:
   - FR0000121709
   metadata:
@@ -25683,6 +25698,9 @@ companies:
   - yahoo: VLOUF
     google: OTCMKTS:VLOUF
     currency: USD
+  - yahoo: FR0013506730.F
+    google: FRA:FR0013506730
+    currency: EUR
   isins:
   - FR0000120354
   metadata:
@@ -26009,6 +26027,9 @@ companies:
   - yahoo: MXTOF
     google: OTCMKTS:MXTOF
     currency: USD
+  - yahoo: FI4000440664.F
+    google: FRA:FI4000440664
+    currency: EUR
   isins:
   - FI4000440664
   metadata:
@@ -26176,7 +26197,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -28102,6 +28126,9 @@ companies:
     currency: USD
   - yahoo: 68F0.F
     google: FRA:68F0
+    currency: EUR
+  - yahoo: NL0014559478.F
+    google: FRA:NL0014559478
     currency: EUR
   isins:
   - NL0014559478
