@@ -5442,6 +5442,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: GB00BNR5MZ78.F
+    google: FRA:GB00BNR5MZ78
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -5783,6 +5786,12 @@ companies:
     currency: EUR
   - yahoo: R6C3.F
     google: FRA:R6C3
+    currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
+  - yahoo: R6C2.F
+    google: FRA:R6C2
     currency: EUR
   metadata:
     founded: 1907
@@ -8248,6 +8257,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -19679,6 +19691,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20018,6 +20033,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -24806,7 +24824,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26176,7 +26197,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
