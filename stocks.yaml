@@ -5278,6 +5278,9 @@ companies:
   - yahoo: KGFHF
     google: OTCMKTS:KGFHF
     currency: USD
+  - yahoo: KFI2.F
+    google: FRA:KFI2
+    currency: EUR
   metadata:
     founded: 1982
     employees: 79000
@@ -5442,6 +5445,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: GB00BNR5MZ78.F
+    google: FRA:GB00BNR5MZ78
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -5950,6 +5956,9 @@ companies:
   - yahoo: RRU1.F
     google: FRA:RRU1
     currency: EUR
+  - yahoo: RLLCF
+    google: OTCMKTS:RLLCF
+    currency: USD
   metadata:
     founded: 1904
     employees: 50000
@@ -8248,6 +8257,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -18366,6 +18378,9 @@ companies:
   - yahoo: STT
     google: NYSE:STT
     currency: USD
+  - yahoo: 0L9G.L
+    google: LON:0L9G
+    currency: GBP
   metadata:
     founded: 1792
     employees: 39439
@@ -21589,6 +21604,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: SE0015811963.F
+    google: FRA:SE0015811963
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -21842,6 +21860,9 @@ companies:
     currency: USD
   - yahoo: SWM0.F
     google: FRA:SWM0
+    currency: EUR
+  - yahoo: SE0015812219.F
+    google: FRA:SE0015812219
     currency: EUR
   metadata:
     founded: 1917
@@ -26009,6 +26030,9 @@ companies:
   - yahoo: MXTOF
     google: OTCMKTS:MXTOF
     currency: USD
+  - yahoo: FI4000440664.F
+    google: FRA:FI4000440664
+    currency: EUR
   isins:
   - FI4000440664
   metadata:
@@ -26176,7 +26200,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -27005,6 +27032,9 @@ companies:
   - yahoo: PTON
     google: NASDAQ:PTON
     currency: USD
+  - yahoo: US70614W1009.F
+    google: FRA:US70614W1009
+    currency: EUR
   isins: []
   metadata:
     founded: 2012
