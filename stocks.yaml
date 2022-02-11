@@ -8248,6 +8248,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -24616,6 +24619,9 @@ companies:
   - yahoo: ENR0.F
     google: FRA:ENR0
     currency: EUR
+  - yahoo: DE000ENER6Y0.F
+    google: FRA:DE000ENER6Y0
+    currency: EUR
   isins:
   - DE000ENER6Y0
   metadata:
@@ -24806,7 +24812,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25989,6 +25998,9 @@ companies:
   - yahoo: KOJAF
     google: OTCMKTS:KOJAF
     currency: USD
+  - yahoo: FI4000312251.F
+    google: FRA:FI4000312251
+    currency: EUR
   isins:
   - FI4000312251
   metadata:
@@ -26009,6 +26021,9 @@ companies:
   - yahoo: MXTOF
     google: OTCMKTS:MXTOF
     currency: USD
+  - yahoo: FI4000440664.F
+    google: FRA:FI4000440664
+    currency: EUR
   isins:
   - FI4000440664
   metadata:
@@ -26176,7 +26191,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26223,6 +26241,9 @@ companies:
   - yahoo: ISNPY
     google: OTCMKTS:ISNPY
     currency: USD
+  - yahoo: IESJ.F
+    google: FRA:IESJ
+    currency: EUR
   isins:
   - IT0000072618
   metadata:
