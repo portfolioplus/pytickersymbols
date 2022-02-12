@@ -2892,6 +2892,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -8248,6 +8251,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -19679,6 +19685,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20018,6 +20027,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -24806,7 +24818,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25683,6 +25698,9 @@ companies:
   - yahoo: VLOUF
     google: OTCMKTS:VLOUF
     currency: USD
+  - yahoo: FR0013506730.F
+    google: FRA:FR0013506730
+    currency: EUR
   isins:
   - FR0000120354
   metadata:
@@ -26464,6 +26482,9 @@ companies:
   - yahoo: GLFGF
     google: OTCMKTS:GLFGF
     currency: USD
+  - yahoo: LU2010095458.F
+    google: FRA:LU2010095458
+    currency: EUR
   isins:
   - LU2010095458
   metadata:
@@ -27872,6 +27893,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: DE000A3H3LL2.F
+    google: FRA:DE000A3H3LL2
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
