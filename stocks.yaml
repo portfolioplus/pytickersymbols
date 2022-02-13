@@ -1635,6 +1635,9 @@ companies:
   - yahoo: KIGRY
     google: OTCMKTS:KIGRY
     currency: USD
+  - yahoo: KGX1.F
+    google: FRA:KGX1
+    currency: EUR
   metadata:
     founded: 2006
     employees: 36207
@@ -2639,6 +2642,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -8248,6 +8254,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -19679,6 +19688,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20018,6 +20030,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -20715,6 +20730,9 @@ companies:
     currency: USD
   - yahoo: GTQB.F
     google: FRA:GTQB
+    currency: EUR
+  - yahoo: US82621P1012.F
+    google: FRA:US82621P1012
     currency: EUR
   metadata:
     founded: 1976
@@ -21622,6 +21640,9 @@ companies:
   - yahoo: IV6.F
     google: FRA:IV6
     currency: EUR
+  - yahoo: SE0015810247.F
+    google: FRA:SE0015810247
+    currency: EUR
   metadata:
     founded: 1936
     employees: ''
@@ -21842,6 +21863,9 @@ companies:
     currency: USD
   - yahoo: SWM0.F
     google: FRA:SWM0
+    currency: EUR
+  - yahoo: SE0015812219.F
+    google: FRA:SE0015812219
     currency: EUR
   metadata:
     founded: 1917
@@ -24806,7 +24830,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26176,7 +26203,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
