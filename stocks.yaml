@@ -8248,6 +8248,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -13633,6 +13636,9 @@ companies:
   - yahoo: CLX
     google: NYSE:CLX
     currency: USD
+  - yahoo: 0I0J.L
+    google: LON:0I0J
+    currency: GBP
   metadata:
     founded: 1913
     employees: 8800
@@ -23989,6 +23995,9 @@ companies:
   - yahoo: MWI.F
     google: FRA:MWI
     currency: EUR
+  - yahoo: US57060D1081.F
+    google: FRA:US57060D1081
+    currency: EUR
   isins:
   - US57060D1081
   metadata:
@@ -26176,7 +26185,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26676,6 +26688,9 @@ companies:
   - yahoo: 0QJQ.L
     google: LON:0QJQ
     currency: GBP
+  - yahoo: DE000ZEAL241.F
+    google: FRA:DE000ZEAL241
+    currency: EUR
   isins:
   - DE000ZEAL241
   metadata:
