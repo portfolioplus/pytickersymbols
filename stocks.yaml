@@ -2639,6 +2639,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -2892,6 +2895,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -8248,6 +8254,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -16793,6 +16802,9 @@ companies:
   - yahoo: MGM
     google: NYSE:MGM
     currency: USD
+  - yahoo: 0JWC.L
+    google: LON:0JWC
+    currency: GBP
   metadata:
     founded: 1986
     employees: 74500
@@ -19679,6 +19691,9 @@ companies:
   - yahoo: BC1P.F
     google: FRA:BC1P
     currency: EUR
+  - yahoo: BE0974362940.F
+    google: FRA:BE0974362940
+    currency: EUR
   metadata:
     founded: 1934
     employees: 3664
@@ -20018,6 +20033,9 @@ companies:
     currency: USD
   - yahoo: WPHB.F
     google: FRA:WPHB
+    currency: EUR
+  - yahoo: BE0974349814.F
+    google: FRA:BE0974349814
     currency: EUR
   metadata:
     founded: unknown
@@ -20716,6 +20734,9 @@ companies:
   - yahoo: GTQB.F
     google: FRA:GTQB
     currency: EUR
+  - yahoo: US82621P1012.F
+    google: FRA:US82621P1012
+    currency: EUR
   metadata:
     founded: 1976
     employees: 24500
@@ -21409,6 +21430,9 @@ companies:
   - yahoo: BOLIF
     google: OTCMKTS:BOLIF
     currency: USD
+  - yahoo: SE0015811559.F
+    google: FRA:SE0015811559
+    currency: EUR
   metadata:
     founded: 1931
     employees: 4881
@@ -21566,6 +21590,9 @@ companies:
   - yahoo: HXGBY
     google: OTCMKTS:HXGBY
     currency: USD
+  - yahoo: SE0015961909.F
+    google: FRA:SE0015961909
+    currency: EUR
   metadata:
     founded: 1975
     employees: 20250
@@ -27005,6 +27032,9 @@ companies:
   - yahoo: PTON
     google: NASDAQ:PTON
     currency: USD
+  - yahoo: US70614W1009.F
+    google: FRA:US70614W1009
+    currency: EUR
   isins: []
   metadata:
     founded: 2012
