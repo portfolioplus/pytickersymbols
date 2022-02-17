@@ -2639,6 +2639,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -5784,6 +5787,12 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
+  - yahoo: R6C2.F
+    google: FRA:R6C2
+    currency: EUR
   metadata:
     founded: 1907
     employees: 86000
@@ -7664,6 +7673,9 @@ companies:
   - yahoo: FNCTF
     google: OTCMKTS:FNCTF
     currency: USD
+  - yahoo: MBISF
+    google: OTCMKTS:MBISF
+    currency: USD
   metadata:
     founded: 1988
     employees: 142150
@@ -7813,6 +7825,9 @@ companies:
   - yahoo: COD.L
     google: LON:COD
     currency: GBP
+  - yahoo: US2042803096.F
+    google: FRA:US2042803096
+    currency: EUR
   metadata:
     founded: 1665
     employees: 180000
@@ -8248,6 +8263,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -20716,6 +20734,9 @@ companies:
   - yahoo: GTQB.F
     google: FRA:GTQB
     currency: EUR
+  - yahoo: US82621P1012.F
+    google: FRA:US82621P1012
+    currency: EUR
   metadata:
     founded: 1976
     employees: 24500
@@ -26176,7 +26197,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26223,6 +26247,9 @@ companies:
   - yahoo: ISNPY
     google: OTCMKTS:ISNPY
     currency: USD
+  - yahoo: IESJ.F
+    google: FRA:IESJ
+    currency: EUR
   isins:
   - IT0000072618
   metadata:
@@ -28169,6 +28196,9 @@ companies:
   - yahoo: 0A3N.L
     google: LON:0A3N
     currency: GBP
+  - yahoo: US22788C1053.F
+    google: FRA:US22788C1053
+    currency: EUR
   isins: []
   metadata:
     founded: 2011
