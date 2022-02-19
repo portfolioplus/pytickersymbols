@@ -98,6 +98,9 @@ companies:
   - yahoo: ALVE.F
     google: FRA:ALVE
     currency: EUR
+  - yahoo: ALIZF
+    google: OTCMKTS:ALIZF
+    currency: USD
   metadata:
     founded: 1890
     employees: 147268
@@ -2892,6 +2895,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -6858,6 +6864,9 @@ companies:
   - yahoo: 0M2N.L
     google: LON:0M2N
     currency: GBP
+  - yahoo: OFK0.F
+    google: FRA:OFK0
+    currency: EUR
   metadata:
     founded: 1917
     employees: 3446
@@ -18366,6 +18375,9 @@ companies:
   - yahoo: STT
     google: NYSE:STT
     currency: USD
+  - yahoo: 0L9G.L
+    google: LON:0L9G
+    currency: GBP
   metadata:
     founded: 1792
     employees: 39439
@@ -19056,6 +19068,12 @@ companies:
     currency: EUR
   - yahoo: VNO
     google: NYSE:VNO
+    currency: USD
+  - yahoo: 0LR2.L
+    google: LON:0LR2
+    currency: GBP
+  - yahoo: VNORP
+    google: OTCMKTS:VNORP
     currency: USD
   metadata:
     founded: 1982
