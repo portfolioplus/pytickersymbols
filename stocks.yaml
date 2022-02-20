@@ -747,6 +747,9 @@ companies:
   - yahoo: TKAMY
     google: OTCMKTS:TKAMY
     currency: USD
+  - yahoo: TKA1.F
+    google: FRA:TKA1
+    currency: EUR
   metadata:
     founded: 1999
     employees: 103598
@@ -2639,6 +2642,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -3540,6 +3546,9 @@ companies:
     currency: USD
   - yahoo: S93.F
     google: FRA:S93
+    currency: EUR
+  - yahoo: US78446M1099.F
+    google: FRA:US78446M1099
     currency: EUR
   metadata:
     founded: 1981
@@ -26176,7 +26185,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26923,6 +26935,9 @@ companies:
     currency: USD
   - yahoo: 4MGN.F
     google: FRA:4MGN
+    currency: EUR
+  - yahoo: US57667L1070.F
+    google: FRA:US57667L1070
     currency: EUR
   isins:
   - US57667L1070
