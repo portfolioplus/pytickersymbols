@@ -98,6 +98,9 @@ companies:
   - yahoo: ALVE.F
     google: FRA:ALVE
     currency: EUR
+  - yahoo: ALIZF
+    google: OTCMKTS:ALIZF
+    currency: USD
   metadata:
     founded: 1890
     employees: 147268
@@ -316,6 +319,7 @@ companies:
   symbol: DB1
   country: Germany
   indices:
+  - BEL 20
   - DAX
   - EURO STOXX 50
   industries:
@@ -890,8 +894,7 @@ companies:
 - name: alstria office REIT-AG
   symbol: AOX
   country: Germany
-  indices:
-  - MDAX
+  indices: []
   industries:
   - Real Estate
   - Financials
@@ -1160,7 +1163,8 @@ companies:
 - name: Deutsche Wohnen SE
   symbol: DWNI
   country: Germany
-  indices: []
+  indices:
+  - MDAX
   industries:
   - Real Estate
   - Financials
@@ -1971,7 +1975,6 @@ companies:
   symbol: RRTL
   country: Luxembourg
   indices:
-  - CAC Mid 60
   - SDAX
   industries:
   - Media & Publishing
@@ -2892,6 +2895,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -2940,7 +2946,8 @@ companies:
 - name: Heidelberger Druckmaschinen AG
   symbol: HDD
   country: Germany
-  indices: []
+  indices:
+  - SDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -2953,9 +2960,17 @@ companies:
   - yahoo: HDD
     google: OTCMKTS:HDD
     currency: USD
+  - yahoo: HDDF.F
+    google: FRA:HDDF
+    currency: EUR
+  - yahoo: HBGRY
+    google: OTCMKTS:HBGRY
+    currency: USD
   metadata:
     founded: 1850
     employees: 11511
+  isins:
+  - DE0007314007
 - name: HelloFresh SE
   symbol: HFG
   country: Germany
@@ -3330,7 +3345,6 @@ companies:
   country: Germany
   indices:
   - SDAX
-  - TECDAX
   industries:
   - Industrial Goods
   - Industrials
@@ -4278,6 +4292,9 @@ companies:
   - yahoo: 42BB.F
     google: FRA:42BB
     currency: EUR
+  - yahoo: GB00BLJNXL82.F
+    google: FRA:GB00BLJNXL82
+    currency: EUR
   metadata:
     founded: 1976
     employees: 2709
@@ -4285,8 +4302,7 @@ companies:
 - name: BHP Group
   symbol: BHP
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Metals & Mining
   - Mineral Resources
@@ -4336,6 +4352,9 @@ companies:
   - yahoo: BPE.F
     google: FRA:BPE
     currency: EUR
+  - yahoo: BPAQF
+    google: OTCMKTS:BPAQF
+    currency: USD
   metadata:
     founded: 1909
     employees: 70100
@@ -5087,6 +5106,9 @@ companies:
   - yahoo: IFJPY
     google: OTCMKTS:IFJPY
     currency: USD
+  - yahoo: GB00BMJ6DW54.F
+    google: FRA:GB00BMJ6DW54
+    currency: EUR
   metadata:
     founded: 1998
     employees: 11000
@@ -5213,8 +5235,7 @@ companies:
 - name: Johnson Matthey PLC
   symbol: JMAT
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Specialty Chemicals
   - Basic Materials
@@ -5751,9 +5772,7 @@ companies:
 - name: Royal Dutch Shell PLC
   symbol: RDSA
   country: Netherlands
-  indices:
-  - FTSE 100
-  - AEX
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -8839,7 +8858,8 @@ companies:
   metadata:
     founded: 1923
     employees: 223000
-  isins: []
+  isins:
+  - US2546871060
 - name: Activision Blizzard Inc.
   symbol: ATVI
   country: United States
@@ -9227,7 +9247,6 @@ companies:
   symbol: CERN
   country: United States
   indices:
-  - NASDAQ 100
   - S&P 500
   industries:
   - Healthcare
@@ -9277,8 +9296,7 @@ companies:
 - name: Check Point Software Technologies Ltd.
   symbol: CHKP
   country: Israel
-  indices:
-  - NASDAQ 100
+  indices: []
   industries:
   - Software
   - Technology
@@ -9419,8 +9437,7 @@ companies:
 - name: Ctrip.com International, Ltd.
   symbol: CTRP
   country: China
-  indices:
-  - NASDAQ 100
+  indices: []
   industries:
   - Hotels & Entertainment Services
   - Leisure & Recreation
@@ -9762,7 +9779,6 @@ companies:
   symbol: INCY
   country: United States
   indices:
-  - NASDAQ 100
   - S&P 500
   industries:
   - Biotechnology & Medical Research
@@ -10746,9 +10762,7 @@ companies:
 - name: Xilinx Inc.
   symbol: XLNX
   country: United States
-  indices:
-  - NASDAQ 100
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -12231,7 +12245,8 @@ companies:
   metadata:
     founded: 1908
     employees: 10000
-  isins: []
+  isins:
+  - IE00BFRT3W74
 - name: Alliance Data Systems Corporation
   symbol: ADS
   country: United States
@@ -13478,7 +13493,8 @@ companies:
   metadata:
     founded: 1985
     employees: 31000
-  isins: []
+  isins:
+  - CH0044328745
 - name: Church & Dwight Co. Inc.
   symbol: CHD
   country: United States
@@ -13786,6 +13802,7 @@ companies:
   symbol: STZ
   country: United States
   indices:
+  - NASDAQ 100
   - S&P 500
   industries:
   - Food & Beverages
@@ -13798,6 +13815,9 @@ companies:
     currency: EUR
   - yahoo: STZ
     google: NYSE:STZ
+    currency: USD
+  - yahoo: CEG
+    google: NASDAQ:CEG
     currency: USD
   metadata:
     founded: 1945
@@ -14922,6 +14942,7 @@ companies:
   symbol: FTNT
   country: United States
   indices:
+  - NASDAQ 100
   - S&P 500
   industries:
   - Technology
@@ -14993,7 +15014,6 @@ companies:
   symbol: FOXA
   country: United States
   indices:
-  - NASDAQ 100
   - S&P 500
   industries:
   - Media & Publishing
@@ -15067,8 +15087,7 @@ companies:
 - name: The Gap Inc.
   symbol: GPS
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -15107,7 +15126,8 @@ companies:
   metadata:
     founded: 1989
     employees: 16000
-  isins: []
+  isins:
+  - CH0114405324
 - name: Gartner Inc.
   symbol: IT
   country: United States
@@ -15251,8 +15271,7 @@ companies:
 - name: Hanesbrands Inc.
   symbol: HBI
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Textiles & Apparel
@@ -15734,7 +15753,8 @@ companies:
   metadata:
     founded: 1959
     employees: 14000
-  isins: []
+  isins:
+  - BMG475671050
 - name: Illinois Tool Works Inc.
   symbol: ITW
   country: United States
@@ -15880,7 +15900,8 @@ companies:
   metadata:
     founded: 1935
     employees: 8900
-  isins: []
+  isins:
+  - BMG491BT1088
 - name: IPG Photonics Corporation
   symbol: IPGP
   country: United States
@@ -16107,8 +16128,7 @@ companies:
 - name: Kansas City Southern
   symbol: KSU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Ground Freight & Logistics
   - Industrials
@@ -16397,8 +16417,7 @@ companies:
 - name: Leggett & Platt Inc.
   symbol: LEG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Cyclical Consumer Products
   - Household Goods
@@ -19222,8 +19241,7 @@ companies:
 - name: The Western Union Company
   symbol: WU
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Business Support Services
   - Industrials
@@ -19342,8 +19360,7 @@ companies:
 - name: Willis Towers Watson Public Limited Company
   symbol: WLTW
   country: United Kingdom
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Insurance
   - Financials
@@ -20763,8 +20780,7 @@ companies:
 - name: Viscofan SA
   symbol: VIS
   country: Spain
-  indices:
-  - IBEX 35
+  indices: []
   industries:
   - Non-Paper Containers & Packaging
   - Basic Materials
@@ -22075,7 +22091,8 @@ companies:
 - name: Nestlé SA
   symbol: NESN
   country: Switzerland
-  indices: []
+  indices:
+  - Switzerland 20
   industries:
   - Food & Beverages
   - Consumer Non-Cyclicals
@@ -22091,6 +22108,8 @@ companies:
   metadata:
     founded: unknown
     employees: unknown
+  isins:
+  - CH0038863350
 - name: Novartis AG
   symbol: NOVN
   country: Switzerland
@@ -22557,8 +22576,7 @@ companies:
 - name: M.video
   symbol: MVID
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -22606,8 +22624,7 @@ companies:
 - name: MegaFon
   symbol: MFON
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -22623,8 +22640,7 @@ companies:
 - name: Mechel PAO
   symbol: MTLR
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Coal
   - Metals & Mining
@@ -22781,8 +22797,7 @@ companies:
 - name: PAO TMK
   symbol: TRMK
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Steel
   symbols:
@@ -23160,8 +23175,7 @@ companies:
 - name: Unipro
   symbol: UPRO
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Electricity
   - Electric power
@@ -23178,8 +23192,7 @@ companies:
 - name: United Wagon Company
   symbol: UWGN
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Transport machine building
   symbols:
@@ -23650,7 +23663,6 @@ companies:
   symbol: CDW
   country: United States
   indices:
-  - NASDAQ 100
   - S&P 500
   industries:
   - IT
@@ -24103,6 +24115,7 @@ companies:
   symbol: ODFL
   country: United States
   indices:
+  - NASDAQ 100
   - S&P 500
   industries: []
   symbols:
@@ -24417,8 +24430,7 @@ companies:
   wiki_name: ViacomCBS Inc.
   symbol: VIAC
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Mass media
   symbols:
@@ -25788,8 +25800,7 @@ companies:
   wiki_name: Nestlé S.A.
   symbol: NESN
   country: Switzerland
-  indices:
-  - Switzerland 20
+  indices: []
   industries:
   - Food processing
   symbols:
@@ -26473,8 +26484,7 @@ companies:
   wiki_name: Hensoldt AG
   symbol: HAG
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries:
   - Defence
   symbols:
@@ -26496,8 +26506,7 @@ companies:
   wiki_name: home24 SE
   symbol: H24
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: H24.F
@@ -26647,8 +26656,7 @@ companies:
   wiki_name: Westwing Group AG
   symbol: WEW
   country: Germany
-  indices:
-  - SDAX
+  indices: []
   industries: []
   symbols:
   - yahoo: WEW.F
@@ -26676,6 +26684,9 @@ companies:
   - yahoo: 0QJQ.L
     google: LON:0QJQ
     currency: GBP
+  - yahoo: DE000ZEAL241.F
+    google: FRA:DE000ZEAL241
+    currency: EUR
   isins:
   - DE000ZEAL241
   metadata:
@@ -26685,8 +26696,7 @@ companies:
   wiki_name: Lenta
   symbol: 17LA
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Retail
   - Groceries
@@ -26706,8 +26716,7 @@ companies:
   wiki_name: LSR Group
   symbol: LSRG
   country: Russian Federation
-  indices:
-  - MOEX
+  indices: []
   industries:
   - Construction
   symbols:
@@ -26778,8 +26787,7 @@ companies:
   wiki_name: TCS Group
   symbol: TCSG
   country: Cyprus
-  indices:
-  - MOEX
+  indices: []
   industries: []
   symbols:
   - yahoo: TCSG.ME
@@ -26817,7 +26825,8 @@ companies:
   - yahoo: 59A.F
     google: FRA:59A
     currency: EUR
-  isins: []
+  isins:
+  - GB00BZ09BD16
   metadata:
     founded: 2002
     employees: 6117
@@ -26991,8 +27000,7 @@ companies:
   wiki_name: Peloton Interactive, Inc.
   symbol: PTON
   country: United States
-  indices:
-  - NASDAQ 100
+  indices: []
   industries:
   - Exercise equipment
   symbols:
@@ -27466,8 +27474,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols:
   - yahoo: ASRNL.AS
@@ -27799,7 +27806,8 @@ companies:
   wiki_name: Metropole Télévision SA
   symbol: XPAR
   country: France
-  indices: []
+  indices:
+  - CAC Mid 60
   industries:
   - Media
   symbols:
@@ -27835,6 +27843,7 @@ companies:
   country: Germany
   indices:
   - SDAX
+  - TECDAX
   industries: []
   symbols:
   - yahoo: NA9.F
@@ -27846,6 +27855,9 @@ companies:
   - yahoo: 0AA3.L
     google: LON:0AA3
     currency: GBP
+  - yahoo: DE000A3H2200.F
+    google: FRA:DE000A3H2200
+    currency: EUR
   isins:
   - DE000A3H2200
   metadata:
@@ -27991,6 +28003,7 @@ companies:
     google: OTCMKTS:ALBMY
     currency: USD
   isins:
+  - FR0000060402
   - FR77775667538
   metadata:
     founded: 1982
@@ -28305,6 +28318,7 @@ companies:
   symbol: UMG
   country: United States
   indices:
+  - AEX
   - EURO STOXX 50
   industries:
   - Music
@@ -28347,6 +28361,9 @@ companies:
   - yahoo: BSL.F
     google: FRA:BSL
     currency: EUR
+  - yahoo: 0DUI.L
+    google: LON:0DUI
+    currency: GBP
   isins:
   - DE0005102008
   metadata:
@@ -28366,6 +28383,9 @@ companies:
   - yahoo: TPLKF
     google: OTCMKTS:TPLKF
     currency: USD
+  - yahoo: 0NL1.L
+    google: LON:0NL1
+    currency: GBP
   isins:
   - DE0007461006
   metadata:
@@ -28530,3 +28550,508 @@ companies:
   metadata:
     founded: 1999
     employees: 2131
+- name: Airtel Africa plc
+  wiki_name: Airtel Africa plc
+  symbol: AAF
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Telecommunication
+  symbols:
+  - yahoo: 9AA.F
+    google: FRA:9AA
+    currency: EUR
+  - yahoo: AAF.L
+    google: LON:AAF
+    currency: GBP
+  - yahoo: GB00BKDRYJ47.F
+    google: FRA:GB00BKDRYJ47
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 2010
+    employees: 25000
+- name: Dechra Pharmaceuticals PLC
+  wiki_name: Dechra Pharmaceuticals PLC
+  symbol: DPH
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Pharmaceuticals
+  symbols:
+  - yahoo: 1PK.F
+    google: FRA:1PK
+    currency: EUR
+  - yahoo: DPH.L
+    google: LON:DPH
+    currency: GBP
+  - yahoo: DCHPF
+    google: OTCMKTS:DCHPF
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1997
+    employees: ''
+- name: Electrocomponents plc
+  wiki_name: Electrocomponents plc
+  symbol: ECM
+  country: United Kingdom
+  indices:
+  - FTSE 100
+  industries:
+  - Electronic component
+  symbols:
+  - yahoo: EENEY
+    google: OTCMKTS:EENEY
+    currency: USD
+  - yahoo: ECN.F
+    google: FRA:ECN
+    currency: EUR
+  - yahoo: ECM.L
+    google: LON:ECM
+    currency: GBP
+  isins: []
+  metadata:
+    founded: 1937
+    employees: 6806
+- name: Shell plc
+  wiki_name: Shell plc
+  symbol: SHEL
+  country: United Kingdom
+  indices:
+  - AEX
+  - FTSE 100
+  industries:
+  - Energy
+  - Oil and gas
+  symbols:
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
+  isins:
+  - GB00BP6MXD84
+  metadata:
+    founded: 1907
+    employees: 86000
+- name: En+
+  wiki_name: En+
+  symbol: ENPG
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries: []
+  symbols: []
+  isins:
+  - US29355E2081
+  metadata:
+    founded: 2002
+    employees: 100000
+- name: Fix Price Group
+  wiki_name: Fix Price Group
+  symbol: 81CM
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries: []
+  symbols:
+  - yahoo: 81CM.L
+    google: LON:81CM
+    currency: GBP
+  - yahoo: FIXP.ME
+    google: MCX:FIXP
+    currency: RUB
+  - yahoo: 8ZC.F
+    google: FRA:8ZC
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Globaltrans
+  wiki_name: Globaltrans
+  symbol: null
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: HeadHunter Group
+  wiki_name: HeadHunter Group
+  symbol: HHRU
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries: []
+  symbols:
+  - yahoo: HHRU.ME
+    google: MCX:HHRU
+    currency: RUB
+  - yahoo: HHR
+    google: NASDAQ:HHR
+    currency: USD
+  - yahoo: 2ZS.F
+    google: FRA:2ZS
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Ozon
+  wiki_name: Ozon
+  symbol: OZON
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries:
+  - technology
+  symbols:
+  - yahoo: OZON
+    google: NASDAQ:OZON
+    currency: USD
+  isins:
+  - US69269L1044
+  metadata:
+    founded: 1998
+    employees: 12000
+- name: Petropavlovsk PLC
+  wiki_name: Petropavlovsk PLC
+  symbol: POG
+  country: '[[London]], [[Moskau]]'
+  indices:
+  - MOEX
+  industries:
+  - Gold mining
+  symbols:
+  - yahoo: POG.L
+    google: LON:POG
+    currency: GBP
+  - yahoo: PHZ.F
+    google: FRA:PHZ
+    currency: EUR
+  - yahoo: POGR.ME
+    google: MCX:POGR
+    currency: RUB
+  isins:
+  - GB0031544546
+  metadata:
+    founded: 1994
+    employees: 8499
+- name: Tinkoff Bank
+  wiki_name: Tinkoff Bank
+  symbol: TCS
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries: []
+  symbols: []
+  isins:
+  - US87238U2033
+  metadata:
+    founded: 2006
+    employees: 25970
+- name: Mail.Ru Group
+  wiki_name: Mail.Ru Group
+  symbol: MAIL
+  country: Russian Federation
+  indices:
+  - MOEX
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 2005
+    employees: 3122
+- name: Laboratorios Rovi
+  wiki_name: Laboratorios Rovi
+  symbol: ROVI
+  country: Finland
+  indices:
+  - IBEX 35
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: ABOUT YOU Holding SE
+  wiki_name: ABOUT YOU Holding SE
+  symbol: YOU
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: YOU.F
+    google: FRA:YOU
+    currency: EUR
+  - yahoo: 0A9O.L
+    google: LON:0A9O
+    currency: GBP
+  isins:
+  - DE000A3CNK42
+  metadata:
+    founded: 2014
+    employees: 1000
+- name: GFT Technologies SE
+  wiki_name: GFT Technologies SE
+  symbol: GFT
+  country: Germany
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: GFT.F
+    google: FRA:GFT
+    currency: EUR
+  - yahoo: 0O2W.L
+    google: LON:0O2W
+    currency: GBP
+  isins:
+  - DE0005800601
+  metadata:
+    founded: 1987
+    employees: 5986
+- name: Vitesco Technologies Group AG
+  wiki_name: Vitesco Technologies Group AG
+  symbol: 0AAF
+  country: '[[Regensburg]]'
+  indices:
+  - SDAX
+  industries: []
+  symbols:
+  - yahoo: 0AAF.L
+    google: LON:0AAF
+    currency: GBP
+  - yahoo: VTSC.F
+    google: FRA:VTSC
+    currency: EUR
+  - yahoo: VTSCY
+    google: OTCMKTS:VTSCY
+    currency: USD
+  - yahoo: VTS.F
+    google: FRA:VTS
+    currency: EUR
+  isins:
+  - DE000VTSC017
+  metadata:
+    founded: 2019
+    employees: 40000
+- name: Airbnb, Inc.
+  wiki_name: Airbnb, Inc.
+  symbol: ABNB
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Lodging
+  symbols:
+  - yahoo: ABNB
+    google: NASDAQ:ABNB
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2008
+    employees: 5597
+- name: Datadog, Inc.
+  wiki_name: Datadog, Inc.
+  symbol: DDOG
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - System Monitoring
+  symbols:
+  - yahoo: DDOG
+    google: NASDAQ:DDOG
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2010
+    employees: 3000
+- name: Lucid Group, Inc.
+  wiki_name: Lucid Group, Inc.
+  symbol: LCID
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Automobiles
+  symbols:
+  - yahoo: LCID
+    google: NASDAQ:LCID
+    currency: USD
+  isins:
+  - US5494981039
+  metadata:
+    founded: 2007
+    employees: 2000
+- name: Palo Alto Networks, Inc.
+  wiki_name: Palo Alto Networks, Inc.
+  symbol: PANW
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Cybersecurity
+  symbols:
+  - yahoo: PANW
+    google: NASDAQ:PANW
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2005
+    employees: 11098
+- name: Zscaler, Inc.
+  wiki_name: Zscaler, Inc.
+  symbol: ZS
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Network security
+  - computer security
+  - Internet security
+  symbols:
+  - yahoo: ZS
+    google: NASDAQ:ZS
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2007
+    employees: 4000
+- name: Daimler Truck Holding AG
+  wiki_name: Daimler Truck Holding AG
+  symbol: null
+  country: Germany
+  indices:
+  - MDAX
+  industries:
+  - Automotive
+  symbols: []
+  isins:
+  - DE000DTR0CK8
+  metadata:
+    founded: 2021
+    employees: 99640
+- name: EPAM Systems, Inc.
+  wiki_name: EPAM Systems, Inc.
+  symbol: EPAM
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Software engineering
+  symbols:
+  - yahoo: EPAM
+    google: NYSE:EPAM
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1993
+    employees: 52650
+- name: FactSet Research Systems Inc.
+  wiki_name: FactSet Research Systems Inc.
+  symbol: FDS
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Financial services
+  - Technology
+  symbols:
+  - yahoo: FDS
+    google: NYSE:FDS
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1978
+    employees: 10892
+- name: Nordson Corporation
+  wiki_name: Nordson Corporation
+  symbol: NDSN
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: NDSN
+    google: NASDAQ:NDSN
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1935
+    employees: 6813
+- name: Paramount Global
+  wiki_name: Paramount Global
+  symbol: PARA
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Mass media
+  - Entertainment
+  symbols:
+  - yahoo: PARAA
+    google: NASDAQ:PARAA
+    currency: USD
+  - yahoo: PARA
+    google: NASDAQ:PARA
+    currency: USD
+  isins:
+  - US92556H2067
+  metadata:
+    founded: 2019
+    employees: 22965
+- name: Signature Bank
+  wiki_name: Signature Bank
+  symbol: SBNY
+  country: United States
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: SBNY
+    google: NASDAQ:SBNY
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2001
+    employees: 1652
+- name: SolarEdge Technologies, Inc.
+  wiki_name: SolarEdge Technologies, Inc.
+  symbol: SEDG
+  country: Israel
+  indices:
+  - S&P 500
+  industries:
+  - Photovoltaics
+  symbols:
+  - yahoo: SEDG
+    google: NASDAQ:SEDG
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2006
+    employees: 3174
+- name: WTW Public Limited Company
+  wiki_name: WTW Public Limited Company
+  symbol: WTW
+  country: United Kingdom
+  indices:
+  - S&P 500
+  industries: []
+  symbols:
+  - yahoo: WTW
+    google: NASDAQ:WTW
+    currency: USD
+  isins:
+  - IE00BDB6Q211
+  metadata:
+    founded: 2016
+    employees: 46600
