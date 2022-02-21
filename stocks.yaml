@@ -5784,6 +5784,12 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: R6C2.F
+    google: FRA:R6C2
+    currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
@@ -6858,6 +6864,9 @@ companies:
   - yahoo: 0M2N.L
     google: LON:0M2N
     currency: GBP
+  - yahoo: OFK0.F
+    google: FRA:OFK0
+    currency: EUR
   metadata:
     founded: 1917
     employees: 3446
@@ -8248,6 +8257,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -27445,6 +27457,9 @@ companies:
   - yahoo: ATOGF
     google: OTCMKTS:ATOGF
     currency: USD
+  - yahoo: DE000A2LQ884.F
+    google: FRA:DE000A2LQ884
+    currency: EUR
   isins:
   - DE000A2LQ884
   metadata:
