@@ -98,6 +98,9 @@ companies:
   - yahoo: ALVE.F
     google: FRA:ALVE
     currency: EUR
+  - yahoo: ALIZF
+    google: OTCMKTS:ALIZF
+    currency: USD
   metadata:
     founded: 1890
     employees: 147268
@@ -1795,6 +1798,9 @@ companies:
   - yahoo: NEMTF
     google: OTCMKTS:NEMTF
     currency: USD
+  - yahoo: NEMKY
+    google: OTCMKTS:NEMKY
+    currency: USD
   metadata:
     founded: 1963
     employees: 3000
@@ -2639,6 +2645,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -8248,6 +8257,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -27939,6 +27951,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
