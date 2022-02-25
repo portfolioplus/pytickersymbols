@@ -2639,6 +2639,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -5784,6 +5787,9 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
@@ -6219,6 +6225,9 @@ companies:
   - yahoo: SMIN.L
     google: LON:SMIN
     currency: GBP
+  - yahoo: SMGKF
+    google: OTCMKTS:SMGKF
+    currency: USD
   metadata:
     founded: 1851
     employees: 23000
@@ -24806,7 +24815,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -27846,6 +27858,9 @@ companies:
   - yahoo: 0AA3.L
     google: LON:0AA3
     currency: GBP
+  - yahoo: DE000A3H2200.F
+    google: FRA:DE000A3H2200
+    currency: EUR
   isins:
   - DE000A3H2200
   metadata:
@@ -27939,6 +27954,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
