@@ -3458,6 +3458,9 @@ companies:
   - yahoo: SFHLF
     google: OTCMKTS:SFHLF
     currency: USD
+  - yahoo: DE000SAFH001.F
+    google: FRA:DE000SAFH001
+    currency: EUR
   metadata:
     founded: 2005
     employees: 4218
@@ -7663,6 +7666,9 @@ companies:
     currency: USD
   - yahoo: FNCTF
     google: OTCMKTS:FNCTF
+    currency: USD
+  - yahoo: MBISF
+    google: OTCMKTS:MBISF
     currency: USD
   metadata:
     founded: 1988
@@ -15377,6 +15383,9 @@ companies:
   - yahoo: HCP
     google: NYSE:HCP
     currency: USD
+  - yahoo: US42250P1030.F
+    google: FRA:US42250P1030
+    currency: EUR
   isins:
   - US42250P1030
   metadata:
@@ -24806,7 +24815,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -27791,6 +27803,9 @@ companies:
   - yahoo: 7XP.F
     google: FRA:7XP
     currency: EUR
+  - yahoo: US68622V1061.F
+    google: FRA:US68622V1061
+    currency: EUR
   isins: []
   metadata:
     founded: 2020
@@ -27872,6 +27887,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: DE000A3H3LL2.F
+    google: FRA:DE000A3H3LL2
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
@@ -27939,6 +27957,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
