@@ -20716,6 +20716,9 @@ companies:
   - yahoo: GTQB.F
     google: FRA:GTQB
     currency: EUR
+  - yahoo: US82621P1012.F
+    google: FRA:US82621P1012
+    currency: EUR
   metadata:
     founded: 1976
     employees: 24500
@@ -27047,6 +27050,9 @@ companies:
   - yahoo: 0A8R.L
     google: LON:0A8R
     currency: GBP
+  - yahoo: US81181C1045.F
+    google: FRA:US81181C1045
+    currency: EUR
   isins: []
   metadata:
     founded: 1997
