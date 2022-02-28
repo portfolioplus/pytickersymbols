@@ -3541,6 +3541,9 @@ companies:
   - yahoo: S93.F
     google: FRA:S93
     currency: EUR
+  - yahoo: US78446M1099.F
+    google: FRA:US78446M1099
+    currency: EUR
   metadata:
     founded: 1981
     employees: 3264
@@ -24653,6 +24656,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -27005,6 +27011,9 @@ companies:
   - yahoo: PTON
     google: NASDAQ:PTON
     currency: USD
+  - yahoo: US70614W1009.F
+    google: FRA:US70614W1009
+    currency: EUR
   isins: []
   metadata:
     founded: 2012
@@ -28169,6 +28178,9 @@ companies:
   - yahoo: 0A3N.L
     google: LON:0A3N
     currency: GBP
+  - yahoo: US22788C1053.F
+    google: FRA:US22788C1053
+    currency: EUR
   isins: []
   metadata:
     founded: 2011
