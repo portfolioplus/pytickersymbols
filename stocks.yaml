@@ -2639,6 +2639,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -7223,6 +7226,9 @@ companies:
   - yahoo: AIQUY
     google: OTCMKTS:AIQUY
     currency: USD
+  - yahoo: AILA.F
+    google: FRA:AILA
+    currency: EUR
   metadata:
     founded: 1902
     employees: 66000
@@ -7693,6 +7699,9 @@ companies:
   - yahoo: PRNDY
     google: OTCMKTS:PRNDY
     currency: USD
+  - yahoo: PER0.F
+    google: FRA:PER0
+    currency: EUR
   metadata:
     founded: 1975
     employees: 18914
@@ -16306,6 +16315,9 @@ companies:
   - yahoo: KR
     google: NYSE:KR
     currency: USD
+  - yahoo: 0JS2.L
+    google: LON:0JS2
+    currency: GBP
   metadata:
     founded: 1883
     employees: 453000
@@ -21328,6 +21340,9 @@ companies:
   - yahoo: ASAZY
     google: OTCMKTS:ASAZY
     currency: USD
+  - yahoo: ASAZF
+    google: OTCMKTS:ASAZF
+    currency: USD
   metadata:
     founded: 1994
     employees: 45994
@@ -24806,7 +24821,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25547,7 +25565,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: GRB.F
+    google: FRA:GRB
+    currency: EUR
   isins:
   - FR0000121709
   metadata:
@@ -26176,7 +26197,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -27939,6 +27963,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
