@@ -229,6 +229,9 @@ companies:
   - yahoo: CTTAY
     google: OTCMKTS:CTTAY
     currency: USD
+  - yahoo: CONA.F
+    google: FRA:CONA
+    currency: EUR
   metadata:
     founded: 1871
     employees: 236386
@@ -747,6 +750,9 @@ companies:
   - yahoo: TKAMY
     google: OTCMKTS:TKAMY
     currency: USD
+  - yahoo: TKA1.F
+    google: FRA:TKA1
+    currency: EUR
   metadata:
     founded: 1999
     employees: 103598
@@ -1390,6 +1396,9 @@ companies:
     currency: USD
   - yahoo: FPE4.F
     google: FRA:FPE4
+    currency: EUR
+  - yahoo: DE000A3E5D64.F
+    google: FRA:DE000A3E5D64
     currency: EUR
   metadata:
     founded: 1931
