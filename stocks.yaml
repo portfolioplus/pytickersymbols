@@ -7223,6 +7223,9 @@ companies:
   - yahoo: AIQUY
     google: OTCMKTS:AIQUY
     currency: USD
+  - yahoo: AILA.F
+    google: FRA:AILA
+    currency: EUR
   metadata:
     founded: 1902
     employees: 66000
@@ -18173,6 +18176,9 @@ companies:
   - yahoo: SBAC
     google: NASDAQ:SBAC
     currency: USD
+  - yahoo: 0KYZ.L
+    google: LON:0KYZ
+    currency: GBP
   metadata:
     founded: ''
     employees: ''
@@ -21328,6 +21334,9 @@ companies:
   - yahoo: ASAZY
     google: OTCMKTS:ASAZY
     currency: USD
+  - yahoo: ASAZF
+    google: OTCMKTS:ASAZF
+    currency: USD
   metadata:
     founded: 1994
     employees: 45994
@@ -23989,6 +23998,9 @@ companies:
   - yahoo: MWI.F
     google: FRA:MWI
     currency: EUR
+  - yahoo: US57060D1081.F
+    google: FRA:US57060D1081
+    currency: EUR
   isins:
   - US57060D1081
   metadata:
@@ -26176,7 +26188,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26676,6 +26691,9 @@ companies:
   - yahoo: 0QJQ.L
     google: LON:0QJQ
     currency: GBP
+  - yahoo: DE000ZEAL241.F
+    google: FRA:DE000ZEAL241
+    currency: EUR
   isins:
   - DE000ZEAL241
   metadata:
@@ -27872,6 +27890,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: DE000A3H3LL2.F
+    google: FRA:DE000A3H3LL2
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
