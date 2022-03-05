@@ -1795,6 +1795,9 @@ companies:
   - yahoo: NEMTF
     google: OTCMKTS:NEMTF
     currency: USD
+  - yahoo: NEMKY
+    google: OTCMKTS:NEMKY
+    currency: USD
   metadata:
     founded: 1963
     employees: 3000
@@ -5087,6 +5090,9 @@ companies:
   - yahoo: IFJPY
     google: OTCMKTS:IFJPY
     currency: USD
+  - yahoo: GB00BMJ6DW54.F
+    google: FRA:GB00BMJ6DW54
+    currency: EUR
   metadata:
     founded: 1998
     employees: 11000
@@ -7373,6 +7379,9 @@ companies:
   - yahoo: CGEMY
     google: OTCMKTS:CGEMY
     currency: USD
+  - yahoo: CGMA.F
+    google: FRA:CGMA
+    currency: EUR
   metadata:
     founded: 1967
     employees: 270000
@@ -7663,6 +7672,9 @@ companies:
     currency: USD
   - yahoo: FNCTF
     google: OTCMKTS:FNCTF
+    currency: USD
+  - yahoo: MBISF
+    google: OTCMKTS:MBISF
     currency: USD
   metadata:
     founded: 1988
@@ -16929,6 +16941,9 @@ companies:
   - yahoo: MSCI
     google: NYSE:MSCI
     currency: USD
+  - yahoo: 0A8Y.L
+    google: LON:0A8Y
+    currency: GBP
   metadata:
     founded: 1969
     employees: 3300
@@ -26176,7 +26191,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -26923,6 +26941,9 @@ companies:
     currency: USD
   - yahoo: 4MGN.F
     google: FRA:4MGN
+    currency: EUR
+  - yahoo: US57667L1070.F
+    google: FRA:US57667L1070
     currency: EUR
   isins:
   - US57667L1070
