@@ -747,6 +747,9 @@ companies:
   - yahoo: TKAMY
     google: OTCMKTS:TKAMY
     currency: USD
+  - yahoo: TKA1.F
+    google: FRA:TKA1
+    currency: EUR
   metadata:
     founded: 1999
     employees: 103598
@@ -1795,6 +1798,9 @@ companies:
   - yahoo: NEMTF
     google: OTCMKTS:NEMTF
     currency: USD
+  - yahoo: NEMKY
+    google: OTCMKTS:NEMKY
+    currency: USD
   metadata:
     founded: 1963
     employees: 3000
@@ -2639,6 +2645,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -2892,6 +2901,9 @@ companies:
   - yahoo: 0MCG.L
     google: LON:0MCG
     currency: GBP
+  - yahoo: DE000A3H2333.F
+    google: FRA:DE000A3H2333
+    currency: EUR
   metadata:
     founded: 1953
     employees: 40
@@ -7349,6 +7361,9 @@ companies:
   - yahoo: BOUYY
     google: OTCMKTS:BOUYY
     currency: USD
+  - yahoo: BYG0.F
+    google: FRA:BYG0
+    currency: EUR
   metadata:
     founded: 1952
     employees: 129000
@@ -17087,6 +17102,9 @@ companies:
   - yahoo: NLSN
     google: NYSE:NLSN
     currency: USD
+  - yahoo: 0XI7.L
+    google: LON:0XI7
+    currency: GBP
   metadata:
     founded: 1923
     employees: 43000
@@ -18546,6 +18564,9 @@ companies:
   - yahoo: TTWO
     google: NASDAQ:TTWO
     currency: USD
+  - yahoo: 0LCX.L
+    google: LON:0LCX
+    currency: GBP
   metadata:
     founded: 1993
     employees: 5800
@@ -24344,6 +24365,9 @@ companies:
   - yahoo: 2IS.F
     google: FRA:2IS
     currency: EUR
+  - yahoo: IE00BK9ZQ967.F
+    google: FRA:IE00BK9ZQ967
+    currency: EUR
   isins:
   - IE00B6330302
   metadata:
@@ -24806,7 +24830,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26487,6 +26514,9 @@ companies:
   - yahoo: HNSDF
     google: OTCMKTS:HNSDF
     currency: USD
+  - yahoo: DE000HAG0005.F
+    google: FRA:DE000HAG0005
+    currency: EUR
   isins:
   - DE000HAG0005
   metadata:
@@ -27872,6 +27902,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: DE000A3H3LL2.F
+    google: FRA:DE000A3H3LL2
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
@@ -28268,6 +28301,9 @@ companies:
     currency: USD
   - yahoo: 5GD.F
     google: FRA:5GD
+    currency: EUR
+  - yahoo: US45687V1061.F
+    google: FRA:US45687V1061
     currency: EUR
   isins:
   - US45687V1061
