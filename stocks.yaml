@@ -229,6 +229,9 @@ companies:
   - yahoo: CTTAY
     google: OTCMKTS:CTTAY
     currency: USD
+  - yahoo: CONA.F
+    google: FRA:CONA
+    currency: EUR
   metadata:
     founded: 1871
     employees: 236386
@@ -5442,6 +5445,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: GB00BNR5MZ78.F
+    google: FRA:GB00BNR5MZ78
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -15013,6 +15019,9 @@ companies:
   - yahoo: FO5B.F
     google: FRA:FO5B
     currency: EUR
+  - yahoo: 0A0Y.L
+    google: LON:0A0Y
+    currency: GBP
   metadata:
     founded: 2019
     employees: 9000
@@ -26924,6 +26933,9 @@ companies:
   - yahoo: 4MGN.F
     google: FRA:4MGN
     currency: EUR
+  - yahoo: US57667L1070.F
+    google: FRA:US57667L1070
+    currency: EUR
   isins:
   - US57667L1070
   metadata:
@@ -28169,6 +28181,9 @@ companies:
   - yahoo: 0A3N.L
     google: LON:0A3N
     currency: GBP
+  - yahoo: US22788C1053.F
+    google: FRA:US22788C1053
+    currency: EUR
   isins: []
   metadata:
     founded: 2011
