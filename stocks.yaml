@@ -2639,6 +2639,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -7223,6 +7226,9 @@ companies:
   - yahoo: AIQUY
     google: OTCMKTS:AIQUY
     currency: USD
+  - yahoo: AILA.F
+    google: FRA:AILA
+    currency: EUR
   metadata:
     founded: 1902
     employees: 66000
@@ -24616,6 +24622,9 @@ companies:
   - yahoo: ENR0.F
     google: FRA:ENR0
     currency: EUR
+  - yahoo: DE000ENER6Y0.F
+    google: FRA:DE000ENER6Y0
+    currency: EUR
   isins:
   - DE000ENER6Y0
   metadata:
@@ -24806,7 +24815,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26176,7 +26188,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENL.F
+    google: FRA:ENL
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
