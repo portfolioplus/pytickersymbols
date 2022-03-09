@@ -229,6 +229,9 @@ companies:
   - yahoo: CTTAY
     google: OTCMKTS:CTTAY
     currency: USD
+  - yahoo: CONA.F
+    google: FRA:CONA
+    currency: EUR
   metadata:
     founded: 1871
     employees: 236386
@@ -2639,6 +2642,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -5784,6 +5790,9 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
@@ -16680,6 +16689,9 @@ companies:
   - yahoo: MLM
     google: NYSE:MLM
     currency: USD
+  - yahoo: 0JZ0.L
+    google: LON:0JZ0
+    currency: GBP
   metadata:
     founded: 1993
     employees: 8714
@@ -17236,6 +17248,9 @@ companies:
   - yahoo: NRG
     google: NYSE:NRG
     currency: USD
+  - yahoo: 0K4C.L
+    google: LON:0K4C
+    currency: GBP
   metadata:
     founded: 1992
     employees: 4862
@@ -18366,6 +18381,9 @@ companies:
   - yahoo: STT
     google: NYSE:STT
     currency: USD
+  - yahoo: 0L9G.L
+    google: LON:0L9G
+    currency: GBP
   metadata:
     founded: 1792
     employees: 39439
@@ -21327,6 +21345,9 @@ companies:
     currency: EUR
   - yahoo: ASAZY
     google: OTCMKTS:ASAZY
+    currency: USD
+  - yahoo: ASAZF
+    google: OTCMKTS:ASAZF
     currency: USD
   metadata:
     founded: 1994
@@ -24615,6 +24636,9 @@ companies:
     currency: USD
   - yahoo: ENR0.F
     google: FRA:ENR0
+    currency: EUR
+  - yahoo: DE000ENER6Y0.F
+    google: FRA:DE000ENER6Y0
     currency: EUR
   isins:
   - DE000ENER6Y0
