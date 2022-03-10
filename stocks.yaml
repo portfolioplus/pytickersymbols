@@ -381,6 +381,9 @@ companies:
   - yahoo: DPWA.F
     google: FRA:DPWA
     currency: EUR
+  - yahoo: DPSTF
+    google: OTCMKTS:DPSTF
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -1152,6 +1155,9 @@ companies:
   - yahoo: PBB.F
     google: FRA:PBB
     currency: EUR
+  - yahoo: PBBGF
+    google: OTCMKTS:PBBGF
+    currency: USD
   metadata:
     founded: 1869
     employees: 752
@@ -3458,6 +3464,9 @@ companies:
   - yahoo: SFHLF
     google: OTCMKTS:SFHLF
     currency: USD
+  - yahoo: DE000SAFH001.F
+    google: FRA:DE000SAFH001
+    currency: EUR
   metadata:
     founded: 2005
     employees: 4218
@@ -5784,6 +5793,9 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
@@ -21328,6 +21340,9 @@ companies:
   - yahoo: ASAZY
     google: OTCMKTS:ASAZY
     currency: USD
+  - yahoo: ASAZF
+    google: OTCMKTS:ASAZF
+    currency: USD
   metadata:
     founded: 1994
     employees: 45994
@@ -26486,6 +26501,12 @@ companies:
     currency: GBP
   - yahoo: HNSDF
     google: OTCMKTS:HNSDF
+    currency: USD
+  - yahoo: DE000HAG0005.F
+    google: FRA:DE000HAG0005
+    currency: EUR
+  - yahoo: HAGHY
+    google: OTCMKTS:HAGHY
     currency: USD
   isins:
   - DE000HAG0005
