@@ -381,6 +381,9 @@ companies:
   - yahoo: DPWA.F
     google: FRA:DPWA
     currency: EUR
+  - yahoo: DPSTF
+    google: OTCMKTS:DPSTF
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -24806,7 +24809,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26923,6 +26929,9 @@ companies:
     currency: USD
   - yahoo: 4MGN.F
     google: FRA:4MGN
+    currency: EUR
+  - yahoo: US57667L1070.F
+    google: FRA:US57667L1070
     currency: EUR
   isins:
   - US57667L1070
