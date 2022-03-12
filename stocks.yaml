@@ -229,6 +229,9 @@ companies:
   - yahoo: CTTAY
     google: OTCMKTS:CTTAY
     currency: USD
+  - yahoo: CONA.F
+    google: FRA:CONA
+    currency: EUR
   metadata:
     founded: 1871
     employees: 236386
@@ -381,6 +384,9 @@ companies:
   - yahoo: DPWA.F
     google: FRA:DPWA
     currency: EUR
+  - yahoo: DPSTF
+    google: OTCMKTS:DPSTF
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -2639,6 +2645,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: DE000A288904.F
+    google: FRA:DE000A288904
+    currency: EUR
   metadata:
     founded: 1987
     employees: 8000
@@ -5087,6 +5096,9 @@ companies:
   - yahoo: IFJPY
     google: OTCMKTS:IFJPY
     currency: USD
+  - yahoo: GB00BMJ6DW54.F
+    google: FRA:GB00BMJ6DW54
+    currency: EUR
   metadata:
     founded: 1998
     employees: 11000
@@ -5442,6 +5454,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: GB00BNR5MZ78.F
+    google: FRA:GB00BNR5MZ78
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -24806,7 +24821,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
