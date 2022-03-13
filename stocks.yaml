@@ -229,6 +229,9 @@ companies:
   - yahoo: CTTAY
     google: OTCMKTS:CTTAY
     currency: USD
+  - yahoo: CONA.F
+    google: FRA:CONA
+    currency: EUR
   metadata:
     founded: 1871
     employees: 236386
@@ -1152,6 +1155,9 @@ companies:
   - yahoo: PBB.F
     google: FRA:PBB
     currency: EUR
+  - yahoo: PBBGF
+    google: OTCMKTS:PBBGF
+    currency: USD
   metadata:
     founded: 1869
     employees: 752
@@ -7664,6 +7670,9 @@ companies:
   - yahoo: FNCTF
     google: OTCMKTS:FNCTF
     currency: USD
+  - yahoo: MBISF
+    google: OTCMKTS:MBISF
+    currency: USD
   metadata:
     founded: 1988
     employees: 142150
@@ -8761,6 +8770,9 @@ companies:
   - yahoo: V
     google: NYSE:V
     currency: USD
+  - yahoo: 3V6.F
+    google: FRA:3V6
+    currency: EUR
   metadata:
     founded: 1958
     employees: 20500
@@ -24806,7 +24818,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25779,6 +25794,9 @@ companies:
   - yahoo: THLEF
     google: OTCMKTS:THLEF
     currency: USD
+  - yahoo: CSF0.F
+    google: FRA:CSF0
+    currency: EUR
   isins:
   - FR0000121329
   metadata:
@@ -27939,6 +27957,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
@@ -28169,6 +28190,9 @@ companies:
   - yahoo: 0A3N.L
     google: LON:0A3N
     currency: GBP
+  - yahoo: US22788C1053.F
+    google: FRA:US22788C1053
+    currency: EUR
   isins: []
   metadata:
     founded: 2011
