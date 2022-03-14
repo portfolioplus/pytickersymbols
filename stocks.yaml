@@ -6858,6 +6858,9 @@ companies:
   - yahoo: 0M2N.L
     google: LON:0M2N
     currency: GBP
+  - yahoo: OFK0.F
+    google: FRA:OFK0
+    currency: EUR
   metadata:
     founded: 1917
     employees: 3446
@@ -18105,6 +18108,9 @@ companies:
   - yahoo: RCL
     google: NYSE:RCL
     currency: USD
+  - yahoo: 0I1W.L
+    google: LON:0I1W
+    currency: GBP
   metadata:
     founded: 1997
     employees: 77000
@@ -20715,6 +20721,9 @@ companies:
     currency: USD
   - yahoo: GTQB.F
     google: FRA:GTQB
+    currency: EUR
+  - yahoo: US82621P1012.F
+    google: FRA:US82621P1012
     currency: EUR
   metadata:
     founded: 1976
@@ -24806,7 +24815,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -25272,6 +25284,9 @@ companies:
   - yahoo: IMYSF
     google: OTCMKTS:IMYSF
     currency: USD
+  - yahoo: IMYSY
+    google: OTCMKTS:IMYSY
+    currency: USD
   isins:
   - FR0000120859
   metadata:
@@ -25547,7 +25562,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: GRB.F
+    google: FRA:GRB
+    currency: EUR
   isins:
   - FR0000121709
   metadata:
