@@ -1152,6 +1152,9 @@ companies:
   - yahoo: PBB.F
     google: FRA:PBB
     currency: EUR
+  - yahoo: PBBGF
+    google: OTCMKTS:PBBGF
+    currency: USD
   metadata:
     founded: 1869
     employees: 752
@@ -5784,6 +5787,9 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
@@ -8761,6 +8767,9 @@ companies:
   - yahoo: V
     google: NYSE:V
     currency: USD
+  - yahoo: 3V6.F
+    google: FRA:3V6
+    currency: EUR
   metadata:
     founded: 1958
     employees: 20500
@@ -21644,6 +21653,9 @@ companies:
   - yahoo: SDVKY
     google: OTCMKTS:SDVKY
     currency: USD
+  - yahoo: SDVKF
+    google: OTCMKTS:SDVKF
+    currency: USD
   metadata:
     founded: 1862
     employees: 40235
@@ -25779,6 +25791,9 @@ companies:
   - yahoo: THLEF
     google: OTCMKTS:THLEF
     currency: USD
+  - yahoo: CSF0.F
+    google: FRA:CSF0
+    currency: EUR
   isins:
   - FR0000121329
   metadata:
@@ -26924,6 +26939,9 @@ companies:
   - yahoo: 4MGN.F
     google: FRA:4MGN
     currency: EUR
+  - yahoo: US57667L1070.F
+    google: FRA:US57667L1070
+    currency: EUR
   isins:
   - US57667L1070
   metadata:
@@ -27872,6 +27890,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: DE000A3H3LL2.F
+    google: FRA:DE000A3H3LL2
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
@@ -27939,6 +27960,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
@@ -28169,6 +28193,9 @@ companies:
   - yahoo: 0A3N.L
     google: LON:0A3N
     currency: GBP
+  - yahoo: US22788C1053.F
+    google: FRA:US22788C1053
+    currency: EUR
   isins: []
   metadata:
     founded: 2011
