@@ -1152,6 +1152,9 @@ companies:
   - yahoo: PBB.F
     google: FRA:PBB
     currency: EUR
+  - yahoo: PBBGF
+    google: OTCMKTS:PBBGF
+    currency: USD
   metadata:
     founded: 1869
     employees: 752
@@ -7663,6 +7666,9 @@ companies:
     currency: USD
   - yahoo: FNCTF
     google: OTCMKTS:FNCTF
+    currency: USD
+  - yahoo: MBISF
+    google: OTCMKTS:MBISF
     currency: USD
   metadata:
     founded: 1988
@@ -24806,7 +24812,10 @@ companies:
   - CAC Mid 60
   industries:
   - Manufacturing
-  symbols: []
+  symbols:
+  - yahoo: BIF.F
+    google: FRA:BIF
+    currency: EUR
   isins:
   - FR0000120966
   metadata:
@@ -26487,6 +26496,9 @@ companies:
   - yahoo: HNSDF
     google: OTCMKTS:HNSDF
     currency: USD
+  - yahoo: HAGHY
+    google: OTCMKTS:HAGHY
+    currency: USD
   isins:
   - DE000HAG0005
   metadata:
@@ -27939,6 +27951,9 @@ companies:
   - yahoo: BESIY
     google: OTCMKTS:BESIY
     currency: USD
+  - yahoo: BSIA.F
+    google: FRA:BSIA
+    currency: EUR
   isins:
   - NL0012866412
   metadata:
