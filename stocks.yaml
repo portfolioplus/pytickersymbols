@@ -1798,6 +1798,9 @@ companies:
   - yahoo: NEMTF
     google: OTCMKTS:NEMTF
     currency: USD
+  - yahoo: NEMKY
+    google: OTCMKTS:NEMKY
+    currency: USD
   metadata:
     founded: 1963
     employees: 3000
@@ -8254,6 +8257,9 @@ companies:
   - yahoo: CAT
     google: NYSE:CAT
     currency: USD
+  - yahoo: 0Q18.L
+    google: LON:0Q18
+    currency: GBP
   metadata:
     founded: 1925
     employees: 102300
@@ -25788,6 +25794,9 @@ companies:
   - yahoo: THLEF
     google: OTCMKTS:THLEF
     currency: USD
+  - yahoo: CSF0.F
+    google: FRA:CSF0
+    currency: EUR
   isins:
   - FR0000121329
   metadata:
@@ -27748,6 +27757,9 @@ companies:
   - yahoo: OUKPF
     google: OTCMKTS:OUKPF
     currency: USD
+  - yahoo: M6QB.F
+    google: FRA:M6QB
+    currency: EUR
   isins:
   - FI0009014575
   metadata:
