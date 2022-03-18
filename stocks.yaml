@@ -747,6 +747,9 @@ companies:
   - yahoo: TKAMY
     google: OTCMKTS:TKAMY
     currency: USD
+  - yahoo: TKA1.F
+    google: FRA:TKA1
+    currency: EUR
   metadata:
     founded: 1999
     employees: 103598
@@ -18164,6 +18167,9 @@ companies:
   - yahoo: CRM
     google: NYSE:CRM
     currency: USD
+  - yahoo: FOO0.F
+    google: FRA:FOO0
+    currency: EUR
   metadata:
     founded: 1999
     employees: 60000
@@ -19069,6 +19075,9 @@ companies:
   - yahoo: VNO
     google: NYSE:VNO
     currency: USD
+  - yahoo: 0LR2.L
+    google: LON:0LR2
+    currency: GBP
   metadata:
     founded: 1982
     employees: 2899
@@ -21655,6 +21664,9 @@ companies:
     currency: EUR
   - yahoo: SDVKY
     google: OTCMKTS:SDVKY
+    currency: USD
+  - yahoo: SDVKF
+    google: OTCMKTS:SDVKF
     currency: USD
   metadata:
     founded: 1862
