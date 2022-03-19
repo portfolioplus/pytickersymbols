@@ -5796,6 +5796,9 @@ companies:
   - yahoo: R6C3.F
     google: FRA:R6C3
     currency: EUR
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
@@ -13654,6 +13657,9 @@ companies:
   - yahoo: CLX
     google: NYSE:CLX
     currency: USD
+  - yahoo: 0I0J.L
+    google: LON:0I0J
+    currency: GBP
   metadata:
     founded: 1913
     employees: 8800
@@ -18200,6 +18206,9 @@ companies:
   - yahoo: SBAC
     google: NASDAQ:SBAC
     currency: USD
+  - yahoo: 0KYZ.L
+    google: LON:0KYZ
+    currency: GBP
   metadata:
     founded: ''
     employees: ''
