@@ -11030,6 +11030,9 @@ companies:
   - yahoo: BRH.F
     google: FRA:BRH
     currency: EUR
+  - yahoo: BRHF.F
+    google: FRA:BRHF
+    currency: EUR
   metadata:
     founded: 1839
     employees: 360000
@@ -22892,6 +22895,9 @@ companies:
   - yahoo: POLY.L
     google: LON:POLY
     currency: GBP
+  - yahoo: POYYF
+    google: OTCMKTS:POYYF
+    currency: USD
   metadata:
     founded: 1998
     employees: 10000
@@ -26206,7 +26212,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENL.F
+    google: FRA:ENL
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
@@ -28093,6 +28102,9 @@ companies:
   - yahoo: SDRB.F
     google: FRA:SDRB
     currency: EUR
+  - yahoo: SZCRF
+    google: OTCMKTS:SZCRF
+    currency: USD
   isins:
   - FR0010411983
   metadata:
