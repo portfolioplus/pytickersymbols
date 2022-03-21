@@ -7382,6 +7382,9 @@ companies:
   - yahoo: CGEMY
     google: OTCMKTS:CGEMY
     currency: USD
+  - yahoo: CGMA.F
+    google: FRA:CGMA
+    currency: EUR
   metadata:
     founded: 1967
     employees: 270000
@@ -25574,7 +25577,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: GRB.F
+    google: FRA:GRB
+    currency: EUR
   isins:
   - FR0000121709
   metadata:
