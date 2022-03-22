@@ -1804,6 +1804,9 @@ companies:
   - yahoo: NEMKY
     google: OTCMKTS:NEMKY
     currency: USD
+  - yahoo: NEM0.F
+    google: FRA:NEM0
+    currency: EUR
   metadata:
     founded: 1963
     employees: 3000
@@ -16094,6 +16097,9 @@ companies:
   - yahoo: JCI
     google: NYSE:JCI
     currency: USD
+  - yahoo: 0Y7S.L
+    google: LON:0Y7S
+    currency: GBP
   metadata:
     founded: 1885
     employees: 105000
@@ -26212,7 +26218,10 @@ companies:
   - EURO STOXX 50
   industries:
   - Electric utility
-  symbols: []
+  symbols:
+  - yahoo: ENLA.F
+    google: FRA:ENLA
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
