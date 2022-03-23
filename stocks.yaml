@@ -14298,6 +14298,9 @@ companies:
   - yahoo: DXC
     google: NYSE:DXC
     currency: USD
+  - yahoo: 0I6U.L
+    google: LON:0I6U
+    currency: GBP
   metadata:
     founded: 2017
     employees: 138000
@@ -16823,6 +16826,9 @@ companies:
   - yahoo: MGM
     google: NYSE:MGM
     currency: USD
+  - yahoo: 0JWC.L
+    google: LON:0JWC
+    currency: GBP
   metadata:
     founded: 1986
     employees: 74500
@@ -21367,6 +21373,9 @@ companies:
   - yahoo: ASAZY
     google: OTCMKTS:ASAZY
     currency: USD
+  - yahoo: ASAZF
+    google: OTCMKTS:ASAZF
+    currency: USD
   metadata:
     founded: 1994
     employees: 45994
@@ -22910,6 +22919,9 @@ companies:
   - yahoo: POLY.L
     google: LON:POLY
     currency: GBP
+  - yahoo: POYYF
+    google: OTCMKTS:POYYF
+    currency: USD
   metadata:
     founded: 1998
     employees: 10000
@@ -24060,6 +24072,9 @@ companies:
   - yahoo: 0K2K.L
     google: LON:0K2K
     currency: GBP
+  - yahoo: NY70.F
+    google: FRA:NY70
+    currency: EUR
   isins:
   - US60871R2094
   metadata:
