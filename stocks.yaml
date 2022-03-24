@@ -24673,6 +24673,9 @@ companies:
   - yahoo: ENR0.F
     google: FRA:ENR0
     currency: EUR
+  - yahoo: 0SEA.L
+    google: LON:0SEA
+    currency: GBP
   isins:
   - DE000ENER6Y0
   metadata:
