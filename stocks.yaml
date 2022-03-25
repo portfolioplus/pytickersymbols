@@ -19403,6 +19403,9 @@ companies:
   - yahoo: 0Y4Q.L
     google: LON:0Y4Q
     currency: GBP
+  - yahoo: WTW
+    google: NASDAQ:WTW
+    currency: USD
   metadata:
     founded: 2016
     employees: 46600
@@ -22450,6 +22453,9 @@ companies:
   - yahoo: CTVA
     google: NYSE:CTVA
     currency: USD
+  - yahoo: 0A1W.L
+    google: LON:0A1W
+    currency: GBP
   metadata:
     founded: 2019
     employees: 21000
