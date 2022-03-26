@@ -10897,6 +10897,9 @@ companies:
   - yahoo: ALL
     google: NYSE:ALL
     currency: USD
+  - yahoo: 0HCZ.L
+    google: LON:0HCZ
+    currency: GBP
   metadata:
     founded: 1931
     employees: 45780
@@ -14385,6 +14388,9 @@ companies:
   - yahoo: ECL
     google: NYSE:ECL
     currency: USD
+  - yahoo: 0IFA.L
+    google: LON:0IFA
+    currency: GBP
   metadata:
     founded: 1923
     employees: 50000
@@ -18141,6 +18147,9 @@ companies:
   - yahoo: RCL
     google: NYSE:RCL
     currency: USD
+  - yahoo: 0I1W.L
+    google: LON:0I1W
+    currency: GBP
   metadata:
     founded: 1997
     employees: 77000
@@ -18408,6 +18417,9 @@ companies:
   - yahoo: STT
     google: NYSE:STT
     currency: USD
+  - yahoo: 0L9G.L
+    google: LON:0L9G
+    currency: GBP
   metadata:
     founded: 1792
     employees: 39439
