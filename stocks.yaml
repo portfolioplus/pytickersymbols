@@ -2064,6 +2064,9 @@ companies:
   - yahoo: SSSGY
     google: OTCMKTS:SSSGY
     currency: USD
+  - yahoo: SRT4.F
+    google: FRA:SRT4
+    currency: EUR
   metadata:
     founded: 1870
     employees: 10637
@@ -8436,6 +8439,9 @@ companies:
   - yahoo: HD
     google: NYSE:HD
     currency: USD
+  - yahoo: HDI0.F
+    google: FRA:HDI0
+    currency: EUR
   metadata:
     founded: 1978
     employees: 400000
@@ -15049,6 +15055,9 @@ companies:
   - yahoo: FO5B.F
     google: FRA:FO5B
     currency: EUR
+  - yahoo: 0A0Y.L
+    google: LON:0A0Y
+    currency: GBP
   metadata:
     founded: 2019
     employees: 9000
