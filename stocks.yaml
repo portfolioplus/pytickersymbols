@@ -1252,6 +1252,9 @@ companies:
   - yahoo: EVKA.F
     google: FRA:EVKA
     currency: EUR
+  - yahoo: EVKIY
+    google: OTCMKTS:EVKIY
+    currency: USD
   metadata:
     founded: 2006
     employees: 33106
