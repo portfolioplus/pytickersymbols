@@ -25365,6 +25365,9 @@ companies:
   - yahoo: IMYSF
     google: OTCMKTS:IMYSF
     currency: USD
+  - yahoo: IMYSY
+    google: OTCMKTS:IMYSY
+    currency: USD
   isins:
   - FR0000120859
   metadata:
