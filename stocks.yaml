@@ -5296,6 +5296,9 @@ companies:
   - yahoo: KGFHF
     google: OTCMKTS:KGFHF
     currency: USD
+  - yahoo: KFI2.F
+    google: FRA:KFI2
+    currency: EUR
   metadata:
     founded: 1982
     employees: 79000
@@ -14670,6 +14673,9 @@ companies:
   - yahoo: EXPD
     google: NASDAQ:EXPD
     currency: USD
+  - yahoo: 0IJR.L
+    google: LON:0IJR
+    currency: GBP
   metadata:
     founded: 1979
     employees: 17400
@@ -19126,6 +19132,9 @@ companies:
   - yahoo: 0LR2.L
     google: LON:0LR2
     currency: GBP
+  - yahoo: VNORP
+    google: OTCMKTS:VNORP
+    currency: USD
   metadata:
     founded: 1982
     employees: 2899
