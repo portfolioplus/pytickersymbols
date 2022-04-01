@@ -2432,6 +2432,9 @@ companies:
   - yahoo: AIIXY
     google: OTCMKTS:AIIXY
     currency: USD
+  - yahoo: AIX.F
+    google: FRA:AIX
+    currency: EUR
   metadata:
     founded: 1983
     employees: 728
@@ -7349,6 +7352,9 @@ companies:
   - yahoo: BNPQY
     google: OTCMKTS:BNPQY
     currency: USD
+  - yahoo: BNPH.F
+    google: FRA:BNPH
+    currency: EUR
   metadata:
     founded: 1848
     employees: 202624
@@ -15405,6 +15411,9 @@ companies:
   - yahoo: HCA
     google: NYSE:HCA
     currency: USD
+  - yahoo: 0J1R.L
+    google: LON:0J1R
+    currency: GBP
   metadata:
     founded: 1968
     employees: 280000
