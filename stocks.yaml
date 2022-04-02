@@ -229,6 +229,9 @@ companies:
   - yahoo: CTTAY
     google: OTCMKTS:CTTAY
     currency: USD
+  - yahoo: CONA.F
+    google: FRA:CONA
+    currency: EUR
   metadata:
     founded: 1871
     employees: 236386
@@ -14521,6 +14524,9 @@ companies:
   - yahoo: EFX
     google: NYSE:EFX
     currency: USD
+  - yahoo: 0II3.L
+    google: LON:0II3
+    currency: GBP
   metadata:
     founded: 1899
     employees: 11200
