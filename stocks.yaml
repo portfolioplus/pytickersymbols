@@ -7379,6 +7379,9 @@ companies:
   - yahoo: BOUYY
     google: OTCMKTS:BOUYY
     currency: USD
+  - yahoo: BYG0.F
+    google: FRA:BYG0
+    currency: EUR
   metadata:
     founded: 1952
     employees: 129000
@@ -7646,6 +7649,9 @@ companies:
     currency: EUR
   - yahoo: LGRDY
     google: OTCMKTS:LGRDY
+    currency: USD
+  - yahoo: LGRVF
+    google: OTCMKTS:LGRVF
     currency: USD
   metadata:
     founded: 1904
