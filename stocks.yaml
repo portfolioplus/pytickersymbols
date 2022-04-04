@@ -26312,6 +26312,9 @@ companies:
   - yahoo: ENLA.F
     google: FRA:ENLA
     currency: EUR
+  - yahoo: ENL.F
+    google: FRA:ENL
+    currency: EUR
   isins:
   - IT0003128367
   metadata:
