@@ -6086,6 +6086,9 @@ companies:
   - yahoo: SUY.F
     google: FRA:SUY
     currency: EUR
+  - yahoo: JSNSF
+    google: OTCMKTS:JSNSF
+    currency: USD
   metadata:
     founded: 1869
     employees: 111900
@@ -17010,6 +17013,9 @@ companies:
   - yahoo: MSCI
     google: NYSE:MSCI
     currency: USD
+  - yahoo: 0A8Y.L
+    google: LON:0A8Y
+    currency: GBP
   metadata:
     founded: 1969
     employees: 3300
