@@ -6379,6 +6379,9 @@ companies:
   - yahoo: STAN.L
     google: LON:STAN
     currency: GBP
+  - yahoo: STD0.F
+    google: FRA:STD0
+    currency: EUR
   metadata:
     founded: 1853
     employees: 85000
