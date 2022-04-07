@@ -14154,6 +14154,9 @@ companies:
   - yahoo: DLR
     google: NYSE:DLR
     currency: USD
+  - yahoo: 0I9F.L
+    google: LON:0I9F
+    currency: GBP
   metadata:
     founded: 2004
     employees: 1550
@@ -18423,6 +18426,9 @@ companies:
   - yahoo: LUV
     google: NYSE:LUV
     currency: USD
+  - yahoo: 0L8F.L
+    google: LON:0L8F
+    currency: GBP
   metadata:
     founded: 1967
     employees: 57931
