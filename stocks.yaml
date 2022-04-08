@@ -17177,6 +17177,9 @@ companies:
   - yahoo: NLSN
     google: NYSE:NLSN
     currency: USD
+  - yahoo: 0XI7.L
+    google: LON:0XI7
+    currency: GBP
   metadata:
     founded: 1923
     employees: 43000
