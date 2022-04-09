@@ -10008,6 +10008,9 @@ companies:
   - yahoo: 0JYW.L
     google: LON:0JYW
     currency: GBP
+  - yahoo: 0P0000KQL0
+    google: OTCMKTS:0P0000KQL0
+    currency: USD
   metadata:
     founded: 1927
     employees: 121000
