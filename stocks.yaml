@@ -14382,6 +14382,9 @@ companies:
   - yahoo: EMN
     google: NYSE:EMN
     currency: USD
+  - yahoo: 0IF3.L
+    google: LON:0IF3
+    currency: GBP
   metadata:
     founded: 1920
     employees: 14500
