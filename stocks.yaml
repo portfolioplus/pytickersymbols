@@ -10008,6 +10008,9 @@ companies:
   - yahoo: 0JYW.L
     google: LON:0JYW
     currency: GBP
+  - yahoo: 0P0000KQL0
+    google: OTCMKTS:0P0000KQL0
+    currency: USD
   metadata:
     founded: 1927
     employees: 121000
@@ -14379,6 +14382,9 @@ companies:
   - yahoo: EMN
     google: NYSE:EMN
     currency: USD
+  - yahoo: 0IF3.L
+    google: LON:0IF3
+    currency: GBP
   metadata:
     founded: 1920
     employees: 14500
