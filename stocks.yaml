@@ -4422,6 +4422,9 @@ companies:
   - yahoo: BLD.F
     google: FRA:BLD
     currency: EUR
+  - yahoo: BRLAF
+    google: OTCMKTS:BRLAF
+    currency: USD
   metadata:
     founded: 1856
     employees: 783
