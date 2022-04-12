@@ -6252,6 +6252,9 @@ companies:
   - yahoo: SMIN.L
     google: LON:SMIN
     currency: GBP
+  - yahoo: SMGKF
+    google: OTCMKTS:SMGKF
+    currency: USD
   metadata:
     founded: 1851
     employees: 23000
@@ -7317,6 +7320,9 @@ companies:
   - yahoo: AXI0.F
     google: FRA:AXI0
     currency: EUR
+  - yahoo: AEXAF
+    google: OTCMKTS:AEXAF
+    currency: USD
   metadata:
     founded: 2000
     employees: 104430
@@ -7744,6 +7750,9 @@ companies:
   - yahoo: PRNDY
     google: OTCMKTS:PRNDY
     currency: USD
+  - yahoo: PER0.F
+    google: FRA:PER0
+    currency: EUR
   metadata:
     founded: 1975
     employees: 18914
