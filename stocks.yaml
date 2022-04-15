@@ -6900,6 +6900,9 @@ companies:
   - yahoo: 0M2N.L
     google: LON:0M2N
     currency: GBP
+  - yahoo: OFK0.F
+    google: FRA:OFK0
+    currency: EUR
   metadata:
     founded: 1917
     employees: 3446
