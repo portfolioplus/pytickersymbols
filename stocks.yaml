@@ -622,6 +622,9 @@ companies:
   - yahoo: MRKC.F
     google: FRA:MRKC
     currency: EUR
+  - yahoo: MKKGY
+    google: OTCMKTS:MKKGY
+    currency: USD
   metadata:
     founded: 1668
     employees: 58096
