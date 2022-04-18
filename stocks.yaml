@@ -1647,6 +1647,9 @@ companies:
   - yahoo: KIGRY
     google: OTCMKTS:KIGRY
     currency: USD
+  - yahoo: KGX1.F
+    google: FRA:KGX1
+    currency: EUR
   metadata:
     founded: 2006
     employees: 36207
