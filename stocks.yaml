@@ -11192,6 +11192,9 @@ companies:
   - yahoo: 0HT4.L
     google: LON:0HT4
     currency: GBP
+  - yahoo: CFXE.F
+    google: FRA:CFXE
+    currency: EUR
   metadata:
     founded: 1994
     employees: 51985
