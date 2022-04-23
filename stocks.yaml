@@ -20550,6 +20550,9 @@ companies:
   - yahoo: UFGD.F
     google: FRA:UFGD
     currency: EUR
+  - yahoo: FRRVF
+    google: OTCMKTS:FRRVF
+    currency: USD
   metadata:
     founded: 1952
     employees: 95978
