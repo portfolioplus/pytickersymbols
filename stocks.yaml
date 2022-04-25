@@ -727,6 +727,9 @@ companies:
   - yahoo: SI
     google: NYSE:SI
     currency: USD
+  - yahoo: SIEB.F
+    google: FRA:SIEB
+    currency: EUR
   metadata:
     founded: 1847
     employees: 293000
