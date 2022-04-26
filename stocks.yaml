@@ -20024,6 +20024,9 @@ companies:
   - yahoo: BGAOF
     google: OTCMKTS:BGAOF
     currency: USD
+  - yahoo: BX70.F
+    google: FRA:BX70
+    currency: EUR
   metadata:
     founded: 1930
     employees: 14090
@@ -20671,6 +20674,9 @@ companies:
   - yahoo: ISMAF
     google: OTCMKTS:ISMAF
     currency: USD
+  - yahoo: IDA0.F
+    google: FRA:IDA0
+    currency: EUR
   metadata:
     founded: 1993
     employees: 42860
@@ -26484,6 +26490,9 @@ companies:
   - yahoo: ADVOF
     google: OTCMKTS:ADVOF
     currency: USD
+  - yahoo: ADVV.F
+    google: FRA:ADVV
+    currency: EUR
   isins:
   - DE0005103006
   metadata:
