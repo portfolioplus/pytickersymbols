@@ -9468,6 +9468,9 @@ companies:
   - yahoo: 0I47.L
     google: LON:0I47
     currency: GBP
+  - yahoo: CTO0.F
+    google: FRA:CTO0
+    currency: EUR
   metadata:
     founded: 1976
     employees: 273000
@@ -20024,6 +20027,9 @@ companies:
   - yahoo: BGAOF
     google: OTCMKTS:BGAOF
     currency: USD
+  - yahoo: BX70.F
+    google: FRA:BX70
+    currency: EUR
   metadata:
     founded: 1930
     employees: 14090
