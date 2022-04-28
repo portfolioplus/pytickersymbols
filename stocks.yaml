@@ -21521,6 +21521,9 @@ companies:
   - yahoo: ACO.F
     google: FRA:ACO
     currency: EUR
+  - yahoo: ATLCY
+    google: OTCMKTS:ATLCY
+    currency: USD
   metadata:
     founded: 1873
     employees: 44695
