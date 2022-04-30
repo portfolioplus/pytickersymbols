@@ -19926,6 +19926,9 @@ companies:
   - yahoo: GBLBY
     google: OTCMKTS:GBLBY
     currency: USD
+  - yahoo: EAI0.F
+    google: FRA:EAI0
+    currency: EUR
   metadata:
     founded: 1902
     employees: 40
@@ -25197,6 +25200,9 @@ companies:
   - yahoo: ER7.F
     google: FRA:ER7
     currency: EUR
+  - yahoo: ERMAF
+    google: OTCMKTS:ERMAF
+    currency: USD
   isins:
   - FR0000131757
   metadata:
