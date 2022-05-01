@@ -6400,6 +6400,9 @@ companies:
   - yahoo: STD0.F
     google: FRA:STD0
     currency: EUR
+  - yahoo: SCBFY
+    google: OTCMKTS:SCBFY
+    currency: USD
   metadata:
     founded: 1853
     employees: 85000
@@ -25178,6 +25181,9 @@ companies:
     currency: EUR
   - yahoo: ELROF
     google: OTCMKTS:ELROF
+    currency: USD
+  - yahoo: ELORY
+    google: OTCMKTS:ELORY
     currency: USD
   isins: []
   metadata:
