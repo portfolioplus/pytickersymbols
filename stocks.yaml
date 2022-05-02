@@ -18693,6 +18693,9 @@ companies:
   - yahoo: TTWO
     google: NASDAQ:TTWO
     currency: USD
+  - yahoo: 0LCX.L
+    google: LON:0LCX
+    currency: GBP
   metadata:
     founded: 1993
     employees: 5800
