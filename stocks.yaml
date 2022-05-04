@@ -25179,6 +25179,9 @@ companies:
   - yahoo: ELROF
     google: OTCMKTS:ELROF
     currency: USD
+  - yahoo: ELORY
+    google: OTCMKTS:ELORY
+    currency: USD
   isins: []
   metadata:
     founded: 0
