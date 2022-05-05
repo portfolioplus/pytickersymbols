@@ -7835,6 +7835,9 @@ companies:
   - yahoo: RNLSY
     google: OTCMKTS:RNLSY
     currency: USD
+  - yahoo: RNL1.F
+    google: FRA:RNL1
+    currency: EUR
   metadata:
     founded: 1899
     employees: 170158
