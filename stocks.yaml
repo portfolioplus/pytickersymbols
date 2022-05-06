@@ -23913,6 +23913,9 @@ companies:
   - yahoo: DOW
     google: NYSE:DOW
     currency: USD
+  - yahoo: 0A1S.L
+    google: LON:0A1S
+    currency: GBP
   isins: []
   metadata:
     founded: 2019
