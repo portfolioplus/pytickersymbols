@@ -19756,6 +19756,9 @@ companies:
   - yahoo: AGESY
     google: OTCMKTS:AGESY
     currency: USD
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -19926,6 +19929,9 @@ companies:
   - yahoo: GBLBY
     google: OTCMKTS:GBLBY
     currency: USD
+  - yahoo: EAI0.F
+    google: FRA:EAI0
+    currency: EUR
   metadata:
     founded: 1902
     employees: 40
