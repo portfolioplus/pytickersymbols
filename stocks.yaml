@@ -4554,6 +4554,9 @@ companies:
   - yahoo: CUKPF
     google: OTCMKTS:CUKPF
     currency: USD
+  - yahoo: POH1.F
+    google: FRA:POH1
+    currency: EUR
   metadata:
     founded: 1972
     employees: 150000
@@ -25105,6 +25108,9 @@ companies:
   - yahoo: CNPAY
     google: OTCMKTS:CNPAY
     currency: USD
+  - yahoo: XNP0.F
+    google: FRA:XNP0
+    currency: EUR
   isins:
   - FR0000120222
   metadata:
@@ -25205,6 +25211,9 @@ companies:
     currency: EUR
   - yahoo: ELROF
     google: OTCMKTS:ELROF
+    currency: USD
+  - yahoo: ELORY
+    google: OTCMKTS:ELORY
     currency: USD
   isins: []
   metadata:
