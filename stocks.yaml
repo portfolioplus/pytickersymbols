@@ -1482,6 +1482,9 @@ companies:
   - yahoo: GRNNF
     google: OTCMKTS:GRNNF
     currency: USD
+  - yahoo: GRDDY
+    google: OTCMKTS:GRDDY
+    currency: USD
   metadata:
     founded: 2004
     employees: 800
@@ -19926,6 +19929,9 @@ companies:
   - yahoo: GBLBY
     google: OTCMKTS:GBLBY
     currency: USD
+  - yahoo: EAI0.F
+    google: FRA:EAI0
+    currency: EUR
   metadata:
     founded: 1902
     employees: 40
@@ -20083,6 +20089,9 @@ companies:
   - yahoo: SVYSF
     google: OTCMKTS:SVYSF
     currency: USD
+  - yahoo: SOL0.F
+    google: FRA:SOL0
+    currency: EUR
   metadata:
     founded: 1863
     employees: 24500
