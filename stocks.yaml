@@ -1482,6 +1482,9 @@ companies:
   - yahoo: GRNNF
     google: OTCMKTS:GRNNF
     currency: USD
+  - yahoo: GRDDY
+    google: OTCMKTS:GRDDY
+    currency: USD
   metadata:
     founded: 2004
     employees: 800
