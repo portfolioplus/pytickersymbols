@@ -10291,6 +10291,9 @@ companies:
   - yahoo: NVDA
     google: NASDAQ:NVDA
     currency: USD
+  - yahoo: NVDG.F
+    google: FRA:NVDG
+    currency: EUR
   metadata:
     founded: 1993
     employees: 18100
@@ -19926,6 +19929,9 @@ companies:
   - yahoo: GBLBY
     google: OTCMKTS:GBLBY
     currency: USD
+  - yahoo: EAI0.F
+    google: FRA:EAI0
+    currency: EUR
   metadata:
     founded: 1902
     employees: 40
@@ -20083,6 +20089,9 @@ companies:
   - yahoo: SVYSF
     google: OTCMKTS:SVYSF
     currency: USD
+  - yahoo: SOL0.F
+    google: FRA:SOL0
+    currency: EUR
   metadata:
     founded: 1863
     employees: 24500
