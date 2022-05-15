@@ -10294,6 +10294,9 @@ companies:
   - yahoo: NVDA
     google: NASDAQ:NVDA
     currency: USD
+  - yahoo: NVDG.F
+    google: FRA:NVDG
+    currency: EUR
   metadata:
     founded: 1993
     employees: 18100
