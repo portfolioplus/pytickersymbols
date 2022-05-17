@@ -2134,6 +2134,9 @@ companies:
   - yahoo: SCCTY
     google: OTCMKTS:SCCTY
     currency: USD
+  - yahoo: G24A.F
+    google: FRA:G24A
+    currency: EUR
   metadata:
     founded: 1998
     employees: 788
