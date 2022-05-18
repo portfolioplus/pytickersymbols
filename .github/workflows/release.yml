@@ -32,8 +32,14 @@ jobs:
         with:
           parallel: true
           debug: true
+      # Run semantic release:
+      # - Update CHANGELOG.md
+      # - Update version in code
+      # - Create git tag
+      # - Create GitHub release
+      # - Publish to PyPI
       - name: Python Semantic Release
-        uses: relekang/python-semantic-release@master
+        uses: relekang/python-semantic-release@v7.31.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pypi_token: ${{ secrets.PYPI_TOKEN_PP }}
