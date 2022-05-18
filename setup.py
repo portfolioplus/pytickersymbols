@@ -10,19 +10,18 @@ from setuptools import setup, find_packages
 
 EXCLUDE_FROM_PACKAGES = ['test', 'test.*', 'test*']
 
-VERSION = '0.0.0'
+with open('src/pytickersymbols/__init__.py', 'r') as fd:
+    VERSION = re.search(
+        r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
+    ).group(1)
+
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 INSTALL_REQUIRES = (
-    ['wheel==0.37.1', 'PyYAML==6.0']
+    ['wheel==0.37.1', 'PyYAML==6.0', 'packaging']
 )
-
-with open('src/pytickersymbols/__init__.py', 'r') as fd:
-    VERSION = re.search(
-        r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
-    ).group(1)
 
 setup(
     name="pytickersymbols",
