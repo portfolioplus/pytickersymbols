@@ -5,4 +5,5 @@ pandas==1.4.2
 yfinance==0.1.70
 PyYAML==6.0
 pycountry==22.3.5
+packaging
 tox
