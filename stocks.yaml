@@ -15241,6 +15241,9 @@ companies:
   - yahoo: IT
     google: NYSE:IT
     currency: USD
+  - yahoo: 0ITV.L
+    google: LON:0ITV
+    currency: GBP
   metadata:
     founded: 1979
     employees: 16724
@@ -17193,6 +17196,9 @@ companies:
   - yahoo: NWS
     google: NASDAQ:NWS
     currency: USD
+  - yahoo: 0K7U.L
+    google: LON:0K7U
+    currency: GBP
   metadata:
     founded: 2013
     employees: 28000
@@ -19926,6 +19932,9 @@ companies:
   - yahoo: GBLBY
     google: OTCMKTS:GBLBY
     currency: USD
+  - yahoo: EAI0.F
+    google: FRA:EAI0
+    currency: EUR
   metadata:
     founded: 1902
     employees: 40
@@ -20083,6 +20092,9 @@ companies:
   - yahoo: SVYSF
     google: OTCMKTS:SVYSF
     currency: USD
+  - yahoo: SOL0.F
+    google: FRA:SOL0
+    currency: EUR
   metadata:
     founded: 1863
     employees: 24500
@@ -21580,6 +21592,9 @@ companies:
   - yahoo: BOLIF
     google: OTCMKTS:BOLIF
     currency: USD
+  - yahoo: BWJ1.F
+    google: FRA:BWJ1
+    currency: EUR
   metadata:
     founded: 1931
     employees: 4881
@@ -23913,6 +23928,9 @@ companies:
   - yahoo: DOW
     google: NYSE:DOW
     currency: USD
+  - yahoo: 0A1S.L
+    google: LON:0A1S
+    currency: GBP
   isins: []
   metadata:
     founded: 2019
