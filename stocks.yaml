@@ -98,6 +98,9 @@ companies:
   - yahoo: ALVE.F
     google: FRA:ALVE
     currency: EUR
+  - yahoo: ALIZF
+    google: OTCMKTS:ALIZF
+    currency: USD
   metadata:
     founded: 1890
     employees: 147268
