@@ -19505,6 +19505,9 @@ companies:
   - yahoo: WHR
     google: NYSE:WHR
     currency: USD
+  - yahoo: 0LWH.L
+    google: LON:0LWH
+    currency: GBP
   metadata:
     founded: 1911
     employees: 92000
