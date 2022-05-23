@@ -4289,7 +4289,8 @@ companies:
   metadata:
     founded: 1958
     employees: 6655
-  isins: []
+  isins:
+  - GB0000811801
 - name: Berkeley Group Holdings/The
   symbol: BKG
   country: United Kingdom
@@ -6048,6 +6049,9 @@ companies:
   - yahoo: RBSPF
     google: OTCMKTS:RBSPF
     currency: USD
+  - yahoo: RYS2.F
+    google: FRA:RYS2
+    currency: EUR
   metadata:
     founded: 1968
     employees: 59900
@@ -13002,10 +13006,14 @@ companies:
   - yahoo: BALY
     google: NYSE:BALY
     currency: USD
+  - yahoo: BALL
+    google: NYSE:BALL
+    currency: USD
   metadata:
     founded: 1880
     employees: 18300
-  isins: []
+  isins:
+  - US0584981064
 - name: Baxter International Inc.
   symbol: BAX
   country: United States
@@ -22590,8 +22598,7 @@ companies:
 - name: Ferguson PLC
   symbol: FERG
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Building materials
   symbols:
@@ -25935,6 +25942,7 @@ companies:
     currency: USD
   isins:
   - FR0000120354
+  - FR0013506730
   metadata:
     founded: 1957
     employees: 20
@@ -27290,8 +27298,7 @@ companies:
   wiki_name: Seagen Inc.
   symbol: SGEN
   country: United States
-  indices:
-  - NASDAQ 100
+  indices: []
   industries:
   - Biotechnology
   - pharmaceutical
@@ -29288,6 +29295,9 @@ companies:
   - yahoo: 1PK.F
     google: FRA:1PK
     currency: EUR
+  - yahoo: DCHPF
+    google: OTCMKTS:DCHPF
+    currency: USD
   isins: []
   metadata:
     founded: 1997
@@ -29332,6 +29342,9 @@ companies:
   - yahoo: HWDN.L
     google: LON:HWDN
     currency: GBP
+  - yahoo: HWDJY
+    google: OTCMKTS:HWDJY
+    currency: USD
   isins: []
   metadata:
     founded: 1995
@@ -29443,3 +29456,37 @@ companies:
   metadata:
     founded: 1988
     employees: 3167
+- name: SeaGen
+  wiki_name: SeaGen
+  symbol: SGEN
+  country: Andorra
+  indices:
+  - NASDAQ 100
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: ''
+    employees: ''
+- name: Harbour Energy plc
+  wiki_name: Harbour Energy plc
+  symbol: HBR
+  country: '[[Edinburgh]], Scotland'
+  indices:
+  - FTSE 100
+  industries:
+  - Oil
+  symbols:
+  - yahoo: HBRIY
+    google: OTCMKTS:HBRIY
+    currency: USD
+  - yahoo: HBR.L
+    google: LON:HBR
+    currency: GBP
+  - yahoo: PQQ2.F
+    google: FRA:PQQ2
+    currency: EUR
+  isins: []
+  metadata:
+    founded: 2014
+    employees: ''
