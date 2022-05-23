@@ -17642,6 +17642,9 @@ companies:
   - yahoo: PSX
     google: NYSE:PSX
     currency: USD
+  - yahoo: 0KHZ.L
+    google: LON:0KHZ
+    currency: GBP
   metadata:
     founded: 1927
     employees: 14600
@@ -21412,6 +21415,9 @@ companies:
   - yahoo: RANJY
     google: OTCMKTS:RANJY
     currency: USD
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
