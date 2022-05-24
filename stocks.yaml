@@ -7715,6 +7715,9 @@ companies:
   - yahoo: LGRVF
     google: OTCMKTS:LGRVF
     currency: USD
+  - yahoo: LRC0.F
+    google: FRA:LRC0
+    currency: EUR
   metadata:
     founded: 1904
     employees: 39000
@@ -20272,6 +20275,9 @@ companies:
   - yahoo: ACX.MC
     google: BME:ACX
     currency: EUR
+  - yahoo: ACE.F
+    google: FRA:ACE
+    currency: EUR
   metadata:
     founded: 1970
     employees: 7390
@@ -21412,6 +21418,9 @@ companies:
   - yahoo: RANJY
     google: OTCMKTS:RANJY
     currency: USD
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -27833,6 +27842,9 @@ companies:
   - yahoo: AOMFF
     google: OTCMKTS:AOMFF
     currency: USD
+  - yahoo: AOMU.F
+    google: FRA:AOMU
+    currency: EUR
   isins:
   - FR0010220475
   metadata:
