@@ -14342,6 +14342,9 @@ companies:
   - yahoo: DHI
     google: NYSE:DHI
     currency: USD
+  - yahoo: 0I6K.L
+    google: LON:0I6K
+    currency: GBP
   metadata:
     founded: 1978
     employees: 7735
@@ -21412,6 +21415,9 @@ companies:
   - yahoo: RANJY
     google: OTCMKTS:RANJY
     currency: USD
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
