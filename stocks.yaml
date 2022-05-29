@@ -17642,6 +17642,9 @@ companies:
   - yahoo: PSX
     google: NYSE:PSX
     currency: USD
+  - yahoo: 0KHZ.L
+    google: LON:0KHZ
+    currency: GBP
   metadata:
     founded: 1927
     employees: 14600
@@ -20271,6 +20274,9 @@ companies:
     currency: USD
   - yahoo: ACX.MC
     google: BME:ACX
+    currency: EUR
+  - yahoo: ACE.F
+    google: FRA:ACE
     currency: EUR
   metadata:
     founded: 1970
