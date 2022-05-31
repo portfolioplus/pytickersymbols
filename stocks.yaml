@@ -5693,6 +5693,9 @@ companies:
   - yahoo: PPBA.F
     google: FRA:PPBA
     currency: EUR
+  - yahoo: PDYPF
+    google: OTCMKTS:PDYPF
+    currency: USD
   metadata:
     founded: 2016
     employees: 9153
@@ -5969,6 +5972,9 @@ companies:
   - yahoo: RMV.L
     google: LON:RMV
     currency: GBP
+  - yahoo: RTMVF
+    google: OTCMKTS:RTMVF
+    currency: USD
   metadata:
     founded: 2000
     employees: ''
@@ -6864,6 +6870,9 @@ companies:
   - yahoo: NEFA.F
     google: FRA:NEFA
     currency: EUR
+  - yahoo: NTOIF
+    google: OTCMKTS:NTOIF
+    currency: USD
   metadata:
     founded: 1948
     employees: 4400
@@ -28133,6 +28142,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: VTW.F
+    google: FRA:VTW
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
