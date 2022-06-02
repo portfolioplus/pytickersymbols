@@ -18735,6 +18735,9 @@ companies:
   - yahoo: TTWO
     google: NASDAQ:TTWO
     currency: USD
+  - yahoo: 0LCX.L
+    google: LON:0LCX
+    currency: GBP
   metadata:
     founded: 1993
     employees: 5800
@@ -19505,6 +19508,9 @@ companies:
   - yahoo: WHR
     google: NYSE:WHR
     currency: USD
+  - yahoo: 0LWH.L
+    google: LON:0LWH
+    currency: GBP
   metadata:
     founded: 1911
     employees: 92000
@@ -21630,6 +21636,9 @@ companies:
   - yahoo: BWJ1.F
     google: FRA:BWJ1
     currency: EUR
+  - yahoo: BLDNF
+    google: OTCMKTS:BLDNF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
