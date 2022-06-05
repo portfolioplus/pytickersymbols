@@ -20029,6 +20029,9 @@ companies:
   - yahoo: KBCSY
     google: OTCMKTS:KBCSY
     currency: USD
+  - yahoo: KDB0.F
+    google: FRA:KDB0
+    currency: EUR
   metadata:
     founded: 1998
     employees: 41000
@@ -20271,6 +20274,9 @@ companies:
     currency: USD
   - yahoo: ACX.MC
     google: BME:ACX
+    currency: EUR
+  - yahoo: ACE.F
+    google: FRA:ACE
     currency: EUR
   metadata:
     founded: 1970
