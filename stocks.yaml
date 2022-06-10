@@ -21636,6 +21636,9 @@ companies:
   - yahoo: BWJ1.F
     google: FRA:BWJ1
     currency: EUR
+  - yahoo: BLDNF
+    google: OTCMKTS:BLDNF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
