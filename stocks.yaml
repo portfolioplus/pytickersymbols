@@ -6018,6 +6018,9 @@ companies:
   - yahoo: RRU1.F
     google: FRA:RRU1
     currency: EUR
+  - yahoo: RLLCF
+    google: OTCMKTS:RLLCF
+    currency: USD
   metadata:
     founded: 1904
     employees: 50000
@@ -7715,6 +7718,9 @@ companies:
   - yahoo: LGRVF
     google: OTCMKTS:LGRVF
     currency: USD
+  - yahoo: LRC0.F
+    google: FRA:LRC0
+    currency: EUR
   metadata:
     founded: 1904
     employees: 39000
@@ -17390,6 +17396,9 @@ companies:
   - yahoo: NCLH
     google: NYSE:NCLH
     currency: USD
+  - yahoo: 0UC3.L
+    google: LON:0UC3
+    currency: GBP
   metadata:
     founded: 2011
     employees: 33200
