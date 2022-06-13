@@ -286,6 +286,9 @@ companies:
   - yahoo: DAII.F
     google: FRA:DAII
     currency: EUR
+  - yahoo: MBG.F
+    google: FRA:MBG
+    currency: EUR
   metadata:
     founded: 1926
     employees: 288481
@@ -2996,6 +2999,9 @@ companies:
   - yahoo: HBGRY
     google: OTCMKTS:HBGRY
     currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
+    currency: USD
   metadata:
     founded: 1850
     employees: 11511
@@ -4190,6 +4196,9 @@ companies:
   - yahoo: GU8.F
     google: FRA:GU8
     currency: EUR
+  - yahoo: AVVID
+    google: OTCMKTS:AVVID
+    currency: USD
   metadata:
     founded: 2000
     employees: 31000
@@ -4289,7 +4298,8 @@ companies:
   metadata:
     founded: 1958
     employees: 6655
-  isins: []
+  isins:
+  - GB0000811801
 - name: Berkeley Group Holdings/The
   symbol: BKG
   country: United Kingdom
@@ -5851,12 +5861,25 @@ companies:
   - yahoo: SHEL
     google: NYSE:SHEL
     currency: USD
+  - yahoo: SHELL.AS
+    google: AMS:SHELL
+    currency: EUR
+  - yahoo: R6C0.F
+    google: FRA:R6C0
+    currency: EUR
+  - yahoo: SHEL.L
+    google: LON:SHEL
+    currency: GBP
+  - yahoo: L3H.F
+    google: FRA:L3H
+    currency: EUR
   metadata:
     founded: 1907
     employees: 86000
   isins:
   - GB00B03MLX29
   - GB00B03MM408
+  - GB00BP6MXD84
 - name: Reckitt Benckiser Group PLC
   symbol: RB.
   country: United Kingdom
@@ -5945,6 +5968,9 @@ companies:
   - yahoo: RTO.L
     google: LON:RTO
     currency: GBP
+  - yahoo: RKLIF
+    google: OTCMKTS:RKLIF
+    currency: USD
   metadata:
     founded: 1925
     employees: 36000
@@ -6048,6 +6074,9 @@ companies:
   - yahoo: RBSPF
     google: OTCMKTS:RBSPF
     currency: USD
+  - yahoo: RYS2.F
+    google: FRA:RYS2
+    currency: EUR
   metadata:
     founded: 1968
     employees: 59900
@@ -8083,6 +8112,9 @@ companies:
   - yahoo: TTE.L
     google: LON:TTE
     currency: GBP
+  - yahoo: TOTA.F
+    google: FRA:TOTA
+    currency: EUR
   metadata:
     founded: 1924
     employees: 107776
@@ -8178,6 +8210,9 @@ companies:
   - yahoo: VCISY
     google: OTCMKTS:VCISY
     currency: USD
+  - yahoo: VCISF
+    google: OTCMKTS:VCISF
+    currency: USD
   metadata:
     founded: 1899
     employees: 222397
@@ -8259,7 +8294,8 @@ companies:
   metadata:
     founded: 1902
     employees: 94987
-  isins: []
+  isins:
+  - US88579Y1010
 - name: American Express Company
   symbol: AXP
   country: United States
@@ -9342,8 +9378,7 @@ companies:
 - name: Cerner Corporation
   symbol: CERN
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Healthcare
   - Advanced Medical Equipment & Technology
@@ -9733,10 +9768,7 @@ companies:
 - name: Facebook Inc.
   symbol: FB
   country: United States
-  indices:
-  - NASDAQ 100
-  - S&P 100
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -13002,10 +13034,14 @@ companies:
   - yahoo: BALY
     google: NYSE:BALY
     currency: USD
+  - yahoo: BALL
+    google: NYSE:BALL
+    currency: USD
   metadata:
     founded: 1880
     employees: 18300
-  isins: []
+  isins:
+  - US0584981064
 - name: Baxter International Inc.
   symbol: BAX
   country: United States
@@ -18380,7 +18416,8 @@ companies:
   metadata:
     founded: 1971
     employees: 32000
-  isins: []
+  isins:
+  - US8085131055
 - name: Sealed Air Corporation
   symbol: SEE
   country: United States
@@ -22387,6 +22424,7 @@ companies:
     founded: 1896
     employees: 101200
   isins:
+  - CH0012032048
   - CH0012032113
 - name: SGS SA
   symbol: SGSN
@@ -22596,8 +22634,7 @@ companies:
 - name: Ferguson PLC
   symbol: FERG
   country: United Kingdom
-  indices:
-  - FTSE 100
+  indices: []
   industries:
   - Building materials
   symbols:
@@ -23538,6 +23575,9 @@ companies:
   - yahoo: BMRRY
     google: OTCMKTS:BMRRY
     currency: USD
+  - yahoo: BMRPF
+    google: OTCMKTS:BMRPF
+    currency: USD
   isins: []
   metadata:
     founded: 1978
@@ -23568,6 +23608,7 @@ companies:
     currency: EUR
   isins:
   - IM00B5VQMV65
+  - US2936031069
   metadata:
     founded: 2004
     employees: ''
@@ -25941,6 +25982,7 @@ companies:
     currency: USD
   isins:
   - FR0000120354
+  - FR0013506730
   metadata:
     founded: 1957
     employees: 20
@@ -27124,7 +27166,8 @@ companies:
   - yahoo: 0Z62.L
     google: LON:0Z62
     currency: GBP
-  isins: []
+  isins:
+  - US49271VAP58
   metadata:
     founded: 1981
     employees: 25500
@@ -29294,6 +29337,9 @@ companies:
   - yahoo: 1PK.F
     google: FRA:1PK
     currency: EUR
+  - yahoo: DCHPF
+    google: OTCMKTS:DCHPF
+    currency: USD
   isins: []
   metadata:
     founded: 1997
@@ -29349,7 +29395,16 @@ companies:
   indices:
   - FTSE 100
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: EENEF
+    google: OTCMKTS:EENEF
+    currency: USD
+  - yahoo: RS1.L
+    google: LON:RS1
+    currency: GBP
+  - yahoo: ECN.F
+    google: FRA:ECN
+    currency: EUR
   isins: []
   metadata:
     founded: 1937
@@ -29449,3 +29504,79 @@ companies:
   metadata:
     founded: 1988
     employees: 3167
+- name: Meta Platforms, Inc.
+  wiki_name: Meta Platforms, Inc.
+  symbol: META
+  country: United States
+  indices:
+  - NASDAQ 100
+  - S&P 100
+  - S&P 500
+  industries:
+  - Social media
+  - Social network advertising
+  - Consumer electronics
+  symbols:
+  - yahoo: META
+    google: NASDAQ:META
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2004
+    employees: 77805
+- name: Vici Properties Inc.
+  wiki_name: Vici Properties Inc.
+  symbol: VICI
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Real estate investment trust
+  symbols:
+  - yahoo: VICI
+    google: NYSE:VICI
+    currency: USD
+  isins:
+  - US9256521090
+  metadata:
+    founded: 2017
+    employees: 147
+- name: Lucid , Inc.
+  wiki_name: Lucid , Inc.
+  symbol: LCID
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Automobiles
+  symbols:
+  - yahoo: LCID
+    google: NASDAQ:LCID
+    currency: USD
+  isins:
+  - US5494981039
+  metadata:
+    founded: 2007
+    employees: 3900
+- name: Harbour Energy plc
+  wiki_name: Harbour Energy plc
+  symbol: HBR
+  country: '[[Edinburgh]], Scotland, UK'
+  indices:
+  - FTSE 100
+  industries:
+  - Oil
+  symbols:
+  - yahoo: HBR.L
+    google: LON:HBR
+    currency: GBP
+  - yahoo: PQQ2.F
+    google: FRA:PQQ2
+    currency: EUR
+  - yahoo: HBRIY
+    google: OTCMKTS:HBRIY
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2014
+    employees: ''
