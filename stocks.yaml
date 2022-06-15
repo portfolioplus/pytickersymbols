@@ -2040,6 +2040,9 @@ companies:
   - yahoo: SZGA.F
     google: FRA:SZGA
     currency: EUR
+  - yahoo: SZGPF
+    google: OTCMKTS:SZGPF
+    currency: USD
   metadata:
     founded: 1998
     employees: 25227
