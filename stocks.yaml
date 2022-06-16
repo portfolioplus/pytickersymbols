@@ -17390,6 +17390,9 @@ companies:
   - yahoo: NCLH
     google: NYSE:NCLH
     currency: USD
+  - yahoo: 0UC3.L
+    google: LON:0UC3
+    currency: GBP
   metadata:
     founded: 2011
     employees: 33200
@@ -21357,6 +21360,9 @@ companies:
     currency: USD
   - yahoo: NN.AS
     google: AMS:NN
+    currency: EUR
+  - yahoo: 2NN0.F
+    google: FRA:2NN0
     currency: EUR
   metadata:
     founded: 1963
