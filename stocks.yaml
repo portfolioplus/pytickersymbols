@@ -8501,6 +8501,9 @@ companies:
   - yahoo: GS
     google: NYSE:GS
     currency: USD
+  - yahoo: GOS0.F
+    google: FRA:GOS0
+    currency: EUR
   metadata:
     founded: 1869
     employees: 40500
@@ -21358,6 +21361,9 @@ companies:
   - yahoo: NN.AS
     google: AMS:NN
     currency: EUR
+  - yahoo: 2NN0.F
+    google: FRA:2NN0
+    currency: EUR
   metadata:
     founded: 1963
     employees: 11500
@@ -25826,6 +25832,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
