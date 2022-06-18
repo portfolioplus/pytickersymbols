@@ -8899,6 +8899,9 @@ companies:
   - yahoo: WMT
     google: NYSE:WMT
     currency: USD
+  - yahoo: WMTD.F
+    google: FRA:WMTD
+    currency: EUR
   metadata:
     founded: 1962
     employees: 22
@@ -10067,6 +10070,12 @@ companies:
     currency: GBP
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
+    currency: USD
+  - yahoo: 0P0000JM57.L
+    google: LON:0P0000JM57
+    currency: GBP
+  - yahoo: 0P0001I1JH
+    google: OTCMKTS:0P0001I1JH
     currency: USD
   metadata:
     founded: 1927
@@ -14342,6 +14351,9 @@ companies:
   - yahoo: DHI
     google: NYSE:DHI
     currency: USD
+  - yahoo: 0I6K.L
+    google: LON:0I6K
+    currency: GBP
   metadata:
     founded: 1978
     employees: 7735
@@ -21357,6 +21369,9 @@ companies:
     currency: USD
   - yahoo: NN.AS
     google: AMS:NN
+    currency: EUR
+  - yahoo: 2NN0.F
+    google: FRA:2NN0
     currency: EUR
   metadata:
     founded: 1963
