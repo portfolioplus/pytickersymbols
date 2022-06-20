@@ -8899,6 +8899,9 @@ companies:
   - yahoo: WMT
     google: NYSE:WMT
     currency: USD
+  - yahoo: WMTD.F
+    google: FRA:WMTD
+    currency: EUR
   metadata:
     founded: 1962
     employees: 22
