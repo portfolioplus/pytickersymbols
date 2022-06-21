@@ -2082,6 +2082,9 @@ companies:
   - yahoo: SRT4.F
     google: FRA:SRT4
     currency: EUR
+  - yahoo: SRT0.F
+    google: FRA:SRT0
+    currency: EUR
   metadata:
     founded: 1870
     employees: 10637
@@ -22018,6 +22021,9 @@ companies:
   - yahoo: SVHG.F
     google: FRA:SVHG
     currency: EUR
+  - yahoo: SVNLF
+    google: OTCMKTS:SVNLF
+    currency: USD
   metadata:
     founded: 1871
     employees: 11000
