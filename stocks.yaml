@@ -861,6 +861,9 @@ companies:
   - yahoo: ARLB.F
     google: FRA:ARLB
     currency: EUR
+  - yahoo: ARL0.F
+    google: FRA:ARL0
+    currency: EUR
   metadata:
     founded: 1923
     employees: 2788
@@ -21900,6 +21903,9 @@ companies:
   - yahoo: SCTBY
     google: OTCMKTS:SCTBY
     currency: USD
+  - yahoo: S7M.F
+    google: FRA:S7M
+    currency: EUR
   metadata:
     founded: 1934
     employees: 370000
