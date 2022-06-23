@@ -17848,6 +17848,9 @@ companies:
   - yahoo: PEG
     google: NYSE:PEG
     currency: USD
+  - yahoo: 0KS2.L
+    google: LON:0KS2
+    currency: GBP
   metadata:
     founded: 1903
     employees: 12945
@@ -21357,6 +21360,9 @@ companies:
     currency: USD
   - yahoo: NN.AS
     google: AMS:NN
+    currency: EUR
+  - yahoo: 2NN0.F
+    google: FRA:2NN0
     currency: EUR
   metadata:
     founded: 1963
