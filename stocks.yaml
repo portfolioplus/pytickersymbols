@@ -14710,6 +14710,9 @@ companies:
   - yahoo: RE
     google: NYSE:RE
     currency: USD
+  - yahoo: 0U96.L
+    google: LON:0U96
+    currency: GBP
   metadata:
     founded: 1973
     employees: 1746
@@ -21900,6 +21903,9 @@ companies:
   - yahoo: SCTBY
     google: OTCMKTS:SCTBY
     currency: USD
+  - yahoo: S7M.F
+    google: FRA:S7M
+    currency: EUR
   metadata:
     founded: 1934
     employees: 370000
@@ -25826,6 +25832,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
