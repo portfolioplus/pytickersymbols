@@ -10068,6 +10068,9 @@ companies:
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
     currency: USD
+  - yahoo: 0P0001I1JH
+    google: OTCMKTS:0P0001I1JH
+    currency: USD
   metadata:
     founded: 1927
     employees: 121000
@@ -25219,6 +25222,9 @@ companies:
   - yahoo: DBV.F
     google: FRA:DBV
     currency: EUR
+  - yahoo: DBVTF
+    google: OTCMKTS:DBVTF
+    currency: USD
   isins: []
   metadata:
     founded: 0
