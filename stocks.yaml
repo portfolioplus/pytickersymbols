@@ -1709,6 +1709,9 @@ companies:
   - yahoo: 0QC9.L
     google: LON:0QC9
     currency: GBP
+  - yahoo: LGMMY
+    google: OTCMKTS:LGMMY
+    currency: USD
   metadata:
     founded: 1970
     employees: 1444
@@ -10067,6 +10070,9 @@ companies:
     currency: GBP
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
+    currency: USD
+  - yahoo: 0P0001I1JG
+    google: OTCMKTS:0P0001I1JG
     currency: USD
   metadata:
     founded: 1927
@@ -21900,6 +21906,9 @@ companies:
   - yahoo: SCTBY
     google: OTCMKTS:SCTBY
     currency: USD
+  - yahoo: S7M.F
+    google: FRA:S7M
+    currency: EUR
   metadata:
     founded: 1934
     employees: 370000
@@ -25219,6 +25228,9 @@ companies:
   - yahoo: DBV.F
     google: FRA:DBV
     currency: EUR
+  - yahoo: DBVTF
+    google: OTCMKTS:DBVTF
+    currency: USD
   isins: []
   metadata:
     founded: 0
