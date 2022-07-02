@@ -1141,6 +1141,9 @@ companies:
   - yahoo: DEQ1.F
     google: FRA:DEQ1
     currency: EUR
+  - yahoo: DEQV.F
+    google: FRA:DEQV
+    currency: EUR
   metadata:
     founded: 1997
     employees: 5
@@ -8698,6 +8701,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -25463,6 +25469,9 @@ companies:
   - yahoo: GZPZF
     google: OTCMKTS:GZPZF
     currency: USD
+  - yahoo: 9TG0.F
+    google: FRA:9TG0
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -25826,6 +25835,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
