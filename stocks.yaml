@@ -8698,6 +8698,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -10067,6 +10070,9 @@ companies:
     currency: GBP
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
+    currency: USD
+  - yahoo: 0P0001I1JG
+    google: OTCMKTS:0P0001I1JG
     currency: USD
   metadata:
     founded: 1927
@@ -17642,6 +17648,9 @@ companies:
   - yahoo: PSX
     google: NYSE:PSX
     currency: USD
+  - yahoo: 0KHZ.L
+    google: LON:0KHZ
+    currency: GBP
   metadata:
     founded: 1927
     employees: 14600
@@ -21577,6 +21586,9 @@ companies:
   - yahoo: ATLCY
     google: OTCMKTS:ATLCY
     currency: USD
+  - yahoo: ACO5.F
+    google: FRA:ACO5
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
@@ -21683,6 +21695,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
@@ -28139,6 +28154,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: VTW.F
+    google: FRA:VTW
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
