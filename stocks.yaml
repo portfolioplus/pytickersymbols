@@ -1141,6 +1141,9 @@ companies:
   - yahoo: DEQ1.F
     google: FRA:DEQ1
     currency: EUR
+  - yahoo: DEQV.F
+    google: FRA:DEQV
+    currency: EUR
   metadata:
     founded: 1997
     employees: 5
@@ -19505,6 +19508,9 @@ companies:
   - yahoo: WHR
     google: NYSE:WHR
     currency: USD
+  - yahoo: 0LWH.L
+    google: LON:0LWH
+    currency: GBP
   metadata:
     founded: 1911
     employees: 92000
