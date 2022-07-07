@@ -21577,6 +21577,9 @@ companies:
   - yahoo: ATLCY
     google: OTCMKTS:ATLCY
     currency: USD
+  - yahoo: ACO5.F
+    google: FRA:ACO5
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
@@ -23815,6 +23818,9 @@ companies:
   - yahoo: BUWA.F
     google: FRA:BUWA
     currency: EUR
+  - yahoo: BUW.F
+    google: FRA:BUW
+    currency: EUR
   isins: []
   metadata:
     founded: 1952
@@ -25826,6 +25832,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
