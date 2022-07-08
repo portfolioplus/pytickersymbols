@@ -4190,6 +4190,12 @@ companies:
   - yahoo: GU8.F
     google: FRA:GU8
     currency: EUR
+  - yahoo: AVVID
+    google: OTCMKTS:AVVID
+    currency: USD
+  - yahoo: GU80.F
+    google: FRA:GU80
+    currency: EUR
   metadata:
     founded: 2000
     employees: 31000
