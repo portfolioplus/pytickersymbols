@@ -1141,6 +1141,9 @@ companies:
   - yahoo: DEQ1.F
     google: FRA:DEQ1
     currency: EUR
+  - yahoo: DEQV.F
+    google: FRA:DEQV
+    currency: EUR
   metadata:
     founded: 1997
     employees: 5
@@ -1709,6 +1712,9 @@ companies:
   - yahoo: 0QC9.L
     google: LON:0QC9
     currency: GBP
+  - yahoo: LGMMY
+    google: OTCMKTS:LGMMY
+    currency: USD
   metadata:
     founded: 1970
     employees: 1444
@@ -2081,6 +2087,9 @@ companies:
     currency: USD
   - yahoo: SRT4.F
     google: FRA:SRT4
+    currency: EUR
+  - yahoo: SRT0.F
+    google: FRA:SRT0
     currency: EUR
   metadata:
     founded: 1870
@@ -25463,6 +25472,9 @@ companies:
   - yahoo: GZPZF
     google: OTCMKTS:GZPZF
     currency: USD
+  - yahoo: 9TG0.F
+    google: FRA:9TG0
+    currency: EUR
   isins: []
   metadata:
     founded: 0
