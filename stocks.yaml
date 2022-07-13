@@ -1141,6 +1141,9 @@ companies:
   - yahoo: DEQ1.F
     google: FRA:DEQ1
     currency: EUR
+  - yahoo: DEQV.F
+    google: FRA:DEQV
+    currency: EUR
   metadata:
     founded: 1997
     employees: 5
@@ -25463,6 +25466,9 @@ companies:
   - yahoo: GZPZF
     google: OTCMKTS:GZPZF
     currency: USD
+  - yahoo: 9TG0.F
+    google: FRA:9TG0
+    currency: EUR
   isins: []
   metadata:
     founded: 0
