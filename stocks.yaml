@@ -16799,6 +16799,9 @@ companies:
   - yahoo: MPC
     google: NYSE:MPC
     currency: USD
+  - yahoo: 0JYA.L
+    google: LON:0JYA
+    currency: GBP
   metadata:
     founded: 2009
     employees: 43800
