@@ -1008,6 +1008,9 @@ companies:
   - yahoo: BECTY
     google: OTCMKTS:BECTY
     currency: USD
+  - yahoo: BHTLF
+    google: OTCMKTS:BHTLF
+    currency: USD
   metadata:
     founded: 1983
     employees: 12180
@@ -2082,6 +2085,9 @@ companies:
   - yahoo: SRT4.F
     google: FRA:SRT4
     currency: EUR
+  - yahoo: SRT0.F
+    google: FRA:SRT0
+    currency: EUR
   metadata:
     founded: 1870
     employees: 10637
@@ -2269,6 +2275,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: TEGB.F
+    google: FRA:TEGB
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -7715,6 +7724,9 @@ companies:
   - yahoo: LGRVF
     google: OTCMKTS:LGRVF
     currency: USD
+  - yahoo: LRC0.F
+    google: FRA:LRC0
+    currency: EUR
   metadata:
     founded: 1904
     employees: 39000
@@ -8698,6 +8710,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -21358,6 +21373,9 @@ companies:
   - yahoo: NN.AS
     google: AMS:NN
     currency: EUR
+  - yahoo: 2NN0.F
+    google: FRA:2NN0
+    currency: EUR
   metadata:
     founded: 1963
     employees: 11500
@@ -25259,6 +25277,9 @@ companies:
   - yahoo: ER7.F
     google: FRA:ER7
     currency: EUR
+  - yahoo: ERMAF
+    google: OTCMKTS:ERMAF
+    currency: USD
   isins:
   - FR0000131757
   metadata:
@@ -25826,6 +25847,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
