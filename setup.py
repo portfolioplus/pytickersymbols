@@ -16,7 +16,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 INSTALL_REQUIRES = (
-    ['wheel==0.37.1', 'PyYAML==6.0']
+    ['wheel==0.37.1', 'PyYAML==6.0', 'packaging']
 )
 
 with open('src/pytickersymbols/__init__.py', 'r') as fd:
