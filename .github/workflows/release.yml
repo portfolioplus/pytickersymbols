@@ -33,10 +33,11 @@ jobs:
           parallel: true
           debug: true
       - name: Python Semantic Release
-        uses: relekang/python-semantic-release@master
+        uses: relekang/python-semantic-release@v7.28.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          pypi_token: ${{ secrets.PYPI_TOKEN_PP }}
+          repository_username: __token__
+          repository_password: ${{ secrets.PYPI_TOKEN_PP }}
   coveralls_finish:
     needs: release
     runs-on: ubuntu-latest

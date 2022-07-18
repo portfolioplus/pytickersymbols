@@ -861,6 +861,9 @@ companies:
   - yahoo: ARLB.F
     google: FRA:ARLB
     currency: EUR
+  - yahoo: ARL0.F
+    google: FRA:ARL0
+    currency: EUR
   metadata:
     founded: 1923
     employees: 2788
@@ -1008,6 +1011,9 @@ companies:
   - yahoo: BECTY
     google: OTCMKTS:BECTY
     currency: USD
+  - yahoo: BHTLF
+    google: OTCMKTS:BHTLF
+    currency: USD
   metadata:
     founded: 1983
     employees: 12180
@@ -1098,7 +1104,7 @@ companies:
   symbol: DHER
   country: Germany
   indices:
-  - DAX
+  - MDAX
   industries:
   - Technology
   - Software & IT Services
@@ -5814,49 +5820,6 @@ companies:
     employees: 23000
   isins:
   - GB0007099541
-- name: Royal Dutch Shell PLC
-  symbol: RDSA
-  country: Netherlands
-  indices: []
-  industries:
-  - Energy
-  - Fossil Fuels
-  - Integrated Oil & Gas
-  - Oil & Gas
-  symbols:
-  - yahoo: R6C.F
-    google: FRA:R6C
-    currency: EUR
-  - yahoo: RDS-A
-    google: NYSE:RDS-A
-    currency: USD
-  - yahoo: R6C3
-    google: FRA:R6C3
-    currency: USD
-  - yahoo: RDS-B
-    google: NYSE:RDS-B
-    currency: USD
-  - yahoo: RDSB.L
-    google: LON:RDSB
-    currency: GBP
-  - yahoo: RYDAF
-    google: OTCMKTS:RYDAF
-    currency: USD
-  - yahoo: RDSA.AS
-    google: AMS:RDSA
-    currency: EUR
-  - yahoo: R6C3.F
-    google: FRA:R6C3
-    currency: EUR
-  - yahoo: SHEL
-    google: NYSE:SHEL
-    currency: USD
-  metadata:
-    founded: 1907
-    employees: 86000
-  isins:
-  - GB00B03MLX29
-  - GB00B03MM408
 - name: Reckitt Benckiser Group PLC
   symbol: RB.
   country: United Kingdom
@@ -7715,6 +7678,9 @@ companies:
   - yahoo: LGRVF
     google: OTCMKTS:LGRVF
     currency: USD
+  - yahoo: LRC0.F
+    google: FRA:LRC0
+    currency: EUR
   metadata:
     founded: 1904
     employees: 39000
@@ -9730,8 +9696,8 @@ companies:
     employees: 24500
   isins:
   - US65248E2037
-- name: Facebook Inc.
-  symbol: FB
+- name: Meta Platforms Inc.
+  symbol: META
   country: United States
   indices:
   - NASDAQ 100
@@ -9745,8 +9711,8 @@ companies:
   - yahoo: FB2A.F
     google: FRA:FB2A
     currency: EUR
-  - yahoo: FB
-    google: NASDAQ:FB
+  - yahoo: META
+    google: NASDAQ:META
     currency: USD
   metadata:
     founded: 2004
@@ -11782,6 +11748,9 @@ companies:
   - yahoo: OXY
     google: NYSE:OXY
     currency: USD
+  - yahoo: 0KAK.L
+    google: LON:0KAK
+    currency: GBP
   metadata:
     founded: 1920
     employees: 11800
@@ -14710,6 +14679,9 @@ companies:
   - yahoo: RE
     google: NYSE:RE
     currency: USD
+  - yahoo: 0U96.L
+    google: LON:0U96
+    currency: GBP
   metadata:
     founded: 1973
     employees: 1746
@@ -19533,10 +19505,11 @@ companies:
     founded: 1908
     employees: 5425
   isins: []
-- name: Willis Towers Watson Public Limited Company
+- name: WTW Public Limited Company
   symbol: WLTW
   country: United Kingdom
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Insurance
   - Financials
@@ -21577,6 +21550,9 @@ companies:
   - yahoo: ATLCY
     google: OTCMKTS:ATLCY
     currency: USD
+  - yahoo: ACO5.F
+    google: FRA:ACO5
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
@@ -25463,6 +25439,9 @@ companies:
   - yahoo: GZPZF
     google: OTCMKTS:GZPZF
     currency: USD
+  - yahoo: 9TG0.F
+    google: FRA:9TG0
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -28831,7 +28810,10 @@ companies:
   - DAX
   industries:
   - Automotive
-  symbols: []
+  symbols:
+  - yahoo: DTG.F
+    google: FRA:DTG
+    currency: EUR
   isins:
   - DE000DTR0CK8
   metadata:
@@ -29027,7 +29009,7 @@ companies:
 - name: Petropavlovsk PLC
   wiki_name: Petropavlovsk PLC
   symbol: POGR
-  country: '[[London]], [[Moskau]]'
+  country: Russian Federation
   indices:
   - MOEX
   industries:
@@ -29222,41 +29204,51 @@ companies:
   metadata:
     founded: 2022
     employees: ''
-- name: WTW Public Limited Company
-  wiki_name: WTW Public Limited Company
-  symbol: WTW
-  country: United Kingdom
-  indices:
-  - S&P 500
-  industries: []
-  symbols:
-  - yahoo: WTW
-    google: NASDAQ:WTW
-    currency: USD
-  isins:
-  - IE00BDB6Q211
-  metadata:
-    founded: 2016
-    employees: 46600
-- name: Shell plc
-  wiki_name: Shell plc
-  symbol: SHELL
-  country: United Kingdom
+- name: Royal Dutch Shell PLC
+  symbol: RDSA
+  country: Netherlands
   indices:
   - AEX
   - FTSE 100
   industries:
   - Energy
-  - Oil and gas
+  - Fossil Fuels
+  - Integrated Oil & Gas
+  - Oil & Gas
   symbols:
+  - yahoo: R6C.F
+    google: FRA:R6C
+    currency: EUR
+  - yahoo: RDS-A
+    google: NYSE:RDS-A
+    currency: USD
+  - yahoo: R6C3
+    google: FRA:R6C3
+    currency: USD
+  - yahoo: RDS-B
+    google: NYSE:RDS-B
+    currency: USD
+  - yahoo: RDSB.L
+    google: LON:RDSB
+    currency: GBP
+  - yahoo: RYDAF
+    google: OTCMKTS:RYDAF
+    currency: USD
+  - yahoo: RDSA.AS
+    google: AMS:RDSA
+    currency: EUR
+  - yahoo: R6C3.F
+    google: FRA:R6C3
+    currency: EUR
   - yahoo: SHEL
     google: NYSE:SHEL
     currency: USD
-  isins:
-  - GB00BP6MXD84
   metadata:
     founded: 1907
     employees: 86000
+  isins:
+  - GB00B03MLX29
+  - GB00B03MM408
 - name: Airtel Africa plc
   wiki_name: Airtel Africa plc
   symbol: AAF
@@ -29414,10 +29406,13 @@ companies:
 - name: Vitesco Technologies Group AG
   wiki_name: Vitesco Technologies Group AG
   symbol: VTS
-  country: '[[Regensburg]]'
+  country: Germany
   indices:
   - SDAX
-  industries: []
+  industries:
+  - Auto, Truck & Motorcycle Parts
+  - Automobiles & Auto Parts
+  - Consumer Cyclicals
   symbols:
   - yahoo: VTS.F
     google: FRA:VTS
