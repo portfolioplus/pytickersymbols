@@ -70,6 +70,9 @@ companies:
   - yahoo: ADS1.F
     google: FRA:ADS1
     currency: EUR
+  - yahoo: 0OLD.L
+    google: LON:0OLD
+    currency: GBP
   metadata:
     founded: 1924
     employees: 57016
@@ -175,6 +178,9 @@ companies:
   - yahoo: BDRFF
     google: OTCMKTS:BDRFF
     currency: USD
+  - yahoo: 0DQ7.L
+    google: LON:0DQ7
+    currency: GBP
   metadata:
     founded: 1882
     employees: 20306
@@ -204,6 +210,9 @@ companies:
   - yahoo: BMW3.F
     google: FRA:BMW3
     currency: EUR
+  - yahoo: 0O0V.L
+    google: LON:0O0V
+    currency: GBP
   metadata:
     founded: 1916
     employees: 133778
@@ -411,6 +420,9 @@ companies:
   - yahoo: DTEA.F
     google: FRA:DTEA
     currency: EUR
+  - yahoo: 0MPH.L
+    google: LON:0MPH
+    currency: GBP
   metadata:
     founded: 1995
     employees: 226291
@@ -572,6 +584,9 @@ companies:
   - yahoo: IFXA.F
     google: FRA:IFXA
     currency: EUR
+  - yahoo: 0KED.L
+    google: LON:0KED
+    currency: GBP
   metadata:
     founded: 1999
     employees: 46665
@@ -917,6 +932,9 @@ companies:
   - yahoo: AOX0.F
     google: FRA:AOX0
     currency: EUR
+  - yahoo: 0O9Q.L
+    google: LON:0O9Q
+    currency: GBP
   metadata:
     founded: 2006
     employees: 159
@@ -939,6 +957,9 @@ companies:
   - yahoo: AANNF
     google: OTCMKTS:AANNF
     currency: USD
+  - yahoo: 0RUH.L
+    google: LON:0RUH
+    currency: GBP
   metadata:
     founded: 2004
     employees: 492
@@ -1014,6 +1035,9 @@ companies:
   - yahoo: BHTLF
     google: OTCMKTS:BHTLF
     currency: USD
+  - yahoo: 0DPM.L
+    google: LON:0DPM
+    currency: GBP
   metadata:
     founded: 1983
     employees: 12180
@@ -1169,6 +1193,9 @@ companies:
   - yahoo: PBBGF
     google: OTCMKTS:PBBGF
     currency: USD
+  - yahoo: 0R9K.L
+    google: LON:0R9K
+    currency: GBP
   metadata:
     founded: 1869
     employees: 752
@@ -1774,6 +1801,9 @@ companies:
   - yahoo: MOR2.F
     google: FRA:MOR2
     currency: EUR
+  - yahoo: 0NDV.L
+    google: LON:0NDV
+    currency: GBP
   metadata:
     founded: 1992
     employees: 426
@@ -1829,6 +1859,9 @@ companies:
   - yahoo: NEM0.F
     google: FRA:NEM0
     currency: EUR
+  - yahoo: 0FDT.L
+    google: LON:0FDT
+    currency: GBP
   metadata:
     founded: 1963
     employees: 3000
@@ -1951,6 +1984,9 @@ companies:
   - yahoo: QGEN
     google: NYSE:QGEN
     currency: USD
+  - yahoo: 0RLT.L
+    google: LON:0RLT
+    currency: GBP
   metadata:
     founded: 1984
     employees: 5100
@@ -2021,6 +2057,9 @@ companies:
   - yahoo: RRTU.F
     google: FRA:RRTU
     currency: EUR
+  - yahoo: 0MNC.L
+    google: LON:0MNC
+    currency: GBP
   metadata:
     founded: 2000
     employees: 10747
@@ -2275,6 +2314,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: 0JK4.L
+    google: LON:0JK4
+    currency: GBP
   metadata:
     founded: 1882
     employees: 1160
@@ -2316,6 +2358,9 @@ companies:
   - yahoo: UNPRF
     google: OTCMKTS:UNPRF
     currency: USD
+  - yahoo: 0RJ4.L
+    google: LON:0RJ4
+    currency: GBP
   metadata:
     founded: 2016
     employees: 11751
@@ -2358,6 +2403,9 @@ companies:
   - yahoo: WKCMF
     google: OTCMKTS:WKCMF
     currency: USD
+  - yahoo: 0NR4.L
+    google: LON:0NR4
+    currency: GBP
   metadata:
     founded: 1914
     employees: 14283
@@ -2456,6 +2504,9 @@ companies:
   - yahoo: AIX.F
     google: FRA:AIX
     currency: EUR
+  - yahoo: 0NP9.L
+    google: LON:0NP9
+    currency: GBP
   metadata:
     founded: 1983
     employees: 728
@@ -2605,6 +2656,9 @@ companies:
   - yahoo: CCCMF
     google: OTCMKTS:CCCMF
     currency: USD
+  - yahoo: 0O0F.L
+    google: LON:0O0F
+    currency: GBP
   metadata:
     founded: 1992
     employees: 3912
@@ -2653,6 +2707,9 @@ companies:
   - yahoo: CWC.F
     google: FRA:CWC
     currency: EUR
+  - yahoo: 0N8F.L
+    google: LON:0N8F
+    currency: GBP
   metadata:
     founded: 1961
     employees: 4199
@@ -2681,6 +2738,9 @@ companies:
   - yahoo: CMPUY
     google: OTCMKTS:CMPUY
     currency: USD
+  - yahoo: 0MSD.L
+    google: LON:0MSD
+    currency: GBP
   metadata:
     founded: 1987
     employees: 8000
@@ -3095,6 +3155,9 @@ companies:
   - yahoo: INDXF
     google: OTCMKTS:INDXF
     currency: USD
+  - yahoo: 0EUH.L
+    google: LON:0EUH
+    currency: GBP
   metadata:
     founded: 1989
     employees: 10644
@@ -3278,6 +3341,9 @@ companies:
   - yahoo: KNKZF
     google: OTCMKTS:KNKZF
     currency: USD
+  - yahoo: 0F1N.L
+    google: LON:0F1N
+    currency: GBP
   metadata:
     founded: 1856
     employees: 5709
@@ -3346,6 +3412,9 @@ companies:
   - yahoo: NRXXY
     google: OTCMKTS:NRXXY
     currency: USD
+  - yahoo: 0MEC.L
+    google: LON:0MEC
+    currency: GBP
   metadata:
     founded: 1985
     employees: 8527
@@ -3817,6 +3886,9 @@ companies:
   - yahoo: WKRCF
     google: OTCMKTS:WKRCF
     currency: USD
+  - yahoo: 0K11.L
+    google: LON:0K11
+    currency: GBP
   metadata:
     founded: 1848
     employees: 5500
@@ -4195,6 +4267,9 @@ companies:
     currency: GBP
   - yahoo: GU8.F
     google: FRA:GU8
+    currency: EUR
+  - yahoo: GU81.F
+    google: FRA:GU81
     currency: EUR
   metadata:
     founded: 2000
@@ -6728,6 +6803,9 @@ companies:
   - yahoo: FOJCY
     google: OTCMKTS:FOJCY
     currency: USD
+  - yahoo: 0HAH.L
+    google: LON:0HAH
+    currency: GBP
   metadata:
     founded: 1998
     employees: 8191
@@ -6758,6 +6836,9 @@ companies:
   - yahoo: KKOYY
     google: OTCMKTS:KKOYY
     currency: USD
+  - yahoo: 0BNT.L
+    google: LON:0BNT
+    currency: GBP
   metadata:
     founded: 1940
     employees: 22476
@@ -6827,6 +6908,9 @@ companies:
   - yahoo: NEFA.F
     google: FRA:NEFA
     currency: EUR
+  - yahoo: 0O46.L
+    google: LON:0O46
+    currency: GBP
   metadata:
     founded: 1948
     employees: 4400
@@ -7044,6 +7128,9 @@ companies:
   - yahoo: CYJBF
     google: OTCMKTS:CYJBF
     currency: USD
+  - yahoo: 0MGH.L
+    google: LON:0MGH
+    currency: GBP
   metadata:
     founded: 2005
     employees: 11552
@@ -7207,6 +7294,9 @@ companies:
   - yahoo: VLMTY
     google: OTCMKTS:VLMTY
     currency: USD
+  - yahoo: 0QIW.L
+    google: LON:0QIW
+    currency: GBP
   metadata:
     founded: 2013
     employees: 13598
@@ -7460,6 +7550,9 @@ companies:
   - yahoo: CAR1.F
     google: FRA:CAR1
     currency: EUR
+  - yahoo: 0NPH.L
+    google: LON:0NPH
+    currency: GBP
   metadata:
     founded: 1958
     employees: 321383
@@ -7508,6 +7601,9 @@ companies:
   - yahoo: DANOY
     google: OTCMKTS:DANOY
     currency: USD
+  - yahoo: 0KFX.L
+    google: LON:0KFX
+    currency: GBP
   metadata:
     founded: 1919
     employees: 102449
@@ -7552,6 +7648,9 @@ companies:
   - yahoo: GZFB.F
     google: FRA:GZFB
     currency: EUR
+  - yahoo: 0LD0.L
+    google: LON:0LD0
+    currency: GBP
   metadata:
     founded: 2008
     employees: 171100
@@ -7630,6 +7729,9 @@ companies:
   - yahoo: PPXB.F
     google: FRA:PPXB
     currency: EUR
+  - yahoo: 0IIH.L
+    google: LON:0IIH
+    currency: GBP
   metadata:
     founded: 1963
     employees: 38000
@@ -7858,6 +7960,9 @@ companies:
   - yahoo: SAFRY
     google: OTCMKTS:SAFRY
     currency: USD
+  - yahoo: 0IU8.L
+    google: LON:0IU8
+    currency: GBP
   metadata:
     founded: 2005
     employees: 81000
@@ -8144,6 +8249,9 @@ companies:
   - yahoo: VCISY
     google: OTCMKTS:VCISY
     currency: USD
+  - yahoo: 0NQM.L
+    google: LON:0NQM
+    currency: GBP
   metadata:
     founded: 1899
     employees: 222397
@@ -8641,6 +8749,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: 0QZ6.L
+    google: LON:0QZ6
+    currency: GBP
   metadata:
     founded: 1964
     employees: 73300
@@ -8664,6 +8775,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: 0QAH.L
+    google: LON:0QAH
+    currency: GBP
   metadata:
     founded: 1668
     employees: 74000
@@ -8843,6 +8957,9 @@ companies:
   - yahoo: V
     google: NYSE:V
     currency: USD
+  - yahoo: 3V6.F
+    google: FRA:3V6
+    currency: EUR
   metadata:
     founded: 1958
     employees: 20500
@@ -9154,6 +9271,9 @@ companies:
   - yahoo: AMAT
     google: NASDAQ:AMAT
     currency: USD
+  - yahoo: 0R1A.L
+    google: LON:0R1A
+    currency: GBP
   metadata:
     founded: 1967
     employees: 21000
@@ -19867,6 +19987,9 @@ companies:
   - yahoo: COF.F
     google: FRA:COF
     currency: EUR
+  - yahoo: 0J3X.L
+    google: LON:0J3X
+    currency: GBP
   metadata:
     founded: 1983
     employees: ''
@@ -19915,6 +20038,9 @@ companies:
   - yahoo: GXEA.F
     google: FRA:GXEA
     currency: EUR
+  - yahoo: 0JXZ.L
+    google: LON:0JXZ
+    currency: GBP
   metadata:
     founded: 1999
     employees: 725
@@ -19942,6 +20068,9 @@ companies:
   - yahoo: EAI0.F
     google: FRA:EAI0
     currency: EUR
+  - yahoo: 0IN2.L
+    google: LON:0IN2
+    currency: GBP
   metadata:
     founded: 1902
     employees: 40
@@ -20005,6 +20134,9 @@ companies:
   - yahoo: KDB0.F
     google: FRA:KDB0
     currency: EUR
+  - yahoo: 0EYG.L
+    google: LON:0EYG
+    currency: GBP
   metadata:
     founded: 1998
     employees: 41000
@@ -20049,6 +20181,9 @@ companies:
   - yahoo: BX70.F
     google: FRA:BX70
     currency: EUR
+  - yahoo: 0DPU.L
+    google: LON:0DPU
+    currency: GBP
   metadata:
     founded: 1930
     employees: 14090
@@ -20105,6 +20240,9 @@ companies:
   - yahoo: SOL0.F
     google: FRA:SOL0
     currency: EUR
+  - yahoo: 0NZR.L
+    google: LON:0NZR
+    currency: GBP
   metadata:
     founded: 1863
     employees: 24500
@@ -20200,6 +20338,9 @@ companies:
   - yahoo: WPHB.F
     google: FRA:WPHB
     currency: EUR
+  - yahoo: 0MU2.L
+    google: LON:0MU2
+    currency: GBP
   metadata:
     founded: unknown
     employees: unknown
@@ -20623,6 +20764,9 @@ companies:
   - yahoo: G0FB.F
     google: FRA:G0FB
     currency: EUR
+  - yahoo: 0RDU.L
+    google: LON:0RDU
+    currency: GBP
   metadata:
     founded: 1940
     employees: 21500
@@ -20705,6 +20849,9 @@ companies:
   - yahoo: IDA0.F
     google: FRA:IDA0
     currency: EUR
+  - yahoo: 0HA9.L
+    google: LON:0HA9
+    currency: GBP
   metadata:
     founded: 1993
     employees: 42860
@@ -20732,6 +20879,9 @@ companies:
   - yahoo: HSC2.F
     google: FRA:HSC2
     currency: EUR
+  - yahoo: 0RID.L
+    google: LON:0RID
+    currency: GBP
   metadata:
     founded: 1946
     employees: 10763
@@ -20798,6 +20948,9 @@ companies:
   - yahoo: MRL.MC
     google: BME:MRL
     currency: EUR
+  - yahoo: 0QVM.L
+    google: LON:0QVM
+    currency: GBP
   metadata:
     founded: 2014
     employees: ''
@@ -21103,6 +21256,9 @@ companies:
   - yahoo: AHOG.F
     google: FRA:AHOG
     currency: EUR
+  - yahoo: 0RI8.L
+    google: LON:0RI8
+    currency: GBP
   metadata:
     founded: 2016
     employees: 232000
@@ -21250,6 +21406,9 @@ companies:
   - yahoo: HNK2.F
     google: FRA:HNK2
     currency: EUR
+  - yahoo: 0O26.L
+    google: LON:0O26
+    currency: GBP
   metadata:
     founded: 1864
     employees: 76136
@@ -21363,6 +21522,9 @@ companies:
   - yahoo: PHI1.F
     google: FRA:PHI1
     currency: EUR
+  - yahoo: 0A2M.L
+    google: LON:0A2M
+    currency: GBP
   metadata:
     founded: 1891
     employees: 81592
@@ -21391,6 +21553,9 @@ companies:
   - yahoo: RANJY
     google: OTCMKTS:RANJY
     currency: USD
+  - yahoo: 0NW2.L
+    google: LON:0NW2
+    currency: GBP
   metadata:
     founded: 1960
     employees: 38820
@@ -21470,6 +21635,9 @@ companies:
     currency: USD
   - yahoo: 0A6W.L
     google: LON:0A6W
+    currency: GBP
+  - yahoo: 0NX2.L
+    google: LON:0NX2
     currency: GBP
   metadata:
     founded: 1988
@@ -21660,6 +21828,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: 0O87.L
+    google: LON:0O87
+    currency: GBP
   metadata:
     founded: 1876
     employees: 99826
@@ -21742,6 +21913,9 @@ companies:
   - yahoo: HMSA.F
     google: FRA:HMSA
     currency: EUR
+  - yahoo: 0HBP.L
+    google: LON:0HBP
+    currency: GBP
   isins:
   - SE0000106270
   metadata:
@@ -21904,6 +22078,9 @@ companies:
   - yahoo: SEBC.F
     google: FRA:SEBC
     currency: EUR
+  - yahoo: 0HBY.L
+    google: LON:0HBY
+    currency: GBP
   metadata:
     founded: 1856
     employees: 15000
@@ -21994,6 +22171,9 @@ companies:
   - yahoo: SVHG.F
     google: FRA:SVHG
     currency: EUR
+  - yahoo: 0R7R.L
+    google: LON:0R7R
+    currency: GBP
   metadata:
     founded: 1871
     employees: 11000
@@ -22133,6 +22313,9 @@ companies:
   - yahoo: ALC
     google: NYSE:ALC
     currency: USD
+  - yahoo: 0A0D.L
+    google: LON:0A0D
+    currency: GBP
   metadata:
     founded: 1945
     employees: 20000
@@ -22158,6 +22341,9 @@ companies:
   - yahoo: CFRUY
     google: OTCMKTS:CFRUY
     currency: USD
+  - yahoo: 0QMU.L
+    google: LON:0QMU
+    currency: GBP
   metadata:
     founded: 1988
     employees: 35000
@@ -22247,6 +22433,9 @@ companies:
   - yahoo: GVDBF
     google: OTCMKTS:GVDBF
     currency: USD
+  - yahoo: 0QPS.L
+    google: LON:0QPS
+    currency: GBP
   metadata:
     founded: 1895
     employees: 15852
@@ -22326,6 +22515,9 @@ companies:
   - yahoo: 0K9E.L
     google: LON:0K9E
     currency: GBP
+  - yahoo: 0QLR.L
+    google: LON:0QLR
+    currency: GBP
   metadata:
     founded: 1996
     employees: 110000
@@ -22384,6 +22576,9 @@ companies:
   - yahoo: SGSOF
     google: OTCMKTS:SGSOF
     currency: USD
+  - yahoo: 0QMI.L
+    google: LON:0QMI
+    currency: GBP
   metadata:
     founded: 1878
     employees: 89000
@@ -22564,6 +22759,9 @@ companies:
   - yahoo: ZURVY
     google: OTCMKTS:ZURVY
     currency: USD
+  - yahoo: 0QP2.L
+    google: LON:0QP2
+    currency: GBP
   metadata:
     founded: 1872
     employees: 53535
@@ -24870,6 +25068,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: 0A36.L
+    google: LON:0A36
+    currency: GBP
   isins:
   - DE000A2YN900
   metadata:
@@ -24926,6 +25127,9 @@ companies:
   - yahoo: 1YL.F
     google: FRA:1YL
     currency: EUR
+  - yahoo: 0A28.L
+    google: LON:0A28
+    currency: GBP
   isins:
   - NL0013654783
   metadata:
@@ -25195,6 +25399,9 @@ companies:
   - yahoo: DBV.F
     google: FRA:DBV
     currency: EUR
+  - yahoo: 0QAJ.L
+    google: LON:0QAJ
+    currency: GBP
   isins: []
   metadata:
     founded: 0
@@ -25460,6 +25667,9 @@ companies:
   - yahoo: CDMGF
     google: OTCMKTS:CDMGF
     currency: USD
+  - yahoo: 0K4O.L
+    google: LON:0K4O
+    currency: GBP
   isins:
   - FR0000035081
   metadata:
@@ -25505,6 +25715,9 @@ companies:
   - yahoo: IMYSY
     google: OTCMKTS:IMYSY
     currency: USD
+  - yahoo: 0NPX.L
+    google: LON:0NPX
+    currency: GBP
   isins:
   - FR0000120859
   metadata:
@@ -25545,6 +25758,9 @@ companies:
   - yahoo: IPSOF
     google: OTCMKTS:IPSOF
     currency: USD
+  - yahoo: 0KA3.L
+    google: LON:0KA3
+    currency: GBP
   isins:
   - FR0000073298
   metadata:
@@ -25632,6 +25848,9 @@ companies:
   - yahoo: M8Y.F
     google: FRA:M8Y
     currency: EUR
+  - yahoo: 0IQU.L
+    google: LON:0IQU
+    currency: GBP
   isins:
   - FR0010241638
   metadata:
@@ -25892,6 +26111,9 @@ companies:
   - yahoo: TGNOF
     google: OTCMKTS:TGNOF
     currency: USD
+  - yahoo: 0NX0.L
+    google: LON:0NX0
+    currency: GBP
   isins:
   - FR0005691656
   metadata:
@@ -25938,6 +26160,9 @@ companies:
   - yahoo: V16.F
     google: FRA:V16
     currency: EUR
+  - yahoo: 0NM7.L
+    google: LON:0NM7
+    currency: GBP
   isins: []
   metadata:
     founded: 0
@@ -26017,6 +26242,9 @@ companies:
   - yahoo: CSF0.F
     google: FRA:CSF0
     currency: EUR
+  - yahoo: 0IW5.L
+    google: LON:0IW5
+    currency: GBP
   isins:
   - FR0000121329
   metadata:
@@ -26089,6 +26317,9 @@ companies:
   - yahoo: AEDFF
     google: OTCMKTS:AEDFF
     currency: USD
+  - yahoo: 0DKX.L
+    google: LON:0DKX
+    currency: GBP
   isins: []
   metadata:
     founded: 0
@@ -26264,6 +26495,9 @@ companies:
   - yahoo: TTEB.F
     google: FRA:TTEB
     currency: EUR
+  - yahoo: 0KG0.L
+    google: LON:0KG0
+    currency: GBP
   isins:
   - FI0009000277
   metadata:
@@ -26295,6 +26529,9 @@ companies:
   - yahoo: EUZ.F
     google: FRA:EUZ
     currency: EUR
+  - yahoo: 0NZY.L
+    google: LON:0NZY
+    currency: GBP
   isins:
   - DE0005659700
   metadata:
@@ -26314,6 +26551,9 @@ companies:
   - yahoo: LPKFF
     google: OTCMKTS:LPKFF
     currency: USD
+  - yahoo: 0ND2.L
+    google: LON:0ND2
+    currency: GBP
   isins:
   - DE0006450000
   metadata:
@@ -26554,6 +26794,9 @@ companies:
   - yahoo: AAD.F
     google: FRA:AAD
     currency: EUR
+  - yahoo: 0DK9.L
+    google: LON:0DK9
+    currency: GBP
   isins:
   - DE0005093108
   metadata:
@@ -27545,6 +27788,9 @@ companies:
   - yahoo: POAHY
     google: OTCMKTS:POAHY
     currency: USD
+  - yahoo: 0JHU.L
+    google: LON:0JHU
+    currency: GBP
   isins:
   - DE000PAH0038
   metadata:
@@ -27578,6 +27824,9 @@ companies:
   - yahoo: LBTSF
     google: OTCMKTS:LBTSF
     currency: USD
+  - yahoo: 0O9B.L
+    google: LON:0O9B
+    currency: GBP
   isins:
   - ES0157097017
   metadata:
@@ -27718,6 +27967,9 @@ companies:
   - yahoo: A16.F
     google: FRA:A16
     currency: EUR
+  - yahoo: 0RHS.L
+    google: LON:0RHS
+    currency: GBP
   isins:
   - NL0011872643
   metadata:
@@ -27797,6 +28049,9 @@ companies:
   - yahoo: HCMLY
     google: OTCMKTS:HCMLY
     currency: USD
+  - yahoo: 0QKY.L
+    google: LON:0QKY
+    currency: GBP
   isins:
   - CH0012214059
   metadata:
@@ -27845,6 +28100,9 @@ companies:
   - yahoo: 8TI.F
     google: FRA:8TI
     currency: EUR
+  - yahoo: 0QXR.L
+    google: LON:0QXR
+    currency: GBP
   isins:
   - NL00150001Q9
   metadata:
@@ -27980,6 +28238,9 @@ companies:
   - yahoo: M6QB.F
     google: FRA:M6QB
     currency: EUR
+  - yahoo: 0MGI.L
+    google: LON:0MGI
+    currency: GBP
   isins:
   - FI0009014575
   metadata:
@@ -28396,6 +28657,9 @@ companies:
   - yahoo: LOGI
     google: NASDAQ:LOGI
     currency: USD
+  - yahoo: 0QK6.L
+    google: LON:0QK6
+    currency: GBP
   isins:
   - CH0025751329
   metadata:
