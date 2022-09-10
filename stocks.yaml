@@ -123,6 +123,9 @@ companies:
   - yahoo: BASFY
     google: OTCMKTS:BASFY
     currency: USD
+  - yahoo: BASA.F
+    google: FRA:BASA
+    currency: EUR
   metadata:
     founded: 1865
     employees: 117628
@@ -7077,6 +7080,12 @@ companies:
   - yahoo: SEOAY
     google: OTCMKTS:SEOAY
     currency: USD
+  - yahoo: ENUS.F
+    google: FRA:ENUS
+    currency: EUR
+  - yahoo: ENUN.F
+    google: FRA:ENUN
+    currency: EUR
   metadata:
     founded: 1288
     employees: 24455
@@ -7264,6 +7273,9 @@ companies:
   - yahoo: 0N4T.L
     google: LON:0N4T
     currency: GBP
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   metadata:
     founded: 1820
     employees: 29000
@@ -22425,6 +22437,9 @@ companies:
   - yahoo: 0QMU.L
     google: LON:0QMU
     currency: GBP
+  - yahoo: RIT1.F
+    google: FRA:RIT1
+    currency: EUR
   metadata:
     founded: 1988
     employees: 35000
@@ -22547,6 +22562,9 @@ companies:
   - yahoo: 0QNO.L
     google: LON:0QNO
     currency: GBP
+  - yahoo: LO3A.F
+    google: FRA:LO3A
+    currency: EUR
   metadata:
     founded: 1897
     employees: 13856
@@ -23895,6 +23913,9 @@ companies:
   - yahoo: GRUB
     google: NASDAQ:GRUB
     currency: USD
+  - yahoo: T5W.F
+    google: FRA:T5W
+    currency: EUR
   isins:
   - NL0012015705
   metadata:
@@ -25994,6 +26015,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -26289,6 +26313,9 @@ companies:
     currency: USD
   - yahoo: AXA.F
     google: FRA:AXA
+    currency: EUR
+  - yahoo: AXAA.F
+    google: FRA:AXAA
     currency: EUR
   isins:
   - FR0000120628
@@ -28352,7 +28379,10 @@ companies:
   indices:
   - OMX Helsinki 25
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: NRE.F
+    google: FRA:NRE
+    currency: EUR
   isins:
   - FI0009005318
   metadata:
