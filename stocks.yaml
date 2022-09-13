@@ -123,6 +123,9 @@ companies:
   - yahoo: BASFY
     google: OTCMKTS:BASFY
     currency: USD
+  - yahoo: BASA.F
+    google: FRA:BASA
+    currency: EUR
   metadata:
     founded: 1865
     employees: 117628
@@ -7264,6 +7267,9 @@ companies:
   - yahoo: 0N4T.L
     google: LON:0N4T
     currency: GBP
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   metadata:
     founded: 1820
     employees: 29000
@@ -7292,6 +7298,9 @@ companies:
     currency: USD
   - yahoo: TLS.F
     google: FRA:TLS
+    currency: EUR
+  - yahoo: TLSG.F
+    google: FRA:TLSG
     currency: EUR
   isins:
   - SE0000667925
@@ -7388,6 +7397,9 @@ companies:
   - yahoo: 0NWF.L
     google: LON:0NWF
     currency: GBP
+  - yahoo: AILA.F
+    google: FRA:AILA
+    currency: EUR
   metadata:
     founded: 1902
     employees: 66000
@@ -7634,6 +7646,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8288,6 +8303,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -10577,6 +10595,9 @@ companies:
   - yahoo: PYPL
     google: NASDAQ:PYPL
     currency: USD
+  - yahoo: 2PP0.F
+    google: FRA:2PP0
+    currency: EUR
   metadata:
     founded: 1998
     employees: 21800
@@ -22051,6 +22072,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: IVS.F
+    google: FRA:IVS
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -22425,6 +22449,9 @@ companies:
   - yahoo: 0QMU.L
     google: LON:0QMU
     currency: GBP
+  - yahoo: RIT1.F
+    google: FRA:RIT1
+    currency: EUR
   metadata:
     founded: 1988
     employees: 35000
@@ -22547,6 +22574,9 @@ companies:
   - yahoo: 0QNO.L
     google: LON:0QNO
     currency: GBP
+  - yahoo: LO3A.F
+    google: FRA:LO3A
+    currency: EUR
   metadata:
     founded: 1897
     employees: 13856
@@ -23895,6 +23925,9 @@ companies:
   - yahoo: GRUB
     google: NASDAQ:GRUB
     currency: USD
+  - yahoo: T5W.F
+    google: FRA:T5W
+    currency: EUR
   isins:
   - NL0012015705
   metadata:
@@ -25436,6 +25469,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -25994,6 +26030,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -28352,7 +28391,10 @@ companies:
   indices:
   - OMX Helsinki 25
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: NRE.F
+    google: FRA:NRE
+    currency: EUR
   isins:
   - FI0009005318
   metadata:
@@ -28742,6 +28784,9 @@ companies:
   - yahoo: 0OB3.L
     google: LON:0OB3
     currency: GBP
+  - yahoo: AYJ0.F
+    google: FRA:AYJ0
+    currency: EUR
   isins:
   - FR0004056851
   metadata:
