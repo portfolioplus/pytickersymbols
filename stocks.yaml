@@ -7388,6 +7388,9 @@ companies:
   - yahoo: 0NWF.L
     google: LON:0NWF
     currency: GBP
+  - yahoo: AILA.F
+    google: FRA:AILA
+    currency: EUR
   metadata:
     founded: 1902
     employees: 66000
@@ -7634,6 +7637,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8288,6 +8294,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -17785,6 +17794,9 @@ companies:
   - yahoo: PSX
     google: NYSE:PSX
     currency: USD
+  - yahoo: 0KHZ.L
+    google: LON:0KHZ
+    currency: GBP
   metadata:
     founded: 1927
     employees: 14600
@@ -19946,6 +19958,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -21640,6 +21655,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -22425,6 +22443,9 @@ companies:
   - yahoo: 0QMU.L
     google: LON:0QMU
     currency: GBP
+  - yahoo: RIT1.F
+    google: FRA:RIT1
+    currency: EUR
   metadata:
     founded: 1988
     employees: 35000
@@ -22547,6 +22568,9 @@ companies:
   - yahoo: 0QNO.L
     google: LON:0QNO
     currency: GBP
+  - yahoo: LO3A.F
+    google: FRA:LO3A
+    currency: EUR
   metadata:
     founded: 1897
     employees: 13856
@@ -23895,6 +23919,9 @@ companies:
   - yahoo: GRUB
     google: NASDAQ:GRUB
     currency: USD
+  - yahoo: T5W.F
+    google: FRA:T5W
+    currency: EUR
   isins:
   - NL0012015705
   metadata:
@@ -25974,6 +26001,9 @@ companies:
   - yahoo: NQ9.F
     google: FRA:NQ9
     currency: EUR
+  - yahoo: NNXXY
+    google: OTCMKTS:NNXXY
+    currency: USD
   isins:
   - FR0010112524
   metadata:
@@ -26074,6 +26104,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
@@ -28352,7 +28385,10 @@ companies:
   indices:
   - OMX Helsinki 25
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: NRE.F
+    google: FRA:NRE
+    currency: EUR
   isins:
   - FI0009005318
   metadata:
