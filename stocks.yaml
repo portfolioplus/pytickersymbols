@@ -5310,6 +5310,9 @@ companies:
   - yahoo: BABWF
     google: OTCMKTS:BABWF
     currency: USD
+  - yahoo: INRA.F
+    google: FRA:INRA
+    currency: EUR
   metadata:
     founded: 2011
     employees: 60612
@@ -7077,6 +7080,9 @@ companies:
   - yahoo: SEOAY
     google: OTCMKTS:SEOAY
     currency: USD
+  - yahoo: ENUS.F
+    google: FRA:ENUS
+    currency: EUR
   metadata:
     founded: 1288
     employees: 24455
@@ -7264,6 +7270,9 @@ companies:
   - yahoo: 0N4T.L
     google: LON:0N4T
     currency: GBP
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   metadata:
     founded: 1820
     employees: 29000
@@ -7292,6 +7301,9 @@ companies:
     currency: USD
   - yahoo: TLS.F
     google: FRA:TLS
+    currency: EUR
+  - yahoo: TLSG.F
+    google: FRA:TLSG
     currency: EUR
   isins:
   - SE0000667925
@@ -7583,6 +7595,9 @@ companies:
   - yahoo: CAR1.F
     google: FRA:CAR1
     currency: EUR
+  - yahoo: 0P00001NK3.F
+    google: FRA:0P00001NK3
+    currency: EUR
   metadata:
     founded: 1958
     employees: 321383
@@ -7634,6 +7649,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8288,6 +8306,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -17378,6 +17399,9 @@ companies:
   - yahoo: 0K7U.L
     google: LON:0K7U
     currency: GBP
+  - yahoo: NWSAL
+    google: OTCMKTS:NWSAL
+    currency: USD
   metadata:
     founded: 2013
     employees: 28000
@@ -18881,6 +18905,9 @@ companies:
   - yahoo: TTWO
     google: NASDAQ:TTWO
     currency: USD
+  - yahoo: 0LCX.L
+    google: LON:0LCX
+    currency: GBP
   metadata:
     founded: 1993
     employees: 5800
@@ -21640,6 +21667,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -22425,6 +22455,9 @@ companies:
   - yahoo: 0QMU.L
     google: LON:0QMU
     currency: GBP
+  - yahoo: RIT1.F
+    google: FRA:RIT1
+    currency: EUR
   metadata:
     founded: 1988
     employees: 35000
@@ -22547,6 +22580,9 @@ companies:
   - yahoo: 0QNO.L
     google: LON:0QNO
     currency: GBP
+  - yahoo: LO3A.F
+    google: FRA:LO3A
+    currency: EUR
   metadata:
     founded: 1897
     employees: 13856
@@ -23895,6 +23931,9 @@ companies:
   - yahoo: GRUB
     google: NASDAQ:GRUB
     currency: USD
+  - yahoo: T5W.F
+    google: FRA:T5W
+    currency: EUR
   isins:
   - NL0012015705
   metadata:
@@ -24057,6 +24096,9 @@ companies:
   - yahoo: AMCCF
     google: OTCMKTS:AMCCF
     currency: USD
+  - yahoo: 485.F
+    google: FRA:485
+    currency: EUR
   isins:
   - JE00BJ1F3079
   metadata:
@@ -25155,6 +25197,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25436,6 +25481,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -25913,6 +25961,9 @@ companies:
   - yahoo: 0RHL.L
     google: LON:0RHL
     currency: GBP
+  - yahoo: MDOUF
+    google: OTCMKTS:MDOUF
+    currency: USD
   isins:
   - FR0013153541
   metadata:
@@ -25956,6 +26007,9 @@ companies:
   - yahoo: NEXNY
     google: OTCMKTS:NEXNY
     currency: USD
+  - yahoo: NXS0.F
+    google: FRA:NXS0
+    currency: EUR
   isins:
   - FR0000044448
   metadata:
@@ -26289,6 +26343,9 @@ companies:
     currency: USD
   - yahoo: AXA.F
     google: FRA:AXA
+    currency: EUR
+  - yahoo: AXAA.F
+    google: FRA:AXAA
     currency: EUR
   isins:
   - FR0000120628
@@ -28352,7 +28409,10 @@ companies:
   indices:
   - OMX Helsinki 25
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: NRE.F
+    google: FRA:NRE
+    currency: EUR
   isins:
   - FI0009005318
   metadata:
