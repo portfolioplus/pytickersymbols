@@ -2335,6 +2335,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -7655,6 +7658,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8312,6 +8318,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -21670,6 +21679,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -25475,6 +25487,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -26039,6 +26054,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -26156,6 +26174,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
