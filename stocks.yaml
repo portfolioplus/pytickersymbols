@@ -6214,6 +6214,9 @@ companies:
   - yahoo: PYXA.F
     google: FRA:PYXA
     currency: EUR
+  - yahoo: SHNWD
+    google: OTCMKTS:SHNWD
+    currency: USD
   metadata:
     founded: 1804
     employees: 5000
@@ -7655,6 +7658,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8023,6 +8029,9 @@ companies:
   - yahoo: SAFRY
     google: OTCMKTS:SAFRY
     currency: USD
+  - yahoo: SEJU.F
+    google: FRA:SEJU
+    currency: EUR
   metadata:
     founded: 2005
     employees: 81000
@@ -15573,6 +15582,9 @@ companies:
   - yahoo: HAL
     google: NYSE:HAL
     currency: USD
+  - yahoo: 0R23.L
+    google: LON:0R23
+    currency: GBP
   metadata:
     founded: 1919
     employees: 55000
@@ -16639,6 +16651,9 @@ companies:
   - yahoo: KR
     google: NYSE:KR
     currency: USD
+  - yahoo: 0JS2.L
+    google: LON:0JS2
+    currency: GBP
   metadata:
     founded: 1883
     employees: 453000
@@ -18550,6 +18565,9 @@ companies:
   - yahoo: 0L3I.L
     google: LON:0L3I
     currency: GBP
+  - yahoo: SWG0.F
+    google: FRA:SWG0
+    currency: EUR
   metadata:
     founded: 1971
     employees: 32000
@@ -21670,6 +21688,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -21834,6 +21855,9 @@ companies:
     currency: USD
   - yahoo: ACO5.F
     google: FRA:ACO5
+    currency: EUR
+  - yahoo: ACO4.F
+    google: FRA:ACO4
     currency: EUR
   metadata:
     founded: 1873
@@ -22282,6 +22306,9 @@ companies:
   - yahoo: SVHG.F
     google: FRA:SVHG
     currency: EUR
+  - yahoo: SVNLF
+    google: OTCMKTS:SVNLF
+    currency: USD
   metadata:
     founded: 1871
     employees: 11000
