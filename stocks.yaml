@@ -1393,6 +1393,9 @@ companies:
   - yahoo: FPRUY
     google: OTCMKTS:FPRUY
     currency: USD
+  - yahoo: FRAS.F
+    google: FRA:FRAS
+    currency: EUR
   metadata:
     founded: 1947
     employees: 21164
@@ -7655,6 +7658,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8105,6 +8111,9 @@ companies:
   - yahoo: SBGSY
     google: OTCMKTS:SBGSY
     currency: USD
+  - yahoo: SNDB.F
+    google: FRA:SNDB
+    currency: EUR
   metadata:
     founded: 1836
     employees: 135000
@@ -8838,6 +8847,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -21835,6 +21847,9 @@ companies:
   - yahoo: ACO5.F
     google: FRA:ACO5
     currency: EUR
+  - yahoo: ACO4.F
+    google: FRA:ACO4
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
@@ -26119,6 +26134,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
@@ -28793,6 +28811,9 @@ companies:
   - yahoo: 0OB3.L
     google: LON:0OB3
     currency: GBP
+  - yahoo: AYJ0.F
+    google: FRA:AYJ0
+    currency: EUR
   isins:
   - FR0004056851
   metadata:
