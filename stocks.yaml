@@ -1640,6 +1640,9 @@ companies:
   - yahoo: BOSA.F
     google: FRA:BOSA
     currency: EUR
+  - yahoo: HUGPF
+    google: OTCMKTS:HUGPF
+    currency: USD
   metadata:
     founded: 1924
     employees: 14600
@@ -2335,6 +2338,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -7655,6 +7661,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8023,6 +8032,9 @@ companies:
   - yahoo: SAFRY
     google: OTCMKTS:SAFRY
     currency: USD
+  - yahoo: SEJU.F
+    google: FRA:SEJU
+    currency: EUR
   metadata:
     founded: 2005
     employees: 81000
@@ -21670,6 +21682,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -21834,6 +21849,9 @@ companies:
     currency: USD
   - yahoo: ACO5.F
     google: FRA:ACO5
+    currency: EUR
+  - yahoo: ACO4.F
+    google: FRA:ACO4
     currency: EUR
   metadata:
     founded: 1873
@@ -25194,6 +25212,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25955,6 +25976,9 @@ companies:
   - yahoo: 0RHL.L
     google: LON:0RHL
     currency: GBP
+  - yahoo: MDOUF
+    google: OTCMKTS:MDOUF
+    currency: USD
   isins:
   - FR0013153541
   metadata:
@@ -26039,6 +26063,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -26119,6 +26146,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
