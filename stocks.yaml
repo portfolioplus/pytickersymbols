@@ -2335,6 +2335,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -4975,6 +4978,9 @@ companies:
   - yahoo: EXPN.L
     google: LON:EXPN
     currency: GBP
+  - yahoo: J2BA.F
+    google: FRA:J2BA
+    currency: EUR
   metadata:
     founded: 1996
     employees: 17800
@@ -6214,6 +6220,9 @@ companies:
   - yahoo: PYXA.F
     google: FRA:PYXA
     currency: EUR
+  - yahoo: SHNWD
+    google: OTCMKTS:SHNWD
+    currency: USD
   metadata:
     founded: 1804
     employees: 5000
@@ -7655,6 +7664,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8312,6 +8324,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -10216,6 +10231,9 @@ companies:
     currency: GBP
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
+    currency: USD
+  - yahoo: 0P0001I1JH
+    google: OTCMKTS:0P0001I1JH
     currency: USD
   metadata:
     founded: 1927
@@ -20008,6 +20026,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -25194,6 +25215,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25955,6 +25979,9 @@ companies:
   - yahoo: 0RHL.L
     google: LON:0RHL
     currency: GBP
+  - yahoo: MDOUF
+    google: OTCMKTS:MDOUF
+    currency: USD
   isins:
   - FR0013153541
   metadata:
@@ -28006,6 +28033,9 @@ companies:
   - yahoo: FLDAY
     google: OTCMKTS:FLDAY
     currency: USD
+  - yahoo: 4F10.F
+    google: FRA:4F10
+    currency: EUR
   isins:
   - ES0137650018
   metadata:
