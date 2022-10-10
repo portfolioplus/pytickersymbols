@@ -1393,6 +1393,9 @@ companies:
   - yahoo: FPRUY
     google: OTCMKTS:FPRUY
     currency: USD
+  - yahoo: FRAS.F
+    google: FRA:FRAS
+    currency: EUR
   metadata:
     founded: 1947
     employees: 21164
@@ -5369,6 +5372,9 @@ companies:
   - yahoo: ITVPY
     google: OTCMKTS:ITVPY
     currency: USD
+  - yahoo: IJ70.F
+    google: FRA:IJ70
+    currency: EUR
   metadata:
     founded: unknown
     employees: unknown
@@ -7655,6 +7661,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8023,6 +8032,9 @@ companies:
   - yahoo: SAFRY
     google: OTCMKTS:SAFRY
     currency: USD
+  - yahoo: SEJU.F
+    google: FRA:SEJU
+    currency: EUR
   metadata:
     founded: 2005
     employees: 81000
@@ -8051,6 +8063,9 @@ companies:
   - yahoo: COD.L
     google: LON:COD
     currency: GBP
+  - yahoo: GOBU.F
+    google: FRA:GOBU
+    currency: EUR
   metadata:
     founded: 1665
     employees: 180000
@@ -8312,6 +8327,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -8791,6 +8809,9 @@ companies:
   - yahoo: MCD
     google: NYSE:MCD
     currency: USD
+  - yahoo: MDO0.F
+    google: FRA:MDO0
+    currency: EUR
   metadata:
     founded: 1940
     employees: 210000
@@ -10216,6 +10237,9 @@ companies:
     currency: GBP
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
+    currency: USD
+  - yahoo: 0P0001I1JH
+    google: OTCMKTS:0P0001I1JH
     currency: USD
   metadata:
     founded: 1927
@@ -13168,6 +13192,9 @@ companies:
     currency: GBP
   - yahoo: BALY
     google: NYSE:BALY
+    currency: USD
+  - yahoo: BALL
+    google: NYSE:BALL
     currency: USD
   metadata:
     founded: 1880
@@ -20008,6 +20035,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -22235,6 +22265,9 @@ companies:
   - yahoo: SKUFF
     google: OTCMKTS:SKUFF
     currency: USD
+  - yahoo: 0NWW.L
+    google: LON:0NWW
+    currency: GBP
   metadata:
     founded: 1907
     employees: 48593
@@ -25194,6 +25227,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25955,6 +25991,9 @@ companies:
   - yahoo: 0RHL.L
     google: LON:0RHL
     currency: GBP
+  - yahoo: MDOUF
+    google: OTCMKTS:MDOUF
+    currency: USD
   isins:
   - FR0013153541
   metadata:
@@ -28006,6 +28045,9 @@ companies:
   - yahoo: FLDAY
     google: OTCMKTS:FLDAY
     currency: USD
+  - yahoo: 4F10.F
+    google: FRA:4F10
+    currency: EUR
   isins:
   - ES0137650018
   metadata:
