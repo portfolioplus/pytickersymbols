@@ -7655,6 +7655,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8312,6 +8315,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -11395,6 +11401,9 @@ companies:
     currency: GBP
   - yahoo: CFXE.F
     google: FRA:CFXE
+    currency: EUR
+  - yahoo: CFX1.F
+    google: FRA:CFX1
     currency: EUR
   metadata:
     founded: 1994
@@ -16639,6 +16648,9 @@ companies:
   - yahoo: KR
     google: NYSE:KR
     currency: USD
+  - yahoo: 0JS2.L
+    google: LON:0JS2
+    currency: GBP
   metadata:
     founded: 1883
     employees: 453000
@@ -20008,6 +20020,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -22235,6 +22250,9 @@ companies:
   - yahoo: SKUFF
     google: OTCMKTS:SKUFF
     currency: USD
+  - yahoo: 0NWW.L
+    google: LON:0NWW
+    currency: GBP
   metadata:
     founded: 1907
     employees: 48593
@@ -25194,6 +25212,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25561,6 +25582,9 @@ companies:
     currency: USD
   - yahoo: ER7.F
     google: FRA:ER7
+    currency: EUR
+  - yahoo: ER70.F
+    google: FRA:ER70
     currency: EUR
   isins:
   - FR0000131757
@@ -25998,6 +26022,9 @@ companies:
   - yahoo: NEXNY
     google: OTCMKTS:NEXNY
     currency: USD
+  - yahoo: NXS0.F
+    google: FRA:NXS0
+    currency: EUR
   isins:
   - FR0000044448
   metadata:
@@ -26119,6 +26146,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
@@ -26972,6 +27002,9 @@ companies:
   - yahoo: ABGOY
     google: OTCMKTS:ABGOY
     currency: USD
+  - yahoo: AYO.F
+    google: FRA:AYO
+    currency: EUR
   isins:
   - ES0105200416
   metadata:
