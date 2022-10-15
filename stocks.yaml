@@ -2106,6 +2106,9 @@ companies:
   - yahoo: SZGA.F
     google: FRA:SZGA
     currency: EUR
+  - yahoo: SZGPF
+    google: OTCMKTS:SZGPF
+    currency: USD
   metadata:
     founded: 1998
     employees: 25227
@@ -8312,6 +8315,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -10216,6 +10222,9 @@ companies:
     currency: GBP
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
+    currency: USD
+  - yahoo: 0P0001I1JH
+    google: OTCMKTS:0P0001I1JH
     currency: USD
   metadata:
     founded: 1927
@@ -20008,6 +20017,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -22235,6 +22247,9 @@ companies:
   - yahoo: SKUFF
     google: OTCMKTS:SKUFF
     currency: USD
+  - yahoo: 0NWW.L
+    google: LON:0NWW
+    currency: GBP
   metadata:
     founded: 1907
     employees: 48593
@@ -25562,6 +25577,9 @@ companies:
   - yahoo: ER7.F
     google: FRA:ER7
     currency: EUR
+  - yahoo: ER70.F
+    google: FRA:ER70
+    currency: EUR
   isins:
   - FR0000131757
   metadata:
@@ -25955,6 +25973,9 @@ companies:
   - yahoo: 0RHL.L
     google: LON:0RHL
     currency: GBP
+  - yahoo: MDOUF
+    google: OTCMKTS:MDOUF
+    currency: USD
   isins:
   - FR0013153541
   metadata:
@@ -26853,6 +26874,9 @@ companies:
   - yahoo: 0HBC.L
     google: LON:0HBC
     currency: GBP
+  - yahoo: IESJ.F
+    google: FRA:IESJ
+    currency: EUR
   isins:
   - IT0000072618
   metadata:
@@ -26972,6 +26996,9 @@ companies:
   - yahoo: ABGOY
     google: OTCMKTS:ABGOY
     currency: USD
+  - yahoo: AYO.F
+    google: FRA:AYO
+    currency: EUR
   isins:
   - ES0105200416
   metadata:
@@ -28793,6 +28820,9 @@ companies:
   - yahoo: 0OB3.L
     google: LON:0OB3
     currency: GBP
+  - yahoo: AYJ0.F
+    google: FRA:AYJ0
+    currency: EUR
   isins:
   - FR0004056851
   metadata:
