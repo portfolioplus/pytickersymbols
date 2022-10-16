@@ -5607,6 +5607,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: 27M0.F
+    google: FRA:27M0
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -7086,6 +7089,9 @@ companies:
   - yahoo: ENUS.F
     google: FRA:ENUS
     currency: EUR
+  - yahoo: ENUN.F
+    google: FRA:ENUN
+    currency: EUR
   metadata:
     founded: 1288
     employees: 24455
@@ -8312,6 +8318,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -8641,6 +8650,9 @@ companies:
   - yahoo: GS
     google: NYSE:GS
     currency: USD
+  - yahoo: GOS0.F
+    google: FRA:GOS0
+    currency: EUR
   metadata:
     founded: 1869
     employees: 40500
@@ -22081,6 +22093,12 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: 0NC5.L
+    google: LON:0NC5
+    currency: GBP
+  - yahoo: IVSD.F
+    google: FRA:IVSD
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -25194,6 +25212,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25561,6 +25582,9 @@ companies:
     currency: USD
   - yahoo: ER7.F
     google: FRA:ER7
+    currency: EUR
+  - yahoo: ER70.F
+    google: FRA:ER70
     currency: EUR
   isins:
   - FR0000131757
@@ -26119,6 +26143,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
