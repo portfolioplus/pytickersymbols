@@ -16743,6 +16743,9 @@ companies:
   - yahoo: LEG
     google: NYSE:LEG
     currency: USD
+  - yahoo: 0JTT.L
+    google: LON:0JTT
+    currency: GBP
   metadata:
     founded: 1883
     employees: 23000
@@ -19976,6 +19979,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
