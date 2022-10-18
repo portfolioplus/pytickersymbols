@@ -3098,6 +3098,9 @@ companies:
   - yahoo: HELFY
     google: OTCMKTS:HELFY
     currency: USD
+  - yahoo: HFG0.F
+    google: FRA:HFG0
+    currency: EUR
   metadata:
     founded: 2011
     employees: 6432
@@ -6001,6 +6004,9 @@ companies:
   - yahoo: RTO.L
     google: LON:RTO
     currency: GBP
+  - yahoo: RTO
+    google: NYSE:RTO
+    currency: USD
   metadata:
     founded: 1925
     employees: 36000
@@ -6213,6 +6219,12 @@ companies:
     currency: GBP
   - yahoo: PYXA.F
     google: FRA:PYXA
+    currency: EUR
+  - yahoo: SHNWD
+    google: OTCMKTS:SHNWD
+    currency: USD
+  - yahoo: PYXB.F
+    google: FRA:PYXB
     currency: EUR
   metadata:
     founded: 1804
@@ -7655,6 +7667,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8312,6 +8327,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -19976,6 +19994,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -23934,6 +23955,9 @@ companies:
   - yahoo: T5W.F
     google: FRA:T5W
     currency: EUR
+  - yahoo: T5WA.F
+    google: FRA:T5WA
+    currency: EUR
   isins:
   - NL0012015705
   metadata:
@@ -25194,6 +25218,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -25998,6 +26025,9 @@ companies:
   - yahoo: NEXNY
     google: OTCMKTS:NEXNY
     currency: USD
+  - yahoo: NXS0.F
+    google: FRA:NXS0
+    currency: EUR
   isins:
   - FR0000044448
   metadata:
