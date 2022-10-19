@@ -6484,6 +6484,9 @@ companies:
   - yahoo: STD0.F
     google: FRA:STD0
     currency: EUR
+  - yahoo: SCBFY
+    google: OTCMKTS:SCBFY
+    currency: USD
   metadata:
     founded: 1853
     employees: 85000
@@ -8105,6 +8108,9 @@ companies:
   - yahoo: SBGSY
     google: OTCMKTS:SBGSY
     currency: USD
+  - yahoo: SNDB.F
+    google: FRA:SNDB
+    currency: EUR
   metadata:
     founded: 1836
     employees: 135000
@@ -8312,6 +8318,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -17769,6 +17778,9 @@ companies:
   - yahoo: PKI
     google: NYSE:PKI
     currency: USD
+  - yahoo: 0KHE.L
+    google: LON:0KHE
+    currency: GBP
   metadata:
     founded: 1937
     employees: 14000
@@ -18018,6 +18030,9 @@ companies:
   - yahoo: PEG
     google: NYSE:PEG
     currency: USD
+  - yahoo: 0KS2.L
+    google: LON:0KS2
+    currency: GBP
   metadata:
     founded: 1903
     employees: 12945
@@ -19976,6 +19991,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -20008,6 +20026,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -25194,6 +25215,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -26724,6 +26748,9 @@ companies:
   - yahoo: 0H00.L
     google: LON:0H00
     currency: GBP
+  - yahoo: BDS.F
+    google: FRA:BDS
+    currency: EUR
   isins:
   - ES0113860A34
   metadata:
@@ -26853,6 +26880,9 @@ companies:
   - yahoo: 0HBC.L
     google: LON:0HBC
     currency: GBP
+  - yahoo: IESJ.F
+    google: FRA:IESJ
+    currency: EUR
   isins:
   - IT0000072618
   metadata:
@@ -28033,6 +28063,9 @@ companies:
     currency: USD
   - yahoo: MAP.MC
     google: BME:MAP
+    currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
     currency: EUR
   isins:
   - ES0124244E34
