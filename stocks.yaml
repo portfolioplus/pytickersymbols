@@ -4975,6 +4975,9 @@ companies:
   - yahoo: EXPN.L
     google: LON:EXPN
     currency: GBP
+  - yahoo: J2BA.F
+    google: FRA:J2BA
+    currency: EUR
   metadata:
     founded: 1996
     employees: 17800
@@ -6025,6 +6028,9 @@ companies:
   - yahoo: RMV.L
     google: LON:RMV
     currency: GBP
+  - yahoo: 3JD.F
+    google: FRA:3JD
+    currency: EUR
   metadata:
     founded: 2000
     employees: ''
@@ -7655,6 +7661,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8312,6 +8321,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -18018,6 +18030,9 @@ companies:
   - yahoo: PEG
     google: NYSE:PEG
     currency: USD
+  - yahoo: 0KS2.L
+    google: LON:0KS2
+    currency: GBP
   metadata:
     founded: 1903
     employees: 12945
@@ -19976,6 +19991,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -20008,6 +20026,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -25194,6 +25215,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -26039,6 +26063,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -26156,6 +26183,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
