@@ -123,6 +123,9 @@ companies:
   - yahoo: BASFY
     google: OTCMKTS:BASFY
     currency: USD
+  - yahoo: BASA.F
+    google: FRA:BASA
+    currency: EUR
   metadata:
     founded: 1865
     employees: 117628
@@ -3098,6 +3101,9 @@ companies:
   - yahoo: HELFY
     google: OTCMKTS:HELFY
     currency: USD
+  - yahoo: HFG0.F
+    google: FRA:HFG0
+    currency: EUR
   metadata:
     founded: 2011
     employees: 6432
@@ -6001,6 +6007,9 @@ companies:
   - yahoo: RTO.L
     google: LON:RTO
     currency: GBP
+  - yahoo: RTO
+    google: NYSE:RTO
+    currency: USD
   metadata:
     founded: 1925
     employees: 36000
@@ -7086,6 +7095,9 @@ companies:
   - yahoo: ENUS.F
     google: FRA:ENUS
     currency: EUR
+  - yahoo: ENUN.F
+    google: FRA:ENUN
+    currency: EUR
   metadata:
     founded: 1288
     employees: 24455
@@ -7655,6 +7667,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -8312,6 +8327,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -11014,6 +11032,9 @@ companies:
   - yahoo: WDC
     google: NASDAQ:WDC
     currency: USD
+  - yahoo: 0QZF.L
+    google: LON:0QZF
+    currency: GBP
   metadata:
     founded: 1970
     employees: 63800
@@ -11395,6 +11416,9 @@ companies:
     currency: GBP
   - yahoo: CFXE.F
     google: FRA:CFXE
+    currency: EUR
+  - yahoo: CFX1.F
+    google: FRA:CFX1
     currency: EUR
   metadata:
     founded: 1994
@@ -19976,6 +20000,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -20008,6 +20035,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -20694,6 +20724,9 @@ companies:
   - yahoo: CABK.MC
     google: BME:CABK
     currency: EUR
+  - yahoo: CIXPF
+    google: OTCMKTS:CIXPF
+    currency: USD
   metadata:
     founded: 2011
     employees: 37440
@@ -21670,6 +21703,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
@@ -25194,6 +25230,9 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
   isins:
   - DE000A2YN900
   metadata:
@@ -26156,6 +26195,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
@@ -26724,6 +26766,9 @@ companies:
   - yahoo: 0H00.L
     google: LON:0H00
     currency: GBP
+  - yahoo: BDS.F
+    google: FRA:BDS
+    currency: EUR
   isins:
   - ES0113860A34
   metadata:
