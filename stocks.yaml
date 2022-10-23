@@ -4286,6 +4286,9 @@ companies:
   - yahoo: GU81.F
     google: FRA:GU81
     currency: EUR
+  - yahoo: GU80.F
+    google: FRA:GU80
+    currency: EUR
   metadata:
     founded: 2000
     employees: 31000
@@ -7655,6 +7658,9 @@ companies:
   - yahoo: 0KFX.L
     google: LON:0KFX
     currency: GBP
+  - yahoo: BSND.F
+    google: FRA:BSND
+    currency: EUR
   metadata:
     founded: 1919
     employees: 102449
@@ -11396,6 +11402,9 @@ companies:
   - yahoo: CFXE.F
     google: FRA:CFXE
     currency: EUR
+  - yahoo: CFX1.F
+    google: FRA:CFX1
+    currency: EUR
   metadata:
     founded: 1994
     employees: 51985
@@ -13408,6 +13417,9 @@ companies:
   - yahoo: BF5A.F
     google: FRA:BF5A
     currency: EUR
+  - yahoo: 0SGN.L
+    google: LON:0SGN
+    currency: GBP
   metadata:
     founded: 1870
     employees: 4570
@@ -19976,6 +19988,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -20008,6 +20023,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -22081,6 +22099,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: 0NC5.L
+    google: LON:0NC5
+    currency: GBP
   metadata:
     founded: 1916
     employees: 87
@@ -25194,6 +25215,12 @@ companies:
   - yahoo: DE000A2YN900.F
     google: FRA:DE000A2YN900
     currency: EUR
+  - yahoo: TMV1.F
+    google: FRA:TMV1
+    currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -25955,6 +25982,9 @@ companies:
   - yahoo: 0RHL.L
     google: LON:0RHL
     currency: GBP
+  - yahoo: MDOUF
+    google: OTCMKTS:MDOUF
+    currency: USD
   isins:
   - FR0013153541
   metadata:
@@ -26039,6 +26069,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -26134,6 +26167,9 @@ companies:
   - yahoo: GRB.F
     google: FRA:GRB
     currency: EUR
+  - yahoo: SEBYF
+    google: OTCMKTS:SEBYF
+    currency: USD
   isins:
   - FR0000121709
   metadata:
@@ -26853,6 +26889,9 @@ companies:
   - yahoo: 0HBC.L
     google: LON:0HBC
     currency: GBP
+  - yahoo: IESJ.F
+    google: FRA:IESJ
+    currency: EUR
   isins:
   - IT0000072618
   metadata:
@@ -26972,6 +27011,9 @@ companies:
   - yahoo: ABGOY
     google: OTCMKTS:ABGOY
     currency: USD
+  - yahoo: AYO.F
+    google: FRA:AYO
+    currency: EUR
   isins:
   - ES0105200416
   metadata:
