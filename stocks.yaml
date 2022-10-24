@@ -123,6 +123,9 @@ companies:
   - yahoo: BASFY
     google: OTCMKTS:BASFY
     currency: USD
+  - yahoo: BASA.F
+    google: FRA:BASA
+    currency: EUR
   metadata:
     founded: 1865
     employees: 117628
@@ -2313,6 +2316,9 @@ companies:
   - yahoo: SYIEF
     google: OTCMKTS:SYIEF
     currency: USD
+  - yahoo: SY1U.F
+    google: FRA:SY1U
+    currency: EUR
   metadata:
     founded: 2003
     employees: 10531
@@ -8105,6 +8111,9 @@ companies:
   - yahoo: SBGSY
     google: OTCMKTS:SBGSY
     currency: USD
+  - yahoo: SNDB.F
+    google: FRA:SNDB
+    currency: EUR
   metadata:
     founded: 1836
     employees: 135000
@@ -8312,6 +8321,9 @@ companies:
   - yahoo: 0NQM.L
     google: LON:0NQM
     currency: GBP
+  - yahoo: SQUA.F
+    google: FRA:SQUA
+    currency: EUR
   metadata:
     founded: 1899
     employees: 222397
@@ -9020,6 +9032,9 @@ companies:
   - yahoo: V
     google: NYSE:V
     currency: USD
+  - yahoo: 3V6.F
+    google: FRA:3V6
+    currency: EUR
   metadata:
     founded: 1958
     employees: 20500
@@ -19976,6 +19991,9 @@ companies:
   - yahoo: 0Q99.L
     google: LON:0Q99
     currency: GBP
+  - yahoo: FO4.F
+    google: FRA:FO4
+    currency: EUR
   metadata:
     founded: 1990
     employees: 12557
@@ -20008,6 +20026,9 @@ companies:
   - yahoo: 0OLF.L
     google: LON:0OLF
     currency: GBP
+  - yahoo: 7AAN.F
+    google: FRA:7AAN
+    currency: EUR
   metadata:
     founded: 2011
     employees: 9600
@@ -22081,6 +22102,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: 0NC5.L
+    google: LON:0NC5
+    currency: GBP
   metadata:
     founded: 1916
     employees: 87
@@ -22281,6 +22305,9 @@ companies:
     currency: GBP
   - yahoo: SVHG.F
     google: FRA:SVHG
+    currency: EUR
+  - yahoo: SVHI.F
+    google: FRA:SVHI
     currency: EUR
   metadata:
     founded: 1871
@@ -22699,6 +22726,9 @@ companies:
   - yahoo: 0QMI.L
     google: LON:0QMI
     currency: GBP
+  - yahoo: SUVA.F
+    google: FRA:SUVA
+    currency: EUR
   metadata:
     founded: 1878
     employees: 89000
@@ -23933,6 +23963,9 @@ companies:
     currency: USD
   - yahoo: T5W.F
     google: FRA:T5W
+    currency: EUR
+  - yahoo: T5WA.F
+    google: FRA:T5WA
     currency: EUR
   isins:
   - NL0012015705
@@ -26039,6 +26072,9 @@ companies:
   - yahoo: 0NW1.L
     google: LON:0NW1
     currency: GBP
+  - yahoo: PASTF
+    google: OTCMKTS:PASTF
+    currency: USD
   isins:
   - FR0000124570
   metadata:
@@ -26119,6 +26155,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
