@@ -1499,6 +1499,9 @@ companies:
   - yahoo: BOSA.F
     google: FRA:BOSA
     currency: EUR
+  - yahoo: HUGPF
+    google: OTCMKTS:HUGPF
+    currency: USD
   metadata:
     founded: 1924
     employees: 14600
@@ -5933,6 +5936,9 @@ companies:
     currency: USD
   - yahoo: ENUS.F
     google: FRA:ENUS
+    currency: EUR
+  - yahoo: ENUN.F
+    google: FRA:ENUN
     currency: EUR
   metadata:
     founded: 1288
@@ -17247,6 +17253,9 @@ companies:
   - yahoo: 0J3X.L
     google: LON:0J3X
     currency: GBP
+  - yahoo: CFMOF
+    google: OTCMKTS:CFMOF
+    currency: USD
   metadata:
     founded: 1983
     employees: ''
@@ -25108,6 +25117,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
