@@ -3875,6 +3875,9 @@ companies:
   - yahoo: POH1.F
     google: FRA:POH1
     currency: EUR
+  - yahoo: POH3.F
+    google: FRA:POH3
+    currency: EUR
   metadata:
     founded: 1972
     employees: 150000
@@ -6825,6 +6828,9 @@ companies:
   - yahoo: COD.L
     google: LON:COD
     currency: GBP
+  - yahoo: GOBU.F
+    google: FRA:GOBU
+    currency: EUR
   metadata:
     founded: 1665
     employees: 180000
@@ -7028,6 +7034,9 @@ companies:
   - yahoo: SQUA.F
     google: FRA:SQUA
     currency: EUR
+  - yahoo: VCISF
+    google: OTCMKTS:VCISF
+    currency: USD
   metadata:
     founded: 1899
     employees: 222397
@@ -14609,6 +14618,9 @@ companies:
   - yahoo: MPC
     google: NYSE:MPC
     currency: USD
+  - yahoo: 0JYA.L
+    google: LON:0JYA
+    currency: GBP
   metadata:
     founded: 2009
     employees: 43800
@@ -18533,6 +18545,9 @@ companies:
   - yahoo: 0NW2.L
     google: LON:0NW2
     currency: GBP
+  - yahoo: RSH0.F
+    google: FRA:RSH0
+    currency: EUR
   metadata:
     founded: 1960
     employees: 38820
