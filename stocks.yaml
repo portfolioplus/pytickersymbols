@@ -21250,6 +21250,9 @@ companies:
   - yahoo: TDG
     google: NYSE:TDG
     currency: USD
+  - yahoo: 0REK.L
+    google: LON:0REK
+    currency: GBP
   isins: []
   metadata:
     founded: 1993
@@ -22883,6 +22886,9 @@ companies:
   - yahoo: ABGOY
     google: OTCMKTS:ABGOY
     currency: USD
+  - yahoo: AYO.F
+    google: FRA:AYO
+    currency: EUR
   isins:
   - ES0105200416
   metadata:
@@ -25117,6 +25123,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
