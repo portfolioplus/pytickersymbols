@@ -6800,6 +6800,9 @@ companies:
   - yahoo: SAFRY
     google: OTCMKTS:SAFRY
     currency: USD
+  - yahoo: SEJU.F
+    google: FRA:SEJU
+    currency: EUR
   metadata:
     founded: 2005
     employees: 81000
@@ -7730,6 +7733,9 @@ companies:
   - yahoo: V
     google: NYSE:V
     currency: USD
+  - yahoo: 3V6.F
+    google: FRA:3V6
+    currency: EUR
   metadata:
     founded: 1958
     employees: 20500
@@ -22212,6 +22218,9 @@ companies:
   - yahoo: RUBSF
     google: OTCMKTS:RUBSF
     currency: USD
+  - yahoo: BYNN.F
+    google: FRA:BYNN
+    currency: EUR
   isins:
   - FR0013269123
   metadata:
@@ -25132,6 +25141,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
