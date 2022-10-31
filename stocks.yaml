@@ -25141,9 +25141,6 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
-  - yahoo: SHEL
-    google: NYSE:SHEL
-    currency: USD
   metadata:
     founded: 1907
     employees: 86000
