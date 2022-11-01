@@ -11911,6 +11911,9 @@ companies:
   - yahoo: CB
     google: NYSE:CB
     currency: USD
+  - yahoo: 0VQD.L
+    google: LON:0VQD
+    currency: GBP
   metadata:
     founded: 1985
     employees: 31000
@@ -24313,6 +24316,9 @@ companies:
   - yahoo: 0OB3.L
     google: LON:0OB3
     currency: GBP
+  - yahoo: AYJ0.F
+    google: FRA:AYJ0
+    currency: EUR
   isins:
   - FR0004056851
   metadata:
