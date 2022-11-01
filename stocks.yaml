@@ -11905,6 +11905,9 @@ companies:
   - yahoo: CB
     google: NYSE:CB
     currency: USD
+  - yahoo: 0VQD.L
+    google: LON:0VQD
+    currency: GBP
   metadata:
     founded: 1985
     employees: 31000
@@ -19086,6 +19089,9 @@ companies:
   - yahoo: SKUFF
     google: OTCMKTS:SKUFF
     currency: USD
+  - yahoo: 0NWW.L
+    google: LON:0NWW
+    currency: GBP
   metadata:
     founded: 1907
     employees: 48593
@@ -24115,6 +24121,9 @@ companies:
   - yahoo: BSIA.F
     google: FRA:BSIA
     currency: EUR
+  - yahoo: BESVF
+    google: OTCMKTS:BESVF
+    currency: USD
   isins:
   - NL0012866412
   metadata:
@@ -24283,6 +24292,9 @@ companies:
   - yahoo: 0OB3.L
     google: LON:0OB3
     currency: GBP
+  - yahoo: AYJ0.F
+    google: FRA:AYJ0
+    currency: EUR
   isins:
   - FR0004056851
   metadata:
@@ -25141,6 +25153,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
