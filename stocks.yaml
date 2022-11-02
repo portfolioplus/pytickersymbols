@@ -9400,6 +9400,9 @@ companies:
   - yahoo: WDC
     google: NASDAQ:WDC
     currency: USD
+  - yahoo: 0QZF.L
+    google: LON:0QZF
+    currency: GBP
   metadata:
     founded: 1970
     employees: 63800
@@ -25168,6 +25171,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
