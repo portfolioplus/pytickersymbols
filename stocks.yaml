@@ -9397,6 +9397,9 @@ companies:
   - yahoo: WDC
     google: NASDAQ:WDC
     currency: USD
+  - yahoo: 0QZF.L
+    google: LON:0QZF
+    currency: GBP
   metadata:
     founded: 1970
     employees: 63800
@@ -19114,6 +19117,9 @@ companies:
   - yahoo: SVHG.F
     google: FRA:SVHG
     currency: EUR
+  - yahoo: SVHI.F
+    google: FRA:SVHI
+    currency: EUR
   metadata:
     founded: 1871
     employees: 11000
@@ -24115,6 +24121,9 @@ companies:
   - yahoo: BSIA.F
     google: FRA:BSIA
     currency: EUR
+  - yahoo: BESVF
+    google: OTCMKTS:BESVF
+    currency: USD
   isins:
   - NL0012866412
   metadata:
@@ -25141,6 +25150,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
