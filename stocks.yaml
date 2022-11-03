@@ -7569,6 +7569,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -13508,6 +13511,9 @@ companies:
   - yahoo: HAL
     google: NYSE:HAL
     currency: USD
+  - yahoo: 0R23.L
+    google: LON:0R23
+    currency: GBP
   metadata:
     founded: 1919
     employees: 55000
@@ -18700,6 +18706,9 @@ companies:
   - yahoo: ACO5.F
     google: FRA:ACO5
     currency: EUR
+  - yahoo: ACO4.F
+    google: FRA:ACO4
+    currency: EUR
   metadata:
     founded: 1873
     employees: 44695
@@ -19086,6 +19095,9 @@ companies:
   - yahoo: SKUFF
     google: OTCMKTS:SKUFF
     currency: USD
+  - yahoo: 0NWW.L
+    google: LON:0NWW
+    currency: GBP
   metadata:
     founded: 1907
     employees: 48593
@@ -19113,6 +19125,9 @@ companies:
     currency: GBP
   - yahoo: SVHG.F
     google: FRA:SVHG
+    currency: EUR
+  - yahoo: SVHI.F
+    google: FRA:SVHI
     currency: EUR
   metadata:
     founded: 1871
@@ -24115,6 +24130,9 @@ companies:
   - yahoo: BSIA.F
     google: FRA:BSIA
     currency: EUR
+  - yahoo: BESVF
+    google: OTCMKTS:BESVF
+    currency: USD
   isins:
   - NL0012866412
   metadata:
