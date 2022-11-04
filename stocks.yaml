@@ -14378,6 +14378,9 @@ companies:
   - yahoo: KR
     google: NYSE:KR
     currency: USD
+  - yahoo: 0JS2.L
+    google: LON:0JS2
+    currency: GBP
   metadata:
     founded: 1883
     employees: 453000
@@ -22258,6 +22261,9 @@ companies:
   - yahoo: SLOIY
     google: OTCMKTS:SLOIY
     currency: USD
+  - yahoo: SOH.F
+    google: FRA:SOH
+    currency: EUR
   isins:
   - FR0013227113
   metadata:
@@ -22922,6 +22928,9 @@ companies:
   - yahoo: ABGOY
     google: OTCMKTS:ABGOY
     currency: USD
+  - yahoo: AYO.F
+    google: FRA:AYO
+    currency: EUR
   isins:
   - ES0105200416
   metadata:
