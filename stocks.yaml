@@ -8711,6 +8711,9 @@ companies:
   - yahoo: 0P0000KQL0
     google: OTCMKTS:0P0000KQL0
     currency: USD
+  - yahoo: 0P0001I1JH
+    google: OTCMKTS:0P0001I1JH
+    currency: USD
   metadata:
     founded: 1927
     employees: 121000
@@ -18947,6 +18950,9 @@ companies:
   - yahoo: IVSBF
     google: OTCMKTS:IVSBF
     currency: USD
+  - yahoo: IVSD.F
+    google: FRA:IVSD
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -25174,6 +25180,9 @@ companies:
   - yahoo: SHEL.L
     google: LON:SHEL
     currency: GBP
+  - yahoo: SHEL
+    google: NYSE:SHEL
+    currency: USD
   metadata:
     founded: 1907
     employees: 86000
