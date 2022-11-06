@@ -18953,6 +18953,9 @@ companies:
   - yahoo: IVSD.F
     google: FRA:IVSD
     currency: EUR
+  - yahoo: IVS.F
+    google: FRA:IVS
+    currency: EUR
   metadata:
     founded: 1916
     employees: 87
@@ -21298,6 +21301,9 @@ companies:
   - yahoo: TDG
     google: NYSE:TDG
     currency: USD
+  - yahoo: 0REK.L
+    google: LON:0REK
+    currency: GBP
   isins: []
   metadata:
     founded: 1993
@@ -23056,6 +23062,9 @@ companies:
   - yahoo: HAGHY
     google: OTCMKTS:HAGHY
     currency: USD
+  - yahoo: HAG0.F
+    google: FRA:HAG0
+    currency: EUR
   isins:
   - DE000HAG0005
   metadata:
