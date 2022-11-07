@@ -18926,6 +18926,9 @@ companies:
   - yahoo: HXGBY
     google: OTCMKTS:HXGBY
     currency: USD
+  - yahoo: 0GRX.L
+    google: LON:0GRX
+    currency: GBP
   metadata:
     founded: 1975
     employees: 20250
