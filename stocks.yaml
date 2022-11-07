@@ -618,6 +618,9 @@ companies:
   - yahoo: 0O14.L
     google: LON:0O14
     currency: GBP
+  - yahoo: MRK
+    google: NYSE:MRK
+    currency: USD
   metadata:
     founded: 1668
     employees: 58096
@@ -3491,7 +3494,8 @@ companies:
   metadata:
     founded: 1975
     employees: ''
-  isins: []
+  isins:
+  - GB00BVYVFW23
 - name: Aviva PLC
   symbol: AV.
   country: United Kingdom
@@ -3902,6 +3906,9 @@ companies:
   - yahoo: CNA.L
     google: LON:CNA
     currency: GBP
+  - yahoo: CENN.F
+    google: FRA:CENN
+    currency: EUR
   metadata:
     founded: 1997
     employees: unknown
@@ -5005,6 +5012,9 @@ companies:
   - yahoo: RMV.L
     google: LON:RMV
     currency: GBP
+  - yahoo: 3JD.F
+    google: FRA:3JD
+    currency: EUR
   metadata:
     founded: 2000
     employees: ''
@@ -5360,7 +5370,8 @@ companies:
   metadata:
     founded: 1888
     employees: ''
-  isins: []
+  isins:
+  - GB00BWFGQN14
 - name: STERIS PLC
   symbol: SSE
   country: United Kingdom
@@ -5943,6 +5954,9 @@ companies:
   - yahoo: ENUN.F
     google: FRA:ENUN
     currency: EUR
+  - yahoo: ENUA.F
+    google: FRA:ENUA
+    currency: EUR
   metadata:
     founded: 1288
     employees: 24455
@@ -6279,6 +6293,9 @@ companies:
     currency: EUR
   - yahoo: AXAHF
     google: OTCMKTS:AXP
+    currency: USD
+  - yahoo: AXAHY
+    google: OTCMKTS:AXAHY
     currency: USD
   metadata:
     founded: 1816
@@ -6954,6 +6971,9 @@ companies:
   - yahoo: TTE.L
     google: LON:TTE
     currency: GBP
+  - yahoo: TOTA.F
+    google: FRA:TOTA
+    currency: EUR
   metadata:
     founded: 1924
     employees: 107776
@@ -16460,8 +16480,7 @@ companies:
 - name: Twitter Inc.
   symbol: TWTR
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Technology
   - Software & IT Services
@@ -25804,6 +25823,9 @@ companies:
   - yahoo: CNVVY
     google: OTCMKTS:CNVVY
     currency: USD
+  - yahoo: 2CVU.F
+    google: FRA:2CVU
+    currency: EUR
   isins: []
   metadata:
     founded: 1978
@@ -25829,6 +25851,9 @@ companies:
   - yahoo: 1PK.F
     google: FRA:1PK
     currency: EUR
+  - yahoo: DCHPF
+    google: OTCMKTS:DCHPF
+    currency: USD
   isins:
   - GB0009633180
   metadata:
@@ -25892,6 +25917,9 @@ companies:
   - yahoo: HLN.L
     google: LON:HLN
     currency: GBP
+  - yahoo: H6D0.F
+    google: FRA:H6D0
+    currency: EUR
   isins:
   - GB00BMX86B70
   metadata:
@@ -25979,3 +26007,89 @@ companies:
   metadata:
     founded: 1991
     employees: 1900
+- name: Altarea
+  wiki_name: Altarea
+  symbol: null
+  country: ''
+  indices:
+  - CAC Mid 60
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Arch Capital Group Ltd.
+  wiki_name: Arch Capital Group Ltd.
+  symbol: ACGL
+  country: Bermuda
+  indices:
+  - S&P 500
+  industries:
+  - Insurance
+  - Finance
+  symbols:
+  - yahoo: ACGL
+    google: NASDAQ:ACGL
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1995
+    employees: 5200
+- name: Meta Platforms, Inc.
+  wiki_name: Meta Platforms, Inc.
+  symbol: META
+  country: United States
+  indices:
+  - NASDAQ 100
+  - S&P 500
+  industries:
+  - Social media
+  - Social network advertising
+  - Consumer electronics
+  - Virtual reality
+  symbols:
+  - yahoo: META
+    google: NASDAQ:META
+    currency: USD
+  isins: []
+  metadata:
+    founded: 2004
+    employees: 83553
+- name: Lucid , Inc.
+  wiki_name: Lucid , Inc.
+  symbol: LCID
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Automobiles
+  symbols:
+  - yahoo: LCID
+    google: NASDAQ:LCID
+    currency: USD
+  isins:
+  - US5494981039
+  metadata:
+    founded: 2007
+    employees: 3900
+- name: Mercedes-Benz Group
+  wiki_name: Mercedes-Benz Group
+  symbol: MBG
+  country: Germany
+  indices:
+  - EURO STOXX 50
+  industries:
+  - Automotive
+  symbols:
+  - yahoo: MBG.F
+    google: FRA:MBG
+    currency: EUR
+  - yahoo: MBGAF
+    google: OTCMKTS:MBGAF
+    currency: USD
+  isins:
+  - DE0007100000
+  metadata:
+    founded: 1926
+    employees: 172000
