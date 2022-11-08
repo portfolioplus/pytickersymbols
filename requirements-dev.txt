@@ -1,4 +1,4 @@
-wheel==0.37.1
+wheel==0.38.2
 pytest
 pytest-cov
 pandas==1.4.2
