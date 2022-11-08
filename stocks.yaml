@@ -15542,6 +15542,9 @@ companies:
   - yahoo: PEG
     google: NYSE:PEG
     currency: USD
+  - yahoo: 0KS2.L
+    google: LON:0KS2
+    currency: GBP
   metadata:
     founded: 1903
     employees: 12945
@@ -20526,6 +20529,9 @@ companies:
   - yahoo: AMCCF
     google: OTCMKTS:AMCCF
     currency: USD
+  - yahoo: 485.F
+    google: FRA:485
+    currency: EUR
   isins:
   - JE00BJ1F3079
   metadata:
