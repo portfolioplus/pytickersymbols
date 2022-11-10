@@ -2665,6 +2665,9 @@ companies:
   - yahoo: HELFY
     google: OTCMKTS:HELFY
     currency: USD
+  - yahoo: HFG0.F
+    google: FRA:HFG0
+    currency: EUR
   metadata:
     founded: 2011
     employees: 6432
