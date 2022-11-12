@@ -16950,6 +16950,9 @@ companies:
   - yahoo: WHR
     google: NYSE:WHR
     currency: USD
+  - yahoo: 0LWH.L
+    google: LON:0LWH
+    currency: GBP
   metadata:
     founded: 1911
     employees: 92000
@@ -17755,6 +17758,9 @@ companies:
   - yahoo: BKIMF
     google: OTCMKTS:BKIMF
     currency: USD
+  - yahoo: BAK.F
+    google: FRA:BAK
+    currency: EUR
   metadata:
     founded: 1965
     employees: 6078
