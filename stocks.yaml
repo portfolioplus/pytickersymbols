@@ -530,6 +530,9 @@ companies:
   - yahoo: HEN.F
     google: FRA:HEN
     currency: EUR
+  - yahoo: HENE.F
+    google: FRA:HENE
+    currency: EUR
   metadata:
     founded: 1876
     employees: 52950
@@ -621,6 +624,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: 6MK.F
+    google: FRA:6MK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 58096
@@ -847,6 +853,9 @@ companies:
   - yahoo: AIRA.F
     google: FRA:AIRA
     currency: EUR
+  - yahoo: BA
+    google: NYSE:BA
+    currency: USD
   metadata:
     founded: 1970
     employees: 131349
@@ -3912,6 +3921,9 @@ companies:
   - yahoo: CENN.F
     google: FRA:CENN
     currency: EUR
+  - yahoo: CPYYF
+    google: OTCMKTS:CPYYF
+    currency: USD
   metadata:
     founded: 1997
     employees: unknown
@@ -7545,6 +7557,9 @@ companies:
   - yahoo: MCD
     google: NYSE:MCD
     currency: USD
+  - yahoo: MDO0.F
+    google: FRA:MDO0
+    currency: EUR
   metadata:
     founded: 1940
     employees: 210000
@@ -10197,6 +10212,9 @@ companies:
   - yahoo: MA
     google: NYSE:MA
     currency: USD
+  - yahoo: M4I0.F
+    google: FRA:M4I0
+    currency: EUR
   metadata:
     founded: 1966
     employees: 21000
@@ -21031,8 +21049,7 @@ companies:
   wiki_name: NortonLifeLock Inc.
   symbol: NLOK
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Computer security
   - Software
@@ -23364,6 +23381,9 @@ companies:
   - yahoo: 0UBI.L
     google: LON:0UBI
     currency: GBP
+  - yahoo: 9MW.F
+    google: FRA:9MW
+    currency: EUR
   isins:
   - US5738741041
   metadata:
@@ -24535,6 +24555,12 @@ companies:
   - yahoo: 0UMG.L
     google: LON:0UMG
     currency: GBP
+  - yahoo: 0VD.F
+    google: FRA:0VD
+    currency: EUR
+  - yahoo: 0VD0.F
+    google: FRA:0VD0
+    currency: EUR
   isins:
   - NL0015000IY2
   metadata:
@@ -24945,6 +24971,9 @@ companies:
   - yahoo: HHRU.ME
     google: MCX:HHRU
     currency: RUB
+  - yahoo: HHR
+    google: NASDAQ:HHR
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -25319,7 +25348,8 @@ companies:
   - yahoo: RS1.L
     google: LON:RS1
     currency: GBP
-  isins: []
+  isins:
+  - GB0003096442
   metadata:
     founded: 1937
     employees: 6806
@@ -25775,7 +25805,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: I8P.F
+    google: FRA:I8P
+    currency: EUR
   isins:
   - FR0004024222
   - US4583341098
@@ -26108,3 +26141,19 @@ companies:
   metadata:
     founded: 1926
     employees: 172000
+- name: Gen Digital Inc.
+  wiki_name: Gen Digital Inc.
+  symbol: GEN
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Computer software
+  symbols:
+  - yahoo: GEN
+    google: NASDAQ:GEN
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1982
+    employees: 2700
