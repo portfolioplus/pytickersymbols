@@ -15343,6 +15343,9 @@ companies:
   - yahoo: PKI
     google: NYSE:PKI
     currency: USD
+  - yahoo: 0KHE.L
+    google: LON:0KHE
+    currency: GBP
   metadata:
     founded: 1937
     employees: 14000
@@ -24160,6 +24163,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: VTW.F
+    google: FRA:VTW
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
