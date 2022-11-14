@@ -7545,6 +7545,9 @@ companies:
   - yahoo: MCD
     google: NYSE:MCD
     currency: USD
+  - yahoo: MDO0.F
+    google: FRA:MDO0
+    currency: EUR
   metadata:
     founded: 1940
     employees: 210000
@@ -10197,6 +10200,9 @@ companies:
   - yahoo: MA
     google: NYSE:MA
     currency: USD
+  - yahoo: M4I0.F
+    google: FRA:M4I0
+    currency: EUR
   metadata:
     founded: 1966
     employees: 21000
@@ -15319,6 +15325,9 @@ companies:
   - yahoo: PKI
     google: NYSE:PKI
     currency: USD
+  - yahoo: 0KHE.L
+    google: LON:0KHE
+    currency: GBP
   metadata:
     founded: 1937
     employees: 14000
@@ -24134,6 +24143,9 @@ companies:
   - yahoo: 0A9Y.L
     google: LON:0A9Y
     currency: GBP
+  - yahoo: VTW.F
+    google: FRA:VTW
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
