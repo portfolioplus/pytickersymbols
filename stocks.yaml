@@ -5713,6 +5713,9 @@ companies:
   - yahoo: 0HAH.L
     google: LON:0HAH
     currency: GBP
+  - yahoo: FOT0.F
+    google: FRA:FOT0
+    currency: EUR
   metadata:
     founded: 1998
     employees: 8191
@@ -14753,6 +14756,9 @@ companies:
   - yahoo: MKC
     google: NYSE:MKC
     currency: USD
+  - yahoo: 0JZS.L
+    google: LON:0JZS
+    currency: GBP
   metadata:
     founded: 1889
     employees: 13000
