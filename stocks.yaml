@@ -15300,6 +15300,12 @@ companies:
   - yahoo: PH
     google: NYSE:PH
     currency: USD
+  - yahoo: PAR.F
+    google: FRA:PAR
+    currency: EUR
+  - yahoo: 0KFZ.L
+    google: LON:0KFZ
+    currency: GBP
   metadata:
     founded: 1917
     employees: 57170
@@ -16391,6 +16397,9 @@ companies:
   - yahoo: TTWO
     google: NASDAQ:TTWO
     currency: USD
+  - yahoo: 0LCX.L
+    google: LON:0LCX
+    currency: GBP
   metadata:
     founded: 1993
     employees: 5800
@@ -20717,6 +20726,9 @@ companies:
   - yahoo: EZV.F
     google: FRA:EZV
     currency: EUR
+  - yahoo: DKOB.F
+    google: FRA:DKOB
+    currency: EUR
   isins:
   - US25754A2015
   metadata:
@@ -22540,6 +22552,9 @@ companies:
     currency: USD
   - yahoo: APG.MC
     google: BME:APG
+    currency: EUR
+  - yahoo: XE1.F
+    google: FRA:XE1
     currency: EUR
   isins:
   - CH0024608827
