@@ -22168,6 +22168,9 @@ companies:
   - yahoo: JCDXY
     google: OTCMKTS:JCDXY
     currency: USD
+  - yahoo: DCS0.F
+    google: FRA:DCS0
+    currency: EUR
   isins:
   - FR0000077919
   metadata:
@@ -22322,6 +22325,9 @@ companies:
     currency: USD
   - yahoo: BYNN.F
     google: FRA:BYNN
+    currency: EUR
+  - yahoo: BYN.F
+    google: FRA:BYN
     currency: EUR
   isins:
   - FR0013269123
@@ -22540,6 +22546,9 @@ companies:
     currency: USD
   - yahoo: APG.MC
     google: BME:APG
+    currency: EUR
+  - yahoo: XE1.F
+    google: FRA:XE1
     currency: EUR
   isins:
   - CH0024608827
