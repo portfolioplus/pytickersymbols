@@ -5688,6 +5688,7 @@ companies:
   symbol: ELI1V
   country: Finland
   indices:
+  - CAC Mid 60
   - OMX Helsinki 25
   industries:
   - Telecommunications Services
@@ -5702,11 +5703,18 @@ companies:
   - yahoo: ELMUF
     google: OTCMKTS:ELMUF
     currency: USD
+  - yahoo: 7EL.F
+    google: FRA:7EL
+    currency: EUR
+  - yahoo: 0P00015014.F
+    google: FRA:0P00015014
+    currency: EUR
   metadata:
     founded: 1882
     employees: 5097
   isins:
   - FI0009007884
+  - FR0012435121
 - name: Fortum Oyj
   symbol: FUM1V
   country: Finland
@@ -6687,6 +6695,9 @@ companies:
   - yahoo: MGDDF
     google: OTCMKTS:MGDDF
     currency: USD
+  - yahoo: MCHA.F
+    google: FRA:MCHA
+    currency: EUR
   metadata:
     founded: 1889
     employees: 127000
@@ -16059,6 +16070,9 @@ companies:
   - yahoo: 0L3I.L
     google: LON:0L3I
     currency: GBP
+  - yahoo: SWG0.F
+    google: FRA:SWG0
+    currency: EUR
   metadata:
     founded: 1971
     employees: 32000
@@ -22060,7 +22074,8 @@ companies:
   - yahoo: 9TG0.F
     google: FRA:9TG0
     currency: EUR
-  isins: []
+  isins:
+  - FR0011726835
   metadata:
     founded: 0
     employees: 0
@@ -22301,6 +22316,9 @@ companies:
   - yahoo: NPACF
     google: OTCMKTS:NPACF
     currency: USD
+  - yahoo: NEQ0.F
+    google: FRA:NEQ0
+    currency: EUR
   isins:
   - FR0000120560
   metadata:
@@ -23964,8 +23982,7 @@ companies:
   wiki_name: Elis S.A.
   symbol: ELIS
   country: France
-  indices:
-  - CAC Mid 60
+  indices: []
   industries:
   - Textilservice
   symbols:
@@ -25770,7 +25787,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: 8ZU.F
+    google: FRA:8ZU
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -25782,7 +25802,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: CUX1.F
+    google: FRA:CUX1
+    currency: EUR
   isins:
   - FR0010828137
   metadata:
@@ -25809,7 +25832,10 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: PNU.F
+    google: FRA:PNU
+    currency: EUR
   isins: []
   metadata:
     founded: 0
@@ -25821,7 +25847,13 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: 940.F
+    google: FRA:940
+    currency: EUR
+  - yahoo: EAPIF
+    google: OTCMKTS:EAPIF
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -25863,7 +25895,13 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: YSM.F
+    google: FRA:YSM
+    currency: EUR
+  - yahoo: 0RR3.L
+    google: LON:0RR3
+    currency: GBP
   isins: []
   metadata:
     founded: 1969
@@ -26022,6 +26060,9 @@ companies:
   - yahoo: PQQ2.F
     google: FRA:PQQ2
     currency: EUR
+  - yahoo: HBRIY
+    google: OTCMKTS:HBRIY
+    currency: USD
   isins: []
   metadata:
     founded: 2014
@@ -26140,3 +26181,69 @@ companies:
   metadata:
     founded: 1982
     employees: 2700
+- name: Lucid Motors
+  wiki_name: Lucid Motors
+  symbol: LCID
+  country: United States
+  indices:
+  - NASDAQ 100
+  industries:
+  - Automobiles
+  symbols:
+  - yahoo: LCID
+    google: NASDAQ:LCID
+    currency: USD
+  isins:
+  - US5494981039
+  metadata:
+    founded: 2007
+    employees: 3900
+- name: Adtran, Inc.
+  wiki_name: Adtran, Inc.
+  symbol: ADTN
+  country: United States
+  indices:
+  - MDAX
+  - TECDAX
+  industries: []
+  symbols:
+  - yahoo: ADTN
+    google: NASDAQ:ADTN
+    currency: USD
+  isins:
+  - US00738A1060
+  metadata:
+    founded: 1985
+    employees: 2045
+- name: Altarea
+  wiki_name: Altarea
+  symbol: null
+  country: ''
+  indices:
+  - CAC Mid 60
+  industries: []
+  symbols: []
+  isins: []
+  metadata:
+    founded: 0
+    employees: 0
+- name: Mercedes-Benz Group
+  wiki_name: Mercedes-Benz Group
+  symbol: MBG
+  country: Germany
+  indices:
+  - EURO STOXX 50
+  industries:
+  - Automotive
+  symbols:
+  - yahoo: MBG.F
+    google: FRA:MBG
+    currency: EUR
+  - yahoo: MBGAF
+    google: OTCMKTS:MBGAF
+    currency: USD
+  isins:
+  - DE0007100000
+  metadata:
+    founded: 1926
+    employees: 172425
