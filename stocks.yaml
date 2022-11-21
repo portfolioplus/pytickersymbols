@@ -624,6 +624,7 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+    skip: true
   - yahoo: 6MK.F
     google: FRA:6MK
     currency: EUR
@@ -856,6 +857,7 @@ companies:
   - yahoo: BA
     google: NYSE:BA
     currency: USD
+    skip: true
   metadata:
     founded: 1970
     employees: 131349
@@ -7610,6 +7612,7 @@ companies:
   - yahoo: 6MK.F
     google: FRA:6MK
     currency: EUR
+    skip: true
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
@@ -8439,28 +8442,6 @@ companies:
     employees: 24500
   isins:
   - US65248E2037
-- name: Meta Platforms Inc.
-  symbol: META
-  country: United States
-  indices:
-  - NASDAQ 100
-  - S&P 100
-  - S&P 500
-  industries:
-  - Technology
-  - Software & IT Services
-  - Internet Services
-  symbols:
-  - yahoo: FB2A.F
-    google: FRA:FB2A
-    currency: EUR
-  - yahoo: META
-    google: NASDAQ:META
-    currency: USD
-  metadata:
-    founded: 2004
-    employees: 52535
-  isins: []
 - name: Fastenal Company
   symbol: FAST
   country: United States
@@ -15273,6 +15254,7 @@ companies:
   - yahoo: PAR.F
     google: FRA:PAR
     currency: EUR
+    skip: true
   - yahoo: PKG
     google: NYSE:PKG
     currency: USD
@@ -25303,6 +25285,7 @@ companies:
   - yahoo: SHEL
     google: NYSE:SHEL
     currency: USD
+    skip: true
   metadata:
     founded: 1907
     employees: 86000
@@ -26100,18 +26083,6 @@ companies:
   metadata:
     founded: 1991
     employees: 1900
-- name: Altarea
-  wiki_name: Altarea
-  symbol: null
-  country: ''
-  indices:
-  - CAC Mid 60
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 0
-    employees: 0
 - name: Arch Capital Group Ltd.
   wiki_name: Arch Capital Group Ltd.
   symbol: ACGL
@@ -26135,6 +26106,7 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
+  - S&P 100
   - S&P 500
   industries:
   - Social media
@@ -26145,47 +26117,13 @@ companies:
   - yahoo: META
     google: NASDAQ:META
     currency: USD
+  - yahoo: FB2A.F
+    google: FRA:FB2A
+    currency: EUR
   isins: []
   metadata:
     founded: 2004
     employees: 83553
-- name: Lucid , Inc.
-  wiki_name: Lucid , Inc.
-  symbol: LCID
-  country: United States
-  indices:
-  - NASDAQ 100
-  industries:
-  - Automobiles
-  symbols:
-  - yahoo: LCID
-    google: NASDAQ:LCID
-    currency: USD
-  isins:
-  - US5494981039
-  metadata:
-    founded: 2007
-    employees: 3900
-- name: Mercedes-Benz Group
-  wiki_name: Mercedes-Benz Group
-  symbol: MBG
-  country: Germany
-  indices:
-  - EURO STOXX 50
-  industries:
-  - Automotive
-  symbols:
-  - yahoo: MBG.F
-    google: FRA:MBG
-    currency: EUR
-  - yahoo: MBGAF
-    google: OTCMKTS:MBGAF
-    currency: USD
-  isins:
-  - DE0007100000
-  metadata:
-    founded: 1926
-    employees: 172000
 - name: Gen Digital Inc.
   wiki_name: Gen Digital Inc.
   symbol: GEN
