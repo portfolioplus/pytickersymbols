@@ -14732,6 +14732,9 @@ companies:
   - yahoo: MLM
     google: NYSE:MLM
     currency: USD
+  - yahoo: 0JZ0.L
+    google: LON:0JZ0
+    currency: GBP
   metadata:
     founded: 1993
     employees: 8714
@@ -22540,6 +22543,9 @@ companies:
     currency: USD
   - yahoo: APG.MC
     google: BME:APG
+    currency: EUR
+  - yahoo: XE1.F
+    google: FRA:XE1
     currency: EUR
   isins:
   - CH0024608827
