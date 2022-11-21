@@ -14732,6 +14732,9 @@ companies:
   - yahoo: MLM
     google: NYSE:MLM
     currency: USD
+  - yahoo: 0JZ0.L
+    google: LON:0JZ0
+    currency: GBP
   metadata:
     founded: 1993
     employees: 8714
