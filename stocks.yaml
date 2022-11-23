@@ -5706,9 +5706,11 @@ companies:
   - yahoo: 7EL.F
     google: FRA:7EL
     currency: EUR
+    skip: true
   - yahoo: 0P00015014.F
     google: FRA:0P00015014
     currency: EUR
+    skip: true
   metadata:
     founded: 1882
     employees: 5097
@@ -24863,6 +24865,7 @@ companies:
     employees: 99640
 - name: Mercedes-Benz Group AG
   wiki_name: Mercedes-Benz Group AG
+  akas: ["Mercedes-Benz Group"]
   symbol: MBG
   country: Germany
   indices:
@@ -24914,23 +24917,6 @@ companies:
   metadata:
     founded: 2010
     employees: 3200
-- name: Lucid Group, Inc.
-  wiki_name: Lucid Group, Inc.
-  symbol: LCID
-  country: United States
-  indices:
-  - NASDAQ 100
-  industries:
-  - Automobiles
-  symbols:
-  - yahoo: LCID
-    google: NASDAQ:LCID
-    currency: USD
-  isins:
-  - US5494981039
-  metadata:
-    founded: 2007
-    employees: 3900
 - name: Palo Alto Networks, Inc.
   wiki_name: Palo Alto Networks, Inc.
   symbol: PANW
@@ -25582,11 +25568,11 @@ companies:
     employees: 369
 - name: ADTRAN, Inc.
   wiki_name: ADTRAN, Inc.
+  akas: ["Adtran, Inc."]
   symbol: ADTN
   country: United States
   indices:
-  - MDAX
-  - TECDAX
+  - S&P 600
   industries: []
   symbols:
   - yahoo: ADTN
@@ -25770,6 +25756,7 @@ companies:
     employees: 147
 - name: Altarea SCA
   wiki_name: Altarea SCA
+  akas: ["Altarea"]
   symbol: ALTA
   country: France
   indices:
@@ -26183,6 +26170,7 @@ companies:
     employees: 2700
 - name: Lucid Motors
   wiki_name: Lucid Motors
+  akas: ["Lucid Group, Inc."]
   symbol: LCID
   country: United States
   indices:
@@ -26198,52 +26186,3 @@ companies:
   metadata:
     founded: 2007
     employees: 3900
-- name: Adtran, Inc.
-  wiki_name: Adtran, Inc.
-  symbol: ADTN
-  country: United States
-  indices:
-  - MDAX
-  - TECDAX
-  industries: []
-  symbols:
-  - yahoo: ADTN
-    google: NASDAQ:ADTN
-    currency: USD
-  isins:
-  - US00738A1060
-  metadata:
-    founded: 1985
-    employees: 2045
-- name: Altarea
-  wiki_name: Altarea
-  symbol: null
-  country: ''
-  indices:
-  - CAC Mid 60
-  industries: []
-  symbols: []
-  isins: []
-  metadata:
-    founded: 0
-    employees: 0
-- name: Mercedes-Benz Group
-  wiki_name: Mercedes-Benz Group
-  symbol: MBG
-  country: Germany
-  indices:
-  - EURO STOXX 50
-  industries:
-  - Automotive
-  symbols:
-  - yahoo: MBG.F
-    google: FRA:MBG
-    currency: EUR
-  - yahoo: MBGAF
-    google: OTCMKTS:MBGAF
-    currency: USD
-  isins:
-  - DE0007100000
-  metadata:
-    founded: 1926
-    employees: 172425
