@@ -32,6 +32,7 @@ class Statics:
         CH_20 = 'Switzerland 20'
         FR_CAC_40 = 'CAC 40'
         US_SP_500 = 'S&P 500'
+        US_SP_600 = 'S&P 600'
         SE_OMX_30 = 'OMX Stockholm 30'
         BE_20 = 'BEL 20'
         DE_MDAX = 'MDAX'
