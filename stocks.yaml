@@ -6078,6 +6078,9 @@ companies:
   - yahoo: NKRKY
     google: OTCMKTS:NKRKY
     currency: USD
+  - yahoo: NKRKF
+    google: OTCMKTS:NKRKF
+    currency: USD
   metadata:
     founded: 1988
     employees: 4790
@@ -6550,6 +6553,9 @@ companies:
   - yahoo: AXAHY
     google: OTCMKTS:AXAHY
     currency: USD
+  - yahoo: AXA.F
+    google: FRA:AXA
+    currency: EUR
   metadata:
     founded: 1816
     employees: 125934
@@ -20251,6 +20257,12 @@ companies:
   - yahoo: NESN
     google: OTCMKTS:NESN
     currency: USD
+  - yahoo: NESM.F
+    google: FRA:NESM
+    currency: EUR
+  - yahoo: NSRGY
+    google: OTCMKTS:NSRGY
+    currency: USD
   metadata:
     founded: unknown
     employees: unknown
@@ -25553,7 +25565,13 @@ companies:
   indices:
   - BEL 20
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: MEX.F
+    google: FRA:MEX
+    currency: EUR
+  - yahoo: MLXSF
+    google: OTCMKTS:MLXSF
+    currency: USD
   isins:
   - BE0165385973
   metadata:
@@ -25740,6 +25758,9 @@ companies:
   - yahoo: CTRA
     google: NYSE:CTRA
     currency: USD
+  - yahoo: XCQ.F
+    google: FRA:XCQ
+    currency: EUR
   isins: []
   metadata:
     founded: 1989
@@ -25813,7 +25834,13 @@ companies:
   indices:
   - MDAX
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: HYQ.F
+    google: FRA:HYQ
+    currency: EUR
+  - yahoo: HYPOF
+    google: OTCMKTS:HYPOF
+    currency: USD
   isins:
   - DE0005493365
   metadata:
@@ -25909,6 +25936,9 @@ companies:
   - yahoo: DDOG
     google: NASDAQ:DDOG
     currency: USD
+  - yahoo: 0A3O.L
+    google: LON:0A3O
+    currency: GBP
   isins: []
   metadata:
     founded: 2010
@@ -25926,6 +25956,9 @@ companies:
   - yahoo: PANW
     google: NASDAQ:PANW
     currency: USD
+  - yahoo: 5AP.F
+    google: FRA:5AP
+    currency: EUR
   isins: []
   metadata:
     founded: 2005
@@ -25945,6 +25978,9 @@ companies:
   - yahoo: ZS
     google: NASDAQ:ZS
     currency: USD
+  - yahoo: 0ZC.F
+    google: FRA:0ZC
+    currency: EUR
   isins: []
   metadata:
     founded: 2007
@@ -26502,7 +26538,10 @@ companies:
   indices:
   - TECDAX
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: 1U1.F
+    google: FRA:1U1
+    currency: EUR
   isins:
   - DE0005545503
   metadata:
@@ -26538,6 +26577,21 @@ companies:
   - yahoo: SHEL
     google: NYSE:SHEL
     currency: USD
+  - yahoo: SHELL.AS
+    google: AMS:SHELL
+    currency: EUR
+  - yahoo: R6C0.F
+    google: FRA:R6C0
+    currency: EUR
+  - yahoo: RYDAF
+    google: OTCMKTS:RYDAF
+    currency: USD
+  - yahoo: SHEL.L
+    google: LON:SHEL
+    currency: GBP
+  - yahoo: L3H.F
+    google: FRA:L3H
+    currency: EUR
   isins:
   - GB00BP6MXD84
   metadata:
@@ -26624,7 +26678,13 @@ companies:
   - OMX Stockholm 30
   industries:
   - Financial services
-  symbols: []
+  symbols:
+  - yahoo: 04Q.F
+    google: FRA:04Q
+    currency: EUR
+  - yahoo: NRDBY
+    google: OTCMKTS:NRDBY
+    currency: USD
   isins:
   - FI4000297767
   metadata:
@@ -26638,7 +26698,10 @@ companies:
   indices:
   - BEL 20
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: DJDA.F
+    google: FRA:DJDA
+    currency: EUR
   isins:
   - BE0974259880
   metadata:
@@ -26652,7 +26715,16 @@ companies:
   indices:
   - BEL 20
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: 0HM0.L
+    google: LON:0HM0
+    currency: GBP
+  - yahoo: VGPBF
+    google: OTCMKTS:VGPBF
+    currency: USD
+  - yahoo: 4V1.F
+    google: FRA:4V1
+    currency: EUR
   isins:
   - BE0003878957
   metadata:
@@ -26759,6 +26831,12 @@ companies:
   - yahoo: PCG
     google: NYSE:PCG
     currency: USD
+  - yahoo: 0QR3.L
+    google: LON:0QR3
+    currency: GBP
+  - yahoo: PCG.F
+    google: FRA:PCG
+    currency: EUR
   isins: []
   metadata:
     founded: 1905
@@ -26807,7 +26885,13 @@ companies:
   indices:
   - CAC Mid 60
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: 0IRK.L
+    google: LON:0IRK
+    currency: GBP
+  - yahoo: XAL.F
+    google: FRA:XAL
+    currency: EUR
   isins: []
   metadata:
     founded: 1994
@@ -27028,6 +27112,9 @@ companies:
   - yahoo: FCIT.L
     google: LON:FCIT
     currency: GBP
+  - yahoo: FLIVF
+    google: OTCMKTS:FLIVF
+    currency: USD
   isins: []
   metadata:
     founded: 1868
