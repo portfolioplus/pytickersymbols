@@ -2232,6 +2232,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: TAGYY
+    google: OTCMKTS:TAGYY
+    currency: USD
   metadata:
     founded: 1882
     employees: 1160
@@ -19961,6 +19964,9 @@ companies:
   - yahoo: SVHI.F
     google: FRA:SVHI
     currency: EUR
+  - yahoo: SVNLF
+    google: OTCMKTS:SVNLF
+    currency: USD
   metadata:
     founded: 1871
     employees: 11000
