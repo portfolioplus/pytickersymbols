@@ -2232,6 +2232,9 @@ companies:
   - yahoo: TAGOF
     google: OTCMKTS:TAGOF
     currency: USD
+  - yahoo: TAGYY
+    google: OTCMKTS:TAGYY
+    currency: USD
   metadata:
     founded: 1882
     employees: 1160
@@ -26161,6 +26164,9 @@ companies:
   - yahoo: EPAM
     google: NYSE:EPAM
     currency: USD
+  - yahoo: E3M.F
+    google: FRA:E3M
+    currency: EUR
   isins: []
   metadata:
     founded: 1993
