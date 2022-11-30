@@ -26167,6 +26167,9 @@ companies:
   - yahoo: EPAM
     google: NYSE:EPAM
     currency: USD
+  - yahoo: E3M.F
+    google: FRA:E3M
+    currency: EUR
   isins: []
   metadata:
     founded: 1993
