@@ -25925,6 +25925,9 @@ companies:
   - yahoo: ABNB
     google: NASDAQ:ABNB
     currency: USD
+  - yahoo: 6Z1.F
+    google: FRA:6Z1
+    currency: EUR
   isins: []
   metadata:
     founded: 2008
@@ -26868,6 +26871,12 @@ companies:
   - yahoo: TRGP
     google: NYSE:TRGP
     currency: USD
+  - yahoo: 0LD9.L
+    google: LON:0LD9
+    currency: GBP
+  - yahoo: TAR.F
+    google: FRA:TAR
+    currency: EUR
   isins: []
   metadata:
     founded: 2005
