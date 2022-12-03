@@ -26294,6 +26294,12 @@ companies:
   - yahoo: SEDG
     google: NASDAQ:SEDG
     currency: USD
+  - yahoo: 2ED.F
+    google: FRA:2ED
+    currency: EUR
+  - yahoo: 0L7S.L
+    google: LON:0L7S
+    currency: GBP
   isins: []
   metadata:
     founded: 2006
@@ -26771,6 +26777,9 @@ companies:
   - yahoo: CSGP
     google: NASDAQ:CSGP
     currency: USD
+  - yahoo: RLG.F
+    google: FRA:RLG
+    currency: EUR
   isins: []
   metadata:
     founded: 1987
