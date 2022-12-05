@@ -27298,6 +27298,9 @@ companies:
   - yahoo: ACGL
     google: NASDAQ:ACGL
     currency: USD
+  - yahoo: RSK.F
+    google: FRA:RSK
+    currency: EUR
   isins: []
   metadata:
     founded: 1995
