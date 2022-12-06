@@ -26191,6 +26191,9 @@ companies:
   - yahoo: FDS
     google: NYSE:FDS
     currency: USD
+  - yahoo: FA1.F
+    google: FRA:FA1
+    currency: EUR
   isins: []
   metadata:
     founded: 1978
