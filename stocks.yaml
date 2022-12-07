@@ -15752,6 +15752,9 @@ companies:
   - yahoo: NCLH
     google: NYSE:NCLH
     currency: USD
+  - yahoo: 0UC3.L
+    google: LON:0UC3
+    currency: GBP
   metadata:
     founded: 2011
     employees: 33200
@@ -27307,6 +27310,9 @@ companies:
   - yahoo: ACGL
     google: NASDAQ:ACGL
     currency: USD
+  - yahoo: RSK.F
+    google: FRA:RSK
+    currency: EUR
   isins: []
   metadata:
     founded: 1995
