@@ -14761,6 +14761,9 @@ companies:
   - yahoo: 0JOI.L
     google: LON:0JOI
     currency: GBP
+  - yahoo: Z0Y.F
+    google: FRA:Z0Y
+    currency: EUR
   metadata:
     founded: 1947
     employees: 55000
@@ -16139,6 +16142,12 @@ companies:
   - yahoo: PLD
     google: NYSE:PLD
     currency: USD
+  - yahoo: PLDGP
+    google: OTCMKTS:PLDGP
+    currency: USD
+  - yahoo: 0KOD.L
+    google: LON:0KOD
+    currency: GBP
   metadata:
     founded: 1983
     employees: 1945
