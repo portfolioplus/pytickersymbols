@@ -19532,6 +19532,9 @@ companies:
   - yahoo: ACO4.F
     google: FRA:ACO4
     currency: EUR
+  - yahoo: ATLPF
+    google: OTCMKTS:ATLPF
+    currency: USD
   metadata:
     founded: 1873
     employees: 44695
@@ -24991,6 +24994,9 @@ companies:
   - yahoo: ORRRY
     google: OTCMKTS:ORRRY
     currency: USD
+  - yahoo: ORPEF
+    google: OTCMKTS:ORPEF
+    currency: USD
   isins:
   - FR0000184798
   metadata:
@@ -25960,6 +25966,9 @@ companies:
   - yahoo: 0A3O.L
     google: LON:0A3O
     currency: GBP
+  - yahoo: 3QD.F
+    google: FRA:3QD
+    currency: EUR
   isins: []
   metadata:
     founded: 2010
