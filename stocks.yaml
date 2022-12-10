@@ -26877,6 +26877,12 @@ companies:
   - yahoo: EQT
     google: NYSE:EQT
     currency: USD
+  - yahoo: EQ6.F
+    google: FRA:EQ6
+    currency: EUR
+  - yahoo: 0IDU.L
+    google: LON:0IDU
+    currency: GBP
   isins: []
   metadata:
     founded: 1888
