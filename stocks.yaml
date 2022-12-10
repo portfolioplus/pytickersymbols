@@ -19532,6 +19532,9 @@ companies:
   - yahoo: ACO4.F
     google: FRA:ACO4
     currency: EUR
+  - yahoo: ATLPF
+    google: OTCMKTS:ATLPF
+    currency: USD
   metadata:
     founded: 1873
     employees: 44695
@@ -24050,6 +24053,9 @@ companies:
   - yahoo: 0A5J.L
     google: LON:0A5J
     currency: GBP
+  - yahoo: DMPHF
+    google: OTCMKTS:DMPHF
+    currency: USD
   isins:
   - DE000A2GS5D8
   metadata:
@@ -25960,6 +25966,9 @@ companies:
   - yahoo: 0A3O.L
     google: LON:0A3O
     currency: GBP
+  - yahoo: 3QD.F
+    google: FRA:3QD
+    currency: EUR
   isins: []
   metadata:
     founded: 2010
@@ -26820,6 +26829,12 @@ companies:
   - yahoo: EQT
     google: NYSE:EQT
     currency: USD
+  - yahoo: EQ6.F
+    google: FRA:EQ6
+    currency: EUR
+  - yahoo: 0IDU.L
+    google: LON:0IDU
+    currency: GBP
   isins: []
   metadata:
     founded: 1888
