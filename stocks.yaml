@@ -25960,6 +25960,9 @@ companies:
   - yahoo: 0A3O.L
     google: LON:0A3O
     currency: GBP
+  - yahoo: 3QD.F
+    google: FRA:3QD
+    currency: EUR
   isins: []
   metadata:
     founded: 2010
