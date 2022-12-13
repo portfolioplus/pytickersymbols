@@ -7915,6 +7915,9 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -25002,6 +25005,9 @@ companies:
     currency: EUR
   - yahoo: ORRRY
     google: OTCMKTS:ORRRY
+    currency: USD
+  - yahoo: ORPEF
+    google: OTCMKTS:ORPEF
     currency: USD
   isins:
   - FR0000184798
