@@ -6087,6 +6087,9 @@ companies:
   - yahoo: NKRKF
     google: OTCMKTS:NKRKF
     currency: USD
+  - yahoo: NRE0.F
+    google: FRA:NRE0
+    currency: EUR
   metadata:
     founded: 1988
     employees: 4790
@@ -17401,6 +17404,9 @@ companies:
   - yahoo: VTR
     google: NYSE:VTR
     currency: USD
+  - yahoo: 0LO4.L
+    google: LON:0LO4
+    currency: GBP
   metadata:
     founded: 1998
     employees: 500
@@ -22810,6 +22816,9 @@ companies:
     currency: USD
   - yahoo: ER7.F
     google: FRA:ER7
+    currency: EUR
+  - yahoo: ER70.F
+    google: FRA:ER70
     currency: EUR
   isins:
   - FR0000131757
