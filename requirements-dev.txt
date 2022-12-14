@@ -2,7 +2,7 @@ wheel==0.38.4
 pytest
 pytest-cov
 pandas==1.4.2
-yfinance==0.1.87
+yfinance==0.1.90
 PyYAML==6.0
 pycountry==22.3.5
 packaging
