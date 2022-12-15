@@ -351,6 +351,9 @@ companies:
   - yahoo: 0H4A.L
     google: LON:0H4A
     currency: GBP
+  - yahoo: LHAB.F
+    google: FRA:LHAB
+    currency: EUR
   metadata:
     founded: 1953
     employees: 110065
@@ -26837,6 +26840,9 @@ companies:
   - yahoo: INVH
     google: NYSE:INVH
     currency: USD
+  - yahoo: 4IV.F
+    google: FRA:4IV
+    currency: EUR
   isins: []
   metadata:
     founded: 2012
