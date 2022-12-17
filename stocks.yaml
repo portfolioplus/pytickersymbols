@@ -6820,6 +6820,9 @@ companies:
   - yahoo: ESLOY
     google: OTCMKTS:ESLOY
     currency: USD
+  - yahoo: ESLC.F
+    google: FRA:ESLC
+    currency: EUR
   metadata:
     founded: 2018
     employees: 150000
@@ -15998,6 +16001,9 @@ companies:
   - yahoo: PSX
     google: NYSE:PSX
     currency: USD
+  - yahoo: 0KHZ.L
+    google: LON:0KHZ
+    currency: GBP
   metadata:
     founded: 1927
     employees: 14600
@@ -26442,6 +26448,9 @@ companies:
     currency: GBP
   - yahoo: 9AA.F
     google: FRA:9AA
+    currency: EUR
+  - yahoo: 9AA0.F
+    google: FRA:9AA0
     currency: EUR
   isins: []
   metadata:
