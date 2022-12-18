@@ -7081,6 +7081,9 @@ companies:
   - yahoo: RNLSY
     google: OTCMKTS:RNLSY
     currency: USD
+  - yahoo: RNL1.F
+    google: FRA:RNL1
+    currency: EUR
   metadata:
     founded: 1899
     employees: 170158
@@ -19544,6 +19547,9 @@ companies:
   - yahoo: ACO4.F
     google: FRA:ACO4
     currency: EUR
+  - yahoo: ATLPF
+    google: OTCMKTS:ATLPF
+    currency: USD
   metadata:
     founded: 1873
     employees: 44695
@@ -19762,6 +19768,9 @@ companies:
   - yahoo: 0GRX.L
     google: LON:0GRX
     currency: GBP
+  - yahoo: HXG.F
+    google: FRA:HXG
+    currency: EUR
   metadata:
     founded: 1975
     employees: 20250
@@ -24065,6 +24074,9 @@ companies:
   - yahoo: 0A5J.L
     google: LON:0A5J
     currency: GBP
+  - yahoo: DMPHF
+    google: OTCMKTS:DMPHF
+    currency: USD
   isins:
   - DE000A2GS5D8
   metadata:
@@ -26183,6 +26195,9 @@ companies:
   - yahoo: CPT
     google: NYSE:CPT
     currency: USD
+  - yahoo: CAL.F
+    google: FRA:CAL
+    currency: EUR
   isins: []
   metadata:
     founded: 1981
