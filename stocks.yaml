@@ -1431,6 +1431,9 @@ companies:
   - yahoo: GRRMF
     google: OTCMKTS:GRRMF
     currency: USD
+  - yahoo: GRRMY
+    google: OTCMKTS:GRRMY
+    currency: USD
   metadata:
     founded: 1864
     employees: 9880
@@ -19544,6 +19547,9 @@ companies:
   - yahoo: ACO4.F
     google: FRA:ACO4
     currency: EUR
+  - yahoo: ATLPF
+    google: OTCMKTS:ATLPF
+    currency: USD
   metadata:
     founded: 1873
     employees: 44695
