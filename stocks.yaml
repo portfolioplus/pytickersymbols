@@ -1431,6 +1431,9 @@ companies:
   - yahoo: GRRMF
     google: OTCMKTS:GRRMF
     currency: USD
+  - yahoo: GRRMY
+    google: OTCMKTS:GRRMY
+    currency: USD
   metadata:
     founded: 1864
     employees: 9880
