@@ -15511,6 +15511,9 @@ companies:
   - yahoo: MCO
     google: NYSE:MCO
     currency: USD
+  - yahoo: 0K36.L
+    google: LON:0K36
+    currency: GBP
   metadata:
     founded: 1909
     employees: 11490
@@ -19544,6 +19547,9 @@ companies:
   - yahoo: ACO4.F
     google: FRA:ACO4
     currency: EUR
+  - yahoo: ATLPF
+    google: OTCMKTS:ATLPF
+    currency: USD
   metadata:
     founded: 1873
     employees: 44695
@@ -19762,6 +19768,9 @@ companies:
   - yahoo: 0GRX.L
     google: LON:0GRX
     currency: GBP
+  - yahoo: HXG.F
+    google: FRA:HXG
+    currency: EUR
   metadata:
     founded: 1975
     employees: 20250
@@ -25938,6 +25947,9 @@ companies:
   - yahoo: MBGAF
     google: OTCMKTS:MBGAF
     currency: USD
+  - yahoo: DAII.F
+    google: FRA:DAII
+    currency: EUR
   isins:
   - DE0007100000
   metadata:
