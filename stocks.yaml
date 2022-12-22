@@ -4228,6 +4228,9 @@ companies:
   - yahoo: DCC.L
     google: LON:DCC
     currency: GBP
+  - yahoo: DCCPY
+    google: OTCMKTS:DCCPY
+    currency: USD
   metadata:
     founded: 1976
     employees: 12773
