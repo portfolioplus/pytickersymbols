@@ -26775,6 +26775,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
@@ -26920,6 +26923,12 @@ companies:
   - yahoo: 'ON'
     google: NASDAQ:ON
     currency: USD
+  - yahoo: XS4.F
+    google: FRA:XS4
+    currency: EUR
+  - yahoo: 0KC4.L
+    google: LON:0KC4
+    currency: GBP
   isins:
   - US6821891057
   metadata:
