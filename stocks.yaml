@@ -12950,6 +12950,9 @@ companies:
   - yahoo: DAL
     google: NYSE:DAL
     currency: USD
+  - yahoo: 0QZ4.L
+    google: LON:0QZ4
+    currency: GBP
   metadata:
     founded: 1925
     employees: 91000
@@ -26775,6 +26778,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
