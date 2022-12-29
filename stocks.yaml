@@ -18567,6 +18567,9 @@ companies:
   - yahoo: CABK.MC
     google: BME:CABK
     currency: EUR
+  - yahoo: CIXPF
+    google: OTCMKTS:CIXPF
+    currency: USD
   metadata:
     founded: 2011
     employees: 37440
@@ -26372,6 +26375,9 @@ companies:
   - yahoo: WBD
     google: NASDAQ:WBD
     currency: USD
+  - yahoo: J5A.F
+    google: FRA:J5A
+    currency: EUR
   isins:
   - US9344231041
   metadata:
@@ -26566,6 +26572,9 @@ companies:
   - yahoo: ADN1.F
     google: FRA:ADN1
     currency: EUR
+  - yahoo: ADSGF
+    google: OTCMKTS:ADSGF
+    currency: USD
   isins:
   - DE000A0Z23Q5
   metadata:
@@ -26775,6 +26784,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
