@@ -4228,6 +4228,9 @@ companies:
   - yahoo: DCC.L
     google: LON:DCC
     currency: GBP
+  - yahoo: DCCPY
+    google: OTCMKTS:DCCPY
+    currency: USD
   metadata:
     founded: 1976
     employees: 12773
@@ -18567,6 +18570,9 @@ companies:
   - yahoo: CABK.MC
     google: BME:CABK
     currency: EUR
+  - yahoo: CIXPF
+    google: OTCMKTS:CIXPF
+    currency: USD
   metadata:
     founded: 2011
     employees: 37440
@@ -26775,6 +26781,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
