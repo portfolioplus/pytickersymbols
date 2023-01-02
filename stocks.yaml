@@ -4228,6 +4228,9 @@ companies:
   - yahoo: DCC.L
     google: LON:DCC
     currency: GBP
+  - yahoo: DCCPY
+    google: OTCMKTS:DCCPY
+    currency: USD
   metadata:
     founded: 1976
     employees: 12773
@@ -7980,6 +7983,9 @@ companies:
   - yahoo: PFE
     google: NYSE:PFE
     currency: USD
+  - yahoo: PFEB.F
+    google: FRA:PFEB
+    currency: EUR
   metadata:
     founded: 1849
     employees: 78500
@@ -25885,6 +25891,9 @@ companies:
   - yahoo: DARK.L
     google: LON:DARK
     currency: GBP
+  - yahoo: 7TJ0.F
+    google: FRA:7TJ0
+    currency: EUR
   isins: []
   metadata:
     founded: 2013
@@ -26031,6 +26040,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26775,6 +26787,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
