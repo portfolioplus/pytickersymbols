@@ -26031,6 +26031,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26277,6 +26280,9 @@ companies:
   - yahoo: MOH
     google: NYSE:MOH
     currency: USD
+  - yahoo: MHG.F
+    google: FRA:MHG
+    currency: EUR
   isins: []
   metadata:
     founded: 1980
@@ -26775,6 +26781,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
