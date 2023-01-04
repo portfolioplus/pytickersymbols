@@ -19437,6 +19437,9 @@ companies:
   - yahoo: WOS.F
     google: FRA:WOS
     currency: EUR
+  - yahoo: WOLTF
+    google: OTCMKTS:WOLTF
+    currency: USD
   metadata:
     founded: 1836
     employees: 19200
@@ -26031,6 +26034,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26053,6 +26059,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26314,6 +26323,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VV.F
+    google: FRA:0VV
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
@@ -26775,6 +26787,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
