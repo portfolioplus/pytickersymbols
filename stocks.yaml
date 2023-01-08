@@ -159,6 +159,9 @@ companies:
   - yahoo: BAYRY
     google: OTCMKTS:BAYRY
     currency: USD
+  - yahoo: BAYA.F
+    google: FRA:BAYA
+    currency: EUR
   metadata:
     founded: 1863
     employees: 103824
@@ -15800,6 +15803,9 @@ companies:
   - yahoo: NRG
     google: NYSE:NRG
     currency: USD
+  - yahoo: 0K4C.L
+    google: LON:0K4C
+    currency: GBP
   metadata:
     founded: 1992
     employees: 4862
@@ -25666,6 +25672,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -26053,6 +26062,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26775,6 +26787,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
