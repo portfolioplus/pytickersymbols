@@ -159,6 +159,9 @@ companies:
   - yahoo: BAYRY
     google: OTCMKTS:BAYRY
     currency: USD
+  - yahoo: BAYA.F
+    google: FRA:BAYA
+    currency: EUR
   metadata:
     founded: 1863
     employees: 103824
@@ -22561,6 +22564,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -26053,6 +26059,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26775,6 +26784,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
