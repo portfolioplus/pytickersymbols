@@ -25234,6 +25234,9 @@ companies:
   - yahoo: VTW.F
     google: FRA:VTW
     currency: EUR
+  - yahoo: VTW0.F
+    google: FRA:VTW0
+    currency: EUR
   isins:
   - DE000A3H3LL2
   metadata:
@@ -26053,6 +26056,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26984,6 +26990,9 @@ companies:
   - yahoo: VICI
     google: NYSE:VICI
     currency: USD
+  - yahoo: 1KN.F
+    google: FRA:1KN
+    currency: EUR
   isins:
   - US9256521090
   metadata:
