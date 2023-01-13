@@ -25885,6 +25885,9 @@ companies:
   - yahoo: DARK.L
     google: LON:DARK
     currency: GBP
+  - yahoo: 7TJ0.F
+    google: FRA:7TJ0
+    currency: EUR
   isins: []
   metadata:
     founded: 2013
@@ -26053,6 +26056,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
