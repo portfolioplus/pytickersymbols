@@ -4228,6 +4228,9 @@ companies:
   - yahoo: DCC.L
     google: LON:DCC
     currency: GBP
+  - yahoo: DCCPY
+    google: OTCMKTS:DCCPY
+    currency: USD
   metadata:
     founded: 1976
     employees: 12773
@@ -22775,6 +22778,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -26053,6 +26059,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
