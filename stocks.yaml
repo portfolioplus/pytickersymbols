@@ -24857,6 +24857,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -26053,6 +26056,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26566,6 +26572,9 @@ companies:
   - yahoo: ADN1.F
     google: FRA:ADN1
     currency: EUR
+  - yahoo: ADSGF
+    google: OTCMKTS:ADSGF
+    currency: USD
   isins:
   - DE000A0Z23Q5
   metadata:
