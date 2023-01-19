@@ -22775,6 +22775,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -24857,6 +24860,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -26053,6 +26059,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26293,6 +26302,9 @@ companies:
   - yahoo: NDSN
     google: NASDAQ:NDSN
     currency: USD
+  - yahoo: ND1.F
+    google: FRA:ND1
+    currency: EUR
   isins: []
   metadata:
     founded: 1935
@@ -26615,6 +26627,9 @@ companies:
   - yahoo: VTSC.F
     google: FRA:VTSC
     currency: EUR
+  - yahoo: VTSCF
+    google: OTCMKTS:VTSCF
+    currency: USD
   isins:
   - DE000VTSC017
   metadata:
