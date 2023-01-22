@@ -24645,6 +24645,9 @@ companies:
   - yahoo: 0A78.L
     google: LON:0A78
     currency: GBP
+  - yahoo: 2ER.F
+    google: FRA:2ER
+    currency: EUR
   isins: []
   metadata:
     founded: 1996
@@ -26053,6 +26056,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26566,6 +26572,9 @@ companies:
   - yahoo: ADN1.F
     google: FRA:ADN1
     currency: EUR
+  - yahoo: ADSGF
+    google: OTCMKTS:ADSGF
+    currency: USD
   isins:
   - DE000A0Z23Q5
   metadata:
