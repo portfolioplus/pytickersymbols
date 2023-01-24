@@ -2451,6 +2451,9 @@ companies:
   - yahoo: GBFU.F
     google: FRA:GBFU
     currency: EUR
+  - yahoo: BFLBF
+    google: OTCMKTS:BFLBF
+    currency: USD
   metadata:
     founded: 1880
     employees: 34120
@@ -26314,6 +26317,12 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VVB.F
+    google: FRA:0VVB
+    currency: EUR
+  - yahoo: 0VV.F
+    google: FRA:0VV
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
@@ -26566,6 +26575,9 @@ companies:
   - yahoo: ADN1.F
     google: FRA:ADN1
     currency: EUR
+  - yahoo: ADSGF
+    google: OTCMKTS:ADSGF
+    currency: USD
   isins:
   - DE000A0Z23Q5
   metadata:
