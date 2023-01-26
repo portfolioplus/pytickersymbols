@@ -2244,6 +2244,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -22561,6 +22564,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -26566,6 +26572,9 @@ companies:
   - yahoo: ADN1.F
     google: FRA:ADN1
     currency: EUR
+  - yahoo: ADSGF
+    google: OTCMKTS:ADSGF
+    currency: USD
   isins:
   - DE000A0Z23Q5
   metadata:
@@ -26984,6 +26993,9 @@ companies:
   - yahoo: VICI
     google: NYSE:VICI
     currency: USD
+  - yahoo: 1KN.F
+    google: FRA:1KN
+    currency: EUR
   isins:
   - US9256521090
   metadata:
