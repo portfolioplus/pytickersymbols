@@ -2244,6 +2244,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -22775,6 +22778,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
