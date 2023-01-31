@@ -8077,6 +8077,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -22775,6 +22778,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
