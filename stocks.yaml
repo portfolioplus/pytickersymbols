@@ -8077,6 +8077,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -26053,6 +26056,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
