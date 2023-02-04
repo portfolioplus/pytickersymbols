@@ -159,6 +159,9 @@ companies:
   - yahoo: BAYRY
     google: OTCMKTS:BAYRY
     currency: USD
+  - yahoo: BAYA.F
+    google: FRA:BAYA
+    currency: EUR
   metadata:
     founded: 1863
     employees: 103824
@@ -11903,6 +11906,9 @@ companies:
   - yahoo: BALL
     google: NYSE:BALL
     currency: USD
+  - yahoo: 358.F
+    google: FRA:358
+    currency: EUR
   metadata:
     founded: 1880
     employees: 18300
@@ -22775,6 +22781,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -26053,6 +26062,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26314,6 +26326,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VV.F
+    google: FRA:0VV
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
