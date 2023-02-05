@@ -11131,6 +11131,9 @@ companies:
   - yahoo: 0H6G.L
     google: LON:0H6G
     currency: GBP
+  - yahoo: 6AR0.F
+    google: FRA:6AR0
+    currency: EUR
   metadata:
     founded: 1981
     employees: 8000
@@ -22561,6 +22564,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
