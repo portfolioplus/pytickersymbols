@@ -19664,6 +19664,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -25397,6 +25400,9 @@ companies:
   - yahoo: 0IT3.L
     google: LON:0IT3
     currency: GBP
+  - yahoo: 0P0000JO38.F
+    google: FRA:0P0000JO38
+    currency: EUR
   isins:
   - FR0010411983
   metadata:
