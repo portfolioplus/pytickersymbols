@@ -11903,6 +11903,9 @@ companies:
   - yahoo: BALL
     google: NYSE:BALL
     currency: USD
+  - yahoo: 358.F
+    google: FRA:358
+    currency: EUR
   metadata:
     founded: 1880
     employees: 18300
@@ -19664,6 +19667,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -27179,6 +27185,9 @@ companies:
   - yahoo: 2CVU.F
     google: FRA:2CVU
     currency: EUR
+  - yahoo: CNVVF
+    google: OTCMKTS:CNVVF
+    currency: USD
   isins: []
   metadata:
     founded: 1978
