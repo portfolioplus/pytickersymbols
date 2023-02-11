@@ -22775,6 +22775,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -26920,6 +26923,12 @@ companies:
   - yahoo: 'ON'
     google: NASDAQ:ON
     currency: USD
+  - yahoo: XS4.F
+    google: FRA:XS4
+    currency: EUR
+  - yahoo: 0KC4.L
+    google: LON:0KC4
+    currency: GBP
   isins:
   - US6821891057
   metadata:
