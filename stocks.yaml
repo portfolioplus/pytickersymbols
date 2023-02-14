@@ -26031,6 +26031,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26920,6 +26923,12 @@ companies:
   - yahoo: 'ON'
     google: NASDAQ:ON
     currency: USD
+  - yahoo: XS4.F
+    google: FRA:XS4
+    currency: EUR
+  - yahoo: 0KC4.L
+    google: LON:0KC4
+    currency: GBP
   isins:
   - US6821891057
   metadata:
