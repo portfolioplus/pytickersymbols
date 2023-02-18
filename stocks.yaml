@@ -384,6 +384,9 @@ companies:
   - yahoo: DPWA.F
     google: FRA:DPWA
     currency: EUR
+  - yahoo: DPWN.F
+    google: FRA:DPWN
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -2244,6 +2247,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -27179,6 +27185,9 @@ companies:
   - yahoo: 2CVU.F
     google: FRA:2CVU
     currency: EUR
+  - yahoo: CNVVF
+    google: OTCMKTS:CNVVF
+    currency: USD
   isins: []
   metadata:
     founded: 1978
