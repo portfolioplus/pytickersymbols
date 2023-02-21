@@ -384,6 +384,9 @@ companies:
   - yahoo: DPWA.F
     google: FRA:DPWA
     currency: EUR
+  - yahoo: DPWN.F
+    google: FRA:DPWN
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -19630,6 +19633,9 @@ companies:
   - yahoo: BWJ1.F
     google: FRA:BWJ1
     currency: EUR
+  - yahoo: BWJ0.F
+    google: FRA:BWJ0
+    currency: EUR
   metadata:
     founded: 1931
     employees: 4881
@@ -25988,6 +25994,9 @@ companies:
   - yahoo: 6Z1.F
     google: FRA:6Z1
     currency: EUR
+  - yahoo: 0A8C.L
+    google: LON:0A8C
+    currency: GBP
   isins: []
   metadata:
     founded: 2008
@@ -26293,6 +26302,9 @@ companies:
   - yahoo: NDSN
     google: NASDAQ:NDSN
     currency: USD
+  - yahoo: ND1.F
+    google: FRA:ND1
+    currency: EUR
   isins: []
   metadata:
     founded: 1935
@@ -26920,6 +26932,12 @@ companies:
   - yahoo: 'ON'
     google: NASDAQ:ON
     currency: USD
+  - yahoo: 0KC4.L
+    google: LON:0KC4
+    currency: GBP
+  - yahoo: XS4.F
+    google: FRA:XS4
+    currency: EUR
   isins:
   - US6821891057
   metadata:
