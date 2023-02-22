@@ -13145,6 +13145,9 @@ companies:
   - yahoo: DHI
     google: NYSE:DHI
     currency: USD
+  - yahoo: 0I6K.L
+    google: LON:0I6K
+    currency: GBP
   metadata:
     founded: 1978
     employees: 7735
@@ -22781,6 +22784,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -24651,6 +24657,9 @@ companies:
   - yahoo: 0A78.L
     google: LON:0A78
     currency: GBP
+  - yahoo: 2ER.F
+    google: FRA:2ER
+    currency: EUR
   isins: []
   metadata:
     founded: 1996
@@ -26343,6 +26352,12 @@ companies:
   - yahoo: SBNY
     google: NASDAQ:SBNY
     currency: USD
+  - yahoo: TQJ.F
+    google: FRA:TQJ
+    currency: EUR
+  - yahoo: 0A85.L
+    google: LON:0A85
+    currency: GBP
   isins: []
   metadata:
     founded: 2001
