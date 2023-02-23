@@ -7933,6 +7933,9 @@ companies:
   - yahoo: MRK.F
     google: FRA:MRK
     currency: EUR
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -9102,6 +9105,9 @@ companies:
   - yahoo: 0P0001I1JH
     google: OTCMKTS:0P0001I1JH
     currency: USD
+  - yahoo: 0P0000KQL1
+    google: OTCMKTS:0P0000KQL1
+    currency: USD
   metadata:
     founded: 1927
     employees: 121000
@@ -9617,6 +9623,9 @@ companies:
   - yahoo: SBUX
     google: NASDAQ:SBUX
     currency: USD
+  - yahoo: SRB0.F
+    google: FRA:SRB0
+    currency: EUR
   metadata:
     founded: 1971
     employees: 349000
@@ -12953,6 +12962,9 @@ companies:
   - yahoo: DAL
     google: NYSE:DAL
     currency: USD
+  - yahoo: 0QZ4.L
+    google: LON:0QZ4
+    currency: GBP
   metadata:
     founded: 1925
     employees: 91000
@@ -25239,6 +25251,9 @@ companies:
     currency: GBP
   - yahoo: VTW.F
     google: FRA:VTW
+    currency: EUR
+  - yahoo: VTW0.F
+    google: FRA:VTW0
     currency: EUR
   isins:
   - DE000A3H3LL2
