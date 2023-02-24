@@ -7933,6 +7933,9 @@ companies:
   - yahoo: MRK.F
     google: FRA:MRK
     currency: EUR
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -9101,6 +9104,9 @@ companies:
     currency: USD
   - yahoo: 0P0001I1JH
     google: OTCMKTS:0P0001I1JH
+    currency: USD
+  - yahoo: 0P0000KQL1
+    google: OTCMKTS:0P0000KQL1
     currency: USD
   metadata:
     founded: 1927
@@ -26062,6 +26068,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
