@@ -5256,6 +5256,9 @@ companies:
   - yahoo: RRU1.F
     google: FRA:RRU1
     currency: EUR
+  - yahoo: RLLCF
+    google: OTCMKTS:RLLCF
+    currency: USD
   metadata:
     founded: 1904
     employees: 50000
@@ -7905,6 +7908,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: NKE0.F
+    google: FRA:NKE0
+    currency: EUR
   metadata:
     founded: 1964
     employees: 73300
@@ -7932,6 +7938,9 @@ companies:
     currency: USD
   - yahoo: MRK.F
     google: FRA:MRK
+    currency: EUR
+  - yahoo: MRKC.F
+    google: FRA:MRKC
     currency: EUR
   metadata:
     founded: 1668
@@ -25891,6 +25900,9 @@ companies:
   - yahoo: DARK.L
     google: LON:DARK
     currency: GBP
+  - yahoo: 7TJ0.F
+    google: FRA:7TJ0
+    currency: EUR
   isins: []
   metadata:
     founded: 2013
@@ -26040,6 +26052,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
