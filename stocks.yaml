@@ -4822,6 +4822,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: 27M0.F
+    google: FRA:27M0
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -7905,6 +7908,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: NKE0.F
+    google: FRA:NKE0
+    currency: EUR
   metadata:
     founded: 1964
     employees: 73300
