@@ -2247,6 +2247,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -2763,6 +2766,9 @@ companies:
     currency: EUR
   - yahoo: HBGRY
     google: OTCMKTS:HBGRY
+    currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
     currency: USD
   metadata:
     founded: 1850
@@ -24912,6 +24918,9 @@ companies:
     currency: GBP
   - yahoo: ATOGF
     google: OTCMKTS:ATOGF
+    currency: USD
+  - yahoo: ATOGY
+    google: OTCMKTS:ATOGY
     currency: USD
   isins:
   - DE000A2LQ884
