@@ -7905,6 +7905,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: NKE0.F
+    google: FRA:NKE0
+    currency: EUR
   metadata:
     founded: 1964
     employees: 73300
@@ -8080,6 +8083,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -15803,6 +15809,9 @@ companies:
   - yahoo: NRG
     google: NYSE:NRG
     currency: USD
+  - yahoo: 0K4C.L
+    google: LON:0K4C
+    currency: GBP
   metadata:
     founded: 1992
     employees: 4862
@@ -24912,6 +24921,9 @@ companies:
     currency: GBP
   - yahoo: ATOGF
     google: OTCMKTS:ATOGF
+    currency: USD
+  - yahoo: ATOGY
+    google: OTCMKTS:ATOGY
     currency: USD
   isins:
   - DE000A2LQ884
