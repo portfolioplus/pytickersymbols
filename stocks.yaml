@@ -2247,6 +2247,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -8080,6 +8083,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -25403,6 +25409,9 @@ companies:
   - yahoo: 0IT3.L
     google: LON:0IT3
     currency: GBP
+  - yahoo: 0P0000JO38.F
+    google: FRA:0P0000JO38
+    currency: EUR
   isins:
   - FR0010411983
   metadata:
@@ -26062,6 +26071,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
