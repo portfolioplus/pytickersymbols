@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -4822,6 +4825,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: 27M0.F
+    google: FRA:27M0
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -7905,6 +7911,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: NKE0.F
+    google: FRA:NKE0
+    currency: EUR
   metadata:
     founded: 1964
     employees: 73300
@@ -8080,6 +8089,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -24913,6 +24925,9 @@ companies:
   - yahoo: ATOGF
     google: OTCMKTS:ATOGF
     currency: USD
+  - yahoo: ATOGY
+    google: OTCMKTS:ATOGY
+    currency: USD
   isins:
   - DE000A2LQ884
   metadata:
@@ -26062,6 +26077,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
