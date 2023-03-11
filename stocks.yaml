@@ -22781,6 +22781,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -25403,6 +25406,9 @@ companies:
   - yahoo: 0IT3.L
     google: LON:0IT3
     currency: GBP
+  - yahoo: 0P0000JO38.F
+    google: FRA:0P0000JO38
+    currency: EUR
   isins:
   - FR0010411983
   metadata:
@@ -26040,6 +26046,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
