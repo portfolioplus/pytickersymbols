@@ -7905,6 +7905,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: NKE0.F
+    google: FRA:NKE0
+    currency: EUR
   metadata:
     founded: 1964
     employees: 73300
@@ -26040,6 +26043,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
