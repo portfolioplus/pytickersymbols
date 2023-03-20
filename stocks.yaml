@@ -159,6 +159,9 @@ companies:
   - yahoo: BAYRY
     google: OTCMKTS:BAYRY
     currency: USD
+  - yahoo: BAYA.F
+    google: FRA:BAYA
+    currency: EUR
   metadata:
     founded: 1863
     employees: 103824
@@ -2764,6 +2767,9 @@ companies:
   - yahoo: HBGRY
     google: OTCMKTS:HBGRY
     currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
+    currency: USD
   metadata:
     founded: 1850
     employees: 11511
@@ -4822,6 +4828,9 @@ companies:
   - yahoo: MLSYY
     google: OTCMKTS:MLSYY
     currency: USD
+  - yahoo: 27M0.F
+    google: FRA:27M0
+    currency: EUR
   metadata:
     founded: 2003
     employees: ''
@@ -18708,6 +18717,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F.F
+    google: FRA:G0F
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -22781,6 +22793,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -24862,6 +24877,9 @@ companies:
     currency: USD
   - yahoo: MAP.MC
     google: BME:MAP
+    currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
     currency: EUR
   isins:
   - ES0124244E34
