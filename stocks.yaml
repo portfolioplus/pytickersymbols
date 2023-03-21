@@ -24863,6 +24863,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -24912,6 +24915,9 @@ companies:
     currency: GBP
   - yahoo: ATOGF
     google: OTCMKTS:ATOGF
+    currency: USD
+  - yahoo: ATOGY
+    google: OTCMKTS:ATOGY
     currency: USD
   isins:
   - DE000A2LQ884
@@ -27197,6 +27203,9 @@ companies:
   - yahoo: 2CVU.F
     google: FRA:2CVU
     currency: EUR
+  - yahoo: CNVVF
+    google: OTCMKTS:CNVVF
+    currency: USD
   isins: []
   metadata:
     founded: 1978
