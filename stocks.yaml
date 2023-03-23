@@ -2686,6 +2686,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -18708,6 +18711,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F.F
+    google: FRA:G0F
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -26326,6 +26332,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VV.F
+    google: FRA:0VV
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
