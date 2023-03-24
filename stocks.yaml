@@ -2686,6 +2686,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -23642,6 +23645,9 @@ companies:
   - yahoo: 0MCK.L
     google: LON:0MCK
     currency: GBP
+  - yahoo: SCA0.F
+    google: FRA:SCA0
+    currency: EUR
   isins:
   - SE0000112724
   - SE0000171886
@@ -27002,6 +27008,9 @@ companies:
   - yahoo: VICI
     google: NYSE:VICI
     currency: USD
+  - yahoo: 1KN.F
+    google: FRA:1KN
+    currency: EUR
   isins:
   - US9256521090
   metadata:
