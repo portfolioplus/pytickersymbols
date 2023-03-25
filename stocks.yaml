@@ -18708,6 +18708,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F.F
+    google: FRA:G0F
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -27454,6 +27457,9 @@ companies:
   - yahoo: GEN
     google: NASDAQ:GEN
     currency: USD
+  - yahoo: SYM.F
+    google: FRA:SYM
+    currency: EUR
   isins: []
   metadata:
     founded: 1982
