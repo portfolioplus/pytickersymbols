@@ -2686,6 +2686,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -2763,6 +2766,9 @@ companies:
     currency: EUR
   - yahoo: HBGRY
     google: OTCMKTS:HBGRY
+    currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
     currency: USD
   metadata:
     founded: 1850
@@ -9101,6 +9107,9 @@ companies:
     currency: USD
   - yahoo: 0P0001I1JH
     google: OTCMKTS:0P0001I1JH
+    currency: USD
+  - yahoo: 0P0000KQL1
+    google: OTCMKTS:0P0000KQL1
     currency: USD
   metadata:
     founded: 1927
@@ -18708,6 +18717,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F.F
+    google: FRA:G0F
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -25672,6 +25684,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
