@@ -2686,6 +2686,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -8080,6 +8083,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -27454,6 +27460,9 @@ companies:
   - yahoo: GEN
     google: NASDAQ:GEN
     currency: USD
+  - yahoo: SYM.F
+    google: FRA:SYM
+    currency: EUR
   isins: []
   metadata:
     founded: 1982
