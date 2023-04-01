@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -6184,6 +6187,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -27002,6 +27008,9 @@ companies:
   - yahoo: VICI
     google: NYSE:VICI
     currency: USD
+  - yahoo: 1KN.F
+    google: FRA:1KN
+    currency: EUR
   isins:
   - US9256521090
   metadata:
