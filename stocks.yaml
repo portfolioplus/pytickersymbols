@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -26062,6 +26065,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26286,6 +26292,9 @@ companies:
   - yahoo: MOH
     google: NYSE:MOH
     currency: USD
+  - yahoo: MHG.F
+    google: FRA:MHG
+    currency: EUR
   isins: []
   metadata:
     founded: 1980
