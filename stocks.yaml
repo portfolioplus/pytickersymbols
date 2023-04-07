@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -7513,6 +7516,9 @@ companies:
   - yahoo: AAPL
     google: NASDAQ:AAPL
     currency: USD
+  - yahoo: APC8.F
+    google: FRA:APC8
+    currency: EUR
   metadata:
     founded: 1976
     employees: 147000
@@ -9617,6 +9623,9 @@ companies:
   - yahoo: SBUX
     google: NASDAQ:SBUX
     currency: USD
+  - yahoo: SRB0.F
+    google: FRA:SRB0
+    currency: EUR
   metadata:
     founded: 1971
     employees: 349000
@@ -22781,6 +22790,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -26062,6 +26074,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26343,6 +26358,12 @@ companies:
   - yahoo: SBNY
     google: NASDAQ:SBNY
     currency: USD
+  - yahoo: SBNYP
+    google: NASDAQ:SBNYP
+    currency: USD
+  - yahoo: TQJ.F
+    google: FRA:TQJ
+    currency: EUR
   isins: []
   metadata:
     founded: 2001
