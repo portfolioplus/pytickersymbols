@@ -9617,6 +9617,9 @@ companies:
   - yahoo: SBUX
     google: NASDAQ:SBUX
     currency: USD
+  - yahoo: SRB0.F
+    google: FRA:SRB0
+    currency: EUR
   metadata:
     founded: 1971
     employees: 349000
@@ -19670,6 +19673,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -22781,6 +22787,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
