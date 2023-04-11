@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -2686,6 +2689,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -22853,6 +22859,9 @@ companies:
   - yahoo: ER70.F
     google: FRA:ER70
     currency: EUR
+  - yahoo: ERMAF
+    google: OTCMKTS:ERMAF
+    currency: USD
   isins:
   - FR0000131757
   metadata:
