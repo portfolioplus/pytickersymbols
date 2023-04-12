@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -8488,6 +8491,9 @@ companies:
   - yahoo: BAIDF
     google: OTCMKTS:BAIDF
     currency: USD
+  - yahoo: B1CB.F
+    google: FRA:B1CB
+    currency: EUR
   metadata:
     founded: 2000
     employees: 45887
