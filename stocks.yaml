@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -8488,6 +8491,9 @@ companies:
   - yahoo: BAIDF
     google: OTCMKTS:BAIDF
     currency: USD
+  - yahoo: B1CB.F
+    google: FRA:B1CB
+    currency: EUR
   metadata:
     founded: 2000
     employees: 45887
@@ -13145,6 +13151,9 @@ companies:
   - yahoo: DHI
     google: NYSE:DHI
     currency: USD
+  - yahoo: 0I6K.L
+    google: LON:0I6K
+    currency: GBP
   metadata:
     founded: 1978
     employees: 7735
@@ -22781,6 +22790,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
