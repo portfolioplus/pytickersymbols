@@ -620,6 +620,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -6043,6 +6046,9 @@ companies:
   - yahoo: NEFA.F
     google: FRA:NEFA
     currency: EUR
+  - yahoo: NTOIF
+    google: OTCMKTS:NTOIF
+    currency: USD
   metadata:
     founded: 1948
     employees: 4400
@@ -11906,6 +11912,9 @@ companies:
   - yahoo: BALL
     google: NYSE:BALL
     currency: USD
+  - yahoo: 358.F
+    google: FRA:358
+    currency: EUR
   metadata:
     founded: 1880
     employees: 18300
@@ -25672,6 +25681,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
