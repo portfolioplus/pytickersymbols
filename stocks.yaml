@@ -6043,6 +6043,9 @@ companies:
   - yahoo: NEFA.F
     google: FRA:NEFA
     currency: EUR
+  - yahoo: NTOIF
+    google: OTCMKTS:NTOIF
+    currency: USD
   metadata:
     founded: 1948
     employees: 4400
@@ -25672,6 +25675,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
