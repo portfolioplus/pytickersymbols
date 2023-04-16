@@ -2686,6 +2686,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -7933,6 +7936,9 @@ companies:
   - yahoo: MRK.F
     google: FRA:MRK
     currency: EUR
+  - yahoo: MKKGY
+    google: OTCMKTS:MKKGY
+    currency: USD
   metadata:
     founded: 1668
     employees: 74000
@@ -25672,6 +25678,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
