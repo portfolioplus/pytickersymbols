@@ -159,6 +159,9 @@ companies:
   - yahoo: BAYRY
     google: OTCMKTS:BAYRY
     currency: USD
+  - yahoo: BAYA.F
+    google: FRA:BAYA
+    currency: EUR
   metadata:
     founded: 1863
     employees: 103824
@@ -620,6 +623,9 @@ companies:
   - yahoo: LIN
     google: NYSE:LIN
     currency: USD
+  - yahoo: 0M2B.L
+    google: LON:0M2B
+    currency: GBP
   metadata:
     founded: 1879
     employees: 74207
@@ -2940,6 +2946,9 @@ companies:
   - yahoo: KLKNF
     google: OTCMKTS:KLKNF
     currency: USD
+  - yahoo: KCOV.F
+    google: FRA:KCOV
+    currency: EUR
   metadata:
     founded: 1906
     employees: 8253
@@ -7933,6 +7942,9 @@ companies:
   - yahoo: MRK.F
     google: FRA:MRK
     currency: EUR
+  - yahoo: MKKGY
+    google: OTCMKTS:MKKGY
+    currency: USD
   metadata:
     founded: 1668
     employees: 74000
@@ -9617,6 +9629,9 @@ companies:
   - yahoo: SBUX
     google: NASDAQ:SBUX
     currency: USD
+  - yahoo: SRB0.F
+    google: FRA:SRB0
+    currency: EUR
   metadata:
     founded: 1971
     employees: 349000
@@ -27002,6 +27017,9 @@ companies:
   - yahoo: VICI
     google: NYSE:VICI
     currency: USD
+  - yahoo: 1KN.F
+    google: FRA:1KN
+    currency: EUR
   isins:
   - US9256521090
   metadata:
