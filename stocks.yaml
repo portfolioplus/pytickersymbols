@@ -2845,6 +2845,9 @@ companies:
   - yahoo: INDXF
     google: OTCMKTS:INDXF
     currency: USD
+  - yahoo: INDHF
+    google: OTCMKTS:INDHF
+    currency: USD
   metadata:
     founded: 1989
     employees: 10644
@@ -26077,6 +26080,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
