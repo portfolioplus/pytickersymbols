@@ -9114,6 +9114,9 @@ companies:
   - yahoo: 0P0001I1JH
     google: OTCMKTS:0P0001I1JH
     currency: USD
+  - yahoo: 0P0000KQL1
+    google: OTCMKTS:0P0000KQL1
+    currency: USD
   metadata:
     founded: 1927
     employees: 121000
@@ -26055,6 +26058,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26077,6 +26083,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26341,6 +26350,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VVB.F
+    google: FRA:0VVB
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
