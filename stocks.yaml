@@ -11921,6 +11921,9 @@ companies:
   - yahoo: BALL
     google: NYSE:BALL
     currency: USD
+  - yahoo: 358.F
+    google: FRA:358
+    currency: EUR
   metadata:
     founded: 1880
     employees: 18300
@@ -26055,6 +26058,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
