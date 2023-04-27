@@ -2692,6 +2692,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -18585,6 +18588,9 @@ companies:
   - yahoo: CABK.MC
     google: BME:CABK
     currency: EUR
+  - yahoo: FV9J.F
+    google: FRA:FV9J
+    currency: EUR
   metadata:
     founded: 2011
     employees: 37440
@@ -25962,6 +25968,9 @@ companies:
   - yahoo: DTG1.F
     google: FRA:DTG1
     currency: EUR
+  - yahoo: DTGHF
+    google: OTCMKTS:DTGHF
+    currency: USD
   isins:
   - DE000DTR0CK8
   metadata:
@@ -26055,6 +26064,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
