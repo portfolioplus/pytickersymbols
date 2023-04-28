@@ -2845,6 +2845,9 @@ companies:
   - yahoo: INDXF
     google: OTCMKTS:INDXF
     currency: USD
+  - yahoo: INDHF
+    google: OTCMKTS:INDHF
+    currency: USD
   metadata:
     founded: 1989
     employees: 10644
@@ -22796,6 +22799,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -25906,6 +25912,9 @@ companies:
   - yahoo: DARK.L
     google: LON:DARK
     currency: GBP
+  - yahoo: 7TJ0.F
+    google: FRA:7TJ0
+    currency: EUR
   isins: []
   metadata:
     founded: 2013
@@ -26055,6 +26064,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26077,6 +26089,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -26531,6 +26546,9 @@ companies:
   - yahoo: HWDN.L
     google: LON:HWDN
     currency: GBP
+  - yahoo: HWDJY
+    google: OTCMKTS:HWDJY
+    currency: USD
   isins: []
   metadata:
     founded: 1995
@@ -27042,6 +27060,9 @@ companies:
   - yahoo: XAL.F
     google: FRA:XAL
     currency: EUR
+  - yahoo: ATRRF
+    google: OTCMKTS:ATRRF
+    currency: USD
   isins: []
   metadata:
     founded: 1994
