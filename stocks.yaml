@@ -4923,6 +4923,9 @@ companies:
   - yahoo: NXGPY
     google: OTCMKTS:NXGPY
     currency: USD
+  - yahoo: NXG0.F
+    google: FRA:NXG0
+    currency: EUR
   metadata:
     founded: 1864
     employees: 44193
@@ -6193,6 +6196,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -7945,6 +7951,9 @@ companies:
   - yahoo: MKKGY
     google: OTCMKTS:MKKGY
     currency: USD
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -8092,6 +8101,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -8500,6 +8512,9 @@ companies:
   - yahoo: BAIDF
     google: OTCMKTS:BAIDF
     currency: USD
+  - yahoo: B1CB.F
+    google: FRA:B1CB
+    currency: EUR
   metadata:
     founded: 2000
     employees: 45887
@@ -19685,6 +19700,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -22582,6 +22600,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -22868,6 +22889,9 @@ companies:
   - yahoo: ER70.F
     google: FRA:ER70
     currency: EUR
+  - yahoo: ERMAF
+    google: OTCMKTS:ERMAF
+    currency: USD
   isins:
   - FR0000131757
   metadata:
@@ -27042,6 +27066,9 @@ companies:
   - yahoo: XAL.F
     google: FRA:XAL
     currency: EUR
+  - yahoo: ATRRF
+    google: OTCMKTS:ATRRF
+    currency: USD
   isins: []
   metadata:
     founded: 1994
