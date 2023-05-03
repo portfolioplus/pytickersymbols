@@ -2845,6 +2845,9 @@ companies:
   - yahoo: INDXF
     google: OTCMKTS:INDXF
     currency: USD
+  - yahoo: INDHF
+    google: OTCMKTS:INDHF
+    currency: USD
   metadata:
     founded: 1989
     employees: 10644
@@ -6193,6 +6196,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -7945,6 +7951,9 @@ companies:
   - yahoo: MKKGY
     google: OTCMKTS:MKKGY
     currency: USD
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -18585,6 +18594,9 @@ companies:
   - yahoo: CABK.MC
     google: BME:CABK
     currency: EUR
+  - yahoo: FV9J.F
+    google: FRA:FV9J
+    currency: EUR
   metadata:
     founded: 2011
     employees: 37440
@@ -19684,6 +19696,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
@@ -26077,6 +26092,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -27042,6 +27060,9 @@ companies:
   - yahoo: XAL.F
     google: FRA:XAL
     currency: EUR
+  - yahoo: ATRRF
+    google: OTCMKTS:ATRRF
+    currency: USD
   isins: []
   metadata:
     founded: 1994
