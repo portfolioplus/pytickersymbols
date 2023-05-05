@@ -4923,6 +4923,9 @@ companies:
   - yahoo: NXGPY
     google: OTCMKTS:NXGPY
     currency: USD
+  - yahoo: NXG0.F
+    google: FRA:NXG0
+    currency: EUR
   metadata:
     founded: 1864
     employees: 44193
@@ -6193,6 +6196,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -26055,6 +26061,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26077,6 +26086,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -27042,6 +27054,9 @@ companies:
   - yahoo: XAL.F
     google: FRA:XAL
     currency: EUR
+  - yahoo: ATRRF
+    google: OTCMKTS:ATRRF
+    currency: USD
   isins: []
   metadata:
     founded: 1994
