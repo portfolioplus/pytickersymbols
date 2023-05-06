@@ -18585,6 +18585,9 @@ companies:
   - yahoo: CABK.MC
     google: BME:CABK
     currency: EUR
+  - yahoo: FV9J.F
+    google: FRA:FV9J
+    currency: EUR
   metadata:
     founded: 2011
     employees: 37440
@@ -26055,6 +26058,9 @@ companies:
   - yahoo: 5AP.F
     google: FRA:5AP
     currency: EUR
+  - yahoo: 0KF5.L
+    google: LON:0KF5
+    currency: GBP
   isins: []
   metadata:
     founded: 2005
@@ -26077,6 +26083,9 @@ companies:
   - yahoo: 0ZC.F
     google: FRA:0ZC
     currency: EUR
+  - yahoo: 0XVU.L
+    google: LON:0XVU
+    currency: GBP
   isins: []
   metadata:
     founded: 2007
@@ -27042,6 +27051,9 @@ companies:
   - yahoo: XAL.F
     google: FRA:XAL
     currency: EUR
+  - yahoo: ATRRF
+    google: OTCMKTS:ATRRF
+    currency: USD
   isins: []
   metadata:
     founded: 1994
