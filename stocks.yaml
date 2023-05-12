@@ -24890,6 +24890,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -26359,6 +26362,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: VCX.F
+    google: FRA:VCX
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
