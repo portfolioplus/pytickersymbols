@@ -2253,6 +2253,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -19694,6 +19697,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -21488,6 +21494,9 @@ companies:
     currency: USD
   - yahoo: BUWA.F
     google: FRA:BUWA
+    currency: EUR
+  - yahoo: BUW.F
+    google: FRA:BUW
     currency: EUR
   isins: []
   metadata:
