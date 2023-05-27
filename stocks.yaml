@@ -6196,6 +6196,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -19501,6 +19504,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
