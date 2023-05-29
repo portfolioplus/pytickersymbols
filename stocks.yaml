@@ -1984,6 +1984,9 @@ companies:
   - yahoo: RRTU.F
     google: FRA:RRTU
     currency: EUR
+  - yahoo: RGLXF
+    google: OTCMKTS:RGLXF
+    currency: USD
   metadata:
     founded: 2000
     employees: 10747
@@ -6196,6 +6199,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -19501,6 +19507,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -22019,6 +22028,9 @@ companies:
   - yahoo: NVE.F
     google: FRA:NVE
     currency: EUR
+  - yahoo: 0NVR.L
+    google: LON:0NVR
+    currency: GBP
   isins: []
   metadata:
     founded: 1980
@@ -25699,6 +25711,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
