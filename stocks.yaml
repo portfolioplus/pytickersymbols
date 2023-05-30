@@ -713,6 +713,9 @@ companies:
   - yahoo: RWEA.F
     google: FRA:RWEA
     currency: EUR
+  - yahoo: RWNFF
+    google: OTCMKTS:RWNFF
+    currency: USD
   metadata:
     founded: 1898
     employees: 19498
@@ -2052,6 +2055,9 @@ companies:
     currency: USD
   - yahoo: SRT4.F
     google: FRA:SRT4
+    currency: EUR
+  - yahoo: SRT0.F
+    google: FRA:SRT0
     currency: EUR
   metadata:
     founded: 1870
@@ -6196,6 +6202,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -8095,6 +8104,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -19501,6 +19513,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19693,6 +19708,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
