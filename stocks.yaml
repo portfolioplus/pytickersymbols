@@ -6196,6 +6196,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -12971,6 +12974,9 @@ companies:
   - yahoo: DAL
     google: NYSE:DAL
     currency: USD
+  - yahoo: 0QZ4.L
+    google: LON:0QZ4
+    currency: GBP
   metadata:
     founded: 1925
     employees: 91000
@@ -19501,6 +19507,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19693,6 +19702,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
@@ -24940,6 +24952,9 @@ companies:
   - yahoo: ATOGF
     google: OTCMKTS:ATOGF
     currency: USD
+  - yahoo: AG10.F
+    google: FRA:AG10
+    currency: EUR
   isins:
   - DE000A2LQ884
   metadata:
@@ -27493,6 +27508,9 @@ companies:
   - yahoo: GEN
     google: NASDAQ:GEN
     currency: USD
+  - yahoo: SYM.F
+    google: FRA:SYM
+    currency: EUR
   isins: []
   metadata:
     founded: 1982
