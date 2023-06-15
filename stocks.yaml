@@ -1984,6 +1984,9 @@ companies:
   - yahoo: RRTU.F
     google: FRA:RRTU
     currency: EUR
+  - yahoo: RGLXF
+    google: OTCMKTS:RGLXF
+    currency: USD
   metadata:
     founded: 2000
     employees: 10747
@@ -2253,6 +2256,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -2769,6 +2775,9 @@ companies:
     currency: EUR
   - yahoo: HBGRY
     google: OTCMKTS:HBGRY
+    currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
     currency: USD
   metadata:
     founded: 1850
@@ -6142,6 +6151,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -10565,6 +10577,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -19501,6 +19516,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -25974,6 +25992,9 @@ companies:
   - yahoo: DTG1.F
     google: FRA:DTG1
     currency: EUR
+  - yahoo: 0AB9.L
+    google: LON:0AB9
+    currency: GBP
   isins:
   - DE000DTR0CK8
   metadata:
@@ -26820,6 +26841,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
