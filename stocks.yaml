@@ -1108,6 +1108,9 @@ companies:
   - yahoo: 0RTC.L
     google: LON:0RTC
     currency: GBP
+  - yahoo: DHE.F
+    google: FRA:DHE
+    currency: EUR
   metadata:
     founded: 2011
     employees: 35528
@@ -8856,6 +8859,9 @@ companies:
   - yahoo: 0IP9.L
     google: LON:0IP9
     currency: GBP
+  - yahoo: FI
+    google: NYSE:FI
+    currency: USD
   metadata:
     founded: 1984
     employees: 44000
@@ -10565,6 +10571,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -19501,6 +19510,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -26820,6 +26832,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
