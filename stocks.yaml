@@ -2010,6 +2010,9 @@ companies:
   - yahoo: SZGA.F
     google: FRA:SZGA
     currency: EUR
+  - yahoo: SZGPF
+    google: OTCMKTS:SZGPF
+    currency: USD
   metadata:
     founded: 1998
     employees: 25227
@@ -10297,6 +10300,9 @@ companies:
   - yahoo: 0HRS.L
     google: LON:0HRS
     currency: GBP
+  - yahoo: CVS0.F
+    google: FRA:CVS0
+    currency: EUR
   metadata:
     founded: 1963
     employees: 300000
@@ -18729,6 +18735,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F.F
+    google: FRA:G0F
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -19501,6 +19510,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -25699,6 +25711,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
