@@ -6142,6 +6142,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7554,6 +7557,9 @@ companies:
   - yahoo: BOE.L
     google: LON:BOE
     currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
+    currency: GBP
   metadata:
     founded: 1916
     employees: 141014
@@ -7630,6 +7636,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -18689,6 +18698,9 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19513,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -25699,6 +25714,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -25974,6 +25992,9 @@ companies:
   - yahoo: DTG1.F
     google: FRA:DTG1
     currency: EUR
+  - yahoo: 0AB9.L
+    google: LON:0AB9
+    currency: GBP
   isins:
   - DE000DTR0CK8
   metadata:
