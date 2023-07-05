@@ -2770,6 +2770,9 @@ companies:
   - yahoo: HBGRY
     google: OTCMKTS:HBGRY
     currency: USD
+  - yahoo: HBGRF
+    google: OTCMKTS:HBGRF
+    currency: USD
   metadata:
     founded: 1850
     employees: 11511
@@ -6196,6 +6199,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -8856,6 +8862,9 @@ companies:
   - yahoo: 0IP9.L
     google: LON:0IP9
     currency: GBP
+  - yahoo: FI
+    google: NYSE:FI
+    currency: USD
   metadata:
     founded: 1984
     employees: 44000
@@ -18689,6 +18698,9 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19513,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -26001,6 +26016,9 @@ companies:
   - yahoo: DAII.F
     google: FRA:DAII
     currency: EUR
+  - yahoo: MBGYY
+    google: OTCMKTS:MBGYY
+    currency: USD
   isins:
   - DE0007100000
   metadata:
