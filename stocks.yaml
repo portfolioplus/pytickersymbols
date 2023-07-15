@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -2253,6 +2259,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -6142,6 +6151,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7554,6 +7566,9 @@ companies:
   - yahoo: BOE.L
     google: LON:BOE
     currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
+    currency: GBP
   metadata:
     founded: 1916
     employees: 141014
@@ -7654,6 +7669,9 @@ companies:
   - yahoo: KO
     google: OTCMKTS:KO
     currency: USD
+  - yahoo: CCC.F
+    google: FRA:CCC
+    currency: EUR
   metadata:
     founded: 1892
     employees: 86200
@@ -8329,6 +8347,9 @@ companies:
   - yahoo: AMZN
     google: NASDAQ:AMZN
     currency: USD
+  - yahoo: AMZ1.F
+    google: FRA:AMZ1
+    currency: EUR
   metadata:
     founded: 1994
     employees: 1298000
@@ -8856,6 +8877,9 @@ companies:
   - yahoo: 0IP9.L
     google: LON:0IP9
     currency: GBP
+  - yahoo: FI
+    google: NYSE:FI
+    currency: USD
   metadata:
     founded: 1984
     employees: 44000
@@ -10565,6 +10589,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -19501,6 +19528,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -23666,6 +23696,9 @@ companies:
   - yahoo: 0MCK.L
     google: LON:0MCK
     currency: GBP
+  - yahoo: SCA0.F
+    google: FRA:SCA0
+    currency: EUR
   isins:
   - SE0000112724
   - SE0000171886
