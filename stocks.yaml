@@ -1108,6 +1108,9 @@ companies:
   - yahoo: 0RTC.L
     google: LON:0RTC
     currency: GBP
+  - yahoo: DHE.F
+    google: FRA:DHE
+    currency: EUR
   metadata:
     founded: 2011
     employees: 35528
@@ -2253,6 +2256,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -2692,6 +2698,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -7554,6 +7563,9 @@ companies:
   - yahoo: BOE.L
     google: LON:BOE
     currency: GBP
+  - yahoo: BCO0.F
+    google: FRA:BCO0
+    currency: EUR
   metadata:
     founded: 1916
     employees: 141014
@@ -8856,6 +8868,9 @@ companies:
   - yahoo: 0IP9.L
     google: LON:0IP9
     currency: GBP
+  - yahoo: FI
+    google: NYSE:FI
+    currency: USD
   metadata:
     founded: 1984
     employees: 44000
@@ -18689,6 +18704,9 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19519,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -25699,6 +25720,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -25857,6 +25881,9 @@ companies:
   - yahoo: XCQ.F
     google: FRA:XCQ
     currency: EUR
+  - yahoo: 0HRZ.L
+    google: LON:0HRZ
+    currency: GBP
   isins: []
   metadata:
     founded: 1989
@@ -26001,6 +26028,9 @@ companies:
   - yahoo: DAII.F
     google: FRA:DAII
     currency: EUR
+  - yahoo: MBGYY
+    google: OTCMKTS:MBGYY
+    currency: USD
   isins:
   - DE0007100000
   metadata:
