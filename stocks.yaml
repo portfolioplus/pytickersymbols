@@ -2692,6 +2692,9 @@ companies:
   - yahoo: DE0006095003.F
     google: FRA:DE0006095003
     currency: EUR
+  - yahoo: ENCVF
+    google: OTCMKTS:ENCVF
+    currency: USD
   metadata:
     founded: 2001
     employees: 134
@@ -6142,6 +6145,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -10565,6 +10571,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -19464,6 +19473,9 @@ companies:
   - yahoo: WOS.F
     google: FRA:WOS
     currency: EUR
+  - yahoo: WOLTF
+    google: OTCMKTS:WOLTF
+    currency: USD
   metadata:
     founded: 1836
     employees: 19200
@@ -19501,6 +19513,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -22461,6 +22476,9 @@ companies:
   - yahoo: ZT1A.F
     google: FRA:ZT1A
     currency: EUR
+  - yahoo: 0ACG.L
+    google: LON:0ACG
+    currency: GBP
   isins: []
   metadata:
     founded: 1969
