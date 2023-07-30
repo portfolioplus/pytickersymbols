@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -8856,6 +8862,9 @@ companies:
   - yahoo: 0IP9.L
     google: LON:0IP9
     currency: GBP
+  - yahoo: FI
+    google: NYSE:FI
+    currency: USD
   metadata:
     founded: 1984
     employees: 44000
@@ -13725,6 +13734,9 @@ companies:
   - yahoo: FRC
     google: NYSE:FRC
     currency: USD
+  - yahoo: FRCB
+    google: OTCMKTS:FRCB
+    currency: USD
   metadata:
     founded: 1985
     employees: ''
@@ -15725,6 +15737,9 @@ companies:
   - yahoo: 0K7U.L
     google: LON:0K7U
     currency: GBP
+  - yahoo: NC0E.F
+    google: FRA:NC0E
+    currency: EUR
   metadata:
     founded: 2013
     employees: 28000
@@ -18689,6 +18704,9 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19519,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -23666,6 +23687,9 @@ companies:
   - yahoo: 0MCK.L
     google: LON:0MCK
     currency: GBP
+  - yahoo: SCA0.F
+    google: FRA:SCA0
+    currency: EUR
   isins:
   - SE0000112724
   - SE0000171886
