@@ -7654,6 +7654,9 @@ companies:
   - yahoo: KO
     google: OTCMKTS:KO
     currency: USD
+  - yahoo: CCC.F
+    google: FRA:CCC
+    currency: EUR
   metadata:
     founded: 1892
     employees: 86200
@@ -9885,6 +9888,9 @@ companies:
   - yahoo: 0QCV.L
     google: LON:0QCV
     currency: GBP
+  - yahoo: 4AB0.F
+    google: FRA:4AB0
+    currency: EUR
   metadata:
     founded: 2013
     employees: 47000
@@ -13724,6 +13730,9 @@ companies:
     currency: EUR
   - yahoo: FRC
     google: NYSE:FRC
+    currency: USD
+  - yahoo: FRCB
+    google: OTCMKTS:FRCB
     currency: USD
   metadata:
     founded: 1985
@@ -18729,6 +18738,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F0.F
+    google: FRA:G0F0
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -19501,6 +19513,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19660,6 +19675,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
