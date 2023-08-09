@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -19501,6 +19507,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -21625,6 +21634,9 @@ companies:
   - yahoo: DKOB.F
     google: FRA:DKOB
     currency: EUR
+  - yahoo: DMPZF
+    google: OTCMKTS:DMPZF
+    currency: USD
   isins:
   - US25754A2015
   metadata:
