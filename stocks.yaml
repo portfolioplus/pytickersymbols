@@ -2140,6 +2140,9 @@ companies:
   - yahoo: SHL1.F
     google: FRA:SHL1
     currency: EUR
+  - yahoo: SEMHF
+    google: OTCMKTS:SEMHF
+    currency: USD
   metadata:
     founded: 2017
     employees: 54000
@@ -7630,6 +7633,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -10565,6 +10571,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -18689,6 +18698,15 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: 8ZQ.F
+    google: FRA:8ZQ
+    currency: EUR
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
+  - yahoo: FERVF
+    google: OTCMKTS:FERVF
+    currency: USD
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19519,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19693,6 +19714,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
@@ -26359,6 +26383,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VVB.F
+    google: FRA:0VVB
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
