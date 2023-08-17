@@ -2140,6 +2140,9 @@ companies:
   - yahoo: SHL1.F
     google: FRA:SHL1
     currency: EUR
+  - yahoo: SEMHF
+    google: OTCMKTS:SEMHF
+    currency: USD
   metadata:
     founded: 2017
     employees: 54000
@@ -6142,6 +6145,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7554,6 +7560,9 @@ companies:
   - yahoo: BOE.L
     google: LON:BOE
     currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
+    currency: GBP
   metadata:
     founded: 1916
     employees: 141014
@@ -7630,6 +7639,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -9885,6 +9897,9 @@ companies:
   - yahoo: 0QCV.L
     google: LON:0QCV
     currency: GBP
+  - yahoo: 4AB0.F
+    google: FRA:4AB0
+    currency: EUR
   metadata:
     founded: 2013
     employees: 47000
@@ -13163,6 +13178,9 @@ companies:
   - yahoo: DHI
     google: NYSE:DHI
     currency: USD
+  - yahoo: 0I6K.L
+    google: LON:0I6K
+    currency: GBP
   metadata:
     founded: 1978
     employees: 7735
@@ -18591,6 +18609,9 @@ companies:
   - yahoo: FV9J.F
     google: FRA:FV9J
     currency: EUR
+  - yahoo: CIXPF
+    google: OTCMKTS:CIXPF
+    currency: USD
   metadata:
     founded: 2011
     employees: 37440
@@ -19501,6 +19522,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19660,6 +19684,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -26820,6 +26847,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
