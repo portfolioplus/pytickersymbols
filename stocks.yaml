@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -4926,6 +4932,9 @@ companies:
   - yahoo: NXGPY
     google: OTCMKTS:NXGPY
     currency: USD
+  - yahoo: NXG0.F
+    google: FRA:NXG0
+    currency: EUR
   metadata:
     founded: 1864
     employees: 44193
@@ -6142,6 +6151,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7554,6 +7566,12 @@ companies:
   - yahoo: BOE.L
     google: LON:BOE
     currency: GBP
+  - yahoo: BCO0.F
+    google: FRA:BCO0
+    currency: EUR
+  - yahoo: 0BOE.L
+    google: LON:0BOE
+    currency: GBP
   metadata:
     founded: 1916
     employees: 141014
@@ -7917,6 +7935,9 @@ companies:
   - yahoo: NKE
     google: NYSE:NKE
     currency: USD
+  - yahoo: NKE0.F
+    google: FRA:NKE0
+    currency: EUR
   metadata:
     founded: 1964
     employees: 73300
@@ -19501,6 +19522,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -26820,6 +26844,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
