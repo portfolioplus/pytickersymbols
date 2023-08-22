@@ -2167,6 +2167,9 @@ companies:
   - yahoo: WAF1.F
     google: FRA:WAF1
     currency: EUR
+  - yahoo: SLTCY
+    google: OTCMKTS:SLTCY
+    currency: USD
   metadata:
     founded: 1968
     employees: 3669
@@ -7554,6 +7557,9 @@ companies:
   - yahoo: BOE.L
     google: LON:BOE
     currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
+    currency: GBP
   metadata:
     founded: 1916
     employees: 141014
@@ -7947,6 +7953,9 @@ companies:
     currency: EUR
   - yahoo: MKKGY
     google: OTCMKTS:MKKGY
+    currency: USD
+  - yahoo: MKGAF
+    google: OTCMKTS:MKGAF
     currency: USD
   metadata:
     founded: 1668
@@ -9885,6 +9894,9 @@ companies:
   - yahoo: 0QCV.L
     google: LON:0QCV
     currency: GBP
+  - yahoo: 4AB0.F
+    google: FRA:4AB0
+    currency: EUR
   metadata:
     founded: 2013
     employees: 47000
@@ -18689,6 +18701,15 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
+  - yahoo: 8ZQ.F
+    google: FRA:8ZQ
+    currency: EUR
+  - yahoo: FERVF
+    google: OTCMKTS:FERVF
+    currency: USD
   metadata:
     founded: 1952
     employees: 95978
@@ -18729,6 +18750,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F0.F
+    google: FRA:G0F0
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -19501,6 +19525,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19660,6 +19687,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -19693,6 +19723,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
@@ -26820,6 +26853,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
