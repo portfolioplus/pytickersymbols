@@ -2167,6 +2167,9 @@ companies:
   - yahoo: WAF1.F
     google: FRA:WAF1
     currency: EUR
+  - yahoo: SLTCY
+    google: OTCMKTS:SLTCY
+    currency: USD
   metadata:
     founded: 1968
     employees: 3669
@@ -6142,6 +6145,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -19501,6 +19507,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
