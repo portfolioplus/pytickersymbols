@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -2167,6 +2173,9 @@ companies:
   - yahoo: WAF1.F
     google: FRA:WAF1
     currency: EUR
+  - yahoo: SLTCY
+    google: OTCMKTS:SLTCY
+    currency: USD
   metadata:
     founded: 1968
     employees: 3669
@@ -4926,6 +4935,9 @@ companies:
   - yahoo: NXGPY
     google: OTCMKTS:NXGPY
     currency: USD
+  - yahoo: NXG0.F
+    google: FRA:NXG0
+    currency: EUR
   metadata:
     founded: 1864
     employees: 44193
@@ -6142,6 +6154,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7553,6 +7568,9 @@ companies:
     currency: USD
   - yahoo: BOE.L
     google: LON:BOE
+    currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
     currency: GBP
   metadata:
     founded: 1916
@@ -18689,6 +18707,15 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FERVF
+    google: OTCMKTS:FERVF
+    currency: USD
+  - yahoo: 8ZQ.F
+    google: FRA:8ZQ
+    currency: EUR
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19528,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -22805,6 +22835,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -25699,6 +25732,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -26549,6 +26585,9 @@ companies:
   - yahoo: HWDN.L
     google: LON:HWDN
     currency: GBP
+  - yahoo: HWDJY
+    google: OTCMKTS:HWDJY
+    currency: USD
   isins: []
   metadata:
     founded: 1995
@@ -26820,6 +26859,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
