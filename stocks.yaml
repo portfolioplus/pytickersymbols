@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
   metadata:
     founded: 1995
     employees: 546924
@@ -6142,6 +6148,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7553,6 +7562,9 @@ companies:
     currency: USD
   - yahoo: BOE.L
     google: LON:BOE
+    currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
     currency: GBP
   metadata:
     founded: 1916
@@ -10565,6 +10577,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -19501,6 +19516,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19660,6 +19678,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -22461,6 +22482,9 @@ companies:
   - yahoo: ZT1A.F
     google: FRA:ZT1A
     currency: EUR
+  - yahoo: 0ACG.L
+    google: LON:0ACG
+    currency: GBP
   isins: []
   metadata:
     founded: 1969
@@ -24890,6 +24914,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -25360,6 +25387,9 @@ companies:
   - yahoo: PHPPY
     google: OTCMKTS:PHPPY
     currency: USD
+  - yahoo: G140.F
+    google: FRA:G140
+    currency: EUR
   isins:
   - NL0011821392
   metadata:
@@ -26549,6 +26579,9 @@ companies:
   - yahoo: HWDN.L
     google: LON:HWDN
     currency: GBP
+  - yahoo: HWDJY
+    google: OTCMKTS:HWDJY
+    currency: USD
   isins: []
   metadata:
     founded: 1995
@@ -26820,6 +26853,9 @@ companies:
   - yahoo: NRDBY
     google: OTCMKTS:NRDBY
     currency: USD
+  - yahoo: 04QA.F
+    google: FRA:04QA
+    currency: EUR
   isins:
   - FI4000297767
   metadata:
