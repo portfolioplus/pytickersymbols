@@ -2053,6 +2053,9 @@ companies:
   - yahoo: SRT4.F
     google: FRA:SRT4
     currency: EUR
+  - yahoo: SRT0.F
+    google: FRA:SRT0
+    currency: EUR
   metadata:
     founded: 1870
     employees: 10637
@@ -2167,6 +2170,9 @@ companies:
   - yahoo: WAF1.F
     google: FRA:WAF1
     currency: EUR
+  - yahoo: SLTCY
+    google: OTCMKTS:SLTCY
+    currency: USD
   metadata:
     founded: 1968
     employees: 3669
@@ -2253,6 +2259,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -6142,6 +6151,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -10565,6 +10577,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -11924,6 +11939,9 @@ companies:
   - yahoo: BALL
     google: NYSE:BALL
     currency: USD
+  - yahoo: 358.F
+    google: FRA:358
+    currency: EUR
   metadata:
     founded: 1880
     employees: 18300
@@ -13724,6 +13742,9 @@ companies:
     currency: EUR
   - yahoo: FRC
     google: NYSE:FRC
+    currency: USD
+  - yahoo: FRCB
+    google: OTCMKTS:FRCB
     currency: USD
   metadata:
     founded: 1985
@@ -18689,6 +18710,9 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FERVF
+    google: OTCMKTS:FERVF
+    currency: USD
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19525,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19660,6 +19687,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -19693,6 +19723,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
