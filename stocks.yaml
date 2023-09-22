@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -2053,6 +2059,9 @@ companies:
   - yahoo: SRT4.F
     google: FRA:SRT4
     currency: EUR
+  - yahoo: SRT0.F
+    google: FRA:SRT0
+    currency: EUR
   metadata:
     founded: 1870
     employees: 10637
@@ -2253,6 +2262,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -6142,6 +6154,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7553,6 +7568,9 @@ companies:
     currency: USD
   - yahoo: BOE.L
     google: LON:BOE
+    currency: GBP
+  - yahoo: 0BOE.L
+    google: LON:0BOE
     currency: GBP
   metadata:
     founded: 1916
@@ -10297,6 +10315,9 @@ companies:
   - yahoo: 0HRS.L
     google: LON:0HRS
     currency: GBP
+  - yahoo: CVS0.F
+    google: FRA:CVS0
+    currency: EUR
   metadata:
     founded: 1963
     employees: 300000
@@ -19501,6 +19522,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
