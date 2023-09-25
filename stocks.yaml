@@ -834,6 +834,9 @@ companies:
   - yahoo: VOW.F
     google: FRA:VOW
     currency: EUR
+  - yahoo: VOWA.F
+    google: FRA:VOWA
+    currency: EUR
   metadata:
     founded: 1937
     employees: 307342
@@ -2167,6 +2170,9 @@ companies:
   - yahoo: WAF1.F
     google: FRA:WAF1
     currency: EUR
+  - yahoo: SLTCY
+    google: OTCMKTS:SLTCY
+    currency: USD
   metadata:
     founded: 1968
     employees: 3669
@@ -7816,6 +7822,9 @@ companies:
   - yahoo: INTC
     google: NASDAQ:INTC
     currency: USD
+  - yahoo: INL0.F
+    google: FRA:INL0
+    currency: EUR
   metadata:
     founded: 1968
     employees: 110600
@@ -8095,6 +8104,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -10565,6 +10577,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -19501,6 +19516,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19660,6 +19678,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -22805,6 +22826,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -23666,6 +23690,9 @@ companies:
   - yahoo: 0MCK.L
     google: LON:0MCK
     currency: GBP
+  - yahoo: SCA0.F
+    google: FRA:SCA0
+    currency: EUR
   isins:
   - SE0000112724
   - SE0000171886
