@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -6142,6 +6148,9 @@ companies:
   - yahoo: OFK0.F
     google: FRA:OFK0
     currency: EUR
+  - yahoo: OEC
+    google: NYSE:OEC
+    currency: USD
   metadata:
     founded: 1917
     employees: 3446
@@ -7816,6 +7825,9 @@ companies:
   - yahoo: INTC
     google: NASDAQ:INTC
     currency: USD
+  - yahoo: INL0.F
+    google: FRA:INL0
+    currency: EUR
   metadata:
     founded: 1968
     employees: 110600
@@ -10565,6 +10577,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -13163,6 +13178,9 @@ companies:
   - yahoo: DHI
     google: NYSE:DHI
     currency: USD
+  - yahoo: 0I6K.L
+    google: LON:0I6K
+    currency: GBP
   metadata:
     founded: 1978
     employees: 7735
@@ -19501,6 +19519,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -22805,6 +22826,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -26417,6 +26441,9 @@ companies:
   - yahoo: WBD
     google: NASDAQ:WBD
     currency: USD
+  - yahoo: J5A.F
+    google: FRA:J5A
+    currency: EUR
   isins:
   - US9344231041
   metadata:
