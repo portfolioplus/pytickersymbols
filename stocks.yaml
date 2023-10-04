@@ -6196,6 +6196,9 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: N2S.F
+    google: FRA:N2S
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -10565,6 +10568,9 @@ companies:
   - yahoo: HON.L
     google: LON:HON
     currency: GBP
+  - yahoo: ALDB.F
+    google: FRA:ALDB
+    currency: EUR
   metadata:
     founded: 1906
     employees: 103000
@@ -13724,6 +13730,9 @@ companies:
     currency: EUR
   - yahoo: FRC
     google: NYSE:FRC
+    currency: USD
+  - yahoo: FRCB
+    google: OTCMKTS:FRCB
     currency: USD
   metadata:
     founded: 1985
@@ -18689,6 +18698,12 @@ companies:
   - yahoo: 0P2N.L
     google: LON:0P2N
     currency: GBP
+  - yahoo: FER.AS
+    google: AMS:FER
+    currency: EUR
+  - yahoo: FERVF
+    google: OTCMKTS:FERVF
+    currency: USD
   metadata:
     founded: 1952
     employees: 95978
@@ -19501,6 +19516,9 @@ companies:
   - yahoo: 0NX2.L
     google: LON:0NX2
     currency: GBP
+  - yahoo: ABBNY
+    google: OTCMKTS:ABBNY
+    currency: USD
   metadata:
     founded: 1988
     employees: 144400
@@ -19693,6 +19711,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
