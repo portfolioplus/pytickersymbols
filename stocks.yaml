@@ -390,6 +390,12 @@ companies:
   - yahoo: DPWN.F
     google: FRA:DPWN
     currency: EUR
+  - yahoo: DHL.F
+    google: FRA:DHL
+    currency: EUR
+  - yahoo: DHLGY
+    google: OTCMKTS:DHLGY
+    currency: USD
   metadata:
     founded: 1995
     employees: 546924
@@ -8862,6 +8868,9 @@ companies:
   - yahoo: 0IP9.L
     google: LON:0IP9
     currency: GBP
+  - yahoo: FI
+    google: NYSE:FI
+    currency: USD
   metadata:
     founded: 1984
     employees: 44000
@@ -14915,6 +14924,9 @@ companies:
   - yahoo: 0R1R.L
     google: LON:0R1R
     currency: GBP
+  - yahoo: K-WI
+    google: NYSE:K-WI
+    currency: USD
   metadata:
     founded: 1906
     employees: 34000
@@ -23621,7 +23633,16 @@ companies:
   - BEL 20
   industries:
   - Retail
-  symbols: []
+  symbols:
+  - yahoo: EFC1.F
+    google: FRA:EFC1
+    currency: EUR
+  - yahoo: EFC.F
+    google: FRA:EFC
+    currency: EUR
+  - yahoo: CUYTY
+    google: OTCMKTS:CUYTY
+    currency: USD
   isins:
   - BE0974256852
   metadata:
