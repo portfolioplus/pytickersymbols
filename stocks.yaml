@@ -6151,6 +6151,9 @@ companies:
   - yahoo: OEC
     google: NYSE:OEC
     currency: USD
+  - yahoo: 0OE.F
+    google: FRA:0OE
+    currency: EUR
   metadata:
     founded: 1917
     employees: 3446
@@ -8107,6 +8110,9 @@ companies:
   - yahoo: VZ
     google: NYSE:VZ
     currency: USD
+  - yahoo: BACB.F
+    google: FRA:BACB
+    currency: EUR
   metadata:
     founded: 1983
     employees: 132200
@@ -22979,6 +22985,9 @@ companies:
   - yahoo: E3B0.F
     google: FRA:E3B0
     currency: EUR
+  - yahoo: ETL.L
+    google: LON:ETL
+    currency: GBP
   isins:
   - FR0010221234
   metadata:
