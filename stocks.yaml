@@ -19733,6 +19733,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -25750,6 +25753,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -26554,6 +26560,9 @@ companies:
   - yahoo: 9AA0.F
     google: FRA:9AA0
     currency: EUR
+  - yahoo: AARTY
+    google: OTCMKTS:AARTY
+    currency: USD
   isins: []
   metadata:
     founded: 2010
