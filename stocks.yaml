@@ -4932,6 +4932,9 @@ companies:
   - yahoo: NXGPY
     google: OTCMKTS:NXGPY
     currency: USD
+  - yahoo: NXG0.F
+    google: FRA:NXG0
+    currency: EUR
   metadata:
     founded: 1864
     employees: 44193
@@ -19733,6 +19736,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -25750,6 +25756,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -27527,6 +27536,9 @@ companies:
   - yahoo: MWRK
     google: OTCMKTS:MWRK
     currency: USD
+  - yahoo: FB20.F
+    google: FRA:FB20
+    currency: EUR
   isins: []
   metadata:
     founded: 2004
