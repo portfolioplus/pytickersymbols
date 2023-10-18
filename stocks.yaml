@@ -7645,6 +7645,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -25750,6 +25753,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -27527,6 +27533,9 @@ companies:
   - yahoo: MWRK
     google: OTCMKTS:MWRK
     currency: USD
+  - yahoo: FB20.F
+    google: FRA:FB20
+    currency: EUR
   isins: []
   metadata:
     founded: 2004
