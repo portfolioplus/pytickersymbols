@@ -7569,6 +7569,9 @@ companies:
   - yahoo: 0BOE.L
     google: LON:0BOE
     currency: GBP
+  - yahoo: BCO0.F
+    google: FRA:BCO0
+    currency: EUR
   metadata:
     founded: 1916
     employees: 141014
