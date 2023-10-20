@@ -7645,6 +7645,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -19732,6 +19735,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
