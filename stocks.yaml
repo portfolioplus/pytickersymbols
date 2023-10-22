@@ -7645,6 +7645,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -9138,6 +9141,12 @@ companies:
   - yahoo: 0P0001I1JH
     google: OTCMKTS:0P0001I1JH
     currency: USD
+  - yahoo: 0P0001I1JG
+    google: OTCMKTS:0P0001I1JG
+    currency: USD
+  - yahoo: 0P0001I1JC.L
+    google: LON:0P0001I1JC
+    currency: GBP
   metadata:
     founded: 1927
     employees: 121000
@@ -19699,6 +19708,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -22630,6 +22642,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
