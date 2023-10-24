@@ -7645,6 +7645,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -10239,6 +10242,9 @@ companies:
   - yahoo: C
     google: NYSE:C
     currency: USD
+  - yahoo: CFU.F
+    google: FRA:CFU
+    currency: EUR
   metadata:
     founded: 1998
     employees: 210000
@@ -19699,6 +19705,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -19732,6 +19741,9 @@ companies:
     currency: GBP
   - yahoo: ERCA.F
     google: FRA:ERCA
+    currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
     currency: EUR
   metadata:
     founded: 1876
@@ -22630,6 +22642,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -25481,6 +25496,9 @@ companies:
   - yahoo: 0IT3.L
     google: LON:0IT3
     currency: GBP
+  - yahoo: SZCRF
+    google: OTCMKTS:SZCRF
+    currency: USD
   isins:
   - FR0010411983
   metadata:
