@@ -7645,6 +7645,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -19733,6 +19736,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -22630,6 +22636,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
