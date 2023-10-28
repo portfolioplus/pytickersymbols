@@ -6208,6 +6208,12 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP0.F
+    google: FRA:SMP0
+    currency: EUR
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -7645,6 +7651,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -9906,6 +9915,9 @@ companies:
   - yahoo: 0QCV.L
     google: LON:0QCV
     currency: GBP
+  - yahoo: 4AB0.F
+    google: FRA:4AB0
+    currency: EUR
   metadata:
     founded: 2013
     employees: 47000
@@ -19699,6 +19711,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -22630,6 +22645,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
