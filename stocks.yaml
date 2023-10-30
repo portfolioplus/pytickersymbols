@@ -7569,6 +7569,9 @@ companies:
   - yahoo: 0BOE.L
     google: LON:0BOE
     currency: GBP
+  - yahoo: BCO0.F
+    google: FRA:BCO0
+    currency: EUR
   metadata:
     founded: 1916
     employees: 141014
@@ -7645,6 +7648,9 @@ companies:
   - yahoo: CSCO
     google: NASDAQ:CSCO
     currency: USD
+  - yahoo: CIS0.F
+    google: FRA:CIS0
+    currency: EUR
   metadata:
     founded: 1984
     employees: 77500
@@ -7831,6 +7837,9 @@ companies:
   - yahoo: INTC
     google: NASDAQ:INTC
     currency: USD
+  - yahoo: INL0.F
+    google: FRA:INL0
+    currency: EUR
   metadata:
     founded: 1968
     employees: 110600
@@ -13748,6 +13757,9 @@ companies:
     currency: EUR
   - yahoo: FRC
     google: NYSE:FRC
+    currency: USD
+  - yahoo: FRCB
+    google: OTCMKTS:FRCB
     currency: USD
   metadata:
     founded: 1985
@@ -19733,6 +19745,9 @@ companies:
   - yahoo: ERCA.F
     google: FRA:ERCA
     currency: EUR
+  - yahoo: ERCG.F
+    google: FRA:ERCG
+    currency: EUR
   metadata:
     founded: 1876
     employees: 99826
@@ -22844,6 +22859,9 @@ companies:
   - yahoo: FNCDY
     google: OTCMKTS:FNCDY
     currency: USD
+  - yahoo: F5D0.F
+    google: FRA:F5D0
+    currency: EUR
   isins:
   - FR0000064578
   metadata:
@@ -25750,6 +25768,9 @@ companies:
   - yahoo: 0VD0.F
     google: FRA:0VD0
     currency: EUR
+  - yahoo: UNVGY
+    google: OTCMKTS:UNVGY
+    currency: USD
   isins:
   - NL0015000IY2
   metadata:
@@ -26554,6 +26575,9 @@ companies:
   - yahoo: 9AA0.F
     google: FRA:9AA0
     currency: EUR
+  - yahoo: AARTY
+    google: OTCMKTS:AARTY
+    currency: USD
   isins: []
   metadata:
     founded: 2010
