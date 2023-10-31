@@ -8022,6 +8022,9 @@ companies:
   - yahoo: PFE
     google: NYSE:PFE
     currency: USD
+  - yahoo: PFEB.F
+    google: FRA:PFEB
+    currency: EUR
   metadata:
     founded: 1849
     employees: 78500
@@ -12136,6 +12139,9 @@ companies:
   - yahoo: 0YXG.L
     google: LON:0YXG
     currency: GBP
+  - yahoo: 1YD0.F
+    google: FRA:1YD0
+    currency: EUR
   metadata:
     founded: 1961
     employees: 21000
