@@ -6208,6 +6208,12 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
+  - yahoo: SMP0.F
+    google: FRA:SMP0
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -8277,6 +8283,9 @@ companies:
   - yahoo: ADBE
     google: NASDAQ:ADBE
     currency: USD
+  - yahoo: ADB0.F
+    google: FRA:ADB0
+    currency: EUR
   metadata:
     founded: 1982
     employees: ''
@@ -12136,6 +12145,9 @@ companies:
   - yahoo: 0YXG.L
     google: LON:0YXG
     currency: GBP
+  - yahoo: 1YD0.F
+    google: FRA:1YD0
+    currency: EUR
   metadata:
     founded: 1961
     employees: 21000
@@ -25929,6 +25941,9 @@ companies:
   - yahoo: XCQ.F
     google: FRA:XCQ
     currency: EUR
+  - yahoo: 0HRZ.L
+    google: LON:0HRZ
+    currency: GBP
   isins: []
   metadata:
     founded: 1989
@@ -25990,6 +26005,9 @@ companies:
   - yahoo: DARK.L
     google: LON:DARK
     currency: GBP
+  - yahoo: 7TJ0.F
+    google: FRA:7TJ0
+    currency: EUR
   isins: []
   metadata:
     founded: 2013
@@ -26046,6 +26064,9 @@ companies:
   - yahoo: DTG1.F
     google: FRA:DTG1
     currency: EUR
+  - yahoo: 0AB9.L
+    google: LON:0AB9
+    currency: GBP
   isins:
   - DE000DTR0CK8
   metadata:
