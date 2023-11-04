@@ -6208,6 +6208,12 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
+  - yahoo: SMP0.F
+    google: FRA:SMP0
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -22645,6 +22651,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -25805,6 +25814,9 @@ companies:
   - yahoo: 0DUI.L
     google: LON:0DUI
     currency: GBP
+  - yahoo: BSLAF
+    google: OTCMKTS:BSLAF
+    currency: USD
   isins:
   - DE0005102008
   metadata:
