@@ -6208,6 +6208,12 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP0.F
+    google: FRA:SMP0
+    currency: EUR
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -7972,6 +7978,9 @@ companies:
   - yahoo: MKKGY
     google: OTCMKTS:MKKGY
     currency: USD
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -10248,6 +10257,9 @@ companies:
   - yahoo: C
     google: NYSE:C
     currency: USD
+  - yahoo: CFU.F
+    google: FRA:CFU
+    currency: EUR
   metadata:
     founded: 1998
     employees: 210000
@@ -11036,6 +11048,9 @@ companies:
   - yahoo: 0R08.L
     google: LON:0R08
     currency: GBP
+  - yahoo: UPA.F
+    google: FRA:UPA
+    currency: EUR
   metadata:
     founded: 1907
     employees: 481000
@@ -12136,6 +12151,9 @@ companies:
   - yahoo: 0YXG.L
     google: LON:0YXG
     currency: GBP
+  - yahoo: 1YD0.F
+    google: FRA:1YD0
+    currency: EUR
   metadata:
     founded: 1961
     employees: 21000
@@ -22645,6 +22663,9 @@ companies:
   - yahoo: TMV1.F
     google: FRA:TMV1
     currency: EUR
+  - yahoo: TMVWF
+    google: OTCMKTS:TMVWF
+    currency: USD
   isins:
   - DE000A2YN900
   metadata:
@@ -25805,6 +25826,9 @@ companies:
   - yahoo: 0DUI.L
     google: LON:0DUI
     currency: GBP
+  - yahoo: BSLAF
+    google: OTCMKTS:BSLAF
+    currency: USD
   isins:
   - DE0005102008
   metadata:
@@ -25907,6 +25931,9 @@ companies:
   - yahoo: 0A9B.L
     google: LON:0A9B
     currency: GBP
+  - yahoo: SYA.F
+    google: FRA:SYA
+    currency: EUR
   isins:
   - DE000A2TSL71
   metadata:
@@ -27311,6 +27338,9 @@ companies:
   - yahoo: 2CVU.F
     google: FRA:2CVU
     currency: EUR
+  - yahoo: CNVVF
+    google: OTCMKTS:CNVVF
+    currency: USD
   isins: []
   metadata:
     founded: 1978
