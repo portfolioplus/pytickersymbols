@@ -6208,6 +6208,12 @@ companies:
   - yahoo: SAXPY
     google: OTCMKTS:SAXPY
     currency: USD
+  - yahoo: SMP.F
+    google: FRA:SMP
+    currency: EUR
+  - yahoo: SMP0.F
+    google: FRA:SMP0
+    currency: EUR
   metadata:
     founded: 1909
     employees: 9813
@@ -7972,6 +7978,9 @@ companies:
   - yahoo: MKKGY
     google: OTCMKTS:MKKGY
     currency: USD
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -12136,6 +12145,9 @@ companies:
   - yahoo: 0YXG.L
     google: LON:0YXG
     currency: GBP
+  - yahoo: 1YD0.F
+    google: FRA:1YD0
+    currency: EUR
   metadata:
     founded: 1961
     employees: 21000
