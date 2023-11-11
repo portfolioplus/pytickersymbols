@@ -2259,6 +2259,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -10260,6 +10263,9 @@ companies:
   - yahoo: C
     google: NYSE:C
     currency: USD
+  - yahoo: CFU.F
+    google: FRA:CFU
+    currency: EUR
   metadata:
     founded: 1998
     employees: 210000
@@ -24974,6 +24980,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -26406,6 +26415,9 @@ companies:
   - yahoo: MOH
     google: NYSE:MOH
     currency: USD
+  - yahoo: MHG.F
+    google: FRA:MHG
+    currency: EUR
   isins: []
   metadata:
     founded: 1980
