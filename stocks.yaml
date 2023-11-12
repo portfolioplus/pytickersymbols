@@ -719,6 +719,9 @@ companies:
   - yahoo: RWEA.F
     google: FRA:RWEA
     currency: EUR
+  - yahoo: RWNFF
+    google: OTCMKTS:RWNFF
+    currency: USD
   metadata:
     founded: 1898
     employees: 19498
@@ -1114,6 +1117,9 @@ companies:
   - yahoo: 0RTC.L
     google: LON:0RTC
     currency: GBP
+  - yahoo: DHE.F
+    google: FRA:DHE
+    currency: EUR
   metadata:
     founded: 2011
     employees: 35528
@@ -2259,6 +2265,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -11048,6 +11057,9 @@ companies:
   - yahoo: 0R08.L
     google: LON:0R08
     currency: GBP
+  - yahoo: UPA.F
+    google: FRA:UPA
+    currency: EUR
   metadata:
     founded: 1907
     employees: 481000
@@ -23685,6 +23697,9 @@ companies:
   - yahoo: CUYTY
     google: OTCMKTS:CUYTY
     currency: USD
+  - yahoo: CUYTF
+    google: OTCMKTS:CUYTF
+    currency: USD
   isins:
   - BE0974256852
   metadata:
@@ -24974,6 +24989,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -25820,6 +25838,9 @@ companies:
   - yahoo: 0DUI.L
     google: LON:0DUI
     currency: GBP
+  - yahoo: BSLAF
+    google: OTCMKTS:BSLAF
+    currency: USD
   isins:
   - DE0005102008
   metadata:
@@ -26005,6 +26026,9 @@ companies:
   - yahoo: DARK.L
     google: LON:DARK
     currency: GBP
+  - yahoo: 7TJ0.F
+    google: FRA:7TJ0
+    currency: EUR
   isins: []
   metadata:
     founded: 2013
