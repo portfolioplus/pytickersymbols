@@ -2259,6 +2259,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -6064,6 +6067,9 @@ companies:
   - yahoo: NEFA.F
     google: FRA:NEFA
     currency: EUR
+  - yahoo: NTOIF
+    google: OTCMKTS:NTOIF
+    currency: USD
   metadata:
     founded: 1948
     employees: 4400
@@ -8289,6 +8295,9 @@ companies:
   - yahoo: ADBE
     google: NASDAQ:ADBE
     currency: USD
+  - yahoo: ADB0.F
+    google: FRA:ADB0
+    currency: EUR
   metadata:
     founded: 1982
     employees: ''
@@ -10339,6 +10348,9 @@ companies:
   - yahoo: 0HRS.L
     google: LON:0HRS
     currency: GBP
+  - yahoo: CVS0.F
+    google: FRA:CVS0
+    currency: EUR
   metadata:
     founded: 1963
     employees: 300000
@@ -11048,6 +11060,9 @@ companies:
   - yahoo: 0R08.L
     google: LON:0R08
     currency: GBP
+  - yahoo: UPA.F
+    google: FRA:UPA
+    currency: EUR
   metadata:
     founded: 1907
     employees: 481000
@@ -12148,6 +12163,9 @@ companies:
   - yahoo: 0YXG.L
     google: LON:0YXG
     currency: GBP
+  - yahoo: 1YD0.F
+    google: FRA:1YD0
+    currency: EUR
   metadata:
     founded: 1961
     employees: 21000
@@ -23685,6 +23703,9 @@ companies:
   - yahoo: CUYTY
     google: OTCMKTS:CUYTY
     currency: USD
+  - yahoo: CUYTF
+    google: OTCMKTS:CUYTF
+    currency: USD
   isins:
   - BE0974256852
   metadata:
@@ -27329,6 +27350,9 @@ companies:
   - yahoo: 2CVU.F
     google: FRA:2CVU
     currency: EUR
+  - yahoo: CNVVF
+    google: OTCMKTS:CNVVF
+    currency: USD
   isins: []
   metadata:
     founded: 1978
