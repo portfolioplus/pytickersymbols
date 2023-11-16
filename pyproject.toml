@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "pytickersymbols"
+version = "1.13.1"
+description = "pytickersymbols provides access to google and yahoo ticker symbols"
+authors = ["SlashGordon <slash.gordon.dev@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+wheel = "^0.41.3"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+pandas = "^2.1.3"
+yfinance = "^0.2.31"
+PyYAML = "^6.0.1"
+pycountry = "^22.3.5"
+packaging = "^23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = [
+    "src/pytickersymbols/__init__.py:__version__",
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]
+branch = "master"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip3 install poetry && python3 tools/yaml2json.py && poetry build"
+
+[tool.pytest.ini_options]
+addopts = "tests/ --junitxml test-results/test.xml --cov src/pytickersymbols --cov-report term-missing"
+pythonpath = ["src"]

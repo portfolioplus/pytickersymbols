@@ -97,7 +97,6 @@ class PyTickerSymbols(metaclass=Singleton):
         if not stocks_path:
             json_path = os.path.join(
                 os.path.dirname(os.path.realpath(__file__)),
-                'data',
                 'stocks.json',
             )
             with open(json_path, errors='replace') as stocks:

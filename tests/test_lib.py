@@ -5,6 +5,7 @@
   Use of this source code is governed by an MIT-style license that
   can be found in the LICENSE file.
 """
+import os
 import unittest
 import yfinance as yf
 from functools import reduce
@@ -406,6 +407,10 @@ class TestLib(unittest.TestCase):
         swi = stock_data.index_to_yahoo_symbol('Switzerland 20')
         self.assertEqual('^SSMI', swi)
 
+    @pytest.mark.skipif(
+        os.environ.get('SKIP_TEST_UNIQUE_TICKER_SYMBOLS') == 'true',
+        reason="Test skipped due to SKIP_TEST_UNIQUE_TICKER_SYMBOLS environment variable"
+    )
     def test_unique_ticker_symbols(self):
         stock_data = PyTickerSymbols()
         ctx = Counter(
@@ -421,6 +426,10 @@ class TestLib(unittest.TestCase):
         )
         self.assertFalse(any(map(lambda x: x > 1, ctx.values())), msg)
 
+    @pytest.mark.skipif(
+        os.environ.get('SKIP_TEST_VALID_COUNTRY_NAME') == 'true',
+        reason="Test skipped due to SKIP_TEST_VALID_COUNTRY_NAME environment variable"
+    )
     def test_valid_country_name(self):
         stock_data = PyTickerSymbols()
         countries = stock_data.get_all_countries()
