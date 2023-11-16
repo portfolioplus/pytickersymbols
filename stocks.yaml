@@ -2238,6 +2238,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -7954,6 +7957,15 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRKC.F
+    google: FRA:MRKC
+    currency: EUR
+  - yahoo: MKKGY
+    google: OTCMKTS:MKKGY
+    currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
   metadata:
     founded: 1668
     employees: 74000
@@ -18759,6 +18771,9 @@ companies:
   - yahoo: 0RDU.L
     google: LON:0RDU
     currency: GBP
+  - yahoo: G0F.F
+    google: FRA:G0F
+    currency: EUR
   metadata:
     founded: 1940
     employees: 21500
@@ -19693,6 +19708,9 @@ companies:
   - yahoo: BWJ0.F
     google: FRA:BWJ0
     currency: EUR
+  - yahoo: BLIDF
+    google: OTCMKTS:BLIDF
+    currency: USD
   metadata:
     founded: 1931
     employees: 4881
@@ -22500,6 +22518,9 @@ companies:
   - yahoo: ZT1A.F
     google: FRA:ZT1A
     currency: EUR
+  - yahoo: 0ACG.L
+    google: LON:0ACG
+    currency: GBP
   isins: []
   metadata:
     founded: 1969
@@ -24944,6 +24965,9 @@ companies:
   - yahoo: MAP.MC
     google: BME:MAP
     currency: EUR
+  - yahoo: CMA.F
+    google: FRA:CMA
+    currency: EUR
   isins:
   - ES0124244E34
   metadata:
@@ -25790,6 +25814,9 @@ companies:
   - yahoo: 0DUI.L
     google: LON:0DUI
     currency: GBP
+  - yahoo: BSLAF
+    google: OTCMKTS:BSLAF
+    currency: USD
   isins:
   - DE0005102008
   metadata:
@@ -26416,6 +26443,9 @@ companies:
   - yahoo: PARA
     google: NASDAQ:PARA
     currency: USD
+  - yahoo: 0VV.F
+    google: FRA:0VV
+    currency: EUR
   isins:
   - US92556H2067
   metadata:
