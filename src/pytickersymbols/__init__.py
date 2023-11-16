@@ -10,8 +10,9 @@ import json
 import yaml
 from weakref import WeakValueDictionary
 import itertools
+from pytickersymbols.data import __data__
 
-__version__ = "1.8.78"
+__version__ = "1.13.1"
 
 
 class Statics:
@@ -92,28 +93,8 @@ class Singleton(type):
 
 
 class PyTickerSymbols(metaclass=Singleton):
-    def __init__(self, stocks_path=''):
-        self.__stocks = None
-        if not stocks_path:
-            json_path = os.path.join(
-                os.path.dirname(os.path.realpath(__file__)),
-                'data',
-                'stocks.json',
-            )
-            with open(json_path, errors='replace') as stocks:
-                self.__stocks = json.load(stocks)
-        else:
-            if stocks_path.lower().endswith(
-                '.yaml'
-            ) or stocks_path.lower().endswith('.yml'):
-                self.load_yaml(stocks_path)
-            elif stocks_path.lower().endswith('.json'):
-                self.load_json(stocks_path)
-            else:
-                raise NotImplementedError(
-                    f'File {stocks_path} is not supported.'
-                    'File should be end with yaml, yml or json.'
-                )
+    def __init__(self):
+        self.__stocks = __data__
 
     def load_json(self, path):
         """

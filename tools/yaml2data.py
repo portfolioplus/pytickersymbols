@@ -2,13 +2,12 @@ import yaml
 import json
 import os
 
-# convert yaml file to json
+# convert yaml and add to init file
 input_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                           '..', 'stocks.yaml')
 output_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                           '..', 'src', 'pytickersymbols', 'data', 'stocks.json')
+                           '..', 'src', 'pytickersymbols', 'data.py')
 
-os.makedirs(os.path.dirname(os.path.realpath(output_path)), exist_ok=True)
 
 with open(output_path, 'w') as out_file:
     with open(input_path, 'r') as in_file:
@@ -23,4 +22,6 @@ with open(output_path, 'w') as out_file:
                         break
                 if stop:
                     break
-        json.dump(stock, out_file, ensure_ascii=False)
+
+        data = json.dumps(stock, ensure_ascii=False)
+        out_file.write(f'__data__ = {data.replace("null", "None")}\n')
