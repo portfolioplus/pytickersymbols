@@ -29,7 +29,7 @@ pytickersymbols provides access to google and yahoo ticker symbols for all stock
 
 
 ```shell
-pip install pytickersymbols
+pip3 install pytickersymbols
 ```
 
 ## quick start
