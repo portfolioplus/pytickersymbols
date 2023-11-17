@@ -2,6 +2,23 @@
 
 
 
+## v1.14.0 (2023-11-17)
+
+### Feature
+
+* feat: switch to poetry ([`b2de997`](https://github.com/portfolioplus/pytickersymbols/commit/b2de997306ecd7100c9d93c39b720b98a3de9507))
+
+### Fix
+
+* fix: release ([`df5a52f`](https://github.com/portfolioplus/pytickersymbols/commit/df5a52fb3d27862260b9072fada13f06b9094791))
+
+* fix: release ([`52f2694`](https://github.com/portfolioplus/pytickersymbols/commit/52f2694e472a2739dd17ba868e917b3fa9d984e5))
+
+* fix: release ([`bfea9a5`](https://github.com/portfolioplus/pytickersymbols/commit/bfea9a53d1193932684623750322bc9c66535f04))
+
+* fix: release ([`523cf0e`](https://github.com/portfolioplus/pytickersymbols/commit/523cf0e2a004675e20a46ac13d46c9652bdb81f4))
+
+
 ## v1.13.1 (2023-11-14)
 
 ### Build
