@@ -45,7 +45,7 @@ jobs:
           source .venv/bin/activate
           pip3 install pysymbolscanner
           pysymbolscanner --input stocks.yaml --output stocks.yaml
-          python3 tools/yaml2json.py
+          python3 tools/yaml2data.py
           export SKIP_TEST_VALID_COUNTRY_NAME='true'
           export SKIP_TEST_UNIQUE_TICKER_SYMBOLS='true'
           poetry build
