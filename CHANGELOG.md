@@ -2,6 +2,15 @@
 
 
 
+## v1.14.2 (2023-11-17)
+
+### Fix
+
+* fix: release ([`b1cc447`](https://github.com/portfolioplus/pytickersymbols/commit/b1cc447a6a410689cfb247258bc7f6206e27139f))
+
+* fix: release ([`29e9ed0`](https://github.com/portfolioplus/pytickersymbols/commit/29e9ed0be33cb0a500f19f6333b80ca21916494a))
+
+
 ## v1.14.1 (2023-11-17)
 
 ### Fix
