@@ -2,6 +2,13 @@
 
 
 
+## v1.14.3 (2023-11-17)
+
+### Fix
+
+* fix: add data directly ([`6d9a1c1`](https://github.com/portfolioplus/pytickersymbols/commit/6d9a1c1e3503a5fd11d296f41774d9c2ae1dfa02))
+
+
 ## v1.14.2 (2023-11-17)
 
 ### Fix
