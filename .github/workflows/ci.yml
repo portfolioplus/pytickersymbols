@@ -44,8 +44,10 @@ jobs:
         if: steps.cache-deps.outputs.cache-hit != 'true'
       - name: Run tests
         run: |
-          source .venv/bin/activate && python3 tools/yaml2json.py 
-          poetry build &&  poetry run pytest
+          source .venv/bin/activate
+          python3 tools/yaml2json.py 
+          poetry build
+          poetry run pytest
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1
         if: always()

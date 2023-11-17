@@ -48,7 +48,8 @@ jobs:
           python3 tools/yaml2json.py
           export SKIP_TEST_VALID_COUNTRY_NAME='true'
           export SKIP_TEST_UNIQUE_TICKER_SYMBOLS='true'
-          poetry build &&  poetry run pytest
+          poetry build
+          poetry run pytest
       - name: Coveralls
         uses: AndreMiras/coveralls-python-action@develop
         with:
