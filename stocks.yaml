@@ -2238,6 +2238,9 @@ companies:
   - yahoo: TAGYY
     google: OTCMKTS:TAGYY
     currency: USD
+  - yahoo: TEG0.F
+    google: FRA:TEG0
+    currency: EUR
   metadata:
     founded: 1882
     employees: 1160
@@ -7954,6 +7957,12 @@ companies:
   - yahoo: MRK
     google: NYSE:MRK
     currency: USD
+  - yahoo: MRK.F
+    google: FRA:MRK
+    currency: EUR
+  - yahoo: MKKGY
+    google: OTCMKTS:MKKGY
+    currency: USD
   metadata:
     founded: 1668
     employees: 74000
@@ -12118,6 +12127,9 @@ companies:
   - yahoo: 0YXG.L
     google: LON:0YXG
     currency: GBP
+  - yahoo: 1YD0.F
+    google: FRA:1YD0
+    currency: EUR
   metadata:
     founded: 1961
     employees: 21000
@@ -26474,6 +26486,9 @@ companies:
   - yahoo: WBD
     google: NASDAQ:WBD
     currency: USD
+  - yahoo: J5A.F
+    google: FRA:J5A
+    currency: EUR
   isins:
   - US9344231041
   metadata:
