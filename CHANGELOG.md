@@ -2,6 +2,13 @@
 
 
 
+## v1.14.1 (2023-11-17)
+
+### Fix
+
+* fix: release ([`0d4b505`](https://github.com/portfolioplus/pytickersymbols/commit/0d4b505e525fb0a24769b4e1642b583973075a22))
+
+
 ## v1.14.0 (2023-11-17)
 
 ### Feature
