@@ -2,6 +2,13 @@
 
 
 
+## v1.14.0 (2023-11-17)
+
+### Feature
+
+* feat: switch to poetry and add stock data directly to py file ([`e77d253`](https://github.com/portfolioplus/pytickersymbols/commit/e77d25343cdd01347b8f245e07be9a6f09f65471))
+
+
 ## v1.13.1 (2023-11-14)
 
 ### Build
