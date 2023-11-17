@@ -27,7 +27,6 @@ pytickersymbols provides access to google and yahoo ticker symbols for all stock
 - [x] MOEX
 ## install
 
-
 ```shell
 pip3 install pytickersymbols
 ```
