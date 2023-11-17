@@ -66,12 +66,11 @@ class TestLib(unittest.TestCase):
         del p
 
     def test_load_json(self):
-        with pytest.raises(NotImplementedError):
-            PyTickerSymbols(stocks_path='test.dat')
         with tempfile.NamedTemporaryFile(suffix='.json') as temp:
             temp.write(_test_json)
             temp.flush()
-            stocks = PyTickerSymbols(stocks_path=temp.name)
+            stocks = PyTickerSymbols()
+            stocks.load_json(temp.name)
             indices = stocks.get_all_indices()
             self.assertEqual(len(indices), 1)
             self.assertIn('test', indices)
@@ -89,7 +88,8 @@ class TestLib(unittest.TestCase):
                     )
                 )
                 temp.flush()
-                stocks = PyTickerSymbols(stocks_path=temp.name)
+                stocks = PyTickerSymbols()
+                stocks.load_yaml(temp.name)
                 indices = stocks.get_all_indices()
                 self.assertEqual(len(indices), 1)
                 self.assertIn('test', indices)

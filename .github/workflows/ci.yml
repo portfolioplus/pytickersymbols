@@ -45,7 +45,7 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
-          python3 tools/yaml2json.py 
+          python3 tools/yaml2data.py 
           poetry build
           poetry run pytest
       - name: Publish Unit Test Results
