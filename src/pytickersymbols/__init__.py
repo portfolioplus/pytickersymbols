@@ -12,7 +12,7 @@ from weakref import WeakValueDictionary
 import itertools
 from pytickersymbols.data import __data__
 
-__version__ = "1.13.1"
+__version__ = "1.15.0"
 
 
 class Statics:
