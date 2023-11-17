@@ -2,6 +2,13 @@
 
 
 
+## v1.14.1 (2023-11-17)
+
+### Fix
+
+* fix: bump version ([`6fe4e53`](https://github.com/portfolioplus/pytickersymbols/commit/6fe4e5362c3fdf1672707af9d338c7f708be6c42))
+
+
 ## v1.14.0 (2023-11-17)
 
 ### Feature
