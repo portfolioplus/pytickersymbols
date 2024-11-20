@@ -823,13 +823,13 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 
 [[package]]
 name = "yfinance"
-version = "0.2.43"
+version = "0.2.50"
 description = "Download market data from Yahoo! Finance API"
 optional = false
 python-versions = "*"
 files = [
-    {file = "yfinance-0.2.43-py2.py3-none-any.whl", hash = "sha256:11b4f5515b17450bd3bdcdc26b299aeeaea7ff9cb63d0fa0a865f460c0c7618f"},
-    {file = "yfinance-0.2.43.tar.gz", hash = "sha256:32404597f325a2a2c2708aceb8d552088dd26891ac0e6018f6c5f3f2f61055f0"},
+    {file = "yfinance-0.2.50-py2.py3-none-any.whl", hash = "sha256:0db13b19313043328fe88ded2ddc306ede7d901d0f5181462a1cce76acdbcd2a"},
+    {file = "yfinance-0.2.50.tar.gz", hash = "sha256:33b379cad4261313dc93bfe3148d2f6e6083210e6341f0c93dd3af853019b1a0"},
 ]
 
 [package.dependencies]
