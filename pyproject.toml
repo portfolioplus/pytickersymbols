@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
-wheel = ">=0.41.3,<0.43.0"
+wheel = ">=0.41.3,<0.46.0"
 pytest = ">=7.4.3,<9.0.0"
 pytest-cov = "^4.1.0"
 pandas = "^2.1.3"
