@@ -1,0 +1,346 @@
+# Index sources configuration for sync_indices script
+# You can add more indices by following the schema below.
+#
+# Schema:
+# - name: <Index display name matching stocks.yaml>
+#   source:
+#     type: wikipedia
+#     url: <Page URL>
+#     # Optional: regex to match table header text; if omitted, the parser picks
+#     # the first table containing the required columns
+#     table_title_regex: ".*Constituent|Component|Companies.*"
+#     # Optional: enable extraction of additional company info from Wikipedia articles
+#     extract_company_info: false  # Set to true to fetch company details from infoboxes
+#     # Optional: list of language codes to try if ISIN data is missing
+#     language_fallbacks: ["en", "de", "fr"]  # Parser will try these languages in order
+#     # Optional: symbol conversion rules to convert Wikipedia symbols to Yahoo Finance format
+#     symbol_converter:
+#       - pattern: "Euronext Brussels:(.+)"  # Regex pattern to match
+#         format: "{1}.BR"  # Format string, {1} is first capture group
+#       - pattern: "FWB:(.+)"
+#         format: "{1}.DE"
+#     # Column mapping: provide preferred header names in priority order
+#     columns:
+#       name: ["Company", "Name"]
+#       symbol: ["Ticker symbol", "Ticker", "Symbol"]
+#       isin: ["ISIN"]
+#       country: ["Country", "Headquarters", "Headquarters location"]
+#   match:
+#     by: symbol  # one of: symbol, isin, name
+#
+
+indices:
+  - name: DAX
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/DAX
+      table_title_regex: "Components"
+      extract_company_info: true  # Set to true to fetch additional company details
+      language_fallbacks: ["de"]  
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.DE)?$"
+          format: "{1}.DE"
+    match:
+      by: symbol
+  - name: MDAX
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/MDAX
+      table_title_regex: "Components"
+      extract_company_info: true
+      language_fallbacks: ["de"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.DE)?$"
+          format: "{1}.DE"
+      match:
+        by: symbol
+  - name: TecDAX
+    source:
+      type: wikipedia
+      url: https://de.wikipedia.org/wiki/TecDAX
+      table_title_regex: "Components"
+      extract_company_info: true
+      language_fallbacks: ["en"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry", "Branche"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.DE)?$"
+          format: "{1}.DE"
+    match:
+      by: symbol
+  - name: SDAX
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/SDAX
+      table_title_regex: "Components"
+      extract_company_info: true
+      language_fallbacks: ["de"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry", "Branche"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.DE)?$"
+          format: "{1}.DE"
+    match:
+      by: symbol
+  - name: FTSE 100
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/FTSE_100_Index
+      table_title_regex: "Constituents"
+      extract_company_info: true
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["FTSE industry classification benchmark sector"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.L)?$"
+          format: "{1}.L"
+    match:
+      by: symbol
+  - name: OMX Helsinki 25
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/OMX_Helsinki_25
+      table_title_regex: "Components"
+      extract_company_info: true
+      language_fallbacks: ["fi"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "GICS sector"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.HE)?$"
+          format: "{1}.HE"
+    match:
+      by: symbol
+  - name: EURO STOXX 50
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/EURO_STOXX_50
+      table_title_regex: "Components"
+      extract_company_info: true
+      language_fallbacks: ["de", "fr", "es", "it", "nl"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Registered", "offce"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: S&P 100
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/S%26P_100
+      table_title_regex: "Components"
+      extract_company_info: true
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Registered", "offce"]
+        sector: ["Sector", "Industry"]
+  - name: IBEX 35
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/IBEX_35
+      table_title_regex: "Components"
+      extract_company_info: true
+      language_fallbacks: ["es"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: DOW JONES
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+      table_title_regex: "Components"
+      extract_company_info: true
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: CAC Mid 60
+    source:
+      type: wikipedia
+      url: https://de.wikipedia.org/wiki/CAC_Mid_60
+      table_title_regex: "Zusammensetzung"
+      extract_company_info: true
+      language_fallbacks: ["fr", "en"]
+      columns:
+        name: ["Unternehmen"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Branche", "Industry"]
+    match:
+      by: symbol
+  - name: CAC_40
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/CAC_40
+      table_title_regex: "Composition"
+      extract_company_info: true
+      language_fallbacks: ["fr"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: NASDAQ 100
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/NASDAQ-100
+      table_title_regex: "Current components"
+      extract_company_info: true
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Subsector"]
+    match:
+      by: symbol
+  - name: Switzerland 20
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/Swiss_Market_Index
+      table_title_regex: "Current constituents"
+      extract_company_info: true
+      language_fallbacks: ["de", "fr", "it"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: S&P 500
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+      table_title_regex: "S&P 500 component stocks"
+      extract_company_info: true
+      columns:
+        name: ["Company", "Name", "Security"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["GICS", "Industry"]
+    match:
+      by: symbol
+  - name: S&P 600
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/List_of_S%26P_600_companies
+      table_title_regex: "S&P 600 component stocks"
+      extract_company_info: true
+      columns:
+        symbol: ["Ticker symbol"]
+        name: ["Company", "Name", "Security"]
+        sector: ["GICS Sector", "GICS", "Sector"]
+        industry: ["GICS Sub-Industry", "Sub-Industry", "Industry"]
+        country: ["Headquarters location", "Headquarters", "Location"]
+    match:
+      by: symbol
+  - name: OMX Stockholm 30
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/OMX_Stockholm_30
+      table_title_regex: "Index composition"
+      extract_company_info: true
+      language_fallbacks: ["sv"]
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: NIKKEI 225
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/Nikkei_225
+      format: list  # Special list-based format instead of table
+      extract_company_info: true
+      language_fallbacks: ["de"]
+      symbol_converter:
+        - pattern: "^(.+)$"
+          format: "{1}.T"  # Add .T suffix for Tokyo Stock Exchange
+      columns:
+        heading_pattern: "Components"  # Heading to find for list sections
+    match:
+      by: symbol
+  - name: BEL 20
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/BEL_20
+      table_title_regex: "Constituents"
+      extract_company_info: true
+      language_fallbacks: ["nl", "fr"]
+      symbol_converter:
+        - pattern: "Euronext Brussels:(.+)"
+          format: "{1}.BR"
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol
+  - name: AEX
+    source:
+      type: wikipedia
+      url: https://en.wikipedia.org/wiki/AEX_index
+      table_title_regex: "Composition"
+      extract_company_info: true
+      language_fallbacks: ["nl"]
+      symbol_converter:
+        - pattern: "^(.+?)(?:\\.AS)?$"
+          format: "{1}.AS"
+      columns:
+        name: ["Company", "Name"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
+        isin: ["ISIN"]
+        country: ["Country", "Headquarters", "Headquarters location"]
+        sector: ["Sector", "Industry"]
+    match:
+      by: symbol   

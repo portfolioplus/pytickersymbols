@@ -1,0 +1,79 @@
+name: Build Indices
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'tools/index_sources.yaml'
+      - 'tools/wiki_table_parser.py'
+      - 'tools/build_indices.py'
+      - 'tools/enrich_indices.py'
+      - 'stocks.yaml'
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC to catch Wikipedia updates
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+      with:
+        version: latest
+        virtualenvs-create: true
+        virtualenvs-in-project: true
+    
+    - name: Load cached venv
+      id: cached-poetry-dependencies
+      uses: actions/cache@v4
+      with:
+        path: .venv
+        key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+    
+    - name: Install dependencies
+      if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+      run: poetry install --no-interaction --no-root --with dev
+    
+    - name: Run build pipeline
+      run: |
+        cd tools
+        poetry run python build_indices.py
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code src/pytickersymbols/indices_data.py || echo "changed=true" >> $GITHUB_OUTPUT
+    
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changed == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add src/pytickersymbols/indices_data.py
+        git commit -m "Auto-update: Rebuild indices from Wikipedia [skip ci]"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: indices-data
+        path: |
+          indices_raw/
+          indices/
+          src/pytickersymbols/indices_data.py
+        retention-days: 7
