@@ -10,21 +10,22 @@ pytickersymbols provides access to google and yahoo ticker symbols for all stock
 - [x] AEX
 - [x] BEL 20
 - [x] CAC 40
+- [x] CAC MID 60
 - [x] DAX
 - [x] DOW JONES
+- [x] EURO STOXX 50
 - [x] FTSE 100
 - [x] IBEX 35
 - [x] MDAX
 - [x] NASDAQ 100
-- [x] OMX Helsinki 15
 - [x] OMX Helsinki 25
 - [x] OMX Stockholm 30
 - [x] S&P 100
 - [x] S&P 500
+- [x] S&P 600
 - [x] SDAX
-- [x] SMI
+- [x] Switzerland 20
 - [x] TECDAX
-- [x] MOEX
 ## install
 
 ```shell
@@ -78,6 +79,116 @@ all_ticker_getter_names = list(filter(
 ))
 print(all_ticker_getter_names)
 ```
+
+## Development
+
+### Setting up the development environment
+
+This project uses Poetry for dependency management. To set up your development environment:
+
+```shell
+# Install Poetry if you haven't already
+curl -sSL https://install.python-poetry.org | python3 -
+
+# Clone the repository
+git clone https://github.com/portfolioplus/pytickersymbols.git
+cd pytickersymbols
+
+# Install dependencies (including dev dependencies)
+poetry install
+
+# Activate the virtual environment
+poetry shell
+```
+
+### Development Tools
+
+The `tools/` directory contains scripts for managing stock index data:
+
+- **sync_indices.py**: Split/merge stock data between monolithic and per-index formats
+- **wiki_table_parser.py**: Parse Wikipedia tables for stock index data
+- **yaml2data.py**: Convert YAML data to Python data module
+
+See [tools/README.md](tools/README.md) for detailed usage instructions.
+
+### Running Tests
+
+```shell
+poetry run pytest
+```
+
+### Adding a New Index
+
+To add a new stock index to the library:
+
+1. **Add the index to configuration**  
+   Edit [tools/index_sources.yaml](tools/index_sources.yaml) and add a new entry:
+
+   ```yaml
+   - name: NIKKEI 225
+     source:
+       type: wikipedia
+       url: https://en.wikipedia.org/wiki/Nikkei_225
+       table_title_regex: "Components"
+       extract_company_info: true
+       language_fallbacks: ["ja", "en"]
+       columns:
+         name: ["Company", "Name"]
+         symbol: ["Ticker", "Symbol"]
+         isin: ["ISIN"]
+         sector: ["Sector", "Industry"]
+       symbol_converter:
+         - pattern: "^(.+)$"
+           format: "{1}.T"  # Add .T suffix for Tokyo Stock Exchange
+     match:
+       by: symbol
+   ```
+
+   **Configuration options:**
+   - `name`: Display name (must match stocks.yaml if merging with historical data)
+   - `url`: Wikipedia page URL containing the index constituents table
+   - `table_title_regex`: (Optional) Regex to match the table title
+   - `extract_company_info`: Set to `true` to fetch additional details from company Wikipedia pages
+   - `language_fallbacks`: List of Wikipedia language codes to try for ISIN lookup
+   - `symbol_converter`: Rules to convert Wikipedia symbols to Yahoo Finance format
+   - `columns`: Map Wikipedia table headers to data fields
+   - `match.by`: Field to use for matching with historical data (`symbol`, `isin`, or `name`)
+
+2. **Run the build pipeline**  
+   This will parse Wikipedia, enrich the data, and generate the Python module:
+
+   ```shell
+   cd tools
+   python build_indices.py
+   ```
+
+   This creates:
+   - `indices_raw/<index_name>.json` - Raw parsed data from Wikipedia
+   - `indices/<index_name>.yaml` - Enriched data merged with historical records
+   - Updates `src/pytickersymbols/indices_data.py` - Generated Python module
+
+3. **Test the new index**  
+   Verify the index is accessible:
+
+   ```python
+   from pytickersymbols import PyTickerSymbols
+   
+   stock_data = PyTickerSymbols()
+   nikkei_stocks = stock_data.get_stocks_by_index('NIKKEI 225')
+   print(list(nikkei_stocks))
+   ```
+
+4. **Run tests**  
+   Ensure everything works:
+
+   ```shell
+   poetry run pytest
+   ```
+
+5. **Update the index list**  
+   Add a checkbox entry to the supported indices list at the top of this README.
+
+**Note:** The build pipeline automatically runs weekly via GitHub Actions to keep index data up to date.
 
 ## issue tracker
 

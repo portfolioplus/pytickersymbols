@@ -28,3 +28,8 @@ stocks2.yaml
 .history
 .DS_Store
 src/pytickersymbols/stocks.json
+
+# Build artifacts
+indices_raw/
+indices/
+tools/__pycache__/*.pyc
