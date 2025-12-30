@@ -45,7 +45,6 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
-          cd tools && python3 build_indices.py && cd ..
           poetry build
           poetry run pytest
       - name: Publish Unit Test Results

@@ -46,7 +46,7 @@ indices:
 - name: MOEX
   yahoo: MOEX.ME
 companies:
-- name: adidas AG
+- name: Adidas
   symbol: ADS
   country: Germany
   indices:
@@ -77,8 +77,9 @@ companies:
     employees: 57016
   isins:
   - DE000A1EWWW0
-  akas: []
-- name: Allianz SE
+  akas:
+  - adidas AG
+- name: Allianz
   symbol: ALV
   country: Germany
   indices:
@@ -109,8 +110,9 @@ companies:
     employees: 147268
   isins:
   - DE0008404005
-  akas: []
-- name: BASF SE
+  akas:
+  - Allianz SE
+- name: BASF
   symbol: BAS
   country: Germany
   indices:
@@ -138,8 +140,9 @@ companies:
     employees: 117628
   isins:
   - DE000BASF111
-  akas: []
-- name: Bayer AG
+  akas:
+  - BASF SE
+- name: Bayer
   symbol: BAYN
   country: Germany
   indices:
@@ -167,8 +170,9 @@ companies:
     employees: 103824
   isins:
   - DE000BAY0017
-  akas: []
-- name: Beiersdorf AG
+  akas:
+  - Bayer AG
+- name: Beiersdorf
   symbol: BEI
   country: Germany
   indices:
@@ -198,8 +202,9 @@ companies:
     employees: 20306
   isins:
   - DE0005200000
-  akas: []
-- name: Bayerische Motoren Werke AG
+  akas:
+  - Beiersdorf AG
+- name: BMW
   symbol: BMW
   country: Germany
   indices:
@@ -228,7 +233,8 @@ companies:
     employees: 133778
   isins:
   - DE0005190003
-  akas: []
+  akas:
+  - Bayerische Motoren Werke AG
 - name: Continental AG
   symbol: CON
   country: Germany
@@ -286,7 +292,7 @@ companies:
   isins:
   - DE0006062144
   akas: []
-- name: Deutsche Bank AG
+- name: Deutsche Bank
   symbol: DBK
   country: Germany
   indices:
@@ -308,8 +314,9 @@ companies:
     employees: 84659
   isins:
   - DE0005140008
-  akas: []
-- name: Deutsche Börse AG
+  akas:
+  - Deutsche Bank AG
+- name: Deutsche Börse
   symbol: DB1
   country: Germany
   indices:
@@ -333,8 +340,9 @@ companies:
     employees: 6775
   isins:
   - DE0005810055
-  akas: []
-- name: Deutsche Lufthansa AG
+  akas:
+  - Deutsche Börse AG
+- name: Lufthansa Group
   symbol: LHA
   country: Germany
   indices:
@@ -365,7 +373,8 @@ companies:
     employees: 110065
   isins:
   - DE0008232125
-  akas: []
+  akas:
+  - Deutsche Lufthansa AG
 - name: Deutsche Post AG
   symbol: DPW
   country: Germany
@@ -402,7 +411,7 @@ companies:
   isins:
   - DE0005552004
   akas: []
-- name: Deutsche Telekom AG
+- name: Deutsche Telekom
   symbol: DTE
   country: Germany
   indices:
@@ -433,8 +442,9 @@ companies:
     employees: 226291
   isins:
   - DE0005557508
-  akas: []
-- name: E.ON SE
+  akas:
+  - Deutsche Telekom AG
+- name: E.ON
   symbol: EOAN
   country: Germany
   indices:
@@ -459,8 +469,9 @@ companies:
     employees: 78126
   isins:
   - DE000ENAG999
-  akas: []
-- name: Fresenius Medical Care AG & Co. KGaA St
+  akas:
+  - E.ON SE
+- name: Fresenius Medical Care
   symbol: FME
   country: Germany
   indices:
@@ -488,8 +499,9 @@ companies:
     employees: 125364
   isins:
   - DE0005785802
-  akas: []
-- name: Fresenius SE & Co. KGaA
+  akas:
+  - Fresenius Medical Care AG & Co. KGaA St
+- name: Fresenius SE
   symbol: FRE
   country: Germany
   indices:
@@ -517,8 +529,9 @@ companies:
     employees: 311269
   isins:
   - DE0005785604
-  akas: []
-- name: HeidelbergCement AG
+  akas:
+  - Fresenius SE & Co. KGaA
+- name: HeidelbergCement
   symbol: HEI
   country: Germany
   indices:
@@ -546,8 +559,9 @@ companies:
     employees: 53122
   isins:
   - DE0006047004
-  akas: []
-- name: Henkel AG & Co. KGaA Vz
+  akas:
+  - HeidelbergCement AG
+- name: Henkel
   symbol: HEN3
   country: Germany
   indices:
@@ -575,8 +589,9 @@ companies:
     employees: 52950
   isins:
   - DE0006048408
-  akas: []
-- name: Infineon Technologies AG
+  akas:
+  - Henkel AG & Co. KGaA Vz
+- name: Infineon Technologies
   symbol: IFX
   country: Germany
   indices:
@@ -609,7 +624,8 @@ companies:
     employees: 46665
   isins:
   - DE0006231004
-  akas: []
+  akas:
+  - Infineon Technologies AG
 - name: Linde PLC
   symbol: LIN
   country: United Kingdom
@@ -638,7 +654,7 @@ companies:
   isins:
   - IE00BZ12WP82
   akas: []
-- name: MERCK Kommanditgesellschaft auf Aktien
+- name: Merck Group
   symbol: MRK
   country: Germany
   indices:
@@ -676,8 +692,9 @@ companies:
     employees: 58096
   isins:
   - DE0006599905
-  akas: []
-- name: Münchener Rückversicherungs-Gesellschaft AG
+  akas:
+  - MERCK Kommanditgesellschaft auf Aktien
+- name: Munich Re
   symbol: MUV2
   country: Germany
   indices:
@@ -699,8 +716,9 @@ companies:
   metadata:
     founded: 1880
     employees: 39662
-  akas: []
-- name: RWE AG
+  akas:
+  - Münchener Rückversicherungs-Gesellschaft AG
+- name: RWE
   symbol: RWE
   country: Germany
   indices:
@@ -724,8 +742,9 @@ companies:
     employees: 19498
   isins:
   - DE0007037129
-  akas: []
-- name: SAP SE
+  akas:
+  - RWE AG
+- name: SAP
   symbol: SAP
   country: Germany
   indices:
@@ -754,8 +773,9 @@ companies:
     employees: 100330
   isins:
   - DE0007164600
-  akas: []
-- name: Siemens AG
+  akas:
+  - SAP SE
+- name: Siemens
   symbol: SIE
   country: Germany
   indices:
@@ -785,8 +805,9 @@ companies:
     employees: 293000
   isins:
   - DE0007236101
-  akas: []
-- name: thyssenkrupp AG
+  akas:
+  - Siemens AG
+- name: ThyssenKrupp
   symbol: TKA
   country: Germany
   indices:
@@ -815,8 +836,9 @@ companies:
     employees: 103598
   isins:
   - DE0007500001
-  akas: []
-- name: Volkswagen AG
+  akas:
+  - thyssenkrupp AG
+- name: Volkswagen Group
   symbol: VOW3
   country: Germany
   indices:
@@ -846,8 +868,9 @@ companies:
   isins:
   - DE0007664005
   - DE0007664039
-  akas: []
-- name: Vonovia SE
+  akas:
+  - Volkswagen AG
+- name: Vonovia
   symbol: VNA
   country: Germany
   indices:
@@ -879,8 +902,9 @@ companies:
     employees: 10622
   isins:
   - DE000A1ML7J1
-  akas: []
-- name: Airbus SE
+  akas:
+  - Vonovia SE
+- name: Airbus
   symbol: AIR
   country: Netherlands
   indices:
@@ -914,7 +938,8 @@ companies:
     employees: 131349
   isins:
   - NL0000235190
-  akas: []
+  akas:
+  - Airbus SE
 - name: Aroundtown SA
   symbol: AT1
   country: Luxembourg
@@ -941,7 +966,7 @@ companies:
   isins:
   - LU1673108939
   akas: []
-- name: Aurubis AG
+- name: Aurubis
   symbol: NDA
   country: Germany
   indices:
@@ -972,7 +997,8 @@ companies:
     employees: 7236
   isins:
   - DE0006766504
-  akas: []
+  akas:
+  - Aurubis AG
 - name: Bechtle AG
   symbol: BC8
   country: Germany
@@ -1005,7 +1031,7 @@ companies:
   isins:
   - DE0005158703
   akas: []
-- name: Brenntag AG
+- name: Brenntag
   symbol: BNR
   country: Germany
   indices:
@@ -1033,8 +1059,9 @@ companies:
     employees: 17237
   isins:
   - DE000A1DAHH0
-  akas: []
-- name: Commerzbank AG
+  akas:
+  - Brenntag AG
+- name: Commerzbank
   symbol: CBK
   country: Germany
   indices:
@@ -1062,8 +1089,9 @@ companies:
     employees: 47718
   isins:
   - DE000CBK1001
-  akas: []
-- name: CTS Eventim AG & Co. KGaA
+  akas:
+  - Commerzbank AG
+- name: CTS Eventim
   symbol: EVD
   country: Germany
   indices:
@@ -1091,8 +1119,9 @@ companies:
     employees: 3202
   isins:
   - DE0005470306
-  akas: []
-- name: Delivery Hero SE
+  akas:
+  - CTS Eventim AG & Co. KGaA
+- name: Delivery Hero
   symbol: DHER
   country: Germany
   indices:
@@ -1119,8 +1148,9 @@ companies:
     employees: 35528
   isins:
   - DE000A2E4K43
-  akas: []
-- name: Deutsche Pfandbriefbank AG
+  akas:
+  - Delivery Hero SE
+- name: Deutsche Pfandbriefbank
   symbol: PBB
   country: Germany
   indices:
@@ -1145,7 +1175,8 @@ companies:
     employees: 752
   isins:
   - DE0008019001
-  akas: []
+  akas:
+  - Deutsche Pfandbriefbank AG
 - name: Deutsche Wohnen SE
   symbol: DWNI
   country: Germany
@@ -1198,7 +1229,7 @@ companies:
   isins:
   - DE0005565204
   akas: []
-- name: Evonik Industries AG
+- name: Evonik Industries
   symbol: EVK
   country: Germany
   indices:
@@ -1225,8 +1256,9 @@ companies:
     employees: 33106
   isins:
   - DE000EVNK013
-  akas: []
-- name: Evotec SE
+  akas:
+  - Evonik Industries AG
+- name: Evotec
   symbol: EVT
   country: Germany
   indices:
@@ -1257,7 +1289,8 @@ companies:
     employees: 3030
   isins:
   - DE0005664809
-  akas: []
+  akas:
+  - Evotec SE
 - name: Fielmann AG
   symbol: FIE
   country: Germany
@@ -1288,7 +1321,7 @@ companies:
   isins:
   - DE0005772206
   akas: []
-- name: Fraport AG
+- name: Fraport
   symbol: FRA
   country: Germany
   indices:
@@ -1316,8 +1349,9 @@ companies:
     employees: 21164
   isins:
   - DE0005773303
-  akas: []
-- name: freenet AG
+  akas:
+  - Fraport AG
+- name: Freenet AG
   symbol: FNTN
   country: Germany
   indices:
@@ -1347,8 +1381,9 @@ companies:
     employees: 4238
   isins:
   - DE000A0Z2ZZ5
-  akas: []
-- name: Fuchs Petrolub SE
+  akas:
+  - freenet AG
+- name: Fuchs Petrolub
   symbol: FPE3
   country: Germany
   indices:
@@ -1384,8 +1419,9 @@ companies:
   - DE0005790430
   - DE000A3E5D56
   - DE000A3E5D64
-  akas: []
-- name: GEA Group AG
+  akas:
+  - Fuchs Petrolub SE
+- name: GEA Group
   symbol: G1A
   country: Germany
   indices:
@@ -1410,8 +1446,9 @@ companies:
     employees: 18232
   isins:
   - DE0006602006
-  akas: []
-- name: Gerresheimer AG
+  akas:
+  - GEA Group AG
+- name: Gerresheimer
   symbol: GXI
   country: Germany
   indices:
@@ -1436,7 +1473,8 @@ companies:
     employees: 9880
   isins:
   - DE000A0LD6E6
-  akas: []
+  akas:
+  - Gerresheimer AG
 - name: Grand City Properties SA
   symbol: GYC
   country: Luxembourg
@@ -1469,7 +1507,7 @@ companies:
   isins:
   - LU0775917882
   akas: []
-- name: Hannover Rück SE
+- name: Hannover Re
   symbol: HNR1
   country: Germany
   indices:
@@ -1490,8 +1528,9 @@ companies:
     employees: 3218
   isins:
   - DE0008402215
-  akas: []
-- name: HELLA GmbH & Co. KGaA
+  akas:
+  - Hannover Rück SE
+- name: Hella
   symbol: HLE
   country: Germany
   indices:
@@ -1524,8 +1563,9 @@ companies:
     employees: 36311
   isins:
   - DE000A13SX22
-  akas: []
-- name: HOCHTIEF AG
+  akas:
+  - HELLA GmbH & Co. KGaA
+- name: Hochtief
   symbol: HOT
   country: Germany
   indices:
@@ -1549,8 +1589,9 @@ companies:
     employees: 55777
   isins:
   - DE0006070006
-  akas: []
-- name: Hugo Boss AG
+  akas:
+  - HOCHTIEF AG
+- name: Hugo Boss
   symbol: BOSS
   country: Germany
   indices:
@@ -1578,8 +1619,9 @@ companies:
     employees: 14600
   isins:
   - DE000A1PHFF7
-  akas: []
-- name: K+S AG
+  akas:
+  - Hugo Boss AG
+- name: K+S
   symbol: SDF
   country: Germany
   indices:
@@ -1606,8 +1648,9 @@ companies:
     employees: 14868
   isins:
   - DE000KSAG888
-  akas: []
-- name: KION GROUP AG
+  akas:
+  - K+S AG
+- name: KION Group
   symbol: KGX
   country: Germany
   indices:
@@ -1635,8 +1678,9 @@ companies:
     employees: 36207
   isins:
   - DE000KGX8881
-  akas: []
-- name: LANXESS AG
+  akas:
+  - KION GROUP AG
+- name: Lanxess AG
   symbol: LXS
   country: Germany
   indices:
@@ -1663,8 +1707,9 @@ companies:
     employees: 14300
   isins:
   - DE0005470405
-  akas: []
-- name: LEG Immobilien AG
+  akas:
+  - LANXESS AG
+- name: LEG Immobilien
   symbol: LEG
   country: Germany
   indices:
@@ -1689,7 +1734,8 @@ companies:
     employees: 1444
   isins:
   - DE000LEG1110
-  akas: []
+  akas:
+  - LEG Immobilien AG
 - name: Metro AG
   symbol: B4B
   country: Germany
@@ -1754,7 +1800,7 @@ companies:
   isins:
   - DE0006632003
   akas: []
-- name: MTU Aero Engines AG
+- name: MTU Aero Engines
   symbol: MTX
   country: Germany
   indices:
@@ -1781,8 +1827,9 @@ companies:
     employees: 10313
   isins:
   - DE000A0D9PT0
-  akas: []
-- name: Nemetschek SE
+  akas:
+  - MTU Aero Engines AG
+- name: Nemetschek
   symbol: NEM
   country: Germany
   indices:
@@ -1813,8 +1860,9 @@ companies:
     employees: 3000
   isins:
   - DE0006452907
-  akas: []
-- name: NORMA Group SE
+  akas:
+  - Nemetschek SE
+- name: Norma Group
   symbol: NOEJ
   country: Germany
   indices:
@@ -1836,8 +1884,9 @@ companies:
     employees: 8521
   isins:
   - DE000A1H8BV3
-  akas: []
-- name: ProSiebenSat.1 Media SE
+  akas:
+  - NORMA Group SE
+- name: ProSiebenSat.1 Media
   symbol: PSM
   country: Germany
   indices:
@@ -1865,8 +1914,9 @@ companies:
     employees: 7253
   isins:
   - DE000PSM7770
-  akas: []
-- name: PUMA SE
+  akas:
+  - ProSiebenSat.1 Media SE
+- name: Puma (brand)
   symbol: PUM
   country: Germany
   indices:
@@ -1894,8 +1944,9 @@ companies:
     employees: 14374
   isins:
   - DE0006969603
-  akas: []
-- name: QIAGEN N.V.
+  akas:
+  - PUMA SE
+- name: Qiagen
   symbol: QIA
   country: Netherlands
   indices:
@@ -1920,8 +1971,9 @@ companies:
     employees: 5100
   isins:
   - NL0012169213
-  akas: []
-- name: Rheinmetall AG
+  akas:
+  - QIAGEN N.V.
+- name: Rheinmetall
   symbol: RHM
   country: Germany
   indices:
@@ -1948,8 +2000,9 @@ companies:
     employees: 25329
   isins:
   - DE0007030009
-  akas: []
-- name: RTL Group SA
+  akas:
+  - Rheinmetall AG
+- name: RTL Group
   symbol: RRTL
   country: Luxembourg
   indices:
@@ -1974,7 +2027,8 @@ companies:
     employees: 10747
   isins:
   - LU0061462528
-  akas: []
+  akas:
+  - RTL Group SA
 - name: Salzgitter AG
   symbol: SZG
   country: Germany
@@ -2001,7 +2055,7 @@ companies:
   isins:
   - DE0006202005
   akas: []
-- name: Sartorius AG
+- name: Sartorius
   symbol: SRT3
   country: Germany
   indices:
@@ -2044,7 +2098,8 @@ companies:
   isins:
   - DE0007165607
   - DE0007165631
-  akas: []
+  akas:
+  - Sartorius AG
 - name: Schaeffler AG
   symbol: SHA
   country: Germany
@@ -2073,7 +2128,7 @@ companies:
   isins:
   - DE000SHA0159
   akas: []
-- name: Scout24 AG
+- name: Scout24
   symbol: G24
   country: Germany
   indices:
@@ -2100,8 +2155,9 @@ companies:
     employees: 788
   isins:
   - DE000A12DM80
-  akas: []
-- name: Siemens Healthineers AG
+  akas:
+  - Scout24 AG
+- name: Siemens Healthineers
   symbol: SHL
   country: Germany
   indices:
@@ -2130,8 +2186,9 @@ companies:
     employees: 54000
   isins:
   - DE000SHL1006
-  akas: []
-- name: Siltronic AG
+  akas:
+  - Siemens Healthineers AG
+- name: Siltronic
   symbol: WAF
   country: Germany
   indices:
@@ -2157,7 +2214,8 @@ companies:
     employees: 3669
   isins:
   - DE000WAF3001
-  akas: []
+  akas:
+  - Siltronic AG
 - name: Software AG
   symbol: SOW
   country: Germany
@@ -2190,7 +2248,7 @@ companies:
   isins:
   - DE000A2GS401
   akas: []
-- name: Symrise AG
+- name: Symrise
   symbol: SY1
   country: Germany
   indices:
@@ -2217,8 +2275,9 @@ companies:
     employees: 10531
   isins:
   - DE000SYM9999
-  akas: []
-- name: TAG Immobilien AG
+  akas:
+  - Symrise AG
+- name: TAG Tegernsee Immobilien und Beteiligung
   symbol: TEG
   country: Germany
   indices:
@@ -2243,7 +2302,8 @@ companies:
     employees: 1160
   isins:
   - DE0008303504
-  akas: []
+  akas:
+  - TAG Immobilien AG
 - name: Telefónica Deutschland Holding AG
   symbol: O2D
   country: Germany
@@ -2287,7 +2347,7 @@ companies:
   isins:
   - DE000UNSE018
   akas: []
-- name: United Internet AG
+- name: United Internet
   symbol: UTDI
   country: Germany
   indices:
@@ -2308,7 +2368,8 @@ companies:
     employees: 9400
   isins:
   - DE0005089031
-  akas: []
+  akas:
+  - United Internet AG
 - name: Wacker Chemie AG
   symbol: WCH
   country: Germany
@@ -2331,7 +2392,7 @@ companies:
   isins:
   - DE000WCH8881
   akas: []
-- name: Zalando SE
+- name: Zalando
   symbol: ZAL
   country: Germany
   indices:
@@ -2359,8 +2420,9 @@ companies:
     employees: 14194
   isins:
   - DE000ZAL1111
-  akas: []
-- name: AIXTRON SE
+  akas:
+  - Zalando SE
+- name: Aixtron
   symbol: AIXA
   country: Germany
   indices:
@@ -2395,7 +2457,8 @@ companies:
     employees: 728
   isins:
   - DE000A0WMPJ6
-  akas: []
+  akas:
+  - AIXTRON SE
 - name: BayWa AG vNa
   symbol: BYW6
   country: Germany
@@ -2454,7 +2517,7 @@ companies:
   isins:
   - DE0005909006
   akas: []
-- name: Cancom SE
+- name: Cancom
   symbol: COK
   country: Germany
   indices:
@@ -2479,8 +2542,9 @@ companies:
     employees: 3912
   isins:
   - DE0005419105
-  akas: []
-- name: Carl Zeiss Meditec AG
+  akas:
+  - Cancom SE
+- name: Carl Zeiss Meditec
   symbol: AFX
   country: Germany
   indices:
@@ -2509,8 +2573,9 @@ companies:
     employees: 3290
   isins:
   - DE0005313704
-  akas: []
-- name: CEWE Stiftung & Co. KGaA
+  akas:
+  - Carl Zeiss Meditec AG
+- name: Cewe
   symbol: CWC
   country: Germany
   indices:
@@ -2532,8 +2597,9 @@ companies:
     employees: 4199
   isins:
   - DE0005403901
-  akas: []
-- name: CompuGroup Medical SE
+  akas:
+  - CEWE Stiftung & Co. KGaA
+- name: CompuGroup Medical
   symbol: COP
   country: Germany
   indices:
@@ -2565,8 +2631,9 @@ companies:
   isins:
   - DE0005437305
   - DE000A288904
-  akas: []
-- name: DEUTZ AG
+  akas:
+  - CompuGroup Medical SE
+- name: Deutz AG
   symbol: DEZ
   country: Germany
   indices:
@@ -2588,7 +2655,8 @@ companies:
     employees: 4586
   isins:
   - DE0006305006
-  akas: []
+  akas:
+  - DEUTZ AG
 - name: DIC ASSET AG
   symbol: DIC
   country: Germany
@@ -2612,7 +2680,7 @@ companies:
   isins:
   - DE000A1X3XX4
   akas: []
-- name: Drägerwerk AG & Co. KGaA Vz
+- name: Drägerwerk
   symbol: DRW3
   country: Germany
   indices:
@@ -2634,7 +2702,8 @@ companies:
     employees: 14845
   isins:
   - DE0005550636
-  akas: []
+  akas:
+  - Drägerwerk AG & Co. KGaA Vz
 - name: DWS Group GmbH & Co. KGaA
   symbol: DWS
   country: Germany
@@ -2661,7 +2730,7 @@ companies:
   isins:
   - DE000DWS1007
   akas: []
-- name: 'ENCAVIS AG '
+- name: Encavis
   symbol: CAP
   country: Germany
   indices:
@@ -2685,8 +2754,9 @@ companies:
     employees: 134
   isins:
   - DE0006095003
-  akas: []
-- name: Grenke AG
+  akas:
+  - ENCAVIS AG
+- name: Grenke
   symbol: GLJ
   country: Germany
   indices:
@@ -2708,8 +2778,9 @@ companies:
     employees: 1675
   isins:
   - DE000A161N30
-  akas: []
-- name: Hamborner REIT AG
+  akas:
+  - Grenke AG
+- name: Hamborner Reit AG
   symbol: HAB
   country: Germany
   indices:
@@ -2734,8 +2805,9 @@ companies:
     employees: 40
   isins:
   - DE000A3H2333
-  akas: []
-- name: Heidelberger Druckmaschinen AG
+  akas:
+  - Hamborner REIT AG
+- name: Heidelberger Druckmaschinen
   symbol: HDD
   country: Germany
   indices:
@@ -2763,8 +2835,9 @@ companies:
     employees: 11511
   isins:
   - DE0007314007
-  akas: []
-- name: HelloFresh SE
+  akas:
+  - Heidelberger Druckmaschinen AG
+- name: HelloFresh
   symbol: HFG
   country: Germany
   indices:
@@ -2791,7 +2864,8 @@ companies:
     employees: 6432
   isins:
   - DE000A161408
-  akas: []
+  akas:
+  - HelloFresh SE
 - name: HORNBACH HOLDING AG&CO.KGAA
   symbol: HBH
   country: Germany
@@ -2818,7 +2892,7 @@ companies:
   isins:
   - DE0006083405
   akas: []
-- name: INDUS HOLDING AG
+- name: Indus Holding AG
   symbol: INH
   country: Germany
   indices:
@@ -2841,8 +2915,9 @@ companies:
     employees: 10644
   isins:
   - DE0006200108
-  akas: []
-- name: JENOPTIK AG
+  akas:
+  - INDUS HOLDING AG
+- name: Jenoptik
   symbol: JEN
   country: Germany
   indices:
@@ -2865,8 +2940,9 @@ companies:
     employees: 4043
   isins:
   - DE000A2NB601
-  akas: []
-- name: JOST Werke AG
+  akas:
+  - JENOPTIK AG
+- name: Jost Werke
   symbol: JST
   country: Germany
   indices:
@@ -2884,8 +2960,9 @@ companies:
     employees: 3000
   isins:
   - DE000JST4000
-  akas: []
-- name: JUNGHEINRICH AG
+  akas:
+  - JOST Werke AG
+- name: Jungheinrich
   symbol: JUN3
   country: Germany
   indices:
@@ -2916,8 +2993,9 @@ companies:
     employees: 18103
   isins:
   - DE0006219934
-  akas: []
-- name: KLOECKNER & CO SE
+  akas:
+  - JUNGHEINRICH AG
+- name: Klöckner & Co
   symbol: KCO
   country: Germany
   indices:
@@ -2945,8 +3023,9 @@ companies:
     employees: 8253
   isins:
   - DE000KC01000
-  akas: []
-- name: Krones AG
+  akas:
+  - KLOECKNER & CO SE
+- name: Krones
   symbol: KRN
   country: Germany
   indices:
@@ -2977,8 +3056,9 @@ companies:
     employees: 17353
   isins:
   - DE0006335003
-  akas: []
-- name: KWS SAAT SE
+  akas:
+  - Krones AG
+- name: KWS Saat
   symbol: KWS
   country: Germany
   indices:
@@ -3000,7 +3080,8 @@ companies:
     employees: 5709
   isins:
   - DE0007074007
-  akas: []
+  akas:
+  - KWS SAAT SE
 - name: Nordex SE
   symbol: NDX1
   country: Germany
@@ -3089,7 +3170,7 @@ companies:
   isins:
   - DE0006916604
   akas: []
-- name: RATIONAL AG
+- name: Rational AG
   symbol: RAA
   country: Germany
   indices:
@@ -3117,7 +3198,8 @@ companies:
     employees: 2258
   isins:
   - DE0007010803
-  akas: []
+  akas:
+  - RATIONAL AG
 - name: SAF Holland SA
   symbol: SFQ
   country: Luxembourg
@@ -3166,7 +3248,7 @@ companies:
   isins:
   - DE0007235301
   akas: []
-- name: Sixt SE
+- name: Sixt
   symbol: SIX2
   country: Germany
   indices:
@@ -3195,8 +3277,9 @@ companies:
   isins:
   - DE0007231326
   - DE0007231334
-  akas: []
-- name: SMA Solar Technology AG
+  akas:
+  - Sixt SE
+- name: SMA Solar Technology
   symbol: S92
   country: Germany
   indices:
@@ -3227,7 +3310,8 @@ companies:
     employees: 3264
   isins:
   - DE000A0DJ6J9
-  akas: []
+  akas:
+  - SMA Solar Technology AG
 - name: Stabilus SA
   symbol: STM
   country: Luxembourg
@@ -3257,7 +3341,7 @@ companies:
   isins:
   - LU1066226637
   akas: []
-- name: Südzucker AG
+- name: Südzucker
   symbol: SZU
   country: Germany
   indices:
@@ -3276,8 +3360,9 @@ companies:
     employees: 19188
   isins:
   - DE0007297004
-  akas: []
-- name: Talanx
+  akas:
+  - Südzucker AG
+- name: Talanx AG
   symbol: TLX
   country: Germany
   indices:
@@ -3304,8 +3389,9 @@ companies:
     employees: 22537
   isins:
   - DE000TLX1005
-  akas: []
-- name: Wacker Neuson SE
+  akas:
+  - Talanx
+- name: Wacker Neuson
   symbol: WAC
   country: Germany
   indices:
@@ -3330,7 +3416,8 @@ companies:
     employees: 5500
   isins:
   - DE000WACK012
-  akas: []
+  akas:
+  - Wacker Neuson SE
 - name: XING AG
   symbol: O1BC
   country: Germany
@@ -3390,7 +3477,7 @@ companies:
   isins:
   - DE0005111702
   akas: []
-- name: 3i Group PLC
+- name: 3i
   symbol: III
   country: United Kingdom
   indices:
@@ -3421,8 +3508,9 @@ companies:
     employees: 244
   isins:
   - GB00B1YW4409
-  akas: []
-- name: Admiral Group PLC
+  akas:
+  - 3i Group PLC
+- name: Admiral Group
   symbol: ADM
   country: United Kingdom
   indices:
@@ -3449,8 +3537,9 @@ companies:
     employees: 3000
   isins:
   - GB00B02J6398
-  akas: []
-- name: Anglo American PLC
+  akas:
+  - Admiral Group PLC
+- name: Anglo American plc
   symbol: AAL
   country: United Kingdom
   indices:
@@ -3481,8 +3570,9 @@ companies:
     employees: 90000
   isins:
   - GB00B1XZS820
-  akas: []
-- name: Antofagasta PLC
+  akas:
+  - Anglo American PLC
+- name: Antofagasta plc
   symbol: ANTO
   country: United Kingdom
   indices:
@@ -3507,8 +3597,9 @@ companies:
     employees: 5427
   isins:
   - GB0000456144
-  akas: []
-- name: Ashtead Group PLC
+  akas:
+  - Antofagasta PLC
+- name: Ashtead Group
   symbol: AHT
   country: United Kingdom
   indices:
@@ -3545,8 +3636,9 @@ companies:
     employees: 13233
   isins:
   - GB0000536739
-  akas: []
-- name: Associated British Foods PLC
+  akas:
+  - Ashtead Group PLC
+- name: Associated British Foods
   symbol: ABF
   country: United Kingdom
   indices:
@@ -3583,8 +3675,9 @@ companies:
     employees: 133000
   isins:
   - GB0006731235
-  akas: []
-- name: AstraZeneca PLC
+  akas:
+  - Associated British Foods PLC
+- name: AstraZeneca
   symbol: AZN
   country: United Kingdom
   indices:
@@ -3616,8 +3709,9 @@ companies:
     employees: 76100
   isins:
   - GB0009895292
-  akas: []
-- name: Auto Trader Group PLC
+  akas:
+  - AstraZeneca PLC
+- name: Auto Trader Group
   symbol: AUTO
   country: United Kingdom
   indices:
@@ -3653,7 +3747,8 @@ companies:
     employees: ''
   isins:
   - GB00BVYVFW23
-  akas: []
+  akas:
+  - Auto Trader Group PLC
 - name: Aviva PLC
   symbol: AV.
   country: United Kingdom
@@ -3690,7 +3785,7 @@ companies:
     employees: 31000
   isins: []
   akas: []
-- name: BAE Systems PLC
+- name: BAE Systems
   symbol: BA.
   country: United Kingdom
   indices:
@@ -3715,9 +3810,11 @@ companies:
   metadata:
     founded: 1999
     employees: 85800
-  isins: []
-  akas: []
-- name: Barclays PLC
+  isins:
+  - GB0002634946
+  akas:
+  - BAE Systems PLC
+- name: Barclays
   symbol: BARC
   country: United Kingdom
   indices:
@@ -3751,8 +3848,9 @@ companies:
     employees: 83500
   isins:
   - GB0031348658
-  akas: []
-- name: Barratt Developments PLC
+  akas:
+  - Barclays PLC
+- name: Barratt Redrow
   symbol: BDEV
   country: United Kingdom
   indices:
@@ -3789,8 +3887,9 @@ companies:
     employees: 6655
   isins:
   - GB0000811801
-  akas: []
-- name: Berkeley Group Holdings/The
+  akas:
+  - Barratt Developments PLC
+- name: Berkeley Group Holdings
   symbol: BKG
   country: United Kingdom
   indices:
@@ -3827,8 +3926,9 @@ companies:
     employees: 2709
   isins:
   - GB00BLJNXL82
-  akas: []
-- name: BP PLC
+  akas:
+  - Berkeley Group Holdings/The
+- name: BP
   symbol: BP.
   country: United Kingdom
   indices:
@@ -3865,8 +3965,9 @@ companies:
     employees: 70100
   isins:
   - GB0007980591
-  akas: []
-- name: British American Tobacco p.l.c.
+  akas:
+  - BP PLC
+- name: British American Tobacco
   symbol: BATS
   country: United Kingdom
   indices:
@@ -3900,8 +4001,9 @@ companies:
     employees: 55000
   isins:
   - GB0002875804
-  akas: []
-- name: British Land Company PLC
+  akas:
+  - British American Tobacco p.l.c.
+- name: British Land
   symbol: BLND
   country: United Kingdom
   indices:
@@ -3932,7 +4034,8 @@ companies:
     employees: 783
   isins:
   - GB0001367019
-  akas: []
+  akas:
+  - British Land Company PLC
 - name: BT Group PLC
   symbol: BT.A
   country: United Kingdom
@@ -3959,7 +4062,7 @@ companies:
     employees: 105300
   isins: []
   akas: []
-- name: Bunzl PLC
+- name: Bunzl
   symbol: BNZL
   country: United Kingdom
   indices:
@@ -3989,8 +4092,9 @@ companies:
     employees: 19006
   isins:
   - GB00B0744B38
-  akas: []
-- name: Burberry Group PLC
+  akas:
+  - Bunzl PLC
+- name: Burberry
   symbol: BRBY
   country: United Kingdom
   indices:
@@ -4018,8 +4122,9 @@ companies:
     employees: 9892
   isins:
   - GB0031743007
-  akas: []
-- name: Carnival Corporation
+  akas:
+  - Burberry Group PLC
+- name: Carnival Corporation & plc
   symbol: CCL
   country: United Kingdom
   indices:
@@ -4057,8 +4162,9 @@ companies:
   isins:
   - GB0031215220
   - PA1436583006
-  akas: []
-- name: Centrica PLC
+  akas:
+  - Carnival Corporation
+- name: Centrica
   symbol: CNA
   country: United Kingdom
   indices:
@@ -4087,8 +4193,9 @@ companies:
     employees: unknown
   isins:
   - GB00B033F229
-  akas: []
-- name: Coca-Cola HBC AG
+  akas:
+  - Centrica PLC
+- name: Coca-Cola HBC
   symbol: CCH
   country: Switzerland
   indices:
@@ -4119,8 +4226,9 @@ companies:
     employees: 38
   isins:
   - CH0198251305
-  akas: []
-- name: Compass Group PLC
+  akas:
+  - Coca-Cola HBC AG
+- name: Compass Group
   symbol: CPG
   country: United Kingdom
   indices:
@@ -4151,7 +4259,8 @@ companies:
     employees: 548143
   isins:
   - GB00BD6K4575
-  akas: []
+  akas:
+  - Compass Group PLC
 - name: CRH PLC
   symbol: CRH
   country: Ireland
@@ -4184,7 +4293,7 @@ companies:
   isins:
   - IE0001827041
   akas: []
-- name: Croda International PLC
+- name: Croda International
   symbol: CRDA
   country: United Kingdom
   indices:
@@ -4211,8 +4320,9 @@ companies:
     employees: 4000
   isins:
   - GB00BJFFLV09
-  akas: []
-- name: DCC PLC
+  akas:
+  - Croda International PLC
+- name: DCC plc
   symbol: DCC
   country: Ireland
   indices:
@@ -4236,8 +4346,9 @@ companies:
     employees: 12773
   isins:
   - IE0002424939
-  akas: []
-- name: Diageo PLC
+  akas:
+  - DCC PLC
+- name: Diageo
   symbol: DGE
   country: United Kingdom
   indices:
@@ -4268,7 +4379,8 @@ companies:
     employees: 27775
   isins:
   - GB0002374006
-  akas: []
+  akas:
+  - Diageo PLC
 - name: DS Smith PLC
   symbol: SMDS
   country: United Kingdom
@@ -4295,7 +4407,7 @@ companies:
   isins:
   - GB0008220112
   akas: []
-- name: Experian PLC
+- name: Experian
   symbol: EXPN
   country: Ireland
   indices:
@@ -4326,8 +4438,9 @@ companies:
     employees: 17800
   isins:
   - GB00B19NLV48
-  akas: []
-- name: Fresnillo PLC
+  akas:
+  - Experian PLC
+- name: Fresnillo plc
   symbol: FRES
   country: Mexico
   indices:
@@ -4352,8 +4465,9 @@ companies:
     employees: 3830
   isins:
   - GB00B2QPKJ12
-  akas: []
-- name: GlaxoSmithKline PLC
+  akas:
+  - Fresnillo PLC
+- name: GSK plc
   symbol: GSK
   country: United Kingdom
   indices:
@@ -4390,8 +4504,9 @@ companies:
   isins:
   - GB0009252882
   - GB00BN7SWP63
-  akas: []
-- name: Glencore PLC
+  akas:
+  - GlaxoSmithKline PLC
+- name: Glencore
   symbol: GLEN
   country: Switzerland
   indices:
@@ -4418,8 +4533,9 @@ companies:
     employees: 145000
   isins:
   - JE00B4T3BW64
-  akas: []
-- name: Halma PLC
+  akas:
+  - Glencore PLC
+- name: Halma plc
   symbol: HLMA
   country: United Kingdom
   indices:
@@ -4447,7 +4563,8 @@ companies:
     employees: 6341
   isins:
   - GB0004052071
-  akas: []
+  akas:
+  - Halma PLC
 - name: Hargreaves Lansdown PLC
   symbol: HL.
   country: United Kingdom
@@ -4476,7 +4593,7 @@ companies:
     employees: 1700
   isins: []
   akas: []
-- name: HSBC Holdings PLC
+- name: HSBC
   symbol: HSBA
   country: United Kingdom
   indices:
@@ -4507,8 +4624,9 @@ companies:
     employees: 226059
   isins:
   - GB0005405286
-  akas: []
-- name: Imperial Brands PLC
+  akas:
+  - HSBC Holdings PLC
+- name: Imperial Brands
   symbol: IMB
   country: United Kingdom
   indices:
@@ -4539,8 +4657,9 @@ companies:
     employees: 32100
   isins:
   - GB0004544929
-  akas: []
-- name: Informa PLC
+  akas:
+  - Imperial Brands PLC
+- name: Informa
   symbol: INF
   country: United Kingdom
   indices:
@@ -4568,8 +4687,9 @@ companies:
     employees: 11000
   isins:
   - GB00BMJ6DW54
-  akas: []
-- name: InterContinental Hotels Group PLC
+  akas:
+  - Informa PLC
+- name: IHG Hotels & Resorts
   symbol: IHG
   country: United Kingdom
   indices:
@@ -4600,8 +4720,9 @@ companies:
     employees: 350000
   isins:
   - GB00BHJYC057
-  akas: []
-- name: International Consolidated Airlines Group SA
+  akas:
+  - InterContinental Hotels Group PLC
+- name: International Airlines Group
   symbol: IAG
   country: United States
   indices:
@@ -4636,8 +4757,9 @@ companies:
     employees: 60612
   isins:
   - ES0177542018
-  akas: []
-- name: Intertek Group PLC
+  akas:
+  - International Consolidated Airlines Group SA
+- name: Intertek
   symbol: ITRK
   country: United Kingdom
   indices:
@@ -4665,8 +4787,9 @@ companies:
     employees: 44000
   isins:
   - GB0031638363
-  akas: []
-- name: Kingfisher PLC
+  akas:
+  - Intertek Group PLC
+- name: Kingfisher plc
   symbol: KGF
   country: United Kingdom
   indices:
@@ -4697,8 +4820,9 @@ companies:
     employees: 79000
   isins:
   - GB0033195214
-  akas: []
-- name: Legal & General Group PLC
+  akas:
+  - Kingfisher PLC
+- name: Legal & General
   symbol: LGEN
   country: United Kingdom
   indices:
@@ -4726,8 +4850,9 @@ companies:
     employees: 10046
   isins:
   - GB0005603997
-  akas: []
-- name: Lloyds Banking Group PLC
+  akas:
+  - Legal & General Group PLC
+- name: Lloyds Banking Group
   symbol: LLOY
   country: United Kingdom
   indices:
@@ -4758,7 +4883,8 @@ companies:
     employees: 65000
   isins:
   - GB0008706128
-  akas: []
+  akas:
+  - Lloyds Banking Group PLC
 - name: London Stock Exchange Group PLC
   symbol: LSE
   country: United Kingdom
@@ -4793,7 +4919,7 @@ companies:
     employees: 5219
   isins: []
   akas: []
-- name: Melrose Industries PLC
+- name: Melrose Industries
   symbol: MRO
   country: United Kingdom
   indices:
@@ -4827,8 +4953,9 @@ companies:
     employees: ''
   isins:
   - GB00BV9FYX34
-  akas: []
-- name: Mondi PLC
+  akas:
+  - Melrose Industries PLC
+- name: Mondi
   symbol: MNDI
   country: United Kingdom
   indices:
@@ -4860,8 +4987,9 @@ companies:
   isins:
   - GB00B1CRLC47
   - ZAE000156550
-  akas: []
-- name: National Grid PLC
+  akas:
+  - Mondi PLC
+- name: National Grid plc
   symbol: NG.
   country: United Kingdom
   indices:
@@ -4890,7 +5018,8 @@ companies:
     employees: 23069
   isins:
   - GB00BDR05C01
-  akas: []
+  akas:
+  - National Grid PLC
 - name: NEXT PLC
   symbol: NXT
   country: United Kingdom
@@ -4981,7 +5110,7 @@ companies:
   isins:
   - IE00BWT6H894
   akas: []
-- name: Pearson PLC
+- name: Pearson plc
   symbol: PSON
   country: United Kingdom
   indices:
@@ -5012,8 +5141,9 @@ companies:
     employees: 24322
   isins:
   - GB0006776081
-  akas: []
-- name: Persimmon PLC
+  akas:
+  - Pearson PLC
+- name: Persimmon plc
   symbol: PSN
   country: United Kingdom
   indices:
@@ -5044,8 +5174,9 @@ companies:
     employees: 5221
   isins:
   - GB0006825383
-  akas: []
-- name: Phoenix Group Holdings PLC
+  akas:
+  - Persimmon PLC
+- name: Phoenix Group
   symbol: PHNX
   country: United Kingdom
   indices:
@@ -5069,8 +5200,9 @@ companies:
     employees: 5752
   isins:
   - KYG7091M1096
-  akas: []
-- name: Prudential PLC
+  akas:
+  - Phoenix Group Holdings PLC
+- name: Prudential plc
   symbol: PRU
   country: United Kingdom
   indices:
@@ -5100,8 +5232,9 @@ companies:
     employees: 23000
   isins:
   - GB0007099541
-  akas: []
-- name: Reckitt Benckiser Group PLC
+  akas:
+  - Prudential PLC
+- name: Reckitt
   symbol: RB.
   country: United Kingdom
   indices:
@@ -5131,8 +5264,9 @@ companies:
     employees: 40000
   isins:
   - GB00B24CGK77
-  akas: []
-- name: RELX PLC
+  akas:
+  - Reckitt Benckiser Group PLC
+- name: RELX
   symbol: REL
   country: United Kingdom
   indices:
@@ -5167,8 +5301,9 @@ companies:
     employees: 33200
   isins:
   - GB00B2B0DG97
-  akas: []
-- name: Rentokil Initial PLC
+  akas:
+  - RELX PLC
+- name: Rentokil Initial
   symbol: RTO
   country: United Kingdom
   indices:
@@ -5202,8 +5337,9 @@ companies:
     employees: 36000
   isins:
   - GB00B082RF11
-  akas: []
-- name: Rightmove PLC
+  akas:
+  - Rentokil Initial PLC
+- name: Rightmove
   symbol: RMV
   country: United Kingdom
   indices:
@@ -5230,7 +5366,8 @@ companies:
     employees: ''
   isins:
   - GB00BGDT3G23
-  akas: []
+  akas:
+  - Rightmove PLC
 - name: Rolls-Royce Holdings PLC
   symbol: RR.
   country: United Kingdom
@@ -5295,7 +5432,7 @@ companies:
     employees: 59900
   isins: []
   akas: []
-- name: The Sage Group PLC
+- name: Sage Group
   symbol: SGE
   country: United Kingdom
   indices:
@@ -5322,8 +5459,9 @@ companies:
     employees: 12000
   isins:
   - GB00B8C3BL03
-  akas: []
-- name: J Sainsbury PLC
+  akas:
+  - The Sage Group PLC
+- name: Sainsbury's
   symbol: SBRY
   country: United Kingdom
   indices:
@@ -5353,8 +5491,9 @@ companies:
     employees: 111900
   isins:
   - GB00B019KW72
-  akas: []
-- name: Schroders PLC
+  akas:
+  - J Sainsbury PLC
+- name: Schroders
   symbol: SDR
   country: United Kingdom
   indices:
@@ -5391,8 +5530,9 @@ companies:
     employees: 5000
   isins:
   - GB0002405495
-  akas: []
-- name: Scottish Mortgage Investment Trust PLC
+  akas:
+  - Schroders PLC
+- name: Scottish Mortgage Investment Trust
   symbol: SMT
   country: United Kingdom
   indices:
@@ -5416,8 +5556,9 @@ companies:
     employees: ''
   isins:
   - GB00BLDYK618
-  akas: []
-- name: SEGRO PLC
+  akas:
+  - Scottish Mortgage Investment Trust PLC
+- name: Segro
   symbol: SGRO
   country: United Kingdom
   indices:
@@ -5445,8 +5586,9 @@ companies:
     employees: ''
   isins:
   - GB00B5ZN1N88
-  akas: []
-- name: Severn Trent PLC
+  akas:
+  - SEGRO PLC
+- name: Severn Trent
   symbol: SVT
   country: United Kingdom
   indices:
@@ -5472,8 +5614,9 @@ companies:
     employees: ''
   isins:
   - GB00B1FH8J72
-  akas: []
-- name: Smith & Nephew PLC
+  akas:
+  - Severn Trent PLC
+- name: Smith & Nephew
   symbol: SN.
   country: United Kingdom
   indices:
@@ -5504,8 +5647,9 @@ companies:
     employees: 17500
   isins:
   - GB0009223206
-  akas: []
-- name: Smiths Group PLC
+  akas:
+  - Smith & Nephew PLC
+- name: SES S.A.
   symbol: SMIN
   country: United Kingdom
   indices:
@@ -5533,7 +5677,8 @@ companies:
   isins:
   - GB00B1WY2338
   - LU0088087324
-  akas: []
+  akas:
+  - Smiths Group PLC
 - name: Smurfit Kappa Group PLC
   symbol: SKG
   country: Ireland
@@ -5566,7 +5711,7 @@ companies:
   isins:
   - IE00B1RR8406
   akas: []
-- name: Spirax-Sarco Engineering PLC
+- name: Spirax Group
   symbol: SPX
   country: United Kingdom
   indices:
@@ -5594,8 +5739,9 @@ companies:
     employees: ''
   isins:
   - GB00BWFGQN14
-  akas: []
-- name: STERIS PLC
+  akas:
+  - Spirax-Sarco Engineering PLC
+- name: Steris
   symbol: SSE
   country: United Kingdom
   indices:
@@ -5617,8 +5763,9 @@ companies:
   isins:
   - IE00BFY8C754
   - US8591521005
-  akas: []
-- name: St. James's Place PLC
+  akas:
+  - STERIS PLC
+- name: St. James's Place plc
   symbol: STJ
   country: United Kingdom
   indices:
@@ -5643,8 +5790,9 @@ companies:
     employees: ''
   isins:
   - GB0007669376
-  akas: []
-- name: Standard Chartered PLC
+  akas:
+  - St. James's Place PLC
+- name: Standard Chartered
   symbol: STAN
   country: United Kingdom
   indices:
@@ -5675,7 +5823,8 @@ companies:
     employees: 85000
   isins:
   - GB0004082847
-  akas: []
+  akas:
+  - Standard Chartered PLC
 - name: Taylor Wimpey PLC
   symbol: TW.
   country: United Kingdom
@@ -5704,7 +5853,7 @@ companies:
     employees: ''
   isins: []
   akas: []
-- name: Tesco PLC
+- name: Tesco
   symbol: TSCO
   country: United Kingdom
   indices:
@@ -5738,8 +5887,9 @@ companies:
   isins:
   - GB0008847096
   - GB00BLGZ9862
-  akas: []
-- name: Unilever PLC
+  akas:
+  - Tesco PLC
+- name: Unilever
   symbol: ULVR
   country: United Kingdom
   indices:
@@ -5776,7 +5926,8 @@ companies:
     employees: 155000
   isins:
   - GB00B10RZP78
-  akas: []
+  akas:
+  - Unilever PLC
 - name: United Utilities Group PLC
   symbol: UU.
   country: United Kingdom
@@ -5803,7 +5954,7 @@ companies:
     employees: 5382
   isins: []
   akas: []
-- name: Vodafone Group PLC
+- name: Vodafone
   symbol: VOD
   country: United Kingdom
   indices:
@@ -5832,8 +5983,9 @@ companies:
     employees: 93000
   isins:
   - GB00BH4HKS39
-  akas: []
-- name: Whitbread PLC
+  akas:
+  - Vodafone Group PLC
+- name: Whitbread
   symbol: WTB
   country: United Kingdom
   indices:
@@ -5864,7 +6016,8 @@ companies:
     employees: 35000
   isins:
   - GB00B1KJJ408
-  akas: []
+  akas:
+  - Whitbread PLC
 - name: WPP PLC
   symbol: WPP
   country: United Kingdom
@@ -5900,7 +6053,7 @@ companies:
   isins:
   - JE00B8KF9B49
   akas: []
-- name: Elisa Oyj
+- name: Elisa
   symbol: ELI1V
   country: Finland
   indices:
@@ -5933,8 +6086,9 @@ companies:
   isins:
   - FI0009007884
   - FR0012435121
-  akas: []
-- name: Fortum Oyj
+  akas:
+  - Elisa Oyj
+- name: Fortum
   symbol: FUM1V
   country: Finland
   indices:
@@ -5962,8 +6116,9 @@ companies:
     employees: 8191
   isins:
   - FI0009007132
-  akas: []
-- name: Kesko Oyj
+  akas:
+  - Fortum Oyj
+- name: Kesko
   symbol: KESBV
   country: Finland
   indices:
@@ -5993,7 +6148,8 @@ companies:
     employees: 22476
   isins:
   - FI0009000202
-  akas: []
+  akas:
+  - Kesko Oyj
 - name: KONE Oyj
   symbol: KNEBV
   country: Finland
@@ -6024,7 +6180,7 @@ companies:
   isins:
   - FI0009013403
   akas: []
-- name: Neste Oyj
+- name: Neste
   symbol: NESTE
   country: Finland
   indices:
@@ -6048,8 +6204,9 @@ companies:
     employees: 4400
   isins:
   - FI0009013296
-  akas: []
-- name: Nokia Corporation
+  akas:
+  - Neste Oyj
+- name: Nokia
   symbol: NOKIA
   country: Finland
   indices:
@@ -6076,8 +6233,9 @@ companies:
     employees: 98322
   isins:
   - FI0009000681
-  akas: []
-- name: Nokian Renkaat Oyj
+  akas:
+  - Nokia Corporation
+- name: Nokian Tyres
   symbol: NRE1V
   country: Finland
   indices:
@@ -6104,7 +6262,8 @@ companies:
     employees: 4790
   isins:
   - FI0009005318
-  akas: []
+  akas:
+  - Nokian Renkaat Oyj
 - name: Orion Oyj
   symbol: ORNBV
   country: Finland
@@ -6142,7 +6301,7 @@ companies:
   isins:
   - FI0009800346
   akas: []
-- name: Outokumpu Oyj
+- name: Outokumpu
   symbol: OUT1V
   country: Finland
   indices:
@@ -6170,8 +6329,9 @@ companies:
     employees: 9915
   isins:
   - FI0009002422
-  akas: []
-- name: Sampo Oyj
+  akas:
+  - Outokumpu Oyj
+- name: Sampo Group
   symbol: SAMPO
   country: Finland
   indices:
@@ -6201,8 +6361,9 @@ companies:
     employees: 9813
   isins:
   - FI0009003305
-  akas: []
-- name: Stora Enso Oyj R
+  akas:
+  - Sampo Oyj
+- name: Stora Enso
   symbol: STERV
   country: Finland
   indices:
@@ -6239,8 +6400,9 @@ companies:
   - FI0009005961
   - FI0009007603
   - FI0009007611
-  akas: []
-- name: UPM-Kymmene Oyj
+  akas:
+  - Stora Enso Oyj R
+- name: UPM
   symbol: UPM1V
   country: Finland
   indices:
@@ -6264,8 +6426,9 @@ companies:
     employees: 18700
   isins:
   - FI0009005987
-  akas: []
-- name: Cargotec Corporation
+  akas:
+  - UPM-Kymmene Oyj
+- name: Cargotec
   symbol: CGCBV
   country: Finland
   indices:
@@ -6293,8 +6456,9 @@ companies:
     employees: 11552
   isins:
   - FI0009013429
-  akas: []
-- name: Huhtamäki Oyj
+  akas:
+  - Cargotec Corporation
+- name: Huhtamäki
   symbol: HUH1V
   country: Finland
   indices:
@@ -6316,8 +6480,9 @@ companies:
     employees: 17076
   isins:
   - FI0009000459
-  akas: []
-- name: Konecranes PLC
+  akas:
+  - Huhtamäki Oyj
+- name: Konecranes
   symbol: KCR
   country: Finland
   indices:
@@ -6345,7 +6510,8 @@ companies:
     employees: 17027
   isins:
   - FI0009005870
-  akas: []
+  akas:
+  - Konecranes PLC
 - name: Metsä Board Oyj
   symbol: METSB
   country: Finland
@@ -6372,7 +6538,7 @@ companies:
   isins:
   - FI0009000665
   akas: []
-- name: Nordea Bank Abp
+- name: Nordea
   symbol: NDA-FI
   country: Finland
   indices:
@@ -6400,7 +6566,8 @@ companies:
     employees: 29000
   isins:
   - FI4000297767
-  akas: []
+  akas:
+  - Nordea Bank Abp
 - name: Telia Company
   wiki_name: Telia Company
   symbol: TELIA
@@ -6434,7 +6601,7 @@ companies:
     founded: 2003
     employees: 20800
   akas: []
-- name: Valmet Oyj
+- name: Valmet
   symbol: VALMT
   country: Finland
   indices:
@@ -6462,8 +6629,9 @@ companies:
     employees: 13598
   isins:
   - FI4000074984
-  akas: []
-- name: Air Liquide SA
+  akas:
+  - Valmet Oyj
+- name: Air Liquide
   symbol: AI
   country: France
   indices:
@@ -6494,7 +6662,8 @@ companies:
     employees: 66000
   isins:
   - FR0000120073
-  akas: []
+  akas:
+  - Air Liquide SA
 - name: ArcelorMittal
   symbol: MT
   country: Luxembourg
@@ -6563,7 +6732,7 @@ companies:
   isins:
   - FR0000051732
   akas: []
-- name: AXA SA
+- name: Axa
   symbol: CS
   country: France
   indices:
@@ -6591,8 +6760,9 @@ companies:
     employees: 125934
   isins:
   - FR0000120628
-  akas: []
-- name: BNP Paribas SA
+  akas:
+  - AXA SA
+- name: BNP Paribas
   symbol: BNP
   country: France
   indices:
@@ -6624,8 +6794,9 @@ companies:
     employees: 202624
   isins:
   - FR0000131104
-  akas: []
-- name: Bouygues SA
+  akas:
+  - BNP Paribas SA
+- name: Bouygues
   symbol: EN
   country: France
   indices:
@@ -6652,8 +6823,9 @@ companies:
     employees: 129000
   isins:
   - FR0000120503
-  akas: []
-- name: Capgemini SE
+  akas:
+  - Bouygues SA
+- name: Capgemini
   symbol: CAP
   country: France
   indices:
@@ -6680,8 +6852,9 @@ companies:
     employees: 270000
   isins:
   - FR0000125338
-  akas: []
-- name: Carrefour SA
+  akas:
+  - Capgemini SE
+- name: Carrefour
   symbol: CA
   country: France
   indices:
@@ -6711,8 +6884,9 @@ companies:
     employees: 321383
   isins:
   - FR0000120172
-  akas: []
-- name: Crédit Agricole SA
+  akas:
+  - Carrefour SA
+- name: Crédit Agricole
   symbol: ACA
   country: France
   indices:
@@ -6734,8 +6908,9 @@ companies:
     employees: 142000
   isins:
   - FR0000045072
-  akas: []
-- name: Danone SA
+  akas:
+  - Crédit Agricole SA
+- name: Danone
   symbol: BN
   country: France
   indices:
@@ -6767,8 +6942,9 @@ companies:
     employees: 102449
   isins:
   - FR0000120644
-  akas: []
-- name: Dassault Systèmes SE
+  akas:
+  - Danone SA
+- name: Dassault Systèmes
   symbol: DSY
   country: France
   indices:
@@ -6789,8 +6965,9 @@ companies:
     employees: 20000
   isins:
   - FR0000130650
-  akas: []
-- name: Engie SA
+  akas:
+  - Dassault Systèmes SE
+- name: Engie
   symbol: ENGI
   country: France
   indices:
@@ -6816,8 +6993,9 @@ companies:
     employees: 171100
   isins:
   - FR0010208488
-  akas: []
-- name: EssilorLuxottica SA
+  akas:
+  - Engie SA
+- name: EssilorLuxottica
   symbol: EL
   country: France
   indices:
@@ -6846,8 +7024,9 @@ companies:
     employees: 150000
   isins:
   - FR0000121667
-  akas: []
-- name: Hermès International SCA
+  akas:
+  - EssilorLuxottica SA
+- name: Hermès
   symbol: RMS
   country: France
   indices:
@@ -6870,8 +7049,9 @@ companies:
     employees: 14284
   isins:
   - FR0000052292
-  akas: []
-- name: Kering SA
+  akas:
+  - Hermès International SCA
+- name: Kering
   symbol: KER
   country: France
   indices:
@@ -6903,8 +7083,9 @@ companies:
     employees: 38000
   isins:
   - FR0000121485
-  akas: []
-- name: L'Oréal SA
+  akas:
+  - Kering SA
+- name: L'Oréal
   wiki_name: L'Oréal S.A.
   symbol: OR
   country: France
@@ -6927,8 +7108,9 @@ companies:
     employees: 88000
   isins:
   - FR0000120321
-  akas: []
-- name: Legrand SA
+  akas:
+  - L'Oréal SA
+- name: Legrand
   symbol: LR
   country: France
   indices:
@@ -6956,8 +7138,9 @@ companies:
     employees: 39000
   isins:
   - FR0010307819
-  akas: []
-- name: Compagnie Générale des établissements Michelin
+  akas:
+  - Legrand SA
+- name: Michelin
   symbol: ML
   country: France
   indices:
@@ -6981,8 +7164,9 @@ companies:
     employees: 127000
   isins:
   - FR0000121261
-  akas: []
-- name: Orange Belgium SA
+  akas:
+  - Compagnie Générale des établissements Michelin
+- name: Orange SA
   symbol: ORA
   country: France
   indices:
@@ -7017,8 +7201,9 @@ companies:
     employees: 142150
   isins:
   - FR0000133308
-  akas: []
-- name: Pernod Ricard SA
+  akas:
+  - Orange Belgium SA
+- name: Pernod Ricard
   symbol: RI
   country: France
   indices:
@@ -7053,8 +7238,9 @@ companies:
     employees: 18914
   isins:
   - FR0000120693
-  akas: []
-- name: Publicis Groupe SA
+  akas:
+  - Pernod Ricard SA
+- name: Publicis
   symbol: PUB
   country: France
   indices:
@@ -7085,8 +7271,9 @@ companies:
     employees: 75588
   isins:
   - FR0000130577
-  akas: []
-- name: Renault SA
+  akas:
+  - Publicis Groupe SA
+- name: Renault
   symbol: RNO
   country: France
   indices:
@@ -7113,8 +7300,9 @@ companies:
     employees: 170158
   isins:
   - FR0000131906
-  akas: []
-- name: Safran SA
+  akas:
+  - Renault SA
+- name: Safran
   symbol: SAF
   country: France
   indices:
@@ -7142,8 +7330,9 @@ companies:
     employees: 81000
   isins:
   - FR0000073272
-  akas: []
-- name: Compagnie de Saint-Gobain SA
+  akas:
+  - Safran SA
+- name: Saint-Gobain
   symbol: SGO
   country: France
   indices:
@@ -7174,7 +7363,8 @@ companies:
     employees: 180000
   isins:
   - FR0000125007
-  akas: []
+  akas:
+  - Compagnie de Saint-Gobain SA
 - name: Sanofi
   symbol: SAN
   country: France
@@ -7204,7 +7394,7 @@ companies:
   isins:
   - FR0000120578
   akas: []
-- name: Schneider Electric S.E.
+- name: Schneider Electric
   symbol: SU
   country: France
   indices:
@@ -7233,8 +7423,9 @@ companies:
     employees: 135000
   isins:
   - FR0000121972
-  akas: []
-- name: STMicroelectronics N.V.
+  akas:
+  - Schneider Electric S.E.
+- name: STABILUS SE
   symbol: STM
   country: Switzerland
   indices:
@@ -7265,8 +7456,9 @@ companies:
     employees: 46000
   isins:
   - NL0000226223
-  akas: []
-- name: TOTAL SA
+  akas:
+  - STMicroelectronics N.V.
+- name: TotalEnergies
   symbol: FP
   country: France
   indices:
@@ -7301,7 +7493,8 @@ companies:
     employees: 107776
   isins:
   - FR0000120271
-  akas: []
+  akas:
+  - TOTAL SA
 - name: Unibail-Rodamco-Westfield
   symbol: URW
   country: France
@@ -7335,7 +7528,7 @@ companies:
   isins:
   - FR0013326246
   akas: []
-- name: Veolia Environnement SA
+- name: Veolia
   symbol: VIE
   country: France
   indices:
@@ -7358,8 +7551,9 @@ companies:
     employees: 163226
   isins:
   - FR0000124141
-  akas: []
-- name: VINCI SA
+  akas:
+  - Veolia Environnement SA
+- name: Vinci SA
   symbol: DG
   country: France
   indices:
@@ -7390,8 +7584,9 @@ companies:
     employees: 222397
   isins:
   - FR0000125486
-  akas: []
-- name: Vivendi SA
+  akas:
+  - VINCI SA
+- name: Vivendi
   symbol: VIV
   country: France
   indices:
@@ -7422,7 +7617,8 @@ companies:
     employees: 44641
   isins:
   - FR0000127771
-  akas: []
+  akas:
+  - Vivendi SA
 - name: Worldline SA
   symbol: WLN
   country: France
@@ -7455,7 +7651,7 @@ companies:
   isins:
   - FR0011981968
   akas: []
-- name: 3M Company
+- name: 3M
   symbol: MMM
   country: United States
   indices:
@@ -7477,7 +7673,8 @@ companies:
     employees: 94987
   isins:
   - US88579Y1010
-  akas: []
+  akas:
+  - 3M Company
 - name: American Express Company
   symbol: AXP
   country: United States
@@ -7531,7 +7728,7 @@ companies:
   isins:
   - US0378331005
   akas: []
-- name: The Boeing Company
+- name: Boeing
   symbol: BA
   country: United States
   indices:
@@ -7564,8 +7761,9 @@ companies:
     founded: 1916
     employees: 141014
   isins:
-  - NL0000235190
-  akas: []
+  - US0970231058
+  akas:
+  - The Boeing Company
 - name: Caterpillar Inc.
   symbol: CAT
   country: United States
@@ -7669,7 +7867,7 @@ companies:
   isins:
   - US1912161007
   akas: []
-- name: DowDuPont Inc.
+- name: DuPont
   symbol: DOW
   country: United States
   indices:
@@ -7690,8 +7888,9 @@ companies:
     employees: 98000
   isins:
   - US26614N1028
-  akas: []
-- name: Exxon Mobil Corporation
+  akas:
+  - DowDuPont Inc.
+- name: ExxonMobil
   symbol: XOM
   country: United States
   indices:
@@ -7716,8 +7915,9 @@ companies:
     employees: 72000
   isins:
   - US30231G1022
-  akas: []
-- name: The Goldman Sachs Group Inc.
+  akas:
+  - Exxon Mobil Corporation
+- name: Goldman Sachs
   symbol: GS
   country: United States
   indices:
@@ -7747,7 +7947,8 @@ companies:
     employees: 40500
   isins:
   - US38141G1040
-  akas: []
+  akas:
+  - The Goldman Sachs Group Inc.
 - name: The Home Depot Inc.
   symbol: HD
   country: United States
@@ -7775,7 +7976,7 @@ companies:
     employees: 400000
   isins: []
   akas: []
-- name: International Business Machines Corporation
+- name: IBM
   symbol: IBM
   country: United States
   indices:
@@ -7804,7 +8005,8 @@ companies:
     employees: 345900
   isins:
   - US4592001014
-  akas: []
+  akas:
+  - International Business Machines Corporation
 - name: Intel Corporation
   symbol: INTC
   country: United States
@@ -7857,7 +8059,7 @@ companies:
   isins:
   - US4781601046
   akas: []
-- name: JPMorgan Chase & Co.
+- name: JPMorgan Chase
   symbol: JPM
   country: United States
   indices:
@@ -7881,8 +8083,9 @@ companies:
     employees: 255351
   isins:
   - US46625H1005
-  akas: []
-- name: McDonald's Corporation
+  akas:
+  - JPMorgan Chase & Co.
+- name: McDonald's
   symbol: MCD
   country: United States
   indices:
@@ -7909,7 +8112,8 @@ companies:
     employees: 210000
   isins:
   - US5801351017
-  akas: []
+  akas:
+  - McDonald's Corporation
 - name: Nike, Inc.
   wiki_name: Nike, Inc.
   symbol: NKE
@@ -7959,7 +8163,7 @@ companies:
     employees: 74000
   isins: []
   akas: []
-- name: Microsoft Corporation
+- name: Microsoft
   symbol: MSFT
   country: United States
   indices:
@@ -7986,7 +8190,8 @@ companies:
     employees: 166475
   isins:
   - US5949181045
-  akas: []
+  akas:
+  - Microsoft Corporation
 - name: Pfizer Inc.
   symbol: PFE
   country: United States
@@ -8084,7 +8289,7 @@ companies:
     employees: 330000
   isins: []
   akas: []
-- name: Verizon Communications Inc.
+- name: Verizon
   symbol: VZ
   country: United States
   indices:
@@ -8109,7 +8314,8 @@ companies:
     employees: 132200
   isins:
   - US92343V1044
-  akas: []
+  akas:
+  - Verizon Communications Inc.
 - name: Visa Inc.
   symbol: V
   country: United States
@@ -8136,7 +8342,7 @@ companies:
     employees: 20500
   isins: []
   akas: []
-- name: Walmart Inc.
+- name: Walmart
   symbol: WMT
   country: United States
   indices:
@@ -8162,7 +8368,8 @@ companies:
     employees: 22
   isins:
   - US9311421039
-  akas: []
+  akas:
+  - Walmart Inc.
 - name: Walgreens Boots Alliance Inc.
   symbol: WBA
   country: United States
@@ -8319,7 +8526,7 @@ companies:
   - US02079K1079
   - US02079K3059
   akas: []
-- name: Amazon.com Inc.
+- name: Amazon
   symbol: AMZN
   country: United States
   indices:
@@ -8343,7 +8550,8 @@ companies:
     employees: 1298000
   isins:
   - US0231351067
-  akas: []
+  akas:
+  - Amazon.com Inc.
 - name: American Airlines Group Inc.
   symbol: AAL
   country: United States
@@ -8369,7 +8577,7 @@ companies:
     employees: 133700
   isins: []
   akas: []
-- name: Amgen Inc.
+- name: Amgen
   symbol: AMGN
   country: United States
   indices:
@@ -8393,7 +8601,8 @@ companies:
     employees: 22000
   isins:
   - US0311621009
-  akas: []
+  akas:
+  - Amgen Inc.
 - name: Analog Devices Inc.
   symbol: ADI
   country: United States
@@ -8566,7 +8775,7 @@ companies:
     employees: 98000
   isins: []
   akas: []
-- name: Cognizant Technology Solutions Corporation
+- name: Cognizant
   symbol: CTSH
   country: United States
   indices:
@@ -8591,7 +8800,8 @@ companies:
     employees: 289500
   isins:
   - US1924461023
-  akas: []
+  akas:
+  - Cognizant Technology Solutions Corporation
 - name: Comcast Corporation
   symbol: CMCSA
   country: United States
@@ -8792,7 +9002,7 @@ companies:
     employees: 9800
   isins: []
   akas: []
-- name: Expedia Group Inc.
+- name: Expedia Group
   symbol: EXPE
   country: United States
   indices:
@@ -8817,7 +9027,8 @@ companies:
     employees: 24500
   isins:
   - US65248E2037
-  akas: []
+  akas:
+  - Expedia Group Inc.
 - name: Fastenal Company
   symbol: FAST
   country: United States
@@ -9652,7 +9863,7 @@ companies:
     employees: 349000
   isins: []
   akas: []
-- name: T-Mobile US Inc.
+- name: T-Mobile US
   symbol: TMUS
   country: United States
   indices:
@@ -9677,8 +9888,9 @@ companies:
     employees: 75000
   isins:
   - US8725901040
-  akas: []
-- name: Tesla Inc.
+  akas:
+  - T-Mobile US Inc.
+- name: Tesla, Inc.
   symbol: TSLA
   country: United States
   indices:
@@ -9701,7 +9913,8 @@ companies:
     employees: 70757
   isins:
   - US88160R1014
-  akas: []
+  akas:
+  - Tesla Inc.
 - name: Texas Instruments Inc.
   symbol: TXN
   country: United States
@@ -9902,7 +10115,7 @@ companies:
     employees: 47000
   isins: []
   akas: []
-- name: Accenture PLC
+- name: Accenture
   symbol: ACN
   country: Ireland
   indices:
@@ -9927,7 +10140,8 @@ companies:
     employees: 537000
   isins:
   - IE00B4BNMY34
-  akas: []
+  akas:
+  - Accenture PLC
 - name: The Allstate Corporation
   symbol: ALL
   country: United States
@@ -10000,7 +10214,7 @@ companies:
     employees: 45000
   isins: []
   akas: []
-- name: AT&T Inc
+- name: AT&T
   symbol: T
   country: United States
   indices:
@@ -10021,8 +10235,9 @@ companies:
     employees: 230000
   isins:
   - US00206R1023
-  akas: []
-- name: Bank of America Corporation
+  akas:
+  - AT&T Inc
+- name: Bank of America
   symbol: BAC
   country: United States
   indices:
@@ -10048,7 +10263,8 @@ companies:
     employees: 213000
   isins:
   - US0605051046
-  akas: []
+  akas:
+  - Bank of America Corporation
 - name: The Bank of New York Mellon Corporation
   symbol: BK
   country: United States
@@ -10075,7 +10291,7 @@ companies:
     employees: 48400
   isins: []
   akas: []
-- name: Berkshire Hathaway Inc.
+- name: Berkshire Hathaway
   symbol: BRK-B
   country: United States
   indices:
@@ -10100,8 +10316,9 @@ companies:
     employees: 360000
   isins:
   - US0846707026
-  akas: []
-- name: BlackRock Inc.
+  akas:
+  - Berkshire Hathaway Inc.
+- name: BlackRock
   symbol: BLK
   country: United States
   indices:
@@ -10127,7 +10344,8 @@ companies:
     employees: 16500
   isins:
   - US09247X1019
-  akas: []
+  akas:
+  - BlackRock Inc.
 - name: Booking Holdings Inc.
   symbol: BKNG
   country: United States
@@ -10212,7 +10430,7 @@ companies:
     employees: 51985
   isins: []
   akas: []
-- name: Citigroup Inc.
+- name: Citigroup
   symbol: C
   country: United States
   indices:
@@ -10235,7 +10453,8 @@ companies:
     employees: 210000
   isins:
   - US1729674242
-  akas: []
+  akas:
+  - Citigroup Inc.
 - name: Colgate-Palmolive Company
   symbol: CL
   country: United States
@@ -10443,7 +10662,7 @@ companies:
     employees: 33383
   isins: []
   akas: []
-- name: FedEx Corporation
+- name: FedEx
   symbol: FDX
   country: United States
   indices:
@@ -10469,7 +10688,8 @@ companies:
     employees: 600000
   isins:
   - US31428X1063
-  akas: []
+  akas:
+  - FedEx Corporation
 - name: Ford Motor Company
   symbol: F
   country: United States
@@ -10492,7 +10712,7 @@ companies:
     employees: 186000
   isins: []
   akas: []
-- name: General Electric Company
+- name: GE Aerospace
   symbol: GE
   country: United States
   indices:
@@ -10522,8 +10742,9 @@ companies:
   isins:
   - FR0010220475
   - US3696041033
-  akas: []
-- name: General Motors Company
+  akas:
+  - General Electric Company
+- name: General Motors
   symbol: GM
   country: United States
   indices:
@@ -10555,7 +10776,8 @@ companies:
     employees: 155000
   isins:
   - US37045V1008
-  akas: []
+  akas:
+  - General Motors Company
 - name: Honeywell International Inc.
   symbol: HON
   country: United States
@@ -10610,7 +10832,7 @@ companies:
     employees: 11012
   isins: []
   akas: []
-- name: Lowe's Companies Inc.
+- name: Lowe's
   symbol: LOW
   country: United States
   indices:
@@ -10636,7 +10858,8 @@ companies:
     employees: 300000
   isins:
   - US5486611073
-  akas: []
+  akas:
+  - Lowe's Companies Inc.
 - name: Mastercard Inc.
   symbol: MA
   country: United States
@@ -10662,7 +10885,7 @@ companies:
     employees: 21000
   isins: []
   akas: []
-- name: Medtronic PLC
+- name: Medtronic
   symbol: MDT
   country: Ireland
   indices:
@@ -10688,7 +10911,8 @@ companies:
     employees: 104950
   isins:
   - IE00BTN1Y115
-  akas: []
+  akas:
+  - Medtronic PLC
 - name: MetLife Inc.
   symbol: MET
   country: United States
@@ -10872,7 +11096,7 @@ companies:
     employees: 195000
   isins: []
   akas: []
-- name: Schlumberger Limited
+- name: Schlumberger
   symbol: SLB
   country: United States
   indices:
@@ -10894,7 +11118,8 @@ companies:
     employees: 86000
   isins:
   - AN8068571086
-  akas: []
+  akas:
+  - Schlumberger Limited
 - name: Simon Property Group Inc.
   symbol: SPG
   country: United States
@@ -11050,7 +11275,7 @@ companies:
   isins:
   - US9029733048
   akas: []
-- name: Wells Fargo & Company
+- name: Wells Fargo
   symbol: WFC
   country: United States
   indices:
@@ -11073,7 +11298,8 @@ companies:
     employees: 268531
   isins:
   - US9497461015
-  akas: []
+  akas:
+  - Wells Fargo & Company
 - name: Abiomed Inc.
   symbol: ABMD
   country: United States
@@ -11319,7 +11545,7 @@ companies:
     employees: 439
   isins: []
   akas: []
-- name: Align Technology Inc.
+- name: Align Technology
   symbol: ALGN
   country: United States
   indices:
@@ -11345,8 +11571,9 @@ companies:
     employees: 15319
   isins:
   - US0162551016
-  akas: []
-- name: Allegion PLC
+  akas:
+  - Align Technology Inc.
+- name: Allegion
   symbol: ALLE
   country: Ireland
   indices:
@@ -11370,7 +11597,8 @@ companies:
     employees: 10000
   isins:
   - IE00BFRT3W74
-  akas: []
+  akas:
+  - Allegion PLC
 - name: Ameren Corporation
   symbol: AEE
   country: United States
@@ -11643,7 +11871,7 @@ companies:
     employees: 50000
   isins: []
   akas: []
-- name: Apache Corporation
+- name: APA Corporation
   symbol: APA
   country: United States
   indices:
@@ -11668,8 +11896,9 @@ companies:
     employees: 3163
   isins:
   - US03743Q1085
-  akas: []
-- name: Aptiv PLC
+  akas:
+  - Apache Corporation
+- name: Aptiv
   symbol: APTV
   country: United States
   indices:
@@ -11693,7 +11922,8 @@ companies:
     employees: 141000
   isins:
   - JE00B783TY65
-  akas: []
+  akas:
+  - Aptiv PLC
 - name: Archer-Daniels-Midland Company
   symbol: ADM
   country: United States
@@ -11889,7 +12119,7 @@ companies:
     employees: 30000
   isins: []
   akas: []
-- name: Baker Hughes Company
+- name: Baker Hughes
   wiki_name: Baker Hughes Company
   symbol: BKR
   country: United States
@@ -11912,7 +12142,8 @@ companies:
   metadata:
     founded: 1907
     employees: 60000
-  akas: []
+  akas:
+  - Baker Hughes Company
 - name: Ball Corporation
   symbol: BLL
   country: United States
@@ -11945,7 +12176,7 @@ companies:
   isins:
   - US0584981064
   akas: []
-- name: Baxter International Inc.
+- name: Baxter International
   symbol: BAX
   country: United States
   indices:
@@ -11970,7 +12201,8 @@ companies:
     employees: 48000
   isins:
   - US0718131099
-  akas: []
+  akas:
+  - Baxter International Inc.
 - name: Becton, Dickinson and Company
   symbol: BDX
   country: United States
@@ -12070,7 +12302,7 @@ companies:
     employees: 760
   isins: []
   akas: []
-- name: Boston Scientific Corporation
+- name: Boston Scientific
   symbol: BSX
   country: United States
   indices:
@@ -12095,7 +12327,8 @@ companies:
     employees: 36000
   isins:
   - US1011371077
-  akas: []
+  akas:
+  - Boston Scientific Corporation
 - name: Broadcom Inc.
   symbol: AVGO
   country: United States
@@ -12325,7 +12558,7 @@ companies:
     employees: 100000
   isins: []
   akas: []
-- name: Celanese Corporation
+- name: Celanese
   symbol: CE
   country: United States
   indices:
@@ -12349,7 +12582,8 @@ companies:
     employees: 7714
   isins:
   - US1508701034
-  akas: []
+  akas:
+  - Celanese Corporation
 - name: Centene Corporation
   symbol: CNC
   country: United States
@@ -12969,7 +13203,7 @@ companies:
     employees: 69600
   isins: []
   akas: []
-- name: Delta Air Lines Inc.
+- name: Delta Air Lines
   symbol: DAL
   country: United States
   indices:
@@ -12991,7 +13225,8 @@ companies:
     employees: 91000
   isins:
   - US2473617023
-  akas: []
+  akas:
+  - Delta Air Lines Inc.
 - name: Devon Energy Corporation
   symbol: DVN
   country: United States
@@ -13017,7 +13252,7 @@ companies:
     employees: 1400
   isins: []
   akas: []
-- name: Diamondback Energy Inc.
+- name: Diamondback Energy
   symbol: FANG
   country: United States
   indices:
@@ -13039,7 +13274,8 @@ companies:
     employees: 732
   isins:
   - US25278X1090
-  akas: []
+  akas:
+  - Diamondback Energy Inc.
 - name: Digital Realty Trust Inc.
   symbol: DLR
   country: United States
@@ -13255,7 +13491,7 @@ companies:
     employees: 14500
   isins: []
   akas: []
-- name: Eaton Corporation PLC
+- name: Eaton Corporation
   symbol: ETN
   country: Ireland
   indices:
@@ -13280,7 +13516,8 @@ companies:
     employees: 92000
   isins:
   - IE00B8KQN827
-  akas: []
+  akas:
+  - Eaton Corporation PLC
 - name: Ecolab Inc.
   symbol: ECL
   country: United States
@@ -13425,7 +13662,7 @@ companies:
     employees: 11200
   isins: []
   akas: []
-- name: Equinix Inc. (REIT)
+- name: Equinix
   symbol: EQIX
   country: United States
   indices:
@@ -13450,7 +13687,8 @@ companies:
     employees: 8700
   isins:
   - US29444U7000
-  akas: []
+  akas:
+  - Equinix Inc. (REIT)
 - name: Equity Residential
   symbol: EQR
   country: United States
@@ -13501,7 +13739,7 @@ companies:
     employees: 1799
   isins: []
   akas: []
-- name: Everest Re Group, Ltd.
+- name: Everest Group
   symbol: RE
   country: Bermuda
   indices:
@@ -13525,7 +13763,8 @@ companies:
     employees: 1746
   isins:
   - BMG3223R1088
-  akas: []
+  akas:
+  - Everest Re Group, Ltd.
 - name: Evergy Inc.
   symbol: EVRG
   country: United States
@@ -13977,7 +14216,7 @@ companies:
     employees: 12800
   isins: []
   akas: []
-- name: Garmin Ltd.
+- name: Garmin
   symbol: GRMN
   country: Switzerland
   indices:
@@ -13998,7 +14237,8 @@ companies:
     employees: 16000
   isins:
   - CH0114405324
-  akas: []
+  akas:
+  - Garmin Ltd.
 - name: Gartner Inc.
   symbol: IT
   country: United States
@@ -14222,7 +14462,7 @@ companies:
     employees: 280000
   isins: []
   akas: []
-- name: Healthpeak Properties, Inc.
+- name: Healthpeak Properties
   wiki_name: Healthpeak Properties, Inc.
   symbol: PEAK
   country: United States
@@ -14249,7 +14489,8 @@ companies:
   metadata:
     founded: 1985
     employees: 204
-  akas: []
+  akas:
+  - Healthpeak Properties, Inc.
 - name: The Hershey Company
   symbol: HSY
   country: United States
@@ -14553,7 +14794,7 @@ companies:
     employees: 9200
   isins: []
   akas: []
-- name: Illinois Tool Works Inc.
+- name: Illinois Tool Works
   symbol: ITW
   country: United States
   indices:
@@ -14576,8 +14817,9 @@ companies:
     employees: 45000
   isins:
   - US4523081093
-  akas: []
-- name: Intercontinental Exchange Inc.
+  akas:
+  - Illinois Tool Works Inc.
+- name: Intercontinental Exchange
   symbol: ICE
   country: United States
   indices:
@@ -14602,7 +14844,8 @@ companies:
     employees: 8890
   isins:
   - US45866F1049
-  akas: []
+  akas:
+  - Intercontinental Exchange Inc.
 - name: International Flavors & Fragrances Inc.
   symbol: IFF
   country: United States
@@ -14681,7 +14924,7 @@ companies:
     employees: 54000
   isins: []
   akas: []
-- name: Invesco Ltd.
+- name: Invesco
   symbol: IVZ
   country: United States
   indices:
@@ -14706,7 +14949,8 @@ companies:
     employees: 8900
   isins:
   - BMG491BT1088
-  akas: []
+  akas:
+  - Invesco Ltd.
 - name: IQVIA Holdings Inc.
   symbol: IQV
   country: United States
@@ -14854,7 +15098,7 @@ companies:
     employees: 7300
   isins: []
   akas: []
-- name: Johnson Controls International PLC
+- name: Johnson Controls
   symbol: JCI
   country: Ireland
   indices:
@@ -14879,7 +15123,8 @@ companies:
     employees: 105000
   isins:
   - IE00BY7QL619
-  akas: []
+  akas:
+  - Johnson Controls International PLC
 - name: Juniper Networks Inc.
   symbol: JNPR
   country: United States
@@ -14957,7 +15202,7 @@ companies:
     employees: 14000
   isins: []
   akas: []
-- name: Kimberly-Clark Corporation
+- name: Kimberly-Clark
   symbol: KMB
   country: United States
   indices:
@@ -14981,7 +15226,8 @@ companies:
     employees: 40000
   isins:
   - US4943681035
-  akas: []
+  akas:
+  - Kimberly-Clark Corporation
 - name: Kimco Realty Corporation
   symbol: KIM
   country: United States
@@ -15036,7 +15282,7 @@ companies:
     employees: 10600
   isins: []
   akas: []
-- name: The Kroger Co.
+- name: Kroger
   symbol: KR
   country: United States
   indices:
@@ -15060,7 +15306,8 @@ companies:
     employees: 453000
   isins:
   - US5010441013
-  akas: []
+  akas:
+  - The Kroger Co.
 - name: Laboratory Corporation of America Holdings
   symbol: LH
   country: United States
@@ -15227,7 +15474,7 @@ companies:
     employees: 18100
   isins: []
   akas: []
-- name: LyondellBasell Industries N.V.
+- name: LyondellBasell
   symbol: LYB
   country: United States
   indices:
@@ -15251,7 +15498,8 @@ companies:
     employees: 19100
   isins:
   - NL0009434992
-  akas: []
+  akas:
+  - LyondellBasell Industries N.V.
 - name: M&T Bank Corporation
   symbol: MTB
   country: United States
@@ -15697,7 +15945,7 @@ companies:
     employees: 49000
   isins: []
   akas: []
-- name: Newmont Goldcorp Corporation
+- name: Newmont
   symbol: NEM
   country: United States
   indices:
@@ -15719,8 +15967,9 @@ companies:
     employees: 14300
   isins:
   - US6516391066
-  akas: []
-- name: News Corporation
+  akas:
+  - Newmont Goldcorp Corporation
+- name: News Corp
   symbol: NWSA
   country: United States
   indices:
@@ -15752,7 +16001,8 @@ companies:
   isins:
   - US65249B1098
   - US65249B2088
-  akas: []
+  akas:
+  - News Corporation
 - name: NiSource Inc.
   symbol: NI
   country: United States
@@ -15979,7 +16229,7 @@ companies:
     employees: 57170
   isins: []
   akas: []
-- name: Pentair PLC
+- name: Pentair
   symbol: PNR
   country: United Kingdom
   indices:
@@ -16004,7 +16254,8 @@ companies:
     employees: 9500
   isins:
   - IE00BLS09M33
-  akas: []
+  akas:
+  - Pentair PLC
 - name: PerkinElmer Inc.
   symbol: PKI
   country: United States
@@ -16054,7 +16305,7 @@ companies:
     employees: 14600
   isins: []
   akas: []
-- name: Pinnacle West Capital Corporation
+- name: Pinnacle West Capital
   symbol: PNW
   country: United States
   indices:
@@ -16078,7 +16329,8 @@ companies:
     employees: 6292
   isins:
   - US7234841010
-  akas: []
+  akas:
+  - Pinnacle West Capital Corporation
 - name: Pioneer Natural Resources Company
   symbol: PXD
   country: United States
@@ -16329,7 +16581,7 @@ companies:
     employees: 5086
   isins: []
   akas: []
-- name: Qorvo Inc.
+- name: Qorvo
   symbol: QRVO
   country: United States
   indices:
@@ -16354,7 +16606,8 @@ companies:
     employees: 7900
   isins:
   - US74736K1016
-  akas: []
+  akas:
+  - Qorvo Inc.
 - name: Quanta Services Inc.
   symbol: PWR
   country: United States
@@ -16660,7 +16913,7 @@ companies:
     employees: 16460
   isins: []
   akas: []
-- name: Royal Caribbean Cruises Ltd.
+- name: Royal Caribbean Group
   symbol: RCL
   country: United States
   indices:
@@ -16685,7 +16938,8 @@ companies:
     employees: 77000
   isins:
   - LR0008862868
-  akas: []
+  akas:
+  - Royal Caribbean Cruises Ltd.
 - name: S&P Global Inc.
   symbol: SPGI
   country: United States
@@ -16765,7 +17019,7 @@ companies:
     employees: ''
   isins: []
   akas: []
-- name: The Charles Schwab Corporation
+- name: Charles Schwab Corporation
   symbol: SCHW
   country: United States
   indices:
@@ -16791,7 +17045,8 @@ companies:
     employees: 32000
   isins:
   - US8085131055
-  akas: []
+  akas:
+  - The Charles Schwab Corporation
 - name: Sealed Air Corporation
   symbol: SEE
   country: United States
@@ -17776,7 +18031,7 @@ companies:
     employees: 5425
   isins: []
   akas: []
-- name: WTW Public Limited Company
+- name: Willis Towers Watson
   symbol: WLTW
   country: United Kingdom
   indices:
@@ -17803,7 +18058,8 @@ companies:
     employees: 46600
   isins:
   - IE00BDB6Q211
-  akas: []
+  akas:
+  - WTW Public Limited Company
 - name: Wynn Resorts, Limited
   symbol: WYNN
   country: United States
@@ -17879,7 +18135,7 @@ companies:
     employees: 34000
   isins: []
   akas: []
-- name: Zimmer Biomet Holdings Inc.
+- name: Zimmer Biomet
   symbol: ZBH
   country: United States
   indices:
@@ -17901,7 +18157,8 @@ companies:
     employees: 18200
   isins:
   - US98956P1021
-  akas: []
+  akas:
+  - Zimmer Biomet Holdings Inc.
 - name: Zions Bancorporation, National Association
   symbol: ZION
   country: United States
@@ -17951,7 +18208,7 @@ companies:
     employees: 9200
   isins: []
   akas: []
-- name: Anheuser-Busch InBev SA/NV
+- name: AB InBev
   symbol: ABI
   country: Belgium
   indices:
@@ -17981,7 +18238,8 @@ companies:
   isins:
   - BE0003793107
   - BE0974293251
-  akas: []
+  akas:
+  - Anheuser-Busch InBev SA/NV
 - name: Ackermans & van Haaren
   wiki_name: Ackermans & van Haaren
   symbol: XBRU
@@ -18009,7 +18267,7 @@ companies:
     founded: 1880
     employees: 21522
   akas: []
-- name: Ageas SA/NV
+- name: Ageas
   symbol: AGS
   country: Belgium
   indices:
@@ -18039,8 +18297,9 @@ companies:
     employees: 12557
   isins:
   - BE0974264930
-  akas: []
-- name: Aperam SA
+  akas:
+  - Ageas SA/NV
+- name: Aperam
   symbol: APAM
   country: Luxembourg
   indices:
@@ -18075,8 +18334,9 @@ companies:
     employees: 9600
   isins:
   - LU0569974404
-  akas: []
-- name: argenx SE
+  akas:
+  - Aperam SA
+- name: ArGEN-X
   symbol: ARGX
   country: Netherlands
   indices:
@@ -18103,8 +18363,9 @@ companies:
     employees: 188
   isins:
   - NL0010832176
-  akas: []
-- name: Cofinimmo SA
+  akas:
+  - argenx SE
+- name: Cofinimmo
   symbol: COFB
   country: Belgium
   indices:
@@ -18129,7 +18390,8 @@ companies:
     employees: ''
   isins:
   - BE0003593044
-  akas: []
+  akas:
+  - Cofinimmo SA
 - name: Galapagos NV
   symbol: GLPG
   country: Belgium
@@ -18164,7 +18426,7 @@ companies:
   isins:
   - BE0003818359
   akas: []
-- name: Groupe Bruxelles Lambert SA
+- name: Groupe Bruxelles Lambert
   symbol: GBLB
   country: Belgium
   indices:
@@ -18194,8 +18456,9 @@ companies:
     employees: 40
   isins:
   - BE0003797140
-  akas: []
-- name: ING Groep N.V.
+  akas:
+  - Groupe Bruxelles Lambert SA
+- name: ING Group
   symbol: INGA
   country: Netherlands
   indices:
@@ -18230,8 +18493,9 @@ companies:
     employees: 53431
   isins:
   - NL0011821202
-  akas: []
-- name: KBC Group NV
+  akas:
+  - ING Groep N.V.
+- name: KBC Bank
   symbol: KBC
   country: Belgium
   indices:
@@ -18262,7 +18526,8 @@ companies:
     employees: 41000
   isins:
   - BE0003565737
-  akas: []
+  akas:
+  - KBC Group NV
 - name: Proximus PLC
   symbol: PROX
   country: Belgium
@@ -18293,7 +18558,7 @@ companies:
   isins:
   - BE0003810273
   akas: []
-- name: Sofina S.A.
+- name: Sofina
   wiki_name: Sofina S.A.
   symbol: null
   country: Belgium
@@ -18316,8 +18581,9 @@ companies:
   metadata:
     founded: 1898
     employees: ''
-  akas: []
-- name: Solvay SA
+  akas:
+  - Sofina S.A.
+- name: Solvay S.A.
   symbol: SOLB
   country: Belgium
   indices:
@@ -18353,7 +18619,8 @@ companies:
     employees: 24500
   isins:
   - BE0003470755
-  akas: []
+  akas:
+  - Solvay SA
 - name: UCB S.A.
   wiki_name: UCB S.A.
   symbol: XBRU
@@ -18386,7 +18653,7 @@ companies:
     founded: 1928
     employees: 7489
   akas: []
-- name: Acciona SA
+- name: Acciona
   symbol: ANA
   country: Spain
   indices:
@@ -18410,8 +18677,9 @@ companies:
     employees: 34000
   isins:
   - ES0125220311
-  akas: []
-- name: Acerinox SA
+  akas:
+  - Acciona SA
+- name: Acerinox
   symbol: ACX
   country: Spain
   indices:
@@ -18439,8 +18707,9 @@ companies:
     employees: 7390
   isins:
   - ES0132105018
-  akas: []
-- name: Actividades de Construcción y Servicios SA
+  akas:
+  - Acerinox SA
+- name: ACS Group
   symbol: ACS
   country: Spain
   indices:
@@ -18463,8 +18732,9 @@ companies:
     employees: 190431
   isins:
   - ES0167050915
-  akas: []
-- name: Aena SA
+  akas:
+  - Actividades de Construcción y Servicios SA
+- name: AENA
   symbol: AENA
   country: Spain
   indices:
@@ -18486,8 +18756,9 @@ companies:
     employees: 4000
   isins:
   - ES0105046009
-  akas: []
-- name: Amadeus IT Group SA
+  akas:
+  - Aena SA
+- name: Amadeus IT Group
   symbol: AMS
   country: Spain
   indices:
@@ -18520,8 +18791,9 @@ companies:
     employees: 19000
   isins:
   - ES0109067019
-  akas: []
-- name: Banco Bilbao Vizcaya Argentaria SA
+  akas:
+  - Amadeus IT Group SA
+- name: Banco Bilbao Vizcaya Argentaria
   symbol: BBVA
   country: United States
   indices:
@@ -18556,8 +18828,9 @@ companies:
     employees: 123174
   isins:
   - ES0113211835
-  akas: []
-- name: Bankinter SA
+  akas:
+  - Banco Bilbao Vizcaya Argentaria SA
+- name: Bankinter
   symbol: BKT
   country: Spain
   indices:
@@ -18588,8 +18861,9 @@ companies:
     employees: 6078
   isins:
   - ES0113679I37
-  akas: []
-- name: CaixaBank SA
+  akas:
+  - Bankinter SA
+- name: CaixaBank
   symbol: CABK
   country: Spain
   indices:
@@ -18617,8 +18891,9 @@ companies:
     employees: 37440
   isins:
   - ES0140609019
-  akas: []
-- name: Cellnex Telecom SA
+  akas:
+  - CaixaBank SA
+- name: Cellnex Telecom
   symbol: CLNX
   country: Spain
   indices:
@@ -18647,8 +18922,9 @@ companies:
     employees: unknown
   isins:
   - ES0105066007
-  akas: []
-- name: Endesa SA
+  akas:
+  - Cellnex Telecom SA
+- name: Endesa
   symbol: ELE
   country: Spain
   indices:
@@ -18681,8 +18957,9 @@ companies:
     employees: 9706
   isins:
   - ES0130670112
-  akas: []
-- name: Ferrovial SA
+  akas:
+  - Endesa SA
+- name: Ferrovial
   symbol: FER
   country: Spain
   indices:
@@ -18724,8 +19001,9 @@ companies:
     employees: 95978
   isins:
   - ES0118900010
-  akas: []
-- name: Grifols SA
+  akas:
+  - Ferrovial SA
+- name: Grifols
   symbol: GRF
   country: Spain
   indices:
@@ -18764,8 +19042,9 @@ companies:
     employees: 21500
   isins:
   - ES0171996012
-  akas: []
-- name: Iberdrola SA
+  akas:
+  - Grifols SA
+- name: Iberdrola
   symbol: IBE
   country: Spain
   indices:
@@ -18796,8 +19075,9 @@ companies:
     employees: 34306
   isins:
   - ES0144580Y14
-  akas: []
-- name: Industria de Diseño Textil SA
+  akas:
+  - Iberdrola SA
+- name: Inditex
   wiki_name: Industria de Diseño Textil, S.A.
   symbol: ITX
   country: Spain
@@ -18821,8 +19101,9 @@ companies:
     employees: 162450
   isins:
   - ES0148396007
-  akas: []
-- name: Indra Sistemas SA
+  akas:
+  - Industria de Diseño Textil SA
+- name: Indra Sistemas
   symbol: IDR
   country: Spain
   indices:
@@ -18855,8 +19136,9 @@ companies:
     employees: 42860
   isins:
   - ES0118594417
-  akas: []
-- name: Inmobiliaria Colonial, SOCIMI SA
+  akas:
+  - Indra Sistemas SA
+- name: Inmobiliaria Colonial
   symbol: COL
   country: Spain
   indices:
@@ -18883,7 +19165,8 @@ companies:
     employees: 10763
   isins:
   - ES0139140018
-  akas: []
+  akas:
+  - Inmobiliaria Colonial, SOCIMI SA
 - name: Meliá Hotels International
   symbol: MEL
   country: Spain
@@ -18910,7 +19193,7 @@ companies:
   isins:
   - ES0176252718
   akas: []
-- name: MERLIN Properties SOCIMI SA
+- name: Merlin Properties
   symbol: MRL
   country: Spain
   indices:
@@ -18935,8 +19218,9 @@ companies:
     employees: ''
   isins:
   - ES0105025003
-  akas: []
-- name: Naturgy Energy Group SA
+  akas:
+  - MERLIN Properties SOCIMI SA
+- name: Naturgy
   symbol: NTGY
   country: Spain
   indices:
@@ -18964,8 +19248,9 @@ companies:
     employees: 18780
   isins:
   - ES0116870314
-  akas: []
-- name: Red Eléctrica Corporación SA
+  akas:
+  - Naturgy Energy Group SA
+- name: Redeia Corporación
   symbol: REE
   country: Spain
   indices:
@@ -18986,8 +19271,9 @@ companies:
     employees: 1695
   isins:
   - ES0173093115
-  akas: []
-- name: Repsol SA
+  akas:
+  - Red Eléctrica Corporación SA
+- name: Repsol
   symbol: REP
   country: Spain
   indices:
@@ -19017,7 +19303,8 @@ companies:
     employees: 24506
   isins:
   - ES0173516115
-  akas: []
+  akas:
+  - Repsol SA
 - name: Siemens Gamesa Renewable Energy SA
   symbol: SGRE
   country: Germany
@@ -19069,7 +19356,7 @@ companies:
     founded: 1924
     employees: 113182
   akas: []
-- name: Adyen N.V.
+- name: Adyen
   symbol: ADYEN
   country: Netherlands
   indices:
@@ -19104,7 +19391,8 @@ companies:
     employees: 1750
   isins:
   - NL0012969182
-  akas: []
+  akas:
+  - Adyen N.V.
 - name: Aegon N.V.
   symbol: AGN
   country: United States
@@ -19139,7 +19427,7 @@ companies:
   isins:
   - NL0000303709
   akas: []
-- name: Koninklijke Ahold Delhaize N.V.
+- name: Ahold Delhaize
   symbol: AD
   country: Netherlands
   indices:
@@ -19171,8 +19459,9 @@ companies:
   isins:
   - BE0003562700
   - NL0011794037
-  akas: []
-- name: Akzo Nobel N.V.
+  akas:
+  - Koninklijke Ahold Delhaize N.V.
+- name: AkzoNobel
   symbol: AKZA
   country: Netherlands
   indices:
@@ -19205,8 +19494,9 @@ companies:
     employees: 32200
   isins:
   - NL0013267909
-  akas: []
-- name: ASML Holding N.V.
+  akas:
+  - Akzo Nobel N.V.
+- name: ASML Holding
   symbol: ASML
   country: Netherlands
   indices:
@@ -19239,7 +19529,8 @@ companies:
     employees: 28000
   isins:
   - NL0010273215
-  akas: []
+  akas:
+  - ASML Holding N.V.
 - name: Koninklijke DSM N.V.
   symbol: DSM
   country: Netherlands
@@ -19275,7 +19566,7 @@ companies:
   isins:
   - NL0000009827
   akas: []
-- name: Heineken N.V.
+- name: Heineken International
   symbol: HEIA
   country: Netherlands
   indices:
@@ -19312,8 +19603,9 @@ companies:
     employees: 76136
   isins:
   - NL0000009165
-  akas: []
-- name: IMCD N.V.
+  akas:
+  - Heineken N.V.
+- name: IMCD
   symbol: IMCD
   country: Netherlands
   indices:
@@ -19338,8 +19630,9 @@ companies:
     employees: 2799
   isins:
   - NL0010801007
-  akas: []
-- name: Koninklijke KPN N.V.
+  akas:
+  - IMCD N.V.
+- name: KPN
   symbol: KPN
   country: Netherlands
   indices:
@@ -19371,8 +19664,9 @@ companies:
     employees: 13021
   isins:
   - NL0000009082
-  akas: []
-- name: NN Group N.V.
+  akas:
+  - Koninklijke KPN N.V.
+- name: NN Group
   symbol: NN
   country: Netherlands
   indices:
@@ -19402,8 +19696,9 @@ companies:
     employees: 11500
   isins:
   - NL0010773842
-  akas: []
-- name: Koninklijke Philips N.V.
+  akas:
+  - NN Group N.V.
+- name: Philips
   symbol: PHIA
   country: Netherlands
   indices:
@@ -19435,8 +19730,9 @@ companies:
     employees: 81592
   isins:
   - NL0000009538
-  akas: []
-- name: Randstad N.V.
+  akas:
+  - Koninklijke Philips N.V.
+- name: Randstad NV
   symbol: RAND
   country: Netherlands
   indices:
@@ -19470,8 +19766,9 @@ companies:
     employees: 38820
   isins:
   - NL0000379121
-  akas: []
-- name: Wolters Kluwer N.V.
+  akas:
+  - Randstad N.V.
+- name: Wolters Kluwer
   symbol: WKL
   country: Netherlands
   indices:
@@ -19499,8 +19796,9 @@ companies:
     employees: 19200
   isins:
   - NL0000395903
-  akas: []
-- name: ABB Ltd
+  akas:
+  - Wolters Kluwer N.V.
+- name: ABB
   symbol: ABB
   country: Switzerland
   indices:
@@ -19540,8 +19838,9 @@ companies:
   isins:
   - CH0012221716
   - FR0000121709
-  akas: []
-- name: Alfa Laval AB
+  akas:
+  - ABB Ltd
+- name: Alfa Laval
   symbol: ALFA
   country: Sweden
   indices:
@@ -19566,8 +19865,9 @@ companies:
     employees: 17000
   isins:
   - SE0000695876
-  akas: []
-- name: ASSA ABLOY AB
+  akas:
+  - Alfa Laval AB
+- name: Assa Abloy
   symbol: ASSA B
   country: Sweden
   indices:
@@ -19592,8 +19892,9 @@ companies:
     employees: 45994
   isins:
   - SE0007100581
-  akas: []
-- name: Atlas Copco AB
+  akas:
+  - ASSA ABLOY AB
+- name: Atlas Copco
   symbol: ATCO A
   country: Sweden
   indices:
@@ -19632,7 +19933,8 @@ companies:
   - SE0011166610
   - SE0011166628
   - SE0017486889
-  akas: []
+  akas:
+  - Atlas Copco AB
 - name: Autoliv Inc.
   symbol: ALIV SDB
   country: Sweden
@@ -19700,7 +20002,7 @@ companies:
   - SE0012455673
   - SE0015811559
   akas: []
-- name: Telefonaktiebolaget LM Ericsson
+- name: Ericsson
   symbol: ERICB
   country: Sweden
   indices:
@@ -19736,7 +20038,8 @@ companies:
   isins:
   - SE0000108649
   - SE0000108656
-  akas: []
+  akas:
+  - Telefonaktiebolaget LM Ericsson
 - name: Essity AB
   symbol: ESSITY B
   country: Sweden
@@ -19791,7 +20094,7 @@ companies:
   isins:
   - SE0000202624
   akas: []
-- name: H & M Hennes & Mauritz AB
+- name: H&M
   wiki_name: H & M Hennes & Mauritz AB
   symbol: HM B
   country: Sweden
@@ -19823,7 +20126,8 @@ companies:
   metadata:
     founded: 1947
     employees: 179000
-  akas: []
+  akas:
+  - H & M Hennes & Mauritz AB
 - name: Hexagon AB
   symbol: HEXA B
   country: Sweden
@@ -19923,7 +20227,7 @@ companies:
   isins:
   - SE0008373906
   akas: []
-- name: Sandvik AB
+- name: Sandvik
   symbol: SANDVIK A
   country: Sweden
   indices:
@@ -19948,7 +20252,8 @@ companies:
     employees: 40235
   isins:
   - SE0000667891
-  akas: []
+  akas:
+  - Sandvik AB
 - name: Securitas AB
   symbol: SECU B
   country: Sweden
@@ -20004,7 +20309,7 @@ companies:
   isins:
   - SE0000148884
   akas: []
-- name: Skanska AB
+- name: Skanska
   symbol: SKANSKA B
   country: Sweden
   indices:
@@ -20028,8 +20333,9 @@ companies:
     employees: 43122
   isins:
   - SE0000113250
-  akas: []
-- name: AB SKF
+  akas:
+  - Skanska AB
+- name: SKF
   symbol: SKF B
   country: Sweden
   indices:
@@ -20051,7 +20357,8 @@ companies:
     employees: 48593
   isins:
   - SE0000108201
-  akas: []
+  akas:
+  - AB SKF
 - name: Svenska Handelsbanken AB
   symbol: SHB A
   country: Sweden
@@ -20087,7 +20394,7 @@ companies:
   isins:
   - SE0000193120
   akas: []
-- name: Swedbank AB
+- name: Swedbank
   symbol: SWED A
   country: Sweden
   indices:
@@ -20112,7 +20419,8 @@ companies:
     employees: 14900
   isins:
   - SE0000242455
-  akas: []
+  akas:
+  - Swedbank AB
 - name: Swedish Match AB
   symbol: SWMA
   country: Sweden
@@ -20173,7 +20481,7 @@ companies:
   isins:
   - SE0005190220
   akas: []
-- name: Alcon Inc.
+- name: Alcon
   symbol: ALC
   country: United States
   indices:
@@ -20198,8 +20506,9 @@ companies:
     employees: 20000
   isins:
   - CH0432492467
-  akas: []
-- name: Compagnie financiere Richemont SA
+  akas:
+  - Alcon Inc.
+- name: Richemont
   symbol: CFR
   country: Switzerland
   indices:
@@ -20230,7 +20539,8 @@ companies:
     employees: 35000
   isins:
   - CH0210483332
-  akas: []
+  akas:
+  - Compagnie financiere Richemont SA
 - name: Credit Suisse Group AG
   symbol: CSGN
   country: Switzerland
@@ -20298,7 +20608,7 @@ companies:
   isins:
   - CH0030170408
   akas: []
-- name: Givaudan SA
+- name: Givaudan
   symbol: GIVN
   country: Switzerland
   indices:
@@ -20328,8 +20638,9 @@ companies:
     employees: 15852
   isins:
   - CH0010645932
-  akas: []
-- name: Lonza Group Ltd
+  akas:
+  - Givaudan SA
+- name: Lonza Group
   symbol: LONN
   country: Switzerland
   indices:
@@ -20359,7 +20670,8 @@ companies:
     employees: 13856
   isins:
   - CH0013841017
-  akas: []
+  akas:
+  - Lonza Group Ltd
 - name: Nestlé SA
   symbol: NESN
   country: Switzerland
@@ -20389,7 +20701,7 @@ companies:
   isins:
   - CH0038863350
   akas: []
-- name: Novartis AG
+- name: Novartis
   symbol: NOVN
   country: Switzerland
   indices:
@@ -20422,7 +20734,8 @@ companies:
     employees: 110000
   isins:
   - CH0012005267
-  akas: []
+  akas:
+  - Novartis AG
 - name: Roche Holding AG
   symbol: ROG
   country: Switzerland
@@ -20489,7 +20802,7 @@ companies:
   isins:
   - CH0418792922
   akas: []
-- name: Swiss Life Holding AG
+- name: Swiss Life
   symbol: SLHN
   country: Switzerland
   indices:
@@ -20519,8 +20832,9 @@ companies:
     employees: 9800
   isins:
   - CH0014852781
-  akas: []
-- name: Swisscom AG
+  akas:
+  - Swiss Life Holding AG
+- name: Swisscom
   symbol: SCMN
   country: Switzerland
   indices:
@@ -20546,8 +20860,9 @@ companies:
     employees: 19062
   isins:
   - CH0008742519
-  akas: []
-- name: UBS Group AG
+  akas:
+  - Swisscom AG
+- name: UBS
   symbol: UBSG
   country: Switzerland
   indices:
@@ -20572,8 +20887,9 @@ companies:
     employees: 71551
   isins:
   - CH0244767585
-  akas: []
-- name: Zurich Insurance Group AG
+  akas:
+  - UBS Group AG
+- name: Zurich Insurance Group
   symbol: ZURN
   country: Switzerland
   indices:
@@ -20600,7 +20916,8 @@ companies:
     employees: 53535
   isins:
   - CH0011075394
-  akas: []
+  akas:
+  - Zurich Insurance Group AG
 - name: Corteva Inc.
   symbol: CTVA
   country: United States
@@ -20950,7 +21267,7 @@ companies:
   isins:
   - JE00B6T5S470
   akas: []
-- name: Rostelecom
+- name: Deutsche Telekom
   symbol: RTKM
   country: Russian Federation
   indices:
@@ -20975,7 +21292,8 @@ companies:
   - DE0005557508
   - RU0008943394
   - US7785291078
-  akas: []
+  akas:
+  - Rostelecom
 - name: United Company RUSAL
   symbol: RUAL
   country: Russian Federation
@@ -21270,7 +21588,7 @@ companies:
     founded: 1978
     employees: 32000
   akas: []
-- name: Entain plc
+- name: Entain
   wiki_name: Entain plc
   symbol: ENT
   country: Isle of Man
@@ -21300,8 +21618,9 @@ companies:
   metadata:
     founded: 2004
     employees: ''
-  akas: []
-- name: Intermediate Capital Group plc
+  akas:
+  - Entain plc
+- name: ICG plc
   wiki_name: Intermediate Capital Group plc
   symbol: ICP
   country: United Kingdom
@@ -21325,7 +21644,8 @@ companies:
   metadata:
     founded: 1989
     employees: ''
-  akas: []
+  akas:
+  - Intermediate Capital Group plc
 - name: JD Sports Fashion plc
   wiki_name: JD Sports Fashion plc
   symbol: JD
@@ -21412,7 +21732,7 @@ companies:
     founded: 1931
     employees: 6000
   akas: []
-- name: Rio Tinto Group Rio Tinto plc & Rio Tinto Limited
+- name: Rio Tinto (corporation)
   wiki_name: Rio Tinto Group Rio Tinto plc & Rio Tinto Limited
   symbol: RIO
   country: Australia
@@ -21431,7 +21751,8 @@ companies:
   metadata:
     founded: 1873
     employees: 45000
-  akas: []
+  akas:
+  - Rio Tinto Group Rio Tinto plc & Rio Tinto Limited
 - name: SSE plc
   wiki_name: SSE plc
   symbol: SSE
@@ -21481,7 +21802,7 @@ companies:
     founded: 1917
     employees: 3989
   akas: []
-- name: Amcor plc
+- name: Amcor
   wiki_name: Amcor plc
   symbol: AMCR
   country: Switzerland
@@ -21510,7 +21831,8 @@ companies:
   metadata:
     founded: 1860
     employees: 35000
-  akas: []
+  akas:
+  - Amcor plc
 - name: Bio-Rad Laboratories, Inc.
   wiki_name: Bio-Rad Laboratories, Inc.
   symbol: BIO
@@ -21591,7 +21913,7 @@ companies:
     founded: 1973
     employees: 823
   akas: []
-- name: CDW Corporation
+- name: CDW
   wiki_name: CDW Corporation
   symbol: CDW
   country: United States
@@ -21611,7 +21933,8 @@ companies:
   metadata:
     founded: 1984
     employees: 9019
-  akas: []
+  akas:
+  - CDW Corporation
 - name: DexCom, Inc.
   wiki_name: DexCom, Inc.
   symbol: DXCM
@@ -21635,7 +21958,7 @@ companies:
     founded: 1999
     employees: 3900
   akas: []
-- name: Domino's Pizza, Inc.
+- name: Domino's
   wiki_name: Domino's Pizza, Inc.
   symbol: DPZ
   country: United States
@@ -21666,7 +21989,8 @@ companies:
   metadata:
     founded: 1960
     employees: 14400
-  akas: []
+  akas:
+  - Domino's Pizza, Inc.
 - name: Dow Inc.
   wiki_name: Dow Inc.
   symbol: DOW
@@ -21739,7 +22063,7 @@ companies:
     founded: 1899
     employees: 104000
   akas: []
-- name: Howmet Aerospace Inc.
+- name: Howmet Aerospace
   wiki_name: Howmet Aerospace Inc.
   symbol: HWM
   country: United States
@@ -21764,7 +22088,8 @@ companies:
   metadata:
     founded: 1888
     employees: 19700
-  akas: []
+  akas:
+  - Howmet Aerospace Inc.
 - name: IDEX Corporation
   wiki_name: IDEX Corporation
   symbol: IEX
@@ -21802,7 +22127,7 @@ companies:
     founded: 1825
     employees: 17999
   akas: []
-- name: L3Harris Technologies, Inc.
+- name: L3Harris
   wiki_name: L3Harris Technologies, Inc.
   symbol: LHX
   country: United States
@@ -21829,7 +22154,8 @@ companies:
   metadata:
     founded: 2019
     employees: 50000
-  akas: []
+  akas:
+  - L3Harris Technologies, Inc.
 - name: Las Vegas Sands Corporation
   wiki_name: Las Vegas Sands Corporation
   symbol: LVS
@@ -21941,7 +22267,7 @@ companies:
     founded: 1930
     employees: 42500
   akas: []
-- name: MarketAxess Holdings Inc.
+- name: MarketAxess
   wiki_name: MarketAxess Holdings Inc.
   symbol: MKTX
   country: United States
@@ -21960,8 +22286,9 @@ companies:
   metadata:
     founded: 2000
     employees: 527
-  akas: []
-- name: Molson Coors Beverage Company
+  akas:
+  - MarketAxess Holdings Inc.
+- name: Molson Coors
   wiki_name: Molson Coors Beverage Company
   symbol: TAP
   country: United States
@@ -21993,7 +22320,8 @@ companies:
   metadata:
     founded: 1786
     employees: 17700
-  akas: []
+  akas:
+  - Molson Coors Beverage Company
 - name: Northrop Grumman Corporation
   wiki_name: Northrop Grumman Corporation
   symbol: NOC
@@ -22060,7 +22388,7 @@ companies:
     founded: 1980
     employees: 5600
   akas: []
-- name: Old Dominion Freight Line, Inc.
+- name: Old Dominion Freight Line
   wiki_name: Old Dominion Freight Line, Inc.
   symbol: ODFL
   country: United States
@@ -22083,7 +22411,8 @@ companies:
   metadata:
     founded: 1934
     employees: 21279
-  akas: []
+  akas:
+  - Old Dominion Freight Line, Inc.
 - name: Otis Worldwide Corporation
   wiki_name: Otis Worldwide Corporation
   symbol: OTIS
@@ -22280,7 +22609,7 @@ companies:
     founded: 1960
     employees: 5400
   akas: []
-- name: Textron Inc.
+- name: Textron
   wiki_name: Textron Inc.
   symbol: TXT
   country: United States
@@ -22305,8 +22634,9 @@ companies:
   metadata:
     founded: 1923
     employees: 35000
-  akas: []
-- name: Trane Technologies plc
+  akas:
+  - Textron Inc.
+- name: Trane Technologies
   wiki_name: Trane Technologies plc
   symbol: TT
   country: Ireland
@@ -22326,7 +22656,8 @@ companies:
   metadata:
     founded: 1871
     employees: 50000
-  akas: []
+  akas:
+  - Trane Technologies plc
 - name: TransDigm Group
   wiki_name: TransDigm Group
   symbol: TDG
@@ -22352,7 +22683,7 @@ companies:
     founded: 1993
     employees: 14200
   akas: []
-- name: Truist Financial Corporation
+- name: Truist Financial
   wiki_name: Truist Financial Corporation
   symbol: TFC
   country: United States
@@ -22376,7 +22707,8 @@ companies:
   metadata:
     founded: 1872
     employees: 54982
-  akas: []
+  akas:
+  - Truist Financial Corporation
 - name: Tyler Technologies, Inc.
   wiki_name: Tyler Technologies, Inc.
   symbol: TYL
@@ -22397,7 +22729,7 @@ companies:
     founded: 1966
     employees: 5368
   akas: []
-- name: Viatris Inc.
+- name: Viatris
   wiki_name: Viatris Inc.
   symbol: VTRS
   country: United States
@@ -22417,7 +22749,8 @@ companies:
   metadata:
     founded: 2020
     employees: 45000
-  akas: []
+  akas:
+  - Viatris Inc.
 - name: W. R. Berkley Corporation
   wiki_name: W. R. Berkley Corporation
   symbol: WRB
@@ -22461,7 +22794,7 @@ companies:
     founded: 1923
     employees: 8200
   akas: []
-- name: Xcel Energy Inc.
+- name: Xcel Energy
   wiki_name: Xcel Energy Inc.
   symbol: XEL
   country: United States
@@ -22484,7 +22817,8 @@ companies:
   metadata:
     founded: 1909
     employees: 11075
-  akas: []
+  akas:
+  - Xcel Energy Inc.
 - name: Zebra Technologies Corporation
   wiki_name: Zebra Technologies Corporation
   symbol: ZBRA
@@ -22505,7 +22839,7 @@ companies:
     founded: 1969
     employees: 7400
   akas: []
-- name: Knorr-Bremse Aktiengesellschaft
+- name: Knorr-Bremse
   wiki_name: Knorr-Bremse Aktiengesellschaft
   symbol: KBX
   country: Germany
@@ -22534,7 +22868,8 @@ companies:
   metadata:
     founded: 1905
     employees: 28905
-  akas: []
+  akas:
+  - Knorr-Bremse Aktiengesellschaft
 - name: Shop Apotheke Europe
   wiki_name: Shop Apotheke Europe
   symbol: SAE
@@ -22564,7 +22899,7 @@ companies:
     founded: 2001
     employees: 1175
   akas: []
-- name: Siemens Energy AG
+- name: Siemens Energy
   wiki_name: Siemens Energy AG
   symbol: ENR
   country: Germany
@@ -22593,8 +22928,9 @@ companies:
   metadata:
     founded: 2020
     employees: 92000
-  akas: []
-- name: Strör SE & Co. KGaA
+  akas:
+  - Siemens Energy AG
+- name: Ströer
   wiki_name: Strör SE & Co. KGaA
   symbol: null
   country: Germany
@@ -22608,7 +22944,8 @@ companies:
   metadata:
     founded: 1990
     employees: 12210
-  akas: []
+  akas:
+  - Strör SE & Co. KGaA
 - name: TeamViewer AG
   wiki_name: TeamViewer AG
   symbol: null
@@ -22664,7 +23001,7 @@ companies:
     founded: 1887
     employees: 4601
   akas: []
-- name: Prosus N.V.
+- name: Prosus
   wiki_name: Prosus N.V.
   symbol: PRX
   country: Netherlands
@@ -22693,7 +23030,8 @@ companies:
   metadata:
     founded: 2019
     employees: 15677
-  akas: []
+  akas:
+  - Prosus N.V.
 - name: Air France-KLM Group SA
   wiki_name: Air France-KLM Group SA
   symbol: XPAR
@@ -22722,7 +23060,7 @@ companies:
     founded: 1968
     employees: 6500
   akas: []
-- name: ALTEN S.A.
+- name: ALTEN
   wiki_name: ALTEN S.A.
   symbol: AN3
   country: France
@@ -22741,7 +23079,8 @@ companies:
   metadata:
     founded: 1988
     employees: 37200
-  akas: []
+  akas:
+  - ALTEN S.A.
 - name: Amundi
   wiki_name: Amundi
   symbol: AMUN
@@ -22760,7 +23099,7 @@ companies:
     founded: 2010
     employees: 4500
   akas: []
-- name: BIC S.A.
+- name: BIC Group
   wiki_name: BIC S.A.
   symbol: BB
   country: France
@@ -22777,7 +23116,8 @@ companies:
   metadata:
     founded: 1945
     employees: 14934
-  akas: []
+  akas:
+  - BIC S.A.
 - name: Bolloré
   wiki_name: Bolloré
   symbol: BOIVF
@@ -22799,7 +23139,7 @@ companies:
     founded: 1822
     employees: 37886
   akas: []
-- name: CGG (Unternehmen)
+- name: Viridien
   wiki_name: CGG (Unternehmen)
   symbol: CGGYY
   country: France
@@ -22825,7 +23165,8 @@ companies:
   metadata:
     founded: 1931
     employees: 5400
-  akas: []
+  akas:
+  - CGG (Unternehmen)
 - name: Covivio
   wiki_name: Covivio
   symbol: GSEFF
@@ -22853,7 +23194,7 @@ companies:
     founded: 2000
     employees: 922
   akas: []
-- name: Dassault Aviation S.A.
+- name: Dassault Aviation
   wiki_name: Dassault Aviation S.A.
   symbol: DAU
   country: France
@@ -22878,7 +23219,8 @@ companies:
   metadata:
     founded: 1929
     employees: 11398
-  akas: []
+  akas:
+  - Dassault Aviation S.A.
 - name: Elior Group
   wiki_name: Elior Group
   symbol: ELIOR
@@ -22997,7 +23339,7 @@ companies:
     founded: 1982
     employees: 1000
   akas: []
-- name: La Française des Jeux
+- name: Française des Jeux (Lotterie)
   wiki_name: La Française des Jeux
   symbol: null
   country: France
@@ -23011,7 +23353,8 @@ companies:
   metadata:
     founded: 1976
     employees: 2200
-  akas: []
+  akas:
+  - La Française des Jeux
 - name: Casino Guichard-Perrachon S.A.
   wiki_name: Casino Guichard-Perrachon S.A.
   symbol: CGUSY
@@ -23154,7 +23497,7 @@ companies:
     founded: 1929
     employees: 5700
   akas: []
-- name: Ipsos SA
+- name: Ipsos
   wiki_name: Ipsos SA
   symbol: IPZ
   country: France
@@ -23174,7 +23517,8 @@ companies:
   metadata:
     founded: 1975
     employees: 16664
-  akas: []
+  akas:
+  - Ipsos SA
 - name: JCDecaux
   wiki_name: JCDecaux
   symbol: JCDXF
@@ -23201,7 +23545,7 @@ companies:
     founded: 1964
     employees: 13030
   akas: []
-- name: Korian
+- name: Clariane
   wiki_name: Korian
   symbol: KO2
   country: France
@@ -23221,7 +23565,8 @@ companies:
   metadata:
     founded: 2003
     employees: 56000
-  akas: []
+  akas:
+  - Korian
 - name: Mercialys
   wiki_name: Mercialys
   symbol: MEIYF
@@ -23270,7 +23615,7 @@ companies:
     founded: 1897
     employees: 25843
   akas: []
-- name: Nexity S.A.
+- name: Nexity
   wiki_name: Nexity S.A.
   symbol: NQ9
   country: France
@@ -23291,8 +23636,9 @@ companies:
   metadata:
     founded: 2000
     employees: 10000
-  akas: []
-- name: Compagnie Plastic Omnium
+  akas:
+  - Nexity S.A.
+- name: OPmobility
   wiki_name: Compagnie Plastic Omnium
   symbol: EZM
   country: France
@@ -23315,7 +23661,8 @@ companies:
   metadata:
     founded: 1946
     employees: 25000
-  akas: []
+  akas:
+  - Compagnie Plastic Omnium
 - name: Quadient
   wiki_name: Quadient
   symbol: NPACY
@@ -23395,7 +23742,7 @@ companies:
     founded: 1992
     employees: 1500
   akas: []
-- name: Sopra Steria Group SA
+- name: Sopra Steria
   wiki_name: Sopra Steria Group SA
   symbol: OR8
   country: France
@@ -23416,7 +23763,8 @@ companies:
   metadata:
     founded: 1968
     employees: 44114
-  akas: []
+  akas:
+  - Sopra Steria Group SA
 - name: SPIE SA
   wiki_name: SPIE SA
   symbol: 4SP
@@ -23454,7 +23802,7 @@ companies:
     founded: 0
     employees: 0
   akas: []
-- name: Trigano S.A.
+- name: Trigano
   wiki_name: Trigano S.A.
   symbol: TGO
   country: France
@@ -23473,8 +23821,9 @@ companies:
   metadata:
     founded: 1935
     employees: 8735
-  akas: []
-- name: Vallourec S.A
+  akas:
+  - Trigano S.A.
+- name: Vallourec
   wiki_name: Vallourec S.A
   symbol: VACD
   country: France
@@ -23501,7 +23850,8 @@ companies:
   metadata:
     founded: 1957
     employees: 20
-  akas: []
+  akas:
+  - Vallourec S.A
 - name: Virbac
   wiki_name: Virbac
   symbol: VRBCF
@@ -23522,7 +23872,7 @@ companies:
     founded: 0
     employees: 0
   akas: []
-- name: Wendel SE
+- name: Wendel (Beteiligungsgesellschaft)
   wiki_name: Wendel SE
   symbol: WNDLF
   country: France
@@ -23545,8 +23895,9 @@ companies:
   metadata:
     founded: 2002
     employees: 124118
-  akas: []
-- name: Thales S.A.
+  akas:
+  - Wendel SE
+- name: Thales Group
   wiki_name: Thales S.A.
   symbol: HO
   country: France
@@ -23572,7 +23923,8 @@ companies:
   metadata:
     founded: 2000
     employees: 80000
-  akas: []
+  akas:
+  - Thales S.A.
 - name: Partners Group
   wiki_name: Partners Group
   symbol: PGHN
@@ -23661,7 +24013,7 @@ companies:
     founded: 1925
     employees: 20300
   akas: []
-- name: UMICORE N.V./S.A.
+- name: Umicore
   wiki_name: UMICORE N.V./S.A.
   symbol: XBRU
   country: Belgium
@@ -23676,7 +24028,8 @@ companies:
   metadata:
     founded: 1989
     employees: 10000
-  akas: []
+  akas:
+  - UMICORE N.V./S.A.
 - name: Aktiebolaget Electrolux
   wiki_name: Aktiebolaget Electrolux
   symbol: ELUX B
@@ -23692,7 +24045,7 @@ companies:
     founded: 1919
     employees: 58265
   akas: []
-- name: Svenska Cellulosa Aktiebolaget
+- name: SCA
   wiki_name: Svenska Cellulosa Aktiebolaget
   symbol: SCA A
   country: Sweden
@@ -23726,7 +24079,8 @@ companies:
   metadata:
     founded: 1929
     employees: 4031
-  akas: []
+  akas:
+  - Svenska Cellulosa Aktiebolaget
 - name: SSAB Svenskt Stål AB
   wiki_name: SSAB Svenskt Stål AB
   symbol: SSAB A
@@ -23806,7 +24160,7 @@ companies:
     founded: 2020
     employees: 2850
   akas: []
-- name: TietoEVRY Oyj
+- name: TietoEVRY
   wiki_name: TietoEVRY Oyj
   symbol: TIETO
   country: Finland
@@ -23827,8 +24181,9 @@ companies:
   metadata:
     founded: 1968
     employees: 23632
-  akas: []
-- name: Eckert & Ziegler Strahlen- und Medizintechnik AG
+  akas:
+  - TietoEVRY Oyj
+- name: Eckert & Ziegler
   wiki_name: Eckert & Ziegler Strahlen- und Medizintechnik AG
   symbol: EUZ
   country: Germany
@@ -23847,8 +24202,9 @@ companies:
   metadata:
     founded: 1997
     employees: 828
-  akas: []
-- name: Banco de Sabadell, S.A.
+  akas:
+  - Eckert & Ziegler Strahlen- und Medizintechnik AG
+- name: Banco Sabadell
   wiki_name: Banco de Sabadell, S.A.
   symbol: SAB
   country: Spain
@@ -23880,8 +24236,9 @@ companies:
   metadata:
     founded: 1881
     employees: 26181
-  akas: []
-- name: Banco Santander, S.A.
+  akas:
+  - Banco de Sabadell, S.A.
+- name: Banco Santander
   wiki_name: Banco Santander, S.A.
   symbol: SAN
   country: Spain
@@ -23914,8 +24271,9 @@ companies:
   metadata:
     founded: 1857
     employees: 191189
-  akas: []
-- name: Enagás, S.A.
+  akas:
+  - Banco Santander, S.A.
+- name: Enagás
   wiki_name: Enagás, S.A.
   symbol: ENG
   country: Spain
@@ -23929,8 +24287,9 @@ companies:
   metadata:
     founded: 1972
     employees: 1439
-  akas: []
-- name: Enel S.p.A.
+  akas:
+  - Enagás, S.A.
+- name: Enel
   wiki_name: Enel S.p.A.
   symbol: ENEL
   country: Italy
@@ -23950,8 +24309,9 @@ companies:
   metadata:
     founded: 1962
     employees: 66717
-  akas: []
-- name: Eni S.p.A.
+  akas:
+  - Enel S.p.A.
+- name: Eni
   wiki_name: Eni S.p.A.
   symbol: ENI
   country: Italy
@@ -23977,8 +24337,9 @@ companies:
   metadata:
     founded: 1953
     employees: 31495
-  akas: []
-- name: Intesa Sanpaolo S.p.A.
+  akas:
+  - Eni S.p.A.
+- name: Intesa Sanpaolo
   wiki_name: Intesa Sanpaolo S.p.A.
   symbol: ISP
   country: Italy
@@ -24004,8 +24365,9 @@ companies:
   metadata:
     founded: 1583
     employees: 96892
-  akas: []
-- name: LVMH Moët Hennessy - Louis Vuitton, Société Européenne
+  akas:
+  - Intesa Sanpaolo S.p.A.
+- name: LVMH
   wiki_name: LVMH Moët Hennessy Louis Vuitton
   symbol: MC
   country: France
@@ -24030,8 +24392,9 @@ companies:
   metadata:
     founded: 1987
     employees: 163309
-  akas: []
-- name: Société Générale SA
+  akas:
+  - LVMH Moët Hennessy - Louis Vuitton, Société Européenne
+- name: Société Générale
   wiki_name: Société Générale S.A.
   symbol: GLE
   country: France
@@ -24055,7 +24418,8 @@ companies:
   metadata:
     founded: 1864
     employees: 147125
-  akas: []
+  akas:
+  - Société Générale SA
 - name: Amadeus FiRe AG
   wiki_name: Amadeus FiRe AG
   symbol: AAD
@@ -24159,7 +24523,7 @@ companies:
     founded: 2006
     employees: 450
   akas: []
-- name: Dermapharm Holding SE
+- name: Dermapharm
   wiki_name: Dermapharm Holding SE
   symbol: DMP
   country: Germany
@@ -24181,7 +24545,8 @@ companies:
   metadata:
     founded: 1991
     employees: 2311
-  akas: []
+  akas:
+  - Dermapharm Holding SE
 - name: Flatexdegiro AG
   wiki_name: Flatexdegiro AG
   symbol: FTK
@@ -24202,7 +24567,7 @@ companies:
     founded: 1999
     employees: 971
   akas: []
-- name: Hensoldt AG
+- name: Hensoldt
   wiki_name: Hensoldt AG
   symbol: HAG
   country: Germany
@@ -24231,7 +24596,8 @@ companies:
   metadata:
     founded: 2017
     employees: 5600
-  akas: []
+  akas:
+  - Hensoldt AG
 - name: Instone Real Estate Group AG
   wiki_name: Instone Real Estate Group AG
   symbol: INS
@@ -24252,7 +24618,7 @@ companies:
     founded: 2017
     employees: 375
   akas: []
-- name: STRATEC SE
+- name: Stratec Biomedical Systems
   wiki_name: STRATEC SE
   symbol: SBS
   country: Germany
@@ -24271,8 +24637,9 @@ companies:
   metadata:
     founded: 1979
     employees: 1302
-  akas: []
-- name: Traton Group
+  akas:
+  - STRATEC SE
+- name: Traton
   wiki_name: Traton Group
   symbol: 8TRA
   country: Germany
@@ -24289,7 +24656,8 @@ companies:
   metadata:
     founded: 2018
     employees: 82600
-  akas: []
+  akas:
+  - Traton Group
 - name: VERBIO Vereinigte BioEnergie AG
   wiki_name: VERBIO Vereinigte BioEnergie AG
   symbol: VBVBF
@@ -24392,7 +24760,7 @@ companies:
     founded: 1990
     employees: ''
   akas: []
-- name: Atlassian Corporation Plc
+- name: Atlassian
   wiki_name: Atlassian Corporation Plc
   symbol: TEAM
   country: Australia
@@ -24412,7 +24780,8 @@ companies:
   metadata:
     founded: 2002
     employees: 6117
-  akas: []
+  akas:
+  - Atlassian Corporation Plc
 - name: DocuSign, Inc.
   wiki_name: DocuSign, Inc.
   symbol: DOCU
@@ -24435,7 +24804,7 @@ companies:
     founded: 2003
     employees: 6200
   akas: []
-- name: Keurig Dr Pepper Inc.
+- name: Keurig Dr Pepper
   wiki_name: Keurig Dr Pepper Inc.
   symbol: KDP
   country: United States
@@ -24459,8 +24828,9 @@ companies:
   metadata:
     founded: 1981
     employees: 25500
-  akas: []
-- name: lululemon athletica inc.
+  akas:
+  - Keurig Dr Pepper Inc.
+- name: Lululemon
   wiki_name: lululemon athletica inc.
   symbol: LULU
   country: Canada
@@ -24483,8 +24853,9 @@ companies:
   metadata:
     founded: 1998
     employees: 19000
-  akas: []
-- name: Marvell Technology Group Ltd.
+  akas:
+  - lululemon athletica inc.
+- name: Marvell Technology
   wiki_name: Marvell Technology Group Ltd.
   symbol: MRVL
   country: United States
@@ -24510,8 +24881,9 @@ companies:
   metadata:
     founded: 1995
     employees: 5200
-  akas: []
-- name: Match Group, Inc.
+  akas:
+  - Marvell Technology Group Ltd.
+- name: Match Group
   wiki_name: Match Group, Inc.
   symbol: MTCH
   country: United States
@@ -24535,7 +24907,8 @@ companies:
   metadata:
     founded: ''
     employees: 1700
-  akas: []
+  akas:
+  - Match Group, Inc.
 - name: Mercado Libre, Inc.
   wiki_name: Mercado Libre, Inc.
   symbol: MELI
@@ -24552,7 +24925,7 @@ companies:
     founded: 1999
     employees: 15500
   akas: []
-- name: Moderna, Inc.
+- name: Moderna
   wiki_name: Moderna, Inc.
   symbol: MRNA
   country: United States
@@ -24573,7 +24946,8 @@ companies:
   metadata:
     founded: 2010
     employees: 1500
-  akas: []
+  akas:
+  - Moderna, Inc.
 - name: Okta, Inc.
   wiki_name: Okta, Inc.
   symbol: OKTA
@@ -24761,7 +25135,7 @@ companies:
     founded: 1947
     employees: 18400
   akas: []
-- name: Enphase Energy, Inc.
+- name: Enphase Energy
   wiki_name: Enphase Energy, Inc.
   symbol: ENPH
   country: United States
@@ -24786,7 +25160,8 @@ companies:
   metadata:
     founded: 2006
     employees: 1000
-  akas: []
+  akas:
+  - Enphase Energy, Inc.
 - name: Generac Holdings Inc.
   wiki_name: Generac Holdings Inc.
   symbol: GNRC
@@ -24867,7 +25242,7 @@ companies:
     founded: 1978
     employees: 11500
   akas: []
-- name: Porsche Automobil Holding SE
+- name: Porsche SE
   wiki_name: Porsche Automobil Holding SE
   symbol: PAH3
   country: Germany
@@ -24890,7 +25265,8 @@ companies:
   metadata:
     founded: 2007
     employees: 951
-  akas: []
+  akas:
+  - Porsche Automobil Holding SE
 - name: Fluidra
   wiki_name: Fluidra
   symbol: FDR
@@ -24921,7 +25297,7 @@ companies:
     founded: 1969
     employees: 5500
   akas: []
-- name: Mapfre, S.A.
+- name: Mapfre
   wiki_name: Mapfre, S.A.
   symbol: MAP
   country: Spain
@@ -24949,7 +25325,8 @@ companies:
   metadata:
     founded: 1933
     employees: 33730
-  akas: []
+  akas:
+  - Mapfre, S.A.
 - name: Pharma Mar S.A.
   wiki_name: Pharma Mar S.A.
   symbol: PHM
@@ -25000,7 +25377,7 @@ companies:
     founded: 2012
     employees: 4418
   akas: []
-- name: Holcim Ltd.
+- name: Holcim Group
   wiki_name: Holcim Ltd.
   symbol: HOLN
   country: Switzerland
@@ -25032,8 +25409,9 @@ companies:
   metadata:
     founded: 1912
     employees: 71000
-  akas: []
-- name: Stellantis N.V.
+  akas:
+  - Holcim Ltd.
+- name: Stellantis
   wiki_name: Stellantis N.V.
   symbol: STLA
   country: Netherlands
@@ -25060,7 +25438,8 @@ companies:
   metadata:
     founded: 2021
     employees: 300000
-  akas: []
+  akas:
+  - Stellantis N.V.
 - name: Teleperformance
   wiki_name: Teleperformance
   symbol: TEP
@@ -25088,7 +25467,7 @@ companies:
     founded: 1978
     employees: 383000
   akas: []
-- name: Elis S.A.
+- name: Elis
   wiki_name: Elis S.A.
   symbol: ELIS
   country: France
@@ -25104,8 +25483,9 @@ companies:
   metadata:
     founded: 1883
     employees: 47779
-  akas: []
-- name: Orpea S.A.
+  akas:
+  - Elis S.A.
+- name: Orpea-Gruppe
   wiki_name: Orpea S.A.
   symbol: ORP
   country: France
@@ -25128,8 +25508,9 @@ companies:
   metadata:
     founded: 1989
     employees: 49185
-  akas: []
-- name: Verallia Deutschland AG
+  akas:
+  - Orpea S.A.
+- name: Verallia
   wiki_name: Verallia Deutschland AG
   symbol: null
   country: Germany
@@ -25147,7 +25528,8 @@ companies:
   metadata:
     founded: 1946
     employees: 3000
-  akas: []
+  akas:
+  - Verallia Deutschland AG
 - name: Magnitogorski metallurgitscheski kombinat
   wiki_name: Magnitogorski metallurgitscheski kombinat
   symbol: MAGN
@@ -25163,7 +25545,7 @@ companies:
     founded: 1932
     employees: ''
   akas: []
-- name: Metso Outotec Oyj
+- name: Metso (2020–present)
   wiki_name: Metso Outotec Oyj
   symbol: MOCORP
   country: Finland
@@ -25192,8 +25574,9 @@ companies:
   metadata:
     founded: 2020
     employees: 15600
-  akas: []
-- name: ASM International N.V.
+  akas:
+  - Metso Outotec Oyj
+- name: ASM International
   wiki_name: ASM International N.V.
   symbol: ASM
   country: Netherlands
@@ -25216,7 +25599,8 @@ companies:
   metadata:
     founded: 1968
     employees: 2337
-  akas: []
+  akas:
+  - ASM International N.V.
 - name: Organon & Co.
   wiki_name: Organon & Co.
   symbol: OGN
@@ -25253,7 +25637,7 @@ companies:
     founded: 1987
     employees: ''
   akas: []
-- name: ATOSS Software AG
+- name: Atoss
   wiki_name: ATOSS Software AG
   symbol: AOF
   country: Germany
@@ -25272,8 +25656,9 @@ companies:
   metadata:
     founded: 1987
     employees: 560
-  akas: []
-- name: Nagarro SE
+  akas:
+  - ATOSS Software AG
+- name: Nagarro
   wiki_name: Nagarro SE
   symbol: NA9
   country: Germany
@@ -25296,7 +25681,8 @@ companies:
   metadata:
     founded: 0
     employees: 0
-  akas: []
+  akas:
+  - Nagarro SE
 - name: Vantage Towers AG
   wiki_name: Vantage Towers AG
   symbol: VTWR
@@ -25364,7 +25750,7 @@ companies:
     founded: 1963
     employees: 59950
   akas: []
-- name: BE Semiconductor Industries N.V.
+- name: Besi
   wiki_name: BE Semiconductor Industries N.V.
   symbol: BESI
   country: Netherlands
@@ -25392,7 +25778,8 @@ companies:
   metadata:
     founded: 1995
     employees: 2040
-  akas: []
+  akas:
+  - BE Semiconductor Industries N.V.
 - name: Signify N.V.
   wiki_name: Signify N.V.
   symbol: LIGHT
@@ -25511,7 +25898,7 @@ companies:
     founded: 2003
     employees: 5061
   akas: []
-- name: Technip Energies N.V.
+- name: Technip Energies
   wiki_name: Technip Energies N.V.
   symbol: TE
   country: Netherlands
@@ -25540,8 +25927,9 @@ companies:
   metadata:
     founded: 2021
     employees: 15000
-  akas: []
-- name: Valneva SE
+  akas:
+  - Technip Energies N.V.
+- name: Valneva
   wiki_name: Valneva SE
   symbol: VALN
   country: France
@@ -25570,8 +25958,9 @@ companies:
   metadata:
     founded: 2013
     employees: 500
-  akas: []
-- name: Logitech International S.A.
+  akas:
+  - Valneva SE
+- name: Logitech
   wiki_name: Logitech International S.A.
   symbol: LOGN
   country: Switzerland
@@ -25591,7 +25980,8 @@ companies:
   metadata:
     founded: 1981
     employees: 7000
-  akas: []
+  akas:
+  - Logitech International S.A.
 - name: CrowdStrike Holdings, Inc.
   wiki_name: CrowdStrike Holdings, Inc.
   symbol: CRWD
@@ -25635,7 +26025,7 @@ companies:
     founded: 1976
     employees: 2300
   akas: []
-- name: Brown & Brown, Inc.
+- name: Brown & Brown
   wiki_name: Brown & Brown, Inc.
   symbol: BRO
   country: United States
@@ -25654,7 +26044,8 @@ companies:
   metadata:
     founded: 1939
     employees: 11136
-  akas: []
+  akas:
+  - Brown & Brown, Inc.
 - name: Ceridian HCM Holding Inc.
   wiki_name: Ceridian HCM Holding Inc.
   symbol: CDAY
@@ -25674,7 +26065,7 @@ companies:
     founded: 1992
     employees: 5974
   akas: []
-- name: Ingersoll Rand Inc.
+- name: Ingersoll Rand
   wiki_name: Ingersoll Rand Inc.
   symbol: IR
   country: United States
@@ -25693,7 +26084,8 @@ companies:
   metadata:
     founded: 1859
     employees: 15900
-  akas: []
+  akas:
+  - Ingersoll Rand Inc.
 - name: Elia
   wiki_name: Elia
   symbol: XBRU
@@ -25728,7 +26120,7 @@ companies:
     founded: 1988
     employees: 1200
   akas: []
-- name: Universal Music Group N.V.
+- name: Universal Music Group
   wiki_name: Universal Music Group N.V.
   symbol: UMG
   country: United States
@@ -25761,7 +26153,8 @@ companies:
   metadata:
     founded: 1934
     employees: 8319
-  akas: []
+  akas:
+  - Universal Music Group N.V.
 - name: ABOUT YOU AG & Co. KG
   wiki_name: ABOUT YOU AG & Co. KG
   symbol: null
@@ -25819,7 +26212,7 @@ companies:
     founded: 2002
     employees: 553
   akas: []
-- name: secunet Security Networks AG
+- name: Secunet Security Networks
   wiki_name: secunet Security Networks AG
   symbol: 0NWC
   country: Germany
@@ -25838,8 +26231,9 @@ companies:
   metadata:
     founded: 1997
     employees: 740
-  akas: []
-- name: STO SE & Co. KGaA
+  akas:
+  - secunet Security Networks AG
+- name: Sto SE & Co. KGaA
   wiki_name: STO SE & Co. KGaA
   symbol: STO3
   country: Germany
@@ -25858,7 +26252,8 @@ companies:
   metadata:
     founded: 1955
     employees: 5333
-  akas: []
+  akas:
+  - STO SE & Co. KGaA
 - name: SUSE S.A.
   wiki_name: SUSE S.A.
   symbol: SUSE
@@ -26013,7 +26408,7 @@ companies:
     founded: 0
     employees: 0
   akas: []
-- name: Daimler Truck Holding AG
+- name: Daimler Truck
   wiki_name: Daimler Truck Holding AG
   symbol: DTG
   country: Germany
@@ -26036,11 +26431,13 @@ companies:
   metadata:
     founded: 2021
     employees: 99640
-  akas: []
-- name: Mercedes-Benz Group AG
+  akas:
+  - Daimler Truck Holding AG
+- name: Mercedes-Benz Group
   wiki_name: Mercedes-Benz Group AG
   akas:
   - Mercedes-Benz Group
+  - Mercedes-Benz Group AG
   symbol: MBG
   country: Germany
   indices:
@@ -26461,7 +26858,7 @@ companies:
     founded: 2006
     employees: 3174
   akas: []
-- name: Warner Bros. Discovery, Inc.
+- name: Warner Bros. Discovery
   wiki_name: Warner Bros. Discovery, Inc.
   symbol: WBD
   country: United States
@@ -26479,7 +26876,8 @@ companies:
   metadata:
     founded: 2022
     employees: ''
-  akas: []
+  akas:
+  - Warner Bros. Discovery, Inc.
 - name: Royal Dutch Shell PLC
   symbol: RDSA
   country: Netherlands
@@ -26642,7 +27040,7 @@ companies:
     founded: 2014
     employees: 1000
   akas: []
-- name: adesso SE
+- name: Adesso SE
   wiki_name: adesso SE
   symbol: 0N5I
   country: Germany
@@ -26661,7 +27059,8 @@ companies:
   metadata:
     founded: 1997
     employees: 5814
-  akas: []
+  akas:
+  - adesso SE
 - name: GFT Technologies SE
   wiki_name: GFT Technologies SE
   symbol: 0O2W
@@ -26711,7 +27110,7 @@ companies:
     founded: 2019
     employees: 37000
   akas: []
-- name: 1&1 Aktiengesellschaft
+- name: 1&1
   wiki_name: 1&1 Aktiengesellschaft
   symbol: 1U1
   country: Germany
@@ -26727,8 +27126,9 @@ companies:
   metadata:
     founded: 1988
     employees: 3167
-  akas: []
-- name: Sonova Group
+  akas:
+  - 1&1 Aktiengesellschaft
+- name: Sonova
   wiki_name: Sonova Group
   symbol: SOON
   country: Switzerland
@@ -26743,7 +27143,8 @@ companies:
   metadata:
     founded: 1947
     employees: 14242
-  akas: []
+  akas:
+  - Sonova Group
 - name: Shell plc
   wiki_name: Shell plc
   symbol: SHELL
@@ -26778,7 +27179,7 @@ companies:
     founded: 1907
     employees: 86000
   akas: []
-- name: EnergieKontor AG
+- name: Energiekontor
   wiki_name: EnergieKontor AG
   symbol: 0E9V
   country: Germany
@@ -26797,7 +27198,8 @@ companies:
   metadata:
     founded: 1990
     employees: 178
-  akas: []
+  akas:
+  - EnergieKontor AG
 - name: Kontron S&T AG
   wiki_name: Kontron S&T AG
   symbol: KBC
@@ -26850,7 +27252,7 @@ companies:
   metadata:
     founded: 1985
     employees: 2045
-- name: D’Ieteren S.A.
+- name: D'Ieteren
   wiki_name: D’Ieteren S.A.
   symbol: null
   country: Belgium
@@ -26866,7 +27268,8 @@ companies:
   metadata:
     founded: 1805
     employees: 32951
-  akas: []
+  akas:
+  - D’Ieteren S.A.
 - name: VGP NV
   wiki_name: VGP NV
   symbol: null
@@ -26957,6 +27360,25 @@ companies:
     founded: 1888
     employees: 693
   akas: []
+- name: EQT AB
+  country: Sweden
+  industries:
+  - Private Equity
+  symbols:
+  - yahoo: EQT.ST
+    google: STO:EQT
+    currency: SEK
+  metadata:
+    founded: 1994
+    employees: 1838
+    revenue: €2.13B (2023)
+    headquarters: Stockholm, Sweden
+    key_people: Conni Jonsson (Chairperson); Christian Sinding (CEO)
+    website: www.eqtgroup.com
+  isins:
+  - SE0012853455
+  akas:
+  - EQT Partners AB
 - name: Invitation Homes Inc.
   wiki_name: Invitation Homes Inc.
   symbol: INVH
@@ -26977,7 +27399,7 @@ companies:
     founded: 2012
     employees: 1240
   akas: []
-- name: ON Semiconductor Corporation
+- name: Onsemi
   wiki_name: ON Semiconductor Corporation
   symbol: 'ON'
   country: United States
@@ -27000,7 +27422,8 @@ companies:
   metadata:
     founded: 1999
     employees: 30000
-  akas: []
+  akas:
+  - ON Semiconductor Corporation
 - name: PG&E Corporation
   wiki_name: PG&E Corporation
   symbol: PCG
@@ -27047,7 +27470,7 @@ companies:
     founded: 2005
     employees: 2430
   akas: []
-- name: Vici Properties Inc.
+- name: Vici Properties
   wiki_name: Vici Properties Inc.
   symbol: VICI
   country: United States
@@ -27067,7 +27490,8 @@ companies:
   metadata:
     founded: 2017
     employees: 147
-  akas: []
+  akas:
+  - Vici Properties Inc.
 - name: Altarea SCA
   wiki_name: Altarea SCA
   akas:
@@ -27107,7 +27531,7 @@ companies:
     founded: 0
     employees: 0
   akas: []
-- name: Carmila SAS
+- name: Carmila
   wiki_name: Carmila SAS
   symbol: CARM
   country: France
@@ -27123,8 +27547,9 @@ companies:
   metadata:
     founded: 2014
     employees: 180
-  akas: []
-- name: Compagnie Française d'Assurance pour le Commerce Extérieur (COFACE)
+  akas:
+  - Carmila SAS
+- name: Coface
   wiki_name: Compagnie Française d'Assurance pour le Commerce Extérieur (COFACE)
   symbol: null
   country: France
@@ -27138,7 +27563,8 @@ companies:
   metadata:
     founded: 1946
     employees: 4250
-  akas: []
+  akas:
+  - Compagnie Française d'Assurance pour le Commerce Extérieur (COFACE)
 - name: Derichebourg
   wiki_name: Derichebourg
   symbol: null
@@ -27174,7 +27600,7 @@ companies:
     founded: 0
     employees: 0
   akas: []
-- name: Interparfums SA
+- name: Interparfums
   wiki_name: Interparfums SA
   symbol: ITP
   country: France
@@ -27191,7 +27617,8 @@ companies:
   metadata:
     founded: 1982
     employees: 298
-  akas: []
+  akas:
+  - Interparfums SA
 - name: OVH SAS
   wiki_name: OVH SAS
   symbol: OVH
@@ -27225,7 +27652,7 @@ companies:
     founded: 1969
     employees: 6500
   akas: []
-- name: Wärtsilä Corporation
+- name: Wärtsilä
   wiki_name: Wärtsilä Corporation
   symbol: WRT1V
   country: Finland
@@ -27239,7 +27666,8 @@ companies:
   metadata:
     founded: 1834
     employees: 18
-  akas: []
+  akas:
+  - Wärtsilä Corporation
 - name: Convatec Group plc
   wiki_name: Convatec Group plc
   symbol: CTEC
@@ -27337,7 +27765,7 @@ companies:
     founded: 1982
     employees: 26496
   akas: []
-- name: Haleon plc
+- name: Haleon
   wiki_name: Haleon plc
   symbol: HLN
   country: United Kingdom
@@ -27366,7 +27794,8 @@ companies:
   metadata:
     founded: 2022
     employees: 22000
-  akas: []
+  akas:
+  - Haleon plc
 - name: Harbour Energy plc
   wiki_name: Harbour Energy plc
   symbol: HBR

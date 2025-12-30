@@ -169,7 +169,7 @@ indices:
       url: https://en.wikipedia.org/wiki/IBEX_35
       table_title_regex: "Components"
       extract_company_info: true
-      language_fallbacks: ["es"]
+      language_fallbacks: ["de"]
       columns:
         name: ["Company", "Name"]
         symbol: ["Ticker symbol", "Ticker", "Symbol"]
@@ -285,7 +285,7 @@ indices:
       url: https://en.wikipedia.org/wiki/OMX_Stockholm_30
       table_title_regex: "Index composition"
       extract_company_info: true
-      language_fallbacks: ["sv"]
+      language_fallbacks: ["de"]
       columns:
         name: ["Company", "Name"]
         symbol: ["Ticker symbol", "Ticker", "Symbol"]

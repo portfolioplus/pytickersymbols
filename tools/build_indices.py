@@ -20,6 +20,9 @@ from pathlib import Path
 from typing import Dict, List, Any
 from wiki_table_parser import WikiTableParser
 from config import INDEX_MAPPING
+from urllib.parse import unquote
+import re
+from sync_canonical_to_stocks import sync_canonical_names_to_stocks
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -133,6 +136,102 @@ def enrich_indices(stocks_yaml_path: Path, indices_raw_dir: Path, indices_dir: P
     return fail_count == 0
 
 
+def _canonical_company_key(company: Dict[str, Any]) -> str | None:
+    """Create a canonical key for a company using ISIN first, else Wikipedia URL."""
+    isins = company.get('isins') or []
+    if isinstance(isins, list) and len(isins) > 0 and isins[0]:
+        return f"isin:{isins[0]}"
+    metadata = company.get('metadata') or {}
+    wiki = metadata.get('wikipedia_url') or company.get('wikipedia_url')
+    if wiki:
+        return f"wiki:{wiki.strip()}"
+    return None
+
+
+def _wiki_title(company: Dict[str, Any]) -> str | None:
+    """Extract a human-friendly title from the Wikipedia URL if available."""
+    metadata = company.get('metadata') or {}
+    url = metadata.get('wikipedia_url') or company.get('wikipedia_url')
+    if not url:
+        return None
+    try:
+        slug = url.split('/wiki/', 1)[1] if '/wiki/' in url else url.rsplit('/', 1)[-1]
+        slug = unquote(slug)
+        title = slug.replace('_', ' ').strip()
+        # Drop trailing disambiguation like '(company)' or '(Unternehmen)'
+        return re.sub(r"\s*\((?:company|Unternehmen)\)\s*$", "", title, flags=re.IGNORECASE)
+    except Exception:
+        return None
+
+
+def canonicalize_index_names(indices_dir: Path) -> bool:
+    """
+    Additional build step: unify company display names across all indices.
+    - Canonical ID: ISIN (first) else Wikipedia URL
+    - Preferred name: Wikipedia page title when present, else existing name
+    """
+    logger.info("=" * 80)
+    logger.info("STEP 2.5: Canonicalizing company names across indices")
+    logger.info("=" * 80)
+
+    yaml_files = sorted(indices_dir.glob('*.yaml'))
+    if not yaml_files:
+        logger.info("No indices YAML files found to canonicalize")
+        return True
+
+    # Build name candidates per canonical key
+    name_counts: Dict[str, Dict[str, int]] = {}
+    file_data: Dict[Path, Dict[str, Any]] = {}
+    for yf in yaml_files:
+        try:
+            with yf.open('r', encoding='utf-8') as f:
+                data = yaml.safe_load(f) or {}
+                file_data[yf] = data
+            for company in data.get('companies', []) or []:
+                key = _canonical_company_key(company)
+                if not key:
+                    continue
+                # derive candidate name
+                cand = _wiki_title(company) or (company.get('name') or '').strip()
+                if not cand:
+                    continue
+                name_counts.setdefault(key, {})
+                name_counts[key][cand] = name_counts[key].get(cand, 0) + 1
+        except Exception as e:
+            logger.error(f"  ✗ Failed reading {yf}: {e}")
+
+    # Decide canonical name per key (most frequent, then lexical)
+    canonical_name: Dict[str, str] = {}
+    for key, counts in name_counts.items():
+        items = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0].lower()))
+        canonical_name[key] = items[0][0]
+
+    # Rewrite names in files where needed
+    changed_files = 0
+    for yf, data in file_data.items():
+        changed = False
+        companies = data.get('companies', []) or []
+        for company in companies:
+            key = _canonical_company_key(company)
+            if not key:
+                continue
+            new_name = canonical_name.get(key)
+            if new_name and (company.get('name') or '').strip() != new_name:
+                company['name'] = new_name
+                changed = True
+        if changed:
+            try:
+                with yf.open('w', encoding='utf-8') as f:
+                    yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
+                logger.info(f"  ✓ Updated names in {yf.name}")
+                changed_files += 1
+            except Exception as e:
+                logger.error(f"  ✗ Failed writing {yf}: {e}")
+
+    logger.info(f"Canonicalization complete: {changed_files} files updated")
+    return True
+
+
 def generate_python_module(indices_dir: Path, output_file: Path) -> bool:
     """Step 3: Generate Python module with indices as dictionaries."""
     logger.info("=" * 80)
@@ -169,20 +268,6 @@ def generate_python_module(indices_dir: Path, output_file: Path) -> bool:
         f.write(repr(indices_data))
         f.write('\n\n')
         
-        # Write convenience functions
-        f.write('def get_index(name: str):\n')
-        f.write('    """Get index data by name."""\n')
-        f.write('    return INDICES.get(name)\n\n')
-        
-        f.write('def get_all_indices():\n')
-        f.write('    """Get all available indices."""\n')
-        f.write('    return list(INDICES.keys())\n\n')
-        
-        f.write('def get_companies(index_name: str):\n')
-        f.write('    """Get companies for a specific index."""\n')
-        f.write('    index_data = INDICES.get(index_name)\n')
-        f.write('    return index_data.get("companies", []) if index_data else []\n')
-    
     logger.info(f"  ✓ Generated {output_file}")
     logger.info(f"  ✓ Total indices: {len(indices_data)}")
     
@@ -194,6 +279,8 @@ def generate_python_module(indices_dir: Path, output_file: Path) -> bool:
     logger.info(f"{'=' * 80}\n")
     
     return True
+
+
 
 
 @click.command()
@@ -229,6 +316,16 @@ def main(force):
     # Step 2: Enrich with stocks.yaml
     if not enrich_indices(stocks_yaml_path, indices_raw_dir, indices_dir):
         logger.error("❌ Enrichment failed")
+        sys.exit(1)
+
+    # Step 2.5: Canonicalize names across indices
+    if not canonicalize_index_names(indices_dir):
+        logger.error("❌ Canonicalization failed")
+        sys.exit(1)
+
+    # Step 2.6: Sync canonical names to stocks.yaml
+    if not sync_canonical_names_to_stocks(stocks_yaml_path, indices_dir):
+        logger.error("❌ Sync to stocks.yaml failed")
         sys.exit(1)
     
     # Step 3: Generate Python module

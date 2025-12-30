@@ -7,12 +7,11 @@ Copyright 2019 Slash Gordon
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file.
 """
-import os
 import json
 import yaml
 from weakref import WeakValueDictionary
 import itertools
-from pytickersymbols.data import __data__
+from pytickersymbols.indices_data import INDICES
 
 __version__ = "1.15.0"
 
@@ -20,7 +19,6 @@ __version__ = "1.15.0"
 class Statics:
     class Indices:
         DE_SDAX = 'SDAX'
-        RU_MOEX = 'MOEX'
         GB_FTSE = 'FTSE 100'
         FI_OMX_25 = 'OMX Helsinki 25'
         EU_50 = 'EURO STOXX 50'
@@ -28,12 +26,11 @@ class Statics:
         ES_IBEX_35 = 'IBEX 35'
         US_DOW = 'DOW JONES'
         DE_DAX = 'DAX'
-        DE_CDAX = 'CDAX'
         FR_CAC_60 = 'CAC Mid 60'
-        DE_TECDAX = 'TECDAX'
+        DE_TECDAX = 'TecDAX'
         US_NASDAQ = 'NASDAQ 100'
         CH_20 = 'Switzerland 20'
-        FR_CAC_40 = 'CAC 40'
+        FR_CAC_40 = 'CAC_40'
         US_SP_500 = 'S&P 500'
         US_SP_600 = 'S&P 600'
         SE_OMX_30 = 'OMX Stockholm 30'
@@ -96,35 +93,46 @@ class Singleton(type):
 
 class PyTickerSymbols(metaclass=Singleton):
     def __init__(self):
-        self.__stocks = __data__
+        self.__indices = INDICES
 
     def load_json(self, path):
         """
         Loads external json stock file
         """
         with open(path) as stocks:
-            self.__stocks = json.load(stocks)
+            self.__indices = json.load(stocks)
+
 
     def load_yaml(self, path):
         """
         Loads external yaml stock file
         """
         with open(path) as stocks:
-            self.__stocks = yaml.safe_load(stocks)
+            self.__indices = yaml.safe_load(stocks)
 
     def get_all_indices(self):
         """
         Returns all available indices
         :return: list of index names
         """
-        return self.__get_sub_items('indices')
+        return list(self.__indices.keys())
 
     def get_all_stocks(self):
         """
-        Returns all available stocks
+        Returns all available stocks (unique companies across all indices)
         :return: list of index stock objects
         """
-        return self.__stocks['companies']
+        companies_dict = {}
+        for index_data in self.__indices.values():
+            for company in index_data.get('companies', []):
+                company_name = company.get('name')
+                if company_name and company_name not in companies_dict:
+                    companies_dict[company_name] = company
+        # Return companies sorted alphabetically by name
+        return sorted(
+            companies_dict.values(),
+            key=lambda c: (c.get('name') or '').lower()
+        )
 
     def get_stock_name_by_yahoo_symbol(self, symbol):
         """
@@ -177,19 +185,24 @@ class PyTickerSymbols(metaclass=Singleton):
         Returns all available industries
         :return: list of industries
         """
-        return self.__get_sub_items('industries')
+        industries = set()
+        for index_data in self.__indices.values():
+            for company in index_data.get('companies', []):
+                industries.update(company.get('industries', []))
+        return list(industries)
 
     def get_all_countries(self):
         """
         Returns all available countries
         :return: list of country names
         """
-        countries = list(
-            set(
-                map(lambda stock: stock['country'], self.__stocks['companies'])
-            )
-        )
-        return countries
+        countries = set()
+        for index_data in self.__indices.values():
+            for company in index_data.get('companies', []):
+                country = company.get('country')
+                if country:
+                    countries.add(country)
+        return list(countries)
 
     def get_stocks_by_index(self, index):
         """
@@ -197,16 +210,22 @@ class PyTickerSymbols(metaclass=Singleton):
         :param index: name of index
         :return: list of stocks
         """
-        return self.__get_items('indices', index)
+        index_data = self.__indices.get(index)
+        if index_data:
+            return iter(index_data.get('companies', []))
+        return iter([])
 
     def _get_tickers_by_index(self, index, exchanges, tickertype):
-        stocks = self.__get_items('indices', index)
+        stocks = self.get_stocks_by_index(index)
         result = []
         for stock in stocks:
-            for symbol in stock['symbols']:
+            for symbol in stock.get('symbols', []):
+                google_symbol = symbol.get('google', '')
                 for exchange in exchanges:
-                    if symbol['google'].startswith(exchange):
-                        result.append(symbol[tickertype])
+                    if google_symbol.startswith(exchange):
+                        ticker = symbol.get(tickertype)
+                        if ticker:
+                            result.append(ticker)
         return result
 
     def get_yahoo_ticker_symbols_by_index(self, index):
@@ -215,7 +234,7 @@ class PyTickerSymbols(metaclass=Singleton):
         :param index: name of index
         :return: list of yahoo ticker symbols
         """
-        my_items = self.__get_items('indices', index)
+        my_items = self.get_stocks_by_index(index)
         return self.__filter_data(my_items, False, True)
 
     def get_google_ticker_symbols_by_index(self, index):
@@ -224,16 +243,27 @@ class PyTickerSymbols(metaclass=Singleton):
         :param index: name of index
         :return: list of google ticker symbols
         """
-        my_items = self.__get_items('indices', index)
+        my_items = self.get_stocks_by_index(index)
         return self.__filter_data(my_items, True, False)
 
     def get_stocks_by_industry(self, industry):
         """
-        Returns a list with stocks who belongs to given index.
-        :param industry: name of index
+        Returns a list with stocks who belongs to given industry.
+        :param industry: name of industry
         :return: list of stocks
         """
-        return self.__get_items('industries', industry)
+        if not isinstance(industry, str):
+            return iter([])
+        
+        stocks = []
+        seen = set()
+        for index_data in self.__indices.values():
+            for company in index_data.get('companies', []):
+                company_name = company.get('name')
+                if company_name not in seen and industry.lower() in [ind.lower() for ind in company.get('industries', [])]:
+                    stocks.append(company)
+                    seen.add(company_name)
+        return iter(stocks)
 
     def get_stocks_by_country(self, country):
         """
@@ -241,62 +271,38 @@ class PyTickerSymbols(metaclass=Singleton):
         :param country: name of country
         :return: list of stocks
         """
-        return filter(
-            lambda stock: isinstance(country, str)
-            and stock['country'].lower() == country.lower(),
-            self.__stocks['companies'],
-        )
+        if not isinstance(country, str):
+            return iter([])
+        
+        stocks = []
+        seen = set()
+        for index_data in self.__indices.values():
+            for company in index_data.get('companies', []):
+                company_name = company.get('name')
+                if company_name not in seen and company.get('country', '').lower() == country.lower():
+                    stocks.append(company)
+                    seen.add(company_name)
+        return iter(stocks)
 
     def index_to_yahoo_symbol(self, index_name):
         """
         Returns the yahoo symbol for index name.
-        :param country: name of index
+        :param index_name: name of index
         :return: yahoo symbol
         """
-        yahoo_symbol = None
-        for index_item in self.__stocks['indices']:
-            if index_item['name'] == index_name:
-                yahoo_symbol = index_item['yahoo']
-                break
-        return yahoo_symbol
-
-    def __get_items(self, key, val):
-        stocks = filter(
-            lambda item: len(
-                list(
-                    filter(
-                        lambda sub_item: isinstance(val, str)
-                        and val.lower() == sub_item.lower(),
-                        item[key],
-                    )
-                )
-            )
-            > 0,
-            self.__stocks['companies'],
-        )
-        return stocks
-
-    def __get_sub_items(self, key):
-        sub_items = list(
-            set(
-                [
-                    item
-                    for stock in self.__stocks['companies']
-                    for item in stock[key]
-                ]
-            )
-        )
-        return sub_items
+        index_data = self.__indices.get(index_name)
+        return index_data.get('yahoo') if index_data else None
 
     @staticmethod
     def __filter_data(stocks, google, yahoo):
         ticker_list = []
-        for stock in stocks:
+        stocks_list = list(stocks)  # Convert iterator to list so it can be reused
+        for stock in stocks_list:
             sub_list = []
-            for symbol in stock['symbols']:
-                if google and 'google' in symbol and symbol['google'] != '-':
+            for symbol in stock.get('symbols', []):
+                if google and 'google' in symbol and symbol.get('google') and symbol['google'] != '-':
                     sub_list.append(symbol['google'])
-                if yahoo and 'yahoo' in symbol and symbol['yahoo'] != '-':
+                if yahoo and 'yahoo' in symbol and symbol.get('yahoo') and symbol['yahoo'] != '-':
                     sub_list.append(symbol['yahoo'])
             ticker_list.append(sub_list)
         return ticker_list
