@@ -1,306 +1,415 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 """
-Enrich indices_raw JSON files with data from stocks.yaml and create YAML files in indices directory.
+Enrich indices_raw JSON files with data from stocks.yaml
+and generate YAML files in the indices directory.
 
 Copyright 2019 Slash Gordon
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file.
 """
 
+from __future__ import annotations
+
 import json
-import yaml
 import logging
+from dataclasses import dataclass, field
+import re
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Any, Dict, List, Optional
+
+import yaml
+
 from config import INDEX_MAPPING
 
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+# ------------------------------------------------------------------------------
+# logging
+# ------------------------------------------------------------------------------
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
+# ------------------------------------------------------------------------------
+# helpers
+# ------------------------------------------------------------------------------
 
-def load_stocks_yaml(yaml_path: Path) -> Dict[str, Any]:
-    """Load stocks.yaml and create lookup dictionaries."""
-    with open(yaml_path, 'r', encoding='utf-8') as f:
-        data = yaml.safe_load(f)
-    
-    # Create lookup by symbol, name, and ISIN
-    companies = {}
-    symbol_lookup = {}
-    name_lookup = {}
-    isin_lookup = {}
-    
-    for company in data.get('companies', []):
-        company_name = company.get('name')
-        symbol = company.get('symbol')
-        isins = company.get('isins', [])
-        
-        if company_name:
-            companies[company_name] = company
-            name_lookup[company_name.lower()] = company
-        
-        if symbol:
-            symbol_lookup[symbol] = company
-            
-        for isin in isins:
-            isin_lookup[isin] = company
-    
-    return {
-        'companies': companies,
-        'symbol_lookup': symbol_lookup,
-        'name_lookup': name_lookup,
-        'isin_lookup': isin_lookup,
-        'indices': {idx['name']: idx for idx in data.get('indices', [])}
-    }
+def normalize_list(value) -> List[Any]:
+    if not value:
+        return []
+    return value if isinstance(value, list) else [value]
+
+
+def merge_fields(target: dict, source: dict, fields: list[str]) -> None:
+    for field in fields:
+        value = source.get(field)
+        if value:
+            target[field] = value
 
 
 def normalize_name(name: str) -> str:
-    """Normalize company name for matching."""
-    # Remove common suffixes
-    suffixes = [' AG', ' SE', ' N.V.', ' plc', ' Inc.', ' Corp.', ' Corporation', 
-                ' Limited', ' Ltd.', ' GmbH', ' S.A.', ' NV', ' Oyj']
-    normalized = name
+    suffixes = [
+        " AG", " SE", " N.V.", " plc", " Inc.", " Corp.", " Corporation",
+        " Limited", " Ltd.", " GmbH", " S.A.", " NV", " Oyj",
+    ]
     for suffix in suffixes:
-        if normalized.endswith(suffix):
-            normalized = normalized[:-len(suffix)]
-    return normalized.strip().lower()
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+    return name.strip().lower()
 
 
-def find_company_match(raw_company: Dict[str, Any], stocks_data: Dict) -> Dict[str, Any]:
-    """Find matching company in stocks.yaml."""
-    # Try exact name match first
-    name = raw_company.get('name', '')
+def strip_parenthetical_disambiguation(name: Optional[str]) -> Optional[str]:
     if not name:
+        return name
+    # Remove trailing qualifiers like '(company)' or '(Unternehmen)'
+    return re.sub(r"\s*\((?:company|Unternehmen)\)\s*$", "", name, flags=re.IGNORECASE)
+
+
+# ------------------------------------------------------------------------------
+# country & exchange logic
+# ------------------------------------------------------------------------------
+
+COUNTRY_PATTERNS = {
+    "u.s.": "United States",
+    "usa": "United States",
+    "united states": "United States",
+    "germany": "Germany",
+    "france": "France",
+    "uk": "United Kingdom",
+    "united kingdom": "United Kingdom",
+    "netherlands": "Netherlands",
+    "belgium": "Belgium",
+    "spain": "Spain",
+    "switzerland": "Switzerland",
+    "sweden": "Sweden",
+    "finland": "Finland",
+    "australia": "Australia",
+    "japan": "Japan",
+}
+
+EXCHANGE_MAP = {
+    "Germany": [
+        ("{s}.DE", "ETR:{s}", "EUR"),
+        ("{s}.F", "FRA:{s}", "EUR"),
+    ],
+    "United States": [
+        ("{s}", "NASDAQ:{s}", "USD"),
+    ],
+    "France": [
+        ("{s}.PA", "EPA:{s}", "EUR"),
+    ],
+    "United Kingdom": [
+        ("{s}.L", "LON:{s}", "GBP"),
+    ],
+    "Netherlands": [
+        ("{s}.AS", "AMS:{s}", "EUR"),
+    ],
+    "Belgium": [
+        ("{s}.BR", "EBR:{s}", "EUR"),
+    ],
+    "Spain": [
+        ("{s}.MC", "BME:{s}", "EUR"),
+    ],
+    "Switzerland": [
+        ("{s}.SW", "SWX:{s}", "CHF"),
+    ],
+    "Sweden": [
+        ("{s}.ST", "STO:{s}", "SEK"),
+    ],
+    "Finland": [
+        ("{s}.HE", "HEL:{s}", "EUR"),
+    ],
+    "Australia": [
+        ("{s}.AX", "ASX:{s}", "AUD"),
+    ],
+    "Japan": [
+        ("{s}.T", "TYO:{s}", "JPY"),
+    ],
+}
+
+
+def infer_country_from_metadata(metadata: dict) -> Optional[str]:
+    hq = metadata.get("headquarters", "")
+    if not hq:
         return None
-    
-    # Exact match
-    if name in stocks_data['companies']:
-        return stocks_data['companies'][name]
-    
-    # Lowercase match
-    name_lower = name.lower()
-    if name_lower in stocks_data['name_lookup']:
-        return stocks_data['name_lookup'][name_lower]
-    
-    # Try symbol match
-    symbol = raw_company.get('symbol', '')
-    if symbol:
-        # Remove exchange suffix (.DE, .AS, etc.)
-        base_symbol = symbol.split('.')[0]
-        if base_symbol in stocks_data['symbol_lookup']:
-            return stocks_data['symbol_lookup'][base_symbol]
-    
-    # Try ISIN match
-    isin = raw_company.get('isin')
-    if isin:
-        # Handle both single ISIN and list of ISINs
-        isins = isin if isinstance(isin, list) else [isin]
-        for i in isins:
-            if i in stocks_data['isin_lookup']:
-                return stocks_data['isin_lookup'][i]
-    
-    # Try normalized name match
-    normalized = normalize_name(name)
-    for company_name, company_data in stocks_data['companies'].items():
-        if normalize_name(company_name) == normalized:
-            return company_data
-    
+
+    hq_lower = hq.lower()
+    for pattern, country in COUNTRY_PATTERNS.items():
+        if pattern in hq_lower:
+            return country
     return None
 
 
-def enrich_company(raw_company: Dict[str, Any], stocks_company: Dict[str, Any], 
-                   index_name: str) -> Dict[str, Any]:
-    """Enrich raw company data with stocks.yaml data."""
-    enriched = {}
-    
-    # Use name from raw data (more up-to-date)
-    enriched['name'] = raw_company.get('name', stocks_company.get('name'))
-    
-    # Symbol - prefer raw data
-    if 'symbol' in raw_company:
-        enriched['symbol'] = raw_company['symbol']
-    elif 'symbol' in stocks_company:
-        enriched['symbol'] = stocks_company['symbol']
-    
-    # Country
-    if 'country' in raw_company:
-        enriched['country'] = raw_company['country']
-    elif 'country' in stocks_company:
-        enriched['country'] = stocks_company['country']
-    
-    # Industries - merge from both sources
-    industries = set()
-    if 'industries' in stocks_company:
-        industries.update(stocks_company['industries'])
-    if 'sector' in raw_company:
-        industries.add(raw_company['sector'])
-    if 'industry' in raw_company:
-        industries.add(raw_company['industry'])
-    if industries:
-        enriched['industries'] = sorted(list(industries))
-    
-    # Symbols from stocks.yaml
-    if 'symbols' in stocks_company:
-        enriched['symbols'] = stocks_company['symbols']
-    
-    # Metadata - merge from both sources
-    metadata = {}
-    if 'metadata' in stocks_company:
-        metadata.update(stocks_company['metadata'])
-    
-    # Add new metadata from raw data
-    for field in ['founded', 'employees', 'revenue', 'headquarters', 'website']:
-        if field in raw_company and raw_company[field]:
-            metadata[field] = raw_company[field]
-    
-    if metadata:
-        enriched['metadata'] = metadata
-    
-    # ISINs - merge from both sources
-    isins = set()
-    if 'isins' in stocks_company:
-        isins.update(stocks_company['isins'])
-    if 'isin' in raw_company:
-        raw_isin = raw_company['isin']
-        if isinstance(raw_isin, list):
-            isins.update(raw_isin)
-        else:
-            isins.add(raw_isin)
-    if isins:
-        enriched['isins'] = sorted(list(isins))
-    
-    # Wikipedia URL
-    if 'wikipedia_url' in raw_company:
-        enriched['wikipedia_url'] = raw_company['wikipedia_url']
-    
-    # Additional raw data fields
-    for field in ['company_type', 'traded_as', 'key_people', 'products', 
-                  'operating_income', 'net_income', 'total_assets', 'total_equity', 'founder']:
-        if field in raw_company and raw_company[field]:
-            if 'metadata' not in enriched:
-                enriched['metadata'] = {}
-            enriched['metadata'][field] = raw_company[field]
-    
-    # Akas from stocks.yaml
-    if 'akas' in stocks_company:
-        enriched['akas'] = stocks_company['akas']
-    else:
-        enriched['akas'] = []
-    
-    return enriched
+def build_symbols(symbol: str, country: str) -> List[Dict[str, str]]:
+    # Use base ticker without any existing suffix, e.g. "SLR.MC" -> "SLR"
+    base = (symbol or '').split('.')[0]
+    entries = EXCHANGE_MAP.get(country)
+    if not entries:
+        return [{"yahoo": symbol, "google": symbol, "currency": "USD"}]
+
+    return [
+        {
+            "yahoo": y.format(s=base),
+            "google": g.format(s=base),
+            "currency": c,
+        }
+        for y, g, c in entries
+    ]
 
 
-def process_index(json_path: Path, stocks_data: Dict, output_dir: Path, index_name: str):
-    """Process a single index JSON file and create enriched YAML."""
-    logger.info(f"Processing {index_name}...")
-    
-    with open(json_path, 'r', encoding='utf-8') as f:
-        raw_data = json.load(f)
-    
-    enriched_companies = []
-    matched_count = 0
-    new_count = 0
-    new_companies = []
-    matched_companies = set()
-    
-    for raw_company in raw_data.get('companies', []):
-        stocks_company = find_company_match(raw_company, stocks_data)
-        
-        if stocks_company:
-            matched_count += 1
-            matched_companies.add(stocks_company.get('name'))
-            enriched = enrich_company(raw_company, stocks_company, index_name)
-        else:
-            new_count += 1
-            new_companies.append(raw_company.get('name', 'Unknown'))
-            # Create entry from raw data only
-            enriched = {
-                'name': raw_company.get('name'),
-                'symbol': raw_company.get('symbol'),
-                'industries': [raw_company['sector']] if 'sector' in raw_company else [],
-                'akas': []
-            }
-            
-            if 'country' in raw_company:
-                enriched['country'] = raw_company['country']
-            
-            if 'isin' in raw_company:
-                isin = raw_company['isin']
-                enriched['isins'] = isin if isinstance(isin, list) else [isin]
-            
-            if 'wikipedia_url' in raw_company:
-                enriched['wikipedia_url'] = raw_company['wikipedia_url']
-            
-            # Add metadata
-            metadata = {}
-            for field in ['founded', 'employees', 'revenue', 'headquarters', 'website',
-                         'company_type', 'traded_as', 'industry', 'key_people', 'products',
-                         'operating_income', 'net_income', 'total_assets', 'total_equity', 'founder']:
-                if field in raw_company and raw_company[field]:
-                    metadata[field] = raw_company[field]
-            
-            if metadata:
-                enriched['metadata'] = metadata
-        
-        enriched_companies.append(enriched)
-    
-    # Find removed companies (in stocks.yaml but not in raw data)
-    removed_companies = []
-    for company_name, company_data in stocks_data['companies'].items():
-        indices = company_data.get('indices', [])
-        if index_name in indices and company_name not in matched_companies:
-            removed_companies.append(company_name)
-    
-    # Create output YAML
-    output_data = {
-        'name': index_name,
-        'companies': enriched_companies
+# ------------------------------------------------------------------------------
+# data models
+# ------------------------------------------------------------------------------
+
+@dataclass
+class Company:
+    name: str
+    symbol: Optional[str] = None
+    country: Optional[str] = None
+    industries: List[str] = field(default_factory=list)
+    symbols: List[Dict[str, str]] = field(default_factory=list)
+    metadata: Dict[str, Any] = field(default_factory=dict)
+    isins: List[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        return {
+            k: v
+            for k, v in {
+                "name": self.name,
+                "symbol": self.symbol,
+                "country": self.country,
+                "industries": self.industries or None,
+                "symbols": self.symbols or None,
+                "metadata": self.metadata or None,
+                "isins": self.isins or None,
+            }.items()
+            if v is not None
+        }
+
+
+@dataclass
+class Index:
+    name: str
+    companies: List[Company]
+    yahoo: Optional[str] = None
+
+    def to_dict(self) -> dict:
+        data = {
+            "name": self.name,
+            "companies": [c.to_dict() for c in self.companies],
+        }
+        if self.yahoo:
+            data["yahoo"] = self.yahoo
+        return data
+
+
+# ------------------------------------------------------------------------------
+# stocks.yaml loading & lookup
+# ------------------------------------------------------------------------------
+
+def load_stocks_yaml(path: Path) -> dict:
+    with path.open(encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+
+    companies = data.get("companies", [])
+
+    lookup = {
+        "companies": {},
+        "name": {},
+        "symbol": {},
+        "isin": {},
+        "indices": {i["name"]: i for i in data.get("indices", [])},
     }
-    
-    # Add index Yahoo symbol if available
-    if index_name in stocks_data['indices']:
-        yahoo_symbol = stocks_data['indices'][index_name].get('yahoo')
-        if yahoo_symbol:
-            output_data['yahoo'] = yahoo_symbol
-    
-    # Write YAML file
-    output_path = output_dir / f"{json_path.stem}.yaml"
-    with open(output_path, 'w', encoding='utf-8') as f:
-        yaml.dump(output_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
-    
-    logger.info(f"  ✓ {index_name}: {len(enriched_companies)} companies ({matched_count} matched, {new_count} new, {len(removed_companies)} removed)")
-    
-    if new_companies:
-        logger.info(f"    NEW: {', '.join(new_companies)}")
-    
-    if removed_companies:
-        logger.info(f"    REMOVED: {', '.join(removed_companies)}")
-    
-    logger.info(f"  → {output_path}")
 
+    for company in companies:
+        name = company.get("name")
+        symbol = company.get("symbol")
+
+        if name:
+            lookup["companies"][name] = company
+            lookup["name"][name.lower()] = company
+
+        if symbol:
+            lookup["symbol"][symbol] = company
+
+        for isin in company.get("isins", []):
+            lookup["isin"][isin] = company
+
+    return lookup
+
+
+# ------------------------------------------------------------------------------
+# matching & enrichment
+# ------------------------------------------------------------------------------
+
+def find_company_match(raw: dict, lookup: dict) -> Optional[dict]:
+    """
+    Match priority:
+    1) Exact ISIN match (strongest)
+    2) Exact name match (case-insensitive)
+    3) Symbol match WITH country alignment (avoid cross-country collisions)
+    4) Fallback: normalized name match (only if unique)
+    """
+    # 1) ISIN strict match
+    for isin in normalize_list(raw.get("isin")):
+        if isin and isin in lookup["isin"]:
+            return lookup["isin"][isin]
+
+    # 2) Name exact (case-insensitive)
+    name = (raw.get("name") or "").strip()
+    if name:
+        lower = name.lower()
+        if name in lookup["companies"]:
+            return lookup["companies"][name]
+        if lower in lookup["name"]:
+            return lookup["name"][lower]
+
+    # 3) Symbol + country alignment
+    raw_symbol = (raw.get("symbol") or "")
+    base = raw_symbol.split(".")[0]
+    raw_country = (raw.get("country") or "").strip()
+    if base and base in lookup["symbol"]:
+        candidate = lookup["symbol"][base]
+        cand_country = (candidate.get("country") or "").strip()
+        # If both sides have country, require equality
+        if raw_country and cand_country and raw_country != cand_country:
+            candidate = None
+        if candidate:
+            return candidate
+
+    # 4) Fallback: normalized name (last resort)
+    norm = normalize_name(name)
+    if norm and norm in lookup["name"]:
+        return lookup["name"][norm]
+
+    return None
+
+
+def enrich_company(raw: dict, stock: Optional[dict]) -> Company:
+    stock = stock or {}
+
+    name = strip_parenthetical_disambiguation(raw.get("name") or stock.get("name"))
+    symbol = raw.get("symbol") or stock.get("symbol")
+    country = raw.get("country") or stock.get("country")
+
+    industries = set(stock.get("industries", []))
+    industries.update(filter(None, [raw.get("sector"), raw.get("industry")]))
+
+    metadata = dict(stock.get("metadata", {}))
+    merge_fields(
+        metadata,
+        raw,
+        [
+            "founded", "employees", "revenue", "headquarters", "website",
+            "company_type", "traded_as", "key_people", "products",
+            "operating_income", "net_income", "total_assets",
+            "total_equity", "founder", "wikipedia_url",
+        ],
+    )
+
+    if not country:
+        country = infer_country_from_metadata(metadata)
+
+    symbols = (
+        stock.get("symbols")
+        or (build_symbols(symbol, country) if symbol and country else [])
+    )
+    # Drop any symbols explicitly marked to be skipped
+    symbols = [s for s in symbols if not s.get("skip")]
+
+    isins = set(stock.get("isins", []))
+    isins.update(normalize_list(raw.get("isin")))
+
+    return Company(
+        name=name,
+        symbol=symbol,
+        country=country,
+        industries=sorted(industries),
+        symbols=symbols,
+        metadata=metadata,
+        isins=sorted(isins),
+    )
+
+
+# ------------------------------------------------------------------------------
+# processing
+# ------------------------------------------------------------------------------
+
+def process_index(
+    json_path: Path,
+    lookup: dict,
+    output_dir: Path,
+    index_name: str,
+):
+    logger.info("Processing %s...", index_name)
+
+    with json_path.open(encoding="utf-8") as f:
+        raw_data = json.load(f)
+
+    companies: list[Company] = []
+    matched_names: set[str] = set()
+
+    for raw in raw_data.get("companies", []):
+        stock = find_company_match(raw, lookup)
+        if stock:
+            matched_names.add(stock.get("name"))
+        companies.append(enrich_company(raw, stock))
+
+    removed = [
+        name
+        for name, company in lookup["companies"].items()
+        if index_name in company.get("indices", [])
+        and name not in matched_names
+    ]
+
+    index = Index(
+        name=index_name,
+        companies=companies,
+        yahoo=lookup["indices"].get(index_name, {}).get("yahoo"),
+    )
+
+    output_path = output_dir / f"{json_path.stem}.yaml"
+    with output_path.open("w", encoding="utf-8") as f:
+        yaml.safe_dump(
+            index.to_dict(),
+            f,
+            allow_unicode=True,
+            sort_keys=False,
+        )
+
+    logger.info(
+        "  ✓ %s: %d companies (%d removed)",
+        index_name,
+        len(companies),
+        len(removed),
+    )
+
+
+# ------------------------------------------------------------------------------
+# main
+# ------------------------------------------------------------------------------
 
 def main():
-    """Main function."""
-    project_root = Path(__file__).parent.parent
-    stocks_yaml_path = project_root / 'stocks.yaml'
-    indices_raw_dir = project_root / 'indices_raw'
-    indices_dir = project_root / 'indices'
-    
-    # Create indices directory if it doesn't exist
-    indices_dir.mkdir(exist_ok=True)
-    
-    # Load stocks.yaml
+    root = Path(__file__).parent.parent
+    stocks_yaml = root / "stocks.yaml"
+    raw_dir = root / "indices_raw"
+    out_dir = root / "indices"
+
+    out_dir.mkdir(exist_ok=True)
+
     logger.info("Loading stocks.yaml...")
-    stocks_data = load_stocks_yaml(stocks_yaml_path)
-    logger.info(f"  Loaded {len(stocks_data['companies'])} companies from stocks.yaml")
-    
-    # Process each JSON file
-    for json_file in sorted(indices_raw_dir.glob('*.json')):
-        index_name = INDEX_MAPPING.get(json_file.name, json_file.stem.replace('_', ' ').title())
-        process_index(json_file, stocks_data, indices_dir, index_name)
-    
-    logger.info("\n✓ All indices processed successfully!")
+    lookup = load_stocks_yaml(stocks_yaml)
+    logger.info("Loaded %d companies", len(lookup["companies"]))
+
+    for json_file in sorted(raw_dir.glob("*.json")):
+        index_name = INDEX_MAPPING.get(
+            json_file.name,
+            json_file.stem.replace("_", " ").title(),
+        )
+        process_index(json_file, lookup, out_dir, index_name)
+
+    logger.info("✓ All indices processed successfully!")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

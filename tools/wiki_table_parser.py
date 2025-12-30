@@ -236,6 +236,76 @@ class WikiTableParser:
                     base_domain = "https://en.wikipedia.org"
                 return f"{base_domain}{href}"
         return None
+
+    def _parse_infobox_page(self, url: str) -> Dict[str, str]:
+        """Parse a company's infobox from a given Wikipedia article URL."""
+        result: Dict[str, str] = {}
+        try:
+            soup = self.fetch_page(url)
+            infobox = soup.find('table', class_=lambda x: x and 'infobox' in x.split())
+            if not infobox:
+                return result
+
+            field_mapping = {
+                'type': 'company_type',
+                'traded as': 'traded_as',
+                'isin': 'isin',
+                'industry': 'industry',
+                'founded': 'founded',
+                'founder': 'founder',
+                'headquarters': 'headquarters',
+                'key people': 'key_people',
+                'products': 'products',
+                'revenue': 'revenue',
+                'operating income': 'operating_income',
+                'net income': 'net_income',
+                'total assets': 'total_assets',
+                'total equity': 'total_equity',
+                'number of employees': 'employees',
+                'website': 'website',
+            }
+
+            for row in infobox.find_all('tr'):
+                th = row.find('th')
+                td = row.find('td')
+                label_elem = None
+                value_elem = None
+
+                if th and td:
+                    label_elem = th
+                    value_elem = td
+                else:
+                    tds = row.find_all('td')
+                    if len(tds) >= 2:
+                        label_elem = tds[0]
+                        value_elem = tds[1]
+
+                if not (label_elem and value_elem):
+                    continue
+
+                label = label_elem.get_text(strip=True).lower()
+                value = value_elem.get_text(separator=' ', strip=True)
+                value = re.sub(r'\[.*?\]', '', value)
+                value = re.sub(r'\s+', ' ', value).strip()
+
+                for key, field_name in field_mapping.items():
+                    if key in label:
+                        if field_name == 'isin':
+                            isins = self._parse_isins(value)
+                            if len(isins) > 1:
+                                result[field_name] = isins
+                            elif len(isins) == 1:
+                                result[field_name] = isins[0]
+                        elif field_name == 'website':
+                            result[field_name] = re.sub(r'\s*\.\s*', '.', value)
+                        else:
+                            result[field_name] = value
+                        break
+
+            logger.debug(f"Extracted info from {url}: {len(result)} fields")
+        except Exception as e:
+            logger.warning(f"Could not extract company info from {url}: {e}")
+        return result
     
     def _extract_company_info(self, link_url: Optional[str], language_fallbacks: List[str] = None, page_lang_links: Dict[str, str] = None) -> Dict[str, str]:
         """Extract additional company information from Wikipedia article with language fallbacks for ISIN"""
@@ -250,93 +320,12 @@ class WikiTableParser:
         
         info = {}
         
-        def _parse_infobox(url: str) -> Dict[str, str]:
-            """Helper to parse infobox from a given URL"""
-            result = {}
-            try:
-                soup = self.fetch_page(url)
-                # Find infobox - match any table with 'infobox' in its class list
-                infobox = soup.find('table', class_=lambda x: x and 'infobox' in x.split())
-                if not infobox:
-                    return result
-                
-                # Parse infobox rows
-                for row in infobox.find_all('tr'):
-                    th = row.find('th')
-                    td = row.find('td')
-                    
-                    # Handle both English (th/td) and German (td/td with bold first) formats
-                    label_elem = None
-                    value_elem = None
-                    
-                    if th and td:
-                        # English format: <th>label</th><td>value</td>
-                        label_elem = th
-                        value_elem = td
-                    else:
-                        # German format: <td style="font-weight:bold;">label</td><td>value</td>
-                        tds = row.find_all('td')
-                        if len(tds) >= 2:
-                            label_elem = tds[0]
-                            value_elem = tds[1]
-                    
-                    if label_elem and value_elem:
-                        label = label_elem.get_text(strip=True).lower()
-                        # Use separator to preserve spacing between elements
-                        value = value_elem.get_text(separator=' ', strip=True)
-                        
-                        # Clean up value
-                        value = re.sub(r'\[.*?\]', '', value)  # Remove references
-                        value = re.sub(r'\s+', ' ', value).strip()  # Normalize whitespace
-                        
-                        # Map common infobox fields
-                        field_mapping = {
-                            'type': 'company_type',
-                            'traded as': 'traded_as',
-                            'isin': 'isin',
-                            'industry': 'industry',
-                            'founded': 'founded',
-                            'founder': 'founder',
-                            'headquarters': 'headquarters',
-                            'key people': 'key_people',
-                            'products': 'products',
-                            'revenue': 'revenue',
-                            'operating income': 'operating_income',
-                            'net income': 'net_income',
-                            'total assets': 'total_assets',
-                            'total equity': 'total_equity',
-                            'number of employees': 'employees',
-                            'website': 'website',
-                        }
-                        
-                        for key, field_name in field_mapping.items():
-                            if key in label:
-                                # Special handling for ISIN - split multiple ISINs
-                                if field_name == 'isin':
-                                    isins = self._parse_isins(value)
-                                    if len(isins) > 1:
-                                        result[field_name] = isins
-                                    elif len(isins) == 1:
-                                        result[field_name] = isins[0]
-                                # Special handling for website - remove spaces around dots
-                                elif field_name == 'website':
-                                    result[field_name] = re.sub(r'\s*\.\s*', '.', value)
-                                else:
-                                    result[field_name] = value
-                                break
-                
-                logger.debug(f"Extracted info from {url}: {len(result)} fields")
-            except Exception as e:
-                logger.warning(f"Could not extract company info from {url}: {e}")
-            
-            return result
-        
         # Try primary URL and extract language links
         soup = self.fetch_page(link_url)
         company_lang_links = self._extract_language_links(soup, link_url)
         
         # Parse infobox from primary URL
-        info = _parse_infobox(link_url)
+        info = self._parse_infobox_page(link_url)
         
         # If ISIN is found, return immediately
         if 'isin' in info and info['isin']:
@@ -359,7 +348,7 @@ class WikiTableParser:
                     continue
                 
                 logger.debug(f"Trying {lang_code.upper()} article: {alt_url}")
-                alt_info = _parse_infobox(alt_url)
+                alt_info = self._parse_infobox_page(alt_url)
                 
                 # If ISIN is found in this language version, merge and return
                 if 'isin' in alt_info and alt_info['isin']:
@@ -375,114 +364,138 @@ class WikiTableParser:
                 continue
         
         return info
+
+    def _map_column_indices(self, headers: List[str], columns_config: Dict[str, List[str]]) -> Dict[str, int]:
+        column_indices: Dict[str, int] = {}
+        for field, possible_names in columns_config.items():
+            idx = self._find_column_index(headers, possible_names)
+            if idx is not None:
+                column_indices[field] = idx
+        return column_indices
+
+    def _parse_row_and_link(self, cells: List[Any], url: str, column_indices: Dict[str, int], symbol_converter: List[Dict[str, str]]) -> tuple[Dict[str, str], Optional[str]]:
+        entry: Dict[str, str] = {}
+        company_link: Optional[str] = None
+        for field, idx in column_indices.items():
+            cell = cells[idx]
+            if field == 'name' and company_link is None:
+                company_link = self._extract_company_link(cell, url)
+                if company_link:
+                    entry['wikipedia_url'] = company_link
+            text = cell.get_text(strip=True)
+            text = re.sub(r'\[.*?\]', '', text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            if text:
+                if field == 'symbol':
+                    text = self._convert_symbol(text, symbol_converter)
+                entry[field] = text
+        return entry, company_link
+
+    def _resolve_alt_company_info(self, entry: Dict[str, str], url: str,
+                                  language_fallbacks: List[str], page_lang_links: Dict[str, str],
+                                  table_title_regex: Optional[str], columns_config: Dict,
+                                  symbol_converter: List[Dict[str, str]], parse_format: str) -> None:
+        target_symbol = entry.get('symbol')
+        target_name = (entry.get('name') or '').strip().lower()
+        for lang_code in language_fallbacks or []:
+            alt_index_url = page_lang_links.get(lang_code)
+            if not alt_index_url or alt_index_url == url:
+                continue
+            try:
+                alt_results, _ = self._parse_table_from_url(
+                    alt_index_url,
+                    table_title_regex,
+                    columns_config,
+                    extract_company_info=False,
+                    language_fallbacks=language_fallbacks,
+                    symbol_converter=symbol_converter,
+                    parse_format=parse_format,
+                )
+                matched = None
+                if target_symbol:
+                    matched = next((r for r in alt_results if r.get('symbol') == target_symbol), None)
+                if not matched and target_name:
+                    matched = next((r for r in alt_results if (r.get('name') or '').strip().lower() == target_name), None)
+                alt_url = matched and matched.get('wikipedia_url')
+                if alt_url:
+                    entry['wikipedia_url'] = alt_url
+                    company_info = self._extract_company_info(alt_url, language_fallbacks, page_lang_links)
+                    entry.update(company_info)
+                    break
+            except Exception as e:
+                logger.debug(f"Alt page parsing failed for {lang_code}: {e}")
     
-    def _parse_list_format(self, soup: BeautifulSoup, url: str, 
+    def _find_components_heading(self, soup: BeautifulSoup, heading_pattern: str) -> Optional[Any]:
+        for heading in soup.find_all(['h2', 'h3']):
+            if heading_pattern in heading.get_text(strip=True):
+                return heading
+        return None
+
+    def _collect_list_items_under_heading(self, components_heading: Any) -> List[tuple[Any, str]]:
+        items: List[tuple[Any, str]] = []
+        found_h3 = False
+        for elem in components_heading.find_all_next():
+            if elem.name == 'h2':
+                break
+            if elem.name == 'h3':
+                found_h3 = True
+                sector = re.sub(r'\[edit\]', '', elem.get_text(strip=True)).strip()
+                ul = elem.find_next_sibling('ul') or elem.find_next('ul')
+                if ul:
+                    for li in ul.find_all('li', recursive=False):
+                        items.append((li, sector))
+        if not found_h3:
+            logger.warning("No h3 headings found after Components heading")
+        return items
+
+    def _parse_list_item_entry(self, li: Any, sector: str, url: str, extract_company_info: bool,
+                               language_fallbacks: List[str], symbol_converter: List[Dict[str, str]],
+                               page_lang_links: Dict[str, str]) -> Optional[Dict[str, str]]:
+        pattern = re.compile(r'^(.+?)\s*\(TYO:\s*(\d+)\)')
+        text = li.get_text()
+        match = pattern.search(text)
+        if not match:
+            return None
+        company_name = match.group(1).strip()
+        ticker = match.group(2).strip()
+
+        link = li.find('a', href=True)
+        company_link = None
+        if link and link.get('href', '').startswith('/wiki/') and not link['href'].startswith('/wiki/File:') and not link['href'].startswith('/wiki/Category:'):
+            md = re.match(r'(https://[a-z]{2}\.wikipedia\.org)', url)
+            base_domain = md.group(1) if md else "https://en.wikipedia.org"
+            company_link = f"{base_domain}{link['href']}"
+
+        entry = {'name': company_name, 'symbol': ticker, 'sector': sector}
+        entry['symbol'] = self._convert_symbol(entry['symbol'], symbol_converter)
+        if company_link:
+            entry['wikipedia_url'] = company_link
+            if extract_company_info:
+                company_info = self._extract_company_info(company_link, language_fallbacks, page_lang_links)
+                entry.update(company_info)
+        return entry
+
+    def _parse_list_format(self, soup: BeautifulSoup, url: str,
                           extract_company_info: bool,
                           language_fallbacks: List[str] = None,
                           symbol_converter: List[Dict[str, str]] = None,
                           heading_pattern: str = 'Components') -> tuple[List[Dict[str, str]], Dict[str, str]]:
         """Parse Nikkei 225 style list format: Company Name (TYO: XXXX)"""
         page_lang_links = self._extract_language_links(soup, url)
-        results = []
-        
-        # Pattern to match: Company Name (TYO: 1234) or Company Name (TYO: 1234)(extra text)
-        pattern = re.compile(r'^(.+?)\s*\(TYO:\s*(\d+)\)')
-        
-        # Get all list items - try multiple selectors
-        items = []
-        
-        # Find the heading matching the pattern
-        components_heading = None
-        for heading in soup.find_all(['h2', 'h3']):
-            heading_text = heading.get_text(strip=True)
-            if heading_pattern in heading_text:
-                components_heading = heading
-                logger.debug(f"Found Components heading: {heading_text}")
-                break
-        
+        results: List[Dict[str, str]] = []
+        components_heading = self._find_components_heading(soup, heading_pattern)
         if not components_heading:
             logger.warning(f"Could not find '{heading_pattern}' heading")
             return results, page_lang_links
-        
-        logger.debug(f"Components heading tag: {components_heading.name}, parent: {components_heading.parent.name if components_heading.parent else 'None'}")
-        
-        # Parse all subsections under Components using find_all_next
-        # Find all h3 headers after the Components heading until next h2
-        found_h3 = False
-        for elem in components_heading.find_all_next():
-            # Stop at next h2
-            if elem.name == 'h2':
-                logger.debug(f"Reached next h2 section: {elem.get_text(strip=True)[:50]}")
-                break
-            
-            # Check if this is a subsection heading (h3)
-            if elem.name == 'h3':
-                found_h3 = True
-                sector = elem.get_text(strip=True)
-                # Remove [edit] links from sector names
-                sector = re.sub(r'\\[edit\\]', '', sector).strip()
-                logger.debug(f"Found h3 sector heading: {sector}")
-                
-                # Find list items - try find_next_sibling first, then find_next
-                ul = elem.find_next_sibling('ul')
-                if not ul:
-                    # Try find_next if sibling doesn't work
-                    ul = elem.find_next('ul')
-                    if ul:
-                        logger.debug(f"  Found ul using find_next (not sibling)")
-                
-                if ul:
-                    lis = ul.find_all('li', recursive=False)
-                    logger.debug(f"  Found {len(lis)} list items under {sector}")
-                    if lis:
-                        logger.debug(f"    First item text: {lis[0].get_text()[:80]}")
-                    for li in lis:
-                        items.append((li, sector))
-                else:
-                    logger.debug(f"  No ul found for {sector}")
-        
-        if not found_h3:
-            logger.warning("No h3 headings found after Components heading")
-        
+        items = self._collect_list_items_under_heading(components_heading)
         logger.info(f"Found {len(items)} total list items")
-        
-        # Parse each item
         for li, sector in items:
-            text = li.get_text()
-            match = pattern.search(text)
-            if match:
-                company_name = match.group(1).strip()
-                ticker = match.group(2).strip()
-                
-                # Extract company link
-                link = li.find('a', href=True)
-                company_link = None
-                if link and link.get('href', '').startswith('/wiki/'):
-                    href = link['href']
-                    if not href.startswith('/wiki/File:') and not href.startswith('/wiki/Category:'):
-                        match_domain = re.match(r'(https://[a-z]{2}\.wikipedia\.org)', url)
-                        base_domain = match_domain.group(1) if match_domain else "https://en.wikipedia.org"
-                        company_link = f"{base_domain}{href}"
-                
-                entry = {
-                    'name': company_name,
-                    'symbol': ticker,
-                    'sector': sector
-                }
-                
-                # Apply symbol conversion
-                entry['symbol'] = self._convert_symbol(entry['symbol'], symbol_converter)
-                
-                if company_link:
-                    entry['wikipedia_url'] = company_link
-                    
-                    # Extract additional company info if enabled
-                    if extract_company_info:
-                        company_info = self._extract_company_info(company_link, language_fallbacks, page_lang_links)
-                        entry.update(company_info)
-                
+            entry = self._parse_list_item_entry(
+                li, sector, url, extract_company_info,
+                language_fallbacks or [], symbol_converter or [], page_lang_links,
+            )
+            if entry:
                 results.append(entry)
-        
         return results, page_lang_links
     
     def _parse_table_from_url(self, url: str, table_title_regex: Optional[str], 
@@ -511,14 +524,9 @@ class WikiTableParser:
         
         # Extract headers
         headers = self._extract_headers(table)
-        
+
         # Map columns
-        column_indices = {}
-        
-        for field, possible_names in columns_config.items():
-            idx = self._find_column_index(headers, possible_names)
-            if idx is not None:
-                column_indices[field] = idx
+        column_indices: Dict[str, int] = self._map_column_indices(headers, columns_config)
         
         # Check if we found any columns
         if not column_indices:
@@ -533,36 +541,16 @@ class WikiTableParser:
             cells = row.find_all(['td', 'th'])
             if len(cells) < max(column_indices.values()) + 1:
                 continue
-            
-            entry = {}
-            company_link = None
-            
-            for field, idx in column_indices.items():
-                cell = cells[idx]
-                
-                # Extract company article link from name field
-                if field == 'name' and company_link is None:
-                    company_link = self._extract_company_link(cell, url)
-                    if company_link:
-                        entry['wikipedia_url'] = company_link
-                
-                # Extract text, clean up references and notes
-                text = cell.get_text(strip=True)
-                text = re.sub(r'\[.*?\]', '', text)  # Remove references
-                text = re.sub(r'\s+', ' ', text).strip()  # Normalize whitespace
-                
-                if text:
-                    # Apply symbol conversion if this is a symbol field
-                    if field == 'symbol':
-                        text = self._convert_symbol(text, symbol_converter)
-                    entry[field] = text
-            
-            # Extract additional company info if enabled
-            if extract_company_info and company_link:
-                company_info = self._extract_company_info(company_link, language_fallbacks, page_lang_links)
-                entry.update(company_info)
-            
-            # Only add entries that have at least one field
+            entry, company_link = self._parse_row_and_link(cells, url, column_indices, symbol_converter or [])
+            if extract_company_info and entry:
+                if company_link:
+                    company_info = self._extract_company_info(company_link, language_fallbacks, page_lang_links)
+                    entry.update(company_info)
+                else:
+                    self._resolve_alt_company_info(
+                        entry, url, language_fallbacks or [], page_lang_links,
+                        table_title_regex, columns_config, symbol_converter or [], parse_format
+                    )
             if entry:
                 results.append(entry)
         

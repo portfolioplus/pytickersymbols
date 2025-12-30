@@ -49,8 +49,9 @@ jobs:
     
     - name: Run build pipeline
       run: |
-        cd tools
-        poetry run python build_indices.py
+        source .venv/bin/activate
+        python tools/build_indices.py
+        python -m pytest -q
     
     - name: Check for changes
       id: git-check

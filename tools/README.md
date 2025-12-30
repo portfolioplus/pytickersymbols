@@ -79,6 +79,37 @@ Parses Wikipedia tables, extracts company data, follows language links for ISINs
 ### enrich_indices.py
 Merges Wikipedia data with stocks.yaml, logs new/removed companies.
 
+### canonicalize_names.py
+Standalone pass to unify company display names across all index YAMLs.
+
+- Canonical key: ISIN (first) else Wikipedia URL
+- Preferred name: Wikipedia page title (if present) else most frequent existing name
+
+Usage:
+
+```bash
+python tools/canonicalize_names.py --indices-dir indices --dry-run  # preview changes
+python tools/canonicalize_names.py --indices-dir indices            # apply changes
+```
+
+Run this after `enrich_indices.py` and before generating the Python module if you want canonical names across indices.
+
+### sync_canonical_to_stocks.py
+Push canonical names back to `stocks.yaml` so renames are easy to review in git.
+
+- Builds canonical names from `indices/*.yaml` (ISIN > Wikipedia URL)
+- Updates `stocks.yaml` company `name`; appends prior name to `akas`
+
+Usage:
+
+```bash
+python tools/sync_canonical_to_stocks.py --stocks stocks.yaml --indices-dir indices --dry-run
+python tools/sync_canonical_to_stocks.py --stocks stocks.yaml --indices-dir indices
+```
+
+Suggested pipeline order:
+- Parse + Enrich → Canonicalize index names → Sync canonical names to stocks.yaml → Generate Python module
+
 ### config.py
 Loads global configuration from index_sources.yaml.
 
