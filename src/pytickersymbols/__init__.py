@@ -8,7 +8,6 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file.
 """
 import json
-import yaml
 from weakref import WeakValueDictionary
 import itertools
 from pytickersymbols.indices_data import INDICES
@@ -107,6 +106,10 @@ class PyTickerSymbols(metaclass=Singleton):
         """
         Loads external yaml stock file
         """
+        try:
+            import yaml
+        except ImportError:
+            raise ImportError("PyYAML is required to load YAML files. Please install it via 'pip install pyyaml'.")
         with open(path) as stocks:
             self.__indices = yaml.safe_load(stocks)
 
