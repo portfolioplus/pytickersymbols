@@ -65,6 +65,18 @@ def strip_parenthetical_disambiguation(name: Optional[str]) -> Optional[str]:
     return re.sub(r"\s*\((?:company|Unternehmen)\)\s*$", "", name, flags=re.IGNORECASE)
 
 
+def select_longest_name(*names: Optional[str]) -> Optional[str]:
+    """Return the longest non-empty name after stripping parenthetical disambiguation.
+
+    If multiple names have the same length, the first encountered wins.
+    """
+    cleaned = [strip_parenthetical_disambiguation(n or "") for n in names]
+    non_empty = [n for n in cleaned if n]
+    if not non_empty:
+        return None
+    return max(non_empty, key=len)
+
+
 # ------------------------------------------------------------------------------
 # country & exchange logic
 # ------------------------------------------------------------------------------
@@ -287,8 +299,7 @@ def find_company_match(raw: dict, lookup: dict) -> Optional[dict]:
 
 def enrich_company(raw: dict, stock: Optional[dict]) -> Company:
     stock = stock or {}
-
-    name = strip_parenthetical_disambiguation(raw.get("name") or stock.get("name"))
+    name = select_longest_name(raw.get("name"), stock.get("name"))
     symbol = raw.get("symbol") or stock.get("symbol")
     country = raw.get("country") or stock.get("country")
 
