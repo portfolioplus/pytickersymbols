@@ -1475,7 +1475,7 @@ companies:
   - DE000A0LD6E6
   akas:
   - Gerresheimer AG
-- name: Grand City Properties SA
+- name: Grand City Properties
   symbol: GYC
   country: Luxembourg
   indices:
@@ -1506,7 +1506,8 @@ companies:
     employees: 800
   isins:
   - LU0775917882
-  akas: []
+  akas:
+  - Grand City Properties SA
 - name: Hannover Re
   symbol: HNR1
   country: Germany
@@ -2780,7 +2781,7 @@ companies:
   - DE000A161N30
   akas:
   - Grenke AG
-- name: HAMBORNER REIT AG
+- name: Hamborner
   symbol: HAB
   country: Germany
   indices:
@@ -2805,7 +2806,8 @@ companies:
     employees: 40
   isins:
   - DE000A3H2333
-  akas: []
+  akas:
+  - HAMBORNER REIT AG
 - name: Heidelberger Druckmaschinen
   symbol: HDD
   country: Germany
@@ -2891,7 +2893,7 @@ companies:
   isins:
   - DE0006083405
   akas: []
-- name: INDUS Holding AG
+- name: Indus Holding
   symbol: INH
   country: Germany
   indices:
@@ -2914,7 +2916,8 @@ companies:
     employees: 10644
   isins:
   - DE0006200108
-  akas: []
+  akas:
+  - INDUS Holding AG
 - name: Jenoptik
   symbol: JEN
   country: Germany
@@ -3198,7 +3201,7 @@ companies:
   - DE0007010803
   akas:
   - RATIONAL AG
-- name: SAF-Holland SE
+- name: SAF-Holland
   symbol: SFQ
   country: Luxembourg
   indices:
@@ -3222,7 +3225,8 @@ companies:
     employees: 4218
   isins:
   - DE000SAFH001
-  akas: []
+  akas:
+  - SAF-Holland SE
 - name: SGL CARBON SE
   symbol: SGL
   country: Germany
@@ -24418,7 +24422,7 @@ companies:
     employees: 147125
   akas:
   - Société Générale SA
-- name: Amadeus FiRe AG
+- name: Amadeus Fire
   wiki_name: Amadeus FiRe AG
   symbol: AAD
   country: Germany
@@ -24437,7 +24441,8 @@ companies:
   metadata:
     founded: 2003
     employees: 3502
-  akas: []
+  akas:
+  - Amadeus FiRe AG
 - name: Abengoa S.A.
   wiki_name: Abengoa S.A.
   symbol: AGOAF
@@ -26187,7 +26192,7 @@ companies:
     founded: 1988
     employees: 857
   akas: []
-- name: PVA TePla AG
+- name: PVA TePla
   wiki_name: PVA TePla AG
   symbol: TPE
   country: Germany
@@ -26209,7 +26214,8 @@ companies:
   metadata:
     founded: 2002
     employees: 553
-  akas: []
+  akas:
+  - PVA TePla AG
 - name: Secunet Security Networks
   wiki_name: secunet Security Networks AG
   symbol: 0NWC
@@ -26231,7 +26237,7 @@ companies:
     employees: 740
   akas:
   - secunet Security Networks AG
-- name: Sto SE & Co. KGaA
+- name: Sto
   wiki_name: STO SE & Co. KGaA
   symbol: STO3
   country: Germany
@@ -26250,7 +26256,8 @@ companies:
   metadata:
     founded: 1955
     employees: 5333
-  akas: []
+  akas:
+  - Sto SE & Co. KGaA
 - name: SUSE S.A.
   wiki_name: SUSE S.A.
   symbol: SUSE
@@ -26372,7 +26379,7 @@ companies:
     founded: 2013
     employees: 1200
   akas: []
-- name: Hypoport SE
+- name: Hypoport
   wiki_name: Hypoport SE
   symbol: null
   country: Germany
@@ -26391,7 +26398,8 @@ companies:
   metadata:
     founded: 1999
     employees: 2131
-  akas: []
+  akas:
+  - Hypoport SE
 - name: Laboratorios Rovi
   wiki_name: Laboratorios Rovi
   symbol: ROVI
@@ -27058,7 +27066,7 @@ companies:
     employees: 5814
   akas:
   - adesso SE
-- name: GFT Technologies SE
+- name: GFT Technologies
   wiki_name: GFT Technologies SE
   symbol: 0O2W
   country: Germany
@@ -27077,7 +27085,8 @@ companies:
   metadata:
     founded: 1987
     employees: 7718
-  akas: []
+  akas:
+  - GFT Technologies SE
 - name: Vitesco Technologies Group AG
   wiki_name: Vitesco Technologies Group AG
   symbol: VTS
