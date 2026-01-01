@@ -16,6 +16,9 @@ on:
     - cron: '0 2 * * 0'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,6 +26,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        persist-credentials: true
       
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -51,6 +57,10 @@ jobs:
       run: |
         source .venv/bin/activate
         python tools/build_indices.py
+
+    - name: Run unit tests
+      run: |
+        source .venv/bin/activate
         python -m pytest -q
     
     - name: Check for changes
@@ -59,13 +69,23 @@ jobs:
         git diff --exit-code src/pytickersymbols/indices_data.py || echo "changed=true" >> $GITHUB_OUTPUT
     
     - name: Commit and push changes
-      if: steps.git-check.outputs.changed == 'true'
+      if: steps.git-check.outputs.changed == 'true' && (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request')
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add src/pytickersymbols/indices_data.py
+        git add stocks.yaml
         git commit -m "Auto-update: Rebuild indices from Wikipedia [skip ci]"
-        git push
+        branch="${{ github.ref_name }}"
+        if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+          # Skip pushing for forked PRs (no write access)
+          if [[ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]]; then
+            echo "Skipping push: forked PR has no write permissions."
+            exit 0
+          fi
+          branch="${{ github.head_ref }}"
+        fi
+        git push origin HEAD:"${branch}"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
