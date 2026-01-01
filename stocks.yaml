@@ -2780,7 +2780,7 @@ companies:
   - DE000A161N30
   akas:
   - Grenke AG
-- name: Hamborner Reit AG
+- name: HAMBORNER REIT AG
   symbol: HAB
   country: Germany
   indices:
@@ -2805,8 +2805,7 @@ companies:
     employees: 40
   isins:
   - DE000A3H2333
-  akas:
-  - Hamborner REIT AG
+  akas: []
 - name: Heidelberger Druckmaschinen
   symbol: HDD
   country: Germany
@@ -2892,7 +2891,7 @@ companies:
   isins:
   - DE0006083405
   akas: []
-- name: Indus Holding AG
+- name: INDUS Holding AG
   symbol: INH
   country: Germany
   indices:
@@ -2915,8 +2914,7 @@ companies:
     employees: 10644
   isins:
   - DE0006200108
-  akas:
-  - INDUS HOLDING AG
+  akas: []
 - name: Jenoptik
   symbol: JEN
   country: Germany
@@ -3200,7 +3198,7 @@ companies:
   - DE0007010803
   akas:
   - RATIONAL AG
-- name: SAF Holland SA
+- name: SAF-Holland SE
   symbol: SFQ
   country: Luxembourg
   indices:
@@ -26252,8 +26250,7 @@ companies:
   metadata:
     founded: 1955
     employees: 5333
-  akas:
-  - STO SE & Co. KGaA
+  akas: []
 - name: SUSE S.A.
   wiki_name: SUSE S.A.
   symbol: SUSE
