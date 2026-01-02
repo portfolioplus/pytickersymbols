@@ -12,16 +12,16 @@ beautifulsoup4 = "^4.12.0"
 requests = "^2.31.0"
 
 [tool.poetry.group.dev.dependencies]
-wheel = ">=0.41.3,<0.43.0"
-pytest = ">=7.4.3,<9.0.0"
-pytest-cov = "^4.1.0"
+wheel = ">=0.41.3,<0.46.0"
+pytest = ">=7.4.3,<10.0.0"
+pytest-cov = "^7.0.0"
 PyYAML = "^6.0.1"
-pycountry = ">=22.3.5,<24.0.0"
-packaging = "^23.0"
+pycountry = ">=22.3.5,<25.0.0"
+packaging = "^25.0"
 beautifulsoup4 = "^4.12.0"
 requests = "^2.31.0"
 click = "^8.3.1"
-yfinance = "^0.2.66"
+yfinance = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
