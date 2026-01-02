@@ -626,7 +626,7 @@ companies:
   - DE0006231004
   akas:
   - Infineon Technologies AG
-- name: Linde PLC
+- name: Linde plc
   symbol: LIN
   country: United Kingdom
   indices:
@@ -653,7 +653,8 @@ companies:
     employees: 74207
   isins:
   - IE000S9YS762
-  akas: []
+  akas:
+  - Linde PLC
 - name: Merck Group
   symbol: MRK
   country: Germany
@@ -4263,7 +4264,7 @@ companies:
   - GB00BD6K4575
   akas:
   - Compass Group PLC
-- name: CRH PLC
+- name: CRH plc
   symbol: CRH
   country: Ireland
   indices:
@@ -4294,7 +4295,8 @@ companies:
     employees: 79200
   isins:
   - IE0001827041
-  akas: []
+  akas:
+  - CRH PLC
 - name: Croda International
   symbol: CRDA
   country: United Kingdom
@@ -24422,7 +24424,7 @@ companies:
     employees: 147125
   akas:
   - Société Générale SA
-- name: Amadeus Fire
+- name: Amadeus FiRe AG
   wiki_name: Amadeus FiRe AG
   symbol: AAD
   country: Germany
@@ -24443,6 +24445,7 @@ companies:
     employees: 3502
   akas:
   - Amadeus FiRe AG
+  - Amadeus Fire
 - name: Abengoa S.A.
   wiki_name: Abengoa S.A.
   symbol: AGOAF
