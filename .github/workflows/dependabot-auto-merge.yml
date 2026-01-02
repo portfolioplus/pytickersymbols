@@ -24,7 +24,7 @@ jobs:
 
       - name: Enable GitHub auto-merge (minor/patch only)
         if: contains(github.event.pull_request.labels.*.name, 'automerge') && (steps.meta.outputs.update-type == 'version-update:semver-minor' || steps.meta.outputs.update-type == 'version-update:semver-patch')
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
