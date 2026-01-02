@@ -193,4 +193,3 @@ To add a new stock index to the library:
 ## issue tracker
 
 https://github.com/portfolioplus/pytickersymbols/issues
-
