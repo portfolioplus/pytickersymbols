@@ -15,6 +15,7 @@ requests = "^2.31.0"
 wheel = ">=0.41.3,<0.43.0"
 pytest = ">=7.4.3,<9.0.0"
 pytest-cov = "^4.1.0"
+pytest-benchmark = "5.2.3"
 PyYAML = "^6.0.1"
 pycountry = ">=22.3.5,<24.0.0"
 packaging = "^23.0"
@@ -34,7 +35,7 @@ version_variable = [
 version_toml = [
     "pyproject.toml:tool.poetry.version",
 ]
-branch = "master"
+branch = "main"
 upload_to_pypi = true
 upload_to_release = true
 build_command = "source .venv/bin/activate && poetry build"
