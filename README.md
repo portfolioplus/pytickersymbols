@@ -80,6 +80,39 @@ all_ticker_getter_names = list(filter(
 print(all_ticker_getter_names)
 ```
 
+### Iterator Examples
+
+Use iterator-based APIs to stream results without building large lists:
+
+```python
+from pytickersymbols import PyTickerSymbols
+
+stock_data = PyTickerSymbols()
+
+# Stream indices
+for index in stock_data.iter_all_indices():
+   print(index)
+
+# Stream all unique stocks
+for company in stock_data.iter_all_stocks():
+   print(company['name'])
+
+# Stream industries and countries
+for industry in stock_data.iter_all_industries():
+   pass  # handle industry
+for country in stock_data.iter_all_countries():
+   pass  # handle country
+
+# Stream Yahoo tickers for an index (flattened)
+for tickers in stock_data.iter_yahoo_ticker_symbols_by_index('DAX'):
+   for ticker in tickers:
+      print(ticker)
+
+# Stream tickers using exchange-specific dynamic methods
+for ticker in stock_data._iter_tickers_by_index('DAX', ('FRA:',), 'yahoo'):
+   print(ticker)
+```
+
 ## Development
 
 ### Setting up the development environment
@@ -105,9 +138,12 @@ poetry shell
 
 The `tools/` directory contains scripts for managing stock index data:
 
-- **sync_indices.py**: Split/merge stock data between monolithic and per-index formats
-- **wiki_table_parser.py**: Parse Wikipedia tables for stock index data
-- **yaml2data.py**: Convert YAML data to Python data module
+- **build_indices.py**: End-to-end pipeline to parse Wikipedia, enrich with `stocks.yaml`, canonicalize names, and generate the Python data module.
+- **wiki_table_parser.py**: Utilities to parse Wikipedia tables configured via `index_sources.yaml`.
+- **enrich_indices.py**: Merge raw parsed data with `stocks.yaml` historical metadata and symbols.
+- **canonicalize_names.py**: Normalize company display names across indices using ISIN/Wikipedia.
+- **sync_canonical_to_stocks.py**: Propagate canonical names back to `stocks.yaml`.
+- **enrich_with_yfinance.py**: Optional enrichment helpers using Yahoo Finance.
 
 See [tools/README.md](tools/README.md) for detailed usage instructions.
 
@@ -189,6 +225,12 @@ To add a new stock index to the library:
    Add a checkbox entry to the supported indices list at the top of this README.
 
 **Note:** The build pipeline automatically runs weekly via GitHub Actions to keep index data up to date.
+
+### Performance Tips
+
+- Lookups for stocks by symbol and aggregated lists/sets are internally cached for speed. After calling `load_json()` or `load_yaml()`, caches are automatically rebuilt.
+- For large results, prefer generator variants to avoid materializing lists: `iter_all_indices()`, `iter_all_stocks()`, `iter_all_countries()`, `iter_all_industries()`, and `iter_yahoo_ticker_symbols_by_index()` / `iter_google_ticker_symbols_by_index()`.
+- Dynamic ticker getters follow the naming convention `get_{index_name}_{exchange_city}_{yahoo|google}_tickers` and return lists. Use `_iter_tickers_by_index()` for streaming if needed.
 
 ## issue tracker
 

@@ -37,7 +37,7 @@ jobs:
             // Enable auto-merge with the standard merge method
             await github.graphql(`
               mutation ($pullRequestId: ID!) {
-                enablePullRequestAutoMerge(input: { pullRequestId: $pullRequestId, mergeMethod: MERGE }) { clientMutationId }
+                enablePullRequestAutoMerge(input: { pullRequestId: $pullRequestId, mergeMethod: SQUASH }) { clientMutationId }
               }
             `, { pullRequestId: pr.node_id });
 

@@ -75,7 +75,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add src/pytickersymbols/indices_data.py
         git add stocks.yaml
-        git commit -m "Auto-update: Rebuild indices from Wikipedia [skip ci]"
+        git commit -m "fix: Rebuild indices from Wikipedia [skip ci]"
         branch="${{ github.ref_name }}"
         if [[ "${{ github.event_name }}" == "pull_request" ]]; then
           # Skip pushing for forked PRs (no write access)
