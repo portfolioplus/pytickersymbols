@@ -10,6 +10,7 @@ can be found in the LICENSE file.
 import json
 from weakref import WeakValueDictionary
 import itertools
+from typing import Any, Dict, Iterable, Iterator, List, Optional
 from pytickersymbols.indices_data import INDICES
 
 __version__ = "1.15.0"
@@ -91,18 +92,26 @@ class Singleton(type):
 
 
 class PyTickerSymbols(metaclass=Singleton):
-    def __init__(self):
-        self.__indices = INDICES
+    def __init__(self) -> None:
+        self.__indices: Dict[str, Dict[str, Any]] = INDICES
+        # Cached derived data for performance
+        self.__all_stocks_list: List[Dict[str, Any]] = []
+        self.__symbol_index_yahoo: Dict[str, Dict[str, Any]] = {}
+        self.__symbol_index_google: Dict[str, Dict[str, Any]] = {}
+        self.__industries_set: set[str] = set()
+        self.__countries_set: set[str] = set()
+        self.__reindex()
 
-    def load_json(self, path):
+    def load_json(self, path: str) -> None:
         """
         Loads external json stock file
         """
         with open(path) as stocks:
             self.__indices = json.load(stocks)
+        self.__reindex()
 
 
-    def load_yaml(self, path):
+    def load_yaml(self, path: str) -> None:
         """
         Loads external yaml stock file
         """
@@ -112,32 +121,76 @@ class PyTickerSymbols(metaclass=Singleton):
             raise ImportError("PyYAML is required to load YAML files. Please install it via 'pip install pyyaml'.")
         with open(path) as stocks:
             self.__indices = yaml.safe_load(stocks)
+        self.__reindex()
 
-    def get_all_indices(self):
+    def __reindex(self) -> None:
+        """
+        Recompute cached views and symbol lookups from current indices.
+        Improves performance by avoiding repeated scans.
+        """
+        # Build unique company list across all indices
+        companies_dict: Dict[str, Dict[str, Any]] = {}
+        industries: set[str] = set()
+        countries: set[str] = set()
+        yahoo_map: Dict[str, Dict[str, Any]] = {}
+        google_map: Dict[str, Dict[str, Any]] = {}
+
+        for index_data in self.__indices.values():
+            for company in index_data.get('companies', []) or []:
+                name = company.get('name')
+                if name and name not in companies_dict:
+                    companies_dict[name] = company
+                # Collect industries
+                for ind in company.get('industries', []) or []:
+                    if ind:
+                        industries.add(ind)
+                # Collect countries
+                country = company.get('country')
+                if country:
+                    countries.add(country)
+                # Build symbol maps
+                for sym in company.get('symbols', []) or []:
+                    y = sym.get('yahoo')
+                    if y and y != '-':
+                        yahoo_map[y] = company
+                    g = sym.get('google')
+                    if g and g != '-':
+                        google_map[g] = company
+
+        # Stable sorted list of companies by name (case-insensitive)
+        self.__all_stocks_list = sorted(
+            companies_dict.values(), key=lambda c: (c.get('name') or '').lower()
+        )
+        self.__symbol_index_yahoo = yahoo_map
+        self.__symbol_index_google = google_map
+        self.__industries_set = industries
+        self.__countries_set = countries
+
+    def get_all_indices(self) -> List[str]:
         """
         Returns all available indices
         :return: list of index names
         """
         return list(self.__indices.keys())
 
-    def get_all_stocks(self):
+    def iter_all_indices(self) -> Iterator[str]:
+        """Generator yielding all available indices"""
+        for name in self.__indices.keys():
+            yield name
+
+    def get_all_stocks(self) -> List[Dict[str, Any]]:
         """
         Returns all available stocks (unique companies across all indices)
         :return: list of index stock objects
         """
-        companies_dict = {}
-        for index_data in self.__indices.values():
-            for company in index_data.get('companies', []):
-                company_name = company.get('name')
-                if company_name and company_name not in companies_dict:
-                    companies_dict[company_name] = company
-        # Return companies sorted alphabetically by name
-        return sorted(
-            companies_dict.values(),
-            key=lambda c: (c.get('name') or '').lower()
-        )
+        return list(self.__all_stocks_list)
 
-    def get_stock_name_by_yahoo_symbol(self, symbol):
+    def iter_all_stocks(self) -> Iterator[Dict[str, Any]]:
+        """Generator yielding all available stocks (unique companies)"""
+        for company in self.__all_stocks_list:
+            yield company
+
+    def get_stock_name_by_yahoo_symbol(self, symbol: str) -> Optional[str]:
         """
         Returns stock name by yahoo symbol
         :return: stock name or None if symbol is not present
@@ -145,7 +198,7 @@ class PyTickerSymbols(metaclass=Singleton):
         stock = self.get_stock_by_yahoo_symbol(symbol)
         return stock['name'] if stock else None
 
-    def get_stock_name_by_google_symbol(self, symbol):
+    def get_stock_name_by_google_symbol(self, symbol: str) -> Optional[str]:
         """
         Returns stock name by google symbol
         :return: stock name or None if symbol is not present
@@ -153,72 +206,69 @@ class PyTickerSymbols(metaclass=Singleton):
         stock = self.get_stock_by_google_symbol(symbol)
         return stock['name'] if stock else None
 
-    def get_stock_by_yahoo_symbol(self, symbol):
+    def get_stock_by_yahoo_symbol(self, symbol: str) -> Optional[Dict[str, Any]]:
         """
         Returns stock by yahoo symbol
         :return: stock or None if symbol is not present
         """
         return self.__get_stock_by_symbol(symbol, 'yahoo')
 
-    def get_stock_by_google_symbol(self, symbol):
+    def get_stock_by_google_symbol(self, symbol: str) -> Optional[Dict[str, Any]]:
         """
         Returns stock by google symbol
         :return: stock or None if symbol is not present
         """
         return self.__get_stock_by_symbol(symbol, 'google')
 
-    def __get_stock_by_symbol(self, symbol, symbol_type):
+    def __get_stock_by_symbol(self, symbol: str, symbol_type: str) -> Optional[Dict[str, Any]]:
         """
         Returns stock name by symbol
         :return: stock name or None if symbol is not present
         """
-        return next(
-            filter(
-                lambda x, sym=symbol: sym
-                in map(
-                    lambda y, sym_type=symbol_type: y[sym_type], x['symbols']
-                ),
-                self.get_all_stocks(),
-            ),
-            None,
-        )
+        if symbol_type == 'yahoo':
+            return self.__symbol_index_yahoo.get(symbol)
+        if symbol_type == 'google':
+            return self.__symbol_index_google.get(symbol)
+        return None
 
-    def get_all_industries(self):
+    def get_all_industries(self) -> List[str]:
         """
         Returns all available industries
         :return: list of industries
         """
-        industries = set()
-        for index_data in self.__indices.values():
-            for company in index_data.get('companies', []):
-                industries.update(company.get('industries', []))
-        return list(industries)
+        return list(self.__industries_set)
 
-    def get_all_countries(self):
+    def iter_all_industries(self) -> Iterator[str]:
+        """Generator yielding all available industries"""
+        for industry in self.__industries_set:
+            yield industry
+
+    def get_all_countries(self) -> List[str]:
         """
         Returns all available countries
         :return: list of country names
         """
-        countries = set()
-        for index_data in self.__indices.values():
-            for company in index_data.get('companies', []):
-                country = company.get('country')
-                if country:
-                    countries.add(country)
-        return list(countries)
+        return list(self.__countries_set)
 
-    def get_stocks_by_index(self, index):
+    def iter_all_countries(self) -> Iterator[str]:
+        """Generator yielding all available countries"""
+        for country in self.__countries_set:
+            yield country
+
+    def get_stocks_by_index(self, index: Optional[str]) -> Iterator[Dict[str, Any]]:
         """
         Returns a list with stocks who belongs to given index.
         :param index: name of index
         :return: list of stocks
         """
+        if not isinstance(index, str):
+            return iter([])
         index_data = self.__indices.get(index)
         if index_data:
             return iter(index_data.get('companies', []))
         return iter([])
 
-    def _get_tickers_by_index(self, index, exchanges, tickertype):
+    def _get_tickers_by_index(self, index: str, exchanges: Iterable[str], tickertype: str) -> List[str]:
         stocks = self.get_stocks_by_index(index)
         result = []
         for stock in stocks:
@@ -231,7 +281,19 @@ class PyTickerSymbols(metaclass=Singleton):
                             result.append(ticker)
         return result
 
-    def get_yahoo_ticker_symbols_by_index(self, index):
+    def _iter_tickers_by_index(self, index: str, exchanges: Iterable[str], tickertype: str) -> Iterator[str]:
+        """Generator yielding tickers for given index and exchanges"""
+        stocks = self.get_stocks_by_index(index)
+        for stock in stocks:
+            for symbol in stock.get('symbols', []):
+                google_symbol = symbol.get('google', '')
+                for exchange in exchanges:
+                    if google_symbol.startswith(exchange):
+                        ticker = symbol.get(tickertype)
+                        if ticker:
+                            yield ticker
+
+    def get_yahoo_ticker_symbols_by_index(self, index: Optional[str]) -> List[List[str]]:
         """
         Returns a list with yahoo ticker symbols who belongs to given index.
         :param index: name of index
@@ -240,7 +302,12 @@ class PyTickerSymbols(metaclass=Singleton):
         my_items = self.get_stocks_by_index(index)
         return self.__filter_data(my_items, False, True)
 
-    def get_google_ticker_symbols_by_index(self, index):
+    def iter_yahoo_ticker_symbols_by_index(self, index: Optional[str]) -> Iterator[List[str]]:
+        """Generator yielding yahoo ticker symbols for given index"""
+        my_items = self.get_stocks_by_index(index)
+        return self.__filter_data_iter(my_items, False, True)
+
+    def get_google_ticker_symbols_by_index(self, index: Optional[str]) -> List[List[str]]:
         """
         Returns a list with google ticker symbols who belongs to given index.
         :param index: name of index
@@ -249,7 +316,12 @@ class PyTickerSymbols(metaclass=Singleton):
         my_items = self.get_stocks_by_index(index)
         return self.__filter_data(my_items, True, False)
 
-    def get_stocks_by_industry(self, industry):
+    def iter_google_ticker_symbols_by_index(self, index: Optional[str]) -> Iterator[List[str]]:
+        """Generator yielding google ticker symbols for given index"""
+        my_items = self.get_stocks_by_index(index)
+        return self.__filter_data_iter(my_items, True, False)
+
+    def get_stocks_by_industry(self, industry: Optional[str]) -> Iterator[Dict[str, Any]]:
         """
         Returns a list with stocks who belongs to given industry.
         :param industry: name of industry
@@ -258,17 +330,20 @@ class PyTickerSymbols(metaclass=Singleton):
         if not isinstance(industry, str):
             return iter([])
         
-        stocks = []
         seen = set()
+        industry_lower = industry.lower()
         for index_data in self.__indices.values():
             for company in index_data.get('companies', []):
                 company_name = company.get('name')
-                if company_name not in seen and industry.lower() in [ind.lower() for ind in company.get('industries', [])]:
-                    stocks.append(company)
+                if company_name not in seen and industry_lower in [ind.lower() for ind in company.get('industries', [])]:
                     seen.add(company_name)
-        return iter(stocks)
+                    yield company
 
-    def get_stocks_by_country(self, country):
+    def iter_stocks_by_industry(self, industry: Optional[str]) -> Iterator[Dict[str, Any]]:
+        """Generator yielding stocks for given industry"""
+        return self.get_stocks_by_industry(industry)
+
+    def get_stocks_by_country(self, country: Optional[str]) -> Iterator[Dict[str, Any]]:
         """
         Returns a list with stocks who belongs to given country.
         :param country: name of country
@@ -277,17 +352,20 @@ class PyTickerSymbols(metaclass=Singleton):
         if not isinstance(country, str):
             return iter([])
         
-        stocks = []
         seen = set()
+        country_lower = country.lower()
         for index_data in self.__indices.values():
             for company in index_data.get('companies', []):
                 company_name = company.get('name')
-                if company_name not in seen and company.get('country', '').lower() == country.lower():
-                    stocks.append(company)
+                if company_name not in seen and company.get('country', '').lower() == country_lower:
                     seen.add(company_name)
-        return iter(stocks)
+                    yield company
 
-    def index_to_yahoo_symbol(self, index_name):
+    def iter_stocks_by_country(self, country: Optional[str]) -> Iterator[Dict[str, Any]]:
+        """Generator yielding stocks for given country"""
+        return self.get_stocks_by_country(country)
+
+    def index_to_yahoo_symbol(self, index_name: str) -> Optional[str]:
         """
         Returns the yahoo symbol for index name.
         :param index_name: name of index
@@ -297,11 +375,11 @@ class PyTickerSymbols(metaclass=Singleton):
         return index_data.get('yahoo') if index_data else None
 
     @staticmethod
-    def __filter_data(stocks, google, yahoo):
-        ticker_list = []
+    def __filter_data(stocks: Iterable[Dict[str, Any]], google: bool, yahoo: bool) -> List[List[str]]:
+        ticker_list: List[List[str]] = []
         stocks_list = list(stocks)  # Convert iterator to list so it can be reused
         for stock in stocks_list:
-            sub_list = []
+            sub_list: List[str] = []
             for symbol in stock.get('symbols', []):
                 if google and 'google' in symbol and symbol.get('google') and symbol['google'] != '-':
                     sub_list.append(symbol['google'])
@@ -309,3 +387,15 @@ class PyTickerSymbols(metaclass=Singleton):
                     sub_list.append(symbol['yahoo'])
             ticker_list.append(sub_list)
         return ticker_list
+
+    @staticmethod
+    def __filter_data_iter(stocks: Iterable[Dict[str, Any]], google: bool, yahoo: bool) -> Iterator[List[str]]:
+        """Generator version of __filter_data"""
+        for stock in stocks:
+            sub_list: List[str] = []
+            for symbol in stock.get('symbols', []):
+                if google and 'google' in symbol and symbol.get('google') and symbol['google'] != '-':
+                    sub_list.append(symbol['google'])
+                if yahoo and 'yahoo' in symbol and symbol.get('yahoo') and symbol['yahoo'] != '-':
+                    sub_list.append(symbol['yahoo'])
+            yield sub_list

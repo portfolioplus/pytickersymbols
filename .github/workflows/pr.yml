@@ -65,3 +65,50 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         parallel-finished: true
+
+  benchmarks:
+    runs-on: ubuntu-latest
+    needs: test
+    strategy:
+      matrix:
+        python-version: [3.11]
+        poetry-version: [1.7.1]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache poetry installation
+        uses: actions/cache@v4
+        with:
+          path: ~/.local
+          key: poetry-${{ matrix.python-version }}-${{ matrix.poetry-version }}
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: ${{ matrix.poetry-version }}
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+      - name: Cache dependencies
+        id: cache-deps
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: pydeps-${{ matrix.python-version }}-${{ hashFiles('**/poetry.lock') }}
+      - name: Install dependencies
+        run: poetry install --no-interaction --no-root --with dev
+        if: steps.cache-deps.outputs.cache-hit != 'true'
+      - name: Run benchmarks (pytest-benchmark)
+        run: |
+          source .venv/bin/activate
+          poetry run pytest tests/test_benchmarks_pytest.py tests/test_performance.py \
+            --benchmark-only \
+            --benchmark-save=pr \
+            --benchmark-columns=min,max,mean,median,ops,rounds
+      - name: Upload benchmark artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-benchmarks-pr
+          path: .benchmarks
