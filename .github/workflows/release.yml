@@ -50,10 +50,6 @@ jobs:
           virtualenvs-create: true
           virtualenvs-in-project: true
 
-      # Make sure Poetry is in PATH for semantic-release
-      - name: Add Poetry to PATH
-        run: echo "PATH=/home/runner/.local/bin:$PATH" >> $GITHUB_ENV
-
       - name: Install dependencies
         run: poetry install --no-interaction --with dev
 
