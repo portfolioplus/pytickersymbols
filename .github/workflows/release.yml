@@ -75,9 +75,11 @@ jobs:
       - name: Python Semantic Release
         id: release
         uses: python-semantic-release/python-semantic-release@v10.5.3
+        env:
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN_PP }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          pypi_token: ${{ secrets.PYPI_TOKEN_PP }}
   coveralls_finish:
     needs: release
     runs-on: ubuntu-latest
