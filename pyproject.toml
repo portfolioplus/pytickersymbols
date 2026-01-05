@@ -35,7 +35,7 @@ version_variable = [
 version_toml = [
     "pyproject.toml:tool.poetry.version",
 ]
-branch = "main"
+branch = "master"
 upload_to_pypi = true
 upload_to_release = true
 build_command = "source .venv/bin/activate && poetry build"
