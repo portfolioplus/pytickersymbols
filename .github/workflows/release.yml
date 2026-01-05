@@ -1,60 +1,70 @@
 name: Release Build
 
 on:
-  push:
-    branches:
-      - master
-      - main
   pull_request:
     types: [closed]
     branches:
       - master
       - main
+
   workflow_dispatch:
     inputs:
       reason:
         description: "Why run release manually?"
         required: false
         default: "manual test"
+
 permissions:
   contents: write
-      
+  checks: write
+  pull-requests: write
+  statuses: write
+
 jobs:
   release:
-    # Run on push; or on PR only if it was merged
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    # Run only if the PR was actually merged
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         python-version: [3.11]
         poetry-version: [1.7.1]
+
     steps:
       - uses: mickem/clean-after-action@v1
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+
       - name: Install Poetry
         uses: snok/install-poetry@v1
         with:
           version: ${{ matrix.poetry-version }}
           virtualenvs-create: true
-          virtualenvs-in-project: true 
+          virtualenvs-in-project: true
+
       - name: Install dependencies
         run: poetry install --no-interaction --with dev
+
       - name: Run tests
         run: |
           source .venv/bin/activate
           poetry run pytest --cov-report xml
+
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           files: test-results/**/*.xml
+
       - name: Upload coverage to Coveralls (parallel)
         uses: coverallsapp/github-action@v2
         with:
@@ -63,28 +73,32 @@ jobs:
           format: cobertura
           flag-name: release
           parallel: true
+
       - name: Python Semantic Release
         id: release
         uses: python-semantic-release/python-semantic-release@v10.5.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish package distributions to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
         if: steps.release.outputs.released == 'true'
+        uses: pypa/gh-action-pypi-publish@release/v1
         with:
           password: ${{ secrets.PYPI_TOKEN_PP }}
+
       - name: Publish package distributions to GitHub Releases
-        uses: python-semantic-release/upload-to-gh-release@main
         if: steps.release.outputs.released == 'true'
+        uses: python-semantic-release/upload-to-gh-release@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
   coveralls_finish:
     needs: release
     runs-on: ubuntu-latest
-    if: ${{ always() }}
+    if: always()
     steps:
-    - name: Coveralls Finished
-      uses: coverallsapp/github-action@v2
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        parallel-finished: true
+      - name: Coveralls Finished
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel-finished: true
