@@ -1,14 +1,28 @@
 name: Release Build
 
 on:
+  push:
+    branches:
+      - master
+      - main
   pull_request:
     types: [closed]
     branches:
       - master
       - main
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why run release manually?"
+        required: false
+        default: "manual test"
+permissions:
+  contents: write
       
 jobs:
   release:
+    # Run on push; or on PR only if it was merged
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     strategy:
       matrix:
