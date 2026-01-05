@@ -38,7 +38,7 @@ version_toml = [
 branch = "master"
 upload_to_pypi = true
 upload_to_release = true
-build_command = "poetry build"
+build_command = "pip install poetry && poetry build"
 
 [tool.pytest.ini_options]
 addopts = "tests/ --junitxml test-results/test.xml --cov src/pytickersymbols --cov-report term-missing"
