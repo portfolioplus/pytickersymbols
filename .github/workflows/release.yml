@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   release:
-    # Run only if PR was merged or workflow was triggered manually
+    # Run only if PR was merged or manual trigger
     if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
@@ -34,8 +34,7 @@ jobs:
     steps:
       - uses: mickem/clean-after-action@v1
 
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -51,15 +50,15 @@ jobs:
           virtualenvs-create: true
           virtualenvs-in-project: true
 
-      # 🔴 Critical: make Poetry visible to semantic-release
+      # Make sure Poetry is in PATH for semantic-release
       - name: Add Poetry to PATH
-        run: echo "$HOME/.local/bin" >> $GITHUB_PATH
+        run: echo "$HOME/.local/bin:$PATH" >> $GITHUB_ENV
 
       - name: Install dependencies
         run: poetry install --no-interaction --with dev
 
       - name: Run tests
-        run: poetry run pytest --cov --cov-report xml
+        run: poetry run pytest --cov-report xml
 
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v2
@@ -77,20 +76,18 @@ jobs:
           flag-name: release
           parallel: true
 
-      # 🚀 Semantic Release (single source of truth)
       - name: Python Semantic Release
         id: release
         uses: python-semantic-release/python-semantic-release@v10.5.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pypi_token: ${{ secrets.PYPI_TOKEN_PP }}
-
   coveralls_finish:
     needs: release
     runs-on: ubuntu-latest
     if: always()
     steps:
-      - name: Coveralls Finished
+      - name: Finish Coveralls
         uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
