@@ -52,7 +52,8 @@ jobs:
 
       # Make sure Poetry is in PATH for semantic-release
       - name: Add Poetry to PATH
-        run: echo "$HOME/.local/bin:$PATH" >> $GITHUB_ENV
+        run: echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
+
 
       - name: Install dependencies
         run: poetry install --no-interaction --with dev
