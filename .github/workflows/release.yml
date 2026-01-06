@@ -19,7 +19,8 @@ permissions:
   checks: write
   pull-requests: write
   statuses: write
-
+  id-token: write
+  
 jobs:
   release:
     # Run only if PR was merged or manual trigger
