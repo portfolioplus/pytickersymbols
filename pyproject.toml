@@ -28,32 +28,21 @@ yfinance = "^0.2.66"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.semantic_release]
-version_variable = [
-    "src/pytickersymbols/__init__.py:__version__"
-]
-version_toml = ["pyproject.toml:tool.poetry.version"]
-branch = "master"
-build_command = "pip install poetry && poetry build"
-
-[tool.semantic_release.publish]
-dist_glob_patterns = ["dist/*"]
-upload_to_vcs_release = true
-
 [tool.pytest.ini_options]
 addopts = "tests/ --junitxml test-results/test.xml --cov src/pytickersymbols --cov-report term-missing"
 pythonpath = ["src"]
 
 [tool.semantic_release]
+version_variable = ["src/pytickersymbols/__init__.py:__version__"]
 version_toml = [ "pyproject.toml:project.version" ]
+branch = "master"
 commit_message = "Release pytickersymbols v{version}"
-build_command = "pip install build && python -m build"
+build_command = "pip install poetry && poetry build"
 remove_dist = false
 
 [tool.semantic_release.branches.main]
 match = "master"
 prerelease = false
-
 
 [tool.semantic_release.commit_author]
 env = "GIT_COMMIT_AUTHOR"
