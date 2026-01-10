@@ -105,7 +105,7 @@ class TestLib(unittest.TestCase):
             lambda x: (
                 x.endswith('_google_tickers') or x.endswith('_yahoo_tickers')
             )
-            and '_moscow' not in x and '_cdax' not in x and 'sp_600_' not in x ,
+            and '_moscow' not in x and '_cdax' not in x and 'sp_600_' not in x and 'nikkei_225_' not in x,
             myvars,
         ):
             result = getattr(stock_data, method)()

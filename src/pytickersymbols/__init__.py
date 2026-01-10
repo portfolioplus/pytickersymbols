@@ -37,6 +37,7 @@ class Statics:
         BE_20 = 'BEL 20'
         DE_MDAX = 'MDAX'
         NL_AEX = 'AEX'
+        JP_NIKKEI_225 = 'NIKKEI 225'
 
     class Exchanges:
         LONDON = ('LON:')
