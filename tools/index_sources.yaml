@@ -272,7 +272,7 @@ indices:
       table_title_regex: "S&P 600 component stocks"
       extract_company_info: true
       columns:
-        symbol: ["Ticker symbol"]
+        symbol: ["Ticker symbol", "Ticker", "Symbol"]
         name: ["Company", "Name", "Security"]
         sector: ["GICS Sector", "GICS", "Sector"]
         industry: ["GICS Sub-Industry", "Sub-Industry", "Industry"]
@@ -287,11 +287,11 @@ indices:
       extract_company_info: true
       language_fallbacks: ["de"]
       columns:
-        name: ["Company", "Name"]
+        name: ["Company", "Name", "Security"]
         symbol: ["Ticker symbol", "Ticker", "Symbol"]
         isin: ["ISIN"]
         country: ["Country", "Headquarters", "Headquarters location"]
-        sector: ["Sector", "Industry"]
+        sector: ["Sector", "Industry", "GICS Sub-Industry"]
     match:
       by: symbol
   - name: NIKKEI 225
