@@ -3265,9 +3265,6 @@ companies:
   - yahoo: SIX2.F
     google: FRA:SIX2
     currency: EUR
-  - yahoo: SXT
-    google: NYSE:SXT
-    currency: USD
   - yahoo: SIXGF
     google: OTCMKTS:SIXGF
     currency: USD
@@ -27979,3 +27976,24 @@ companies:
   metadata:
     founded: 2007
     employees: 3900
+- name: Sensient Technologies
+  wiki_name: Sensient Technologies Corporation
+  symbol: SXT
+  country: United States
+  indices:
+  - S&P 600
+  industries:
+  - Chemicals
+  symbols:
+  - yahoo: SXT
+    google: NYSE:SXT
+    currency: USD
+  - yahoo: S8T.F
+    google: FRA:S8T
+    currency: EUR
+  isins: 
+  - US81725T1007
+  metadata:
+    founded: 1882
+    employees: 3000
+  akas: []
