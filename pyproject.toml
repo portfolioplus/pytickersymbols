@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytickersymbols"
-version = "1.17.1"
+version = "1.17.3"
 description = "pytickersymbols provides access to google and yahoo ticker symbols"
 authors = ["SlashGordon <slash.gordon.dev@gmail.com>"]
 license = "MIT License"
@@ -22,6 +22,7 @@ beautifulsoup4 = "^4.12.0"
 requests = "^2.31.0"
 click = "^8.3.1"
 yfinance = "^1.0.0"
+pytest-benchmark = "^5.2.3"
 
 [build-system]
 requires = ["poetry-core"]
@@ -32,8 +33,10 @@ addopts = "tests/ --junitxml test-results/test.xml --cov src/pytickersymbols --c
 pythonpath = ["src"]
 
 [tool.semantic_release]
-version_variable = ["src/pytickersymbols/__init__.py:__version__"]
-version_toml = [ "pyproject.toml:project.version" ]
+version_variables = [
+    "src/pytickersymbols/__init__.py:__version__",
+]
+version_toml = ["pyproject.toml:tool.poetry.version"]
 branch = "master"
 commit_message = "Release pytickersymbols v{version}"
 build_command = "pip install poetry && poetry build"
