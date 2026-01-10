@@ -13,7 +13,7 @@ import itertools
 from typing import Any, Dict, Iterable, Iterator, List, Optional
 from pytickersymbols.indices_data import INDICES
 
-__version__ = "1.17.4"
+__version__ = "1.17.5"
 
 
 class Statics:
