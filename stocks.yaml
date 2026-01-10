@@ -27991,7 +27991,7 @@ companies:
   - yahoo: S8T.F
     google: FRA:S8T
     currency: EUR
-  isins: 
+  isins:
   - US81725T1007
   metadata:
     founded: 1882
