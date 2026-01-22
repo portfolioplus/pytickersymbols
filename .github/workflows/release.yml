@@ -33,7 +33,7 @@ jobs:
         poetry-version: [1.7.1]
 
     steps:
-      - uses: mickem/clean-after-action@v1
+      - uses: mickem/clean-after-action@v2
 
       - uses: actions/checkout@v4
         with:
