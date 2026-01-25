@@ -3711,7 +3711,7 @@ companies:
   - GB0009895292
   akas:
   - AstraZeneca PLC
-- name: Auto Trader Group
+- name: Autotrader Group
   symbol: AUTO
   country: United Kingdom
   indices:
@@ -3749,6 +3749,7 @@ companies:
   - GB00BVYVFW23
   akas:
   - Auto Trader Group PLC
+  - Auto Trader Group
 - name: Aviva PLC
   symbol: AV.
   country: United Kingdom
@@ -18337,7 +18338,7 @@ companies:
   - LU0569974404
   akas:
   - Aperam SA
-- name: ArGEN-X
+- name: arGEN-X
   symbol: ARGX
   country: Netherlands
   indices:
@@ -18366,6 +18367,7 @@ companies:
   - NL0010832176
   akas:
   - argenx SE
+  - ArGEN-X
 - name: Cofinimmo
   symbol: COFB
   country: Belgium
