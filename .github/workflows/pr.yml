@@ -108,7 +108,7 @@ jobs:
             --benchmark-save=pr \
             --benchmark-columns=min,max,mean,median,ops,rounds
       - name: Upload benchmark artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pytest-benchmarks-pr
           path: .benchmarks
