@@ -5178,7 +5178,7 @@ companies:
   - GB0006825383
   akas:
   - Persimmon PLC
-- name: Phoenix Group
+- name: Standard Life plc
   symbol: PHNX
   country: United Kingdom
   indices:
@@ -5204,6 +5204,7 @@ companies:
   - KYG7091M1096
   akas:
   - Phoenix Group Holdings PLC
+  - Phoenix Group
 - name: Prudential plc
   symbol: PRU
   country: United Kingdom
