@@ -342,7 +342,7 @@ companies:
   - DE0005810055
   akas:
   - Deutsche Börse AG
-- name: Lufthansa Group
+- name: Lufthansa
   symbol: LHA
   country: Germany
   indices:
@@ -375,6 +375,7 @@ companies:
   - DE0008232125
   akas:
   - Deutsche Lufthansa AG
+  - Lufthansa Group
 - name: Deutsche Post AG
   symbol: DPW
   country: Germany
@@ -941,7 +942,7 @@ companies:
   - NL0000235190
   akas:
   - Airbus SE
-- name: Aroundtown SA
+- name: Aroundtown
   symbol: AT1
   country: Luxembourg
   indices:
@@ -966,7 +967,8 @@ companies:
     employees: 492
   isins:
   - LU1673108939
-  akas: []
+  akas:
+  - Aroundtown SA
 - name: Aurubis
   symbol: NDA
   country: Germany
@@ -1000,7 +1002,7 @@ companies:
   - DE0006766504
   akas:
   - Aurubis AG
-- name: Bechtle AG
+- name: Bechtle
   symbol: BC8
   country: Germany
   indices:
@@ -1031,7 +1033,8 @@ companies:
     employees: 12180
   isins:
   - DE0005158703
-  akas: []
+  akas:
+  - Bechtle AG
 - name: Brenntag
   symbol: BNR
   country: Germany
@@ -1230,7 +1233,7 @@ companies:
   isins:
   - DE0005565204
   akas: []
-- name: Evonik Industries
+- name: Evonik
   symbol: EVK
   country: Germany
   indices:
@@ -1259,6 +1262,7 @@ companies:
   - DE000EVNK013
   akas:
   - Evonik Industries AG
+  - Evonik Industries
 - name: Evotec
   symbol: EVT
   country: Germany
@@ -1682,7 +1686,7 @@ companies:
   - DE000KGX8881
   akas:
   - KION GROUP AG
-- name: Lanxess AG
+- name: Lanxess
   symbol: LXS
   country: Germany
   indices:
@@ -1711,6 +1715,7 @@ companies:
   - DE0005470405
   akas:
   - LANXESS AG
+  - Lanxess AG
 - name: LEG Immobilien
   symbol: LEG
   country: Germany
@@ -2372,7 +2377,7 @@ companies:
   - DE0005089031
   akas:
   - United Internet AG
-- name: Wacker Chemie AG
+- name: Wacker Chemie
   symbol: WCH
   country: Germany
   indices:
@@ -2393,7 +2398,8 @@ companies:
     employees: 14283
   isins:
   - DE000WCH8881
-  akas: []
+  akas:
+  - Wacker Chemie AG
 - name: Zalando
   symbol: ZAL
   country: Germany
@@ -2491,7 +2497,7 @@ companies:
   - DE0005194005
   - DE0005194062
   akas: []
-- name: Bilfinger SE
+- name: Bilfinger
   symbol: GBF
   country: Germany
   indices:
@@ -2518,7 +2524,8 @@ companies:
     employees: 34120
   isins:
   - DE0005909006
-  akas: []
+  akas:
+  - Bilfinger SE
 - name: Cancom
   symbol: COK
   country: Germany
@@ -3084,7 +3091,7 @@ companies:
   - DE0007074007
   akas:
   - KWS SAAT SE
-- name: Nordex SE
+- name: Nordex
   symbol: NDX1
   country: Germany
   indices:
@@ -3113,7 +3120,8 @@ companies:
     employees: 8527
   isins:
   - DE000A0D6554
-  akas: []
+  akas:
+  - Nordex SE
 - name: Patrizia AG
   symbol: PAT
   country: Germany
@@ -3362,7 +3370,7 @@ companies:
   - DE0007297004
   akas:
   - Südzucker AG
-- name: Talanx AG
+- name: Talanx
   symbol: TLX
   country: Germany
   indices:
@@ -3391,6 +3399,7 @@ companies:
   - DE000TLX1005
   akas:
   - Talanx
+  - Talanx AG
 - name: Wacker Neuson
   symbol: WAC
   country: Germany
@@ -22874,7 +22883,7 @@ companies:
     employees: 28905
   akas:
   - Knorr-Bremse Aktiengesellschaft
-- name: Shop Apotheke Europe
+- name: Redcare Pharmacy
   wiki_name: Shop Apotheke Europe
   symbol: SAE
   country: Netherlands
@@ -22902,7 +22911,8 @@ companies:
   metadata:
     founded: 2001
     employees: 1175
-  akas: []
+  akas:
+  - Shop Apotheke Europe
 - name: Siemens Energy
   wiki_name: Siemens Energy AG
   symbol: ENR
@@ -22950,7 +22960,7 @@ companies:
     employees: 12210
   akas:
   - Strör SE & Co. KGaA
-- name: TeamViewer AG
+- name: TeamViewer
   wiki_name: TeamViewer AG
   symbol: null
   country: Germany
@@ -22976,7 +22986,8 @@ companies:
   metadata:
     founded: 2005
     employees: 1256
-  akas: []
+  akas:
+  - TeamViewer AG
 - name: VARTA AG
   wiki_name: VARTA AG
   symbol: VAR1
