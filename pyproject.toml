@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 beautifulsoup4 = "^4.12.0"
-requests = "^2.31.0"
+requests = "^2.33.0"
 
 [tool.poetry.group.dev.dependencies]
 wheel = ">=0.41.3,<0.47.0"
@@ -19,7 +19,7 @@ PyYAML = "^6.0.1"
 pycountry = ">=22.3.5,<27.0.0"
 packaging = "^26.0"
 beautifulsoup4 = "^4.12.0"
-requests = "^2.31.0"
+requests = "^2.33.0"
 click = "^8.3.1"
 yfinance = "^1.2.0"
 pytest-benchmark = "^5.2.3"
