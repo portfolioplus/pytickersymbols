@@ -22358,7 +22358,7 @@ companies:
     founded: 1994
     employees: 97000
   akas: []
-- name: NortonLifeLock Inc.
+- name: Gen Digital
   wiki_name: NortonLifeLock Inc.
   symbol: NLOK
   country: United States
@@ -22380,7 +22380,8 @@ companies:
   metadata:
     founded: 1982
     employees: 3659
-  akas: []
+  akas:
+  - NortonLifeLock Inc.
 - name: NVR, Inc.
   wiki_name: NVR, Inc.
   symbol: NVR
